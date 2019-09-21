@@ -1,0 +1,15 @@
+awesome:
+- README.md
+- assets/*
+
+not_awesome:
+- .github/*
+- _layouts/*
+- _config.yml
+- 404.md
+- CODE_OF_CONDUCT.md
+- CONTRIBUTING.md
+- LICENSE.md
+- SECURITY.md
+- .gitattributes
+- .gitignore
