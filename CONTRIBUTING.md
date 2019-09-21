@@ -8,7 +8,8 @@ project you agree to abide by its terms.
 
 Ensure your pull request adheres to the following guidelines:
 
-- Read the [Awesome manifesto](awesome.md) and [list guidelines](pull_request_template.md) and ensure your addition complies.
+- [Awesome manifesto](https://github.com/sindresorhus/awesome/blob/master/awesome.md)
+- [list guidelines](https://github.com/sindresorhus/awesome/blob/master/pull_request_template.md)
 
 Thank you for your suggestions!
 
