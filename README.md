@@ -10,29 +10,50 @@
 
 ## Contents
 
-- [Section](#section)
-- [Another Section](#another-section)
+- [Journals](#journals)
+- [Encyclopaedias](#encyclopaedias)
+- [Primary Sources](#primary-sources)
+- [Data and Statistics](#data-and-statistics)
+- [Tools](#tools)
+- [Platforms](#platforms)
 
+## Journals
 
-## Section
+- <https://programminghistorian.org/>
 
-About this section. Optional. Keep this short and focus on the list.
+## Encyclopaedias
 
-- [List item](http://example.com)
-- [List item](http://example.com)
+- <https://histhub.ch/>
+- <https://industriekultur.ch/>
+- <https://hls-dhs-dss.ch/>
 
+## Primary Sources
 
-## Another Section
+Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primary_source).
 
-### Subsection
+- <https://impresso-project.ch/> - Historical newspaper collections of the Swiss National Library, the National Library of Luxembourg, the Neue Zürcher Zeitung, Le Temps, the Valais State Archives and the Swiss Economic Archives.
+- <https://www.dodis.ch/> - Diplomatic documents of Switzerland.
+- <https://www.spiegel.de/>
 
-- [List item](http://example.com)
-- [List item](http://example.com)
+## Data and Statistics
+
+- <http://www.sfa-laboratory.ch/sr/cubestest/index.php>
+
+## Tools
+
+- <https://fxtop.com/en/historical-exchange-rates.php>
+- <http://storyline.knightlab.com/> - Tell the story behind the numbers.
+- <https://storymap.knightlab.com/> - Maps that tell stories.
+- <http://timeline.knightlab.com/> - Easy-to-make, beautiful timelines.
+
+## Platforms
+
+- <https://cmu-lib.github.io/dhlg/topics/>
 
 
 ## Contribute
 
-Contributions welcome! Read the [CONTRIBUTING.md](CONTRIBUTING.md) first.
+Contributions welcome! Read the [CONTRIBUTING.md](https://github.com/maehr/awesome-digital-history/blob/master/CONTRIBUTING.md) first.
 
 
 ## License
