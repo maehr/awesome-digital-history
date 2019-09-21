@@ -2,5 +2,5 @@ theme: cayman
 title: Awesome Digital History
 description: A curated list of awesome things related to digital history.
 # logo: "/assets/images/just-the-docs.png"
-show_downloads: ["true"]
+show_downloads: ["false"]
 # google_analytics: [Your Google Analytics tracking ID]
