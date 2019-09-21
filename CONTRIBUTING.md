@@ -1,17 +1,23 @@
-# Contributing
+# Contribution Guidelines
 
-When contributing to this repository, please first discuss the change you wish to make via issue,
-email, or any other method with the owners of this repository before making a change.
+Please note that this project is released with a
+[Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this
+project you agree to abide by its terms.
 
-Please note we have a [code of conduct](CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
+---
 
-## Pull Request Process
+Ensure your pull request adheres to the following guidelines:
 
-1. Ensure any install or build dependencies are removed before the end of the layer when doing a
-   build.
-2. Update the README.md with details of changes to the interface, this includes new environment
-   variables, exposed ports, useful file locations and container parameters.
-3. Increase the version numbers in any examples files and the README.md to the new version that this
-   Pull Request would represent. The versioning scheme we use is [SemVer](http://semver.org/).
-4. You may merge the Pull Request in once you have the sign-off of two other developers, or if you
-   do not have permission to do that, you may request the second reviewer to merge it for you.
+- Read the [Awesome manifesto](awesome.md) and [list guidelines](pull_request_template.md) and ensure your addition complies.
+
+Thank you for your suggestions!
+
+
+## Updating your PR
+
+A lot of times, making a PR adhere to the standards above can be difficult.
+If the maintainers notice anything that we'd like changed, we'll ask you to
+edit your PR before we merge it. There's no need to open a new PR, just edit
+the existing one. If you're not sure how to do that,
+[here is a guide](https://github.com/RichardLitt/knowledge/blob/master/github/amending-a-commit-guide.md)
+on the different ways you can update your PR so that we can merge it.
