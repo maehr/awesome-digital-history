@@ -34,6 +34,8 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 - <https://impresso-project.ch/> - Historical newspaper collections of the Swiss National Library, the National Library of Luxembourg, the Neue Zürcher Zeitung, Le Temps, the Valais State Archives and the Swiss Economic Archives.
 - <https://www.dodis.ch/> - Diplomatic documents of Switzerland.
 - <https://www.spiegel.de/>
+- <https://github.com/watson/awesome-computer-history>
+- <http://www.infoclio.ch/de/edition-projects>
 
 ## Data and Statistics
 
