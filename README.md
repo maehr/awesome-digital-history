@@ -13,6 +13,9 @@
 - [Journals](#journals)
 - [Encyclopaedias](#encyclopaedias)
 - [Primary Sources](#primary-sources)
+  - [Archives and Search Engines](#archives-and-search-engines)
+  - [Newspaper, Books and Magazines](#newspaper-books-and-magazines)
+  - [Varia](#varia)
 - [Data and Statistics](#data-and-statistics)
 - [Tools](#tools)
   - [Learning](#learning)
@@ -30,7 +33,6 @@
 
 ## Encyclopaedias
 
-- [www.europeana.eu/](https://www.europeana.eu/) - We transform the world with culture! We want to build on Europe’s rich heritage and make it easier for people to use, whether for work, for learning or just for fun.
 - [hls-dhs-dss.ch/](https://hls-dhs-dss.ch/) - The Historical Dictionary of Switzerland (HLS) is a scientifically compiled, networked, up-to-date and multimedia specialist dictionary on Swiss history.
 - [histhub.ch/](https://histhub.ch/) - The platform manages standard data on Swiss history on the one hand and develops digital tools for networking databases on the other.
 - [industriekultur.ch/](https://industriekultur.ch/) - Industriekultur Schweiz makes the most important witnesses of Switzerland's industrial past visible and records them in a national online inventory.
@@ -40,22 +42,31 @@
 
 Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primary_source).
 
+### Archives and Search Engines
+
 - [www.archives-online.org/](https://www.archives-online.org/) - In Archives Online you can search the archival databases of all participating archives at the same time for a specific search phrase.
 - [www.archivesportaleurope.net/](https://www.archivesportaleurope.net/) - The Archives Portal Europe provides access to information on archival material from different European countries as well as information on archival institutions throughout the continent.
 - [archive.org/](https://archive.org/) - Internet Archive is a non-profit library of millions of free books, movies, software, music, websites, and more.
-- [www.infoclio.ch/de/edition-projects](http://www.infoclio.ch/de/edition-projects) - The database contains the current historical edition projects in Switzerland.
-- [www.dodis.ch/](https://www.dodis.ch/) - Diplomatic documents of Switzerland.
-- [www.spiegel.de/](https://www.spiegel.de/)
-- [retro.seals.ch/](http://retro.seals.ch/) - Swiss journals online.
+- [www.europeana.eu/](https://www.europeana.eu/) - We transform the world with culture! We want to build on Europe’s rich heritage and make it easier for people to use, whether for work, for learning or just for fun.
+- [gallica.bnf.fr/](https://gallica.bnf.fr/) - Gallica is the digital library of the National Library of France and its partners. Online since 1997, it is enriched each week with thousands of new features and now offers access to several million documents.
+
+### Newspaper, Books and Magazines
+
 - [www.e-newspaperarchives.ch/](https://www.e-newspaperarchives.ch/) - E-newspaperarchives.ch provides access to titles digitized by the Swiss National Library and its cantonal partners.
+- [retro.seals.ch/](http://retro.seals.ch/) - Swiss journals online.
+- [www.spiegel.de/](https://www.spiegel.de/)
+- [impresso-project.ch/](https://impresso-project.ch/) - Historical newspaper collections of the Swiss National Library, the National Library of Luxembourg, the Neue Zürcher Zeitung, Le Temps, the Valais State Archives and the Swiss Economic Archives.
+- [www.delpher.nl/](https://www.delpher.nl/) - More than 100 million pages from Dutch newspapers, books and magazines.
+
+### Varia
+
+- [www.dodis.ch/](https://www.dodis.ch/) - Diplomatic documents of Switzerland.
+- [https://www.e-rara.ch/](https://www.e-rara.ch/) - The platform for digitised prints from Swiss libraries.
+- [www.e-manuscripta.ch/](https://www.e-manuscripta.ch/) - Welcome to e-manuscripta.ch, the digital platform for manuscript material from Swiss libraries and archives.
+- [www.infoclio.ch/de/edition-projects](http://www.infoclio.ch/de/edition-projects) - The database contains the current historical edition projects in Switzerland.
 - [www.memobase.ch/](http://www.memobase.ch/) - The Memobase information portal provides access to over 70,000 audiovisual documents from 13 Swiss memory institutions.
 - [www.cosmov.uzh.ch/](http://www.cosmov.uzh.ch/) - COSMOV includes a digital edition of the events of the Zurich summer of 1968.
 - [awesome-computer-history](https://github.com/watson/awesome-computer-history) - An Awesome List of computer history videos, documentaries and related folklore.
-- [impresso-project.ch/](https://impresso-project.ch/) - Historical newspaper collections of the Swiss National Library, the National Library of Luxembourg, the Neue Zürcher Zeitung, Le Temps, the Valais State Archives and the Swiss Economic Archives.
-- [www.delpher.nl/](https://www.delpher.nl/) - More than 100 million pages from Dutch newspapers, books and magazines.
-- [https://www.e-rara.ch/](https://www.e-rara.ch/) - The platform for digitised prints from Swiss libraries.
-- [www.e-manuscripta.ch/](https://www.e-manuscripta.ch/) - Welcome to e-manuscripta.ch, the digital platform for manuscript material from Swiss libraries and archives.
-- [gallica.bnf.fr/](https://gallica.bnf.fr/) - Gallica is the digital library of the National Library of France and its partners. Online since 1997, it is enriched each week with thousands of new features and now offers access to several million documents.
 
 ## Data and Statistics
 
