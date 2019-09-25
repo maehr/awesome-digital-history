@@ -30,19 +30,32 @@
 
 ## Encyclopaedias
 
-- [histhub.ch/](https://histhub.ch/)
-- [industriekultur.ch/](https://industriekultur.ch/)
-- [hls-dhs-dss.ch/](https://hls-dhs-dss.ch/)
+- [www.europeana.eu/](https://www.europeana.eu/) - We transform the world with culture! We want to build on Europe’s rich heritage and make it easier for people to use, whether for work, for learning or just for fun.
+- [hls-dhs-dss.ch/](https://hls-dhs-dss.ch/) - The Historical Dictionary of Switzerland (HLS) is a scientifically compiled, networked, up-to-date and multimedia specialist dictionary on Swiss history.
+- [histhub.ch/](https://histhub.ch/) - The platform manages standard data on Swiss history on the one hand and develops digital tools for networking databases on the other.
+- [industriekultur.ch/](https://industriekultur.ch/) - Industriekultur Schweiz makes the most important witnesses of Switzerland's industrial past visible and records them in a national online inventory.
+- [plato.stanford.edu/](https://plato.stanford.edu/) - The Stanford Encyclopedia of Philosophy organizes scholars from around the world in philosophy and related disciplines to create and maintain an up-to-date reference work.
 
 ## Primary Sources
 
 Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primary_source).
 
-- [impresso-project.ch/](https://impresso-project.ch/) - Historical newspaper collections of the Swiss National Library, the National Library of Luxembourg, the Neue Zürcher Zeitung, Le Temps, the Valais State Archives and the Swiss Economic Archives.
+- [www.archives-online.org/](https://www.archives-online.org/) - In Archives Online you can search the archival databases of all participating archives at the same time for a specific search phrase.
+- [www.archivesportaleurope.net/](https://www.archivesportaleurope.net/) - The Archives Portal Europe provides access to information on archival material from different European countries as well as information on archival institutions throughout the continent.
+- [archive.org/](https://archive.org/) - Internet Archive is a non-profit library of millions of free books, movies, software, music, websites, and more.
+- [www.infoclio.ch/de/edition-projects](http://www.infoclio.ch/de/edition-projects) - The database contains the current historical edition projects in Switzerland.
 - [www.dodis.ch/](https://www.dodis.ch/) - Diplomatic documents of Switzerland.
 - [www.spiegel.de/](https://www.spiegel.de/)
-- [awesome-computer-history](https://github.com/watson/awesome-computer-history)
-- [www.infoclio.ch/de/edition-projects](http://www.infoclio.ch/de/edition-projects)
+- [retro.seals.ch/](http://retro.seals.ch/) - Swiss journals online.
+- [www.e-newspaperarchives.ch/](https://www.e-newspaperarchives.ch/) - E-newspaperarchives.ch provides access to titles digitized by the Swiss National Library and its cantonal partners.
+- [www.memobase.ch/](http://www.memobase.ch/) - The Memobase information portal provides access to over 70,000 audiovisual documents from 13 Swiss memory institutions.
+- [www.cosmov.uzh.ch/](http://www.cosmov.uzh.ch/) - COSMOV includes a digital edition of the events of the Zurich summer of 1968.
+- [awesome-computer-history](https://github.com/watson/awesome-computer-history) - An Awesome List of computer history videos, documentaries and related folklore.
+- [impresso-project.ch/](https://impresso-project.ch/) - Historical newspaper collections of the Swiss National Library, the National Library of Luxembourg, the Neue Zürcher Zeitung, Le Temps, the Valais State Archives and the Swiss Economic Archives.
+- [www.delpher.nl/](https://www.delpher.nl/) - More than 100 million pages from Dutch newspapers, books and magazines.
+- [https://www.e-rara.ch/](https://www.e-rara.ch/) - The platform for digitised prints from Swiss libraries.
+- [www.e-manuscripta.ch/](https://www.e-manuscripta.ch/) - Welcome to e-manuscripta.ch, the digital platform for manuscript material from Swiss libraries and archives.
+- [gallica.bnf.fr/](https://gallica.bnf.fr/) - Gallica is the digital library of the National Library of France and its partners. Online since 1997, it is enriched each week with thousands of new features and now offers access to several million documents.
 
 ## Data and Statistics
 
@@ -74,15 +87,18 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 
 ### Data Collection
 
+- [https://transkribus.eu/](https://transkribus.eu/) - Transcribe. Collaborate. Share and benefit from cutting edge research in Handwritten Text Recognition!
 - [webrecorder.io/](https://webrecorder.io/) - Webrecorder is a web archiving service anyone can use for free to save web pages.
 - [gwu-libraries.GitHub.io/sfm-ui/](https://gwu-libraries.github.io/sfm-ui/) - Social Feed Manager is open source software that harvests social media data and web resources from Twitter, Tumblr, Flickr, and Sina Weibo.
 - [open-archive.org/](https://open-archive.org/) - OpenArchive promotes media freedom by making it easy to store, share, and amplify your mobile media while protecting your identity.
 
 ### Data Analysis
 
+- [www.opensemanticsearch.org/](https://www.opensemanticsearch.org/) - Free Software for your own Search Engine, Explorer for Discovery of large document collections, Media Monitoring, Text Analytics, Document Analysis & Text Mining platform based on Apache Solr or Elasticsearch open-source enterprise-search and Open Standards for Linked Data, Semantic Web & Linked Open Data integration.
 - [hdlab.stanford.edu/data-pen/](http://hdlab.stanford.edu/data-pen/) - Data Pen provides a framework for humanities researchers to access, explore, and manipulate multidimensional historical data.
 - [hdlab.stanford.edu/breve/](http://hdlab.stanford.edu/breve/) - Breve gives you that meta view of tabular data and also lets you drill down to records and columns, and edit values.
 - [voyant-tools.org/](https://voyant-tools.org/) - Voyant Tools is a web-based reading and analysis environment for digital texts.
+- [docfetcher.sourceforge.net/](http://docfetcher.sourceforge.net/) - DocFetcher is an Open Source desktop search application: It allows you to search the contents of files on your computer. — You can think of it as Google for your local files.
 
 ### Publishing
 
