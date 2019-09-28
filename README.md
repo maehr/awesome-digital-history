@@ -11,11 +11,11 @@
 ## Contents
 
 - [Journals](#journals)
-- [Encyclopaedias](#encyclopaedias)
 - [Primary Sources](#primary-sources)
   - [Archives and Search Engines](#archives-and-search-engines)
   - [Newspaper, Books and Magazines](#newspaper-books-and-magazines)
   - [Varia](#varia)
+- [Encyclopaedias](#encyclopaedias)
 - [Data and Statistics](#data-and-statistics)
 - [Tools](#tools)
   - [Learning](#learning)
@@ -30,13 +30,6 @@
 
 - [programminghistorian.org/](https://programminghistorian.org/) - We publish novice-friendly, peer-reviewed tutorials that help humanists learn a wide range of digital tools, techniques, and workflows to facilitate research and teaching.
 - [crdh.rrchnm.org/](http://crdh.rrchnm.org/) - Current Research in Digital History is an annual open-access, peer-reviewed publication of the Roy Rosenzweig Center for History and New Media at George Mason University.
-
-## Encyclopaedias
-
-- [hls-dhs-dss.ch/](https://hls-dhs-dss.ch/) - The Historical Dictionary of Switzerland (HLS) is a scientifically compiled, networked, up-to-date and multimedia specialist dictionary on Swiss history.
-- [histhub.ch/](https://histhub.ch/) - The platform manages standard data on Swiss history on the one hand and develops digital tools for networking databases on the other.
-- [industriekultur.ch/](https://industriekultur.ch/) - Industriekultur Schweiz makes the most important witnesses of Switzerland's industrial past visible and records them in a national online inventory.
-- [plato.stanford.edu/](https://plato.stanford.edu/) - The Stanford Encyclopedia of Philosophy organizes scholars from around the world in philosophy and related disciplines to create and maintain an up-to-date reference work.
 
 ## Primary Sources
 
@@ -70,10 +63,17 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 
 ## Data and Statistics
 
-- [www.sfa-laboratory.ch/sr/cubestest/index.php](http://www.sfa-laboratory.ch/sr/cubestest/index.php) - In Switzerland's national accounts, the Federal Council reports to parliament on income and expenditure for the past year.
+- [histhub.ch/](https://histhub.ch/) - The platform manages standard data on Swiss history on the one hand and develops digital tools for networking databases on the other.
 - [hsso.ch/](https://hsso.ch/) - Historical statistics of Switzerland online.
+- [www.sfa-laboratory.ch/sr/cubestest/index.php](http://www.sfa-laboratory.ch/sr/cubestest/index.php) - In Switzerland's national accounts, the Federal Council reports to parliament on income and expenditure for the past year.
+- [industriekultur.ch/](https://industriekultur.ch/) - Industriekultur Schweiz makes the most important witnesses of Switzerland's industrial past visible and records them in a national online inventory.
 - [www.jstor.org/dfr/](https://www.jstor.org/dfr/) - Define and request datasets for content on JSTOR, or download a sample dataset for teaching text mining techniques.
 - [fxtop.com/](https://fxtop.com/) - This site offers huge historical forex rate history since 1953, conversion in the past feature, inflation history for major countries and currencies, euro & European Monetary Union (EMU) information.
+
+## Encyclopaedias
+
+- [hls-dhs-dss.ch/](https://hls-dhs-dss.ch/) - The Historical Dictionary of Switzerland (HLS) is a scientifically compiled, networked, up-to-date and multimedia specialist dictionary on Swiss history.
+- [plato.stanford.edu/](https://plato.stanford.edu/) - The Stanford Encyclopedia of Philosophy organizes scholars from around the world in philosophy and related disciplines to create and maintain an up-to-date reference work.
 
 ## Tools
 
@@ -108,6 +108,7 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 - [www.opensemanticsearch.org/](https://www.opensemanticsearch.org/) - Free Software for your own Search Engine, Explorer for Discovery of large document collections, Media Monitoring, Text Analytics, Document Analysis & Text Mining platform based on Apache Solr or Elasticsearch open-source enterprise-search and Open Standards for Linked Data, Semantic Web & Linked Open Data integration.
 - [hdlab.stanford.edu/data-pen/](http://hdlab.stanford.edu/data-pen/) - Data Pen provides a framework for humanities researchers to access, explore, and manipulate multidimensional historical data.
 - [hdlab.stanford.edu/breve/](http://hdlab.stanford.edu/breve/) - Breve gives you that meta view of tabular data and also lets you drill down to records and columns, and edit values.
+- [lexos.wheatoncollege.edu](http://lexos.wheatoncollege.edu) - Online tool for text analysis.
 - [voyant-tools.org/](https://voyant-tools.org/) - Voyant Tools is a web-based reading and analysis environment for digital texts.
 - [docfetcher.sourceforge.net/](http://docfetcher.sourceforge.net/) - DocFetcher is an Open Source desktop search application: It allows you to search the contents of files on your computer. — You can think of it as Google for your local files.
 
