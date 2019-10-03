@@ -23,6 +23,7 @@ jobs:
     - name: npm install, build, and test
       run: |
         npm install
-        npm test
+        npm lint
+        npm link-checker
       env:
         CI: true
