@@ -1,9 +1,6 @@
-name: Node CI
+name: Lint and Link Checker
 
-on:
-  pull_request:
-    branches:
-    - master
+on: [push, pull_request]
 
 jobs:
   build:
@@ -12,7 +9,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: 10.x
+        node-version: [10.x]
 
     steps:
     - uses: actions/checkout@v1
@@ -23,6 +20,7 @@ jobs:
     - name: npm install, build, and test
       run: |
         npm install
-        npm test
+        npm lint
+        npm link-checker
       env:
         CI: true
