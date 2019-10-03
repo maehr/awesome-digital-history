@@ -67,7 +67,6 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 - [hsso.ch/](https://hsso.ch/) - Historical statistics of Switzerland online.
 - [www.sfa-laboratory.ch/sr/cubestest/index.php](http://www.sfa-laboratory.ch/sr/cubestest/index.php) - In Switzerland's national accounts, the Federal Council reports to parliament on income and expenditure for the past year.
 - [industriekultur.ch/](https://industriekultur.ch/) - Industriekultur Schweiz makes the most important witnesses of Switzerland's industrial past visible and records them in a national online inventory.
-- [www.jstor.org/dfr/](https://www.jstor.org/dfr/) - Define and request datasets for content on JSTOR, or download a sample dataset for teaching text mining techniques.
 - [fxtop.com/](https://fxtop.com/) - This site offers huge historical forex rate history since 1953, conversion in the past feature, inflation history for major countries and currencies, euro & European Monetary Union (EMU) information.
 
 ## Encyclopaedias

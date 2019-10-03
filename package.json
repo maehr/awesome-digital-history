@@ -1,8 +1,10 @@
 {
 	"scripts": {
-		"test": "awesome-lint"
+		"lint": "awesome-lint",
+		"link-checker": "markdown-link-check README.md",
 	},
 	"devDependencies": {
-		"awesome-lint": "*"
+		"awesome-lint": "*",
+		"markdown-link-check": "*"
 	}
 }
