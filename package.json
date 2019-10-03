@@ -1,10 +1,22 @@
 {
-	"scripts": {
-		"lint": "awesome-lint",
-		"link-checker": "markdown-link-check README.md",
-	},
-	"devDependencies": {
-		"awesome-lint": "*",
-		"markdown-link-check": "*"
-	}
+  "name": "awesome-digital-history",
+  "description": "A curated list of awesome things related to digital history.",
+  "dependencies": {
+    "awesome-lint": "*",
+    "markdown-link-check": "*"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "lint": "awesome-lint",
+    "link-checker": "markdown-link-check README.md",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maehr/awesome-digital-history.git"
+  },
+  "author": "maehr",
+  "bugs": {
+    "url": "https://github.com/maehr/awesome-digital-history/issues"
+  },
+  "homepage": "https://github.com/maehr/awesome-digital-history#readme"
 }
