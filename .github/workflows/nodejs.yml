@@ -1,9 +1,6 @@
-name: Node CI
+name: Lint and Link Checker
 
-on:
-  pull_request:
-    branches:
-    - master
+on: [push, pull_request]
 
 jobs:
   build:
