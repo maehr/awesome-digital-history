@@ -1,14 +1,13 @@
 {
   "name": "awesome-digital-history",
   "description": "A curated list of awesome things related to digital history.",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "awesome-lint": "*",
     "markdown-link-check": "*"
   },
-  "devDependencies": {},
   "scripts": {
-    "lint": "awesome-lint",
-    "link-checker": "markdown-link-check README.md",
+    "test": "awesome-lint && markdown-link-check README.md"
   },
   "repository": {
     "type": "git",
