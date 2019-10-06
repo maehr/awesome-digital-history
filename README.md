@@ -79,6 +79,7 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 ### Learning
 
 - [www.adfontes.uzh.ch/](https://www.adfontes.uzh.ch/) - An Introduction to Working with Sources in the Archive.
+- [training.parthenos-project.eu/](https://training.parthenos-project.eu/) - This site provides training modules and resources in digital humanities and research infrastructures from PARTHENOS and associated projects. This site can be used by both learners and trainers alike.
 
 ### Visualization
 
