@@ -54,7 +54,7 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 ### Varia
 
 - [www.dodis.ch/](https://www.dodis.ch/) - Diplomatic documents of Switzerland.
-- [https://www.e-rara.ch/](https://www.e-rara.ch/) - The platform for digitised prints from Swiss libraries.
+- [www.e-rara.ch/](https://www.e-rara.ch/) - The platform for digitised prints from Swiss libraries.
 - [www.e-manuscripta.ch/](https://www.e-manuscripta.ch/) - Welcome to e-manuscripta.ch, the digital platform for manuscript material from Swiss libraries and archives.
 - [www.infoclio.ch/de/edition-projects](http://www.infoclio.ch/de/edition-projects) - The database contains the current historical edition projects in Switzerland.
 - [www.memobase.ch/](http://www.memobase.ch/) - The Memobase information portal provides access to over 70,000 audiovisual documents from 13 Swiss memory institutions.
@@ -98,7 +98,7 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 
 ### Data Collection
 
-- [https://transkribus.eu/](https://transkribus.eu/) - Transcribe. Collaborate. Share and benefit from cutting edge research in Handwritten Text Recognition!
+- [transkribus.eu/](https://transkribus.eu/) - Transcribe. Collaborate. Share and benefit from cutting edge research in Handwritten Text Recognition!
 - [webrecorder.io/](https://webrecorder.io/) - Webrecorder is a web archiving service anyone can use for free to save web pages.
 - [gwu-libraries.GitHub.io/sfm-ui/](https://gwu-libraries.github.io/sfm-ui/) - Social Feed Manager is open source software that harvests social media data and web resources from Twitter, Tumblr, Flickr, and Sina Weibo.
 - [open-archive.org/](https://open-archive.org/) - OpenArchive promotes media freedom by making it easy to store, share, and amplify your mobile media while protecting your identity.
