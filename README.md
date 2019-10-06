@@ -42,6 +42,7 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 - [archive.org/](https://archive.org/) - Internet Archive is a non-profit library of millions of free books, movies, software, music, websites, and more.
 - [www.europeana.eu/](https://www.europeana.eu/) - We transform the world with culture! We want to build on Europe’s rich heritage and make it easier for people to use, whether for work, for learning or just for fun.
 - [gallica.bnf.fr/](https://gallica.bnf.fr/) - Gallica is the digital library of the National Library of France and its partners. Online since 1997, it is enriched each week with thousands of new features and now offers access to several million documents.
+- [archives.cendari.dariah.eu/](https://archives.cendari.dariah.eu/) - The Archival Directory allows historians to view sources in a rarely seen transnational and comparative view. It is focused on archives and libraries containing resources on the Medieval era and World War One.
 
 ### Newspaper, Books and Magazines
 
@@ -99,6 +100,7 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 ### Data Collection
 
 - [transkribus.eu/](https://transkribus.eu/) - Transcribe. Collaborate. Share and benefit from cutting edge research in Handwritten Text Recognition!
+- [textgrid.de/](https://textgrid.de/) - Open source tools and services support humanistic scholars during the entire process of research, especially in digital scholarly editing.
 - [webrecorder.io/](https://webrecorder.io/) - Webrecorder is a web archiving service anyone can use for free to save web pages.
 - [gwu-libraries.GitHub.io/sfm-ui/](https://gwu-libraries.github.io/sfm-ui/) - Social Feed Manager is open source software that harvests social media data and web resources from Twitter, Tumblr, Flickr, and Sina Weibo.
 - [open-archive.org/](https://open-archive.org/) - OpenArchive promotes media freedom by making it easy to store, share, and amplify your mobile media while protecting your identity.
