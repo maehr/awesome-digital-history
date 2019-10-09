@@ -128,7 +128,6 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 - [www.historians.org/teaching-and-learning/digital-history-resources](https://www.historians.org/teaching-and-learning/digital-history-resources)
 - [chnm.gmu.edu/digitalhistory/](http://chnm.gmu.edu/digitalhistory/)
 - [dirtdirectory.org/](http://dirtdirectory.org/) - The DiRT Directory is a registry of digital research tools for scholarly use. DiRT makes it easy for digital humanists and others conducting digital research to find and compare resources ranging from content management systems to music OCR, statistical analysis packages to mindmapping software.
-- [digitalhist.hypotheses.org/](https://digitalhist.hypotheses.org/) - Concepts, Methods and Criticisms of Digital History.
 
 ## Contribute
 
