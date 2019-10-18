@@ -81,6 +81,7 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 
 - [www.adfontes.uzh.ch/](https://www.adfontes.uzh.ch/) - An Introduction to Working with Sources in the Archive.
 - [training.parthenos-project.eu/](https://training.parthenos-project.eu/) - This site provides training modules and resources in digital humanities and research infrastructures from PARTHENOS and associated projects. This site can be used by both learners and trainers alike.
+- [guides.clio-online.de/](https://guides.clio-online.de/) - A handbook on digital resources for the historical sciences.
 
 ### Visualization
 
@@ -124,7 +125,7 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 - [cmu-lib.GitHub.io/dhlg/topics/](https://cmu-lib.github.io/dhlg/topics/) - If you’ve heard about digital humanities and are considering learning more, but don’t quite know where to start, the Digital Humanities Literacy Guidebook (DHLG) is for you.
 - [rrchnm.org/](https://rrchnm.org/) - We use digital media and computer technology to democratize history: to incorporate multiple voices, reach diverse audiences, and encourage popular participation in presenting and preserving the past.
 - [www.c2dh.uni.lu/](https://www.c2dh.uni.lu/) - The Luxembourg Centre for Contemporary and Digital History (C²DH) promotes an interdisciplinary approach with a particular focus on new digital methods and tools for historical research and teaching.
-- [www.historians.org/teaching-and-learning/digital-history-resources](https://www.historians.org/teaching-and-learning/digital-history-resources)
+- [www.historians.org/](https://www.historians.org/publications-and-directories/perspectives-on-history/digital-history) - Perspectives on History is the newsmagazine of the American Historical Association.
 - [chnm.gmu.edu/digitalhistory/](http://chnm.gmu.edu/digitalhistory/) - This book provides a plainspoken and thorough introduction to the web for historians—teachers and students, archivists and museum curators, professors as well as amateur enthusiasts—who wish to produce online historical work, or to build upon and improve the projects they have already started in this important new medium.
 - [wethink.hypotheses.org/](https://wethink.hypotheses.org/) - Collaborative Digital History.
 - [dirtdirectory.org/](http://dirtdirectory.org/) - The DiRT Directory is a registry of digital research tools for scholarly use. DiRT makes it easy for digital humanists and others conducting digital research to find and compare resources ranging from content management systems to music OCR, statistical analysis packages to mindmapping software.
