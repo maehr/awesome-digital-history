@@ -1,4 +1,4 @@
-name: Lint and Link Checker
+name: awesome-lint
 
 on: [push, pull_request]
 
