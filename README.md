@@ -7,6 +7,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/maehr/awesome-digital-history.svg)](https://github.com/maehr/awesome-digital-history/stargazers)
 [![GitHub license](https://img.shields.io/github/license/maehr/awesome-digital-history.svg)](https://github.com/maehr/awesome-digital-history/blob/master/LICENSE.md)
 
+In the historical sciences and other humanities disciplines, digital tools have become an integral part of everyday academic life. This collection brings together the best tools, source collections and platforms for digital history and related disciplines.
 
 ## Contents
 
