@@ -128,7 +128,6 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 - [www.historians.org/](https://www.historians.org/publications-and-directories/perspectives-on-history/digital-history) - Perspectives on History is the newsmagazine of the American Historical Association.
 - [chnm.gmu.edu/digitalhistory/](http://chnm.gmu.edu/digitalhistory/) - This book provides a plainspoken and thorough introduction to the web for historians—teachers and students, archivists and museum curators, professors as well as amateur enthusiasts—who wish to produce online historical work, or to build upon and improve the projects they have already started in this important new medium.
 - [wethink.hypotheses.org/](https://wethink.hypotheses.org/) - Collaborative Digital History.
-- [dirtdirectory.org/](http://dirtdirectory.org/) - The DiRT Directory is a registry of digital research tools for scholarly use. DiRT makes it easy for digital humanists and others conducting digital research to find and compare resources ranging from content management systems to music OCR, statistical analysis packages to mindmapping software.
 - [guides.lib.uci.edu/history/history_dh](https://guides.lib.uci.edu/history/history_dh) - This page is designed to give historians an idea what is going on in the field of Digital History / Humanities.
 - [en.wikipedia.org/wiki/Digital_history](https://en.wikipedia.org/wiki/Digital_history) - Digital history is the use of digital media to further historical analysis, presentation, and research.
 
