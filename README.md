@@ -83,6 +83,7 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 - [www.adfontes.uzh.ch/](https://www.adfontes.uzh.ch/) - An Introduction to Working with Sources in the Archive.
 - [training.parthenos-project.eu/](https://training.parthenos-project.eu/) - This site provides training modules and resources in digital humanities and research infrastructures from PARTHENOS and associated projects. This site can be used by both learners and trainers alike.
 - [guides.clio-online.de/](https://guides.clio-online.de/) - A handbook on digital resources for the historical sciences.
+- [guides.lib.uci.edu/history/history_dh](https://guides.lib.uci.edu/history/history_dh) - This page is designed to give historians an idea what is going on in the field of Digital History / Humanities.
 
 ### Visualization
 
@@ -129,7 +130,7 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 - [www.historians.org/](https://www.historians.org/publications-and-directories/perspectives-on-history/digital-history) - Perspectives on History is the newsmagazine of the American Historical Association.
 - [chnm.gmu.edu/digitalhistory/](http://chnm.gmu.edu/digitalhistory/) - This book provides a plainspoken and thorough introduction to the web for historians—teachers and students, archivists and museum curators, professors as well as amateur enthusiasts—who wish to produce online historical work, or to build upon and improve the projects they have already started in this important new medium.
 - [wethink.hypotheses.org/](https://wethink.hypotheses.org/) - Collaborative Digital History.
-- [guides.lib.uci.edu/history/history_dh](https://guides.lib.uci.edu/history/history_dh) - This page is designed to give historians an idea what is going on in the field of Digital History / Humanities.
+- [digital.hssonline.org/](https://digital.hssonline.org/) - This is a new initiative to feature digital scholarship in the history of science.
 - [en.wikipedia.org/wiki/Digital_history](https://en.wikipedia.org/wiki/Digital_history) - Digital history is the use of digital media to further historical analysis, presentation, and research.
 
 ## Contribute
