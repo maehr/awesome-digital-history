@@ -6,6 +6,10 @@ project you agree to abide by its terms.
 
 ---
 
+If you are proficient with GitHub, follow the instructions below. Otherwise write me an email with your suggestions for changes to the list to moritz.maehr@gmail.com.
+
+---
+
 Ensure your pull request adheres to the following guidelines:
 
 - [Awesome manifesto](https://github.com/sindresorhus/awesome/blob/master/awesome.md)
