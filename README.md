@@ -52,8 +52,7 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 
 ### Maps
 
-- [Perry-Castañeda Library Map Collection](https://legacy.lib.utexas.edu/maps/) -
-The PCL Map Collection includes more than 250,000 maps.
+- [Perry-Castañeda Library Map Collection](https://legacy.lib.utexas.edu/maps/) - The PCL Map Collection includes more than 250,000 maps.
 - [David Rumsey Map Collection](https://www.davidrumsey.com/) - The David Rumsey Map Collection Database has many viewers and the Blog has numerous categories. The physical map collection is housed in the David Rumsey Map Center at the Stanford University Library.
 
 ### Varia
