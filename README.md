@@ -15,6 +15,7 @@ In the historical sciences and other humanities disciplines, digital tools have 
 - [Primary Sources](#primary-sources)
   - [Archives and Search Engines](#archives-and-search-engines)
   - [Newspaper, Books and Magazines](#newspaper-books-and-magazines)
+  - [Maps](#maps)
   - [Varia](#varia)
 - [Data and Statistics](#data-and-statistics)
 - [Encyclopaedias](#encyclopaedias)
@@ -53,6 +54,12 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 - [impresso-project.ch/](https://impresso-project.ch/) - Historical newspaper collections of the Swiss National Library, the National Library of Luxembourg, the Neue Zürcher Zeitung, Le Temps, the Valais State Archives and the Swiss Economic Archives.
 - [www.delpher.nl/](https://www.delpher.nl/) - More than 100 million pages from Dutch newspapers, books and magazines.
 
+### Maps
+
+- [legacy.lib.utexas.edu/maps/](https://legacy.lib.utexas.edu/maps/) -
+The PCL Map Collection includes more than 250,000 maps.
+- [www.davidrumsey.com/](https://www.davidrumsey.com/) - The David Rumsey Map Collection Database has many viewers and the Blog has numerous categories. The physical map collection is housed in the David Rumsey Map Center at the Stanford University Library.
+
 ### Varia
 
 - [www.dodis.ch/](https://www.dodis.ch/) - Diplomatic documents of Switzerland.
@@ -62,6 +69,9 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 - [www.memobase.ch/](http://www.memobase.ch/) - The Memobase information portal provides access to over 70,000 audiovisual documents from 13 Swiss memory institutions.
 - [www.cosmov.uzh.ch/](http://www.cosmov.uzh.ch/) - COSMOV includes a digital edition of the events of the Zurich summer of 1968.
 - [awesome-computer-history](https://github.com/watson/awesome-computer-history) - An Awesome List of computer history videos, documentaries and related folklore.
+- [Ad*Access](https://repository.duke.edu/dc/adaccess) - Over 7,000 U.S. and Canadian advertisements covering five product categories - Beauty and Hygiene, Radio, Television, Transportation, and World War II propaganda - dated between 1911 and 1955.
+- [www.marxists.org/](https://www.marxists.org/) - Everything you ever wanted to know about Marx (and other important socialists).
+- [www.titoville.com/](https://www.titoville.com/) - A collection revolving around Josip Broz Tito.
 
 ## Data and Statistics
 
