@@ -140,23 +140,12 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 
 - [Roy Rosenzweig Center for History and New Media](https://rrchnm.org/) - We use digital media and computer technology to democratize history: to incorporate multiple voices, reach diverse audiences, and encourage popular participation in presenting and preserving the past.
 - [Luxembourg Centre for Contemporary and Digital History](https://www.c2dh.uni.lu/) - The Luxembourg Centre for Contemporary and Digital History (C²DH) promotes an interdisciplinary approach with a particular focus on new digital methods and tools for historical research and teaching.
-- [The Center for Digital Humanities at Princeton](https://cdh.princeton.edu/)
-- [Center for the Digital Humanities at Montclair State University](https://www.montclair.edu/center-for-the-digital-humanities/) - We provide advanced technological capabilities to facilitate Digital Humanities projects, research and scholarship.
-- [Centre for Digital Humanities at UCL](https://www.ucl.ac.uk/digital-humanities/)
-- [Centre for Digital Humanities at University of Gothenburg](https://cdh.hum.gu.se/)
-- [Leiden Centre for Digital Humanities](https://www.universiteitleiden.nl/en/humanities/centre-for-digital-humanities)
-- [Ghent Centre for Digital Humanities](https://www.ghentcdh.ugent.be/)
-- [Centre for Digital Humanities at Ryerson University](https://www.ryerson.ca/cdh/)
 - [Austrian Centre for Digital Humanities](https://www.oeaw.ac.at/acdh/)
-- [Austrian Centre for Digital Humanities at Graz University](https://informationsmodellierung.uni-graz.at/)
-- [Trier Center for Digital Humanities](https://www.kompetenzzentrum.uni-trier.de/de/)
-- [Center for Digital Humanities at the University of Cologne](https://cceh.uni-koeln.de/)
-- [Institut für Digital Humanities der Universität zu Köln](https://dh.uni-koeln.de/)
+- [Humanities + Design a Research Lab at Stanford University](http://hdlab.stanford.edu/)
 
 ## Contribute
 
 Contributions welcome! Read the [CONTRIBUTING.md](https://github.com/maehr/awesome-digital-history/blob/master/CONTRIBUTING.md) first.
-
 
 ## License
 
