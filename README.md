@@ -2,11 +2,6 @@
 
 > A curated list of awesome things related to digital history.
 
-[![GitHub issues](https://img.shields.io/github/issues/maehr/awesome-digital-history.svg)](https://github.com/maehr/awesome-digital-history/issues)
-[![GitHub forks](https://img.shields.io/github/forks/maehr/awesome-digital-history.svg)](https://github.com/maehr/awesome-digital-history/network)
-[![GitHub stars](https://img.shields.io/github/stars/maehr/awesome-digital-history.svg)](https://github.com/maehr/awesome-digital-history/stargazers)
-[![CC-0 license](https://img.shields.io/badge/License-CC--0-blue.svg)](https://creativecommons.org/share-your-work/public-domain/cc0/)
-
 In the historical sciences and other humanities disciplines, digital tools have become an integral part of everyday academic life. This collection brings together the best tools, source collections and platforms for digital history and related disciplines.
 
 ## Contents
