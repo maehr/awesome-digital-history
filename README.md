@@ -26,7 +26,7 @@ In the historical sciences and other humanities disciplines, digital tools have 
 
 ## Journals
 
-- [programminghistorian.org/](https://programminghistorian.org/) - Novice-friendly, peer-reviewed tutorials that help humanists learn a wide range of digital tools, techniques, and workflows to facilitate research and teaching.
+- [The Programming Historian](https://programminghistorian.org/) - Novice-friendly, peer-reviewed tutorials that help humanists learn a wide range of digital tools, techniques, and workflows to facilitate research and teaching.
 - [Current Research in Digital History](http://crdh.rrchnm.org/) - Annual open-access, peer-reviewed publication of the Roy Rosenzweig Center for History and New Media at George Mason University.
 
 ## Primary Sources
@@ -74,7 +74,7 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 - [HSSO](https://hsso.ch/) - Historical statistics of Switzerland online.
 - [timeSTAT Cubes](http://www.sfa-laboratory.ch/sr/cubestest/index.php) - The Federal Council reports to parliament on income and expenditure for the past years.
 - [Industriekultur](https://industriekultur.ch/) - Swiss national inventory of industry artifacts.
-- [fxtop.com/](https://fxtop.com/) - Forex rate history since 1953.
+- [fxtop.com](https://fxtop.com/) - Forex rate history since 1953.
 
 ## Encyclopaedias
 
@@ -85,6 +85,7 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 
 ### Learning
 
+- [HIST 7370](https://cblevins.github.io/f19-dig-hist/) - Methods and Readings in Digital History by Cameron Blevins at Northeastern University.
 - [AdFontes](https://www.adfontes.uzh.ch/) - An Introduction to Working with Sources in the Archive.
 - [Parthenos](https://training.parthenos-project.eu/) - Training modules and resources in digital humanities and research infrastructures from PARTHENOS.
 - [Clio Guide](https://guides.clio-online.de/) - A handbook on digital resources for the historical sciences.
