@@ -1,5 +1,7 @@
 # Awesome Digital History [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+[<img src="/android-chrome-512x512.png" align="right" width="100">](https://maehr.github.io/awesome-digital-history/)
+
 > A curated list of awesome things related to digital history.
 
 In the historical sciences and other humanities disciplines, digital tools have become an integral part of everyday academic life. This collection brings together the best tools, source collections and platforms for digital history and related disciplines.
