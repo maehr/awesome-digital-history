@@ -2,7 +2,7 @@ awesome:
 - README.md
 - assets/*
 
-not_awesome:
+docs:
 - .github/*
 - _layouts/*
 - _config.yml
