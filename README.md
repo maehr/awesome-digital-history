@@ -42,6 +42,7 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 - [Europeana](https://www.europeana.eu/) - Search engine for European textual and non-textual archival sources.
 - [Gallica](https://gallica.bnf.fr/) - Digital library of the National Library of France.
 - [CENDARI](https://archives.cendari.dariah.eu/) - Search engine for libraries containing resources on the Medieval era and World War One.
+- [Archives Online](https://www.archives-online.org/) - Archival search engine for Switzerland.
 
 ### Newspaper, Books and Magazines
 
@@ -115,6 +116,7 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 - [webrecorder.io](https://webrecorder.io/) - Web archiving service anyone can use for free to save web pages.
 - [Social Feed Manager](https://gwu-libraries.github.io/sfm-ui/) - Open source software that harvests social media data and web resources from Twitter, Tumblr, Flickr, and Sina Weibo.
 - [OpenArchive](https://open-archive.org/) - Making it easy to store, share, and amplify your mobile media while protecting your identity.
+- [Open EU Data Portal](https://data.europa.eu/euodp/en/data/) - European Union open data.
 
 ### Data Analysis
 
