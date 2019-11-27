@@ -4,7 +4,7 @@
 
 > A curated list of awesome things related to digital history.
 
-In the historical sciences and other humanities disciplines, digital tools have become an integral part of everyday academic life. This collection brings together the best tools, source collections and platforms for digital history and related disciplines.
+In the historical sciences and other humanities disciplines, digital tools have become an integral part of everyday academic life. This collection brings together the best publicly accessible tools, source collections and platforms for digital history and related disciplines.
 
 ## Contents
 
