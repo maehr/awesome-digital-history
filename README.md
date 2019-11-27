@@ -95,6 +95,8 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 - [Digital Humanities Literacy Guidebook](https://cmu-lib.github.io/dhlg/topics/) - Overview on the field of Digital History and Digital Humanities.
 - [UCI Digital History](https://guides.lib.uci.edu/history/history_dh) - Overview on the field of Digital History and Digital Humanities.
 - [Digital History Guide](http://chnm.gmu.edu/digitalhistory/) - Introduction to the web for historians—teachers and students, archivists and museum curators, professors as well as amateur enthusiasts—who wish to produce online historical work, or to build upon and improve the projects they have already started in this important new medium.
+- [forText](https://fortext.net/routinen/lerneinheiten) - Learn to explore literature digitally (in German).
+- [Framework for Information Literacy for Higher Education](http://www.ala.org/acrl/standards/ilframework) - How to teach digital literacy.
 
 ### Visualization
 
