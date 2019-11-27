@@ -22,6 +22,7 @@ In the historical sciences and other humanities disciplines, digital tools have 
   - [Bibliography and Sources Management](#bibliography-and-sources-management)
   - [Data Collection](#data-collection)
   - [Data Analysis](#data-analysis)
+  - [Data Augmentation](#data-augmentation)
   - [Publishing](#publishing)
 - [Platforms](#platforms)
 - [DH Centers](#dh-centers)
@@ -128,6 +129,10 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 - [Voyant](https://voyant-tools.org/) - Reading and analysis environment for digital texts.
 - [Lexos](http://lexos.wheatoncollege.edu) - Online tool for text analysis.
 - [DocFetcher](http://docfetcher.sourceforge.net/) - Open Source desktop search application.
+
+### Data augmentation
+
+- [AutoCat](https://autocat.apps.allenai.org/) - Create simple text classification models online. Provided by the Allen Institute for AI (AI2).
 
 ### Publishing
 
