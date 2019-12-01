@@ -4,7 +4,7 @@
 
 > A curated list of awesome things related to digital history.
 
-In the historical sciences and other humanities disciplines, digital tools have become an integral part of everyday academic life. This collection brings together the best tools, source collections and platforms for digital history and related disciplines.
+In the historical sciences and other humanities disciplines, digital tools have become an integral part of everyday academic life. This collection brings together the best publicly accessible tools, source collections and platforms for digital history and related disciplines.
 
 ## Contents
 
@@ -22,6 +22,7 @@ In the historical sciences and other humanities disciplines, digital tools have 
   - [Bibliography and Sources Management](#bibliography-and-sources-management)
   - [Data Collection](#data-collection)
   - [Data Analysis](#data-analysis)
+  - [Data Augmentation](#data-augmentation)
   - [Publishing](#publishing)
 - [Platforms](#platforms)
 - [DH Centers](#dh-centers)
@@ -69,7 +70,6 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 - [Ad*Access](https://repository.duke.edu/dc/adaccess) - Over 7,000 U.S. and Canadian advertisements covering five product categories - Beauty and Hygiene, Radio, Television, Transportation, and World War II propaganda - dated between 1911 and 1955.
 - [Digitales Deutsches Frauenarchiv](https://www.digitales-deutsches-frauenarchiv.de/) - An interactive portal on the history of women's movements in Germany.
 - [Marxist Internet Archive](https://www.marxists.org/) - Everything you ever wanted to know about Marx (and other important socialists).
-- [Tito's Home Page](https://www.titoville.com/) - A collection revolving around Josip Broz Tito.
 
 ## Data and Statistics
 
@@ -95,6 +95,8 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 - [Digital Humanities Literacy Guidebook](https://cmu-lib.github.io/dhlg/topics/) - Overview on the field of Digital History and Digital Humanities.
 - [UCI Digital History](https://guides.lib.uci.edu/history/history_dh) - Overview on the field of Digital History and Digital Humanities.
 - [Digital History Guide](http://chnm.gmu.edu/digitalhistory/) - Introduction to the web for historians—teachers and students, archivists and museum curators, professors as well as amateur enthusiasts—who wish to produce online historical work, or to build upon and improve the projects they have already started in this important new medium.
+- [forText](https://fortext.net/routinen/lerneinheiten) - Learn to explore literature digitally (in German).
+- [Framework for Information Literacy for Higher Education](http://www.ala.org/acrl/standards/ilframework) - How to teach digital literacy.
 
 ### Visualization
 
@@ -127,6 +129,10 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 - [Voyant](https://voyant-tools.org/) - Reading and analysis environment for digital texts.
 - [Lexos](http://lexos.wheatoncollege.edu) - Online tool for text analysis.
 - [DocFetcher](http://docfetcher.sourceforge.net/) - Open Source desktop search application.
+
+### Data Augmentation
+
+- [AutoCat](https://autocat.apps.allenai.org/) - Create simple text classification models online. Provided by the Allen Institute for AI (AI2).
 
 ### Publishing
 
