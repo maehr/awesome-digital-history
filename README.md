@@ -130,7 +130,7 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 - [Lexos](http://lexos.wheatoncollege.edu) - Online tool for text analysis.
 - [DocFetcher](http://docfetcher.sourceforge.net/) - Open Source desktop search application.
 
-### Data augmentation
+### Data Augmentation
 
 - [AutoCat](https://autocat.apps.allenai.org/) - Create simple text classification models online. Provided by the Allen Institute for AI (AI2).
 
