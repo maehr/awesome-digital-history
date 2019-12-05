@@ -136,6 +136,7 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 
 ### Publishing
 
+- [Manifold](https://manifoldapp.org/) - Scholarly publishing and collaborative and social reading platform.
 - [Scalar](https://scalar.me/) - Born-digital, open-source, media-rich scholarly publishing that’s as easy as blogging.
 - [Omeka](https://omeka.org/) - Open-source web publishing platform for sharing digital collections and creating media-rich online exhibits.
 
