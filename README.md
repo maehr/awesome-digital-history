@@ -141,6 +141,7 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 
 ## Platforms
 
+- [DHSlack](https://github.com/amandavisconti/DHslack/blob/master/CodeOfConduct.md) - Slack channels for digital humanities scholars.
 - [Perspectives on History](https://www.historians.org/publications-and-directories/perspectives-on-history/digital-history) - The newsmagazine of the American Historical Association.
 - [wethink.hypotheses.org](https://wethink.hypotheses.org/) - Collaborative Digital History.
 - [HSS Digital](https://digital.hssonline.org/) - Digital scholarship in the history of science initiative.
