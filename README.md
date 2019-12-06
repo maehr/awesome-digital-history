@@ -26,6 +26,7 @@ In the historical sciences and other humanities disciplines, digital tools have 
   - [Publishing](#publishing)
 - [Platforms](#platforms)
 - [DH Centers](#dh-centers)
+- [Twitter](#twitter)
 
 ## Journals
 
@@ -154,6 +155,12 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 - [Luxembourg Centre for Contemporary and Digital History](https://www.c2dh.uni.lu/) - Research on new digital methods and tools for historical research and teaching.
 - [Austrian Centre for Digital Humanities](https://www.oeaw.ac.at/acdh/)
 - [Humanities + Design a Research Lab at Stanford University](http://hdlab.stanford.edu/)
+
+## Twitter
+
+- [Digital History by @moritzmaehr](https://twitter.com/moritzmaehr/lists/digital-history)
+- [Digital Humanities by @GrandjeanMartin](https://twitter.com/GrandjeanMartin/lists/digital-humanities)
+- [Digital Humanities by @normanlippert](https://twitter.com/normanlippert/lists/digital-humanities)
 
 ## Contribute
 
