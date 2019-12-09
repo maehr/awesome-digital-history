@@ -72,6 +72,7 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 - [Ad*Access](https://repository.duke.edu/dc/adaccess) - Over 7,000 U.S. and Canadian advertisements covering five product categories - Beauty and Hygiene, Radio, Television, Transportation, and World War II propaganda - dated between 1911 and 1955.
 - [Digitales Deutsches Frauenarchiv](https://www.digitales-deutsches-frauenarchiv.de/) - An interactive portal on the history of women's movements in Germany.
 - [Marxist Internet Archive](https://www.marxists.org/) - Everything you ever wanted to know about Marx (and other important socialists).
+- [e-codices](http://e-codices.ch/) - Virtual manuscript library of Switzerland containing 2297 manuscripts from 92 different collections.
 
 ## Data and Statistics
 
