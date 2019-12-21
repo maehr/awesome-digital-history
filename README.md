@@ -26,6 +26,7 @@ In the historical sciences and other humanities disciplines, digital tools have 
   - [Publishing](#publishing)
 - [Platforms](#platforms)
 - [DH Centers](#dh-centers)
+- [Twitter](#twitter)
 
 ## Journals
 
@@ -55,6 +56,7 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 
 ### Maps
 
+- [OldMapsOnline](https://www.oldmapsonline.org/) - Maps, starting in the 17th century.
 - [Perry-Castañeda Library Map Collection](https://legacy.lib.utexas.edu/maps/) - More than 250,000 maps.
 - [David Rumsey Map Collection](https://www.davidrumsey.com/) -  Over 94,000 maps and related images.
 
@@ -70,6 +72,7 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 - [Ad*Access](https://repository.duke.edu/dc/adaccess) - Over 7,000 U.S. and Canadian advertisements covering five product categories - Beauty and Hygiene, Radio, Television, Transportation, and World War II propaganda - dated between 1911 and 1955.
 - [Digitales Deutsches Frauenarchiv](https://www.digitales-deutsches-frauenarchiv.de/) - An interactive portal on the history of women's movements in Germany.
 - [Marxist Internet Archive](https://www.marxists.org/) - Everything you ever wanted to know about Marx (and other important socialists).
+- [e-codices](http://e-codices.ch/) - Virtual manuscript library of Switzerland containing 2297 manuscripts from 92 different collections.
 
 ## Data and Statistics
 
@@ -136,11 +139,13 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 
 ### Publishing
 
+- [Manifold](https://manifoldapp.org/) - Scholarly publishing and collaborative and social reading platform.
 - [Scalar](https://scalar.me/) - Born-digital, open-source, media-rich scholarly publishing that’s as easy as blogging.
 - [Omeka](https://omeka.org/) - Open-source web publishing platform for sharing digital collections and creating media-rich online exhibits.
 
 ## Platforms
 
+- [DHSlack](https://github.com/amandavisconti/DHslack/blob/master/CodeOfConduct.md) - Slack channels for digital humanities scholars.
 - [Perspectives on History](https://www.historians.org/publications-and-directories/perspectives-on-history/digital-history) - The newsmagazine of the American Historical Association.
 - [wethink.hypotheses.org](https://wethink.hypotheses.org/) - Collaborative Digital History.
 - [HSS Digital](https://digital.hssonline.org/) - Digital scholarship in the history of science initiative.
@@ -152,6 +157,12 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 - [Luxembourg Centre for Contemporary and Digital History](https://www.c2dh.uni.lu/) - Research on new digital methods and tools for historical research and teaching.
 - [Austrian Centre for Digital Humanities](https://www.oeaw.ac.at/acdh/)
 - [Humanities + Design a Research Lab at Stanford University](http://hdlab.stanford.edu/)
+
+## Twitter
+
+- [Digital History by @moritzmaehr](https://twitter.com/moritzmaehr/lists/digital-history)
+- [Digital Humanities by @GrandjeanMartin](https://twitter.com/GrandjeanMartin/lists/digital-humanities)
+- [Digital Humanities by @normanlippert](https://twitter.com/normanlippert/lists/digital-humanities)
 
 ## Contribute
 
