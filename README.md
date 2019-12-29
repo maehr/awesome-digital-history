@@ -132,6 +132,7 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 - [Voyant](https://voyant-tools.org/) - Reading and analysis environment for digital texts.
 - [Lexos](http://lexos.wheatoncollege.edu) - Online tool for text analysis.
 - [DocFetcher](http://docfetcher.sourceforge.net/) - Open Source desktop search application.
+- [TinEye](https://tineye.com/) - Search by image or image section and find where that image appears online.
 
 ### Data Augmentation
 
