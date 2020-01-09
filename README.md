@@ -51,6 +51,8 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 - [Spiegel Online](https://www.spiegel.de/dienste/besser-surfen-auf-spiegel-online-suchen-im-archiv-a-676489.html) - SPIEGEL archive since 1947.
 - [impresso](https://impresso-project.ch/) - Historical newspaper collections of the Swiss National Library, the National Library of Luxembourg, the Neue Zürcher Zeitung, Le Temps, the Valais State Archives and the Swiss Economic Archives.
 - [Delpher](https://www.delpher.nl/) - More than 100 million pages from Dutch newspapers, books and magazines.
+- [Project Gutenberg](https://www.gutenberg.org/) - A library of over 60,000 free eBooks.
+- [Projekt Gutenberg](https://www.projekt-gutenberg.org/) - Contains 10'000 works by over 2'000 authors in German.
 
 ### Maps
 
