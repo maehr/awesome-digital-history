@@ -108,7 +108,7 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 - [StorymapJS](https://storymap.knightlab.com/) - Maps that tell stories.
 - [TimelineJS](https://timeline.knightlab.com/) - Easy-to-make, beautiful timelines.
 - [Gephi](https://gephi.org/) - Gephi is the leading visualization and exploration software for all kinds of graphs and networks.
-- [Palladio](https://hdlab.stanford.edu/palladio/) - Palladio. Visualize complex historical data with ease.
+- [Palladio](https://hdlab.stanford.edu/palladio/) - Visualize complex historical data with ease.
 
 ### Bibliography and Sources Management
 
