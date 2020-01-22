@@ -4,7 +4,7 @@
 
 > A curated list of awesome things related to digital history.
 
-In the historical sciences and other humanities disciplines, digital tools have become an integral part of everyday academic life. This collection brings together the best tools, source collections and platforms for digital history and related disciplines.
+In the historical sciences and other humanities disciplines, digital tools have become an integral part of everyday academic life. This collection brings together the best publicly accessible tools, source collections and platforms for digital history and related disciplines.
 
 ## Contents
 
@@ -22,9 +22,11 @@ In the historical sciences and other humanities disciplines, digital tools have 
   - [Bibliography and Sources Management](#bibliography-and-sources-management)
   - [Data Collection](#data-collection)
   - [Data Analysis](#data-analysis)
+  - [Data Augmentation](#data-augmentation)
   - [Publishing](#publishing)
 - [Platforms](#platforms)
 - [DH Centers](#dh-centers)
+- [Twitter](#twitter)
 
 ## Journals
 
@@ -56,6 +58,7 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 
 ### Maps
 
+- [OldMapsOnline](https://www.oldmapsonline.org/) - Maps, starting in the 17th century.
 - [Perry-Castañeda Library Map Collection](https://legacy.lib.utexas.edu/maps/) - More than 250,000 maps.
 - [David Rumsey Map Collection](https://www.davidrumsey.com/) -  Over 94,000 maps and related images.
 
@@ -71,7 +74,8 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 - [Ad*Access](https://repository.duke.edu/dc/adaccess) - Over 7,000 U.S. and Canadian advertisements covering five product categories - Beauty and Hygiene, Radio, Television, Transportation, and World War II propaganda - dated between 1911 and 1955.
 - [Digitales Deutsches Frauenarchiv](https://www.digitales-deutsches-frauenarchiv.de/) - An interactive portal on the history of women's movements in Germany.
 - [Marxist Internet Archive](https://www.marxists.org/) - Everything you ever wanted to know about Marx (and other important socialists).
-- [Tito's Home Page](https://www.titoville.com/) - A collection revolving around Josip Broz Tito.
+- [e-codices](http://e-codices.ch/) - Virtual manuscript library of Switzerland containing 2297 manuscripts from 92 different collections.
+- [Digithek](https://www.digithek.ch/de/) - A collection of digital finding aids.
 
 ## Data and Statistics
 
@@ -97,6 +101,8 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 - [Digital Humanities Literacy Guidebook](https://cmu-lib.github.io/dhlg/topics/) - Overview on the field of Digital History and Digital Humanities.
 - [UCI Digital History](https://guides.lib.uci.edu/history/history_dh) - Overview on the field of Digital History and Digital Humanities.
 - [Digital History Guide](http://chnm.gmu.edu/digitalhistory/) - Introduction to the web for historians—teachers and students, archivists and museum curators, professors as well as amateur enthusiasts—who wish to produce online historical work, or to build upon and improve the projects they have already started in this important new medium.
+- [forText](https://fortext.net/routinen/lerneinheiten) - Learn to explore literature digitally (in German).
+- [Framework for Information Literacy for Higher Education](http://www.ala.org/acrl/standards/ilframework) - How to teach digital literacy.
 
 ### Visualization
 
@@ -104,7 +110,7 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 - [StorymapJS](https://storymap.knightlab.com/) - Maps that tell stories.
 - [TimelineJS](https://timeline.knightlab.com/) - Easy-to-make, beautiful timelines.
 - [Gephi](https://gephi.org/) - Gephi is the leading visualization and exploration software for all kinds of graphs and networks.
-- [Palladio](https://hdlab.stanford.edu/palladio/) - Palladio. Visualize complex historical data with ease.
+- [Palladio](https://hdlab.stanford.edu/palladio/) - Visualize complex historical data with ease.
 
 ### Bibliography and Sources Management
 
@@ -129,14 +135,21 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 - [Voyant](https://voyant-tools.org/) - Reading and analysis environment for digital texts.
 - [Lexos](http://lexos.wheatoncollege.edu) - Online tool for text analysis.
 - [DocFetcher](http://docfetcher.sourceforge.net/) - Open Source desktop search application.
+- [TinEye](https://tineye.com/) - Search by image or image section and find where that image appears online.
+
+### Data Augmentation
+
+- [AutoCat](https://autocat.apps.allenai.org/) - Create simple text classification models online. Provided by the Allen Institute for AI (AI2).
 
 ### Publishing
 
+- [Manifold](https://manifoldapp.org/) - Scholarly publishing and collaborative and social reading platform.
 - [Scalar](https://scalar.me/) - Born-digital, open-source, media-rich scholarly publishing that’s as easy as blogging.
 - [Omeka](https://omeka.org/) - Open-source web publishing platform for sharing digital collections and creating media-rich online exhibits.
 
 ## Platforms
 
+- [DHSlack](https://github.com/amandavisconti/DHslack/blob/master/CodeOfConduct.md) - Slack channels for digital humanities scholars.
 - [Perspectives on History](https://www.historians.org/publications-and-directories/perspectives-on-history/digital-history) - The newsmagazine of the American Historical Association.
 - [wethink.hypotheses.org](https://wethink.hypotheses.org/) - Collaborative Digital History.
 - [HSS Digital](https://digital.hssonline.org/) - Digital scholarship in the history of science initiative.
@@ -148,6 +161,12 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 - [Luxembourg Centre for Contemporary and Digital History](https://www.c2dh.uni.lu/) - Research on new digital methods and tools for historical research and teaching.
 - [Austrian Centre for Digital Humanities](https://www.oeaw.ac.at/acdh/)
 - [Humanities + Design a Research Lab at Stanford University](http://hdlab.stanford.edu/)
+
+## Twitter
+
+- [Digital History by @moritzmaehr](https://twitter.com/moritzmaehr/lists/digital-history)
+- [Digital Humanities by @GrandjeanMartin](https://twitter.com/GrandjeanMartin/lists/digital-humanities)
+- [Digital Humanities by @normanlippert](https://twitter.com/normanlippert/lists/digital-humanities)
 
 ## Contribute
 
