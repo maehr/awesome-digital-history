@@ -53,6 +53,8 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 - [Spiegel Online](https://www.spiegel.de/dienste/besser-surfen-auf-spiegel-online-suchen-im-archiv-a-676489.html) - SPIEGEL archive since 1947.
 - [impresso](https://impresso-project.ch/) - Historical newspaper collections of the Swiss National Library, the National Library of Luxembourg, the Neue Zürcher Zeitung, Le Temps, the Valais State Archives and the Swiss Economic Archives.
 - [Delpher](https://www.delpher.nl/) - More than 100 million pages from Dutch newspapers, books and magazines.
+- [Project Gutenberg](https://www.gutenberg.org/) - A library of over 60,000 free eBooks.
+- [Projekt Gutenberg](https://www.projekt-gutenberg.org/) - Contains 10'000 works by over 2'000 authors in German.
 
 ### Maps
 
@@ -73,6 +75,8 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 - [Digitales Deutsches Frauenarchiv](https://www.digitales-deutsches-frauenarchiv.de/) - An interactive portal on the history of women's movements in Germany.
 - [Marxist Internet Archive](https://www.marxists.org/) - Everything you ever wanted to know about Marx (and other important socialists).
 - [e-codices](http://e-codices.ch/) - Virtual manuscript library of Switzerland containing 2297 manuscripts from 92 different collections.
+- [Digithek](https://www.digithek.ch/de/) - A collection of digital finding aids.
+- [Rijksstudio](https://www.rijksmuseum.nl/en/rijksstudio/) - Browse 667,894 works of art of the Rijksmuseum.
 
 ## Data and Statistics
 
@@ -107,7 +111,7 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 - [StorymapJS](https://storymap.knightlab.com/) - Maps that tell stories.
 - [TimelineJS](https://timeline.knightlab.com/) - Easy-to-make, beautiful timelines.
 - [Gephi](https://gephi.org/) - Gephi is the leading visualization and exploration software for all kinds of graphs and networks.
-- [Palladio](https://hdlab.stanford.edu/palladio/) - Palladio. Visualize complex historical data with ease.
+- [Palladio](https://hdlab.stanford.edu/palladio/) - Visualize complex historical data with ease.
 
 ### Bibliography and Sources Management
 
@@ -132,6 +136,7 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 - [Voyant](https://voyant-tools.org/) - Reading and analysis environment for digital texts.
 - [Lexos](http://lexos.wheatoncollege.edu) - Online tool for text analysis.
 - [DocFetcher](http://docfetcher.sourceforge.net/) - Open Source desktop search application.
+- [TinEye](https://tineye.com/) - Search by image or image section and find where that image appears online.
 
 ### Data Augmentation
 
