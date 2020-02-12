@@ -22,7 +22,7 @@ In the historical sciences and other humanities disciplines, digital tools have 
   - [Bibliography and Sources Management](#bibliography-and-sources-management)
   - [Data Collection](#data-collection)
   - [Data Analysis](#data-analysis)
-  - [Data Extraction Conversion](#data-extraction-and-conversion)
+  - [Data Extraction and Conversion](#data-extraction-and-conversion)
   - [Data Augmentation](#data-augmentation)
   - [Publishing](#publishing)
 - [Platforms](#platforms)
