@@ -86,6 +86,7 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 - [timeSTAT Cubes](http://www.sfa-laboratory.ch/sr/cubestest/index.php) - The Federal Council reports to parliament on income and expenditure for the past years.
 - [Industriekultur](https://industriekultur.ch/) - Swiss national inventory of industry artifacts.
 - [fxtop.com](https://fxtop.com/) - Forex rate history since 1953.
+- [NLS](https://data.nls.uk/data/) - Data collections from the National Library of Scotland.
 
 ## Encyclopaedias
 
