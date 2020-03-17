@@ -186,7 +186,7 @@ Contributions welcome! Read the [CONTRIBUTING.md](https://github.com/maehr/aweso
 
 ## License
 
-[![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0)
+[![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 To the extent possible under law, Moritz Mähr has waived all copyright and
 related or neighboring rights to this work.
