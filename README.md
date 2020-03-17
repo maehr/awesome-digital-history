@@ -91,7 +91,7 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 
 ## Encyclopaedias
 
-- [Historical Dictionary of Switzerland](https://hls-dhs-dss.ch/) - Dictionary on Swiss history.
+- [Historical Encyclopedia of Switzerland](https://hls-dhs-dss.ch/) - Encyclopedia on Swiss history.
 - [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/) - Encyclopedia on philosophy and related disciplines.
 
 ## Tools
