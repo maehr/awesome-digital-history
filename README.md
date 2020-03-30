@@ -56,6 +56,7 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 - [Delpher](https://www.delpher.nl/) - More than 100 million pages from Dutch newspapers, books and magazines.
 - [Project Gutenberg](https://www.gutenberg.org/) - A library of over 60,000 free eBooks.
 - [Projekt Gutenberg](https://www.projekt-gutenberg.org/) - Contains 10'000 works by over 2'000 authors in German.
+- [Zefys](http://zefys.staatsbibliothek-berlin.de/) - Historical German newspapers.
 
 ### Maps
 
