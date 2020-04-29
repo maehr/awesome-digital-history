@@ -3,7 +3,7 @@
   "description": "A curated list of awesome things related to digital history.",
   "dependencies": {},
   "devDependencies": {
-    "awesome-lint": "*"
+    "awesome-lint": "^0.12.1"
   },
   "scripts": {
     "test": "awesome-lint"
