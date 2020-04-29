@@ -101,6 +101,7 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 ### Learning
 
 - [HIST 7370](https://cblevins.github.io/f19-dig-hist/) - Methods and Readings in Digital History by Cameron Blevins at Northeastern University.
+- [HIST3814o](http://workbook.craftingdigitalhistory.ca/) - Methods and Readings in Digital History by Shawn Graham at  Carleton University.
 - [AdFontes](https://www.adfontes.uzh.ch/) - An Introduction to Working with Sources in the Archive.
 - [Parthenos](https://training.parthenos-project.eu/) - Training modules and resources in digital humanities and research infrastructures from PARTHENOS.
 - [Clio Guide](https://guides.clio-online.de/) - A handbook on digital resources for the historical sciences.
