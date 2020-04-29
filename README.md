@@ -27,7 +27,7 @@ In the historical sciences and other humanities disciplines, digital tools have 
   - [Publishing](#publishing)
 - [Podcasts](#podcasts)
   - [English Casts](#english-casts)
-  - [French Casts](#english-casts)
+  - [French Casts](#french-casts)
   - [German Casts](#german-casts)
   - [Multilingual Casts](#multilingual-casts)
 - [Platforms](#platforms)
@@ -176,7 +176,7 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 - [15past15](https://www.hist.uzh.ch/de/dhl/podcast.html)
 - [Backstory](https://www.backstoryradio.org/)
 - [Revisionist History](http://revisionisthistory.com/)
-- [Stuff You Missed in History Class](https://www.iheart.com/podcast/stuff-you-missed-in-history-cl-21124503/).
+- [Stuff You Missed in History Class](https://www.iheart.com/podcast/stuff-you-missed-in-history-cl-21124503/)
 - [You’re Dead To Me](https://www.bbc.co.uk/programmes/p07mdbhg)
 
 ### French Casts
