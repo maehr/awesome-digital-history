@@ -58,6 +58,7 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 - [e-newspaperarchives.ch](https://www.e-newspaperarchives.ch/) - Swiss newspapers.
 - [E-Periodica](https://www.e-periodica.ch/) - Swiss journals.
 - [impresso](https://impresso-project.ch/) - Historical newspaper collections of the Swiss National Library, the National Library of Luxembourg, the Neue Zürcher Zeitung, Le Temps, the Valais State Archives and the Swiss Economic Archives.
+- [Le Temps](https://www.letempsarchives.ch/) - Archive of Gazette de Lausanne et du Journal de Genève.
 - [Project Gutenberg](https://www.gutenberg.org/) - A library of over 60,000 free eBooks.
 - [Projekt Gutenberg](https://www.projekt-gutenberg.org/) - Contains 10'000 works by over 2'000 authors in German.
 - [Spiegel Online](https://www.spiegel.de/dienste/besser-surfen-auf-spiegel-online-suchen-im-archiv-a-676489.html) - SPIEGEL archive since 1947.
@@ -84,6 +85,7 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 - [infoclio.ch Edition projects](http://www.infoclio.ch/en/edition-projects) - A database containing all current historical edition projects in Switzerland.
 - [Marxist Internet Archive](https://www.marxists.org/) - Everything you ever wanted to know about Marx (and other important socialists).
 - [MEMOBASE](http://www.memobase.ch/) - 70,000 audiovisual documents from 13 Swiss memory institutions.
+- [The Proceedings of the Old Bailey](https://www.oldbaileyonline.org/) - London's Central Criminal Court, 1674 to 1913.
 - [Rijksstudio](https://www.rijksmuseum.nl/en/rijksstudio/) - Browse 667,894 works of art of the Rijksmuseum.
 - [Women Working 1800-1930](https://library.harvard.edu/collections/women-working-1800-1930)
 
