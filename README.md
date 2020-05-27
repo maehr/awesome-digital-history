@@ -73,6 +73,7 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 ### Varia
 
 - [Ad\*Access](https://repository.duke.edu/dc/adaccess) - Over 7,000 U.S. and Canadian advertisements covering five product categories - Beauty and Hygiene, Radio, Television, Transportation, and World War II propaganda - dated between 1911 and 1955.
+- [Amtsdruckschriften](https://www.amtsdruckschriften.bar.admin.ch/) - Federal Gazette, Administrative Case Law of the Federal Authorities and more documents from the Swiss Federal Archives.
 - [Awesome Computer History](https://github.com/watson/awesome-computer-history) - An Awesome List of computer history videos, documentaries and related folklore.
 - [COSMOV](http://www.cosmov.uzh.ch/) - COSMOV includes a digital edition of the events of the Zurich summer of 1968.
 - [Digitales Deutsches Frauenarchiv](https://www.digitales-deutsches-frauenarchiv.de/) - An interactive portal on the history of women's movements in Germany.
