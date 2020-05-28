@@ -178,7 +178,7 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 - [Backstory](https://www.backstoryradio.org/) - Weekly podcast covering historical topics in the US.
 - [Revisionist History](http://revisionisthistory.com/) - Something from the past reinterpreted: an event, a person, an idea.
 - [Stuff You Missed in History Class](https://www.iheart.com/podcast/stuff-you-missed-in-history-cl-21124503/) - Unknown historical topics.
-- [You're Dead To Me](https://www.bbc.co.uk/programmes/p07mdbhg) - The history podcast for people who don’t like history.
+- [You're Dead To Me](https://www.bbc.co.uk/programmes/p07mdbhg) - The history podcast for people who do not like history.
 
 ### French Casts
 
