@@ -73,6 +73,7 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 ### Varia
 
 - [Ad\*Access](https://repository.duke.edu/dc/adaccess) - Over 7,000 U.S. and Canadian advertisements covering five product categories - Beauty and Hygiene, Radio, Television, Transportation, and World War II propaganda - dated between 1911 and 1955.
+- [Amtsdruckschriften](https://www.amtsdruckschriften.bar.admin.ch/) - Federal Gazette, Administrative Case Law of the Federal Authorities and more documents from the Swiss Federal Archives.
 - [Awesome Computer History](https://github.com/watson/awesome-computer-history) - An Awesome List of computer history videos, documentaries and related folklore.
 - [COSMOV](http://www.cosmov.uzh.ch/) - COSMOV includes a digital edition of the events of the Zurich summer of 1968.
 - [Digitales Deutsches Frauenarchiv](https://www.digitales-deutsches-frauenarchiv.de/) - An interactive portal on the history of women's movements in Germany.
@@ -173,24 +174,24 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 
 ### English Casts
 
-- [15past15](https://www.hist.uzh.ch/de/dhl/podcast.html)
-- [Backstory](https://www.backstoryradio.org/)
-- [Revisionist History](http://revisionisthistory.com/)
-- [Stuff You Missed in History Class](https://www.iheart.com/podcast/stuff-you-missed-in-history-cl-21124503/)
-- [You're Dead To Me](https://www.bbc.co.uk/programmes/p07mdbhg)
+- [15past15](https://www.hist.uzh.ch/de/dhl/podcast.html) - History podcast of the University of Zurich.
+- [Backstory](https://www.backstoryradio.org/) - Weekly podcast covering historical topics in the US.
+- [Revisionist History](http://revisionisthistory.com/) - Something from the past reinterpreted: an event, a person, an idea.
+- [Stuff You Missed in History Class](https://www.iheart.com/podcast/stuff-you-missed-in-history-cl-21124503/) - Unknown historical topics.
+- [You're Dead To Me](https://www.bbc.co.uk/programmes/p07mdbhg) - The history podcast for people who do not like history.
 
 ### French Casts
 
-- [Histoire Vivante](https://www.rts.ch/play/radio/emission/histoire-vivante?id=1950967)
+- [Histoire Vivante](https://www.rts.ch/play/radio/emission/histoire-vivante?id=1950967) - Rediscover a key fact in contemporary history, weekly. 
 
 ### German Casts
 
-- [Podcast des Historischen Instituts der Universität Bern](https://www.hist.unibe.ch/ueber_uns/podcast/index_ger.html)
-- [Zeitblende](https://www.srf.ch/sendungen/zeitblende)
+- [Zeitblende](https://www.srf.ch/sendungen/zeitblende) - Contemporary witnesses, experts and those affected describe their memories of historical events.
 
 ### Multilingual Casts
 
-- [Cliocast](https://www.infoclio.ch/de/cliocast)
+- [Cliocast](https://www.infoclio.ch/de/cliocast) - Podcast series of discussions with historians about their new books.
+- [Podcast des Historischen Instituts der Universität Bern](https://www.hist.unibe.ch/ueber_uns/podcast/index_ger.html) - Current topics in historical science.
 
 ## Platforms
 
