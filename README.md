@@ -23,6 +23,7 @@ In the historical sciences and other humanities disciplines, digital tools have 
   - [Data Collection](#data-collection)
   - [Data Analysis](#data-analysis)
   - [Data Extraction and Conversion](#data-extraction-and-conversion)
+  - [Data Annotation](#data-annotation)
   - [Data Augmentation](#data-augmentation)
   - [Publishing](#publishing)
 - [Podcasts](#podcasts)
@@ -122,10 +123,12 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 
 ### Visualization
 
+- [DARIAH-DE Geo-Browser](https://geobrowser.de.dariah.eu/) - Create visualizations with geotagges data.
 - [Gephi](https://gephi.org/) - Gephi is the leading visualization and exploration software for all kinds of graphs and networks.
 - [Palladio](https://hdlab.stanford.edu/palladio/) - Visualize complex historical data with ease.
 - [StorylineJS](http://storyline.knightlab.com/) - Tell the story behind the numbers.
 - [StorymapJS](https://storymap.knightlab.com/) - Maps that tell stories.
+- [The Vistorian](https://vistorian.net/) - Interactive Visualizations for Dynamic and Multivariate Networks.
 - [TimelineJS](https://timeline.knightlab.com/) - Easy-to-make, beautiful timelines.
 
 ### Bibliography and Sources Management
@@ -160,6 +163,10 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 - [OCRmyPDF](https://github.com/jbarlow83/OCRmyPDF) - OCR toolkit.
 - [Poppler](https://poppler.freedesktop.org/) - PDF toolkit.
 - [QPDF](http://qpdf.sourceforge.net/) - PDF toolkit.
+
+### Data Augmentation
+
+- [Recogito](https://recogito.pelagios.org/) - Semantic Annotation for images and texts.
 
 ### Data Augmentation
 
