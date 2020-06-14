@@ -164,7 +164,7 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 - [Poppler](https://poppler.freedesktop.org/) - PDF toolkit.
 - [QPDF](http://qpdf.sourceforge.net/) - PDF toolkit.
 
-### Data Augmentation
+### Data Annotation
 
 - [Recogito](https://recogito.pelagios.org/) - Semantic Annotation for images and texts.
 
