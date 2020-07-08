@@ -119,6 +119,7 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 - [HIST 7370](https://cblevins.github.io/f19-dig-hist/) - Methods and Readings in Digital History by Cameron Blevins at Northeastern University.
 - [Missing Semester](https://missing.csail.mit.edu/) - Useful tools that are not taught in class.
 - [Parthenos](https://training.parthenos-project.eu/) - Training modules and resources in digital humanities and research infrastructures from PARTHENOS.
+- [The CTP Book](https://comp-think.github.io/) - A book for teaching Computational Thinking and Programming skills to people with a background in the Humanities.
 - [UCI Digital History](https://guides.lib.uci.edu/history/history_dh) - Overview on the field of Digital History and Digital Humanities.
 
 ### Visualization
