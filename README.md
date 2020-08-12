@@ -84,6 +84,7 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 - [e-gs](https://www.e-gs.ethz.ch/) - Online web portal of the ETH Zurich Graphics Collection.
 - [e-manuscripta](https://www.e-manuscripta.ch/) - Manuscript material from Swiss libraries and archives.
 - [e-rara](https://www.e-rara.ch/) - The platform for digitised prints from Swiss libraries.
+- [Eugenics Archive](https://eugenicsarchive.ca/) - Canadian archive about eugenics, which aimed to "improve the human condition".
 - [infoclio.ch Edition projects](http://www.infoclio.ch/en/edition-projects) - A database containing all current historical edition projects in Switzerland.
 - [Marxist Internet Archive](https://www.marxists.org/) - Everything you ever wanted to know about Marx (and other important socialists).
 - [MEMOBASE](http://www.memobase.ch/) - 70,000 audiovisual documents from 13 Swiss memory institutions.
