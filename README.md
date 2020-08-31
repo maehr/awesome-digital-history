@@ -191,7 +191,7 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 
 ### French Casts
 
-- [Histoire Vivante](https://www.rts.ch/play/radio/emission/histoire-vivante?id=1950967) - Rediscover a key fact in contemporary history, weekly. 
+- [Histoire Vivante](https://www.rts.ch/play/radio/emission/histoire-vivante?id=1950967) - Rediscover a key fact in contemporary history, weekly.
 
 ### German Casts
 
