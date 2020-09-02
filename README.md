@@ -186,6 +186,7 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 
 - [15past15](https://www.hist.uzh.ch/de/dhl/podcast.html) - History podcast of the University of Zurich.
 - [Backstory](https://www.backstoryradio.org/) - Weekly podcast covering historical topics in the US.
+- [Consolation Prize](https://consolationprize.rrchnm.org/) -  The stories of consuls.
 - [Revisionist History](http://revisionisthistory.com/) - Something from the past reinterpreted: an event, a person, an idea.
 - [Stuff You Missed in History Class](https://www.iheart.com/podcast/stuff-you-missed-in-history-cl-21124503/) - Unknown historical topics.
 - [You're Dead To Me](https://www.bbc.co.uk/programmes/p07mdbhg) - The history podcast for people who do not like history.
