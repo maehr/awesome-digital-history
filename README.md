@@ -68,6 +68,7 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 ### Maps
 
 - [David Rumsey Map Collection](https://www.davidrumsey.com/) -  Over 94,000 maps and related images.
+- [map.geo.admin.ch](https://map.geo.admin.ch/) - Journey through time maps of Switzerland.
 - [OldMapsOnline](https://www.oldmapsonline.org/) - Maps, starting in the 17th century.
 - [Perry-Castañeda Library Map Collection](https://legacy.lib.utexas.edu/maps/) - More than 250,000 maps.
 
