@@ -104,7 +104,8 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 
 ## Encyclopaedias
 
-- [Historical Encyclopedia of Switzerland](https://hls-dhs-dss.ch/) - Encyclopedia on Swiss history.
+- [Docupedia](https://docupedia.de/) - Terms, methods and debates contemporary history research (DE).
+- [Historical Encyclopedia of Switzerland](https://hls-dhs-dss.ch/) - Encyclopedia on Swiss history (DE/FR/IT).
 - [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/) - Encyclopedia on philosophy and related disciplines.
 
 ## Tools
