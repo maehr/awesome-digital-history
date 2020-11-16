@@ -5,11 +5,11 @@ on: [push, pull_request]
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: test with Node '10.x'
+    name: test with Node '12.x'
     steps:
-    - uses: actions/checkout@v1
-    - uses: actions/setup-node@v1
+    - uses: actions/checkout
+    - uses: actions/setup-node
       with:
-        node-version: '10.x'
-    - run: npm install
-    - run: npm test
+        node-version: '12.x'
+    - run: npm install --global awesome-lint
+    - run: awesome-lint
