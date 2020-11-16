@@ -68,6 +68,7 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 ### Maps
 
 - [David Rumsey Map Collection](https://www.davidrumsey.com/) -  Over 94,000 maps and related images.
+- [map.geo.admin.ch](https://map.geo.admin.ch/) - Journey through time maps of Switzerland.
 - [OldMapsOnline](https://www.oldmapsonline.org/) - Maps, starting in the 17th century.
 - [Perry-Castañeda Library Map Collection](https://legacy.lib.utexas.edu/maps/) - More than 250,000 maps.
 
@@ -103,7 +104,8 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 
 ## Encyclopaedias
 
-- [Historical Encyclopedia of Switzerland](https://hls-dhs-dss.ch/) - Encyclopedia on Swiss history.
+- [Docupedia](https://docupedia.de/) - Terms, methods and debates contemporary history research (DE).
+- [Historical Encyclopedia of Switzerland](https://hls-dhs-dss.ch/) - Encyclopedia on Swiss history (DE/FR/IT).
 - [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/) - Encyclopedia on philosophy and related disciplines.
 
 ## Tools
@@ -118,6 +120,7 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 - [Framework for Information Literacy for Higher Education](http://www.ala.org/acrl/standards/ilframework) - How to teach digital literacy.
 - [HIST3814o](http://workbook.craftingdigitalhistory.ca/) - Methods and Readings in Digital History by Shawn Graham at  Carleton University.
 - [HIST 7370](https://cblevins.github.io/f19-dig-hist/) - Methods and Readings in Digital History by Cameron Blevins at Northeastern University.
+- [Local Linkages](https://locallinkages.org/) - How to frame questions about the past, identify sources to answer those questions, place them in context, and present that historical interpretation online in a digital form.
 - [Missing Semester](https://missing.csail.mit.edu/) - Useful tools that are not taught in class.
 - [Parthenos](https://training.parthenos-project.eu/) - Training modules and resources in digital humanities and research infrastructures from PARTHENOS.
 - [The CTP Book](https://comp-think.github.io/) - A book for teaching Computational Thinking and Programming skills to people with a background in the Humanities.
@@ -185,6 +188,7 @@ Digitized or digital born [primary sources](https://en.wikipedia.org/wiki/Primar
 
 - [15past15](https://www.hist.uzh.ch/de/dhl/podcast.html) - History podcast of the University of Zurich.
 - [Backstory](https://www.backstoryradio.org/) - Weekly podcast covering historical topics in the US.
+- [Consolation Prize](https://consolationprize.rrchnm.org/) -  The stories of consuls.
 - [Revisionist History](http://revisionisthistory.com/) - Something from the past reinterpreted: an event, a person, an idea.
 - [Stuff You Missed in History Class](https://www.iheart.com/podcast/stuff-you-missed-in-history-cl-21124503/) - Unknown historical topics.
 - [You're Dead To Me](https://www.bbc.co.uk/programmes/p07mdbhg) - The history podcast for people who do not like history.
