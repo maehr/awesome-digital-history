@@ -2,9 +2,11 @@
 
 [<img src="android-chrome-512x512.png" align="right" width="100">](https://maehr.github.io/awesome-digital-history/)
 
-> A curated list of awesome things related to digital history.
+> Find primary sources online and learn how to research history digitally.
 
-In the historical sciences and other humanities disciplines, digital tools have become an integral part of everyday academic life. This collection brings together the best publicly accessible tools, source collections and platforms for digital history and related disciplines.
+<!-- TODO [primary sources](https://en.wikipedia.org/wiki/Primary_source). -->
+
+Finding aids for textual and multimedia primary sources with a focus on the western hemisphere and the 19th and 20th centuries. Courses and learning tools to explore history digitally.
 
 ## Contents
 
