@@ -108,7 +108,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 
 - [Computer History](https://github.com/watson/awesome-computer-history) - An Awesome List of computer history videos, documentaries and related folklore.
 - [Data Visualization](https://github.com/fasouto/awesome-dataviz#readme)
-- [Digital History Wiki](https://github.com/maehr/awesome-digital-history/wiki)
+- [Digital History Wiki](https://github.com/maehr/awesome-digital-history/wiki) - Everything that did not make it into the Awesome Digital History list.
 - [Research Tools](https://github.com/emptymalei/awesome-research#readme)
 - [Scientific Writing](https://github.com/writing-resources/awesome-scientific-writing#readme)
 
