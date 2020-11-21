@@ -3,13 +3,10 @@ name: awesome-lint
 on: [push, pull_request]
 
 jobs:
-  build:
+  Awesome_Lint:
     runs-on: ubuntu-latest
-    name: test with Node '12.x'
     steps:
-    - uses: actions/checkout@v2
-    - uses: actions/setup-node@v1
-      with:
-        node-version: '12.x'
-    - run: npm install --global awesome-lint
-    - run: awesome-lint
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - run: npx awesome-lint
