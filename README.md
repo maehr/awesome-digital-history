@@ -33,6 +33,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 ### France
 
 - [Gallica](https://gallica.bnf.fr/) - Digital library of the National Library of France.
+- [Institut national de l'audiovisuel](https://www.ina.fr/) - INA is a repository of French radio and television audiovisual archives.
 
 ### Germany
 
@@ -66,6 +67,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [Eugenics Archive](https://eugenicsarchive.ca/) - Sscholars, survivors, students, and community partners in challenging eugenics.
 - [Perry-Castañeda Library Map Collection](https://legacy.lib.utexas.edu/maps/) - More than 250,000 maps.
 - [Women Working 1800-1930](https://library.harvard.edu/collections/women-working-1800-1930) - An exploration of women's impact on the economic life of the United States between 1800 and the Great Depression.
+- [World Digital Library](https://www.wdl.org/) - WDL is an international digital library operated by UNESCO and the United States Library of Congress.
 
 ### Switzerland
 
