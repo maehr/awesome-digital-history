@@ -33,6 +33,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 ### France
 
 - [Gallica](https://gallica.bnf.fr/) - Digital library of the National Library of France.
+- [Institut national de l'audiovisuel](https://www.ina.fr/) - INA is a repository of French radio and television audiovisual archives.
 
 ### Germany
 
@@ -44,6 +45,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 
 ### Global
 
+- [Bitsavers.org](http://bitsavers.trailing-edge.com/) - Computer code, reference manuals, and magazines.
 - [fxtop.com](https://fxtop.com/) - Forex rate history since 1953.
 - [Internet Archive](https://archive.org/) - Non-profit library of millions of free books, movies, software, music, websites, and more.
 - [Marxist Internet Archive](https://www.marxists.org/) - Everything you ever wanted to know about Marx (and other important socialists).
@@ -66,6 +68,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [Eugenics Archive](https://eugenicsarchive.ca/) - Sscholars, survivors, students, and community partners in challenging eugenics.
 - [Perry-Castañeda Library Map Collection](https://legacy.lib.utexas.edu/maps/) - More than 250,000 maps.
 - [Women Working 1800-1930](https://library.harvard.edu/collections/women-working-1800-1930) - An exploration of women's impact on the economic life of the United States between 1800 and the Great Depression.
+- [World Digital Library](https://www.wdl.org/) - WDL is an international digital library operated by UNESCO and the United States Library of Congress.
 
 ### Switzerland
 
@@ -108,7 +111,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 
 - [Computer History](https://github.com/watson/awesome-computer-history) - An Awesome List of computer history videos, documentaries and related folklore.
 - [Data Visualization](https://github.com/fasouto/awesome-dataviz#readme)
-- [Digital History Wiki](https://github.com/maehr/awesome-digital-history/wiki)
+- [Digital History Wiki](https://github.com/maehr/awesome-digital-history/wiki) - Everything that did not make it into the Awesome Digital History list.
 - [Research Tools](https://github.com/emptymalei/awesome-research#readme)
 - [Scientific Writing](https://github.com/writing-resources/awesome-scientific-writing#readme)
 
