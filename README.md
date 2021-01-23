@@ -67,7 +67,8 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 ### North America
 
 - [Ad\*Access](https://repository.duke.edu/dc/adaccess) - Over 7,000 U.S. and Canadian advertisements covering five product categories - Beauty and Hygiene, Radio, Television, Transportation, and World War II propaganda - dated between 1911 and 1955.
-- [David Rumsey Map Collection](https://www.davidrumsey.com/) -  Over 94,000 maps and related images.
+- [Chronicling America](https://chroniclingamerica.loc.gov/) - America's historic newspapers from 1777-1963.
+- [David Rumsey Map Collection](https://www.davidrumsey.com/) - Over 94,000 maps and related images.
 - [Digital Public Library of America](https://dp.la/)
 - [Eugenics Archive](https://eugenicsarchive.ca/) - Scholars, survivors, students, and community partners in challenging eugenics.
 - [Perry-Castañeda Library Map Collection](https://legacy.lib.utexas.edu/maps/) - More than 250,000 maps.
