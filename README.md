@@ -33,6 +33,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [Archives Portal Europe](https://www.archivesportaleurope.net/) - European archives search engine.
 - [CENDARI](https://archives.cendari.dariah.eu/) - Search engine for libraries containing resources on the Medieval era and World War One.
 - [Europeana](https://www.europeana.eu/) - Search engine for European textual and non-textual archival sources.
+- [Mapire](https://mapire.eu/) - Interactive historical maps.
 - [Monasterium](https://www.monasterium.net/mom/home) - Deeds from all over Europe.
 - [Project Gutenberg](https://www.gutenberg.org/) - A library of over 60,000 free eBooks.
 
