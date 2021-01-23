@@ -42,6 +42,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [Docupedia](https://docupedia.de/) - Terms, methods, and debates in contemporary history research.
 - [Projekt Gutenberg](https://www.projekt-gutenberg.org/) - Contains 10'000 works by over 2'000 authors in German.
 - [Spiegel Online](https://www.spiegel.de/dienste/besser-surfen-auf-spiegel-online-suchen-im-archiv-a-676489.html) - SPIEGEL archive since 1947.
+- [Uni Frankfurt](http://sammlungen.ub.uni-frankfurt.de/) - Rare prints, manuscripts, bequests and more.
 - [Zefys](http://zefys.staatsbibliothek-berlin.de/) - Historical German newspapers.
 
 ### Global
