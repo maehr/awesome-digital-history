@@ -66,7 +66,8 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 
 - [Ad\*Access](https://repository.duke.edu/dc/adaccess) - Over 7,000 U.S. and Canadian advertisements covering five product categories - Beauty and Hygiene, Radio, Television, Transportation, and World War II propaganda - dated between 1911 and 1955.
 - [David Rumsey Map Collection](https://www.davidrumsey.com/) -  Over 94,000 maps and related images.
-- [Eugenics Archive](https://eugenicsarchive.ca/) - Sscholars, survivors, students, and community partners in challenging eugenics.
+- [Digital Public Library of America](https://dp.la/)
+- [Eugenics Archive](https://eugenicsarchive.ca/) - Scholars, survivors, students, and community partners in challenging eugenics.
 - [Perry-Castañeda Library Map Collection](https://legacy.lib.utexas.edu/maps/) - More than 250,000 maps.
 - [Women Working 1800-1930](https://library.harvard.edu/collections/women-working-1800-1930) - An exploration of women's impact on the economic life of the United States between 1800 and the Great Depression.
 - [World Digital Library](https://www.wdl.org/) - WDL is an international digital library operated by UNESCO and the United States Library of Congress.
