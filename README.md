@@ -9,6 +9,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 ## Contents
 
 - [Archives and primary sources](#archives-and-primary-sources)
+  - [Austria](#austria)
   - [Europe](#europe)
   - [France](#france)
   - [Germany](#germany)
@@ -22,6 +23,10 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [Contribute](#contribute)
 
 ## Archives and primary sources
+
+### Austria
+
+- [ANNO](https://anno.onb.ac.at/) - Austrian Newspapers online.
 
 ### Europe
 
