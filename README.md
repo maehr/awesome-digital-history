@@ -48,6 +48,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 ### Global
 
 - [Bitsavers.org](http://bitsavers.trailing-edge.com/) - Computer code, reference manuals, and magazines.
+- [British Library](https://www.bl.uk/catalogues-and-collections/digital-collections) - Maps, manuscripts and sounds.
 - [fxtop.com](https://fxtop.com/) - Forex rate history since 1953.
 - [Internet Archive](https://archive.org/) - Non-profit library of millions of free books, movies, software, music, websites, and more.
 - [Marxist Internet Archive](https://www.marxists.org/) - Everything you ever wanted to know about Marx (and other important socialists).
