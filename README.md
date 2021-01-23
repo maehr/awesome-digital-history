@@ -100,6 +100,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [impresso](https://impresso-project.ch/) - Historical newspaper collections of the Swiss National Library, the National Library of Luxembourg, the Neue Zürcher Zeitung, Le Temps, the Valais State Archives and the Swiss Economic Archives.
 - [Industriekultur](https://industriekultur.ch/) - Swiss national inventory of industry artifacts.
 - [infoclio.ch Edition projects](http://www.infoclio.ch/en/edition-projects) - A database containing current historical edition projects in Switzerland.
+- [Kartenportal](http://www.kartenportal.ch/) - Search engine for maps.
 - [Le Temps](https://www.letempsarchives.ch/) - Archive of Gazette de Lausanne et du Journal de Genève.
 - [map.geo.admin.ch](https://map.geo.admin.ch/) - Journey through time via maps of Switzerland.
 - [MEMOBASE](http://www.memobase.ch/) - Provides access to 415'634 audiovisual documents from 67 Swiss memory institutions.
