@@ -53,6 +53,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [UB Heidelberg](https://www.ub.uni-heidelberg.de/helios/digi/digilit.html) - Manuscripts, documents, maps and literature.
 - [Uni Frankfurt](http://sammlungen.ub.uni-frankfurt.de/) - Rare prints, manuscripts, bequests and more.
 - [Zefys](http://zefys.staatsbibliothek-berlin.de/) - Historical German newspapers.
+- [ZLB](https://digital.zlb.de/) - Collections of the Berlin Central and State Library.
 
 ### Global
 
