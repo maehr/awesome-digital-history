@@ -47,6 +47,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [Digitales Deutsches Frauenarchiv](https://www.digitales-deutsches-frauenarchiv.de/) - An interactive portal on the history of women's movements in Germany.
 - [Docupedia](https://docupedia.de/) - Terms, methods, and debates in contemporary history research.
 - [Projekt Gutenberg](https://www.projekt-gutenberg.org/) - Contains 10'000 works by over 2'000 authors in German.
+- [SLUB Dresden](https://digital.slub-dresden.de/kollektionen/) - Over 1.8 million graphic media (photographs, maps, drawings).
 - [Spiegel Online](https://www.spiegel.de/dienste/besser-surfen-auf-spiegel-online-suchen-im-archiv-a-676489.html) - SPIEGEL archive since 1947.
 - [Uni Frankfurt](http://sammlungen.ub.uni-frankfurt.de/) - Rare prints, manuscripts, bequests and more.
 - [Zefys](http://zefys.staatsbibliothek-berlin.de/) - Historical German newspapers.
