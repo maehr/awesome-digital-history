@@ -44,6 +44,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 
 ### Germany
 
+- [Digitale Sammlungen](https://www.digitale-sammlungen.de/) - Collections of the Munich Digitization Center.
 - [Digitales Deutsches Frauenarchiv](https://www.digitales-deutsches-frauenarchiv.de/) - An interactive portal on the history of women's movements in Germany.
 - [Docupedia](https://docupedia.de/) - Terms, methods, and debates in contemporary history research.
 - [Projekt Gutenberg](https://www.projekt-gutenberg.org/) - Contains 10'000 works by over 2'000 authors in German.
