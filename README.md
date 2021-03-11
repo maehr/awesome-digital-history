@@ -135,6 +135,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [Digital History Wiki](https://github.com/maehr/awesome-digital-history/wiki) - Everything that did not make it into the Awesome Digital History list.
 - [Research Tools](https://github.com/emptymalei/awesome-research#readme)
 - [Scientific Writing](https://github.com/writing-resources/awesome-scientific-writing#readme)
+- [Tempopedia](https://tempopedia.org/) - Digital History Directory.
 
 ## Contribute
 
