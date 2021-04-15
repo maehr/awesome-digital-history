@@ -27,6 +27,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 ### Austria
 
 - [ANNO](https://anno.onb.ac.at/) - Austrian Newspapers online.
+- [Digitarium](https://digitarium-app.acdh-dev.oeaw.ac.at/) - Digital edition of the historical Wiener Zeitung.
 - [Österreichische Mediathek](https://www.mediathek.at/) - The Austrian archive for sound recordings and videos from cultural and contemporary history.
 - [Wien Geschichte Wiki](https://www.geschichtewiki.wien.gv.at/Wien_Geschichte_Wiki) - It is based on the Historical Dictionary Vienna by Felix Czeike, currently there are 50,156 contributions and 12,510 images.
 
@@ -38,6 +39,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [Mapire](https://mapire.eu/) - Interactive historical maps.
 - [Monasterium](https://www.monasterium.net/mom/home) - Deeds from all over Europe.
 - [Project Gutenberg](https://www.gutenberg.org/) - A library of over 60,000 free eBooks.
+- [Visual Archive Southeastern Europe](http://gams.uni-graz.at/context:vase) - Historical and contemporary visual materials from Southeastern Europe.
 
 ### France
 
