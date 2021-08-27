@@ -107,7 +107,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [e-manuscripta](https://www.e-manuscripta.ch/) - Manuscript material from Swiss libraries and archives.
 - [e-newspaperarchives.ch](https://www.e-newspaperarchives.ch/) - Swiss newspapers.
 - [E-Periodica](https://www.e-periodica.ch/) - Swiss journals.
-- [e-rara](https://www.e-rara.ch/) - The platform for digitized rare books from Swiss libraries.
+- [e-rara](https://www.e-rara.ch/) - The platform for digitised rare books from Swiss libraries.
 - [histHub](https://histhub.ch/) - Search engine for all major standardized data APIs.
 - [Historical Encyclopedia of Switzerland](https://hls-dhs-dss.ch/) - Encyclopedia on Swiss history.
 - [HSSO](https://hsso.ch/) - Historical statistics of Switzerland online.
