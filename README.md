@@ -72,6 +72,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [Internet Archive](https://archive.org/) - Non-profit library of millions of free books, movies, software, music, websites, and more.
 - [Marxist Internet Archive](https://www.marxists.org/) - Everything you ever wanted to know about Marx (and other important socialists).
 - [OldMapsOnline](https://www.oldmapsonline.org/) - Maps, starting in the 17th century.
+- [OpenCat](https://opencat.io/) - Search engine for labraries around the globe.
 - [WayBackMachine](https://archive.org/web/) - Explore more than 486 billion web pages saved over time.
 
 ### Great Britain
