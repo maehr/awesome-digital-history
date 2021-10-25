@@ -70,6 +70,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [British Library](https://www.bl.uk/catalogues-and-collections/digital-collections) - Maps, manuscripts and sounds.
 - [fxtop.com](https://fxtop.com/) - Forex rate history since 1953.
 - [Internet Archive](https://archive.org/) - Non-profit library of millions of free books, movies, software, music, websites, and more.
+- [Karlsruher Virtueller Katalog](https://kvk.bibliothek.kit.edu/) - Book search engine for finding hundreds of millions of media in catalogs worldwide.
 - [Marxist Internet Archive](https://www.marxists.org/) - Everything you ever wanted to know about Marx (and other important socialists).
 - [OldMapsOnline](https://www.oldmapsonline.org/) - Maps, starting in the 17th century.
 - [OpenCat](https://opencat.io/) - Search engine for labraries around the globe.
