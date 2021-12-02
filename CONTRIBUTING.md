@@ -14,13 +14,13 @@ project you agree to abide by its terms.
 
 ---
 
-  If you are proficient with GitHub, follow the instructions below. Otherwise write an email with your suggestions for changes to the list to moritz.maehr@gmail.com.
+If you are proficient with GitHub, follow the instructions below. Otherwise write an email with your suggestions for changes to the list to moritz.maehr@gmail.com.
 
 ---
 
 ## Criteria for accepting a pull-request
 
-*Contributors, make sure that*:
+_Contributors, make sure that_:
 
 - a **short pitch** is included in the pull-request description,
 - the table of contents has been updated (if a section is added / removed),
@@ -29,7 +29,7 @@ project you agree to abide by its terms.
 
 Thank you for your suggestions!
 
-*Maintainers, make sure that*:
+_Maintainers, make sure that_:
 
 - the above criteria are followed,
 - the tests pass on the CI,
