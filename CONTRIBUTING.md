@@ -14,7 +14,7 @@ project you agree to abide by its terms.
 
 ---
 
-If you are proficient with GitHub, follow the instructions below. Otherwise write an email with your suggestions for changes to the list to moritz.maehr@gmail.com.
+If you are proficient with GitHub, follow the instructions below. Otherwise open an [issue](https://github.com/maehr/awesome-digital-history/issues/new/choose).
 
 ---
 
