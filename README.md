@@ -73,7 +73,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [Karlsruher Virtueller Katalog](https://kvk.bibliothek.kit.edu/) - Book search engine for finding hundreds of millions of media in catalogs worldwide.
 - [Marxist Internet Archive](https://www.marxists.org/) - Everything you ever wanted to know about Marx (and other important socialists).
 - [OldMapsOnline](https://www.oldmapsonline.org/) - Maps, starting in the 17th century.
-- [OpenCat](https://opencat.io/) - Search engine for labraries around the globe.
+- [OpenCat](https://opencat.io/) - Search engine for libraries around the globe.
 - [WayBackMachine](https://archive.org/web/) - Explore more than 486 billion web pages saved over time.
 
 ### Great Britain
