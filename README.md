@@ -129,6 +129,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [AdFontes](https://www.adfontes.uzh.ch/) - An Introduction to Working with Sources in the Archive.
 - [Clio Guide](https://guides.clio-online.de/) - A handbook on digital resources for the historical sciences.
 - [Digital History Guide](http://chnm.gmu.edu/digitalhistory/) - Introduction to the web for historians—teachers and students, archivists and museum curators, professors as well as amateur enthusiasts—who wish to produce online historical work, or to build upon and improve the projects they have already started in this important new medium.
+- [Geospatial Historian](https://geospatialhistorian.wordpress.com/) - Open HGIS Lessons and Resources.
 - [HIST3814o](http://workbook.craftingdigitalhistory.ca/) - Methods and Readings in Digital History by Shawn Graham at  Carleton University.
 - [HIST 7370](https://cblevins.github.io/f19-dig-hist/) - Methods and Readings in Digital History by Cameron Blevins at Northeastern University.
 - [Local Linkages](https://locallinkages.org/) - How to frame questions about the past, identify sources to answer those questions, place them in context, and present that historical interpretation online in a digital form.
