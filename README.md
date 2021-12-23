@@ -56,6 +56,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [Docupedia](https://docupedia.de/) - Terms, methods, and debates in contemporary history research.
 - [leo bw](https://www.leo-bw.de/) - Platform of the State Archives of Baden-Württemberg.
 - [LexM](https://www.lexm.uni-hamburg.de/content/index.xml) - Encyclopedia of musicians persecuted during the Nazi era.
+- [MARCHIVUM](https://druckschriften-digital.marchivum.de/) - Collection of Mannheim newspapers and historical printed matter on the history of Mannheim.
 - [Projekt Gutenberg](https://www.projekt-gutenberg.org/) - Contains 10'000 works by over 2'000 authors in German.
 - [SLUB Dresden](https://digital.slub-dresden.de/kollektionen/) - Over 1.8 million graphic media (photographs, maps, drawings).
 - [Spiegel Online](https://www.spiegel.de/dienste/besser-surfen-auf-spiegel-online-suchen-im-archiv-a-676489.html) - SPIEGEL archive since 1947.
@@ -129,7 +130,8 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [AdFontes](https://www.adfontes.uzh.ch/) - An Introduction to Working with Sources in the Archive.
 - [Clio Guide](https://guides.clio-online.de/) - A handbook on digital resources for the historical sciences.
 - [Digital History Guide](http://chnm.gmu.edu/digitalhistory/) - Introduction to the web for historians—teachers and students, archivists and museum curators, professors as well as amateur enthusiasts—who wish to produce online historical work, or to build upon and improve the projects they have already started in this important new medium.
-- [HIST3814o](http://workbook.craftingdigitalhistory.ca/) - Methods and Readings in Digital History by Shawn Graham at Carleton University.
+- [Geospatial Historian](https://geospatialhistorian.wordpress.com/) - Open HGIS Lessons and Resources.
+- [HIST3814o](http://workbook.craftingdigitalhistory.ca/) - Methods and Readings in Digital History by Shawn Graham at  Carleton University.
 - [HIST 7370](https://cblevins.github.io/f19-dig-hist/) - Methods and Readings in Digital History by Cameron Blevins at Northeastern University.
 - [Local Linkages](https://locallinkages.org/) - How to frame questions about the past, identify sources to answer those questions, place them in context, and present that historical interpretation online in a digital form.
 - [The CTP Book](https://comp-think.github.io/) - A book for teaching Computational Thinking and Programming skills to people with a background in the Humanities.
