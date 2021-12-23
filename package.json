@@ -1,0 +1,30 @@
+{
+	"name": "Awesome Digital History",
+	"version": "0.0.1",
+	"url": "https://maehr.github.io/awesome-digital-history/issues",
+	"license": "CC0",
+	"scripts": {
+		"check": "prettier --ignore-path .gitignore  --check . '!{CODE_OF_CONDUCT.md,LICENSE.md,_layouts/default.html}'",
+		"commit": "cz",
+		"format": "prettier --ignore-path .gitignore --write . '!{CODE_OF_CONDUCT.md,LICENSE.md,_layouts/default.html}'",
+		"lint": "awesome-lint",
+		"prepare": "husky install"
+	},
+	"devDependencies": {
+		"awesome-lint": "^0.18.0",
+		"cz-conventional-changelog": "^3.3.0",
+		"husky": "^7.0.4",
+		"prettier": "~2.2.1"
+	},
+	"type": "module",
+	"config": {
+		"commitizen": {
+			"path": "./node_modules/cz-conventional-changelog"
+		},
+		"husky": {
+			"hooks": {
+				"prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
+			}
+		}
+	}
+}
