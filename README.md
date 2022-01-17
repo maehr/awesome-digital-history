@@ -142,9 +142,9 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 
 ## More Awesome
 
-- [Awesome DHTools](https://dh-tech.github.io/awesome-dhtools/) - Tools, resources, and services supporting the Digital Humanities.
 - [Computer History](https://github.com/watson/awesome-computer-history) - An Awesome List of computer history videos, documentaries and related folklore.
 - [Data Visualization](https://github.com/fasouto/awesome-dataviz#readme)
+- [DHTools](https://dh-tech.github.io/awesome-dhtools/) - Tools, resources, and services supporting the Digital Humanities.
 - [Research Tools](https://github.com/emptymalei/awesome-research#readme)
 - [Scientific Writing](https://github.com/writing-resources/awesome-scientific-writing#readme)
 - [Tempopedia](https://tempopedia.org/) - Digital History Directory.
