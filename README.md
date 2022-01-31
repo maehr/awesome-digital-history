@@ -35,6 +35,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 
 - [Archives Portal Europe](https://www.archivesportaleurope.net/) - European archives search engine.
 - [CENDARI](https://archives.cendari.dariah.eu/) - Search engine for libraries containing resources on the Medieval era and World War One.
+- [Encyclopédie d'histoire numérique](https://ehne.fr/) - European History through renewed historiographic objects and major contemporary challenges.
 - [Europeana](https://www.europeana.eu/) - Search engine for European textual and non-textual archival sources.
 - [Mapire](https://mapire.eu/) - Interactive historical maps.
 - [Monasterium](https://www.monasterium.net/mom/home) - Deeds from all over Europe.
@@ -50,6 +51,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 
 - [Archivportal](https://www.archivportal-d.de/) - German archives search engine.
 - [Bavarikon](https://www.bavarikon.de/) - Collection of Bavarian maps, places, newspapers etc.
+- [Computerarchiv Muenchen](http://computerarchiv-muenchen.de/) - South German Muesum for History of Digital Development.
 - [Deutsche Digitale Bibliothek](https://www.deutsche-digitale-bibliothek.de/) - Over 12 million objects.
 - [Digitale Sammlungen](https://www.digitale-sammlungen.de/) - Collections of the Munich Digitization Center.
 - [Digitales Deutsches Frauenarchiv](https://www.digitales-deutsches-frauenarchiv.de/) - An interactive portal on the history of women's movements in Germany.
@@ -57,6 +59,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [leo bw](https://www.leo-bw.de/) - Platform of the State Archives of Baden-Württemberg.
 - [LexM](https://www.lexm.uni-hamburg.de/content/index.xml) - Encyclopedia of musicians persecuted during the Nazi era.
 - [MARCHIVUM](https://druckschriften-digital.marchivum.de/) - Collection of Mannheim newspapers and historical printed matter on the history of Mannheim.
+- [PICTURA paedagogica](https://pictura.bbf.dipf.de/viewer/index/) - Digital image archive on the history of education with 131'155 objects.
 - [Projekt Gutenberg](https://www.projekt-gutenberg.org/) - Contains 10'000 works by over 2'000 authors in German.
 - [SLUB Dresden](https://digital.slub-dresden.de/kollektionen/) - Over 1.8 million graphic media (photographs, maps, drawings).
 - [Spiegel Online](https://www.spiegel.de/dienste/besser-surfen-auf-spiegel-online-suchen-im-archiv-a-676489.html) - SPIEGEL archive since 1947.
@@ -69,12 +72,14 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 
 - [Bitsavers.org](http://bitsavers.trailing-edge.com/) - Computer code, reference manuals, and magazines.
 - [British Library](https://www.bl.uk/catalogues-and-collections/digital-collections) - Maps, manuscripts and sounds.
+- [Classic Computer Magazine Archive](https://www.atarimagazines.com/) - Preserving information from early personal computer magazines.
 - [fxtop.com](https://fxtop.com/) - Forex rate history since 1953.
+- [gotpapers.scene.org](https://gotpapers.scene.org/?page_id=73) - Resources on the history of games, cracking, and the demoscene.
 - [Internet Archive](https://archive.org/) - Non-profit library of millions of free books, movies, software, music, websites, and more.
 - [Karlsruher Virtueller Katalog](https://kvk.bibliothek.kit.edu/) - Book search engine for finding hundreds of millions of media in catalogs worldwide.
 - [Marxist Internet Archive](https://www.marxists.org/) - Everything you ever wanted to know about Marx (and other important socialists).
 - [OldMapsOnline](https://www.oldmapsonline.org/) - Maps, starting in the 17th century.
-- [OpenCat](https://opencat.io/) - Search engine for labraries around the globe.
+- [OpenCat](https://opencat.io/) - Search engine for libraries around the globe.
 - [WayBackMachine](https://archive.org/web/) - Explore more than 486 billion web pages saved over time.
 
 ### Great Britain
@@ -90,6 +95,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 
 - [Ad\*Access](https://repository.duke.edu/dc/adaccess) - Over 7,000 U.S. and Canadian advertisements covering five product categories - Beauty and Hygiene, Radio, Television, Transportation, and World War II propaganda - dated between 1911 and 1955.
 - [Chronicling America](https://chroniclingamerica.loc.gov/) - America's historic newspapers from 1777-1963.
+- [Computer Gaming World Museum](https://www.cgwmuseum.org/) - Archive of various magazines on gaming.
 - [David Rumsey Map Collection](https://www.davidrumsey.com/) - Over 94,000 maps and related images.
 - [Digital Public Library of America](https://dp.la/)
 - [Eugenics Archive](https://eugenicsarchive.ca/) - Scholars, survivors, students, and community partners in challenging eugenics.
@@ -100,6 +106,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 ### Switzerland
 
 - [Amtsdruckschriften](https://www.amtsdruckschriften.bar.admin.ch/) - Federal Gazette, Administrative Case Law of the Federal Authorities and more documents from the Swiss Federal Archives.
+- [Année Politique Suisse](https://anneepolitique.swiss/) - Sources on developments in Swiss politics and society.
 - [Archives Online](https://www.archives-online.org/) - Archival search engine for Switzerland.
 - [arCHeco](https://www.archeco.info/) - Index of economic collections in archives of Switzerland and Liechtenstein.
 - [COSMOV](http://www.cosmov.uzh.ch/) - COSMOV includes a digital edition of the events of the Zurich summer of 1968.
@@ -143,7 +150,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 
 - [Computer History](https://github.com/watson/awesome-computer-history) - An Awesome List of computer history videos, documentaries and related folklore.
 - [Data Visualization](https://github.com/fasouto/awesome-dataviz#readme)
-- [Digital History Wiki](https://github.com/maehr/awesome-digital-history/wiki) - Everything that did not make it into the Awesome Digital History list.
+- [DHTools](https://dh-tech.github.io/awesome-dhtools/) - Tools, resources, and services supporting the Digital Humanities.
 - [Research Tools](https://github.com/emptymalei/awesome-research#readme)
 - [Scientific Writing](https://github.com/writing-resources/awesome-scientific-writing#readme)
 - [Tempopedia](https://tempopedia.org/) - Digital History Directory.
