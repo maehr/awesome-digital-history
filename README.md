@@ -108,6 +108,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [Amtsdruckschriften](https://www.amtsdruckschriften.bar.admin.ch/) - Federal Gazette, Administrative Case Law of the Federal Authorities and more documents from the Swiss Federal Archives.
 - [Année Politique Suisse](https://anneepolitique.swiss/) - Sources on developments in Swiss politics and society.
 - [Archives Online](https://www.archives-online.org/) - Archival search engine for Switzerland.
+- [chgov](https://www.chgov.bar.admin.ch/) - Minutes of the Federal Council (1848-1963).
 - [arCHeco](https://www.archeco.info/) - Index of economic collections in archives of Switzerland and Liechtenstein.
 - [COSMOV](http://www.cosmov.uzh.ch/) - COSMOV includes a digital edition of the events of the Zurich summer of 1968.
 - [Digithek](https://www.digithek.ch/de/) - A collection of digital finding aids for secondary and vocational schools.
