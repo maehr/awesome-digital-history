@@ -157,4 +157,4 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 
 ## Contribute
 
-Contributions welcome! Read the [CONTRIBUTING.md](https://github.com/maehr/awesome-digital-history/blob/master/CONTRIBUTING.md) first.
+Contributions welcome! Read the [CONTRIBUTING.md](https://github.com/maehr/awesome-digital-history/blob/main/CONTRIBUTING.md) first.
