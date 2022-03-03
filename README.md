@@ -81,6 +81,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [Mementoweb](http://timetravel.mementoweb.org/) - Find archived web pages in Internet Archive, Archive-It, British Library, archive.today, and GitHub.
 - [OldMapsOnline](https://www.oldmapsonline.org/) - Maps, starting in the 17th century.
 - [OpenCat](https://opencat.io/) - Search engine for libraries around the globe.
+- [OpenHistoricalMap](https://openhistoricalmap.org/) - A time travel map created by a community of mappers and historians.
 - [WayBackMachine](https://archive.org/web/) - Explore more than 486 billion web pages saved over time.
 
 ### Great Britain
