@@ -82,6 +82,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [OldMapsOnline](https://www.oldmapsonline.org/) - Maps, starting in the 17th century.
 - [OpenCat](https://opencat.io/) - Search engine for libraries around the globe.
 - [OpenHistoricalMap](https://openhistoricalmap.org/) - A time travel map created by a community of mappers and historians.
+- [Public Books Database](http://www.publicbooks.org/public-books-database/) - Open access academic literature.
 - [WayBackMachine](https://archive.org/web/) - Explore more than 486 billion web pages saved over time.
 - [World Historical Gazeteer](https://whgazetteer.org/) - Collection of content and services that permit world historians to do spatial and temporal reasoning and visualization in a data rich environment at global and trans-regional scales.
 
