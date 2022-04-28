@@ -101,7 +101,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [Chronicling America](https://chroniclingamerica.loc.gov/) - America's historic newspapers from 1777-1963.
 - [Computer Gaming World Museum](https://www.cgwmuseum.org/) - Archive of various magazines on gaming.
 - [David Rumsey Map Collection](https://www.davidrumsey.com/) - Over 94,000 maps and related images.
-- [Digital Public Library of America](https://dp.la/)
+- [Digital Public Library of America](https://dp.la/) - Discovery tool, or union catalog, for public domain and openly licensed content held by the United States' archives, libraries, museums, and other cultural heritage institutions.
 - [Digital Transgender Archive](https://www.digitaltransgenderarchive.net/) - An International LGBTQ+ Linked Data Vocabulary.
 - [Eugenics Archive](https://eugenicsarchive.ca/) - Scholars, survivors, students, and community partners in challenging eugenics.
 - [Perry-Castañeda Library Map Collection](https://legacy.lib.utexas.edu/maps/) - More than 250,000 maps.
