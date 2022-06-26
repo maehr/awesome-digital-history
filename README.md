@@ -53,6 +53,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [Bavarikon](https://www.bavarikon.de/) - Collection of Bavarian maps, places, newspapers etc.
 - [Computerarchiv Muenchen](http://computerarchiv-muenchen.de/) - South German Muesum for History of Digital Development.
 - [Deutsche Digitale Bibliothek](https://www.deutsche-digitale-bibliothek.de/) - Over 12 million objects.
+- [Deutsches Zeitungsportal](https://www.deutsche-digitale-bibliothek.de/newspaper) - Discover historical newspapers from 1671 to 1950.
 - [Digitale Sammlungen](https://www.digitale-sammlungen.de/) - Collections of the Munich Digitization Center.
 - [Digitales Deutsches Frauenarchiv](https://www.digitales-deutsches-frauenarchiv.de/) - An interactive portal on the history of women's movements in Germany.
 - [Docupedia](https://docupedia.de/) - Terms, methods, and debates in contemporary history research.
@@ -145,7 +146,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [Clio Guide](https://guides.clio-online.de/) - A handbook on digital resources for the historical sciences.
 - [Digital History Guide](http://chnm.gmu.edu/digitalhistory/) - Introduction to the web for historians—teachers and students, archivists and museum curators, professors as well as amateur enthusiasts—who wish to produce online historical work, or to build upon and improve the projects they have already started in this important new medium.
 - [Geospatial Historian](https://geospatialhistorian.wordpress.com/) - Open HGIS Lessons and Resources.
-- [HIST3814o](http://workbook.craftingdigitalhistory.ca/) - Methods and Readings in Digital History by Shawn Graham at  Carleton University.
+- [HIST3814o](http://workbook.craftingdigitalhistory.ca/) - Methods and Readings in Digital History by Shawn Graham at Carleton University.
 - [HIST 7370](https://cblevins.github.io/f19-dig-hist/) - Methods and Readings in Digital History by Cameron Blevins at Northeastern University.
 - [History Toolkit](https://dg.philhist.unibas.ch/en/studium/history-a-toolkit-for-students/) - You will learn how to critically analyse historical conditions, developments, patterns and ruptures – or, alternatively, how to call these into question.
 - [Local Linkages](https://locallinkages.org/) - How to frame questions about the past, identify sources to answer those questions, place them in context, and present that historical interpretation online in a digital form.
@@ -158,7 +159,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 
 - [Computer History](https://github.com/watson/awesome-computer-history) - An Awesome List of computer history videos, documentaries and related folklore.
 - [Data Visualization](https://github.com/fasouto/awesome-dataviz#readme)
-- [DHTools](https://dh-tech.github.io/awesome-dhtools/) - Tools, resources, and services supporting the Digital Humanities.
+- [Digital Humanities](https://dh-tech.github.io/awesome-digital-humanities#readme) - Tools, resources, and services supporting the Digital Humanities.
 - [Research Tools](https://github.com/emptymalei/awesome-research#readme)
 - [Scientific Writing](https://github.com/writing-resources/awesome-scientific-writing#readme)
 - [Tempopedia](https://tempopedia.org/) - Digital History Directory.
