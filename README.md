@@ -51,7 +51,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 
 - [Archivportal](https://www.archivportal-d.de/) - German archives search engine.
 - [Bavarikon](https://www.bavarikon.de/) - Collection of Bavarian maps, places, newspapers etc.
-- [Computerarchiv Muenchen](http://computerarchiv-muenchen.de/) - South German Muesum for History of Digital Development.
+- [Computerarchiv Muenchen](http://computerarchiv-muenchen.de/) - South German Museum for History of Digital Development.
 - [Deutsche Digitale Bibliothek](https://www.deutsche-digitale-bibliothek.de/) - Over 12 million objects.
 - [Deutsches Zeitungsportal](https://www.deutsche-digitale-bibliothek.de/newspaper) - Discover historical newspapers from 1671 to 1950.
 - [Digitale Sammlungen](https://www.digitale-sammlungen.de/) - Collections of the Munich Digitization Center.
