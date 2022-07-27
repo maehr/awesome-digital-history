@@ -10,6 +10,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 
 - [Archives and primary sources](#archives-and-primary-sources)
   - [Austria](#austria)
+  - [Brazil](#brazil)
   - [Europe](#europe)
   - [France](#france)
   - [Germany](#germany)
@@ -30,6 +31,11 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [Digitarium](https://digitarium-app.acdh-dev.oeaw.ac.at/) - Digital edition of the historical Wiener Zeitung.
 - [Österreichische Mediathek](https://www.mediathek.at/) - The Austrian archive for sound recordings and videos from cultural and contemporary history.
 - [Wien Geschichte Wiki](https://www.geschichtewiki.wien.gv.at/Wien_Geschichte_Wiki) - It is based on the Historical Dictionary Vienna by Felix Czeike, currently there are 50,156 contributions and 12,510 images.
+
+### Brazil
+
+- [Hemeroteca Digital Brasileira](https://bndigital.bn.gov.br/hemeroteca-digital/) - The Fundação Biblioteca Nacional offers its users the HEMEROTECA DIGITAL BRASILEIRA, a portal of national periodicals that provides wide consultation, through the internet, of its collection of periodicals – newspapers, magazines, yearbooks, bulletins, etc. – and serial publications.
+- [História da Ditadura](https://www.historiadaditadura.com.br/documentosdadiradura) - História da Ditadura will share historical documents selected by the site's columnists with brief analytical comments. The objective is to expand access to historical knowledge, document collections and historiographical production.
 
 ### Europe
 
