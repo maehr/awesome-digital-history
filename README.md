@@ -34,8 +34,8 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 
 ### Brazil
 
-- [Hemeroteca Digital Brasileira](https://bndigital.bn.gov.br/hemeroteca-digital/) - The Fundação Biblioteca Nacional offers its users the HEMEROTECA DIGITAL BRASILEIRA, a portal of national periodicals that provides wide consultation, through the internet, of its collection of periodicals – newspapers, magazines, yearbooks, bulletins, etc. – and serial publications.
-- [História da Ditadura](https://www.historiadaditadura.com.br/documentosdadiradura) - História da Ditadura will share historical documents selected by the site's columnists with brief analytical comments. The objective is to expand access to historical knowledge, document collections and historiographical production.
+- [Hemeroteca Digital Brasileira](https://bndigital.bn.gov.br/hemeroteca-digital/) - the portal provides access to a large collection of Brazilian periodicals - among them newspapers, magazines, yearbooks, and bulletins.
+- [História da Ditadura](https://www.historiadaditadura.com.br/documentosdadiradura) - It features historical documents relating to the period of the military dictatorship in Brazil along with brief analytical commentaries.
 
 ### Europe
 
