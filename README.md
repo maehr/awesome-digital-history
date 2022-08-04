@@ -34,7 +34,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 
 ### Brazil
 
-- [Hemeroteca Digital Brasileira](https://bndigital.bn.gov.br/hemeroteca-digital/) - the portal provides access to a large collection of Brazilian periodicals - among them newspapers, magazines, yearbooks, and bulletins.
+- [Hemeroteca Digital Brasileira](https://bndigital.bn.gov.br/hemeroteca-digital/) - The portal provides access to a large collection of Brazilian periodicals - among them newspapers, magazines, yearbooks, and bulletins.
 - [História da Ditadura](https://www.historiadaditadura.com.br/documentosdadiradura) - It features historical documents relating to the period of the military dictatorship in Brazil along with brief analytical commentaries.
 
 ### Europe
