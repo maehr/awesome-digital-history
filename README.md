@@ -72,7 +72,6 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 ### Global
 
 - [Bitsavers.org](http://bitsavers.trailing-edge.com/) - Computer code, reference manuals, and magazines.
-- [British Library](https://www.bl.uk/catalogues-and-collections/digital-collections) - Maps, manuscripts and sounds.
 - [Classic Computer Magazine Archive](https://www.atarimagazines.com/) - Preserving information from early personal computer magazines.
 - [fxtop.com](https://fxtop.com/) - Forex rate history since 1953.
 - [gotpapers.scene.org](https://gotpapers.scene.org/?page_id=73) - Resources on the history of games, cracking, and the demoscene.
@@ -89,6 +88,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 
 ### Great Britain
 
+- [British Library](https://www.bl.uk/catalogues-and-collections/digital-collections) - Maps, manuscripts and sounds.
 - [The Proceedings of the Old Bailey](https://www.oldbaileyonline.org/) - London's Central Criminal Court, 1674 to 1913.
 - [NLS](https://data.nls.uk/data/) - Data collections from the National Library of Scotland.
 
