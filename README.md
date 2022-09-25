@@ -154,6 +154,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [Local Linkages](https://locallinkages.org/) - How to frame questions about the past, identify sources to answer those questions, place them in context, and present that historical interpretation online in a digital form.
 - [The CTP Book](https://comp-think.github.io/) - A book for teaching Computational Thinking and Programming skills to people with a background in the Humanities.
 - [The Programming Historian](https://programminghistorian.org/) - Novice-friendly, peer-reviewed tutorials that help humanists learn a wide range of digital tools, techniques, and workflows to facilitate research and teaching.
+- [Python für Historiker:innen](https://digital-history-berlin.github.io/Python-fuer-Historiker-innen/home.html) - The Jupyter Book (in German language) is aimed at historians who are looking for a first application-oriented and interactive introduction to the Python programming language.
 - [UCI Digital History](https://guides.lib.uci.edu/history/history_dh) - Overview on the field of Digital History and Digital Humanities.
 - [We think History](https://wethink.hypotheses.org/) - News about and innovations from digital history.
 
