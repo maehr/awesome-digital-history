@@ -1,16 +1,18 @@
-lockfileVersion: 5.3
+lockfileVersion: 5.4
 
 specifiers:
   awesome-lint: ^0.18.0
   cz-conventional-changelog: ^3.3.0
   husky: ^7.0.4
   prettier: ~2.2.1
+  prettier-plugin-svelte: ^2.8.0
 
 devDependencies:
   awesome-lint: 0.18.0
   cz-conventional-changelog: 3.3.0
   husky: 7.0.4
   prettier: 2.2.1
+  prettier-plugin-svelte: 2.8.0_prettier@2.2.1
 
 packages:
   /@babel/code-frame/7.16.0:
@@ -63,7 +65,7 @@ packages:
       '@commitlint/execute-rule': 15.0.0
       '@commitlint/resolve-extends': 15.0.0
       '@commitlint/types': 15.0.0
-      '@endemolshinegroup/cosmiconfig-typescript-loader': 3.0.2_b67f536f129c730ed129a6d21d223ba9
+      '@endemolshinegroup/cosmiconfig-typescript-loader': 3.0.2_wz7vg3ystrzq5ujju3jb2ir3ve
       chalk: 4.1.2
       cosmiconfig: 7.0.1
       lodash: 4.17.21
@@ -97,7 +99,7 @@ packages:
     dev: true
     optional: true
 
-  /@endemolshinegroup/cosmiconfig-typescript-loader/3.0.2_b67f536f129c730ed129a6d21d223ba9:
+  /@endemolshinegroup/cosmiconfig-typescript-loader/3.0.2_wz7vg3ystrzq5ujju3jb2ir3ve:
     resolution:
       {
         integrity: sha512-QRVtqJuS1mcT56oHpVegkKBlgtWjXw/gHNWO3eL9oyB5Sc7HBoc2OLG/nYpVfT/Jejvo3NUrD0Udk7XgoyDKkA==
@@ -188,6 +190,15 @@ packages:
       }
     dev: true
 
+  /@types/keyv/3.1.4:
+    resolution:
+      {
+        integrity: sha512-BQ5aZNSCpj7D6K2ksrRCTmKRLEpnPvWDiLPfoGyhZ++8YtiK9d/3DBKPJgry359X/P1PfruyYwvnvwFjuEiEIg==
+      }
+    dependencies:
+      '@types/node': 18.11.9
+    dev: true
+
   /@types/mdast/3.0.10:
     resolution:
       {
@@ -201,6 +212,13 @@ packages:
     resolution:
       {
         integrity: sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==
+      }
+    dev: true
+
+  /@types/node/18.11.9:
+    resolution:
+      {
+        integrity: sha512-CRpX21/kGdzjOpFsZSkcrXMGIBWMGNIHXXBVFSH+ggkftxg+XYP20TESbh+zFvFj3EQOl5byk0HTRn1IL6hbqg==
       }
     dev: true
 
@@ -218,6 +236,15 @@ packages:
       }
     dev: true
     optional: true
+
+  /@types/responselike/1.0.0:
+    resolution:
+      {
+        integrity: sha512-85Y2BjiufFzaMIlvJDvTTB8Fxl2xfLo4HgmHzVBz08w4wDePCTjYw66PdrolO0kzli3yam/YCgRufyo1DdQVTA==
+      }
+    dependencies:
+      '@types/node': 18.11.9
+    dev: true
 
   /@types/unist/2.0.6:
     resolution:
@@ -1257,6 +1284,8 @@ packages:
     dependencies:
       '@sindresorhus/is': 0.14.0
       '@szmarczak/http-timer': 1.1.2
+      '@types/keyv': 3.1.4
+      '@types/responselike': 1.0.0
       cacheable-request: 6.1.0
       decompress-response: 3.3.0
       duplexer3: 0.1.4
@@ -2259,6 +2288,18 @@ packages:
   /prepend-http/2.0.0:
     resolution: { integrity: sha1-6SQ0v6XqjBn0HN/UAddBo8gZ2Jc= }
     engines: { node: '>=4' }
+    dev: true
+
+  /prettier-plugin-svelte/2.8.0_prettier@2.2.1:
+    resolution:
+      {
+        integrity: sha512-QlXv/U3bUszks3XYDPsk1fsaQC+fo2lshwKbcbO+lrSVdJ+40mB1BfL8OCAk1W9y4pJxpqO/4gqm6NtF3zNGCw==
+      }
+    peerDependencies:
+      prettier: ^1.16.4 || ^2.0.0
+      svelte: ^3.2.0
+    dependencies:
+      prettier: 2.2.1
     dev: true
 
   /prettier/2.2.1:
@@ -3516,6 +3557,7 @@ packages:
         integrity: sha512-Sg7j110mtefBD+qunSLO1lqOEKdrwBFBrR6Qd8f4uwkhWNlbkaqwHse6e7QvD3AP/MNoJdEDLaf8OxYyoWgorQ==
       }
     dependencies:
+      '@types/unist': 2.0.6
       bail: 1.0.5
       extend: 3.0.2
       is-buffer: 2.0.5

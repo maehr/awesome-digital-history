@@ -14,7 +14,8 @@
 		"awesome-lint": "^0.18.0",
 		"cz-conventional-changelog": "^3.3.0",
 		"husky": "^7.0.4",
-		"prettier": "~2.2.1"
+		"prettier": "~2.2.1",
+		"prettier-plugin-svelte": "^2.8.0"
 	},
 	"type": "module",
 	"config": {
