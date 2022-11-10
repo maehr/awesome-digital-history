@@ -1,90 +1,109 @@
 <script>
-	let entries = [
-		{
-			title: 'String',
-			url: 'String',
-			description: 'String',
-			region: ['String'],
-			language: ['ISO 639-2 code'],
-			collection_completed: false,
-			type: [
-				'audiovisual-sources',
-				'books',
-				'photos',
-				'maps-geodata',
-				'learning-resource',
-				'encyclopaedia',
-				'manuscripts',
-				'primary-sources',
-				'statistics-time-series',
-				'search-engine',
-				'archived-websites',
-				'scientific-tools',
-				'newspapers',
-				'magazines'
-			],
-			access: ['on-demand', 'open-access', 'offline', 'online'],
-			reusability: ['copyright', 'creative-commons', 'public-domain-c-0'],
-			period: [
-				'contemporary-history',
-				'modern-times',
-				'middle-ages',
-				'antiquity',
-				'pre-and-early-history'
-			]
-		},
-		{
-			title: 'Test Titel',
-			url: 'https://www.google.com',
-			description: 'Some description',
-			region: ['Global', 'Europe'],
-			language: ['ISO 639-2 code'],
-			collection_completed: false,
-			type: [
-				'audiovisual-sources',
-				'books',
-				'photos',
-				'maps-geodata',
-				'learning-resource',
-				'encyclopaedia',
-				'manuscripts',
-				'primary-sources',
-				'statistics-time-series',
-				'search-engine',
-				'archived-websites',
-				'scientific-tools',
-				'newspapers',
-				'magazines'
-			],
-			access: ['on-demand', 'open-access', 'offline', 'online'],
-			reusability: ['copyright', 'creative-commons', 'public-domain-c-0'],
-			period: [
-				'contemporary-history',
-				'modern-times',
-				'middle-ages',
-				'antiquity',
-				'pre-and-early-history'
-			]
-		}
-	];
+	import MultiSelect from 'svelte-multiselect';
+	import entries from '$lib/data/entries.json';
+	let filter = {
+		region: [],
+		language: [],
+		type: [],
+		access: [],
+		reusability: [],
+		period: []
+	};
+	let filteredEntries = entries;
+	$: filteredEntries = entries.filter((entry) => {
+		return (
+			filter.region.every((region) => entry.region.includes(region)) &&
+			filter.language.every((language) => entry.language.includes(language)) &&
+			filter.type.every((type) => entry.type.includes(type)) &&
+			filter.access.every((access) => entry.access.includes(access)) &&
+			filter.reusability.every((reusability) => entry.reusability.includes(reusability)) &&
+			filter.period.every((period) => entry.period.includes(period))
+		);
+	});
+	let regions = [...new Set(entries.flatMap((entry) => entry.region))];
+	let languages = [...new Set(entries.flatMap((entry) => entry.language))];
+	let types = [...new Set(entries.flatMap((entry) => entry.type))];
+	let accesses = [...new Set(entries.flatMap((entry) => entry.access))];
+	let reusabilities = [...new Set(entries.flatMap((entry) => entry.reusability))];
+	let periods = [...new Set(entries.flatMap((entry) => entry.period))];
 </script>
 
-<div class="grid grid-cols-4 gap-4">
-	{#each entries as entry, i}
+<div class="grid grid-cols-1 md:grid-cols-4 gap-2 md:gap-4">
+	<div class="card bg-base-100 shadow-xl">
+		<div class="card-body">
+			<h3 class="card-title">
+				<a class="btn btn-ghost normal-case text-xl" href="#">Awesome Digital History</a>
+			</h3>
+			<div class="card-actions">
+				<div class="form-control">
+					<div class="form-control">
+						<label class="input-group input-group-md">
+							<span>Regions</span>
+							<MultiSelect bind:selected={filter.region} options={regions} />
+						</label>
+					</div>
+					<div class="form-control">
+						<label class="input-group input-group-md">
+							<span>Languages</span>
+							<MultiSelect bind:selected={filter.language} options={languages} />
+						</label>
+					</div>
+					<div class="form-control">
+						<label class="input-group input-group-md">
+							<span>Type</span>
+							<MultiSelect bind:selected={filter.type} options={types} />
+						</label>
+					</div>
+					<div class="form-control">
+						<label class="input-group input-group-md">
+							<span>Access</span>
+							<MultiSelect bind:selected={filter.access} options={accesses} />
+						</label>
+					</div>
+					<div class="form-control">
+						<label class="input-group input-group-md">
+							<span>Reusability</span>
+							<MultiSelect bind:selected={filter.reusability} options={reusabilities} />
+						</label>
+					</div>
+					<div class="form-control">
+						<label class="input-group input-group-md">
+							<span>Period</span>
+							<MultiSelect bind:selected={filter.period} options={periods} />
+						</label>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	{#each filteredEntries as entry, i}
 		<div class="card bg-base-100 shadow-xl">
 			<div class="card-body">
-				<h2 class="card-title">{entry.title}</h2>
+				<h3 class="card-title">{entry.title}</h3>
 				<p>{entry.description}</p>
+				<div class="flex flex-wrap gap-1">
+					{#each entry.region as region}
+						<span class="badge badge-outline">{region}</span>
+					{/each}
+					{#each entry.language as language}
+						<span class="badge">{language}</span>
+					{/each}
+					{#each entry.type as type}
+						<span class="badge badge-secondary">{type}</span>
+					{/each}
+					{#each entry.access as access}
+						<span class="badge badge-accent">{access}</span>
+					{/each}
+					{#each entry.reusability as reusability}
+						<span class="badge badge-ghost">{reusability}</span>
+					{/each}
+					{#each entry.period as period}
+						<span class="badge badge-info">{period}</span>
+					{/each}
+				</div>
 				<div class="card-actions justify-end">
 					<button class="btn btn-primary">{entry.url}</button>
 				</div>
-				<p>{entry.region}</p>
-				<p>{entry.language}</p>
-				<p>{entry.collection_completed}</p>
-				<p>{entry.type}</p>
-				<p>{entry.access}</p>
-				<p>{entry.reusability}</p>
-				<p>{entry.period}</p>
 			</div>
 		</div>
 	{/each}
