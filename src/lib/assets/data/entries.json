@@ -14,7 +14,7 @@
 	{
 		"title": "National Records of Scotland",
 		"url": "https://www.nrscotland.gov.uk/",
-		"description": "https://www.nrscotland.gov.uk/",
+		"description": "The National Records of Scotland (NRS) is the official archive for Scotland. It holds a wide range of records, including census returns, birth, marriage and death certificates, parish records, and military records.",
 		"region": ["Great Britain"],
 		"language": ["en"],
 		"collection_completed": false,
@@ -26,7 +26,7 @@
 	{
 		"title": "Delpher",
 		"url": "https://www.delpher.nl/",
-		"description": "https://www.delpher.nl/",
+		"description": "Delpher is a digital library for research, containing millions of pages of historical newspapers, books and journals.",
 		"region": ["Netherlands"],
 		"language": ["nl", "en"],
 		"collection_completed": false,

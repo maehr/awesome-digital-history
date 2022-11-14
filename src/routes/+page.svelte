@@ -32,7 +32,7 @@
 	<div class="card bg-base-100 shadow-xl">
 		<div class="card-body">
 			<h3 class="card-title" id="top">
-				<a class="btn btn-ghost normal-case text-xl" href="#top">Awesome Digital History</a>
+				<a class="btn btn-primary normal-case text-xl" href="#top">Awesome Digital History</a>
 			</h3>
 			<div class="card-actions">
 				<div class="form-control">
@@ -67,7 +67,9 @@
 	{#each filteredEntries as entry, i}
 		<div class="card bg-base-100 shadow-xl">
 			<div class="card-body">
-				<h3 class="card-title">{entry.title}</h3>
+				<h3 class="card-title">
+					<a class="btn btn-primary normal-case text-xl" href={entry.url}>{entry.title}</a>
+				</h3>
 				<p>{entry.description}</p>
 				<div class="flex flex-wrap gap-1">
 					{#each entry.region as region}
@@ -88,9 +90,6 @@
 					{#each entry.period as period}
 						<span class="badge badge-info">{period}</span>
 					{/each}
-				</div>
-				<div class="card-actions justify-end">
-					<button class="btn btn-primary">{entry.url}</button>
 				</div>
 			</div>
 		</div>
