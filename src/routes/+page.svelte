@@ -31,8 +31,8 @@
 <div class="grid grid-cols-1 md:grid-cols-4 gap-2 md:gap-4">
 	<div class="card bg-base-100 shadow-xl">
 		<div class="card-body">
-			<h3 class="card-title">
-				<a class="btn btn-ghost normal-case text-xl" href="#">Awesome Digital History</a>
+			<h3 class="card-title" id="top">
+				<a class="btn btn-ghost normal-case text-xl" href="#top">Awesome Digital History</a>
 			</h3>
 			<div class="card-actions">
 				<div class="form-control">
