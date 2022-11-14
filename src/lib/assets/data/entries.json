@@ -2,7 +2,7 @@
 	{
 		"title": "NLS",
 		"url": "https://data.nls.uk/data/",
-		"description": "Data collections from the National Library of Scotland.	Great Britain",
+		"description": "Data collections from the National Library of Scotland.",
 		"region": ["Great Britain"],
 		"language": ["en"],
 		"collection_completed": false,
@@ -22,6 +22,18 @@
 		"access": ["open-access", "online"],
 		"reusability": ["copyright", "creative-commons", "public-domain-c-0"],
 		"period": ["contemporary-history", "modern-times", "middle-ages"]
+	},
+	{
+		"title": "Delpher",
+		"url": "https://www.delpher.nl/",
+		"description": "https://www.delpher.nl/",
+		"region": ["Netherlands"],
+		"language": ["nl", "en"],
+		"collection_completed": false,
+		"type": ["books", "primary-sources", "newspapers", "magazines"],
+		"access": ["on-demand", "open-access", "online"],
+		"reusability": ["copyright", "creative-commons", "public-domain-c-0"],
+		"period": ["contemporary-history", "modern-times"]
 	},
 	{
 		"title": "String",

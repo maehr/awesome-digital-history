@@ -37,40 +37,28 @@
 			<div class="card-actions">
 				<div class="form-control">
 					<div class="form-control">
-						<label class="input-group input-group-md">
-							<span>Regions</span>
-							<MultiSelect bind:selected={filter.region} options={regions} />
-						</label>
+						<span>Regions</span>
+						<MultiSelect bind:selected={filter.region} options={regions} />
 					</div>
 					<div class="form-control">
-						<label class="input-group input-group-md">
-							<span>Languages</span>
-							<MultiSelect bind:selected={filter.language} options={languages} />
-						</label>
+						<span>Languages</span>
+						<MultiSelect bind:selected={filter.language} options={languages} />
 					</div>
 					<div class="form-control">
-						<label class="input-group input-group-md">
-							<span>Type</span>
-							<MultiSelect bind:selected={filter.type} options={types} />
-						</label>
+						<span>Type</span>
+						<MultiSelect bind:selected={filter.type} options={types} />
 					</div>
 					<div class="form-control">
-						<label class="input-group input-group-md">
-							<span>Access</span>
-							<MultiSelect bind:selected={filter.access} options={accesses} />
-						</label>
+						<span>Access</span>
+						<MultiSelect bind:selected={filter.access} options={accesses} />
 					</div>
 					<div class="form-control">
-						<label class="input-group input-group-md">
-							<span>Reusability</span>
-							<MultiSelect bind:selected={filter.reusability} options={reusabilities} />
-						</label>
+						<span>Reusability</span>
+						<MultiSelect bind:selected={filter.reusability} options={reusabilities} />
 					</div>
 					<div class="form-control">
-						<label class="input-group input-group-md">
-							<span>Period</span>
-							<MultiSelect bind:selected={filter.period} options={periods} />
-						</label>
+						<span>Period</span>
+						<MultiSelect bind:selected={filter.period} options={periods} />
 					</div>
 				</div>
 			</div>
