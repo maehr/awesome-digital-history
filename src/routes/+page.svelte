@@ -1,6 +1,6 @@
 <script>
 	import MultiSelect from 'svelte-multiselect';
-	import entries from '$lib/data/entries.json';
+	import entries from '$lib/assets/data/entries.json';
 	let filter = {
 		region: [],
 		language: [],

@@ -1,0 +1,59 @@
+[
+	{
+		"title": "NLS",
+		"url": "https://data.nls.uk/data/",
+		"description": "Data collections from the National Library of Scotland.	Great Britain",
+		"region": ["Great Britain"],
+		"language": ["en"],
+		"collection_completed": false,
+		"type": ["books", "photos", "maps-geodata", "primary-sources"],
+		"access": ["open-access", "online"],
+		"reusability": ["copyright", "creative-commons", "public-domain-c-0"],
+		"period": ["contemporary-history", "modern-times"]
+	},
+	{
+		"title": "National Records of Scotland",
+		"url": "https://www.nrscotland.gov.uk/",
+		"description": "https://www.nrscotland.gov.uk/",
+		"region": ["Great Britain"],
+		"language": ["en"],
+		"collection_completed": false,
+		"type": ["maps-geodata", "statistics-time-series"],
+		"access": ["open-access", "online"],
+		"reusability": ["copyright", "creative-commons", "public-domain-c-0"],
+		"period": ["contemporary-history", "modern-times", "middle-ages"]
+	},
+	{
+		"title": "String",
+		"url": "String",
+		"description": "String",
+		"region": ["String"],
+		"language": ["ISO 639-2 code"],
+		"collection_completed": false,
+		"type": [
+			"audiovisual-sources",
+			"books",
+			"photos",
+			"maps-geodata",
+			"learning-resource",
+			"encyclopaedia",
+			"manuscripts",
+			"primary-sources",
+			"statistics-time-series",
+			"search-engine",
+			"archived-websites",
+			"scientific-tools",
+			"newspapers",
+			"magazines"
+		],
+		"access": ["on-demand", "open-access", "offline", "online"],
+		"reusability": ["copyright", "creative-commons", "public-domain-c-0"],
+		"period": [
+			"contemporary-history",
+			"modern-times",
+			"middle-ages",
+			"antiquity",
+			"pre-and-early-history"
+		]
+	}
+]
