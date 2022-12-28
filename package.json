@@ -11,7 +11,7 @@
 		"prepare": "husky install"
 	},
 	"devDependencies": {
-		"awesome-lint": "^0.18.0",
+		"awesome-lint": "^0.18.1",
 		"cz-conventional-changelog": "^3.3.0",
 		"husky": "^7.0.4",
 		"prettier": "~2.2.1"
