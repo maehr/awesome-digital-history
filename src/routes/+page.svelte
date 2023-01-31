@@ -1,7 +1,8 @@
 <script>
 	import MultiSelect from 'svelte-multiselect';
 	import entries from '$lib/assets/data/entries.json';
-	let filter = {
+	$: filter = {
+		searchTerm: '',
 		region: [],
 		language: [],
 		type: [],
@@ -9,23 +10,38 @@
 		reusability: [],
 		period: []
 	};
-	let filteredEntries = entries;
-	$: filteredEntries = entries.filter((entry) => {
-		return (
-			filter.region.every((region) => entry.region.includes(region)) &&
-			filter.language.every((language) => entry.language.includes(language)) &&
-			filter.type.every((type) => entry.type.includes(type)) &&
-			filter.access.every((access) => entry.access.includes(access)) &&
-			filter.reusability.every((reusability) => entry.reusability.includes(reusability)) &&
-			filter.period.every((period) => entry.period.includes(period))
-		);
-	});
 	let regions = [...new Set(entries.flatMap((entry) => entry.region))];
 	let languages = [...new Set(entries.flatMap((entry) => entry.language))];
 	let types = [...new Set(entries.flatMap((entry) => entry.type))];
-	let accesses = [...new Set(entries.flatMap((entry) => entry.access))];
-	let reusabilities = [...new Set(entries.flatMap((entry) => entry.reusability))];
+	let access = [...new Set(entries.flatMap((entry) => entry.access))];
+	let reusability = [...new Set(entries.flatMap((entry) => entry.reusability))];
 	let periods = [...new Set(entries.flatMap((entry) => entry.period))];
+
+	$: filteredEntries = entries
+		.filter(
+			(item) =>
+				item.title.toLowerCase().includes(filter.searchTerm.toLowerCase()) ||
+				item.description.toLowerCase().includes(filter.searchTerm.toLowerCase())
+		)
+		.filter(
+			(item) => filter.region.length === 0 || item.region.some((r) => filter.region.includes(r))
+		)
+		.filter(
+			(item) =>
+				filter.language.length === 0 || item.language.some((r) => filter.language.includes(r))
+		)
+		.filter((item) => filter.type.length === 0 || item.type.some((r) => filter.type.includes(r)))
+		.filter(
+			(item) => filter.access.length === 0 || item.access.some((r) => filter.access.includes(r))
+		)
+		.filter(
+			(item) =>
+				filter.reusability.length === 0 ||
+				item.reusability.some((r) => filter.reusability.includes(r))
+		)
+		.filter(
+			(item) => filter.period.length === 0 || item.period.some((r) => filter.period.includes(r))
+		);
 </script>
 
 <div class="grid grid-cols-1 md:grid-cols-4 gap-2 md:gap-4">
@@ -34,6 +50,11 @@
 			<h3 class="card-title" id="top">
 				<a class="btn btn-primary normal-case text-xl" href="#top">Awesome Digital History</a>
 			</h3>
+			<input
+				type="text"
+				bind:value={filter.searchTerm}
+				placeholder="Search by title or description"
+			/>
 			<div class="card-actions">
 				<div class="form-control">
 					<div class="form-control">
@@ -50,11 +71,11 @@
 					</div>
 					<div class="form-control">
 						<span>Access</span>
-						<MultiSelect bind:selected={filter.access} options={accesses} />
+						<MultiSelect bind:selected={filter.access} options={access} />
 					</div>
 					<div class="form-control">
 						<span>Reusability</span>
-						<MultiSelect bind:selected={filter.reusability} options={reusabilities} />
+						<MultiSelect bind:selected={filter.reusability} options={reusability} />
 					</div>
 					<div class="form-control">
 						<span>Period</span>
@@ -64,7 +85,8 @@
 			</div>
 		</div>
 	</div>
-	{#each filteredEntries as entry, i}
+
+	{#each filteredEntries as entry}
 		<div class="card bg-base-100 shadow-xl">
 			<div class="card-body">
 				<h3 class="card-title">
