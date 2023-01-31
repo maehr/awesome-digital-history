@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: If you use this software, please cite it using these metadata.
+title: Awesome Digital History
+abstract: Finding aids for textual and multimedia primary sources with a focus on the western hemisphere and the 19th and 20th centuries. Courses and learning tools to explore history digitally.
+authors:
+  - given-names: Moritz
+    family-names: Mähr
+    orcid: https://orcid.org/0000-0002-1367-1618
+  - given-names: Henrike
+    family-names: Hoffmann
+  - given-names: Markus
+    family-names: Wolfenswan
+  - given-names: Rida
+    family-names: Ayed
+  - given-names: Wincent
+    family-names: Balin
+  - given-names: Kieran
+    family-names: Robson
+date-released: 2019-09-20
+keywords:
+  - awesome-list
+  - digital-history
+  - digital-humanities
+  - history
+  - primary-sources
+  - libraries
+  - collections
+  - archives
+  - maps
+  - newspapers
+license: CC0-1.0
+repository-code: https://github.com/maehr/awesome-digital-history
