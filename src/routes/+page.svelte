@@ -81,6 +81,21 @@
 						<span>Period</span>
 						<MultiSelect bind:selected={filter.period} options={periods} />
 					</div>
+					<div class="form-control">
+						<button
+							class="btn btn-primary"
+							on:click={() => {
+								filter.searchTerm = '';
+								filter.region = [];
+								filter.language = [];
+								filter.type = [];
+								filter.access = [];
+								filter.reusability = [];
+								filter.period = [];
+							}}>
+							Reset
+						</button>
+					</div>
 				</div>
 			</div>
 		</div>
