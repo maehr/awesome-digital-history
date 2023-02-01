@@ -57,10 +57,10 @@
 			/>
 			<div class="card-actions">
 				<div class="form-control">
-					<div class="form-control">
+					<!-- <div class="form-control">
 						<span>Regions</span>
 						<MultiSelect bind:selected={filter.region} options={regions} />
-					</div>
+					</div> -->
 					<div class="form-control">
 						<span>Languages</span>
 						<MultiSelect bind:selected={filter.language} options={languages} />
@@ -94,9 +94,9 @@
 				</h3>
 				<p>{entry.description}</p>
 				<div class="flex flex-wrap gap-1">
-					{#each entry.region as region}
+					<!-- {#each entry.region as region}
 						<span class="badge badge-outline">{region}</span>
-					{/each}
+					{/each} -->
 					{#each entry.language as language}
 						<span class="badge">{language}</span>
 					{/each}
