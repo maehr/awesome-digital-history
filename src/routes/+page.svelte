@@ -10,12 +10,22 @@
 		reusability: [],
 		period: []
 	};
-	let regions = [...new Set(entries.flatMap((entry) => entry.region))];
-	let languages = [...new Set(entries.flatMap((entry) => entry.language))];
-	let types = [...new Set(entries.flatMap((entry) => entry.type))];
-	let access = [...new Set(entries.flatMap((entry) => entry.access))];
-	let reusability = [...new Set(entries.flatMap((entry) => entry.reusability))];
-	let periods = [...new Set(entries.flatMap((entry) => entry.period))];
+	// let regions = [...new Set(entries.flatMap((entry) => entry.region))];
+	let languages = [...new Set(entries.flatMap((entry) => entry.language))].sort((a, b) =>
+		a.localeCompare(b)
+	);
+	let types = [...new Set(entries.flatMap((entry) => entry.type))].sort((a, b) =>
+		a.localeCompare(b)
+	);
+	let access = [...new Set(entries.flatMap((entry) => entry.access))].sort((a, b) =>
+		a.localeCompare(b)
+	);
+	let reusability = [...new Set(entries.flatMap((entry) => entry.reusability))].sort((a, b) =>
+		a.localeCompare(b)
+	);
+	let periods = [...new Set(entries.flatMap((entry) => entry.period))].sort((a, b) =>
+		a.localeCompare(b)
+	);
 
 	$: filteredEntries = entries
 		.filter(
@@ -23,9 +33,9 @@
 				item.title.toLowerCase().includes(filter.searchTerm.toLowerCase()) ||
 				item.description.toLowerCase().includes(filter.searchTerm.toLowerCase())
 		)
-		.filter(
-			(item) => filter.region.length === 0 || item.region.some((r) => filter.region.includes(r))
-		)
+		// .filter(
+		// 	(item) => filter.region.length === 0 || item.region.some((r) => filter.region.includes(r))
+		// )
 		.filter(
 			(item) =>
 				filter.language.length === 0 || item.language.some((r) => filter.language.includes(r))
@@ -41,22 +51,28 @@
 		)
 		.filter(
 			(item) => filter.period.length === 0 || item.period.some((r) => filter.period.includes(r))
-		);
+		)
+		.sort((a, b) => a.title.localeCompare(b.title));
 </script>
 
-<div class="grid grid-cols-1 md:grid-cols-4 gap-2 md:gap-4">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-2 md:gap-4 justify-center">
 	<div class="card bg-base-100 shadow-xl">
 		<div class="card-body">
 			<h3 class="card-title" id="top">
 				<a class="btn btn-primary normal-case text-xl" href="#top">Awesome Digital History</a>
 			</h3>
-			<input
-				type="text"
-				bind:value={filter.searchTerm}
-				placeholder="Search by title or description"
-			/>
+
 			<div class="card-actions">
-				<div class="form-control">
+				<div class="form-control grow">
+					<div class="form-control">
+						<span>Search</span>
+						<input
+							type="text"
+							class="input input-bordered"
+							bind:value={filter.searchTerm}
+							placeholder="Search by title or description"
+						/>
+					</div>
 					<!-- <div class="form-control">
 						<span>Regions</span>
 						<MultiSelect bind:selected={filter.region} options={regions} />
@@ -82,6 +98,7 @@
 						<MultiSelect bind:selected={filter.period} options={periods} />
 					</div>
 					<div class="form-control">
+						<span>&nbsp;</span>
 						<button
 							class="btn btn-primary"
 							on:click={() => {
@@ -92,7 +109,8 @@
 								filter.access = [];
 								filter.reusability = [];
 								filter.period = [];
-							}}>
+							}}
+						>
 							Reset
 						</button>
 					</div>
@@ -107,6 +125,9 @@
 				<h3 class="card-title">
 					<a class="btn btn-primary normal-case text-xl" href={entry.url}>{entry.title}</a>
 				</h3>
+				<a class="btn btn-secondary normal-case text-sm" href={entry.url}
+					>{entry.url.replace(/(^\w+:|^)\/\//, '')}</a
+				>
 				<p>{entry.description}</p>
 				<div class="flex flex-wrap gap-1">
 					<!-- {#each entry.region as region}
