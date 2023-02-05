@@ -1,4 +1,9 @@
 <script>
+	// import Plausible from 'plausible-tracker';
+	// const { trackEvent } = Plausible();
+	// // Tracks the 'signup' goal
+	// trackEvent('signup');
+
 	import MultiSelect from 'svelte-multiselect';
 	import entries from '$lib/assets/data/entries.json';
 	$: filter = {
@@ -55,7 +60,15 @@
 		.sort((a, b) => a.title.localeCompare(b.title));
 </script>
 
-<div class="grid grid-cols-1 md:grid-cols-4 gap-2 md:gap-4 justify-center">
+<svelte:head>
+	<title>Find primary sources online and learn how to research history digitally.</title>
+	<meta
+		name="description"
+		content="Finding aids for textual and multimedia primary sources with a focus on the western hemisphere and the 19th and 20th centuries. Courses and learning tools to explore history digitally."
+	/>
+</svelte:head>
+
+<div class="grid grid-cols-1 md:grid-cols-4 gap-2 md:gap-4 overflow-y-hidden">
 	<div class="card bg-base-100 shadow-xl">
 		<div class="card-body">
 			<h3 class="card-title" id="top">
@@ -65,7 +78,7 @@
 			<div class="card-actions">
 				<div class="form-control grow">
 					<div class="form-control">
-						<span>Search</span>
+						<label class="label"><span>Search</span></label>
 						<input
 							type="text"
 							class="input input-bordered"
@@ -78,27 +91,30 @@
 						<MultiSelect bind:selected={filter.region} options={regions} />
 					</div> -->
 					<div class="form-control">
-						<span>Languages</span>
+						<label class="label">
+							<span>Languages</span>
+						</label>
 						<MultiSelect bind:selected={filter.language} options={languages} />
 					</div>
 					<div class="form-control">
-						<span>Type</span>
+						<label class="label"><span>Type</span></label>
 						<MultiSelect bind:selected={filter.type} options={types} />
 					</div>
 					<div class="form-control">
-						<span>Access</span>
+						<label class="label"><span>Access</span></label>
 						<MultiSelect bind:selected={filter.access} options={access} />
 					</div>
 					<div class="form-control">
-						<span>Reusability</span>
+						<label class="label"><span>Reusability</span></label>
 						<MultiSelect bind:selected={filter.reusability} options={reusability} />
 					</div>
 					<div class="form-control">
-						<span>Period</span>
+						<label class="label"><span>Period</span></label>
 						<MultiSelect bind:selected={filter.period} options={periods} />
 					</div>
 					<div class="form-control">
 						<span>&nbsp;</span>
+						<label class="label hidden">Reset</label>
 						<button
 							class="btn btn-primary"
 							on:click={() => {
@@ -122,14 +138,17 @@
 	{#each filteredEntries as entry}
 		<div class="card bg-base-100 shadow-xl">
 			<div class="card-body">
-				<h3 class="card-title">
-					<a class="btn btn-primary normal-case text-xl" href={entry.url}>{entry.title}</a>
+				<h3 class="card-title text-primary">
+					<a class="normal-case text-xl break-word" href={entry.url}>{entry.title}</a>
 				</h3>
-				<a class="btn btn-secondary normal-case text-sm" href={entry.url}
-					>{entry.url.replace(/(^\w+:|^)\/\//, '')}</a
-				>
+				<p>
+					<a class="normal-case btn btn-accent break-all" href={entry.url}
+						>{entry.url.replace(/(^\w+:|^)\/\//, '')}</a
+					>
+				</p>
 				<p>{entry.description}</p>
-				<div class="flex flex-wrap gap-1">
+
+				<div class="flex flex-wrap gap-1 justify-end">
 					<!-- {#each entry.region as region}
 						<span class="badge badge-outline">{region}</span>
 					{/each} -->
