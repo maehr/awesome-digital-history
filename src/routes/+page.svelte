@@ -1,9 +1,4 @@
 <script>
-	// import Plausible from 'plausible-tracker';
-	// const { trackEvent } = Plausible();
-	// // Tracks the 'signup' goal
-	// trackEvent('signup');
-
 	import MultiSelect from 'svelte-multiselect';
 	import entries from '$lib/assets/data/entries.json';
 	$: filter = {
