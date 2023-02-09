@@ -10,49 +10,33 @@
 		reusability: [],
 		period: []
 	};
-	// let regions = [...new Set(entries.flatMap((entry) => entry.region))];
-	let languages = [...new Set(entries.flatMap((entry) => entry.language))].sort((a, b) =>
-		a.localeCompare(b)
-	);
-	let types = [...new Set(entries.flatMap((entry) => entry.type))].sort((a, b) =>
-		a.localeCompare(b)
-	);
-	let access = [...new Set(entries.flatMap((entry) => entry.access))].sort((a, b) =>
-		a.localeCompare(b)
-	);
-	let reusability = [...new Set(entries.flatMap((entry) => entry.reusability))].sort((a, b) =>
-		a.localeCompare(b)
-	);
-	let periods = [...new Set(entries.flatMap((entry) => entry.period))].sort((a, b) =>
-		a.localeCompare(b)
-	);
+	const filterOptions = [
+		{label: 'Languages', key: 'language', values: [], badgeClasses: 'badge'},
+		{label: 'Type', key: 'type', values: [], badgeClasses: 'badge badge-secondary'},
+		{label: 'Access', key: 'access', values: [], badgeClasses: 'badge badge-accent'},
+		{label: 'Reusability', key: 'reusability', values: [], badgeClasses: 'badge badge-ghost'},
+		{label: 'Period', key: 'period', values: [], badgeClasses: 'badge badge-info'}
+	];
+
+	// if entries change, this would have to be done dynamically (i.e. $)
+	filterOptions.forEach((option) => {
+		option.values = [...new Set(entries.flatMap((entry) => entry[option.key]))].sort((a, b) => a.localeCompare(b));
+	})
 
 	$: filteredEntries = entries
 		.filter(
 			(item) =>
-				item.title.toLowerCase().includes(filter.searchTerm.toLowerCase()) ||
-				item.description.toLowerCase().includes(filter.searchTerm.toLowerCase())
-		)
+				(item.title.toLowerCase().includes(filter.searchTerm.toLowerCase()) ||
+				item.description.toLowerCase().includes(filter.searchTerm.toLowerCase())) &&
+				(filter.language.length === 0 || item.language.some((r) => filter.language.includes(r))) &&
+				(filter.type.length === 0 || item.type.some((r) => filter.type.includes(r))) &&
+				(filter.access.length === 0 || item.access.some((r) => filter.access.includes(r))) &&
+				(filter.reusability.length === 0 || item.reusability.some((r) => filter.reusability.includes(r))) &&
+				(filter.period.length === 0 || item.period.some((r) => filter.period.includes(r)))
+		).sort((a, b) => a.title.localeCompare(b.title));
 		// .filter(
 		// 	(item) => filter.region.length === 0 || item.region.some((r) => filter.region.includes(r))
 		// )
-		.filter(
-			(item) =>
-				filter.language.length === 0 || item.language.some((r) => filter.language.includes(r))
-		)
-		.filter((item) => filter.type.length === 0 || item.type.some((r) => filter.type.includes(r)))
-		.filter(
-			(item) => filter.access.length === 0 || item.access.some((r) => filter.access.includes(r))
-		)
-		.filter(
-			(item) =>
-				filter.reusability.length === 0 ||
-				item.reusability.some((r) => filter.reusability.includes(r))
-		)
-		.filter(
-			(item) => filter.period.length === 0 || item.period.some((r) => filter.period.includes(r))
-		)
-		.sort((a, b) => a.title.localeCompare(b.title));
 </script>
 
 <svelte:head>
@@ -73,53 +57,32 @@
 			<div class="card-actions">
 				<div class="form-control grow">
 					<div class="form-control">
-						<label class="label"><span>Search</span></label>
+						<label class="label" for="search"><span>Search</span></label>
 						<input
+							name="search"
 							type="text"
 							class="input input-bordered"
 							bind:value={filter.searchTerm}
 							placeholder="Search by title or description"
 						/>
 					</div>
-					<!-- <div class="form-control">
-						<span>Regions</span>
-						<MultiSelect bind:selected={filter.region} options={regions} />
-					</div> -->
-					<div class="form-control">
-						<label class="label">
-							<span>Languages</span>
-						</label>
-						<MultiSelect bind:selected={filter.language} options={languages} />
-					</div>
-					<div class="form-control">
-						<label class="label"><span>Type</span></label>
-						<MultiSelect bind:selected={filter.type} options={types} />
-					</div>
-					<div class="form-control">
-						<label class="label"><span>Access</span></label>
-						<MultiSelect bind:selected={filter.access} options={access} />
-					</div>
-					<div class="form-control">
-						<label class="label"><span>Reusability</span></label>
-						<MultiSelect bind:selected={filter.reusability} options={reusability} />
-					</div>
-					<div class="form-control">
-						<label class="label"><span>Period</span></label>
-						<MultiSelect bind:selected={filter.period} options={periods} />
-					</div>
+					{#each filterOptions as option}
+						<div class="form-control">
+							<label class="label" for="{option.key}"><span>{option.label}</span></label>
+							<MultiSelect bind:selected={filter[option.key]} options={option.values} name="{option.key}" />
+						</div>
+					{/each}
 					<div class="form-control">
 						<span>&nbsp;</span>
-						<label class="label hidden">Reset</label>
+						<label class="label hidden" for="reset">Reset</label>
 						<button
+							name="reset"
 							class="btn btn-primary"
 							on:click={() => {
 								filter.searchTerm = '';
-								filter.region = [];
-								filter.language = [];
-								filter.type = [];
-								filter.access = [];
-								filter.reusability = [];
-								filter.period = [];
+								filterOptions.forEach((option) => {
+									filter[option.key] = [];
+								});
 							}}
 						>
 							Reset
@@ -144,23 +107,10 @@
 				<p>{entry.description}</p>
 
 				<div class="flex flex-wrap gap-1 justify-end">
-					<!-- {#each entry.region as region}
-						<span class="badge badge-outline">{region}</span>
-					{/each} -->
-					{#each entry.language as language}
-						<span class="badge">{language}</span>
-					{/each}
-					{#each entry.type as type}
-						<span class="badge badge-secondary">{type}</span>
-					{/each}
-					{#each entry.access as access}
-						<span class="badge badge-accent">{access}</span>
-					{/each}
-					{#each entry.reusability as reusability}
-						<span class="badge badge-ghost">{reusability}</span>
-					{/each}
-					{#each entry.period as period}
-						<span class="badge badge-info">{period}</span>
+					{#each filterOptions as option}
+						{#each entry[option.key] as value}
+							<span class="{option.badgeClasses}">{value}</span>
+						{/each}
 					{/each}
 				</div>
 			</div>
