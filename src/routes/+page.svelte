@@ -1,6 +1,10 @@
-<script>
+<script lang="ts">
 	import MultiSelect from 'svelte-multiselect';
 	import entries from '$lib/assets/data/entries.json';
+	import { onMount } from 'svelte';
+	import { page } from '$app/stores';
+	import { goto } from '$app/navigation';
+
 	$: filter = {
 		searchTerm: '',
 		region: [],
@@ -10,33 +14,59 @@
 		reusability: [],
 		period: []
 	};
+
+	onMount(() => {
+		const params = $page.url.searchParams;
+		filter.searchTerm = params.get('searchTerm') || '';
+		filterOptions.forEach((option) => {
+			filter[option.key] = params.getAll(option.key) || [];
+		});
+	});
+
+	// TODO: query params should be written to the URL on change (see https://dev.to/mohamadharith/mutating-query-params-in-sveltekit-without-page-reloads-or-navigations-2i2b)
+	// $: goto(
+	// 	$page.url,
+	// 	{
+	// 		searchTerm: filter.searchTerm,
+	// 		...filterOptions.reduce((acc, option) => {
+	// 			acc[option.key] = filter[option.key];
+	// 			return acc;
+	// 		}, {})
+	// 	},
+	// 	{ replaceState: true }
+	// );
+
 	const filterOptions = [
-		{label: 'Languages', key: 'language', values: [], badgeClasses: 'badge'},
-		{label: 'Type', key: 'type', values: [], badgeClasses: 'badge badge-secondary'},
-		{label: 'Access', key: 'access', values: [], badgeClasses: 'badge badge-accent'},
-		{label: 'Reusability', key: 'reusability', values: [], badgeClasses: 'badge badge-ghost'},
-		{label: 'Period', key: 'period', values: [], badgeClasses: 'badge badge-info'}
+		{ label: 'Languages', key: 'language', values: [], badgeClasses: 'badge' },
+		{ label: 'Type', key: 'type', values: [], badgeClasses: 'badge badge-secondary' },
+		{ label: 'Access', key: 'access', values: [], badgeClasses: 'badge badge-accent' },
+		{ label: 'Reusability', key: 'reusability', values: [], badgeClasses: 'badge badge-ghost' },
+		{ label: 'Period', key: 'period', values: [], badgeClasses: 'badge badge-info' }
 	];
 
 	// if entries change, this would have to be done dynamically (i.e. $)
 	filterOptions.forEach((option) => {
-		option.values = [...new Set(entries.flatMap((entry) => entry[option.key]))].sort((a, b) => a.localeCompare(b));
-	})
+		option.values = [...new Set(entries.flatMap((entry) => entry[option.key]))].sort((a, b) =>
+			a.localeCompare(b)
+		);
+	});
 
 	$: filteredEntries = entries
 		.filter(
 			(item) =>
 				(item.title.toLowerCase().includes(filter.searchTerm.toLowerCase()) ||
-				item.description.toLowerCase().includes(filter.searchTerm.toLowerCase())) &&
+					item.description.toLowerCase().includes(filter.searchTerm.toLowerCase())) &&
 				(filter.language.length === 0 || item.language.some((r) => filter.language.includes(r))) &&
 				(filter.type.length === 0 || item.type.some((r) => filter.type.includes(r))) &&
 				(filter.access.length === 0 || item.access.some((r) => filter.access.includes(r))) &&
-				(filter.reusability.length === 0 || item.reusability.some((r) => filter.reusability.includes(r))) &&
+				(filter.reusability.length === 0 ||
+					item.reusability.some((r) => filter.reusability.includes(r))) &&
 				(filter.period.length === 0 || item.period.some((r) => filter.period.includes(r)))
-		).sort((a, b) => a.title.localeCompare(b.title));
-		// .filter(
-		// 	(item) => filter.region.length === 0 || item.region.some((r) => filter.region.includes(r))
-		// )
+		)
+		.sort((a, b) => a.title.localeCompare(b.title));
+	// .filter(
+	// 	(item) => filter.region.length === 0 || item.region.some((r) => filter.region.includes(r))
+	// )
 </script>
 
 <svelte:head>
@@ -68,8 +98,12 @@
 					</div>
 					{#each filterOptions as option}
 						<div class="form-control">
-							<label class="label" for="{option.key}"><span>{option.label}</span></label>
-							<MultiSelect bind:selected={filter[option.key]} options={option.values} name="{option.key}" />
+							<label class="label" for={option.key}><span>{option.label}</span></label>
+							<MultiSelect
+								bind:selected={filter[option.key]}
+								options={option.values}
+								name={option.key}
+							/>
 						</div>
 					{/each}
 					<div class="form-control">
@@ -109,7 +143,7 @@
 				<div class="flex flex-wrap gap-1 justify-end">
 					{#each filterOptions as option}
 						{#each entry[option.key] as value}
-							<span class="{option.badgeClasses}">{value}</span>
+							<span class={option.badgeClasses}>{value}</span>
 						{/each}
 					{/each}
 				</div>
