@@ -3,7 +3,7 @@
 	import entries from '$lib/assets/data/entries.json';
 	import { onMount } from 'svelte';
 	import { page } from '$app/stores';
-	import { goto } from '$app/navigation';
+	// import { goto } from '$app/navigation';
 
 	$: filter = {
 		searchTerm: '',
@@ -77,12 +77,14 @@
 	/>
 </svelte:head>
 
-<div class="grid grid-cols-1 md:grid-cols-4 gap-2 md:gap-4 overflow-y-hidden">
+<main class="grid grid-cols-1 md:grid-cols-4 gap-2 md:gap-4 overflow-y-hidden" role="main">
 	<div class="card bg-base-100 shadow-xl">
 		<div class="card-body">
-			<h3 class="card-title" id="top">
-				<a class="btn btn-primary normal-case text-xl" href="#top">Awesome Digital History</a>
-			</h3>
+			<h1 class="card-title" id="top">
+				<a class="btn btn-primary normal-case text-xl text-white" href="#top"
+					>Awesome Digital History</a
+				>
+			</h1>
 
 			<div class="card-actions">
 				<div class="form-control grow">
@@ -90,6 +92,7 @@
 						<label class="label" for="search"><span>Search</span></label>
 						<input
 							name="search"
+							id="search"
 							type="text"
 							class="input input-bordered"
 							bind:value={filter.searchTerm}
@@ -103,6 +106,7 @@
 								bind:selected={filter[option.key]}
 								options={option.values}
 								name={option.key}
+								id={option.key}
 							/>
 						</div>
 					{/each}
@@ -111,7 +115,8 @@
 						<label class="label hidden" for="reset">Reset</label>
 						<button
 							name="reset"
-							class="btn btn-primary"
+							id="reset"
+							class="btn btn-primary text-white"
 							on:click={() => {
 								filter.searchTerm = '';
 								filterOptions.forEach((option) => {
@@ -130,9 +135,9 @@
 	{#each filteredEntries as entry}
 		<div class="card bg-base-100 shadow-xl">
 			<div class="card-body">
-				<h3 class="card-title text-primary">
-					<a class="normal-case text-xl break-word" href={entry.url}>{entry.title}</a>
-				</h3>
+				<h2 class="card-title text-primary normal-case text-xl break-word">
+					{entry.title}
+				</h2>
 				<p>
 					<a class="normal-case btn btn-accent break-all" href={entry.url}
 						>{entry.url.replace(/(^\w+:|^)\/\//, '')}</a
@@ -150,4 +155,4 @@
 			</div>
 		</div>
 	{/each}
-</div>
+</main>

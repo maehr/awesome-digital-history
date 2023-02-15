@@ -16,10 +16,10 @@
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.30.0",
-		"@sveltejs/adapter-cloudflare": "^2.0.1",
-		"@sveltejs/kit": "^1.5.6",
+		"@sveltejs/adapter-cloudflare": "^2.0.2",
+		"@sveltejs/kit": "^1.6.0",
 		"autoprefixer": "^10.4.13",
-		"daisyui": "^2.50.0",
+		"daisyui": "^2.50.1",
 		"eslint": "^8.34.0",
 		"eslint-config-prettier": "^8.6.0",
 		"eslint-plugin-svelte3": "^4.0.0",

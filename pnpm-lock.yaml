@@ -2,10 +2,10 @@ lockfileVersion: 5.4
 
 specifiers:
   '@playwright/test': ^1.30.0
-  '@sveltejs/adapter-cloudflare': ^2.0.1
-  '@sveltejs/kit': ^1.5.6
+  '@sveltejs/adapter-cloudflare': ^2.0.2
+  '@sveltejs/kit': ^1.6.0
   autoprefixer: ^10.4.13
-  daisyui: ^2.50.0
+  daisyui: ^2.50.1
   eslint: ^8.34.0
   eslint-config-prettier: ^8.6.0
   eslint-plugin-svelte3: ^4.0.0
@@ -22,10 +22,10 @@ specifiers:
 
 devDependencies:
   '@playwright/test': 1.30.0
-  '@sveltejs/adapter-cloudflare': 2.0.1_@sveltejs+kit@1.5.6
-  '@sveltejs/kit': 1.5.6_svelte@3.55.1+vite@4.1.1
+  '@sveltejs/adapter-cloudflare': 2.0.2_@sveltejs+kit@1.6.0
+  '@sveltejs/kit': 1.6.0_svelte@3.55.1+vite@4.1.1
   autoprefixer: 10.4.13_postcss@8.4.21
-  daisyui: 2.50.0_gbtt6ss3tbiz4yjtvdr6fbrj44
+  daisyui: 2.50.1_gbtt6ss3tbiz4yjtvdr6fbrj44
   eslint: 8.34.0
   eslint-config-prettier: 8.6.0_eslint@8.34.0
   eslint-plugin-svelte3: 4.0.0_dbthnr4b2bdkhyiebwn7su3hnq
@@ -42,8 +42,8 @@ devDependencies:
 
 packages:
 
-  /@cloudflare/workers-types/4.20230115.0:
-    resolution: {integrity: sha512-GPJEiO8AFN+jUpA+DHJ1qdVmk4s/hq8JYKjOV/+U7avGquQbVnj905+Kg6uAEfrq16muwmRKl+XJGqsvlBlDNg==}
+  /@cloudflare/workers-types/4.20230214.0:
+    resolution: {integrity: sha512-PfpzIKjMA1P0HLtzZVKp/V4/rAiSkgIVwGKbQleTmj7y5O62NbWP9gAxzOeQ4LpUc8UL17KRF2rXTgNKP2HNFw==}
     dev: true
 
   /@esbuild/android-arm/0.16.17:
@@ -331,19 +331,19 @@ packages:
     resolution: {integrity: sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==}
     dev: true
 
-  /@sveltejs/adapter-cloudflare/2.0.1_@sveltejs+kit@1.5.6:
-    resolution: {integrity: sha512-MLV/iJrBrs3YeDf+MEUcdRg5ZFt0sYEnhufI+9eTid+hldtKIDjcpTM3wzUDBAl3d523z9sDG2g3eN+xwPER/w==}
+  /@sveltejs/adapter-cloudflare/2.0.2_@sveltejs+kit@1.6.0:
+    resolution: {integrity: sha512-uddWczGKT/Tq5D34zu1moXS2kmRk+B8AUAMPkqQJDlKUfU8+lXum2IjGkLu0vuea64u77vobc+y1WTuiFil4PA==}
     peerDependencies:
       '@sveltejs/kit': ^1.0.0
     dependencies:
-      '@cloudflare/workers-types': 4.20230115.0
-      '@sveltejs/kit': 1.5.6_svelte@3.55.1+vite@4.1.1
+      '@cloudflare/workers-types': 4.20230214.0
+      '@sveltejs/kit': 1.6.0_svelte@3.55.1+vite@4.1.1
       esbuild: 0.16.17
       worktop: 0.8.0-next.14
     dev: true
 
-  /@sveltejs/kit/1.5.6_svelte@3.55.1+vite@4.1.1:
-    resolution: {integrity: sha512-CHVeQpbcwSIUekF6WwevmExKXyfHnzM5nlCEUv13lGgfJ0zKA0ny5YwIe40vccrm5w5Caec7jMTt9Ih3McJr5g==}
+  /@sveltejs/kit/1.6.0_svelte@3.55.1+vite@4.1.1:
+    resolution: {integrity: sha512-SiY+JVid3SABzksiw4TVOO7+c3z02qFd2aD6T3DO2VScLjrml+C0B9B+QAMLuAPKAuDwmRamPRHURKvFktLbfA==}
     engines: {node: ^16.14 || >=18}
     hasBin: true
     requiresBuild: true
@@ -504,7 +504,7 @@ packages:
       postcss: ^8.1.0
     dependencies:
       browserslist: 4.21.5
-      caniuse-lite: 1.0.30001451
+      caniuse-lite: 1.0.30001452
       fraction.js: 4.2.0
       normalize-range: 0.1.2
       picocolors: 1.0.0
@@ -540,8 +540,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001451
-      electron-to-chromium: 1.4.295
+      caniuse-lite: 1.0.30001452
+      electron-to-chromium: 1.4.297
       node-releases: 2.0.10
       update-browserslist-db: 1.0.10_browserslist@4.21.5
     dev: true
@@ -567,8 +567,8 @@ packages:
     engines: {node: '>= 6'}
     dev: true
 
-  /caniuse-lite/1.0.30001451:
-    resolution: {integrity: sha512-XY7UbUpGRatZzoRft//5xOa69/1iGJRBlrieH6QYrkKLIFn3m7OVEJ81dSrKoy2BnKsdbX5cLrOispZNYo9v2w==}
+  /caniuse-lite/1.0.30001452:
+    resolution: {integrity: sha512-Lkp0vFjMkBB3GTpLR8zk4NwW5EdRdnitwYJHDOOKIU85x4ckYCPQ+9WlVvSVClHxVReefkUMtWZH2l9KGlD51w==}
     dev: true
 
   /chai/4.3.7:
@@ -668,8 +668,8 @@ packages:
     hasBin: true
     dev: true
 
-  /daisyui/2.50.0_gbtt6ss3tbiz4yjtvdr6fbrj44:
-    resolution: {integrity: sha512-KiqRvqMXi9rgoH84M8D69gXPg6x+cbdiaHqm8pFHOsXXN1rTl/+OcCKkSnkEwTtIge9VJVDGU6l4B8/n+Juc5g==}
+  /daisyui/2.50.1_gbtt6ss3tbiz4yjtvdr6fbrj44:
+    resolution: {integrity: sha512-Z4GuU/ZknYoHt7qfDQSC5rrxMJ6ffNV9baQfCSbo5J/clC1DBppfrqLJXS8A3NPBRo2GbbpKwdA1ZdThWdpBtQ==}
     peerDependencies:
       autoprefixer: ^10.0.2
       postcss: ^8.1.6
@@ -750,8 +750,8 @@ packages:
       esutils: 2.0.3
     dev: true
 
-  /electron-to-chromium/1.4.295:
-    resolution: {integrity: sha512-lEO94zqf1bDA3aepxwnWoHUjA8sZ+2owgcSZjYQy0+uOSEclJX0VieZC+r+wLpSxUHRd6gG32znTWmr+5iGzFw==}
+  /electron-to-chromium/1.4.297:
+    resolution: {integrity: sha512-dTXLXBdzfDYnZYq+bLer21HrFsEkzlR2OSIOsR+qroDmhmQU3i4T4KdY0Lcp83ZId3HnWTpPAEfhaJtVxmS/dQ==}
     dev: true
 
   /es6-promise/3.3.1:
