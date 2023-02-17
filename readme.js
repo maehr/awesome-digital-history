@@ -48,14 +48,18 @@ regions.forEach((region) => {
 });
 
 sections += `### Learning materials\n\n`;
-const learningMaterials = entries.filter((entry) => entry.region.length === 0 && entry.type.includes('learning materials'));
+const learningMaterials = entries.filter(
+	(entry) => entry.region.length === 0 && entry.type.includes('learning materials')
+);
 learningMaterials.forEach((entry) => {
 	sections += `- [${entry.title}](${entry.url}) - ${entry.description}\n`;
 });
 sections += '\n';
 
 sections += `### More Awesome\n\n`;
-const moreAwesome = entries.filter((entry) => entry.region.length === 0 && !entry.type.includes('learning materials'));
+const moreAwesome = entries.filter(
+	(entry) => entry.region.length === 0 && !entry.type.includes('learning materials')
+);
 moreAwesome.forEach((entry) => {
 	sections += `- [${entry.title}](${entry.url}) - ${entry.description}\n`;
 });

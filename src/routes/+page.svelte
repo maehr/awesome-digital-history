@@ -76,10 +76,10 @@
 	/>
 </svelte:head>
 
-<main class="grid grid-cols-1 md:grid-cols-4 gap-2 md:gap-4 overflow-y-hidden">
+<main class="grid grid-cols-1 md:grid-cols-4 gap-2 md:gap-4 overflow-y-hidden" id="top">
 	<div class="card bg-base-100 shadow-xl">
 		<div class="card-body">
-			<h1 class="card-title" id="top">
+			<h1 class="card-title">
 				<a class="btn btn-primary normal-case text-xl text-white" href="#top"
 					>Awesome Digital History</a
 				>

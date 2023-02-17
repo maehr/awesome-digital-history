@@ -733,7 +733,7 @@
 		"period": ["contemporary", "modern", "medieval"]
 	},
 	{
-		"title": "Ad\\*Access",
+		"title": "Ad*Access",
 		"description": "U.S. and Canadian advertisements covering five product categories - Beauty and Hygiene, Radio, Television, Transportation, and World War II propaganda - dated between 1911 and 1955.",
 		"url": "https://repository.duke.edu/dc/adaccess",
 		"region": ["North America"],
@@ -770,7 +770,7 @@
 	},
 	{
 		"title": "David Rumsey Map Collection",
-		"description": "Historical maps collection ",
+		"description": "Historical maps collection.",
 		"url": "https://www.davidrumsey.com/",
 		"region": ["North America"],
 		"language": ["en"],
@@ -1467,5 +1467,17 @@
 		"access": ["on demand", "OA", "online"],
 		"reusability": ["copyright", "pd/c0"],
 		"period": ["contemporary", "modern"]
+	},
+	{
+		"title": "FOCAL",
+		"description": "The Asia Directories and Chronicles is a reference work for foreign traders in the Asian region, published annually by the Hong Kong Daily Press, annually between 1863 and 1941.",
+		"url": "https://www.asia-directories.org/",
+		"region": ["Asia"],
+		"language": ["en"],
+		"collection_finished": false,
+		"type": ["books", "primary sources", "statistics"],
+		"access": ["OA", "online"],
+		"reusability": ["copyright"],
+		"period": ["contemporary"]
 	}
 ]
