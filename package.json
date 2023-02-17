@@ -12,7 +12,8 @@
 		"test": "playwright test",
 		"test:unit": "vitest",
 		"lint": "prettier --plugin-search-dir . --check . '!{CODE_OF_CONDUCT.md,LICENSE.md}' && eslint .",
-		"format": "prettier --plugin-search-dir . --write . '!{CODE_OF_CONDUCT.md,LICENSE.md}'"
+		"format": "prettier --plugin-search-dir . --write . '!{CODE_OF_CONDUCT.md,LICENSE.md}'",
+		"readme": "node readme.js"
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.30.0",
