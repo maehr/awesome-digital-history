@@ -121,7 +121,6 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [arCHeco](https://www.archeco.info/) - Index of economic collections in archives of Switzerland and Liechtenstein.
 - [COSMOV](http://www.cosmov.uzh.ch/) - COSMOV includes a digital edition of the events of the Zurich summer of 1968.
 - [DigiBern](https://www.digibern.ch/) - Bernese culture and history on the Internet.
-- [Digithek](https://www.digithek.ch/de/) - A collection of digital finding aids for secondary and vocational schools.
 - [Diplomatic Documents of Switzerland](https://www.dodis.ch/) - Diplomatic documents of Switzerland.
 - [e-codices](http://e-codices.ch/) - Virtual manuscript library of Switzerland containing 2297 manuscripts from 92 different collections.
 - [e-gs](https://www.e-gs.ethz.ch/) - Online web portal of the ETH Zurich Graphics Collection.
