@@ -60,7 +60,6 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [leo bw](https://www.leo-bw.de/) - Platform of the State Archives of Baden-Württemberg.
 - [LexM](https://www.lexm.uni-hamburg.de/content/index.xml) - Encyclopedia of musicians persecuted during the Nazi era.
 - [MARCHIVUM](https://druckschriften-digital.marchivum.de/) - Collection of Mannheim newspapers and historical printed matter on the history of Mannheim.
-- [PICTURA paedagogica](https://pictura.bbf.dipf.de/viewer/index/) - Digital image archive on the history of education with 131'155 objects.
 - [Projekt Gutenberg](https://www.projekt-gutenberg.org/) - Contains 10'000 works by over 2'000 authors in German.
 - [SLUB Dresden](https://digital.slub-dresden.de/kollektionen/) - Over 1.8 million graphic media (photographs, maps, drawings).
 - [Spiegel Online](https://www.spiegel.de/dienste/besser-surfen-auf-spiegel-online-suchen-im-archiv-a-676489.html) - SPIEGEL archive since 1947.
