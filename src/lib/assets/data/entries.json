@@ -1398,8 +1398,8 @@
 	},
 	{
 		"title": "Data Visualization",
-		"description": "",
-		"url": "https://github.com/fasouto/awesome-dataviz#readme),,More Awesome\"",
+		"description": "A curated list of awesome open-source data visualizations frameworks, libraries and software.",
+		"url": "https://github.com/fasouto/awesome-dataviz#readme)",
 		"region": [],
 		"language": ["en"],
 		"collection_finished": false,
@@ -1422,8 +1422,8 @@
 	},
 	{
 		"title": "Research Tools",
-		"description": "",
-		"url": "https://github.com/emptymalei/awesome-research#readme),,More Awesome\"",
+		"description": "A list of tools for research.",
+		"url": "https://github.com/emptymalei/awesome-research#readme)",
 		"region": [],
 		"language": ["en"],
 		"collection_finished": false,
@@ -1434,8 +1434,8 @@
 	},
 	{
 		"title": "Scientific Writing",
-		"description": "",
-		"url": "https://github.com/writing-resources/awesome-scientific-writing#readme),,More Awesome\"",
+		"description": "Scientific writing can extend beyond LaTeX, made possible by formats, such as Markdown (and its many flavours), reStructuredText and Jupyter notebooks.",
+		"url": "https://github.com/writing-resources/awesome-scientific-writing#readme)",
 		"region": [],
 		"language": ["en"],
 		"collection_finished": false,
