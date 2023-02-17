@@ -37,6 +37,7 @@
 	// );
 
 	const filterOptions = [
+		{ label: 'Region', key: 'region', values: [], badgeClasses: 'badge badge-primary text-white' },
 		{ label: 'Languages', key: 'language', values: [], badgeClasses: 'badge' },
 		{ label: 'Type', key: 'type', values: [], badgeClasses: 'badge badge-secondary' },
 		{ label: 'Access', key: 'access', values: [], badgeClasses: 'badge badge-accent' },
@@ -56,6 +57,7 @@
 			(item) =>
 				(item.title.toLowerCase().includes(filter.searchTerm.toLowerCase()) ||
 					item.description.toLowerCase().includes(filter.searchTerm.toLowerCase())) &&
+				(filter.region.length === 0 || item.region.some((r) => filter.region.includes(r))) &&
 				(filter.language.length === 0 || item.language.some((r) => filter.language.includes(r))) &&
 				(filter.type.length === 0 || item.type.some((r) => filter.type.includes(r))) &&
 				(filter.access.length === 0 || item.access.some((r) => filter.access.includes(r))) &&
@@ -64,9 +66,6 @@
 				(filter.period.length === 0 || item.period.some((r) => filter.period.includes(r)))
 		)
 		.sort((a, b) => a.title.localeCompare(b.title));
-	// .filter(
-	// 	(item) => filter.region.length === 0 || item.region.some((r) => filter.region.includes(r))
-	// )
 </script>
 
 <svelte:head>
@@ -77,7 +76,7 @@
 	/>
 </svelte:head>
 
-<main class="grid grid-cols-1 md:grid-cols-4 gap-2 md:gap-4 overflow-y-hidden" role="main">
+<main class="grid grid-cols-1 md:grid-cols-4 gap-2 md:gap-4 overflow-y-hidden">
 	<div class="card bg-base-100 shadow-xl">
 		<div class="card-body">
 			<h1 class="card-title" id="top">

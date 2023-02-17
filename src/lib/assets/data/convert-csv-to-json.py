@@ -8,7 +8,7 @@ with urllib.request.urlopen(GOOGLE_SHEET_URL) as response:
     data = []
     for row in reader:
         data.append(row)
-    data = data[2:]
+    data = data[1:]
     # remove the field "Zuständig" and "Gemacht" from the data
     for row in data:
         del row["Zuständig"]
@@ -19,7 +19,7 @@ with urllib.request.urlopen(GOOGLE_SHEET_URL) as response:
         del row["Beschreibung"]
         row["url"] = row["URL"]
         del row["URL"]
-        row["region"] = row["Region"]
+        row["region"] = [row["Region"]] if row["Region"] != "" else []
         del row["Region"]
         row["language"] = [lang for lang in row["Sprache"].replace(" ",",").replace(";", ",").split(",") if lang != ""]
         del row["Sprache"]
