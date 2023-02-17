@@ -24,7 +24,7 @@
 		"period": ["contemporary", "modern"]
 	},
 	{
-		"title": "\u00d6sterreichische Mediathek",
+		"title": "Österreichische Mediathek",
 		"description": "The Austrian archive for sound recordings and videos from cultural and contemporary history.",
 		"url": "https://www.mediathek.at/",
 		"region": ["Austria"],
@@ -60,7 +60,7 @@
 		"period": ["contemporary", "modern", "medieval"]
 	},
 	{
-		"title": "Encyclop\u00e9die d'histoire num\u00e9rique",
+		"title": "Encyclopédie d'histoire numérique",
 		"description": "European History through renewed historiographic objects and major contemporary challenges.",
 		"url": "https://ehne.fr/",
 		"region": ["Europe"],
@@ -310,7 +310,7 @@
 	},
 	{
 		"title": "leo bw",
-		"description": "Platform of the State Archives of Baden-W\u00fcrttemberg.",
+		"description": "Platform of the State Archives of Baden-Württemberg.",
 		"url": "https://www.leo-bw.de/",
 		"region": ["Germany"],
 		"language": ["de"],
@@ -836,7 +836,7 @@
 		"period": ["contemporary", "modern"]
 	},
 	{
-		"title": "Perry-Casta\u00f1eda Library Map Collection",
+		"title": "Perry-Castañeda Library Map Collection",
 		"description": "Online collection of scanned maps.",
 		"url": "https://legacy.lib.utexas.edu/maps/",
 		"region": ["North America"],
@@ -917,7 +917,7 @@
 		"period": ["contemporary"]
 	},
 	{
-		"title": "Ann\u00e9e Politique Suisse",
+		"title": "Année Politique Suisse",
 		"description": "Sources and database for swiss socio-political topics",
 		"url": "https://anneepolitique.swiss/",
 		"region": ["Switzerland"],
@@ -1110,7 +1110,7 @@
 	},
 	{
 		"title": "impresso",
-		"description": "Historical newspaper collections of the Swiss National Library, the National Library of Luxembourg, the Neue Z\u00fcrcher Zeitung, Le Temps, the Valais State Archives and the Swiss Economic Archives.",
+		"description": "Historical newspaper collections of the Swiss National Library, the National Library of Luxembourg, the Neue Zürcher Zeitung, Le Temps, the Valais State Archives and the Swiss Economic Archives.",
 		"url": "https://impresso-project.ch/",
 		"region": ["Switzerland"],
 		"language": ["en"],
@@ -1158,7 +1158,7 @@
 	},
 	{
 		"title": "Le Temps",
-		"description": "Archive of Gazette de Lausanne et du Journal de Gen\u00e8ve.",
+		"description": "Archive of Gazette de Lausanne et du Journal de Genève.",
 		"url": "https://www.letempsarchives.ch/",
 		"region": ["Switzerland"],
 		"language": ["de", "it", "fr", "en"],
@@ -1349,7 +1349,7 @@
 		"period": []
 	},
 	{
-		"title": "Python f\u00fcr Historiker:innen",
+		"title": "Python für Historiker:innen",
 		"description": "The Jupyter Book (in German language) is aimed at historians who are looking for a first application-oriented and interactive introduction to the Python programming language.",
 		"url": "https://digital-history-berlin.github.io/Python-fuer-Historiker-innen/home.html",
 		"region": [],

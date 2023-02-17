@@ -154,4 +154,5 @@ with urllib.request.urlopen(GOOGLE_SHEET_URL) as response:
 
 
 with open('entries.json', 'w') as jsonfile:
-    jsonfile.write(json.dumps(data, indent=4))
+    # write the data to a json file utf-8 encoded
+    json.dump(data, jsonfile, ensure_ascii=False)
