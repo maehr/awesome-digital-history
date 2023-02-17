@@ -13,13 +13,15 @@
 		"test:unit": "vitest",
 		"lint": "prettier --plugin-search-dir . --check . '!{CODE_OF_CONDUCT.md,LICENSE.md}' && eslint .",
 		"format": "prettier --plugin-search-dir . --write . '!{CODE_OF_CONDUCT.md,LICENSE.md}'",
-		"readme": "node readme.js"
+		"readme": "node readme.js",
+		"awesome-lint": "awesome-lint"
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.30.0",
 		"@sveltejs/adapter-cloudflare": "^2.0.2",
 		"@sveltejs/kit": "^1.7.1",
 		"autoprefixer": "^10.4.13",
+		"awesome-lint": "^0.18.2",
 		"daisyui": "^2.50.1",
 		"eslint": "^8.34.0",
 		"eslint-config-prettier": "^8.6.0",

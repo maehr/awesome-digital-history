@@ -47,7 +47,7 @@ regions.forEach((region) => {
 	sections += '\n';
 });
 
-sections += `### Learning\n\n`;
+sections += `## Learning\n\n`;
 const learningMaterials = entries.filter(
 	(entry) => entry.region.length === 0 && entry.type.includes('learning materials')
 );
@@ -56,7 +56,7 @@ learningMaterials.forEach((entry) => {
 });
 sections += '\n';
 
-sections += `### More Awesome\n\n`;
+sections += `## More Awesome\n\n`;
 const moreAwesome = entries.filter(
 	(entry) => entry.region.length === 0 && !entry.type.includes('learning materials')
 );

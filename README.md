@@ -24,7 +24,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [Contribute](#contribute)
 
 ## Archives and primary sources
-
+    
 ### Asia
 
 - [FOCAL](https://www.asia-directories.org/) - The Asia Directories and Chronicles is a reference work for foreign traders in the Asian region, published annually by the Hong Kong Daily Press, annually between 1863 and 1941.
@@ -96,7 +96,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [The Proceedings of the Old Bailey](https://www.oldbaileyonline.org/) - London's Central Criminal Court, 1674 to 1913.
 - [The National Archives](https://www.nationalarchives.gov.uk/) - A non-ministerial department, and the official archive and publisher for the UK Government, and for England and Wales.
 - [NLS](https://data.nls.uk/data/) - Data collections from the National Library of Scotland.
-- [National Records of Scotland](https://www.nrscotland.gov.uk/) - Repository for the public and legal records of Scotland
+- [National Records of Scotland](https://www.nrscotland.gov.uk/) - Repository for the public and legal records of Scotland.
 
 ### Netherlands
 
@@ -105,7 +105,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 
 ### North America
 
-- [Ad\*Access](https://repository.duke.edu/dc/adaccess) - U.S. and Canadian advertisements covering five product categories - Beauty and Hygiene, Radio, Television, Transportation, and World War II propaganda - dated between 1911 and 1955.
+- [Ad*Access](https://repository.duke.edu/dc/adaccess) - U.S. and Canadian advertisements covering five product categories - Beauty and Hygiene, Radio, Television, Transportation, and World War II propaganda - dated between 1911 and 1955.
 - [Chronicling America](https://chroniclingamerica.loc.gov/) - America's historic newspapers from 1777-1963.
 - [Computer Gaming World Museum](https://www.cgwmuseum.org/) - Archive of various magazines on gaming.
 - [David Rumsey Map Collection](https://www.davidrumsey.com/) - Historical maps collection.
@@ -121,7 +121,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 ### Switzerland
 
 - [Amtsdruckschriften](https://www.amtsdruckschriften.bar.admin.ch/) - Federal Gazette, Administrative Case Law of the Federal Authorities and more documents from the Swiss Federal Archives.
-- [Année Politique Suisse](https://anneepolitique.swiss/) - Sources and database for swiss socio-political topics
+- [Année Politique Suisse](https://anneepolitique.swiss/) - Sources and database for swiss socio-political topics.
 - [Archives Online](https://www.archives-online.org/) - Archival search engine for Switzerland.
 - [chgov](https://www.chgov.bar.admin.ch/) - Minutes of the Federal Council (1848-1963).
 - [arCHeco](https://www.archeco.info/) - Index of economic collections in archives of Switzerland and Liechtenstein.
@@ -148,7 +148,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [swisscollections](https://swisscollections.ch/) - Meta search engine for historical and modern collections in Swiss libraries and archives.
 - [timeSTAT Cubes](http://www.sfa-laboratory.ch/sr/cubestest/index.php) - The Federal Council reports to parliament on income and expenditure for the past years.
 
-### Learning
+## Learning
 
 - [AdFontes](https://www.adfontes.uzh.ch/) - An Introduction to Working with Sources in the Archive.
 - [Clio Guide](https://guides.clio-online.de/) - A handbook on digital resources for the historical sciences.
@@ -157,20 +157,20 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [Crafting Digital History](http://workbook.craftingdigitalhistory.ca/) - A Workbook for Methods and Readings in Digital History.
 - [HIST 7370](https://cblevins.github.io/f19-dig-hist/) - Online course for Methods and Readings in Digital History.
 - [History Toolkit](https://dg.philhist.unibas.ch/en/studium/history-a-toolkit-for-students/) - History Toolkit for Students.
-- [Local Linkages](https://locallinkages.org/) - Professional development curriculum to introduce to historical research methods and digital history skills
+- [Local Linkages](https://locallinkages.org/) - Professional development curriculum to introduce to historical research methods and digital history skills.
 - [The CTP Book](https://comp-think.github.io/) - A book for teaching Computational Thinking and Programming skills to people with a background in the Humanities.
 - [The Programming Historian](https://programminghistorian.org/) - Novice-friendly, peer-reviewed tutorials that help humanists learn a wide range of digital tools, techniques, and workflows to facilitate research and teaching.
 - [Python für Historiker:innen](https://digital-history-berlin.github.io/Python-fuer-Historiker-innen/home.html) - The Jupyter Book (in German language) is aimed at historians who are looking for a first application-oriented and interactive introduction to the Python programming language.
 - [UCI Digital History](https://guides.lib.uci.edu/history/history_dh) - Overview on the field of Digital History and Digital Humanities.
 - [We think History](https://wethink.hypotheses.org/) - News about and innovations from digital history.
 
-### More Awesome
+## More Awesome
 
 - [Computer History](https://github.com/watson/awesome-computer-history) - An Awesome List of computer history videos, documentaries and related folklore.
-- [Data Visualization](https://github.com/fasouto/awesome-dataviz#readme)) - A curated list of awesome open-source data visualizations frameworks, libraries and software.
+- [Data Visualization](https://github.com/fasouto/awesome-dataviz#readme) - A curated list of awesome open-source data visualizations frameworks, libraries and software.
 - [Digital Humanities](https://dh-tech.github.io/awesome-digital-humanities#readme) - Tools, resources, and services supporting the Digital Humanities.
-- [Research Tools](https://github.com/emptymalei/awesome-research#readme)) - A list of tools for research.
-- [Scientific Writing](https://github.com/writing-resources/awesome-scientific-writing#readme)) - Scientific writing can extend beyond LaTeX, made possible by formats, such as Markdown (and its many flavours), reStructuredText and Jupyter notebooks.
+- [Research Tools](https://github.com/emptymalei/awesome-research#readme) - A list of tools for research.
+- [Scientific Writing](https://github.com/writing-resources/awesome-scientific-writing#readme) - Scientific writing can extend beyond LaTeX, made possible by formats, such as Markdown (and its many flavours), reStructuredText and Jupyter notebooks.
 - [Tempopedia](https://tempopedia.org/) - Digital History Directory.
 
 ## Contribute
