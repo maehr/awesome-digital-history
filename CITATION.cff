@@ -16,6 +16,11 @@ authors:
     family-names: Balin
   - given-names: Kieran
     family-names: Robson
+  - given-names: Nico
+    family-names: Görlich
+    orcid: https://orcid.org/0000-0003-3860-1488
+  - given-names: Sebastian
+    family-names: Flick
 date-released: 2019-09-20
 keywords:
   - awesome-list
