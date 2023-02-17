@@ -34,7 +34,6 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 ### Europe
 
 - [Archives Portal Europe](https://www.archivesportaleurope.net/) - European archives search engine.
-- [CENDARI](https://archives.cendari.dariah.eu/) - Search engine for libraries containing resources on the Medieval era and World War One.
 - [Encyclopédie d'histoire numérique](https://ehne.fr/) - European History through renewed historiographic objects and major contemporary challenges.
 - [Europeana](https://www.europeana.eu/) - Search engine for European textual and non-textual archival sources.
 - [Mapire](https://mapire.eu/) - Interactive historical maps.
@@ -60,7 +59,6 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [leo bw](https://www.leo-bw.de/) - Platform of the State Archives of Baden-Württemberg.
 - [LexM](https://www.lexm.uni-hamburg.de/content/index.xml) - Encyclopedia of musicians persecuted during the Nazi era.
 - [MARCHIVUM](https://druckschriften-digital.marchivum.de/) - Collection of Mannheim newspapers and historical printed matter on the history of Mannheim.
-- [PICTURA paedagogica](https://pictura.bbf.dipf.de/viewer/index/) - Digital image archive on the history of education with 131'155 objects.
 - [Projekt Gutenberg](https://www.projekt-gutenberg.org/) - Contains 10'000 works by over 2'000 authors in German.
 - [SLUB Dresden](https://digital.slub-dresden.de/kollektionen/) - Over 1.8 million graphic media (photographs, maps, drawings).
 - [Spiegel Online](https://www.spiegel.de/dienste/besser-surfen-auf-spiegel-online-suchen-im-archiv-a-676489.html) - SPIEGEL archive since 1947.
@@ -123,7 +121,6 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [arCHeco](https://www.archeco.info/) - Index of economic collections in archives of Switzerland and Liechtenstein.
 - [COSMOV](http://www.cosmov.uzh.ch/) - COSMOV includes a digital edition of the events of the Zurich summer of 1968.
 - [DigiBern](https://www.digibern.ch/) - Bernese culture and history on the Internet.
-- [Digithek](https://www.digithek.ch/de/) - A collection of digital finding aids for secondary and vocational schools.
 - [Diplomatic Documents of Switzerland](https://www.dodis.ch/) - Diplomatic documents of Switzerland.
 - [e-codices](http://e-codices.ch/) - Virtual manuscript library of Switzerland containing 2297 manuscripts from 92 different collections.
 - [e-gs](https://www.e-gs.ethz.ch/) - Online web portal of the ETH Zurich Graphics Collection.
