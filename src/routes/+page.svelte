@@ -6,35 +6,19 @@
 	import { goto } from '$app/navigation';
 	import { browser } from '$app/environment';
 
-	$: filter = {
-		searchTerm: '',
-		region: [],
-		language: [],
-		type: [],
-		access: [],
-		reusability: [],
-		period: []
-	};
-
-	onMount(() => {
-		const params = $page.url.searchParams;
-		filter.searchTerm = params.get('searchTerm') || '';
-		filterOptions.forEach((option) => {
-			filter[option.key] = params.getAll(option.key) || [];
-		});
-	});
+	export let data;
 
 	 $: {
 		if (browser) {
 		let url = new URL($page.url);
-		if (filter.searchTerm === '') {
+		if (data.filter.searchTerm === '') {
 			url.searchParams.delete('searchTerm');
 		} else {
-			url.searchParams.set('searchTerm', filter.searchTerm);
+			url.searchParams.set('searchTerm', data.filter.searchTerm);
 		}
-		filterOptions.forEach((option) => {
+		data.filterOptions.forEach((option) => {
 			url.searchParams.delete(option.key);
-			filter[option.key].forEach((value) => {
+			data.filter[option.key].forEach((value) => {
 				url.searchParams.append(option.key, value);
 			});
 		});
@@ -44,17 +28,9 @@
 		}
 	 }
 
-	const filterOptions = [
-		{ label: 'Region', key: 'region', values: [], badgeClasses: 'badge badge-primary text-white' },
-		{ label: 'Languages', key: 'language', values: [], badgeClasses: 'badge' },
-		{ label: 'Type', key: 'type', values: [], badgeClasses: 'badge badge-secondary' },
-		{ label: 'Access', key: 'access', values: [], badgeClasses: 'badge badge-accent' },
-		{ label: 'Reusability', key: 'reusability', values: [], badgeClasses: 'badge badge-ghost' },
-		{ label: 'Period', key: 'period', values: [], badgeClasses: 'badge badge-info' }
-	];
 
 	// if entries change, this would have to be done dynamically (i.e. $)
-	filterOptions.forEach((option) => {
+	data.filterOptions.forEach((option) => {
 		option.values = [...new Set(entries.flatMap((entry) => entry[option.key]))].sort((a, b) =>
 			a.localeCompare(b)
 		);
@@ -63,15 +39,15 @@
 	$: filteredEntries = entries
 		.filter(
 			(item) =>
-				(item.title.toLowerCase().includes(filter.searchTerm.toLowerCase()) ||
-					item.description.toLowerCase().includes(filter.searchTerm.toLowerCase())) &&
-				(filter.region.length === 0 || item.region.some((r) => filter.region.includes(r))) &&
-				(filter.language.length === 0 || item.language.some((r) => filter.language.includes(r))) &&
-				(filter.type.length === 0 || item.type.some((r) => filter.type.includes(r))) &&
-				(filter.access.length === 0 || item.access.some((r) => filter.access.includes(r))) &&
-				(filter.reusability.length === 0 ||
-					item.reusability.some((r) => filter.reusability.includes(r))) &&
-				(filter.period.length === 0 || item.period.some((r) => filter.period.includes(r)))
+				(item.title.toLowerCase().includes(data.filter.searchTerm.toLowerCase()) ||
+					item.description.toLowerCase().includes(data.filter.searchTerm.toLowerCase())) &&
+				(data.filter.region.length === 0 || item.region.some((r) => data.filter.region.includes(r))) &&
+				(data.filter.language.length === 0 || item.language.some((r) => data.filter.language.includes(r))) &&
+				(data.filter.type.length === 0 || item.type.some((r) => data.filter.type.includes(r))) &&
+				(data.filter.access.length === 0 || item.access.some((r) => data.filter.access.includes(r))) &&
+				(data.filter.reusability.length === 0 ||
+					item.reusability.some((r) => data.filter.reusability.includes(r))) &&
+				(data.filter.period.length === 0 || item.period.some((r) => data.filter.period.includes(r)))
 		)
 		.sort((a, b) => a.title.localeCompare(b.title));
 </script>
@@ -102,15 +78,15 @@
 							id="search"
 							type="text"
 							class="input input-bordered"
-							bind:value={filter.searchTerm}
+							bind:value={data.filter.searchTerm}
 							placeholder="Search by title or description"
 						/>
 					</div>
-					{#each filterOptions as option}
+					{#each data.filterOptions as option}
 						<div class="form-control">
 							<label class="label" for={option.key}><span>{option.label}</span></label>
 							<MultiSelect
-								bind:selected={filter[option.key]}
+								bind:selected={data.filter[option.key]}
 								options={option.values}
 								name={option.key}
 								id={option.key}
@@ -125,9 +101,9 @@
 							id="reset"
 							class="btn btn-primary text-white"
 							on:click={() => {
-								filter.searchTerm = '';
-								filterOptions.forEach((option) => {
-									filter[option.key] = [];
+								data.filter.searchTerm = '';
+								data.filterOptions.forEach((option) => {
+									data.filter[option.key] = [];
 								});
 							}}
 						>
@@ -153,7 +129,7 @@
 				<p>{entry.description}</p>
 
 				<div class="flex flex-wrap gap-1 justify-end">
-					{#each filterOptions as option}
+					{#each data.filterOptions as option}
 						{#each entry[option.key] as value}
 							<span class={option.badgeClasses}>{value}</span>
 						{/each}
