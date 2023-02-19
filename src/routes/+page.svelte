@@ -3,7 +3,8 @@
 	import entries from '$lib/assets/data/entries.json';
 	import { onMount } from 'svelte';
 	import { page } from '$app/stores';
-	// import { goto } from '$app/navigation';
+	import { goto } from '$app/navigation';
+	import { browser } from '$app/environment';
 
 	$: filter = {
 		searchTerm: '',
@@ -23,18 +24,25 @@
 		});
 	});
 
-	// TODO: query params should be written to the URL on change (see https://dev.to/mohamadharith/mutating-query-params-in-sveltekit-without-page-reloads-or-navigations-2i2b)
-	// $: goto(
-	// 	$page.url,
-	// 	{
-	// 		searchTerm: filter.searchTerm,
-	// 		...filterOptions.reduce((acc, option) => {
-	// 			acc[option.key] = filter[option.key];
-	// 			return acc;
-	// 		}, {})
-	// 	},
-	// 	{ replaceState: true }
-	// );
+	 $: {
+		if (browser) {
+		let url = new URL($page.url);
+		if (filter.searchTerm === '') {
+			url.searchParams.delete('searchTerm');
+		} else {
+			url.searchParams.set('searchTerm', filter.searchTerm);
+		}
+		filterOptions.forEach((option) => {
+			url.searchParams.delete(option.key);
+			filter[option.key].forEach((value) => {
+				url.searchParams.append(option.key, value);
+			});
+		});
+		if (url !== $page.url) {
+			goto(url, { keepFocus: true, noScroll: true });
+		}
+		}
+	 }
 
 	const filterOptions = [
 		{ label: 'Region', key: 'region', values: [], badgeClasses: 'badge badge-primary text-white' },
