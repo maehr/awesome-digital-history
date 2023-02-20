@@ -28,7 +28,6 @@
 		}
 	 }
 
-
 	// if entries change, this would have to be done dynamically (i.e. $)
 	data.filterOptions.forEach((option) => {
 		option.values = [...new Set(entries.flatMap((entry) => entry[option.key]))].sort((a, b) =>
@@ -41,10 +40,13 @@
 			(item) =>
 				(item.title.toLowerCase().includes(data.filter.searchTerm.toLowerCase()) ||
 					item.description.toLowerCase().includes(data.filter.searchTerm.toLowerCase())) &&
-				(data.filter.region.length === 0 || item.region.some((r) => data.filter.region.includes(r))) &&
-				(data.filter.language.length === 0 || item.language.some((r) => data.filter.language.includes(r))) &&
+				(data.filter.region.length === 0 ||
+					item.region.some((r) => data.filter.region.includes(r))) &&
+				(data.filter.language.length === 0 ||
+					item.language.some((r) => data.filter.language.includes(r))) &&
 				(data.filter.type.length === 0 || item.type.some((r) => data.filter.type.includes(r))) &&
-				(data.filter.access.length === 0 || item.access.some((r) => data.filter.access.includes(r))) &&
+				(data.filter.access.length === 0 ||
+					item.access.some((r) => data.filter.access.includes(r))) &&
 				(data.filter.reusability.length === 0 ||
 					item.reusability.some((r) => data.filter.reusability.includes(r))) &&
 				(data.filter.period.length === 0 || item.period.some((r) => data.filter.period.includes(r)))
