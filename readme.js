@@ -1,5 +1,5 @@
 import fs from 'fs';
-import entries from './src/lib/assets/data/entries.json' assert { type: 'json' };
+import entries from './src/lib/data/entries.json' assert { type: 'json' };
 
 let regions = new Set();
 entries.forEach((entry) => {
@@ -68,6 +68,11 @@ sections += '\n';
 const footer = `## Contribute
 
 Contributions welcome! Read the [CONTRIBUTING.md](https://github.com/maehr/awesome-digital-history/blob/main/CONTRIBUTING.md) first.
+
+## License
+
+Data is licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/), code is licensed under [A-GPL 3.0](https://www.gnu.org/licenses/agpl-3.0.en.html).
+
 `;
 
 fs.writeFile('./README.md', header + toc + sections + footer, (err) => {

@@ -1,14 +1,5 @@
 [
 	{
-		"title": "ANNO",
-		"description": "Austrian Newspapers online.",
-		"url": "https://anno.onb.ac.at/",
-		"region": ["Austria"],
-		"language": ["de"],
-		"type": ["primary sources", "newspapers", "magazines"],
-		"period": ["contemporary", "modern"]
-	},
-	{
 		"title": "Ad*Access",
 		"description": "U.S. and Canadian advertisements covering five product categories - Beauty and Hygiene, Radio, Television, Transportation, and World War II propaganda - dated between 1911 and 1955.",
 		"url": "https://repository.duke.edu/dc/adaccess",
@@ -36,12 +27,30 @@
 		"period": ["contemporary"]
 	},
 	{
+		"title": "ANNO",
+		"description": "Austrian Newspapers online.",
+		"url": "https://anno.onb.ac.at/",
+		"region": ["Austria"],
+		"language": ["de"],
+		"type": ["primary sources", "newspapers", "magazines"],
+		"period": ["contemporary", "modern"]
+	},
+	{
 		"title": "Année Politique Suisse",
 		"description": "Sources and database for swiss socio-political topics.",
 		"url": "https://anneepolitique.swiss/",
 		"region": ["Switzerland"],
 		"language": ["de", "fr"],
 		"type": ["encyclopedias"],
+		"period": ["contemporary"]
+	},
+	{
+		"title": "arCHeco",
+		"description": "Index of economic collections in archives of Switzerland and Liechtenstein.",
+		"url": "https://www.archeco.info/",
+		"region": ["Switzerland"],
+		"language": ["de", "it", "fr", "en"],
+		"type": ["search engine"],
 		"period": ["contemporary"]
 	},
 	{
@@ -118,12 +127,12 @@
 		"period": ["contemporary", "modern", "medieval"]
 	},
 	{
-		"title": "COSMOV",
-		"description": "COSMOV includes a digital edition of the events of the Zurich summer of 1968.",
-		"url": "http://www.cosmov.uzh.ch/",
+		"title": "chgov",
+		"description": "Minutes of the Federal Council (1848-1963).",
+		"url": "https://www.chgov.bar.admin.ch/",
 		"region": ["Switzerland"],
-		"language": ["de"],
-		"type": [],
+		"language": ["de", "it", "fr", "en"],
+		"type": ["primary sources"],
 		"period": ["contemporary"]
 	},
 	{
@@ -178,6 +187,15 @@
 		"region": ["Germany"],
 		"language": ["de", "en"],
 		"type": ["audiovisual sources", "photos", "primary sources", "websites", "magazines"],
+		"period": ["contemporary"]
+	},
+	{
+		"title": "COSMOV",
+		"description": "COSMOV includes a digital edition of the events of the Zurich summer of 1968.",
+		"url": "http://www.cosmov.uzh.ch/",
+		"region": ["Switzerland"],
+		"language": ["de"],
+		"type": [],
 		"period": ["contemporary"]
 	},
 	{
@@ -345,6 +363,42 @@
 		"period": ["contemporary"]
 	},
 	{
+		"title": "e-codices",
+		"description": "Virtual manuscript library of Switzerland.",
+		"url": "http://e-codices.ch/",
+		"region": ["Switzerland"],
+		"language": ["de", "it", "fr", "en"],
+		"type": ["primary sources", "manuscripts"],
+		"period": ["contemporary", "modern", "medieval"]
+	},
+	{
+		"title": "e-gs",
+		"description": "Online web portal of the ETH Zurich Graphics Collection.",
+		"url": "https://www.e-gs.ethz.ch/",
+		"region": ["Switzerland"],
+		"language": ["de", "en"],
+		"type": ["photos", "primary sources"],
+		"period": []
+	},
+	{
+		"title": "e-manuscripta",
+		"description": "Manuscript material from Swiss libraries and archives.",
+		"url": "https://www.e-manuscripta.ch/",
+		"region": ["Switzerland"],
+		"language": ["de", "it", "fr", "en"],
+		"type": ["maps", "primary sources", "manuscripts"],
+		"period": ["contemporary", "modern", "medieval"]
+	},
+	{
+		"title": "e-newspaperarchives.ch",
+		"description": "Swiss newspapers.",
+		"url": "https://www.e-newspaperarchives.ch/",
+		"region": ["Switzerland"],
+		"language": ["de", "it", "fr", "en"],
+		"type": ["primary sources", "newspapers"],
+		"period": ["contemporary", "modern"]
+	},
+	{
 		"title": "E-Periodica",
 		"description": "Swiss journals.",
 		"url": "https://www.e-periodica.ch/",
@@ -352,6 +406,15 @@
 		"language": ["de", "it", "fr", "en"],
 		"type": ["primary sources", "magazines"],
 		"period": ["contemporary", "modern"]
+	},
+	{
+		"title": "e-rara",
+		"description": "The platform for digitised rare books from Swiss libraries.",
+		"url": "https://www.e-rara.ch/",
+		"region": ["Switzerland"],
+		"language": ["de", "it", "fr", "en"],
+		"type": ["primary sources"],
+		"period": ["contemporary", "modern", "medieval"]
 	},
 	{
 		"title": "Encyclopédie d'histoire numérique",
@@ -463,6 +526,15 @@
 		"period": ["contemporary"]
 	},
 	{
+		"title": "HathiTrust",
+		"description": "A not-for-profit collaborative of academic and research libraries preserving and making accessible millions of digitized items.",
+		"url": "https://www.hathitrust.org",
+		"region": ["North America"],
+		"language": ["en"],
+		"type": ["books", "maps", "primary sources", "magazines", "manuscripts"],
+		"period": ["contemporary", "modern"]
+	},
+	{
 		"title": "HIST 7370",
 		"description": "Online course for Methods and Readings in Digital History.",
 		"url": "https://cblevins.github.io/f19-dig-hist/",
@@ -472,22 +544,13 @@
 		"period": []
 	},
 	{
-		"title": "HSSO",
-		"description": "Historical statistics of Switzerland online.",
-		"url": "https://hsso.ch/",
+		"title": "histHub",
+		"description": "The platform manages authority files on Swiss history.",
+		"url": "https://histhub.ch/",
 		"region": ["Switzerland"],
-		"language": ["de", "fr", "en"],
-		"type": ["statistics"],
-		"period": ["contemporary"]
-	},
-	{
-		"title": "HathiTrust",
-		"description": "A not-for-profit collaborative of academic and research libraries preserving and making accessible millions of digitized items.",
-		"url": "https://www.hathitrust.org",
-		"region": ["North America"],
-		"language": ["en"],
-		"type": ["books", "maps", "primary sources", "magazines", "manuscripts"],
-		"period": ["contemporary", "modern"]
+		"language": ["de", "it", "fr", "en"],
+		"type": ["encyclopedias", "search engine"],
+		"period": ["contemporary", "modern", "medieval"]
 	},
 	{
 		"title": "Historical Encyclopedia of Switzerland",
@@ -508,6 +571,24 @@
 		"period": []
 	},
 	{
+		"title": "HSSO",
+		"description": "Historical statistics of Switzerland online.",
+		"url": "https://hsso.ch/",
+		"region": ["Switzerland"],
+		"language": ["de", "fr", "en"],
+		"type": ["statistics"],
+		"period": ["contemporary"]
+	},
+	{
+		"title": "impresso",
+		"description": "Historical newspaper collections of the Swiss National Library, the National Library of Luxembourg, the Neue Zürcher Zeitung, Le Temps, the Valais State Archives and the Swiss Economic Archives.",
+		"url": "https://impresso-project.ch/",
+		"region": ["Switzerland"],
+		"language": ["en"],
+		"type": ["newspapers"],
+		"period": ["contemporary", "modern"]
+	},
+	{
 		"title": "Industriekultur",
 		"description": "Swiss national inventory of industry artifacts.",
 		"url": "https://industriekultur.ch/",
@@ -515,6 +596,15 @@
 		"language": ["de"],
 		"type": ["photos", "encyclopedias"],
 		"period": ["contemporary"]
+	},
+	{
+		"title": "infoclio.ch Edition projects",
+		"description": "A database containing current historical edition projects in Switzerland.",
+		"url": "http://www.infoclio.ch/en/edition-projects",
+		"region": ["Switzerland"],
+		"language": ["de", "it", "fr", "en"],
+		"type": ["encyclopedias"],
+		"period": ["contemporary", "modern", "medieval", "ancient"]
 	},
 	{
 		"title": "Institut national de l'audiovisuel",
@@ -574,6 +664,15 @@
 		"period": ["contemporary"]
 	},
 	{
+		"title": "leo bw",
+		"description": "Platform of the State Archives of Baden-Württemberg.",
+		"url": "https://www.leo-bw.de/",
+		"region": ["Germany"],
+		"language": ["de"],
+		"type": ["search engine", "learning materials"],
+		"period": ["contemporary", "modern", "medieval"]
+	},
+	{
 		"title": "LexM",
 		"description": "Encyclopedia of musicians persecuted during the Nazi era.",
 		"url": "https://www.lexm.uni-hamburg.de/content/index.xml",
@@ -592,21 +691,12 @@
 		"period": []
 	},
 	{
-		"title": "MARCHIVUM",
-		"description": "Collection of Mannheim newspapers and historical printed matter on the history of Mannheim.",
-		"url": "https://druckschriften-digital.marchivum.de/",
-		"region": ["Germany"],
-		"language": ["de"],
-		"type": [],
-		"period": []
-	},
-	{
-		"title": "MEMOBASE",
-		"description": "Provides access to audiovisual documents from Swiss memory institutions.",
-		"url": "http://www.memobase.ch/",
+		"title": "map.geo.admin.ch",
+		"description": "Journey through time via maps of Switzerland.",
+		"url": "https://map.geo.admin.ch/",
 		"region": ["Switzerland"],
-		"language": ["de", "it", "fr"],
-		"type": ["audiovisual sources", "photos"],
+		"language": ["de", "it", "fr", "en", "rm"],
+		"type": ["maps"],
 		"period": ["contemporary"]
 	},
 	{
@@ -629,6 +719,15 @@
 		"period": ["contemporary", "modern", "medieval"]
 	},
 	{
+		"title": "MARCHIVUM",
+		"description": "Collection of Mannheim newspapers and historical printed matter on the history of Mannheim.",
+		"url": "https://druckschriften-digital.marchivum.de/",
+		"region": ["Germany"],
+		"language": ["de"],
+		"type": [],
+		"period": []
+	},
+	{
 		"title": "Marxist Internet Archive",
 		"description": "Everything you ever wanted to know about Marx (and other important socialists).",
 		"url": "https://www.marxists.org/",
@@ -647,6 +746,15 @@
 		"period": ["contemporary"]
 	},
 	{
+		"title": "MEMOBASE",
+		"description": "Provides access to audiovisual documents from Swiss memory institutions.",
+		"url": "http://www.memobase.ch/",
+		"region": ["Switzerland"],
+		"language": ["de", "it", "fr"],
+		"type": ["audiovisual sources", "photos"],
+		"period": ["contemporary"]
+	},
+	{
 		"title": "Monasterium",
 		"description": "Deeds from all over Europe.",
 		"url": "https://www.monasterium.net/mom/home",
@@ -654,15 +762,6 @@
 		"language": ["en", "de", "fr", "lt", "lat"],
 		"type": ["books", "photos", "maps", "primary sources", "search engine", "manuscripts"],
 		"period": ["contemporary", "modern", "medieval"]
-	},
-	{
-		"title": "NLS",
-		"description": "Data collections from the National Library of Scotland.",
-		"url": "https://data.nls.uk/data/",
-		"region": ["Great Britain"],
-		"language": ["en"],
-		"type": ["books", "photos", "maps", "primary sources"],
-		"period": ["contemporary", "modern"]
 	},
 	{
 		"title": "Nationaal Archief",
@@ -701,6 +800,15 @@
 		"language": ["en"],
 		"type": ["maps", "statistics"],
 		"period": ["contemporary", "modern", "medieval"]
+	},
+	{
+		"title": "NLS",
+		"description": "Data collections from the National Library of Scotland.",
+		"url": "https://data.nls.uk/data/",
+		"region": ["Great Britain"],
+		"language": ["en"],
+		"type": ["books", "photos", "maps", "primary sources"],
+		"period": ["contemporary", "modern"]
 	},
 	{
 		"title": "OldMapsOnline",
@@ -784,23 +892,6 @@
 		"period": []
 	},
 	{
-		"title": "SLUB Dresden",
-		"description": "Over 1.8 million graphic media (photographs, maps, drawings).",
-		"url": "https://digital.slub-dresden.de/kollektionen/",
-		"region": ["Germany"],
-		"language": ["de"],
-		"type": [
-			"audiovisual sources",
-			"photos",
-			"maps",
-			"primary sources",
-			"newspapers",
-			"magazines",
-			"manuscripts"
-		],
-		"period": ["contemporary", "modern", "medieval"]
-	},
-	{
 		"title": "Schweizerisches Wirtschaftsarchiv",
 		"description": "This collection comprises over 500 business archives from the period 1750 to the present day, with a focus on the Basel region.",
 		"url": "https://ub.unibas.ch/de/historische-bestaende/wirtschaftsarchive/",
@@ -819,6 +910,23 @@
 		"period": []
 	},
 	{
+		"title": "SLUB Dresden",
+		"description": "Over 1.8 million graphic media (photographs, maps, drawings).",
+		"url": "https://digital.slub-dresden.de/kollektionen/",
+		"region": ["Germany"],
+		"language": ["de"],
+		"type": [
+			"audiovisual sources",
+			"photos",
+			"maps",
+			"primary sources",
+			"newspapers",
+			"magazines",
+			"manuscripts"
+		],
+		"period": ["contemporary", "modern", "medieval"]
+	},
+	{
 		"title": "Spiegel Online",
 		"description": "SPIEGEL archive since 1947.",
 		"url": "https://www.spiegel.de/dienste/besser-surfen-auf-spiegel-online-suchen-im-archiv-a-676489.html",
@@ -826,6 +934,15 @@
 		"language": ["de"],
 		"type": ["magazines"],
 		"period": ["contemporary"]
+	},
+	{
+		"title": "swisscollections",
+		"description": "Meta search engine for historical and modern collections in Swiss libraries and archives.",
+		"url": "https://swisscollections.ch/",
+		"region": ["Switzerland"],
+		"language": ["de", "it", "fr", "en"],
+		"type": ["search engine"],
+		"period": ["contemporary", "modern", "medieval", "ancient"]
 	},
 	{
 		"title": "Tempopedia",
@@ -881,6 +998,15 @@
 		"language": ["en"],
 		"type": ["learning materials"],
 		"period": []
+	},
+	{
+		"title": "timeSTAT Cubes",
+		"description": "The Federal Council reports to parliament on income and expenditure for the past years.",
+		"url": "http://www.sfa-laboratory.ch/sr/cubestest/index.php",
+		"region": ["Switzerland"],
+		"language": ["de", "fr"],
+		"type": ["statistics"],
+		"period": ["contemporary"]
 	},
 	{
 		"title": "UB Heidelberg",
@@ -992,15 +1118,6 @@
 		"period": ["contemporary", "modern"]
 	},
 	{
-		"title": "ZLB",
-		"description": "Collections of the Berlin Central and State Library.",
-		"url": "https://digital.zlb.de/",
-		"region": ["Germany"],
-		"language": ["de", "en"],
-		"type": ["books", "photos", "maps", "primary sources", "newspapers", "magazines"],
-		"period": ["contemporary", "modern"]
-	},
-	{
 		"title": "Zefys",
 		"description": "Historical German newspapers.",
 		"url": "http://zefys.staatsbibliothek-berlin.de/",
@@ -1010,130 +1127,13 @@
 		"period": ["contemporary"]
 	},
 	{
-		"title": "arCHeco",
-		"description": "Index of economic collections in archives of Switzerland and Liechtenstein.",
-		"url": "https://www.archeco.info/",
-		"region": ["Switzerland"],
-		"language": ["de", "it", "fr", "en"],
-		"type": ["search engine"],
-		"period": ["contemporary"]
-	},
-	{
-		"title": "chgov",
-		"description": "Minutes of the Federal Council (1848-1963).",
-		"url": "https://www.chgov.bar.admin.ch/",
-		"region": ["Switzerland"],
-		"language": ["de", "it", "fr", "en"],
-		"type": ["primary sources"],
-		"period": ["contemporary"]
-	},
-	{
-		"title": "e-codices",
-		"description": "Virtual manuscript library of Switzerland.",
-		"url": "http://e-codices.ch/",
-		"region": ["Switzerland"],
-		"language": ["de", "it", "fr", "en"],
-		"type": ["primary sources", "manuscripts"],
-		"period": ["contemporary", "modern", "medieval"]
-	},
-	{
-		"title": "e-gs",
-		"description": "Online web portal of the ETH Zurich Graphics Collection.",
-		"url": "https://www.e-gs.ethz.ch/",
-		"region": ["Switzerland"],
-		"language": ["de", "en"],
-		"type": ["photos", "primary sources"],
-		"period": []
-	},
-	{
-		"title": "e-manuscripta",
-		"description": "Manuscript material from Swiss libraries and archives.",
-		"url": "https://www.e-manuscripta.ch/",
-		"region": ["Switzerland"],
-		"language": ["de", "it", "fr", "en"],
-		"type": ["maps", "primary sources", "manuscripts"],
-		"period": ["contemporary", "modern", "medieval"]
-	},
-	{
-		"title": "e-newspaperarchives.ch",
-		"description": "Swiss newspapers.",
-		"url": "https://www.e-newspaperarchives.ch/",
-		"region": ["Switzerland"],
-		"language": ["de", "it", "fr", "en"],
-		"type": ["primary sources", "newspapers"],
-		"period": ["contemporary", "modern"]
-	},
-	{
-		"title": "e-rara",
-		"description": "The platform for digitised rare books from Swiss libraries.",
-		"url": "https://www.e-rara.ch/",
-		"region": ["Switzerland"],
-		"language": ["de", "it", "fr", "en"],
-		"type": ["primary sources"],
-		"period": ["contemporary", "modern", "medieval"]
-	},
-	{
-		"title": "histHub",
-		"description": "The platform manages authority files on Swiss history.",
-		"url": "https://histhub.ch/",
-		"region": ["Switzerland"],
-		"language": ["de", "it", "fr", "en"],
-		"type": ["encyclopedias", "search engine"],
-		"period": ["contemporary", "modern", "medieval"]
-	},
-	{
-		"title": "impresso",
-		"description": "Historical newspaper collections of the Swiss National Library, the National Library of Luxembourg, the Neue Zürcher Zeitung, Le Temps, the Valais State Archives and the Swiss Economic Archives.",
-		"url": "https://impresso-project.ch/",
-		"region": ["Switzerland"],
-		"language": ["en"],
-		"type": ["newspapers"],
-		"period": ["contemporary", "modern"]
-	},
-	{
-		"title": "infoclio.ch Edition projects",
-		"description": "A database containing current historical edition projects in Switzerland.",
-		"url": "http://www.infoclio.ch/en/edition-projects",
-		"region": ["Switzerland"],
-		"language": ["de", "it", "fr", "en"],
-		"type": ["encyclopedias"],
-		"period": ["contemporary", "modern", "medieval", "ancient"]
-	},
-	{
-		"title": "leo bw",
-		"description": "Platform of the State Archives of Baden-Württemberg.",
-		"url": "https://www.leo-bw.de/",
+		"title": "ZLB",
+		"description": "Collections of the Berlin Central and State Library.",
+		"url": "https://digital.zlb.de/",
 		"region": ["Germany"],
-		"language": ["de"],
-		"type": ["search engine", "learning materials"],
-		"period": ["contemporary", "modern", "medieval"]
-	},
-	{
-		"title": "map.geo.admin.ch",
-		"description": "Journey through time via maps of Switzerland.",
-		"url": "https://map.geo.admin.ch/",
-		"region": ["Switzerland"],
-		"language": ["de", "it", "fr", "en", "rm"],
-		"type": ["maps"],
-		"period": ["contemporary"]
-	},
-	{
-		"title": "swisscollections",
-		"description": "Meta search engine for historical and modern collections in Swiss libraries and archives.",
-		"url": "https://swisscollections.ch/",
-		"region": ["Switzerland"],
-		"language": ["de", "it", "fr", "en"],
-		"type": ["search engine"],
-		"period": ["contemporary", "modern", "medieval", "ancient"]
-	},
-	{
-		"title": "timeSTAT Cubes",
-		"description": "The Federal Council reports to parliament on income and expenditure for the past years.",
-		"url": "http://www.sfa-laboratory.ch/sr/cubestest/index.php",
-		"region": ["Switzerland"],
-		"language": ["de", "fr"],
-		"type": ["statistics"],
-		"period": ["contemporary"]
+		"language": ["de", "en"],
+		"type": ["books", "photos", "maps", "primary sources", "newspapers", "magazines"],
+		"period": ["contemporary", "modern"]
 	},
 	{
 		"title": "Österreichische Mediathek",

@@ -1,6 +1,6 @@
-<script lang="ts">
+<script>
 	import MultiSelect from 'svelte-multiselect';
-	import entries from '$lib/assets/data/entries.json';
+	import entries from '$lib/data/entries.json';
 	import { page } from '$app/stores';
 	import { goto } from '$app/navigation';
 	import { browser } from '$app/environment';

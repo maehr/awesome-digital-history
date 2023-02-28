@@ -142,8 +142,8 @@ for row in data:
     row["period"] = period
     del row["Zur Löschung vorgeschlagen"]
     
-# sort the data by the field "title"
-data = sorted(data, key=lambda k: k['title'])
+# sort the data by the field "title" and also sort ö ü ä
+data = sorted(data, key=lambda k: k['title'].lower())
 
 with open('entries.json', 'w') as jsonfile:
     # write the data to a json file utf-8 encoded
