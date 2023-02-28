@@ -176,7 +176,3 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 ## Contribute
 
 Contributions welcome! Read the [CONTRIBUTING.md](https://github.com/maehr/awesome-digital-history/blob/main/CONTRIBUTING.md) first.
-
-## License
-
-Data is licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/), code is licensed under [A-GPL 3.0](https://www.gnu.org/licenses/agpl-3.0.en.html).
