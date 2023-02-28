@@ -15,10 +15,7 @@ assignees: ''
 	"url": "http://example.com",
 	"region": ["Asia"],
 	"language": ["jp"],
-	"collection_finished": false,
 	"type": ["primary sources", "newspapers", "magazines"],
-	"access": ["OA", "online"],
-	"reusability": ["copyright", "pd/c0"],
 	"period": ["contemporary", "modern"]
 }
 ```

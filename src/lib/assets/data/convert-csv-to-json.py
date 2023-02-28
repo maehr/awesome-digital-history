@@ -5,9 +5,7 @@ import urllib.request
 GOOGLE_SHEET_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQmEW51hG93HEI5RTnpj6jsnRtlzqNKgiU119olahqyNE9xBMNtKY93asaR51vPWlskcIYqvFShQeyG/pub?output=csv"
 with urllib.request.urlopen(GOOGLE_SHEET_URL) as response:
     reader = csv.DictReader(str(response.read(), 'utf-8').splitlines())
-    data = []
-    for row in reader:
-        data.append(row)
+    data = [row for row in reader]
 
 data = data[1:]
 # remove the field "Zuständig" and "Gemacht" from the data
@@ -25,10 +23,10 @@ for row in data:
     row["language"] = [lang for lang in row["Sprache"].replace(" ",",").replace(";", ",").split(",") if lang != ""]
     del row["Sprache"]
     # replace "Sammlung abgeschlossen" with "collection_finished"
-    if row["Sammlung abgeschlossen"] == "Ja" or row["Sammlung abgeschlossen"].lower() == "ja":
-        row["collection_finished"] = True
-    else:
-        row["collection_finished"] = False
+    # if row["Sammlung abgeschlossen"] == "Ja" or row["Sammlung abgeschlossen"].lower() == "ja":
+    #     row["collection_finished"] = True
+    # else:
+    #     row["collection_finished"] = False
     del row["Sammlung abgeschlossen"]
     type = []
     # add the string "audiovisual sources" to the list "type" if the field "Audiovisuelle Quellen" is 1
@@ -106,7 +104,7 @@ for row in data:
         access.append("online")
     del row["online"]
     # add the string "copyright" to the list "access" if the field "Copyright" is 1
-    row["access"] = access
+    # row["access"] = access
     reusability = []
     if row["Copyright"] == "1":
         reusability.append("copyright")
@@ -119,7 +117,7 @@ for row in data:
     if row["PD/C0"] == "1":
         reusability.append("pd/c0")
     del row["PD/C0"]
-    row["reusability"] = reusability
+    # row["reusability"] = reusability
     period = []
     # add the string "contemporary" to the list "period" if the field "Zeitgeschichte (19. bis 21. Jh)" is 1
     if row["Zeitgeschichte (19. bis 21. Jh)"] == "1":

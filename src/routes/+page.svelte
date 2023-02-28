@@ -1,7 +1,6 @@
 <script lang="ts">
 	import MultiSelect from 'svelte-multiselect';
 	import entries from '$lib/assets/data/entries.json';
-	import { onMount } from 'svelte';
 	import { page } from '$app/stores';
 	import { goto } from '$app/navigation';
 	import { browser } from '$app/environment';
@@ -45,10 +44,6 @@
 				(data.filter.language.length === 0 ||
 					item.language.some((r) => data.filter.language.includes(r))) &&
 				(data.filter.type.length === 0 || item.type.some((r) => data.filter.type.includes(r))) &&
-				(data.filter.access.length === 0 ||
-					item.access.some((r) => data.filter.access.includes(r))) &&
-				(data.filter.reusability.length === 0 ||
-					item.reusability.some((r) => data.filter.reusability.includes(r))) &&
 				(data.filter.period.length === 0 || item.period.some((r) => data.filter.period.includes(r)))
 		)
 		.sort((a, b) => a.title.localeCompare(b.title));

@@ -5,10 +5,7 @@
 		"url": "https://anno.onb.ac.at/",
 		"region": ["Austria"],
 		"language": ["de"],
-		"collection_finished": false,
 		"type": ["primary sources", "newspapers", "magazines"],
-		"access": ["OA", "online"],
-		"reusability": ["copyright", "pd/c0"],
 		"period": ["contemporary", "modern"]
 	},
 	{
@@ -17,10 +14,7 @@
 		"url": "https://repository.duke.edu/dc/adaccess",
 		"region": ["North America"],
 		"language": ["en"],
-		"collection_finished": true,
 		"type": ["magazines"],
-		"access": ["OA", "online"],
-		"reusability": ["copyright", "cc or copyleft"],
 		"period": ["contemporary"]
 	},
 	{
@@ -29,10 +23,7 @@
 		"url": "https://www.adfontes.uzh.ch/",
 		"region": [],
 		"language": ["de", "fr", "en"],
-		"collection_finished": false,
 		"type": ["learning materials"],
-		"access": ["OA", "online"],
-		"reusability": [],
 		"period": []
 	},
 	{
@@ -41,10 +32,7 @@
 		"url": "https://www.amtsdruckschriften.bar.admin.ch/",
 		"region": ["Switzerland"],
 		"language": ["de", "it", "fr"],
-		"collection_finished": false,
 		"type": ["primary sources"],
-		"access": ["OA", "online"],
-		"reusability": [],
 		"period": ["contemporary"]
 	},
 	{
@@ -53,10 +41,7 @@
 		"url": "https://anneepolitique.swiss/",
 		"region": ["Switzerland"],
 		"language": ["de", "fr"],
-		"collection_finished": false,
 		"type": ["encyclopedias"],
-		"access": ["on demand", "OA", "offline", "online"],
-		"reusability": [],
 		"period": ["contemporary"]
 	},
 	{
@@ -65,10 +50,7 @@
 		"url": "https://www.archives-online.org/",
 		"region": ["Switzerland"],
 		"language": ["de", "it", "fr", "en"],
-		"collection_finished": false,
 		"type": ["search engine"],
-		"access": [],
-		"reusability": ["copyright", "cc or copyleft", "pd/c0"],
 		"period": ["contemporary", "modern", "medieval"]
 	},
 	{
@@ -77,10 +59,7 @@
 		"url": "https://www.archivesportaleurope.net/",
 		"region": ["Europe"],
 		"language": ["en"],
-		"collection_finished": false,
 		"type": ["search engine"],
-		"access": ["on demand", "OA", "offline", "online"],
-		"reusability": [],
 		"period": ["contemporary", "modern", "medieval"]
 	},
 	{
@@ -89,10 +68,7 @@
 		"url": "https://www.archivportal-d.de/",
 		"region": ["Germany"],
 		"language": ["de", "en"],
-		"collection_finished": false,
 		"type": ["primary sources", "search engine"],
-		"access": [],
-		"reusability": ["copyright", "cc or copyleft", "pd/c0"],
 		"period": ["contemporary", "modern", "medieval"]
 	},
 	{
@@ -101,7 +77,6 @@
 		"url": "https://www.bavarikon.de/",
 		"region": ["Germany"],
 		"language": ["de", "en"],
-		"collection_finished": false,
 		"type": [
 			"books",
 			"photos",
@@ -112,8 +87,6 @@
 			"newspapers",
 			"magazines"
 		],
-		"access": ["on demand", "OA", "offline", "online"],
-		"reusability": ["copyright", "cc or copyleft"],
 		"period": ["contemporary", "modern"]
 	},
 	{
@@ -122,10 +95,7 @@
 		"url": "http://bitsavers.trailing-edge.com/",
 		"region": ["Global"],
 		"language": ["en"],
-		"collection_finished": false,
 		"type": ["books", "primary sources", "magazines"],
-		"access": ["OA", "online"],
-		"reusability": [],
 		"period": ["contemporary"]
 	},
 	{
@@ -134,7 +104,6 @@
 		"url": "https://www.bl.uk/catalogues-and-collections/digital-collections",
 		"region": ["Great Britain"],
 		"language": ["en"],
-		"collection_finished": false,
 		"type": [
 			"audiovisual sources",
 			"books",
@@ -146,8 +115,6 @@
 			"magazines",
 			"manuscripts"
 		],
-		"access": ["online"],
-		"reusability": [],
 		"period": ["contemporary", "modern", "medieval"]
 	},
 	{
@@ -156,10 +123,7 @@
 		"url": "http://www.cosmov.uzh.ch/",
 		"region": ["Switzerland"],
 		"language": ["de"],
-		"collection_finished": true,
 		"type": [],
-		"access": [],
-		"reusability": [],
 		"period": ["contemporary"]
 	},
 	{
@@ -168,10 +132,7 @@
 		"url": "https://chroniclingamerica.loc.gov/",
 		"region": ["North America"],
 		"language": ["en"],
-		"collection_finished": false,
 		"type": ["primary sources", "newspapers"],
-		"access": ["OA", "online"],
-		"reusability": ["copyright", "pd/c0"],
 		"period": ["contemporary", "modern"]
 	},
 	{
@@ -180,10 +141,7 @@
 		"url": "https://www.atarimagazines.com/",
 		"region": ["Global"],
 		"language": ["en"],
-		"collection_finished": false,
 		"type": ["magazines"],
-		"access": ["OA", "online"],
-		"reusability": ["copyright", "cc or copyleft"],
 		"period": ["contemporary"]
 	},
 	{
@@ -192,10 +150,7 @@
 		"url": "https://guides.clio-online.de/",
 		"region": [],
 		"language": ["de"],
-		"collection_finished": false,
 		"type": ["learning materials"],
-		"access": ["OA", "online"],
-		"reusability": [],
 		"period": []
 	},
 	{
@@ -204,10 +159,7 @@
 		"url": "https://www.cgwmuseum.org/",
 		"region": ["North America"],
 		"language": ["en"],
-		"collection_finished": false,
 		"type": ["magazines"],
-		"access": ["OA", "online"],
-		"reusability": [],
 		"period": ["contemporary"]
 	},
 	{
@@ -216,10 +168,7 @@
 		"url": "https://github.com/watson/awesome-computer-history",
 		"region": [],
 		"language": ["en"],
-		"collection_finished": false,
 		"type": ["encyclopedias"],
-		"access": [],
-		"reusability": [],
 		"period": []
 	},
 	{
@@ -228,10 +177,7 @@
 		"url": "http://computerarchiv-muenchen.de/",
 		"region": ["Germany"],
 		"language": ["de", "en"],
-		"collection_finished": false,
 		"type": ["audiovisual sources", "photos", "primary sources", "websites", "magazines"],
-		"access": ["on demand", "OA", "online"],
-		"reusability": ["copyright"],
 		"period": ["contemporary"]
 	},
 	{
@@ -240,10 +186,7 @@
 		"url": "http://workbook.craftingdigitalhistory.ca/",
 		"region": [],
 		"language": ["en"],
-		"collection_finished": false,
 		"type": ["learning materials"],
-		"access": ["OA", "online"],
-		"reusability": [],
 		"period": []
 	},
 	{
@@ -252,10 +195,7 @@
 		"url": "https://github.com/fasouto/awesome-dataviz#readme",
 		"region": [],
 		"language": ["en"],
-		"collection_finished": false,
 		"type": ["tools"],
-		"access": [],
-		"reusability": [],
 		"period": []
 	},
 	{
@@ -264,10 +204,7 @@
 		"url": "https://www.davidrumsey.com/",
 		"region": ["North America"],
 		"language": ["en"],
-		"collection_finished": false,
 		"type": ["maps"],
-		"access": ["OA", "online"],
-		"reusability": ["copyright", "pd/c0"],
 		"period": ["contemporary", "modern", "medieval"]
 	},
 	{
@@ -276,10 +213,7 @@
 		"url": "https://www.delpher.nl/",
 		"region": ["Netherlands"],
 		"language": ["nl"],
-		"collection_finished": false,
 		"type": ["books", "primary sources", "newspapers", "magazines"],
-		"access": ["on demand", "OA", "online"],
-		"reusability": ["copyright", "cc or copyleft", "pd/c0"],
 		"period": ["contemporary", "modern"]
 	},
 	{
@@ -288,10 +222,7 @@
 		"url": "https://www.deutsche-digitale-bibliothek.de/",
 		"region": ["Germany"],
 		"language": ["de", "en"],
-		"collection_finished": false,
 		"type": ["search engine"],
-		"access": [],
-		"reusability": [],
 		"period": ["contemporary", "modern", "medieval"]
 	},
 	{
@@ -300,10 +231,7 @@
 		"url": "https://www.deutsche-digitale-bibliothek.de/newspaper",
 		"region": ["Germany"],
 		"language": ["de", "en"],
-		"collection_finished": false,
 		"type": ["search engine", "newspapers"],
-		"access": ["OA", "online"],
-		"reusability": ["pd/c0"],
 		"period": ["contemporary", "modern"]
 	},
 	{
@@ -312,10 +240,7 @@
 		"url": "https://www.digibern.ch/",
 		"region": ["Switzerland"],
 		"language": ["de"],
-		"collection_finished": false,
 		"type": ["encyclopedias"],
-		"access": [],
-		"reusability": [],
 		"period": ["contemporary", "modern", "medieval", "ancient"]
 	},
 	{
@@ -324,10 +249,7 @@
 		"url": "http://chnm.gmu.edu/digitalhistory/",
 		"region": [],
 		"language": ["en"],
-		"collection_finished": false,
 		"type": ["learning materials"],
-		"access": ["on demand", "OA", "offline", "online"],
-		"reusability": [],
 		"period": []
 	},
 	{
@@ -336,10 +258,7 @@
 		"url": "https://dh-tech.github.io/awesome-digital-humanities#readme",
 		"region": [],
 		"language": ["en"],
-		"collection_finished": false,
 		"type": ["encyclopedias"],
-		"access": [],
-		"reusability": [],
 		"period": []
 	},
 	{
@@ -348,7 +267,6 @@
 		"url": "https://dp.la/",
 		"region": ["North America"],
 		"language": ["en"],
-		"collection_finished": false,
 		"type": [
 			"audiovisual sources",
 			"books",
@@ -360,8 +278,6 @@
 			"magazines",
 			"manuscripts"
 		],
-		"access": ["OA", "online"],
-		"reusability": ["copyright", "cc or copyleft", "pd/c0"],
 		"period": ["contemporary", "modern", "medieval", "ancient"]
 	},
 	{
@@ -370,10 +286,7 @@
 		"url": "https://www.digitaltransgenderarchive.net/",
 		"region": ["North America"],
 		"language": ["en"],
-		"collection_finished": false,
 		"type": [],
-		"access": [],
-		"reusability": [],
 		"period": []
 	},
 	{
@@ -382,7 +295,6 @@
 		"url": "https://www.digitale-sammlungen.de/",
 		"region": ["Germany"],
 		"language": ["de", "en"],
-		"collection_finished": false,
 		"type": [
 			"audiovisual sources",
 			"books",
@@ -394,8 +306,6 @@
 			"magazines",
 			"manuscripts"
 		],
-		"access": ["online"],
-		"reusability": ["pd/c0"],
 		"period": ["contemporary", "modern", "medieval"]
 	},
 	{
@@ -404,10 +314,7 @@
 		"url": "https://www.digitales-deutsches-frauenarchiv.de/",
 		"region": ["Germany"],
 		"language": ["de"],
-		"collection_finished": false,
 		"type": ["search engine", "learning materials"],
-		"access": ["offline", "online"],
-		"reusability": [],
 		"period": []
 	},
 	{
@@ -416,10 +323,7 @@
 		"url": "https://digitarium-app.acdh-dev.oeaw.ac.at/",
 		"region": ["Austria"],
 		"language": ["de"],
-		"collection_finished": false,
 		"type": ["primary sources", "newspapers"],
-		"access": ["OA", "online"],
-		"reusability": ["copyright"],
 		"period": ["contemporary", "modern"]
 	},
 	{
@@ -428,10 +332,7 @@
 		"url": "https://www.dodis.ch/",
 		"region": ["Switzerland"],
 		"language": ["de", "it", "fr", "en"],
-		"collection_finished": false,
 		"type": ["primary sources"],
-		"access": [],
-		"reusability": [],
 		"period": ["contemporary"]
 	},
 	{
@@ -440,10 +341,7 @@
 		"url": "https://docupedia.de/",
 		"region": ["Germany"],
 		"language": ["de"],
-		"collection_finished": false,
 		"type": ["encyclopedias"],
-		"access": ["online"],
-		"reusability": [],
 		"period": ["contemporary"]
 	},
 	{
@@ -452,10 +350,7 @@
 		"url": "https://www.e-periodica.ch/",
 		"region": ["Switzerland"],
 		"language": ["de", "it", "fr", "en"],
-		"collection_finished": false,
 		"type": ["primary sources", "magazines"],
-		"access": ["OA", "online"],
-		"reusability": ["copyright"],
 		"period": ["contemporary", "modern"]
 	},
 	{
@@ -464,7 +359,6 @@
 		"url": "https://ehne.fr/",
 		"region": ["Europe"],
 		"language": ["fr"],
-		"collection_finished": false,
 		"type": [
 			"audiovisual sources",
 			"books",
@@ -473,8 +367,6 @@
 			"encyclopedias",
 			"learning materials"
 		],
-		"access": ["OA", "online"],
-		"reusability": ["copyright", "cc or copyleft"],
 		"period": ["contemporary", "modern"]
 	},
 	{
@@ -483,7 +375,6 @@
 		"url": "https://eugenicsarchive.ca/",
 		"region": ["North America"],
 		"language": ["en"],
-		"collection_finished": false,
 		"type": [
 			"audiovisual sources",
 			"books",
@@ -494,8 +385,6 @@
 			"magazines",
 			"manuscripts"
 		],
-		"access": ["on demand", "OA", "offline", "online"],
-		"reusability": ["copyright"],
 		"period": ["contemporary", "modern"]
 	},
 	{
@@ -504,7 +393,6 @@
 		"url": "https://www.europeana.eu/",
 		"region": ["Europe"],
 		"language": ["en", "de", "nl", "po", "fr", "es", "no", "se", "it", "mul"],
-		"collection_finished": false,
 		"type": [
 			"audiovisual sources",
 			"books",
@@ -518,8 +406,6 @@
 			"learning materials",
 			"manuscripts"
 		],
-		"access": ["OA", "online"],
-		"reusability": ["copyright", "cc or copyleft", "pd/c0"],
 		"period": ["contemporary", "modern", "medieval", "ancient"]
 	},
 	{
@@ -528,10 +414,7 @@
 		"url": "https://www.asia-directories.org/",
 		"region": ["Asia"],
 		"language": ["en"],
-		"collection_finished": false,
 		"type": ["books", "primary sources", "statistics"],
-		"access": ["OA", "online"],
-		"reusability": ["copyright"],
 		"period": ["contemporary"]
 	},
 	{
@@ -540,10 +423,7 @@
 		"url": "https://fxtop.com/",
 		"region": ["Global"],
 		"language": ["en"],
-		"collection_finished": false,
 		"type": ["statistics"],
-		"access": [],
-		"reusability": [],
 		"period": []
 	},
 	{
@@ -552,7 +432,6 @@
 		"url": "https://gallica.bnf.fr/",
 		"region": ["France"],
 		"language": ["fr", "en", "it", "de"],
-		"collection_finished": false,
 		"type": [
 			"audiovisual sources",
 			"books",
@@ -563,8 +442,6 @@
 			"magazines",
 			"manuscripts"
 		],
-		"access": ["OA", "online"],
-		"reusability": ["pd/c0"],
 		"period": ["contemporary", "modern", "medieval"]
 	},
 	{
@@ -573,10 +450,7 @@
 		"url": "https://geospatialhistorian.wordpress.com/",
 		"region": [],
 		"language": ["en"],
-		"collection_finished": false,
 		"type": ["learning materials"],
-		"access": ["OA", "online"],
-		"reusability": [],
 		"period": []
 	},
 	{
@@ -585,10 +459,7 @@
 		"url": "https://gotpapers.scene.org/?page_id=73",
 		"region": ["Global"],
 		"language": ["en"],
-		"collection_finished": false,
 		"type": ["photos", "primary sources", "search engine", "websites", "magazines", "tools"],
-		"access": ["OA", "online"],
-		"reusability": ["copyright", "cc or copyleft", "pd/c0"],
 		"period": ["contemporary"]
 	},
 	{
@@ -597,10 +468,7 @@
 		"url": "https://cblevins.github.io/f19-dig-hist/",
 		"region": [],
 		"language": ["en"],
-		"collection_finished": false,
 		"type": ["learning materials"],
-		"access": ["OA", "online"],
-		"reusability": [],
 		"period": []
 	},
 	{
@@ -609,10 +477,7 @@
 		"url": "https://hsso.ch/",
 		"region": ["Switzerland"],
 		"language": ["de", "fr", "en"],
-		"collection_finished": false,
 		"type": ["statistics"],
-		"access": ["OA", "online"],
-		"reusability": ["cc or copyleft"],
 		"period": ["contemporary"]
 	},
 	{
@@ -621,10 +486,7 @@
 		"url": "https://www.hathitrust.org",
 		"region": ["North America"],
 		"language": ["en"],
-		"collection_finished": false,
 		"type": ["books", "maps", "primary sources", "magazines", "manuscripts"],
-		"access": ["on demand", "OA", "online"],
-		"reusability": ["copyright", "pd/c0"],
 		"period": ["contemporary", "modern"]
 	},
 	{
@@ -633,10 +495,7 @@
 		"url": "https://hls-dhs-dss.ch/",
 		"region": ["Switzerland"],
 		"language": ["de", "it", "fr"],
-		"collection_finished": false,
 		"type": ["audiovisual sources", "photos", "encyclopedias"],
-		"access": ["OA", "online"],
-		"reusability": ["cc or copyleft"],
 		"period": ["contemporary", "modern", "medieval", "ancient"]
 	},
 	{
@@ -645,10 +504,7 @@
 		"url": "https://dg.philhist.unibas.ch/en/studium/history-a-toolkit-for-students/",
 		"region": [],
 		"language": ["de", "en"],
-		"collection_finished": false,
 		"type": ["learning materials"],
-		"access": ["OA", "online"],
-		"reusability": [],
 		"period": []
 	},
 	{
@@ -657,10 +513,7 @@
 		"url": "https://industriekultur.ch/",
 		"region": ["Switzerland"],
 		"language": ["de"],
-		"collection_finished": false,
 		"type": ["photos", "encyclopedias"],
-		"access": ["OA", "online"],
-		"reusability": ["pd/c0"],
 		"period": ["contemporary"]
 	},
 	{
@@ -669,10 +522,7 @@
 		"url": "https://www.ina.fr/",
 		"region": ["France"],
 		"language": ["fr"],
-		"collection_finished": false,
 		"type": ["audiovisual sources", "primary sources", "learning materials"],
-		"access": ["on demand", "OA", "offline", "online"],
-		"reusability": ["copyright", "cc or copyleft", "pd/c0"],
 		"period": ["contemporary"]
 	},
 	{
@@ -681,7 +531,6 @@
 		"url": "https://archive.org/",
 		"region": ["Global"],
 		"language": ["en"],
-		"collection_finished": false,
 		"type": [
 			"audiovisual sources",
 			"books",
@@ -695,8 +544,6 @@
 			"magazines",
 			"learning materials"
 		],
-		"access": ["OA", "online"],
-		"reusability": ["pd/c0"],
 		"period": ["contemporary"]
 	},
 	{
@@ -705,10 +552,7 @@
 		"url": "https://kvk.bibliothek.kit.edu/",
 		"region": ["Global"],
 		"language": ["de", "en"],
-		"collection_finished": false,
 		"type": ["search engine"],
-		"access": ["online"],
-		"reusability": [],
 		"period": ["contemporary", "modern", "medieval"]
 	},
 	{
@@ -717,10 +561,7 @@
 		"url": "http://www.kartenportal.ch/",
 		"region": ["Switzerland"],
 		"language": ["de", "it", "fr", "en"],
-		"collection_finished": false,
 		"type": ["maps", "search engine"],
-		"access": [],
-		"reusability": [],
 		"period": ["contemporary", "modern", "medieval"]
 	},
 	{
@@ -729,10 +570,7 @@
 		"url": "https://www.letempsarchives.ch/",
 		"region": ["Switzerland"],
 		"language": ["de", "it", "fr", "en"],
-		"collection_finished": false,
 		"type": ["newspapers"],
-		"access": ["OA", "online"],
-		"reusability": ["copyright", "cc or copyleft", "pd/c0"],
 		"period": ["contemporary"]
 	},
 	{
@@ -741,10 +579,7 @@
 		"url": "https://www.lexm.uni-hamburg.de/content/index.xml",
 		"region": ["Germany"],
 		"language": ["de"],
-		"collection_finished": false,
 		"type": ["encyclopedias"],
-		"access": ["online"],
-		"reusability": [],
 		"period": ["contemporary"]
 	},
 	{
@@ -753,10 +588,7 @@
 		"url": "https://locallinkages.org/",
 		"region": [],
 		"language": ["en"],
-		"collection_finished": false,
 		"type": ["learning materials"],
-		"access": ["OA", "online"],
-		"reusability": [],
 		"period": []
 	},
 	{
@@ -765,10 +597,7 @@
 		"url": "https://druckschriften-digital.marchivum.de/",
 		"region": ["Germany"],
 		"language": ["de"],
-		"collection_finished": false,
 		"type": [],
-		"access": [],
-		"reusability": [],
 		"period": []
 	},
 	{
@@ -777,10 +606,7 @@
 		"url": "http://www.memobase.ch/",
 		"region": ["Switzerland"],
 		"language": ["de", "it", "fr"],
-		"collection_finished": false,
 		"type": ["audiovisual sources", "photos"],
-		"access": ["on demand", "OA", "offline", "online"],
-		"reusability": ["copyright", "cc or copyleft", "pd/c0"],
 		"period": ["contemporary"]
 	},
 	{
@@ -789,7 +615,6 @@
 		"url": "https://mapire.eu/",
 		"region": ["Europe"],
 		"language": ["de", "en", "hu"],
-		"collection_finished": false,
 		"type": [
 			"audiovisual sources",
 			"books",
@@ -801,8 +626,6 @@
 			"newspapers",
 			"magazines"
 		],
-		"access": ["on demand", "online"],
-		"reusability": ["copyright"],
 		"period": ["contemporary", "modern", "medieval"]
 	},
 	{
@@ -811,10 +634,7 @@
 		"url": "https://www.marxists.org/",
 		"region": ["Global"],
 		"language": ["en", "jp", "pt", "fr", "nl", "es", "ar", "ru", "de", "ca", "se", "mul"],
-		"collection_finished": false,
 		"type": ["books", "encyclopedias", "magazines", "learning materials"],
-		"access": ["online"],
-		"reusability": ["cc or copyleft", "pd/c0"],
 		"period": ["contemporary"]
 	},
 	{
@@ -823,10 +643,7 @@
 		"url": "http://timetravel.mementoweb.org/",
 		"region": ["Global"],
 		"language": ["en"],
-		"collection_finished": false,
 		"type": ["websites"],
-		"access": ["OA", "online"],
-		"reusability": [],
 		"period": ["contemporary"]
 	},
 	{
@@ -835,10 +652,7 @@
 		"url": "https://www.monasterium.net/mom/home",
 		"region": ["Europe"],
 		"language": ["en", "de", "fr", "lt", "lat"],
-		"collection_finished": false,
 		"type": ["books", "photos", "maps", "primary sources", "search engine", "manuscripts"],
-		"access": ["on demand", "OA", "offline", "online"],
-		"reusability": ["copyright", "cc or copyleft", "pd/c0"],
 		"period": ["contemporary", "modern", "medieval"]
 	},
 	{
@@ -847,10 +661,7 @@
 		"url": "https://data.nls.uk/data/",
 		"region": ["Great Britain"],
 		"language": ["en"],
-		"collection_finished": false,
 		"type": ["books", "photos", "maps", "primary sources"],
-		"access": ["OA", "online"],
-		"reusability": ["copyright", "cc or copyleft", "pd/c0"],
 		"period": ["contemporary", "modern"]
 	},
 	{
@@ -859,10 +670,7 @@
 		"url": "https://www.nationaalarchief.nl/",
 		"region": ["Netherlands"],
 		"language": ["nl", "en"],
-		"collection_finished": false,
 		"type": ["audiovisual sources", "photos", "maps", "primary sources", "websites", "manuscripts"],
-		"access": ["on demand", "OA", "offline", "online"],
-		"reusability": ["copyright", "pd/c0"],
 		"period": ["contemporary", "modern", "medieval"]
 	},
 	{
@@ -871,7 +679,6 @@
 		"url": "https://www.archives.gov/",
 		"region": ["North America"],
 		"language": ["en"],
-		"collection_finished": false,
 		"type": [
 			"audiovisual sources",
 			"books",
@@ -884,8 +691,6 @@
 			"magazines",
 			"manuscripts"
 		],
-		"access": ["OA", "offline", "online"],
-		"reusability": ["copyright", "pd/c0"],
 		"period": ["contemporary", "modern"]
 	},
 	{
@@ -894,10 +699,7 @@
 		"url": "https://www.nrscotland.gov.uk/",
 		"region": ["Great Britain"],
 		"language": ["en"],
-		"collection_finished": false,
 		"type": ["maps", "statistics"],
-		"access": ["OA", "online"],
-		"reusability": ["copyright", "cc or copyleft", "pd/c0"],
 		"period": ["contemporary", "modern", "medieval"]
 	},
 	{
@@ -906,10 +708,7 @@
 		"url": "https://www.oldmapsonline.org/",
 		"region": ["Global"],
 		"language": ["en"],
-		"collection_finished": false,
 		"type": ["maps"],
-		"access": ["OA", "online"],
-		"reusability": ["copyright"],
 		"period": ["contemporary", "modern"]
 	},
 	{
@@ -918,10 +717,7 @@
 		"url": "https://opencat.io/",
 		"region": ["Global"],
 		"language": ["en", "de", "fr"],
-		"collection_finished": false,
 		"type": ["search engine"],
-		"access": [],
-		"reusability": [],
 		"period": ["contemporary"]
 	},
 	{
@@ -930,10 +726,7 @@
 		"url": "https://openhistoricalmap.org/",
 		"region": ["Global"],
 		"language": ["de"],
-		"collection_finished": false,
 		"type": ["maps"],
-		"access": ["OA"],
-		"reusability": [],
 		"period": ["contemporary"]
 	},
 	{
@@ -942,10 +735,7 @@
 		"url": "https://legacy.lib.utexas.edu/maps/",
 		"region": ["North America"],
 		"language": ["en"],
-		"collection_finished": true,
 		"type": ["maps"],
-		"access": ["OA", "online"],
-		"reusability": [],
 		"period": ["contemporary"]
 	},
 	{
@@ -954,10 +744,7 @@
 		"url": "https://www.gutenberg.org/",
 		"region": ["Europe"],
 		"language": ["en"],
-		"collection_finished": false,
 		"type": ["books"],
-		"access": ["OA", "online"],
-		"reusability": ["pd/c0"],
 		"period": ["contemporary", "modern"]
 	},
 	{
@@ -966,10 +753,7 @@
 		"url": "https://www.projekt-gutenberg.org/",
 		"region": ["Germany"],
 		"language": ["de"],
-		"collection_finished": false,
 		"type": ["books"],
-		"access": ["OA", "online"],
-		"reusability": ["pd/c0"],
 		"period": ["contemporary", "modern"]
 	},
 	{
@@ -978,10 +762,7 @@
 		"url": "http://www.publicbooks.org/public-books-database/",
 		"region": ["Global"],
 		"language": ["en"],
-		"collection_finished": false,
 		"type": ["books"],
-		"access": ["OA", "online"],
-		"reusability": [],
 		"period": ["contemporary"]
 	},
 	{
@@ -990,10 +771,7 @@
 		"url": "https://digital-history-berlin.github.io/Python-fuer-Historiker-innen/home.html",
 		"region": [],
 		"language": ["de"],
-		"collection_finished": false,
 		"type": ["learning materials"],
-		"access": [],
-		"reusability": [],
 		"period": []
 	},
 	{
@@ -1002,10 +780,7 @@
 		"url": "https://github.com/emptymalei/awesome-research#readme",
 		"region": [],
 		"language": ["en"],
-		"collection_finished": false,
 		"type": ["tools"],
-		"access": [],
-		"reusability": [],
 		"period": []
 	},
 	{
@@ -1014,7 +789,6 @@
 		"url": "https://digital.slub-dresden.de/kollektionen/",
 		"region": ["Germany"],
 		"language": ["de"],
-		"collection_finished": false,
 		"type": [
 			"audiovisual sources",
 			"photos",
@@ -1024,8 +798,6 @@
 			"magazines",
 			"manuscripts"
 		],
-		"access": ["online"],
-		"reusability": [],
 		"period": ["contemporary", "modern", "medieval"]
 	},
 	{
@@ -1034,10 +806,7 @@
 		"url": "https://ub.unibas.ch/de/historische-bestaende/wirtschaftsarchive/",
 		"region": ["Switzerland"],
 		"language": ["de", "en"],
-		"collection_finished": false,
 		"type": ["encyclopedias", "search engine"],
-		"access": ["on demand"],
-		"reusability": ["copyright"],
 		"period": ["contemporary", "modern"]
 	},
 	{
@@ -1046,10 +815,7 @@
 		"url": "https://github.com/writing-resources/awesome-scientific-writing#readme",
 		"region": [],
 		"language": ["en"],
-		"collection_finished": false,
 		"type": ["tools"],
-		"access": [],
-		"reusability": [],
 		"period": []
 	},
 	{
@@ -1058,10 +824,7 @@
 		"url": "https://www.spiegel.de/dienste/besser-surfen-auf-spiegel-online-suchen-im-archiv-a-676489.html",
 		"region": ["Germany"],
 		"language": ["de"],
-		"collection_finished": false,
 		"type": ["magazines"],
-		"access": ["online"],
-		"reusability": [],
 		"period": ["contemporary"]
 	},
 	{
@@ -1070,10 +833,7 @@
 		"url": "https://tempopedia.org/",
 		"region": [],
 		"language": ["en"],
-		"collection_finished": false,
 		"type": ["encyclopedias"],
-		"access": [],
-		"reusability": [],
 		"period": []
 	},
 	{
@@ -1082,10 +842,7 @@
 		"url": "https://comp-think.github.io/",
 		"region": [],
 		"language": ["en"],
-		"collection_finished": false,
 		"type": ["learning materials"],
-		"access": [],
-		"reusability": [],
 		"period": []
 	},
 	{
@@ -1094,7 +851,6 @@
 		"url": "https://www.nationalarchives.gov.uk/",
 		"region": ["Great Britain"],
 		"language": ["en"],
-		"collection_finished": false,
 		"type": [
 			"audiovisual sources",
 			"books",
@@ -1106,8 +862,6 @@
 			"magazines",
 			"learning materials"
 		],
-		"access": ["on demand", "OA", "offline", "online"],
-		"reusability": [],
 		"period": ["contemporary", "modern", "medieval"]
 	},
 	{
@@ -1116,10 +870,7 @@
 		"url": "https://www.oldbaileyonline.org/",
 		"region": ["Great Britain"],
 		"language": ["en"],
-		"collection_finished": false,
 		"type": ["books", "maps", "primary sources"],
-		"access": ["OA", "online"],
-		"reusability": ["cc or copyleft"],
 		"period": ["contemporary", "modern"]
 	},
 	{
@@ -1128,10 +879,7 @@
 		"url": "https://programminghistorian.org/",
 		"region": [],
 		"language": ["en"],
-		"collection_finished": false,
 		"type": ["learning materials"],
-		"access": [],
-		"reusability": [],
 		"period": []
 	},
 	{
@@ -1140,10 +888,7 @@
 		"url": "https://www.ub.uni-heidelberg.de/helios/digi/digilit.html",
 		"region": ["Germany"],
 		"language": ["de"],
-		"collection_finished": false,
 		"type": ["books", "primary sources", "newspapers", "magazines", "manuscripts"],
-		"access": ["online"],
-		"reusability": ["copyright", "pd/c0"],
 		"period": ["contemporary", "modern", "medieval", "ancient"]
 	},
 	{
@@ -1152,10 +897,7 @@
 		"url": "https://guides.lib.uci.edu/history/history_dh",
 		"region": [],
 		"language": ["en"],
-		"collection_finished": false,
 		"type": ["learning materials"],
-		"access": [],
-		"reusability": [],
 		"period": []
 	},
 	{
@@ -1164,10 +906,7 @@
 		"url": "http://sammlungen.ub.uni-frankfurt.de/",
 		"region": ["Germany"],
 		"language": ["de"],
-		"collection_finished": false,
 		"type": ["books", "photos", "primary sources", "newspapers", "magazines", "manuscripts"],
-		"access": ["offline", "online"],
-		"reusability": [],
 		"period": ["contemporary", "modern", "medieval"]
 	},
 	{
@@ -1176,10 +915,7 @@
 		"url": "https://archives.un.org/",
 		"region": ["Global"],
 		"language": ["ar", "jp", "en", "fr", "ru", "es"],
-		"collection_finished": false,
 		"type": ["primary sources", "search engine"],
-		"access": ["on demand", "OA", "offline", "online"],
-		"reusability": [],
 		"period": ["contemporary"]
 	},
 	{
@@ -1188,10 +924,7 @@
 		"url": "http://gams.uni-graz.at/context:vase",
 		"region": ["Europe"],
 		"language": ["en"],
-		"collection_finished": false,
 		"type": ["audiovisual sources", "photos", "maps", "primary sources"],
-		"access": ["OA", "online"],
-		"reusability": ["cc or copyleft"],
 		"period": ["contemporary"]
 	},
 	{
@@ -1200,10 +933,7 @@
 		"url": "https://archive.org/web/",
 		"region": ["Global"],
 		"language": ["en"],
-		"collection_finished": false,
 		"type": ["search engine", "websites"],
-		"access": ["OA", "online"],
-		"reusability": [],
 		"period": ["contemporary"]
 	},
 	{
@@ -1212,10 +942,7 @@
 		"url": "https://wethink.hypotheses.org/",
 		"region": [],
 		"language": ["en"],
-		"collection_finished": false,
 		"type": ["learning materials"],
-		"access": [],
-		"reusability": [],
 		"period": []
 	},
 	{
@@ -1224,10 +951,7 @@
 		"url": "https://www.geschichtewiki.wien.gv.at/Wien_Geschichte_Wiki",
 		"region": ["Austria"],
 		"language": ["de"],
-		"collection_finished": false,
 		"type": ["photos", "maps", "encyclopedias"],
-		"access": ["OA", "online"],
-		"reusability": ["cc or copyleft"],
 		"period": ["contemporary", "modern", "medieval", "ancient", "prehistory"]
 	},
 	{
@@ -1236,10 +960,7 @@
 		"url": "https://library.harvard.edu/collections/women-working-1800-1930",
 		"region": ["North America"],
 		"language": ["en"],
-		"collection_finished": true,
 		"type": ["books", "photos", "primary sources", "statistics", "magazines", "manuscripts"],
-		"access": ["OA", "offline", "online"],
-		"reusability": ["pd/c0"],
 		"period": ["contemporary"]
 	},
 	{
@@ -1248,7 +969,6 @@
 		"url": "https://www.wdl.org/",
 		"region": ["North America"],
 		"language": ["en"],
-		"collection_finished": false,
 		"type": [
 			"audiovisual sources",
 			"books",
@@ -1260,8 +980,6 @@
 			"magazines",
 			"manuscripts"
 		],
-		"access": ["OA", "online"],
-		"reusability": ["copyright", "cc or copyleft", "pd/c0"],
 		"period": ["contemporary", "modern", "medieval"]
 	},
 	{
@@ -1270,10 +988,7 @@
 		"url": "https://whgazetteer.org/",
 		"region": ["Global"],
 		"language": ["en"],
-		"collection_finished": false,
 		"type": ["maps", "learning materials"],
-		"access": ["OA", "online"],
-		"reusability": ["cc or copyleft"],
 		"period": ["contemporary", "modern"]
 	},
 	{
@@ -1282,10 +997,7 @@
 		"url": "https://digital.zlb.de/",
 		"region": ["Germany"],
 		"language": ["de", "en"],
-		"collection_finished": false,
 		"type": ["books", "photos", "maps", "primary sources", "newspapers", "magazines"],
-		"access": ["offline", "online"],
-		"reusability": ["copyright", "cc or copyleft", "pd/c0"],
 		"period": ["contemporary", "modern"]
 	},
 	{
@@ -1294,10 +1006,7 @@
 		"url": "http://zefys.staatsbibliothek-berlin.de/",
 		"region": ["Germany"],
 		"language": ["de", "en"],
-		"collection_finished": false,
 		"type": ["newspapers"],
-		"access": ["OA", "online"],
-		"reusability": ["pd/c0"],
 		"period": ["contemporary"]
 	},
 	{
@@ -1306,10 +1015,7 @@
 		"url": "https://www.archeco.info/",
 		"region": ["Switzerland"],
 		"language": ["de", "it", "fr", "en"],
-		"collection_finished": false,
 		"type": ["search engine"],
-		"access": [],
-		"reusability": [],
 		"period": ["contemporary"]
 	},
 	{
@@ -1318,10 +1024,7 @@
 		"url": "https://www.chgov.bar.admin.ch/",
 		"region": ["Switzerland"],
 		"language": ["de", "it", "fr", "en"],
-		"collection_finished": true,
 		"type": ["primary sources"],
-		"access": ["OA", "online"],
-		"reusability": ["pd/c0"],
 		"period": ["contemporary"]
 	},
 	{
@@ -1330,10 +1033,7 @@
 		"url": "http://e-codices.ch/",
 		"region": ["Switzerland"],
 		"language": ["de", "it", "fr", "en"],
-		"collection_finished": false,
 		"type": ["primary sources", "manuscripts"],
-		"access": ["OA", "online"],
-		"reusability": ["cc or copyleft", "pd/c0"],
 		"period": ["contemporary", "modern", "medieval"]
 	},
 	{
@@ -1342,10 +1042,7 @@
 		"url": "https://www.e-gs.ethz.ch/",
 		"region": ["Switzerland"],
 		"language": ["de", "en"],
-		"collection_finished": false,
 		"type": ["photos", "primary sources"],
-		"access": ["on demand", "OA", "offline", "online"],
-		"reusability": ["copyright", "cc or copyleft", "pd/c0"],
 		"period": []
 	},
 	{
@@ -1354,10 +1051,7 @@
 		"url": "https://www.e-manuscripta.ch/",
 		"region": ["Switzerland"],
 		"language": ["de", "it", "fr", "en"],
-		"collection_finished": false,
 		"type": ["maps", "primary sources", "manuscripts"],
-		"access": ["OA", "online"],
-		"reusability": ["copyright", "cc or copyleft", "pd/c0"],
 		"period": ["contemporary", "modern", "medieval"]
 	},
 	{
@@ -1366,10 +1060,7 @@
 		"url": "https://www.e-newspaperarchives.ch/",
 		"region": ["Switzerland"],
 		"language": ["de", "it", "fr", "en"],
-		"collection_finished": false,
 		"type": ["primary sources", "newspapers"],
-		"access": ["on demand", "online"],
-		"reusability": ["copyright", "cc or copyleft", "pd/c0"],
 		"period": ["contemporary", "modern"]
 	},
 	{
@@ -1378,10 +1069,7 @@
 		"url": "https://www.e-rara.ch/",
 		"region": ["Switzerland"],
 		"language": ["de", "it", "fr", "en"],
-		"collection_finished": false,
 		"type": ["primary sources"],
-		"access": ["OA", "online"],
-		"reusability": ["cc or copyleft", "pd/c0"],
 		"period": ["contemporary", "modern", "medieval"]
 	},
 	{
@@ -1390,10 +1078,7 @@
 		"url": "https://histhub.ch/",
 		"region": ["Switzerland"],
 		"language": ["de", "it", "fr", "en"],
-		"collection_finished": false,
 		"type": ["encyclopedias", "search engine"],
-		"access": ["OA", "online"],
-		"reusability": [],
 		"period": ["contemporary", "modern", "medieval"]
 	},
 	{
@@ -1402,10 +1087,7 @@
 		"url": "https://impresso-project.ch/",
 		"region": ["Switzerland"],
 		"language": ["en"],
-		"collection_finished": false,
 		"type": ["newspapers"],
-		"access": ["on demand", "OA", "online"],
-		"reusability": ["copyright", "cc or copyleft", "pd/c0"],
 		"period": ["contemporary", "modern"]
 	},
 	{
@@ -1414,10 +1096,7 @@
 		"url": "http://www.infoclio.ch/en/edition-projects",
 		"region": ["Switzerland"],
 		"language": ["de", "it", "fr", "en"],
-		"collection_finished": false,
 		"type": ["encyclopedias"],
-		"access": ["OA", "online"],
-		"reusability": ["pd/c0"],
 		"period": ["contemporary", "modern", "medieval", "ancient"]
 	},
 	{
@@ -1426,10 +1105,7 @@
 		"url": "https://www.leo-bw.de/",
 		"region": ["Germany"],
 		"language": ["de"],
-		"collection_finished": false,
 		"type": ["search engine", "learning materials"],
-		"access": ["online"],
-		"reusability": [],
 		"period": ["contemporary", "modern", "medieval"]
 	},
 	{
@@ -1438,10 +1114,7 @@
 		"url": "https://map.geo.admin.ch/",
 		"region": ["Switzerland"],
 		"language": ["de", "it", "fr", "en", "rm"],
-		"collection_finished": false,
 		"type": ["maps"],
-		"access": ["on demand", "OA", "online"],
-		"reusability": ["cc or copyleft", "pd/c0"],
 		"period": ["contemporary"]
 	},
 	{
@@ -1450,10 +1123,7 @@
 		"url": "https://swisscollections.ch/",
 		"region": ["Switzerland"],
 		"language": ["de", "it", "fr", "en"],
-		"collection_finished": false,
 		"type": ["search engine"],
-		"access": [],
-		"reusability": [],
 		"period": ["contemporary", "modern", "medieval", "ancient"]
 	},
 	{
@@ -1462,10 +1132,7 @@
 		"url": "http://www.sfa-laboratory.ch/sr/cubestest/index.php",
 		"region": ["Switzerland"],
 		"language": ["de", "fr"],
-		"collection_finished": false,
 		"type": ["statistics"],
-		"access": ["OA", "online"],
-		"reusability": ["pd/c0"],
 		"period": ["contemporary"]
 	},
 	{
@@ -1474,10 +1141,7 @@
 		"url": "https://www.mediathek.at/",
 		"region": ["Austria"],
 		"language": ["de"],
-		"collection_finished": false,
 		"type": ["audiovisual sources", "primary sources", "learning materials"],
-		"access": ["on demand", "OA", "offline", "online"],
-		"reusability": ["copyright"],
 		"period": ["contemporary"]
 	}
 ]

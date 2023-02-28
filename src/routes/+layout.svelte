@@ -2,7 +2,7 @@
 	import '../app.css';
 </script>
 
-<div class="container mx-auto">
+<div class="container mx-auto min-h-screen">
 	<slot />
 </div>
 
