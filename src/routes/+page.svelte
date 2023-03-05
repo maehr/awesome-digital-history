@@ -56,7 +56,7 @@
 	>
 </svelte:head>
 
-<div class="grid grid-cols-1 md:grid-cols-4 gap-2 md:gap-4 overflow-y-hidden pt-2 md:pt-4">
+<main class="grid grid-cols-1 md:grid-cols-4 gap-2 md:gap-4 overflow-y-hidden pt-2 md:pt-4">
 	<section class="card bg-base-100 shadow-xl">
 		<div class="card-body">
 			<div class="card-actions">
@@ -134,4 +134,4 @@
 			</div>
 		</article>
 	{/each}
-</div>
+	</main>
