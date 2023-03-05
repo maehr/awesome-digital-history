@@ -13,6 +13,7 @@ specifiers:
   postcss: ^8.4.21
   prettier: ^2.8.4
   prettier-plugin-svelte: ^2.9.0
+  remarked: ^0.1.4
   svelte: ^3.55.1
   svelte-check: ^3.0.4
   svelte-multiselect: ^8.4.0
@@ -34,6 +35,7 @@ devDependencies:
   postcss: 8.4.21
   prettier: 2.8.4
   prettier-plugin-svelte: 2.9.0_jrsxveqmsx2uadbqiuq74wlc4u
+  remarked: 0.1.4
   svelte: 3.55.1
   svelte-check: 3.0.4_pehl75e5jsy22vp33udjja4soi
   svelte-multiselect: 8.4.0
@@ -1123,6 +1125,13 @@ packages:
       slash: 3.0.0
     dev: true
 
+  /delims/0.1.4:
+    resolution: {integrity: sha512-z5CrJqQOkZtWPNQQhnencu8RC0fIbS4jkh+yYXyMZDLnKmg9wF9iZO5TOIounQFnjutY1FrxMQ3zHKFAYbi5fQ==}
+    engines: {node: '>= 0.8.0'}
+    dependencies:
+      lodash: 2.4.2
+    dev: true
+
   /detect-indent/6.1.0:
     resolution: {integrity: sha512-reYkTUJAZb9gUuZ2RvVCNhVHdg62RHnJ7WJl8ftMi4diZ6NWlciOzQN88pUhSELEwflJht4oQDv0F0BMlwaYtA==}
     engines: {node: '>=8'}
@@ -1931,6 +1940,11 @@ packages:
     resolution: {integrity: sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==}
     dev: true
 
+  /lodash/2.4.2:
+    resolution: {integrity: sha512-Kak1hi6/hYHGVPmdyiZijoQyz5x2iGVzs6w9GYB/HiXEtylY7tIoYEROMjvM1d9nXJqPOrG2MNPMn01bJ+S0Rw==}
+    engines: {'0': node, '1': rhino}
+    dev: true
+
   /log-symbols/4.1.0:
     resolution: {integrity: sha512-8XPvpAA8uyhfteu8pIvQxpJZ7SYYdpUivZpGy6sFsBuKRY/7rQGavedeB8aK+Zkyq6upMFVL/9AW6vOYzfRyLg==}
     engines: {node: '>=10'}
@@ -2576,6 +2590,11 @@ packages:
       strip-indent: 3.0.0
     dev: true
 
+  /regexp-special-chars/0.1.0:
+    resolution: {integrity: sha512-w9/YexdPpQ9SQDOFa0xErkvGX8JkNobcZIaVNurTBcLVLLi2/zQuNESB7NT2/8Jx7AEescbA4Eqqet+W2LUesA==}
+    engines: {node: '>=0.10.0'}
+    dev: true
+
   /regexparam/2.0.1:
     resolution: {integrity: sha512-zRgSaYemnNYxUv+/5SeoHI0eJIgTL/A2pUtXUPLHQxUldagouJ9p+K6IbIZ/JiQuCEv2E2B1O11SjVQy3aMCkw==}
     engines: {node: '>=8'}
@@ -3030,6 +3049,15 @@ packages:
       - supports-color
     dev: true
 
+  /remarked/0.1.4:
+    resolution: {integrity: sha512-LZFoSJf54/DuqViTbSVTLFbEGE9kSz9CEXa/eTSG6LcaxzK3Js7RpAcZ7qfRgf77telEm1z5O+vKGpdzAAfADw==}
+    engines: {node: '>=0.8'}
+    hasBin: true
+    dependencies:
+      regexp-special-chars: 0.1.0
+      template: 0.2.1
+    dev: true
+
   /repeat-string/1.6.1:
     resolution: {integrity: sha512-PV0dzCYDNfRi1jCDbJzpW7jNNDRuCOG/jI5ctQcGKt/clZD+YcPS3yIlWuTJMmESC8aevCFmWJy5wjAFgNqN6w==}
     engines: {node: '>=0.10'}
@@ -3457,6 +3485,14 @@ packages:
   /temp-dir/2.0.0:
     resolution: {integrity: sha512-aoBAniQmmwtcKp/7BzsH8Cxzv8OL736p7v1ihGb5e9DJ9kTwGWHrQrVB5+lfVDzfGrdRzXch+ig7LHaY1JTOrg==}
     engines: {node: '>=8'}
+    dev: true
+
+  /template/0.2.1:
+    resolution: {integrity: sha512-aI9MElhFVlhvoWX4xNiTxtbi/MOovmjoGdepqebvQ95C9T0huMBbWuic3U8FS7WYce1Y7k2SZKX57WGcB26jbg==}
+    engines: {node: '>= 0.8.0'}
+    dependencies:
+      delims: 0.1.4
+      lodash: 2.4.2
     dev: true
 
   /tempy/1.0.1:

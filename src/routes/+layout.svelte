@@ -8,18 +8,13 @@
 <div class="container mx-auto min-h-screen">
 	<Header />
 
-	<main>
-		<slot />
-	</main>
+	<slot />
 
 	<footer class="footer items-center p-4 text-white">
 		<div class="items-center grid-flow-col">
+			<p>Licensed under CC0 and AGPLv3.</p>
 			<p>
-				Licensed under CC0 and AGPLv3.
-			</p>
-			<p>
-				Last update <a href={data.htmlURL}
-					>{data.lastCommitDate}</a>.
+				Last update <a href={data.htmlURL}>{data.lastCommitDate}</a>.
 			</p>
 		</div>
 	</footer>

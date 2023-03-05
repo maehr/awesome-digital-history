@@ -134,4 +134,4 @@
 			</div>
 		</article>
 	{/each}
-	</main>
+</main>
