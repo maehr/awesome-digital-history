@@ -50,22 +50,15 @@
 </script>
 
 <svelte:head>
-	<title>Find primary sources online and learn how to research history digitally.</title>
-	<meta
-		name="description"
-		content="Finding aids for textual and multimedia primary sources with a focus on the western hemisphere and the 19th and 20th centuries. Courses and learning tools to explore history digitally."
-	/>
+	<title
+		>Awesome Digital History | Find primary sources online and learn how to research history
+		digitally.</title
+	>
 </svelte:head>
 
-<main class="grid grid-cols-1 md:grid-cols-4 gap-2 md:gap-4 overflow-y-hidden" id="top">
-	<div class="card bg-base-100 shadow-xl">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-2 md:gap-4 overflow-y-hidden pt-2 md:pt-4">
+	<section class="card bg-base-100 shadow-xl">
 		<div class="card-body">
-			<h1 class="card-title">
-				<a class="btn btn-primary normal-case text-xl text-white" href="#top"
-					>Awesome Digital History</a
-				>
-			</h1>
-
 			<div class="card-actions">
 				<div class="form-control grow">
 					<div class="form-control">
@@ -110,10 +103,17 @@
 				</div>
 			</div>
 		</div>
+	</section>
+	{#if filteredEntries.length === 0}
+		<article class="card bg-base-100 shadow-xl">
+			<div class="card-body">
+				<h2 class="card-title text-primary normal-case text-xl break-word">No results found</h2>
+				<p>Please try another search term or filter.</p>
 	</div>
-
+		</article>
+	{/if}
 	{#each filteredEntries as entry}
-		<div class="card bg-base-100 shadow-xl">
+		<article class="card bg-base-100 shadow-xl">
 			<div class="card-body">
 				<h2 class="card-title text-primary normal-case text-xl break-word">
 					{entry.title}
@@ -124,7 +124,6 @@
 					>
 				</p>
 				<p>{entry.description}</p>
-
 				<div class="flex flex-wrap gap-1 justify-end">
 					{#each data.filterOptions as option}
 						{#each entry[option.key] as value}
@@ -133,6 +132,6 @@
 					{/each}
 				</div>
 			</div>
-		</div>
+		</article>
 	{/each}
-</main>
+</div>
