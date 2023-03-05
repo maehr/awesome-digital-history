@@ -4,28 +4,28 @@
 	import { page } from '$app/stores';
 	import { goto } from '$app/navigation';
 	import { browser } from '$app/environment';
-
+	/** @type {import('./$types').PageData} */
 	export let data;
 
-	 $: {
+	$: {
 		if (browser) {
-		let url = new URL($page.url);
-		if (data.filter.searchTerm === '') {
-			url.searchParams.delete('searchTerm');
-		} else {
-			url.searchParams.set('searchTerm', data.filter.searchTerm);
-		}
-		data.filterOptions.forEach((option) => {
-			url.searchParams.delete(option.key);
-			data.filter[option.key].forEach((value) => {
-				url.searchParams.append(option.key, value);
+			let url = new URL($page.url);
+			if (data.filter.searchTerm === '') {
+				url.searchParams.delete('searchTerm');
+			} else {
+				url.searchParams.set('searchTerm', data.filter.searchTerm);
+			}
+			data.filterOptions.forEach((option) => {
+				url.searchParams.delete(option.key);
+				data.filter[option.key].forEach((value) => {
+					url.searchParams.append(option.key, value);
+				});
 			});
-		});
-		if (url !== $page.url) {
-			goto(url, { keepFocus: true, noScroll: true });
+			if (url !== $page.url) {
+				goto(url, { keepFocus: true, noScroll: true });
+			}
 		}
-		}
-	 }
+	}
 
 	// if entries change, this would have to be done dynamically (i.e. $)
 	data.filterOptions.forEach((option) => {
@@ -109,7 +109,7 @@
 			<div class="card-body">
 				<h2 class="card-title text-primary normal-case text-xl break-word">No results found</h2>
 				<p>Please try another search term or filter.</p>
-	</div>
+			</div>
 		</article>
 	{/if}
 	{#each filteredEntries as entry}
