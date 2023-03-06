@@ -12,7 +12,7 @@
 
 	<slot />
 
-	<footer class="footer items-center p-4 text-white">
+	<footer class="footer items-center p-4">
 		<div class="items-center grid-flow-col">
 			<p>Licensed under CC0 and AGPLv3.</p>
 			<p>
