@@ -1,8 +1,10 @@
 <script>
 	import '../app.css';
 	import Header from './Header.svelte';
-	/** @type {import('./$types').LayoutData} */
-	export let data;
+	const htmlURL = 'https://github.com/maehr/awesome-digital-history'
+	const lastCommitDate = new Date().toLocaleDateString();
+	// /** @type {import('./$types').LayoutData} */
+	// export let data;
 </script>
 
 <div class="container mx-auto min-h-screen">
@@ -14,8 +16,11 @@
 		<div class="items-center grid-flow-col">
 			<p>Licensed under CC0 and AGPLv3.</p>
 			<p>
-				Last update <a href={data.htmlURL}>{data.lastCommitDate}</a>.
+				Last update <a href={htmlURL}>{lastCommitDate}</a>.
 			</p>
+			<!-- <p>
+				Last update <a href={data.htmlURL}>{data.lastCommitDate}</a>.
+			</p> -->
 		</div>
 	</footer>
 </div>
