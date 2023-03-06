@@ -7,9 +7,7 @@ const config = {
 		adapter: adapter({ precompress: true }),
 		csp: {
 			directives: {
-				'default-src': ['self'],
-				'script-src': ['plausible.io'],
-				'connect-src': ['plausible.io']
+				'default-src': ['self', '*.plausible.io']
 			}
 		}
 	},
