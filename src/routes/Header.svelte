@@ -11,7 +11,7 @@
 
 <nav class="navbar bg-base-200 rounded-box sticky top-0 z-30 ">
 	<div class="flex-1 px-4">
-		<img src="favicon.png" alt="logo" class="w-10 h-10" />
+		<img src="favicon.png" alt="logo" class="w-10" />
 		<h1 class="navbar-title md:text-xl hidden lg:block">Awesome Digital History</h1>
 	</div>
 	<div class="flex-none">

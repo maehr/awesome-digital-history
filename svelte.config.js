@@ -4,7 +4,12 @@ import { vitePreprocess } from '@sveltejs/kit/vite';
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
-		adapter: adapter({ precompress: true })
+		adapter: adapter({ precompress: true }),
+		csp: {
+			directives: {
+				'script-src': ['self']
+			}
+		}
 	},
 	preprocess: vitePreprocess()
 };
