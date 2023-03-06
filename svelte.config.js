@@ -4,12 +4,7 @@ import { vitePreprocess } from '@sveltejs/kit/vite';
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
-		adapter: adapter({ precompress: true }),
-		csp: {
-			directives: {
-				'default-src': ['self', '*.plausible.io']
-			}
-		}
+		adapter: adapter({ precompress: true })
 	},
 	preprocess: vitePreprocess()
 };
