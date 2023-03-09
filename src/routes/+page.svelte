@@ -56,7 +56,7 @@
 	>
 </svelte:head>
 
-<main class="grid grid-cols-1 md:grid-cols-4 gap-2 md:gap-4 overflow-y-hidden pt-2 md:pt-4">
+<main class="grid grid-cols-1 gap-2 overflow-y-hidden pt-2 md:grid-cols-4 md:gap-4 md:pt-4">
 	<section class="card bg-base-100 shadow-xl">
 		<div class="card-body">
 			<div class="card-actions">
@@ -67,7 +67,7 @@
 							name="search"
 							id="search"
 							type="text"
-							class="input input-bordered"
+							class="input-bordered input"
 							bind:value={data.filter.searchTerm}
 							placeholder="Search by title or description"
 						/>
@@ -89,7 +89,7 @@
 						<button
 							name="reset"
 							id="reset"
-							class="btn btn-primary text-white"
+							class="btn-primary btn text-white"
 							on:click={() => {
 								data.filter.searchTerm = '';
 								data.filterOptions.forEach((option) => {
@@ -107,7 +107,7 @@
 	{#if filteredEntries.length === 0}
 		<article class="card bg-base-100 shadow-xl">
 			<div class="card-body">
-				<h2 class="card-title text-primary normal-case text-xl break-word">No results found</h2>
+				<h2 class="break-word card-title text-xl normal-case text-primary">No results found</h2>
 				<p>Please try another search term or filter.</p>
 			</div>
 		</article>
@@ -115,16 +115,16 @@
 	{#each filteredEntries as entry}
 		<article class="card bg-base-100 shadow-xl">
 			<div class="card-body">
-				<h2 class="card-title text-primary normal-case text-xl break-word">
+				<h2 class="break-word card-title text-xl normal-case text-primary">
 					{entry.title}
 				</h2>
 				<p>
-					<a class="normal-case btn btn-accent break-all" href={entry.url}
+					<a class="btn-accent btn break-all normal-case" href={entry.url}
 						>{entry.url.replace(/(^\w+:|^)\/\//, '')}</a
 					>
 				</p>
 				<p>{entry.description}</p>
-				<div class="flex flex-wrap gap-1 justify-end">
+				<div class="flex flex-wrap justify-end gap-1">
 					{#each data.filterOptions as option}
 						{#each entry[option.key] as value}
 							<span class={option.badgeClasses}>{value}</span>

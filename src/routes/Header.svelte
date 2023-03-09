@@ -9,18 +9,18 @@
 	/>
 </svelte:head>
 
-<nav class="navbar bg-base-200 rounded-box sticky top-0 z-30 ">
+<nav class="navbar rounded-box sticky top-0 z-30 bg-base-200 ">
 	<div class="flex-1 px-4">
 		<img src="favicon.png" alt="logo" class="w-10" />
-		<h1 class="navbar-title md:text-xl hidden lg:block">Awesome Digital History</h1>
+		<h1 class="navbar-title hidden md:text-xl lg:block">Awesome Digital History</h1>
 	</div>
 	<div class="flex-none">
-		<ul class="menu menu-horizontal rounded-box bg-secondary ">
+		<ul class="menu rounded-box menu-horizontal bg-secondary ">
 			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
 				<a href="/">Search</a>
 			</li>
 			<li aria-current={$page.url.pathname === '/contributing' ? 'page' : undefined}>
-				<a href="/contributing">Contributing</a>
+				<a href="/contributing">Contribute</a>
 			</li>
 			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
 				<a href="/about">About</a>

@@ -1,15 +1,15 @@
 <script>
-	import { marked } from 'marked';
-	const url =
-		'https://raw.githubusercontent.com/maehr/awesome-digital-history/main/CONTRIBUTING.md';
 </script>
 
 <svelte:head>
 	<title>Contributing to Awesome Digital History</title>
 </svelte:head>
 
-<main>
-	{#await fetch(url).then((r) => r.text()) then text}
-		{@html marked(text)}
-	{/await}
+<main class="grid grid-cols-1 gap-2 overflow-y-hidden pt-2 md:gap-4 md:pt-4">
+	<section class="card bg-base-100 shadow-xl">
+		<div class="card-body">
+			<h2 class="break-word card-title text-xl normal-case text-primary">Contribute</h2>
+			<p>Text.</p>
+		</div>
+	</section>
 </main>

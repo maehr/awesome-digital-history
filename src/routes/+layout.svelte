@@ -13,7 +13,7 @@
 	<slot />
 
 	<footer class="footer items-center p-4">
-		<div class="items-center grid-flow-col">
+		<div class="grid-flow-col items-center">
 			<p>Licensed under CC0 and AGPLv3.</p>
 			<p>
 				Last update <a href={htmlURL}>{lastCommitDate}</a>.
