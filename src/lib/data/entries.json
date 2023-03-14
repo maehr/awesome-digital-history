@@ -892,6 +892,15 @@
 		"period": []
 	},
 	{
+		"title": "Sammlung Schweizerischer Rechtsquellen online",
+		"description": "Retrodigitalisierte und digitale Editionseinheiten der Schweizerischen Rechtsquellen. Ediert wird rechtshistorisches Quellenmaterial vom Mittelalter bis in die Frühe Neuzeit (1798).",
+		"url": "https://www.ssrq-sds-fds.ch/projekte/ssrq-online/",
+		"region": ["Switzerland", "Cantons"],
+		"language": ["de", "fr", "it"],
+		"type": ["primary sources"],
+		"period": ["medieval", "modern"]
+	},
+	{
 		"title": "Schweizerisches Wirtschaftsarchiv",
 		"description": "This collection comprises over 500 business archives from the period 1750 to the present day, with a focus on the Basel region.",
 		"url": "https://ub.unibas.ch/de/historische-bestaende/wirtschaftsarchive/",

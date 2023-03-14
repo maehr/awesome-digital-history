@@ -4,6 +4,7 @@ specifiers:
   '@playwright/test': ^1.31.2
   '@sveltejs/adapter-cloudflare': ^2.2.0
   '@sveltejs/kit': ^1.11.0
+  '@tailwindcss/typography': ^0.5.9
   autoprefixer: ^10.4.14
   awesome-lint: ^0.18.2
   daisyui: ^2.51.3
@@ -15,7 +16,7 @@ specifiers:
   prettier-plugin-svelte: ^2.9.0
   prettier-plugin-tailwindcss: ^0.2.4
   svelte: ^3.56.0
-  svelte-check: ^3.1.2
+  svelte-check: ^3.1.4
   svelte-multiselect: ^8.5.0
   tailwindcss: ^3.2.7
   typescript: ^4.9.5
@@ -26,6 +27,7 @@ devDependencies:
   '@playwright/test': 1.31.2
   '@sveltejs/adapter-cloudflare': 2.2.0_@sveltejs+kit@1.11.0
   '@sveltejs/kit': 1.11.0_svelte@3.56.0+vite@4.1.4
+  '@tailwindcss/typography': 0.5.9_tailwindcss@3.2.7
   autoprefixer: 10.4.14_postcss@8.4.21
   awesome-lint: 0.18.2
   daisyui: 2.51.3_j7yt3jd32cwenjqavrrga47yr4
@@ -37,7 +39,7 @@ devDependencies:
   prettier-plugin-svelte: 2.9.0_gan2xfhhcbz3kbkivttwsjndea
   prettier-plugin-tailwindcss: 0.2.4_yjdjpc7im5hvpskij45owfsns4
   svelte: 3.56.0
-  svelte-check: 3.1.2_ow7olcacshthqqeelqr3bj7eae
+  svelte-check: 3.1.4_ow7olcacshthqqeelqr3bj7eae
   svelte-multiselect: 8.5.0
   tailwindcss: 3.2.7_postcss@8.4.21
   typescript: 4.9.5
@@ -368,7 +370,7 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
     dependencies:
-      '@types/node': 18.15.1
+      '@types/node': 18.15.3
       playwright-core: 1.31.2
     optionalDependencies:
       fsevents: 2.3.2
@@ -448,6 +450,18 @@ packages:
       defer-to-connect: 1.1.3
     dev: true
 
+  /@tailwindcss/typography/0.5.9_tailwindcss@3.2.7:
+    resolution: {integrity: sha512-t8Sg3DyynFysV9f4JDOVISGsjazNb48AeIYQwcL+Bsq5uf4RYL75C1giZ43KISjeDGBaTN3Kxh7Xj/vRSMJUUg==}
+    peerDependencies:
+      tailwindcss: '>=3.0.0 || insiders'
+    dependencies:
+      lodash.castarray: 4.4.0
+      lodash.isplainobject: 4.0.6
+      lodash.merge: 4.6.2
+      postcss-selector-parser: 6.0.10
+      tailwindcss: 3.2.7_postcss@8.4.21
+    dev: true
+
   /@types/chai-subset/1.3.3:
     resolution: {integrity: sha512-frBecisrNGz+F4T6bcc+NLeolfiojh5FxW2klu669+8BARtyQv2C/GkNW6FUodVe4BroGMP/wER/YDGc7rEllw==}
     dependencies:
@@ -480,7 +494,7 @@ packages:
   /@types/keyv/3.1.4:
     resolution: {integrity: sha512-BQ5aZNSCpj7D6K2ksrRCTmKRLEpnPvWDiLPfoGyhZ++8YtiK9d/3DBKPJgry359X/P1PfruyYwvnvwFjuEiEIg==}
     dependencies:
-      '@types/node': 18.15.1
+      '@types/node': 18.15.3
     dev: true
 
   /@types/mdast/3.0.10:
@@ -493,8 +507,8 @@ packages:
     resolution: {integrity: sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==}
     dev: true
 
-  /@types/node/18.15.1:
-    resolution: {integrity: sha512-U2TWca8AeHSmbpi314QBESRk7oPjSZjDsR+c+H4ECC1l+kFgpZf8Ydhv3SJpPy51VyZHHqxlb6mTTqYNNRVAIw==}
+  /@types/node/18.15.3:
+    resolution: {integrity: sha512-p6ua9zBxz5otCmbpb5D3U4B5Nanw6Pk3PPyX05xnxbB/fRv71N7CPmORg7uAD5P70T0xmx1pzAx/FUfa5X+3cw==}
     dev: true
 
   /@types/normalize-package-data/2.4.1:
@@ -508,7 +522,7 @@ packages:
   /@types/responselike/1.0.0:
     resolution: {integrity: sha512-85Y2BjiufFzaMIlvJDvTTB8Fxl2xfLo4HgmHzVBz08w4wDePCTjYw66PdrolO0kzli3yam/YCgRufyo1DdQVTA==}
     dependencies:
-      '@types/node': 18.15.1
+      '@types/node': 18.15.3
     dev: true
 
   /@types/sass/1.45.0:
@@ -661,7 +675,7 @@ packages:
       postcss: ^8.1.0
     dependencies:
       browserslist: 4.21.5
-      caniuse-lite: 1.0.30001465
+      caniuse-lite: 1.0.30001466
       fraction.js: 4.2.0
       normalize-range: 0.1.2
       picocolors: 1.0.0
@@ -798,7 +812,7 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001465
+      caniuse-lite: 1.0.30001466
       electron-to-chromium: 1.4.328
       node-releases: 2.0.10
       update-browserslist-db: 1.0.10_browserslist@4.21.5
@@ -859,8 +873,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /caniuse-lite/1.0.30001465:
-    resolution: {integrity: sha512-HvjgL3MYAJjceTDCcjRnQGjwUz/5qec9n7JPOzUursUoOTIsYCSDOb1l7RsnZE8mjbxG78zVRCKfrBXyvChBag==}
+  /caniuse-lite/1.0.30001466:
+    resolution: {integrity: sha512-ewtFBSfWjEmxUgNBSZItFSmVtvk9zkwkl1OfRZlKA8slltRN+/C/tuGVrF9styXkN36Yu3+SeJ1qkXxDEyNZ5w==}
     dev: true
 
   /case/1.6.3:
@@ -1925,6 +1939,14 @@ packages:
       p-locate: 5.0.0
     dev: true
 
+  /lodash.castarray/4.4.0:
+    resolution: {integrity: sha512-aVx8ztPv7/2ULbArGJ2Y42bG1mEQ5mGjpdvrbJcJFU3TbYybe+QlLS4pst9zV52ymy2in1KpFPiZnAOATxD4+Q==}
+    dev: true
+
+  /lodash.isplainobject/4.0.6:
+    resolution: {integrity: sha512-oSXzaWypCMHkPC3NvBEaPHf0KsA5mvPrOPgQWDsbg8n7orZ290M0BmC/jgRZ4vcJ6DTAhjrsSYgdsW/F+MFOBA==}
+    dev: true
+
   /lodash.iteratee/4.7.0:
     resolution: {integrity: sha512-yv3cSQZmfpbIKo4Yo45B1taEvxjNvcpF1CEOc0Y6dEyvhPIfEJE3twDwPgWTPQubcSgXyBwBKG6wpQvWMDOf6Q==}
     dev: true
@@ -2454,6 +2476,14 @@ packages:
     dependencies:
       postcss: 8.4.21
       postcss-selector-parser: 6.0.11
+    dev: true
+
+  /postcss-selector-parser/6.0.10:
+    resolution: {integrity: sha512-IQ7TZdoaqbT+LCpShg46jnZVlhWD2w6iQYAcYXfHARZ7X1t/UGhhceQDs5X0cGqKvYlHNOuv7Oa1xmb0oQuA3w==}
+    engines: {node: '>=4'}
+    dependencies:
+      cssesc: 3.0.0
+      util-deprecate: 1.0.2
     dev: true
 
   /postcss-selector-parser/6.0.11:
@@ -3377,8 +3407,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /svelte-check/3.1.2_ow7olcacshthqqeelqr3bj7eae:
-    resolution: {integrity: sha512-8nIPXPe8TiUiWPCAoegU+l1NaL5DKLnN6+H1dJqbjkD6IkhpDTMj2q8Z88lhCOsq1F3E7st5/Vn7eGeGkSo/aA==}
+  /svelte-check/3.1.4_ow7olcacshthqqeelqr3bj7eae:
+    resolution: {integrity: sha512-25Lb46ZS4IK/XpBMe4IBMrtYf23V8alqBX+szXoccb7uM0D2Wqq5rMRzYBONZnFVuU1bQG3R50lyIT5eRewv2g==}
     hasBin: true
     peerDependencies:
       svelte: ^3.55.0
@@ -3871,7 +3901,7 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vite/4.1.4_@types+node@18.15.1:
+  /vite/4.1.4_@types+node@18.15.3:
     resolution: {integrity: sha512-3knk/HsbSTKEin43zHu7jTwYWv81f8kgAL99G5NWBcA1LKvtvcVAC4JjBH1arBunO9kQka+1oGbrMKOjk4ZrBg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -3896,7 +3926,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 18.15.1
+      '@types/node': 18.15.3
       esbuild: 0.16.17
       postcss: 8.4.21
       resolve: 1.22.1
@@ -3940,7 +3970,7 @@ packages:
     dependencies:
       '@types/chai': 4.3.4
       '@types/chai-subset': 1.3.3
-      '@types/node': 18.15.1
+      '@types/node': 18.15.3
       acorn: 8.8.2
       acorn-walk: 8.2.0
       chai: 4.3.7
@@ -3951,7 +3981,7 @@ packages:
       tinybench: 2.4.0
       tinypool: 0.3.1
       tinyspy: 1.1.1
-      vite: 4.1.4_@types+node@18.15.1
+      vite: 4.1.4_@types+node@18.15.3
     transitivePeerDependencies:
       - less
       - sass

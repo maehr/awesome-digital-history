@@ -48,13 +48,13 @@
 					</li>
 					<li aria-current={$page.url.pathname === '/contributing' ? 'page' : undefined}>
 						<a
-							class="btn rounded {$page.url.pathname === '/' ? 'btn-secondary' : 'btn-ghost'} drawer-button"
+							class="btn rounded {$page.url.pathname === '/contributing' ? 'btn-secondary' : 'btn-ghost'} drawer-button"
 							href="/contributing">Contribute</a
 						>
 					</li>
 					<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
 						<a
-							class="btn rounded {$page.url.pathname === '/' ? 'btn-secondary' : 'btn-ghost'} drawer-button"
+							class="btn rounded {$page.url.pathname === '/about' ? 'btn-secondary' : 'btn-ghost'} drawer-button"
 							href="/about">About</a
 						>
 					</li>
@@ -80,29 +80,15 @@
 			</li>
 			<li aria-current={$page.url.pathname === '/contributing' ? 'page' : undefined}>
 				<a
-					class="btn {$page.url.pathname === '/' ? 'btn-secondary' : 'btn-ghost'}"
+					class="btn {$page.url.pathname === '/contributing' ? 'btn-secondary' : 'btn-ghost'}"
 					href="/contributing">Contribute</a
 				>
 			</li>
 			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
-				<a class="btn {$page.url.pathname === '/' ? 'btn-secondary' : 'btn-ghost'}" href="/about"
+				<a class="btn {$page.url.pathname === '/about' ? 'btn-secondary' : 'btn-ghost'}" href="/about"
 					>About</a
 				>
 			</li>
 		</ul>
 	</div>
 </div>
-
-<!-- <div class="container mx-auto min-h-screen">
-	<Header />
-
-	<slot />
-
-
-</div>
-
-<style>
-	:global(body) {
-		background-color: #afafaf;
-	}
-</style> -->
