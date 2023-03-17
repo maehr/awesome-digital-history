@@ -47,11 +47,16 @@ on the different ways you can update your PR so that we can merge it.
 
 ## Appendix: running lint tests
 
-To run tests locally:
+To run tests locally using ruby:
 
-    # using ruby
-    gem install awesome_bot
-    awesome_bot README.md
-    # using node.js
-    npm install -g awesome-lint
-    awesome-lint README.md
+```bash
+gem install awesome_bot
+awesome_bot README.md
+```
+
+To run tests locally using node:
+
+```bash
+npm install -g awesome-lint
+awesome-lint README.md
+```
