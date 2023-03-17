@@ -85,7 +85,6 @@
 					{/each}
 					<div class="form-control">
 						<span>&nbsp;</span>
-						<label class="label hidden" for="reset">Reset</label>
 						<button
 							name="reset"
 							id="reset"
