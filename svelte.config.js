@@ -10,7 +10,7 @@ const config = {
 		adapter: adapter({ precompress: true }),
 		csp: { mode: 'auto' }
 	},
-	preprocess: [vitePreprocess(), mdsvex(mdsvexConfig)]
+	preprocess: [mdsvex(mdsvexConfig), vitePreprocess()]
 };
 
 export default config;
