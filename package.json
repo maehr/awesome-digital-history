@@ -13,7 +13,7 @@
 		"test:unit": "vitest",
 		"lint": "prettier --plugin-search-dir . --check . '!{CODE_OF_CONDUCT.md,LICENSE.md}' && eslint .",
 		"format": "prettier --plugin-search-dir . --write . '!{CODE_OF_CONDUCT.md,LICENSE.md}'",
-		"readme": "node readme.js && pnpm run format",
+		"prepare": "node utils/sortJSON.js && node utils/compileReadme.js && npm run format && npm run awesome-lint",
 		"awesome-lint": "awesome-lint"
 	},
 	"devDependencies": {

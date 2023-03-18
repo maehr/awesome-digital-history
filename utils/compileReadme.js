@@ -1,5 +1,5 @@
 import fs from 'fs';
-import entries from './src/lib/data/entries.json' assert { type: 'json' };
+import entries from '../src/lib/data/entries.json' assert { type: 'json' };
 
 let regions = new Set();
 entries.forEach((entry) => {
