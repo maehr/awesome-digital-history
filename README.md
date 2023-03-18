@@ -1,6 +1,6 @@
 # Awesome Digital History [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-[<img src="android-chrome-512x512.png" align="right" width="100">](https://maehr.github.io/awesome-digital-history/)
+[<img src="android-chrome-512x512.png" align="right" width="100" alt"">](https://maehr.github.io/awesome-digital-history/)
 
 > Find primary sources online and learn how to research history digitally.
 
@@ -11,7 +11,6 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [Archives and primary sources](#archives-and-primary-sources)
   - [Asia](#asia)
   - [Austria](#austria)
-  - [Cantons](#cantons)
   - [Europe](#europe)
   - [France](#france)
   - [Germany](#germany)
@@ -36,10 +35,6 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [Digitarium](https://digitarium-app.acdh-dev.oeaw.ac.at/) - Digital edition of the historical Wiener Zeitung.
 - [Wien Geschichte Wiki](https://www.geschichtewiki.wien.gv.at/Wien_Geschichte_Wiki) - It is based on the Historical Dictionary Vienna by Felix Czeike, currently there are 50,156 contributions and 12,510 images.
 - [Österreichische Mediathek](https://www.mediathek.at/) - The Austrian archive for sound recordings and videos from cultural and contemporary history.
-
-### Cantons
-
-- [Sammlung Schweizerischer Rechtsquellen online](https://www.ssrq-sds-fds.ch/projekte/ssrq-online/) - Retrodigitalisierte und digitale Editionseinheiten der Schweizerischen Rechtsquellen. Ediert wird rechtshistorisches Quellenmaterial vom Mittelalter bis in die Frühe Neuzeit (1798).
 
 ### Europe
 

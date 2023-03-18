@@ -895,7 +895,7 @@
 		"title": "Sammlung Schweizerischer Rechtsquellen online",
 		"description": "Retrodigitalisierte und digitale Editionseinheiten der Schweizerischen Rechtsquellen. Ediert wird rechtshistorisches Quellenmaterial vom Mittelalter bis in die Frühe Neuzeit (1798).",
 		"url": "https://www.ssrq-sds-fds.ch/projekte/ssrq-online/",
-		"region": ["Switzerland", "Cantons"],
+		"region": ["Switzerland"],
 		"language": ["de", "fr", "it"],
 		"type": ["primary sources"],
 		"period": ["medieval", "modern"]

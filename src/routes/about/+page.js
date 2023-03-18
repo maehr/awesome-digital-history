@@ -20,7 +20,7 @@ export async function load() {
 					url: contributor.html_url
 				});
 			});
-		})
+		});
 	return {
 		contributors: contributors
 	};
