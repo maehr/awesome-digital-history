@@ -1,3 +1,5 @@
+export const prerender = true;
+
 /**
  * Contributor
  * @typedef {Object} contributor
