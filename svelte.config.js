@@ -8,10 +8,7 @@ const config = {
 	extensions: ['.svelte', ...mdsvexConfig.extensions],
 	kit: {
 		adapter: adapter({ precompress: true }),
-		csp: { mode: 'auto' },
-		// paths: {
-		// 	base: process.env.NODE_ENV === 'production' ? '/awesome-digital-history' : ''
-		// }
+		csp: { mode: 'auto' }
 	},
 	preprocess: [mdsvex(mdsvexConfig), vitePreprocess()]
 };
