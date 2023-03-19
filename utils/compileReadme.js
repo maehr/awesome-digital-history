@@ -17,7 +17,9 @@ const header = `# Awesome Digital History [![Awesome](https://awesome.re/badge.s
 
 Finding aids for textual and multimedia [primary sources](https://en.wikipedia.org/wiki/Primary_source) with a focus on the western hemisphere and the 19th and 20th centuries. Courses and learning tools to explore history digitally.
 
-Check out our new website at [awesome-digital-history.pages.dev](https://awesome-digital-history.pages.dev/) with more information, filters, and a search function.
+📢 **Announcement**
+
+🎉 Check out our new website at [awesome-digital-history.pages.dev](https://awesome-digital-history.pages.dev/) with more information, filters, and a search function. 🎉
 `;
 
 let toc = `## Contents
