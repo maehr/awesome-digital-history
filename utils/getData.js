@@ -1,4 +1,5 @@
 import fs from 'fs';
+import fetch from 'node-fetch';
 
 async function getData(url, filepath) {
 	await fetch(url)
