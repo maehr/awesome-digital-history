@@ -1,6 +1,6 @@
 ## Pull Request
 
-Add / Remove / Edit `{entry name}` in `src/lib/data/entries.json`.
+Add / Remove / Change `{entry name}` in `src/lib/data/entries.json`.
 
 <!-- NOTE: Please do not skip the template -->
 
