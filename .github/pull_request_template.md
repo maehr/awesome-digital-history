@@ -17,7 +17,9 @@ Describe why this change is made. Alternatively, refer to existing issues if any
 Please ensure that you have completed the following tasks:
 
 - [ ] I have read and understood the [contribution guidelines](CONTRIBUTING.md).
-- [ ] I have run `npm run prepare` to sort the entries in `src/lib/data/entries.json` alphabetically, to generate the `README.md` file, and to pass `awesome-lint` tests.
+- [ ] I have run `npm run prepare` to sort the entries in `src/lib/data/entries.json` alphabetically and to generate the `README.md` file.
+- [ ] I have run `npm run format` to format the repository code.
+- [ ] I have run `npm run awesome-lint` to ensure that the `README.md` file is formatted correctly.
 
 ### Criteria for accepting a pull request
 
