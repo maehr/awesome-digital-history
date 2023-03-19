@@ -1,6 +1,6 @@
 <script>
 	import { page } from '$app/stores';
-	import { base } from "$app/paths";
+	import { base } from '$app/paths';
 
 	export let drawerContentScrollY;
 	$: switchNavbarStyle = drawerContentScrollY > 40 ? true : false;
@@ -96,7 +96,11 @@
 		</div>
 		<div class="flex-0">
 			<div class={`hidden flex-none items-center ${$page.url.pathname == '/' ? 'lg:block' : ''}`}>
-				<a sveltekit:prefetch href="{base}/components" class="btn-ghost drawer-button btn normal-case">
+				<a
+					sveltekit:prefetch
+					href="{base}/components"
+					class="btn-ghost drawer-button btn normal-case"
+				>
 					<svg
 						width="20"
 						height="20"

@@ -76,7 +76,9 @@
 			<div class="grid-flow-col items-center">
 				<p>Licensed under CC0 and AGPLv3.</p>
 				<p>
-					Last update <a href={latest_commit[0].html_url}>{new Date(latest_commit[0].commit.author.date)}</a>.
+					Last update <a href={latest_commit[0].html_url}
+						>{new Date(latest_commit[0].commit.author.date)}</a
+					>.
 				</p>
 			</div>
 		</footer>

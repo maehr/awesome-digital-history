@@ -1,29 +1,25 @@
 ---
-name: Removal
-about: Create a report to remove an item
-title: ''
-labels: ''
+name: Removal Request
+about: Request to remove an item from the list
+title: \[Removal\]
+labels: 'removal'
 assignees: ''
 ---
 
-**Item**
+**Item to be Removed**
 
-```json
-{
-	"title": "Example",
-	"description": "Example description.",
-	"url": "http://example.com",
-	"region": ["Asia"],
-	"language": ["jp"],
-	"type": ["primary sources", "newspapers", "magazines"],
-	"period": ["contemporary", "modern"]
-}
-```
+Please provide the title of the item you wish to remove and a link to it, if applicable.
 
-**Rationale for the change**
+**Reason for Removal**
 
-Briefly and concisely explain why you want to change the list.
+Briefly explain why you believe this item should be removed from the list.
 
-Please note that this project is released with a
-[Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this
-project you agree to abide by its terms.
+**Alternative(s)**
+
+Are there any alternatives that could be added to the list in place of this item?
+
+**Additional context**
+
+Add any other context or screenshots about the removal request here.
+
+Please note that this project is governed by a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.

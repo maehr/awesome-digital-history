@@ -1,29 +1,31 @@
 ---
 name: Addition
-about: Create a report to add an item
-title: ''
-labels: ''
+about: Request to add an item from the list
+title: \[Addition\]
+labels: 'addition'
 assignees: ''
 ---
 
-**Item**
+**Item Details**
+
+Please provide the following details about the item you want to add to the list:
 
 ```json
 {
-	"title": "Example",
-	"description": "Example description.",
-	"url": "http://example.com",
-	"region": ["Asia"],
-	"language": ["jp"],
-	"type": ["primary sources", "newspapers", "magazines"],
-	"period": ["contemporary", "modern"]
+	"title": "",
+	"description": "",
+	"url": "",
+	"region": [],
+	"language": [],
+	"type": [],
+	"period": []
 }
 ```
 
-**Rationale for the change**
+Check [maehr.github.io/awesome-digital-history/](https://maehr.github.io/awesome-digital-history/) for the list of available regions, languages, types, and periods.
 
-Briefly and concisely explain why you want to change the list.
+**Rationale for the addition**
 
-Please note that this project is released with a
-[Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this
-project you agree to abide by its terms.
+Briefly explain why you think this item should be added to the list and how it fits the criteria for inclusion.
+
+Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project, you agree to abide by its terms.

@@ -12,7 +12,7 @@ You can propose changes in two ways:
 2. Check if your proposed change has already been discussed.
 3. If not, create a new issue and describe the changes you propose.
 4. You can propose changes in the following ways:
-   - **Edits**: You can [update or correct](https://github.com/maehr/awesome-digital-history/issues/new?assignees=&labels=&template=edit.md&title=) the entries if they can be improved.
+   - **Edits**: You can [update or correct](https://github.com/maehr/awesome-digital-history/issues/new?assignees=&labels=&template=change.md&title=) the entries if they can be improved.
    - **Additions**: You can [add](https://github.com/maehr/awesome-digital-history/issues/new?assignees=&labels=&template=addition.md&title=) a new entry.
    - **Removals**: You can [remove](https://github.com/maehr/awesome-digital-history/issues/new?assignees=&labels=&template=removal.md&title=) an outdated entry.
 
