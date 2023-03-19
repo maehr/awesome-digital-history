@@ -1,5 +1,6 @@
 <script>
 	import { page } from '$app/stores';
+	import { base } from "$app/paths";
 
 	export let drawerContentScrollY;
 	$: switchNavbarStyle = drawerContentScrollY > 40 ? true : false;
@@ -52,7 +53,7 @@
 			</span>
 			<div class={`flex items-center gap-2 ${$page.url.pathname == '/' ? '' : 'lg:hidden'}`}>
 				<a
-					href="/"
+					href="{base}/"
 					aria-current="page"
 					aria-label="Homepage"
 					class={`flex-0 btn-ghost btn px-2 ${
@@ -79,7 +80,7 @@
 					</div>
 				</a>
 				<a
-					href="/docs/changelog"
+					href="{base}/docs/changelog"
 					class={`link-hover link font-mono text-xs text-opacity-50 ${
 						switchNavbarStyle || $page.url.pathname != '/' ? '' : 'hidden'
 					}`}
@@ -95,7 +96,7 @@
 		</div>
 		<div class="flex-0">
 			<div class={`hidden flex-none items-center ${$page.url.pathname == '/' ? 'lg:block' : ''}`}>
-				<a sveltekit:prefetch href="/components" class="btn-ghost drawer-button btn normal-case">
+				<a sveltekit:prefetch href="{base}/components" class="btn-ghost drawer-button btn normal-case">
 					<svg
 						width="20"
 						height="20"

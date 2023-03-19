@@ -6,6 +6,7 @@
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
+		"deploy": "touch build/.nojekyll && gh-pages -d build -t true",
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
@@ -13,12 +14,13 @@
 		"test:unit": "vitest",
 		"lint": "prettier --plugin-search-dir . --check . '!{CODE_OF_CONDUCT.md,LICENSE.md}' && eslint .",
 		"format": "prettier --plugin-search-dir . --write . '!{CODE_OF_CONDUCT.md,LICENSE.md}'",
-		"prepare": "node utils/sortJSON.js && node utils/compileReadme.js",
+		"prepare": "node utils/sortJSON.js && node utils/compileReadme.js && node utils/getData.js && npm run format",
 		"awesome-lint": "awesome-lint"
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.31.2",
 		"@sveltejs/adapter-cloudflare": "^2.2.0",
+		"@sveltejs/adapter-static": "^2.0.1",
 		"@sveltejs/kit": "^1.12.0",
 		"@tailwindcss/typography": "^0.5.9",
 		"autoprefixer": "^10.4.14",
@@ -27,6 +29,7 @@
 		"eslint": "^8.36.0",
 		"eslint-config-prettier": "^8.7.0",
 		"eslint-plugin-svelte3": "^4.0.0",
+		"gh-pages": "^5.0.0",
 		"mdsvex": "^0.10.6",
 		"mdsvex-relative-images": "^1.0.3",
 		"postcss": "^8.4.21",

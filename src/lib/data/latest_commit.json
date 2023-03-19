@@ -1,0 +1,81 @@
+[
+  {
+    "sha": "0ceccc65cc10c08dbfd6c3673f41f3d14bba3e31",
+    "node_id": "C_kwDODIPNjNoAKDBjZWNjYzY1Y2MxMGMwOGRiZmQ2YzM2NzNmNDFmM2QxNGJiYTNlMzE",
+    "commit": {
+      "author": {
+        "name": "Moritz Mähr",
+        "email": "maehr@users.noreply.github.com",
+        "date": "2023-02-17T20:49:57Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-02-17T20:49:57Z"
+      },
+      "message": "fix: removal of non accessible or out of scope entries (#58)\n\n* fix: PICTURA paedagogica was hacked and is not accessible anymore\r\n\r\n- [PICTURA paedagogica](https://pictura.bbf.dipf.de/viewer/index/) - Digital image archive on the history of education with 131'155 objects.\r\n\r\n* fix: cendari is not accessible and therefore removed\r\n\r\n- [CENDARI](https://archives.cendari.dariah.eu/) - Search engine for libraries containing resources on the Medieval era and World War One.\r\n\r\n* fix: Digithek is out of scope and therefore removed\r\n\r\n- [Digithek](https://www.digithek.ch/de/) - A collection of digital finding aids for secondary and vocational schools.",
+      "tree": {
+        "sha": "56b2ab529fd4b591d315e2881c4945ff690e9ed3",
+        "url": "https://api.github.com/repos/maehr/awesome-digital-history/git/trees/56b2ab529fd4b591d315e2881c4945ff690e9ed3"
+      },
+      "url": "https://api.github.com/repos/maehr/awesome-digital-history/git/commits/0ceccc65cc10c08dbfd6c3673f41f3d14bba3e31",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJj7+h1CRBK7hj4Ov3rIwAArWQIAIo/AtzQWsqyOX+/NaEPcZb1\nrinSs+xiCYwp+X4REyHchKFQe3nmeukQJUMh6p5mzce0FIEHlIkcq1jh5ft6w1dH\nI0yJePHt+QjDeUCQca0KPNvxF5XU7lPI09fvby46zBb1JJpAdcRHBE2v+NmPf+6k\nBFBxiipt4QWwkBZxO2oGmcPvLUF2g5lzX+TWEgg4Y8yD5yViLVuxliJEtKpVb+79\n1NBo85quqhSJ/CeyUcyqaMQ58NtQci/+QGp+ucQ36zonzW28Yuf1FnYxxeKer/6/\n/oEzwVAHPqry1SxkEg4gchnbYV2KW8WjqEOE4doBKxg7DuLw44EJt/4IQVCPu+c=\n=p8ni\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 56b2ab529fd4b591d315e2881c4945ff690e9ed3\nparent 710338134df4ab7d78fb753cafce19aca2a859d8\nauthor Moritz Mähr <maehr@users.noreply.github.com> 1676666997 +0100\ncommitter GitHub <noreply@github.com> 1676666997 +0100\n\nfix: removal of non accessible or out of scope entries (#58)\n\n* fix: PICTURA paedagogica was hacked and is not accessible anymore\r\n\r\n- [PICTURA paedagogica](https://pictura.bbf.dipf.de/viewer/index/) - Digital image archive on the history of education with 131'155 objects.\r\n\r\n* fix: cendari is not accessible and therefore removed\r\n\r\n- [CENDARI](https://archives.cendari.dariah.eu/) - Search engine for libraries containing resources on the Medieval era and World War One.\r\n\r\n* fix: Digithek is out of scope and therefore removed\r\n\r\n- [Digithek](https://www.digithek.ch/de/) - A collection of digital finding aids for secondary and vocational schools."
+      }
+    },
+    "url": "https://api.github.com/repos/maehr/awesome-digital-history/commits/0ceccc65cc10c08dbfd6c3673f41f3d14bba3e31",
+    "html_url": "https://github.com/maehr/awesome-digital-history/commit/0ceccc65cc10c08dbfd6c3673f41f3d14bba3e31",
+    "comments_url": "https://api.github.com/repos/maehr/awesome-digital-history/commits/0ceccc65cc10c08dbfd6c3673f41f3d14bba3e31/comments",
+    "author": {
+      "login": "maehr",
+      "id": 14755525,
+      "node_id": "MDQ6VXNlcjE0NzU1NTI1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14755525?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/maehr",
+      "html_url": "https://github.com/maehr",
+      "followers_url": "https://api.github.com/users/maehr/followers",
+      "following_url": "https://api.github.com/users/maehr/following{/other_user}",
+      "gists_url": "https://api.github.com/users/maehr/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/maehr/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/maehr/subscriptions",
+      "organizations_url": "https://api.github.com/users/maehr/orgs",
+      "repos_url": "https://api.github.com/users/maehr/repos",
+      "events_url": "https://api.github.com/users/maehr/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/maehr/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "710338134df4ab7d78fb753cafce19aca2a859d8",
+        "url": "https://api.github.com/repos/maehr/awesome-digital-history/commits/710338134df4ab7d78fb753cafce19aca2a859d8",
+        "html_url": "https://github.com/maehr/awesome-digital-history/commit/710338134df4ab7d78fb753cafce19aca2a859d8"
+      }
+    ]
+  }
+]

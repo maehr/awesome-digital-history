@@ -1,5 +1,6 @@
 <script>
 	import { page } from '$app/stores';
+	import { base } from '$app/paths';
 </script>
 
 <svelte:head>
@@ -12,7 +13,7 @@
 			<h2 class="break-word card-title text-xl normal-case text-primary">
 				{$page.status}: {$page.error.message}
 			</h2>
-			<a class="btn-primary btn" href="/">Go back</a>
+			<a class="btn-primary btn" href="{base}/">Go back</a>
 		</div>
 	</section>
 </main>

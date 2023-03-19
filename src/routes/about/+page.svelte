@@ -1,7 +1,6 @@
 <script>
 	import About from '../../../ABOUT.md';
-	/** @type {import('./$types').PageData} */
-	export let data;
+	import contributors from '$lib/data/contributors.json';
 </script>
 
 <svelte:head>
@@ -17,8 +16,8 @@
 			>
 		</h2>
 		<ul>
-			{#each data.contributors as contributor}
-				<li><a href={contributor.url}>{contributor.handle}</a></li>
+			{#each contributors as contributor}
+				<li><a href={contributor.html_url}>{contributor.login}</a></li>
 			{/each}
 		</ul>
 	</section>
