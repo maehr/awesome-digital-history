@@ -1,5 +1,5 @@
-<main class="container mx-auto hero">
-	<section class="hero-content prose">
+<main class="container mx-auto">
+	<section class="prose">
 		<slot />
 	</section>
 </main>
