@@ -1027,6 +1027,15 @@
 		"period": ["contemporary"]
 	},
 	{
+		"title": "transcriptiones",
+		"description": "Create, share and access transcriptions of historical manuscripts.",
+		"url": "http://transcriptiones.ch",
+		"region": ["Switzerland"],
+		"language": ["de", "en"],
+		"type": ["primary sources", "manuscripts"],
+		"period": ["medieval", "modern"]
+	},
+	{
 		"title": "UB Heidelberg",
 		"description": "Manuscripts, documents, maps and literature.",
 		"url": "https://www.ub.uni-heidelberg.de/helios/digi/digilit.html",
