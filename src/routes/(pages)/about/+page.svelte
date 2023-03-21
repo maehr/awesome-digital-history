@@ -1,5 +1,5 @@
 <script>
-	import About from '../../../ABOUT.md';
+	import About from '../../../../ABOUT.md';
 	import contributors from '$lib/data/contributors.json';
 </script>
 
@@ -7,8 +7,7 @@
 	<title>Contributing to Awesome Digital History</title>
 </svelte:head>
 
-<main class="container mx-auto">
-	<section class="prose">
+
 		<About />
 		<h2>
 			<a href="https://github.com/maehr/awesome-digital-history/graphs/contributors">
@@ -20,5 +19,4 @@
 				<li><a href={contributor.html_url}>{contributor.login}</a></li>
 			{/each}
 		</ul>
-	</section>
-</main>
+
