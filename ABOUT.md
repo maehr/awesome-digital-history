@@ -1,7 +1,7 @@
 # About
 
-[<img src="favicon.png" align="right" width="100" alt="">](https://maehr.github.io/awesome-digital-history/)
+This is a curated list to support historical research, with an emphasis on digital history research.
 
-> Find primary sources online and learn how to research history digitally.
+There are several search functions: a free text search or by region (countries, continents) and time period, but also by media type (newspapers, audiovisual material, educational material) or language.
 
-Finding aids for textual and multimedia [primary sources](https://en.wikipedia.org/wiki/Primary_source) with a focus on the western hemisphere and the 19th and 20th centuries. Courses and learning tools to explore history digitally.
+In terms of content, the focus is on digitally accessible sources. Therefore, many sites with digital or digitized content are listed. The re-usability of data is regulated differently in different institutions and projects. Some sites are very broad in terms of content, while others cover only one specific topic or project. What they all have in common is the claim to add value to digital historical scholarship. In other words: awesome!
