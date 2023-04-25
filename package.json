@@ -13,7 +13,7 @@
 		"test:unit": "vitest",
 		"lint": "prettier --plugin-search-dir . --check . '!{CODE_OF_CONDUCT.md,LICENSE.md}' && eslint .",
 		"format": "prettier --plugin-search-dir . --write .",
-		"prepare": "node utils/sortJSON.js && node --experimental-json-modules utils/compileReadme.js && node utils/getData.js && npm run format",
+		"prepare": "node utils/sortJSON.js && node --experimental-json-modules utils/compileReadme.js && npm run format",
 		"awesome-lint": "awesome-lint"
 	},
 	"devDependencies": {
@@ -38,9 +38,9 @@
 		"svelte": "^3.58.0",
 		"svelte-check": "^3.2.0",
 		"svelte-multiselect": "^8.6.0",
-		"tailwindcss": "^3.3.1",
+		"tailwindcss": "^3.3.2",
 		"typescript": "^4.9.5",
-		"vite": "^4.3.1",
+		"vite": "^4.3.2",
 		"vitest": "^0.25.8"
 	},
 	"type": "module"
