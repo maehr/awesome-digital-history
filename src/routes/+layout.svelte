@@ -79,11 +79,11 @@
 		<footer class="footer items-center p-4">
 			<div class="grid-flow-col items-center">
 				<p>Licensed under CC0 and AGPLv3.</p>
-				<p>
+				<!-- <p>
 					Last update <a href={data.latest_commit.html_url}
 						>{new Date(data.latest_commit.date).toDateString()}</a
 					>.
-				</p>
+				</p> -->
 			</div>
 		</footer>
 	</div>
