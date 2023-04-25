@@ -10,10 +10,16 @@
 
 <About />
 <h2>
-	<a href="https://github.com/maehr/awesome-digital-history/graphs/contributors"> Contributors</a>
+	<a href="https://github.com/maehr/awesome-digital-history/graphs/contributors">Contributors</a>
 </h2>
 <ul>
 	{#each data.contributors as contributor}
 		<li><a href={contributor.html_url}>{contributor.login}</a></li>
 	{/each}
 </ul>
+
+<p>
+	Last update <a href={data.latest_commit.html_url}
+		>{new Date(data.latest_commit.date).toDateString()}</a
+	>.
+</p>
