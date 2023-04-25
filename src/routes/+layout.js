@@ -1,5 +1,5 @@
 // This can be false if you're using a fallback (i.e. SPA mode)
-export const prerender = true;
+// export const prerender = true;
 
 /** @type {import('./$types').LayoutLoad} */
 export async function load() {
