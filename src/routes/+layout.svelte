@@ -2,7 +2,9 @@
 	import '../app.css';
 	import { base } from '$app/paths';
 	import { page } from '$app/stores';
-	import latest_commit from '$lib/data/latest_commit.json';
+
+	/** @type {import('./$types').LayoutData} */
+	export let data;
 </script>
 
 <svelte:head>
@@ -40,7 +42,9 @@
 				</label>
 			</div>
 			<div class="mx-2 flex-1 px-2">
-				<h1 class="navbar-title hidden md:text-xl lg:block">Awesome Digital History</h1>
+				<h1 class="navbar-title hidden md:text-xl lg:block">
+					<a href="/"> Awesome Digital History</a>
+				</h1>
 			</div>
 			<div class="hidden flex-none lg:block">
 				<ul class="menu menu-horizontal md:gap-1 lg:gap-2">
@@ -76,8 +80,8 @@
 			<div class="grid-flow-col items-center">
 				<p>Licensed under CC0 and AGPLv3.</p>
 				<p>
-					Last update <a href={latest_commit[0].html_url}
-						>{new Date(latest_commit[0].commit.author.date)}</a
+					Last update <a href={data.latest_commit.html_url}
+						>{new Date(data.latest_commit.date).toDateString()}</a
 					>.
 				</p>
 			</div>
