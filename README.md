@@ -1,6 +1,6 @@
 # Awesome Digital History [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-[<img src="static/favicon.png" align="right" width="100">](https://maehr.github.io/awesome-digital-history/)
+[<img src="static/favicon.png" align="right" width="100px">](https://maehr.github.io/awesome-digital-history/)
 
 > Find primary sources online and learn how to research history digitally.
 
