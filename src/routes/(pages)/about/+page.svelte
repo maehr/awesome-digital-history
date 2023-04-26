@@ -12,14 +12,15 @@
 <h2>
 	<a href="https://github.com/maehr/awesome-digital-history/graphs/contributors">Contributors</a>
 </h2>
-<ul>
+<ul class="grid grid-cols-2 gap-4">
 	{#each data.contributors as contributor}
-		<li><a href={contributor.html_url}>{contributor.login}</a></li>
+		<div class="flex items-center space-x-2">
+			<div class="mask mask-hexagon w-16">
+				<img src={contributor.avatar_url} alt="Avatar of {contributor.login}" />
+			</div>
+			<div class="text-lg font-extrabold">
+				<a href={contributor.html_url}>{contributor.login}</a>
+			</div>
+		</div>
 	{/each}
 </ul>
-
-<p>
-	Last update <a href={data.latest_commit.html_url}
-		>{new Date(data.latest_commit.date).toDateString()}</a
-	>.
-</p>
