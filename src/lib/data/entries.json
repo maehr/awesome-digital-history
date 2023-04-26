@@ -1,0 +1,1156 @@
+[
+	{
+		"title": "Ad*Access",
+		"description": "U.S. and Canadian advertisements covering five product categories - Beauty and Hygiene, Radio, Television, Transportation, and World War II propaganda - dated between 1911 and 1955.",
+		"url": "https://repository.duke.edu/dc/adaccess",
+		"region": ["North America"],
+		"language": ["en"],
+		"type": ["magazines"],
+		"period": ["contemporary"]
+	},
+	{
+		"title": "AdFontes",
+		"description": "An Introduction to Working with Sources in the Archive.",
+		"url": "https://www.adfontes.uzh.ch/",
+		"region": [],
+		"language": ["de", "fr", "en"],
+		"type": ["learning materials"],
+		"period": []
+	},
+	{
+		"title": "Amtsdruckschriften",
+		"description": "Federal Gazette, Administrative Case Law of the Federal Authorities and more documents from the Swiss Federal Archives.",
+		"url": "https://www.amtsdruckschriften.bar.admin.ch/",
+		"region": ["Switzerland"],
+		"language": ["de", "it", "fr"],
+		"type": ["primary sources"],
+		"period": ["contemporary"]
+	},
+	{
+		"title": "Année Politique Suisse",
+		"description": "Sources and database for swiss socio-political topics.",
+		"url": "https://anneepolitique.swiss/",
+		"region": ["Switzerland"],
+		"language": ["de", "fr"],
+		"type": ["encyclopedias"],
+		"period": ["contemporary"]
+	},
+	{
+		"title": "ANNO",
+		"description": "Austrian Newspapers online.",
+		"url": "https://anno.onb.ac.at/",
+		"region": ["Austria"],
+		"language": ["de"],
+		"type": ["primary sources", "newspapers", "magazines"],
+		"period": ["contemporary", "modern"]
+	},
+	{
+		"title": "arCHeco",
+		"description": "Index of economic collections in archives of Switzerland and Liechtenstein.",
+		"url": "https://www.archeco.info/",
+		"region": ["Switzerland"],
+		"language": ["de", "it", "fr", "en"],
+		"type": ["search engine"],
+		"period": ["contemporary"]
+	},
+	{
+		"title": "Archives Online",
+		"description": "Archival search engine for Switzerland.",
+		"url": "https://www.archives-online.org/",
+		"region": ["Switzerland"],
+		"language": ["de", "it", "fr", "en"],
+		"type": ["search engine"],
+		"period": ["contemporary", "modern", "medieval"]
+	},
+	{
+		"title": "Archives Portal Europe",
+		"description": "European archives search engine.",
+		"url": "https://www.archivesportaleurope.net/",
+		"region": ["Europe"],
+		"language": ["en"],
+		"type": ["search engine"],
+		"period": ["contemporary", "modern", "medieval"]
+	},
+	{
+		"title": "Archivportal",
+		"description": "German archives search engine.",
+		"url": "https://www.archivportal-d.de/",
+		"region": ["Germany"],
+		"language": ["de", "en"],
+		"type": ["primary sources", "search engine"],
+		"period": ["contemporary", "modern", "medieval"]
+	},
+	{
+		"title": "Bavarikon",
+		"description": "Collection of Bavarian maps, places, newspapers etc.",
+		"url": "https://www.bavarikon.de/",
+		"region": ["Germany"],
+		"language": ["de", "en"],
+		"type": [
+			"books",
+			"photos",
+			"maps",
+			"encyclopedias",
+			"primary sources",
+			"search engine",
+			"newspapers",
+			"magazines"
+		],
+		"period": ["contemporary", "modern"]
+	},
+	{
+		"title": "Bitsavers.org",
+		"description": "Computer code, reference manuals, and magazines.",
+		"url": "http://bitsavers.trailing-edge.com/",
+		"region": ["Global"],
+		"language": ["en"],
+		"type": ["books", "primary sources", "magazines"],
+		"period": ["contemporary"]
+	},
+	{
+		"title": "British Library",
+		"description": "Maps, manuscripts and sounds.",
+		"url": "https://www.bl.uk/catalogues-and-collections/digital-collections",
+		"region": ["Great Britain"],
+		"language": ["en"],
+		"type": [
+			"audiovisual sources",
+			"books",
+			"photos",
+			"maps",
+			"primary sources",
+			"search engine",
+			"newspapers",
+			"magazines",
+			"manuscripts"
+		],
+		"period": ["contemporary", "modern", "medieval"]
+	},
+	{
+		"title": "chgov",
+		"description": "Minutes of the Federal Council (1848-1963).",
+		"url": "https://www.chgov.bar.admin.ch/",
+		"region": ["Switzerland"],
+		"language": ["de", "it", "fr", "en"],
+		"type": ["primary sources"],
+		"period": ["contemporary"]
+	},
+	{
+		"title": "Chronicling America",
+		"description": "America's historic newspapers from 1777-1963.",
+		"url": "https://chroniclingamerica.loc.gov/",
+		"region": ["North America"],
+		"language": ["en"],
+		"type": ["primary sources", "newspapers"],
+		"period": ["contemporary", "modern"]
+	},
+	{
+		"title": "Classic Computer Magazine Archive",
+		"description": "Preserving information from early personal computer magazines.",
+		"url": "https://www.atarimagazines.com/",
+		"region": ["Global"],
+		"language": ["en"],
+		"type": ["magazines"],
+		"period": ["contemporary"]
+	},
+	{
+		"title": "Clio Guide",
+		"description": "A handbook on digital resources for the historical sciences.",
+		"url": "https://guides.clio-online.de/",
+		"region": [],
+		"language": ["de"],
+		"type": ["learning materials"],
+		"period": []
+	},
+	{
+		"title": "Computer Gaming World Museum",
+		"description": "Archive of various magazines on gaming.",
+		"url": "https://www.cgwmuseum.org/",
+		"region": ["North America"],
+		"language": ["en"],
+		"type": ["magazines"],
+		"period": ["contemporary"]
+	},
+	{
+		"title": "Computer History",
+		"description": "An Awesome List of computer history videos, documentaries and related folklore.",
+		"url": "https://github.com/watson/awesome-computer-history",
+		"region": [],
+		"language": ["en"],
+		"type": ["encyclopedias"],
+		"period": []
+	},
+	{
+		"title": "Computerarchiv Muenchen",
+		"description": "South German Museum for History of Digital Development.",
+		"url": "http://computerarchiv-muenchen.de/",
+		"region": ["Germany"],
+		"language": ["de", "en"],
+		"type": ["audiovisual sources", "photos", "primary sources", "websites", "magazines"],
+		"period": ["contemporary"]
+	},
+	{
+		"title": "COSMOV",
+		"description": "COSMOV includes a digital edition of the events of the Zurich summer of 1968.",
+		"url": "http://www.cosmov.uzh.ch/",
+		"region": ["Switzerland"],
+		"language": ["de"],
+		"type": [],
+		"period": ["contemporary"]
+	},
+	{
+		"title": "Crafting Digital History",
+		"description": "A Workbook for Methods and Readings in Digital History.",
+		"url": "http://workbook.craftingdigitalhistory.ca/",
+		"region": [],
+		"language": ["en"],
+		"type": ["learning materials"],
+		"period": []
+	},
+	{
+		"title": "Data Visualization",
+		"description": "A curated list of awesome open-source data visualizations frameworks, libraries and software.",
+		"url": "https://github.com/fasouto/awesome-dataviz#readme",
+		"region": [],
+		"language": ["en"],
+		"type": ["tools"],
+		"period": []
+	},
+	{
+		"title": "David Rumsey Map Collection",
+		"description": "Historical maps collection.",
+		"url": "https://www.davidrumsey.com/",
+		"region": ["North America"],
+		"language": ["en"],
+		"type": ["maps"],
+		"period": ["contemporary", "modern", "medieval"]
+	},
+	{
+		"title": "Delpher",
+		"description": "Dutch newspapers, books and magazines.",
+		"url": "https://www.delpher.nl/",
+		"region": ["Netherlands"],
+		"language": ["nl"],
+		"type": ["books", "primary sources", "newspapers", "magazines"],
+		"period": ["contemporary", "modern"]
+	},
+	{
+		"title": "Deutsche Digitale Bibliothek",
+		"description": "Over 12 million objects.",
+		"url": "https://www.deutsche-digitale-bibliothek.de/",
+		"region": ["Germany"],
+		"language": ["de", "en"],
+		"type": ["search engine"],
+		"period": ["contemporary", "modern", "medieval"]
+	},
+	{
+		"title": "Deutsches Zeitungsportal",
+		"description": "Discover historical newspapers from 1671 to 1950.",
+		"url": "https://www.deutsche-digitale-bibliothek.de/newspaper",
+		"region": ["Germany"],
+		"language": ["de", "en"],
+		"type": ["search engine", "newspapers"],
+		"period": ["contemporary", "modern"]
+	},
+	{
+		"title": "DigiBern",
+		"description": "Bernese culture and history on the Internet.",
+		"url": "https://www.digibern.ch/",
+		"region": ["Switzerland"],
+		"language": ["de"],
+		"type": ["encyclopedias"],
+		"period": ["contemporary", "modern", "medieval", "ancient"]
+	},
+	{
+		"title": "Digital History Guide",
+		"description": "Introduction to the web for historians, who wish to produce online historical work.",
+		"url": "http://chnm.gmu.edu/digitalhistory/",
+		"region": [],
+		"language": ["en"],
+		"type": ["learning materials"],
+		"period": []
+	},
+	{
+		"title": "Digital Humanities",
+		"description": "Tools, resources, and services supporting the Digital Humanities.",
+		"url": "https://dh-tech.github.io/awesome-digital-humanities#readme",
+		"region": [],
+		"language": ["en"],
+		"type": ["encyclopedias"],
+		"period": []
+	},
+	{
+		"title": "Digital Public Library of America",
+		"description": "Discovery tool, or union catalog, for public domain and openly licensed content held by the United States' archives, libraries, museums, and other cultural heritage institutions.",
+		"url": "https://dp.la/",
+		"region": ["North America"],
+		"language": ["en"],
+		"type": [
+			"audiovisual sources",
+			"books",
+			"photos",
+			"maps",
+			"primary sources",
+			"search engine",
+			"newspapers",
+			"magazines",
+			"manuscripts"
+		],
+		"period": ["contemporary", "modern", "medieval", "ancient"]
+	},
+	{
+		"title": "Digital Transgender Archive",
+		"description": "Wide range of trans-related digitized historical materials, born-digital materials, and information on archival holdings throughout the world.",
+		"url": "https://www.digitaltransgenderarchive.net/",
+		"region": ["North America"],
+		"language": ["en"],
+		"type": [],
+		"period": []
+	},
+	{
+		"title": "Digitale Sammlungen",
+		"description": "Collections of the Munich Digitization Center.",
+		"url": "https://www.digitale-sammlungen.de/",
+		"region": ["Germany"],
+		"language": ["de", "en"],
+		"type": [
+			"audiovisual sources",
+			"books",
+			"photos",
+			"maps",
+			"primary sources",
+			"websites",
+			"newspapers",
+			"magazines",
+			"manuscripts"
+		],
+		"period": ["contemporary", "modern", "medieval"]
+	},
+	{
+		"title": "Digitales Deutsches Frauenarchiv",
+		"description": "An interactive portal on the history of women's movements in Germany.",
+		"url": "https://www.digitales-deutsches-frauenarchiv.de/",
+		"region": ["Germany"],
+		"language": ["de"],
+		"type": ["search engine", "learning materials"],
+		"period": []
+	},
+	{
+		"title": "Digitarium",
+		"description": "Digital edition of the historical Wiener Zeitung.",
+		"url": "https://digitarium-app.acdh-dev.oeaw.ac.at/",
+		"region": ["Austria"],
+		"language": ["de"],
+		"type": ["primary sources", "newspapers"],
+		"period": ["contemporary", "modern"]
+	},
+	{
+		"title": "Diplomatic Documents of Switzerland",
+		"description": "Diplomatic documents of Switzerland.",
+		"url": "https://www.dodis.ch/",
+		"region": ["Switzerland"],
+		"language": ["de", "it", "fr", "en"],
+		"type": ["primary sources"],
+		"period": ["contemporary"]
+	},
+	{
+		"title": "Docupedia",
+		"description": "Terms, methods, and debates in contemporary history research.",
+		"url": "https://docupedia.de/",
+		"region": ["Germany"],
+		"language": ["de"],
+		"type": ["encyclopedias"],
+		"period": ["contemporary"]
+	},
+	{
+		"title": "e-codices",
+		"description": "Virtual manuscript library of Switzerland.",
+		"url": "http://e-codices.ch/",
+		"region": ["Switzerland"],
+		"language": ["de", "it", "fr", "en"],
+		"type": ["primary sources", "manuscripts"],
+		"period": ["contemporary", "modern", "medieval"]
+	},
+	{
+		"title": "e-gs",
+		"description": "Online web portal of the ETH Zurich Graphics Collection.",
+		"url": "https://www.e-gs.ethz.ch/",
+		"region": ["Switzerland"],
+		"language": ["de", "en"],
+		"type": ["photos", "primary sources"],
+		"period": []
+	},
+	{
+		"title": "e-manuscripta",
+		"description": "Manuscript material from Swiss libraries and archives.",
+		"url": "https://www.e-manuscripta.ch/",
+		"region": ["Switzerland"],
+		"language": ["de", "it", "fr", "en"],
+		"type": ["maps", "primary sources", "manuscripts"],
+		"period": ["contemporary", "modern", "medieval"]
+	},
+	{
+		"title": "e-newspaperarchives.ch",
+		"description": "Swiss newspapers.",
+		"url": "https://www.e-newspaperarchives.ch/",
+		"region": ["Switzerland"],
+		"language": ["de", "it", "fr", "en"],
+		"type": ["primary sources", "newspapers"],
+		"period": ["contemporary", "modern"]
+	},
+	{
+		"title": "E-Periodica",
+		"description": "Swiss journals.",
+		"url": "https://www.e-periodica.ch/",
+		"region": ["Switzerland"],
+		"language": ["de", "it", "fr", "en"],
+		"type": ["primary sources", "magazines"],
+		"period": ["contemporary", "modern"]
+	},
+	{
+		"title": "e-rara",
+		"description": "The platform for digitised rare books from Swiss libraries.",
+		"url": "https://www.e-rara.ch/",
+		"region": ["Switzerland"],
+		"language": ["de", "it", "fr", "en"],
+		"type": ["primary sources"],
+		"period": ["contemporary", "modern", "medieval"]
+	},
+	{
+		"title": "Encyclopédie d'histoire numérique",
+		"description": "European History through renewed historiographic objects and major contemporary challenges.",
+		"url": "https://ehne.fr/",
+		"region": ["Europe"],
+		"language": ["fr"],
+		"type": [
+			"audiovisual sources",
+			"books",
+			"photos",
+			"maps",
+			"encyclopedias",
+			"learning materials"
+		],
+		"period": ["contemporary", "modern"]
+	},
+	{
+		"title": "Eugenics Archive",
+		"description": "Scholars, survivors, students, and community partners in challenging eugenics.",
+		"url": "https://eugenicsarchive.ca/",
+		"region": ["North America"],
+		"language": ["en"],
+		"type": [
+			"audiovisual sources",
+			"books",
+			"photos",
+			"primary sources",
+			"search engine",
+			"newspapers",
+			"magazines",
+			"manuscripts"
+		],
+		"period": ["contemporary", "modern"]
+	},
+	{
+		"title": "Europeana",
+		"description": "Search engine for European textual and non-textual archival sources.",
+		"url": "https://www.europeana.eu/",
+		"region": ["Europe"],
+		"language": ["en", "de", "nl", "po", "fr", "es", "no", "se", "it", "mul"],
+		"type": [
+			"audiovisual sources",
+			"books",
+			"photos",
+			"maps",
+			"encyclopedias",
+			"primary sources",
+			"search engine",
+			"newspapers",
+			"magazines",
+			"learning materials",
+			"manuscripts"
+		],
+		"period": ["contemporary", "modern", "medieval", "ancient"]
+	},
+	{
+		"title": "FOCAL",
+		"description": "The Asia Directories and Chronicles is a reference work for foreign traders in the Asian region, published annually by the Hong Kong Daily Press, annually between 1863 and 1941.",
+		"url": "https://www.asia-directories.org/",
+		"region": ["Asia"],
+		"language": ["en"],
+		"type": ["books", "primary sources", "statistics"],
+		"period": ["contemporary"]
+	},
+	{
+		"title": "Fxtop",
+		"description": "Forex rate history since 1953.",
+		"url": "https://fxtop.com/",
+		"region": ["Global"],
+		"language": ["en"],
+		"type": ["statistics"],
+		"period": []
+	},
+	{
+		"title": "Gallica",
+		"description": "Digital library of the National Library of France.",
+		"url": "https://gallica.bnf.fr/",
+		"region": ["France"],
+		"language": ["fr", "en", "it", "de"],
+		"type": [
+			"audiovisual sources",
+			"books",
+			"photos",
+			"maps",
+			"primary sources",
+			"newspapers",
+			"magazines",
+			"manuscripts"
+		],
+		"period": ["contemporary", "modern", "medieval"]
+	},
+	{
+		"title": "Geospatial Historian",
+		"description": "Open HGIS Lessons and Resources.",
+		"url": "https://geospatialhistorian.wordpress.com/",
+		"region": [],
+		"language": ["en"],
+		"type": ["learning materials"],
+		"period": []
+	},
+	{
+		"title": "Got Papers?",
+		"description": "Resources on the history of games, cracking, and the demoscene.",
+		"url": "https://gotpapers.scene.org/?page_id=73",
+		"region": ["Global"],
+		"language": ["en"],
+		"type": ["photos", "primary sources", "search engine", "websites", "magazines", "tools"],
+		"period": ["contemporary"]
+	},
+	{
+		"title": "HathiTrust",
+		"description": "A not-for-profit collaborative of academic and research libraries preserving and making accessible millions of digitized items.",
+		"url": "https://www.hathitrust.org",
+		"region": ["North America"],
+		"language": ["en"],
+		"type": ["books", "maps", "primary sources", "magazines", "manuscripts"],
+		"period": ["contemporary", "modern"]
+	},
+	{
+		"title": "HIST 7370",
+		"description": "Online course for Methods and Readings in Digital History.",
+		"url": "https://cblevins.github.io/f19-dig-hist/",
+		"region": [],
+		"language": ["en"],
+		"type": ["learning materials"],
+		"period": []
+	},
+	{
+		"title": "histHub",
+		"description": "The platform manages authority files on Swiss history.",
+		"url": "https://histhub.ch/",
+		"region": ["Switzerland"],
+		"language": ["de", "it", "fr", "en"],
+		"type": ["encyclopedias", "search engine"],
+		"period": ["contemporary", "modern", "medieval"]
+	},
+	{
+		"title": "Historical Encyclopedia of Switzerland",
+		"description": "Encyclopedia on Swiss history.",
+		"url": "https://hls-dhs-dss.ch/",
+		"region": ["Switzerland"],
+		"language": ["de", "it", "fr"],
+		"type": ["audiovisual sources", "photos", "encyclopedias"],
+		"period": ["contemporary", "modern", "medieval", "ancient"]
+	},
+	{
+		"title": "History Toolkit",
+		"description": "History Toolkit for Students.",
+		"url": "https://dg.philhist.unibas.ch/en/studium/history-a-toolkit-for-students/",
+		"region": [],
+		"language": ["de", "en"],
+		"type": ["learning materials"],
+		"period": []
+	},
+	{
+		"title": "HSSO",
+		"description": "Historical statistics of Switzerland online.",
+		"url": "https://hsso.ch/",
+		"region": ["Switzerland"],
+		"language": ["de", "fr", "en"],
+		"type": ["statistics"],
+		"period": ["contemporary"]
+	},
+	{
+		"title": "impresso",
+		"description": "Historical newspaper collections of the Swiss National Library, the National Library of Luxembourg, the Neue Zürcher Zeitung, Le Temps, the Valais State Archives and the Swiss Economic Archives.",
+		"url": "https://impresso-project.ch/",
+		"region": ["Switzerland"],
+		"language": ["en"],
+		"type": ["newspapers"],
+		"period": ["contemporary", "modern"]
+	},
+	{
+		"title": "Industriekultur",
+		"description": "Swiss national inventory of industry artifacts.",
+		"url": "https://industriekultur.ch/",
+		"region": ["Switzerland"],
+		"language": ["de"],
+		"type": ["photos", "encyclopedias"],
+		"period": ["contemporary"]
+	},
+	{
+		"title": "infoclio.ch Edition projects",
+		"description": "A database containing current historical edition projects in Switzerland.",
+		"url": "http://www.infoclio.ch/en/edition-projects",
+		"region": ["Switzerland"],
+		"language": ["de", "it", "fr", "en"],
+		"type": ["encyclopedias"],
+		"period": ["contemporary", "modern", "medieval", "ancient"]
+	},
+	{
+		"title": "Institut national de l'audiovisuel",
+		"description": "INA is a repository of French radio and television audiovisual archives.",
+		"url": "https://www.ina.fr/",
+		"region": ["France"],
+		"language": ["fr"],
+		"type": ["audiovisual sources", "primary sources", "learning materials"],
+		"period": ["contemporary"]
+	},
+	{
+		"title": "Internet Archive",
+		"description": "Non-profit library of millions of free books, movies, software, music, websites, and more.",
+		"url": "https://archive.org/",
+		"region": ["Global"],
+		"language": ["en"],
+		"type": [
+			"audiovisual sources",
+			"books",
+			"photos",
+			"maps",
+			"primary sources",
+			"statistics",
+			"search engine",
+			"websites",
+			"newspapers",
+			"magazines",
+			"learning materials"
+		],
+		"period": ["contemporary"]
+	},
+	{
+		"title": "Karlsruher Virtueller Katalog",
+		"description": "Book search engine for finding hundreds of millions of media in catalogs worldwide.",
+		"url": "https://kvk.bibliothek.kit.edu/",
+		"region": ["Global"],
+		"language": ["de", "en"],
+		"type": ["search engine"],
+		"period": ["contemporary", "modern", "medieval"]
+	},
+	{
+		"title": "Kartenportal",
+		"description": "Search engine for maps.",
+		"url": "http://www.kartenportal.ch/",
+		"region": ["Switzerland"],
+		"language": ["de", "it", "fr", "en"],
+		"type": ["maps", "search engine"],
+		"period": ["contemporary", "modern", "medieval"]
+	},
+	{
+		"title": "Le Temps",
+		"description": "Archive of Gazette de Lausanne et du Journal de Genève.",
+		"url": "https://www.letempsarchives.ch/",
+		"region": ["Switzerland"],
+		"language": ["de", "it", "fr", "en"],
+		"type": ["newspapers"],
+		"period": ["contemporary"]
+	},
+	{
+		"title": "leo bw",
+		"description": "Platform of the State Archives of Baden-Württemberg.",
+		"url": "https://www.leo-bw.de/",
+		"region": ["Germany"],
+		"language": ["de"],
+		"type": ["search engine", "learning materials"],
+		"period": ["contemporary", "modern", "medieval"]
+	},
+	{
+		"title": "LexM",
+		"description": "Encyclopedia of musicians persecuted during the Nazi era.",
+		"url": "https://www.lexm.uni-hamburg.de/content/index.xml",
+		"region": ["Germany"],
+		"language": ["de"],
+		"type": ["encyclopedias"],
+		"period": ["contemporary"]
+	},
+	{
+		"title": "Local Linkages",
+		"description": "Professional development curriculum to introduce to historical research methods and digital history skills.",
+		"url": "https://locallinkages.org/",
+		"region": [],
+		"language": ["en"],
+		"type": ["learning materials"],
+		"period": []
+	},
+	{
+		"title": "map.geo.admin.ch",
+		"description": "Journey through time via maps of Switzerland.",
+		"url": "https://map.geo.admin.ch/",
+		"region": ["Switzerland"],
+		"language": ["de", "it", "fr", "en", "rm"],
+		"type": ["maps"],
+		"period": ["contemporary"]
+	},
+	{
+		"title": "Mapire",
+		"description": "Interactive historical maps.",
+		"url": "https://mapire.eu/",
+		"region": ["Europe"],
+		"language": ["de", "en", "hu"],
+		"type": [
+			"audiovisual sources",
+			"books",
+			"photos",
+			"maps",
+			"encyclopedias",
+			"primary sources",
+			"search engine",
+			"newspapers",
+			"magazines"
+		],
+		"period": ["contemporary", "modern", "medieval"]
+	},
+	{
+		"title": "MARCHIVUM",
+		"description": "Collection of Mannheim newspapers and historical printed matter on the history of Mannheim.",
+		"url": "https://druckschriften-digital.marchivum.de/",
+		"region": ["Germany"],
+		"language": ["de"],
+		"type": [],
+		"period": []
+	},
+	{
+		"title": "Marxist Internet Archive",
+		"description": "Everything you ever wanted to know about Marx (and other important socialists).",
+		"url": "https://www.marxists.org/",
+		"region": ["Global"],
+		"language": ["en", "jp", "pt", "fr", "nl", "es", "ar", "ru", "de", "ca", "se", "mul"],
+		"type": ["books", "encyclopedias", "magazines", "learning materials"],
+		"period": ["contemporary"]
+	},
+	{
+		"title": "Mementoweb",
+		"description": "Find archived web pages in Internet Archive, Archive-It, British Library, archive.today, and GitHub.",
+		"url": "http://timetravel.mementoweb.org/",
+		"region": ["Global"],
+		"language": ["en"],
+		"type": ["websites"],
+		"period": ["contemporary"]
+	},
+	{
+		"title": "MEMOBASE",
+		"description": "Provides access to audiovisual documents from Swiss memory institutions.",
+		"url": "http://www.memobase.ch/",
+		"region": ["Switzerland"],
+		"language": ["de", "it", "fr"],
+		"type": ["audiovisual sources", "photos"],
+		"period": ["contemporary"]
+	},
+	{
+		"title": "Monasterium",
+		"description": "Deeds from all over Europe.",
+		"url": "https://www.monasterium.net/mom/home",
+		"region": ["Europe"],
+		"language": ["en", "de", "fr", "lt", "lat"],
+		"type": ["books", "photos", "maps", "primary sources", "search engine", "manuscripts"],
+		"period": ["contemporary", "modern", "medieval"]
+	},
+	{
+		"title": "Nationaal Archief",
+		"description": "Rich collection of the National Archives of the Netherlands.",
+		"url": "https://www.nationaalarchief.nl/",
+		"region": ["Netherlands"],
+		"language": ["nl", "en"],
+		"type": ["audiovisual sources", "photos", "maps", "primary sources", "websites", "manuscripts"],
+		"period": ["contemporary", "modern", "medieval"]
+	},
+	{
+		"title": "National Archives",
+		"description": "The official archives regarding veteran records, founding documents and presidential libraries of the United States.",
+		"url": "https://www.archives.gov/",
+		"region": ["North America"],
+		"language": ["en"],
+		"type": [
+			"audiovisual sources",
+			"books",
+			"photos",
+			"maps",
+			"primary sources",
+			"search engine",
+			"websites",
+			"newspapers",
+			"magazines",
+			"manuscripts"
+		],
+		"period": ["contemporary", "modern"]
+	},
+	{
+		"title": "National Records of Scotland",
+		"description": "Repository for the public and legal records of Scotland.",
+		"url": "https://www.nrscotland.gov.uk/",
+		"region": ["Great Britain"],
+		"language": ["en"],
+		"type": ["maps", "statistics"],
+		"period": ["contemporary", "modern", "medieval"]
+	},
+	{
+		"title": "NLS",
+		"description": "Data collections from the National Library of Scotland.",
+		"url": "https://data.nls.uk/data/",
+		"region": ["Great Britain"],
+		"language": ["en"],
+		"type": ["books", "photos", "maps", "primary sources"],
+		"period": ["contemporary", "modern"]
+	},
+	{
+		"title": "OldMapsOnline",
+		"description": "Maps, starting in the 17th century.",
+		"url": "https://www.oldmapsonline.org/",
+		"region": ["Global"],
+		"language": ["en"],
+		"type": ["maps"],
+		"period": ["contemporary", "modern"]
+	},
+	{
+		"title": "OpenCat",
+		"description": "Search engine for libraries around the globe.",
+		"url": "https://opencat.io/",
+		"region": ["Global"],
+		"language": ["en", "de", "fr"],
+		"type": ["search engine"],
+		"period": ["contemporary"]
+	},
+	{
+		"title": "OpenHistoricalMap",
+		"description": "A time travel map created by a community of mappers and historians.",
+		"url": "https://openhistoricalmap.org/",
+		"region": ["Global"],
+		"language": ["de"],
+		"type": ["maps"],
+		"period": ["contemporary"]
+	},
+	{
+		"title": "Österreichische Mediathek",
+		"description": "The Austrian archive for sound recordings and videos from cultural and contemporary history.",
+		"url": "https://www.mediathek.at/",
+		"region": ["Austria"],
+		"language": ["de"],
+		"type": ["audiovisual sources", "primary sources", "learning materials"],
+		"period": ["contemporary"]
+	},
+	{
+		"title": "Perry-Castañeda Library Map Collection",
+		"description": "Online collection of scanned maps.",
+		"url": "https://legacy.lib.utexas.edu/maps/",
+		"region": ["North America"],
+		"language": ["en"],
+		"type": ["maps"],
+		"period": ["contemporary"]
+	},
+	{
+		"title": "Project Gutenberg",
+		"description": "A library of over 60,000 free eBooks.",
+		"url": "https://www.gutenberg.org/",
+		"region": ["Europe"],
+		"language": ["en"],
+		"type": ["books"],
+		"period": ["contemporary", "modern"]
+	},
+	{
+		"title": "Projekt Gutenberg",
+		"description": "Contains 10'000 works by over 2'000 authors in German.",
+		"url": "https://www.projekt-gutenberg.org/",
+		"region": ["Germany"],
+		"language": ["de"],
+		"type": ["books"],
+		"period": ["contemporary", "modern"]
+	},
+	{
+		"title": "Public Books Database",
+		"description": "Open access academic literature.",
+		"url": "http://www.publicbooks.org/public-books-database/",
+		"region": ["Global"],
+		"language": ["en"],
+		"type": ["books"],
+		"period": ["contemporary"]
+	},
+	{
+		"title": "Python für Historiker:innen",
+		"description": "The Jupyter Book (in German language) is aimed at historians who are looking for a first application-oriented and interactive introduction to the Python programming language.",
+		"url": "https://digital-history-berlin.github.io/Python-fuer-Historiker-innen/home.html",
+		"region": [],
+		"language": ["de"],
+		"type": ["learning materials"],
+		"period": []
+	},
+	{
+		"title": "Research Tools",
+		"description": "A list of tools for research.",
+		"url": "https://github.com/emptymalei/awesome-research#readme",
+		"region": [],
+		"language": ["en"],
+		"type": ["tools"],
+		"period": []
+	},
+	{
+		"title": "Sammlung Schweizerischer Rechtsquellen online",
+		"description": "Retrodigitalisierte und digitale Editionseinheiten der Schweizerischen Rechtsquellen. Ediert wird rechtshistorisches Quellenmaterial vom Mittelalter bis in die Frühe Neuzeit (1798).",
+		"url": "https://www.ssrq-sds-fds.ch/projekte/ssrq-online/",
+		"region": ["Switzerland"],
+		"language": ["de", "fr", "it"],
+		"type": ["primary sources"],
+		"period": ["medieval", "modern"]
+	},
+	{
+		"title": "Schweizerisches Wirtschaftsarchiv",
+		"description": "This collection comprises over 500 business archives from the period 1750 to the present day, with a focus on the Basel region.",
+		"url": "https://ub.unibas.ch/de/historische-bestaende/wirtschaftsarchive/",
+		"region": ["Switzerland"],
+		"language": ["de", "en"],
+		"type": ["encyclopedias", "search engine"],
+		"period": ["contemporary", "modern"]
+	},
+	{
+		"title": "Scientific Writing",
+		"description": "Scientific writing can extend beyond LaTeX, made possible by formats, such as Markdown (and its many flavours), reStructuredText and Jupyter notebooks.",
+		"url": "https://github.com/writing-resources/awesome-scientific-writing#readme",
+		"region": [],
+		"language": ["en"],
+		"type": ["tools"],
+		"period": []
+	},
+	{
+		"title": "SLUB Dresden",
+		"description": "Over 1.8 million graphic media (photographs, maps, drawings).",
+		"url": "https://digital.slub-dresden.de/kollektionen/",
+		"region": ["Germany"],
+		"language": ["de"],
+		"type": [
+			"audiovisual sources",
+			"photos",
+			"maps",
+			"primary sources",
+			"newspapers",
+			"magazines",
+			"manuscripts"
+		],
+		"period": ["contemporary", "modern", "medieval"]
+	},
+	{
+		"title": "Spiegel Online",
+		"description": "SPIEGEL archive since 1947.",
+		"url": "https://www.spiegel.de/dienste/besser-surfen-auf-spiegel-online-suchen-im-archiv-a-676489.html",
+		"region": ["Germany"],
+		"language": ["de"],
+		"type": ["magazines"],
+		"period": ["contemporary"]
+	},
+	{
+		"title": "swisscollections",
+		"description": "Meta search engine for historical and modern collections in Swiss libraries and archives.",
+		"url": "https://swisscollections.ch/",
+		"region": ["Switzerland"],
+		"language": ["de", "it", "fr", "en"],
+		"type": ["search engine"],
+		"period": ["contemporary", "modern", "medieval", "ancient"]
+	},
+	{
+		"title": "Tempopedia",
+		"description": "Digital History Directory.",
+		"url": "https://tempopedia.org/",
+		"region": [],
+		"language": ["en"],
+		"type": ["encyclopedias"],
+		"period": []
+	},
+	{
+		"title": "The CTP Book",
+		"description": "A book for teaching Computational Thinking and Programming skills to people with a background in the Humanities.",
+		"url": "https://comp-think.github.io/",
+		"region": [],
+		"language": ["en"],
+		"type": ["learning materials"],
+		"period": []
+	},
+	{
+		"title": "The National Archives",
+		"description": "A non-ministerial department, and the official archive and publisher for the UK Government, and for England and Wales.",
+		"url": "https://www.nationalarchives.gov.uk/",
+		"region": ["Great Britain"],
+		"language": ["en"],
+		"type": [
+			"audiovisual sources",
+			"books",
+			"photos",
+			"maps",
+			"primary sources",
+			"search engine",
+			"newspapers",
+			"magazines",
+			"learning materials"
+		],
+		"period": ["contemporary", "modern", "medieval"]
+	},
+	{
+		"title": "The Proceedings of the Old Bailey",
+		"description": "London's Central Criminal Court, 1674 to 1913.",
+		"url": "https://www.oldbaileyonline.org/",
+		"region": ["Great Britain"],
+		"language": ["en"],
+		"type": ["books", "maps", "primary sources"],
+		"period": ["contemporary", "modern"]
+	},
+	{
+		"title": "The Programming Historian",
+		"description": "Novice-friendly, peer-reviewed tutorials that help humanists learn a wide range of digital tools, techniques, and workflows to facilitate research and teaching.",
+		"url": "https://programminghistorian.org/",
+		"region": [],
+		"language": ["en"],
+		"type": ["learning materials"],
+		"period": []
+	},
+	{
+		"title": "timeSTAT Cubes",
+		"description": "The Federal Council reports to parliament on income and expenditure for the past years.",
+		"url": "http://www.sfa-laboratory.ch/sr/cubestest/index.php",
+		"region": ["Switzerland"],
+		"language": ["de", "fr"],
+		"type": ["statistics"],
+		"period": ["contemporary"]
+	},
+	{
+		"title": "UB Heidelberg",
+		"description": "Manuscripts, documents, maps and literature.",
+		"url": "https://www.ub.uni-heidelberg.de/helios/digi/digilit.html",
+		"region": ["Germany"],
+		"language": ["de"],
+		"type": ["books", "primary sources", "newspapers", "magazines", "manuscripts"],
+		"period": ["contemporary", "modern", "medieval", "ancient"]
+	},
+	{
+		"title": "UCI Digital History",
+		"description": "Overview on the field of Digital History and Digital Humanities.",
+		"url": "https://guides.lib.uci.edu/history/history_dh",
+		"region": [],
+		"language": ["en"],
+		"type": ["learning materials"],
+		"period": []
+	},
+	{
+		"title": "Uni Frankfurt",
+		"description": "Rare prints, manuscripts, bequests and more.",
+		"url": "http://sammlungen.ub.uni-frankfurt.de/",
+		"region": ["Germany"],
+		"language": ["de"],
+		"type": ["books", "photos", "primary sources", "newspapers", "magazines", "manuscripts"],
+		"period": ["contemporary", "modern", "medieval"]
+	},
+	{
+		"title": "United Nations Archive",
+		"description": "Archives and records from the United Nations regarding Secretaries-Generals, departments and missions.",
+		"url": "https://archives.un.org/",
+		"region": ["Global"],
+		"language": ["ar", "jp", "en", "fr", "ru", "es"],
+		"type": ["primary sources", "search engine"],
+		"period": ["contemporary"]
+	},
+	{
+		"title": "Visual Archive Southeastern Europe",
+		"description": "Historical and contemporary visual materials from Southeastern Europe.",
+		"url": "http://gams.uni-graz.at/context:vase",
+		"region": ["Europe"],
+		"language": ["en"],
+		"type": ["audiovisual sources", "photos", "maps", "primary sources"],
+		"period": ["contemporary"]
+	},
+	{
+		"title": "WayBackMachine",
+		"description": "Explore more than 486 billion web pages saved over time.",
+		"url": "https://archive.org/web/",
+		"region": ["Global"],
+		"language": ["en"],
+		"type": ["search engine", "websites"],
+		"period": ["contemporary"]
+	},
+	{
+		"title": "We think History",
+		"description": "News about and innovations from digital history.",
+		"url": "https://wethink.hypotheses.org/",
+		"region": [],
+		"language": ["en"],
+		"type": ["learning materials"],
+		"period": []
+	},
+	{
+		"title": "Wien Geschichte Wiki",
+		"description": "It is based on the Historical Dictionary Vienna by Felix Czeike, currently there are 50,156 contributions and 12,510 images.",
+		"url": "https://www.geschichtewiki.wien.gv.at/Wien_Geschichte_Wiki",
+		"region": ["Austria"],
+		"language": ["de"],
+		"type": ["photos", "maps", "encyclopedias"],
+		"period": ["contemporary", "modern", "medieval", "ancient", "prehistory"]
+	},
+	{
+		"title": "Women Working 1800-1930",
+		"description": "An exploration of women's impact on the economic life of the United States between 1800 and the Great Depression.",
+		"url": "https://library.harvard.edu/collections/women-working-1800-1930",
+		"region": ["North America"],
+		"language": ["en"],
+		"type": ["books", "photos", "primary sources", "statistics", "magazines", "manuscripts"],
+		"period": ["contemporary"]
+	},
+	{
+		"title": "World Digital Library",
+		"description": "WDL is an international digital library operated by UNESCO and the United States Library of Congress.",
+		"url": "https://www.wdl.org/",
+		"region": ["North America"],
+		"language": ["en"],
+		"type": [
+			"audiovisual sources",
+			"books",
+			"photos",
+			"maps",
+			"primary sources",
+			"search engine",
+			"newspapers",
+			"magazines",
+			"manuscripts"
+		],
+		"period": ["contemporary", "modern", "medieval"]
+	},
+	{
+		"title": "World Historical Gazeteer",
+		"description": "Collection of content and services that permit world historians to do spatial and temporal reasoning and visualization in a data rich environment at global and trans-regional scales.",
+		"url": "https://whgazetteer.org/",
+		"region": ["Global"],
+		"language": ["en"],
+		"type": ["maps", "learning materials"],
+		"period": ["contemporary", "modern"]
+	},
+	{
+		"title": "Zefys",
+		"description": "Historical German newspapers.",
+		"url": "http://zefys.staatsbibliothek-berlin.de/",
+		"region": ["Germany"],
+		"language": ["de", "en"],
+		"type": ["newspapers"],
+		"period": ["contemporary"]
+	},
+	{
+		"title": "ZLB",
+		"description": "Collections of the Berlin Central and State Library.",
+		"url": "https://digital.zlb.de/",
+		"region": ["Germany"],
+		"language": ["de", "en"],
+		"type": ["books", "photos", "maps", "primary sources", "newspapers", "magazines"],
+		"period": ["contemporary", "modern"]
+	}
+]
