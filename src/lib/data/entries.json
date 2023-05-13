@@ -637,6 +637,15 @@
 		"period": ["contemporary"]
 	},
 	{
+		"title": "Introduction to Digital History",
+		"description": "This guide, created in the fall semester of 2022, accompanies the introductory courses in history at the University of Basel and is intended to provide a first insight into the field of digital history.",
+		"url": "https://wissen-ist-acht.github.io/digitalhistory.intro/",
+		"region": [],
+		"language": ["de"],
+		"type": ["learning materials"],
+		"period": []
+	},
+	{
 		"title": "Karlsruher Virtueller Katalog",
 		"description": "Book search engine for finding hundreds of millions of media in catalogs worldwide.",
 		"url": "https://kvk.bibliothek.kit.edu/",
