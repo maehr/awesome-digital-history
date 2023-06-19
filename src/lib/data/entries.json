@@ -562,6 +562,15 @@
 		"period": ["contemporary", "modern", "medieval", "ancient"]
 	},
 	{
+		"title": "historicum.net",
+		"description": "'historicum.net - Fachinformationsdienst Geschichtswissenschaft' is building up a digital information service covering the entire spectrum of historical scholarship, which complements the basic services provided by university and other academic libraries.",
+		"url": "https://www.historicum.net/home/",
+		"region": ["Germany"],
+		"language": ["de"],
+		"type": ["newspapers", "magazines", "primary sources", "search engine", "tools", "websites", "maps"],
+		"period": ["contemporary", "modern"]
+	},
+	{
 		"title": "History Toolkit",
 		"description": "History Toolkit for Students.",
 		"url": "https://dg.philhist.unibas.ch/en/studium/history-a-toolkit-for-students/",
