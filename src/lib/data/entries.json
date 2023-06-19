@@ -567,7 +567,15 @@
 		"url": "https://www.historicum.net/home/",
 		"region": ["Germany"],
 		"language": ["de"],
-		"type": ["newspapers", "magazines", "primary sources", "search engine", "tools", "websites", "maps"],
+		"type": [
+			"newspapers",
+			"magazines",
+			"primary sources",
+			"search engine",
+			"tools",
+			"websites",
+			"maps"
+		],
 		"period": ["contemporary", "modern"]
 	},
 	{
