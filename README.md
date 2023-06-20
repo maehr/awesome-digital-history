@@ -65,6 +65,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [Digitale Sammlungen](https://www.digitale-sammlungen.de/) - Collections of the Munich Digitization Center.
 - [Digitales Deutsches Frauenarchiv](https://www.digitales-deutsches-frauenarchiv.de/) - An interactive portal on the history of women's movements in Germany.
 - [Docupedia](https://docupedia.de/) - Terms, methods, and debates in contemporary history research.
+- [historicum.net](https://www.historicum.net/home/) - A specialized information service for historians that offers access to research tools and services.
 - [leo bw](https://www.leo-bw.de/) - Platform of the State Archives of Baden-Württemberg.
 - [LexM](https://www.lexm.uni-hamburg.de/content/index.xml) - Encyclopedia of musicians persecuted during the Nazi era.
 - [MARCHIVUM](https://druckschriften-digital.marchivum.de/) - Collection of Mannheim newspapers and historical printed matter on the history of Mannheim.
