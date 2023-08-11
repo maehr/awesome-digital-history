@@ -24,7 +24,7 @@
 		<!-- Navbar -->
 		<div class="navbar w-full bg-base-200">
 			<div class="flex-none lg:hidden">
-				<label id="labelnavbar" for="drawer" class="btn-ghost btn-square btn"
+				<label id="labelnavbar" for="drawer" class="btn btn-square btn-ghost"
 					><span class="hidden">open drawer</span>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"

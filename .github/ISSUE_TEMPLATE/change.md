@@ -1,7 +1,7 @@
 ---
 name: Change request
 about: Request to change an item from the list
-title: \[Change\]
+title: '[Change]'
 labels: 'change'
 assignees: ''
 ---

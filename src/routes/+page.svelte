@@ -67,7 +67,7 @@
 							name="search"
 							id="search"
 							type="text"
-							class="input-bordered input"
+							class="input input-bordered"
 							bind:value={data.filter.searchTerm}
 							placeholder="Search by title or description"
 						/>
@@ -88,7 +88,7 @@
 						<button
 							name="reset"
 							id="reset"
-							class="btn-primary btn text-white"
+							class="btn btn-primary text-white"
 							on:click={() => {
 								data.filter.searchTerm = '';
 								data.filterOptions.forEach((option) => {
@@ -118,7 +118,7 @@
 					{entry.title}
 				</h2>
 				<p>
-					<a class="btn-accent btn break-all normal-case" href={entry.url}
+					<a class="btn btn-accent break-all normal-case" href={entry.url}
 						>{entry.url.replace(/(^\w+:|^)\/\//, '')}</a
 					>
 				</p>

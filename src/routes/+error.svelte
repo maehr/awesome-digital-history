@@ -13,7 +13,7 @@
 			<h2 class="break-word card-title text-xl normal-case text-primary">
 				{$page.status}: {$page.error.message}
 			</h2>
-			<a class="btn-primary btn" href="{base}/">Go back</a>
+			<a class="btn btn-primary" href="{base}/">Go back</a>
 		</div>
 	</section>
 </main>

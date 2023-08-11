@@ -1,7 +1,7 @@
 ---
 name: Removal Request
 about: Request to remove an item from the list
-title: \[Removal\]
+title: '[Removal]'
 labels: 'removal'
 assignees: ''
 ---
