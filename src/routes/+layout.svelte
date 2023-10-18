@@ -87,7 +87,7 @@
 		</footer>
 	</div>
 	<div class="drawer-side">
-		<label for="drawer" class="drawer-overlay" id="labelsidebar">close drawer</label>
+		<label for="drawer" class="drawer-overlay" id="labelsidebar"><span class="sr-only">close drawer</span></label>
 		<ul class="menu w-80 gap-2 bg-base-100 p-4">
 			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
 				<a class="btn {$page.url.pathname === '/' ? 'btn-secondary' : 'btn-ghost'}" href="{base}/"
