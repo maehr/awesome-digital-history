@@ -23,11 +23,8 @@ fs.readFile(filepath, 'utf-8', (err, data) => {
 				period: []
 			};
 
-			Object.keys(defaultStructure).forEach((key) => {
-				if (!entry.hasOwnProperty(key)) {
-					entry[key] = defaultStructure[key];
-				}
-			});
+			Object.assign(defaultStructure, entry);
+			return defaultStructure;
 		});
 
 		// Sort the JSON array by the "title" field
