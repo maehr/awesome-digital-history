@@ -588,6 +588,14 @@
 		"period": []
 	},
 	{
+		"title": "HMML",
+		"description": "Hill Museum & Manuscript Library. Digital collection of manuscripts from around the world.",
+		"url": "https://hmml.org/",
+		"language": ["ar", "en", "fr"],
+		"type": ["manuscripts"],
+		"period": ["ancient", "medieval", "modern"]
+	},
+	{
 		"title": "HSSO",
 		"description": "Historical statistics of Switzerland online.",
 		"url": "https://hsso.ch/",
@@ -871,6 +879,15 @@
 		"language": ["de"],
 		"type": ["audiovisual sources", "primary sources", "learning materials"],
 		"period": ["contemporary"]
+	},
+	{
+		"title": "PARC",
+		"description": "Portal for African Research Collections: PARC is the new meta-catalogue for the Africana collections at the research location Basel.",
+		"url": "https://parc-portal.org/",
+		"region": ["Africa"],
+		"language": ["en", "de"],
+		"type": ["audiovisual sources", "primary sources"],
+		"period": ["ancient", "medieval", "modern", "contemporary"]
 	},
 	{
 		"title": "Perry-Castañeda Library Map Collection",
