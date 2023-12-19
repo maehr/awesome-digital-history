@@ -25,9 +25,9 @@
 	"packageManager": "pnpm@8.7.5",
 	"devDependencies": {
 		"@playwright/test": "^1.40.1",
-		"@sveltejs/adapter-cloudflare": "^3.0.0",
-		"@sveltejs/adapter-static": "^3.0.0",
-		"@sveltejs/kit": "^2.0.0",
+		"@sveltejs/adapter-cloudflare": "^3.0.1",
+		"@sveltejs/adapter-static": "^3.0.1",
+		"@sveltejs/kit": "^2.0.4",
 		"@sveltejs/vite-plugin-svelte": "^3.0.1",
 		"@tailwindcss/typography": "^0.5.10",
 		"autoprefixer": "^10.4.16",
@@ -46,10 +46,10 @@
 		"svelte": "^4.2.8",
 		"svelte-check": "^3.6.2",
 		"svelte-multiselect": "^10.2.0",
-		"tailwindcss": "^3.3.6",
+		"tailwindcss": "^3.4.0",
 		"typescript": "^5.3.3",
 		"vite": "^5.0.10",
-		"vitest": "^1.0.4"
+		"vitest": "^1.1.0"
 	},
 	"type": "module"
 }
