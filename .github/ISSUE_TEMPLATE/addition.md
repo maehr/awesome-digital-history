@@ -1,7 +1,7 @@
 ---
 name: Addition
 about: Request to add an item from the list
-title: \[Addition\]
+title: '[Addition]'
 labels: 'addition'
 assignees: ''
 ---
