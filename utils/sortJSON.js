@@ -23,8 +23,7 @@ fs.readFile(filepath, 'utf-8', (err, data) => {
 				period: []
 			};
 
-			Object.assign(defaultStructure, entry);
-			return defaultStructure;
+			return { ...defaultStructure, ...entry };
 		});
 
 		// Sort the JSON array by the "title" field

@@ -14,7 +14,7 @@
 		"lint": "prettier --check . '!{CODE_OF_CONDUCT.md,LICENSE.md}' && eslint .",
 		"format": "prettier --write .",
 		"prepare": "npm run prebuild && npm run format",
-		"prebuild": "node utils/sortJSON.js && node --experimental-json-modules utils/compileReadme.js",
+		"prebuild": "node utils/sortJSON.js && node utils/compileReadme.js",
 		"awesome-lint": "awesome-lint"
 	},
 	"engines": {
