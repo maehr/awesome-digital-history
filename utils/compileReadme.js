@@ -116,4 +116,3 @@ function writeFile(filePath, content) {
 		.then(() => console.log(`README.md has been created.`))
 		.catch((err) => console.error(`Error writing file: ${err.message}`));
 }
-}
