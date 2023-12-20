@@ -1,15 +1,35 @@
 import fs from 'fs';
-import entries from '../src/lib/data/entries.json' assert { type: 'json' };
 
-let regions = new Set();
-entries.forEach((entry) => {
-	entry.region.forEach((region) => {
-		regions.add(region);
-	});
+const filepath = 'src/lib/data/entries.json';
+
+fs.readFile(filepath, 'utf-8', (err, data) => {
+	if (err) {
+		console.error(`Error reading file: ${err.message}`);
+		return;
+	}
+
+	try {
+		const entries = JSON.parse(data);
+		const readmeContent = generateReadmeContent(entries);
+		writeFile('./README.md', readmeContent);
+	} catch (error) {
+		console.error(`Error parsing JSON data: ${error.message}`);
+	}
 });
-regions = Array.from(regions).sort();
 
-const header = `# Awesome Digital History [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+function generateReadmeContent(entries) {
+	const regions = [...new Set(entries.flatMap((entry) => entry.region))].sort();
+
+	const header = generateHeader();
+	const toc = generateTableOfContents(regions);
+	const sections = generateSections(entries, regions);
+	const footer = generateFooter();
+
+	return `${header}${toc}${sections}${footer}`;
+}
+
+function generateHeader() {
+	return `# Awesome Digital History [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 [<img src="static/favicon.png" align="right" width="100">](https://maehr.github.io/awesome-digital-history/)
 
@@ -21,60 +41,78 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 
 🎉 Check out our new website at [awesome-digital-history.pages.dev](https://awesome-digital-history.pages.dev/) with more information, filters, and a search function. 🎉
 `;
+}
 
-let toc = `## Contents
+function generateTableOfContents(regions) {
+	let toc = `## Contents
 
 - [Archives and primary sources](#archives-and-primary-sources)
 `;
 
-regions.forEach((region) => {
-	toc += `  - [${region}](#${region.toString().toLowerCase().replace(/ /g, '-')})\n`;
-});
-
-toc += `- [Learning](#learning)
+	toc += regions
+		.map((region) => `  - [${region}](#${region.toLowerCase().replace(/ /g, '-')})\n`)
+		.join('');
+	toc += `- [Learning](#learning)
 - [More Awesome](#more-awesome)
 - [Contribute](#contribute)
 
 `;
 
-let sections = `## Archives and primary sources
+	return toc;
+}
+
+function generateSections(entries, regions) {
+	let sections = `## Archives and primary sources
     
 `;
 
-regions.forEach((region) => {
-	sections += `### ${region}\n\n`;
-	const entriesInRegion = entries.filter((entry) => entry.region.includes(region));
-	entriesInRegion.forEach((entry) => {
-		sections += `- [${entry.title}](${entry.url}) - ${entry.description}\n`;
+	regions.forEach((region) => {
+		sections += `### ${region}\n\n`;
+		const entriesInRegion = entries.filter((entry) => entry.region.includes(region));
+		entriesInRegion.forEach((entry) => {
+			sections += `- [${entry.title}](${entry.url}) - ${entry.description}\n`;
+		});
+		sections += '\n';
 	});
-	sections += '\n';
-});
 
-sections += `## Learning\n\n`;
-const learningMaterials = entries.filter(
-	(entry) => entry.region.length === 0 && entry.type.includes('learning materials')
-);
-learningMaterials.forEach((entry) => {
-	sections += `- [${entry.title}](${entry.url}) - ${entry.description}\n`;
-});
-sections += '\n';
+	sections += generateLearningSection(entries);
+	sections += generateMoreAwesomeSection(entries);
 
-sections += `## More Awesome\n\n`;
-const moreAwesome = entries.filter(
-	(entry) => entry.region.length === 0 && !entry.type.includes('learning materials')
-);
-moreAwesome.forEach((entry) => {
-	sections += `- [${entry.title}](${entry.url}) - ${entry.description}\n`;
-});
-sections += '\n';
+	return sections;
+}
 
-const footer = `## Contribute
+function generateLearningSection(entries) {
+	let section = `## Learning\n\n`;
+	const learningMaterials = entries.filter(
+		(entry) => entry.region.length === 0 && entry.type.includes('learning materials')
+	);
+	learningMaterials.forEach((entry) => {
+		section += `- [${entry.title}](${entry.url}) - ${entry.description}\n`;
+	});
+	return section + '\n';
+}
+
+function generateMoreAwesomeSection(entries) {
+	let section = `## More Awesome\n\n`;
+	const moreAwesome = entries.filter(
+		(entry) => entry.region.length === 0 && !entry.type.includes('learning materials')
+	);
+	moreAwesome.forEach((entry) => {
+		section += `- [${entry.title}](${entry.url}) - ${entry.description}\n`;
+	});
+	return section + '\n';
+}
+
+function generateFooter() {
+	return `## Contribute
 
 Contributions welcome! Read the [CONTRIBUTING.md](https://github.com/maehr/awesome-digital-history/blob/main/CONTRIBUTING.md) first.
 
 `;
+}
 
-fs.writeFile('./README.md', header + toc + sections + footer, (err) => {
-	if (err) throw err;
-	console.log(`README.md has been created.`);
-});
+function writeFile(filePath, content) {
+	return fs.promises.writeFile(filePath, content)
+		.then(() => console.log(`README.md has been created.`))
+		.catch((err) => console.error(`Error writing file: ${err.message}`));
+}

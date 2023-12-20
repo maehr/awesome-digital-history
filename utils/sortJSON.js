@@ -11,17 +11,37 @@ fs.readFile(filepath, 'utf-8', (err, data) => {
 	try {
 		const jsonData = JSON.parse(data);
 
-		// sort the JSON array by the "title" field
+		// Ensure all entries have the required structure
+		jsonData.forEach((entry) => {
+			const defaultStructure = {
+				title: '',
+				description: '',
+				url: '',
+				region: [],
+				language: [],
+				type: [],
+				period: []
+			};
+
+			return { ...defaultStructure, ...entry };
+		});
+
+		// Sort the JSON array by the "title" field
 		jsonData.sort((a, b) => a.title.localeCompare(b.title));
 
-		// write the sorted JSON data back to the file
-		fs.writeFile(filepath, JSON.stringify(jsonData, null, 2), (err) => {
-			if (err) {
-				console.error(`Error writing file: ${err.message}`);
-				return;
-			}
-			console.log(`File "${filepath}" sorted successfully.`);
-		});
+		// Write the sorted and amended JSON data back to the file
+		try {
+			const jsonString = JSON.stringify(jsonData, null, 2);
+			fs.writeFile(filepath, jsonString, (err) => {
+				if (err) {
+					console.error(`Error writing file: ${err.message}`);
+					return;
+				}
+				console.log(`File "${filepath}" sorted and structured successfully.`);
+			});
+		} catch (error) {
+			console.error(`Error stringifying JSON data: ${error.message}`);
+		}
 	} catch (error) {
 		console.error(`Error parsing JSON data: ${error.message}`);
 	}
