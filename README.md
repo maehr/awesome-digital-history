@@ -13,6 +13,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 ## Contents
 
 - [Archives and primary sources](#archives-and-primary-sources)
+  - [Africa](#africa)
   - [Asia](#asia)
   - [Austria](#austria)
   - [Europe](#europe)
@@ -31,7 +32,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 
 ### Africa
 
-- [PARC](https://www.parc-portal.org/) - Portal for African Research Collections: PARC is the new meta-catalogue for the Africana collections at the research location Basel.
+- [PARC](https://parc-portal.org/) - Portal for African Research Collections: PARC is the new meta-catalogue for the Africana collections at the research location Basel.
 
 ### Asia
 
