@@ -591,6 +591,7 @@
 		"title": "HMML",
 		"description": "Hill Museum & Manuscript Library. Digital collection of manuscripts from around the world.",
 		"url": "https://hmml.org/",
+		"region": ["Global"],
 		"language": ["ar", "en", "fr"],
 		"type": ["manuscripts"],
 		"period": ["ancient", "medieval", "modern"]
