@@ -13,6 +13,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 ## Contents
 
 - [Archives and primary sources](#archives-and-primary-sources)
+  - [Africa](#africa)
   - [Asia](#asia)
   - [Austria](#austria)
   - [Europe](#europe)
@@ -28,6 +29,10 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [Contribute](#contribute)
 
 ## Archives and primary sources
+
+### Africa
+
+- [PARC](https://parc-portal.org/) - Portal for African Research Collections: PARC is the new meta-catalogue for the Africana collections at the research location Basel.
 
 ### Asia
 
@@ -83,6 +88,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [Classic Computer Magazine Archive](https://www.atarimagazines.com/) - Preserving information from early personal computer magazines.
 - [Fxtop](https://fxtop.com/) - Forex rate history since 1953.
 - [Got Papers?](https://gotpapers.scene.org/?page_id=73) - Resources on the history of games, cracking, and the demoscene.
+- [HMML](https://hmml.org/) - Hill Museum & Manuscript Library. Digital collection of manuscripts from around the world.
 - [Internet Archive](https://archive.org/) - Non-profit library of millions of free books, movies, software, music, websites, and more.
 - [Karlsruher Virtueller Katalog](https://kvk.bibliothek.kit.edu/) - Book search engine for finding hundreds of millions of media in catalogs worldwide.
 - [Marxist Internet Archive](https://www.marxists.org/) - Everything you ever wanted to know about Marx (and other important socialists).
