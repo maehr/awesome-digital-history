@@ -672,6 +672,15 @@
 		"period": []
 	},
 	{
+		"title": "Introduction to Python for Humanists",
+		"description": "A textbook offering a comprehensive introduction to Python programming, tailored for researchers and students in the humanities.",
+		"url": "https://python-textbook.pythonhumanities.com/intro.html",
+		"region": [],
+		"language": ["en"],
+		"type": ["learning materials"],
+		"period": []
+	},
+	{
 		"title": "Karlsruher Virtueller Katalog",
 		"description": "Book search engine for finding hundreds of millions of media in catalogs worldwide.",
 		"url": "https://kvk.bibliothek.kit.edu/",
