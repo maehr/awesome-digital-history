@@ -33,6 +33,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 ### Africa
 
 - [PARC](https://parc-portal.org/) - Portal for African Research Collections: PARC is the new meta-catalogue for the Africana collections at the research location Basel.
+- [West African Arabic Manuscript Database](https://islam.zmo.de/s/westafrica/page/home) - A comprehensive collection of manuscripts that provides insight into the Islamic scholarly tradition in West Africa.
 
 ### Asia
 
