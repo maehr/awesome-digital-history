@@ -112,7 +112,8 @@ Contributions welcome! Read the [CONTRIBUTING.md](https://github.com/maehr/aweso
 }
 
 function writeFile(filePath, content) {
-	return fs.promises.writeFile(filePath, content)
+	return fs.promises
+		.writeFile(filePath, content)
 		.then(() => console.log(`README.md has been created.`))
 		.catch((err) => console.error(`Error writing file: ${err.message}`));
 }
