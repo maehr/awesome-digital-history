@@ -998,6 +998,15 @@
 		"period": ["contemporary", "modern", "medieval"]
 	},
 	{
+		"title": "Sources Online",
+		"description": "A platform for digital scholarly text editions, integrating TEI Publisher and IIIF in Switzerland.",
+		"url": "https://sources-online.org/index.html",
+		"region": ["Switzerland"],
+		"language": ["de"],
+		"type": ["search engine"],
+		"period": ["contemporary", "modern"]
+	},
+	{
 		"title": "Spiegel Online",
 		"description": "SPIEGEL archive since 1947.",
 		"url": "https://www.spiegel.de/dienste/besser-surfen-auf-spiegel-online-suchen-im-archiv-a-676489.html",
