@@ -33,7 +33,7 @@
 		"autoprefixer": "^10.4.17",
 		"awesome-lint": "^1.1.0",
 		"daisyui": "^4.6.0",
-		"eslint": "^8.56.0",
+		"eslint": "^9.22.0",
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-svelte3": "^4.0.0",
 		"mdsvex": "^0.11.0",
