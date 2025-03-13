@@ -51,7 +51,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [Archives Portal Europe](https://www.archivesportaleurope.net/) - European archives search engine.
 - [Encyclopédie d'histoire numérique](https://ehne.fr/) - European History through renewed historiographic objects and major contemporary challenges.
 - [Europeana](https://www.europeana.eu/) - Search engine for European textual and non-textual archival sources.
-- [handrit.is](https://www.handrit.is/) - More than 4,000 Old Norse manuscripts from the 12th to the 20th century.
+- [handrit.is](https://www.handrit.is/) - Catalogue of more than 15'000 manuscripts (12th–20th century) in Icelandic, Old Norse, Danish and Latin (plus a few other languages) with more than 4'000 manuscripts digitally available.
 - [islandskort.is](https://www.islandskort.is/) - Digitized maps of Iceland, Greenland and the Arctic region (1545–1949).
 - [ÍSMÚS](https://www.ismus.is/) - Icelandic musical heritage collection (including recordings and sheet music), legends and fairytales.
 - [Mapire](https://mapire.eu/) - Interactive historical maps.

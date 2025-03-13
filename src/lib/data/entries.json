@@ -527,10 +527,10 @@
 	},
 	{
 		"title": "handrit.is",
-		"description": "More than 4,000 Old Norse manuscripts from the 12th to the 20th century.",
+		"description": "Catalogue of more than 15'000 manuscripts (12th–20th century) in Icelandic, Old Norse, Danish and Latin (plus a few other languages) with more than 4'000 manuscripts digitally available.",
 		"url": "https://www.handrit.is/",
 		"region": ["Europe"],
-		"language": ["is"],
+		"language": ["is", "da", "lat"],
 		"type": ["primary sources", "manuscripts"],
 		"period": ["medieval", "modern"]
 	},
