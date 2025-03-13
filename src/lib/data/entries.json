@@ -984,7 +984,7 @@
 		"title": "SKKG Digital Collection",
 		"description": "The Foundation for Art, Culture, and History (SKKG) provides online access to its collection of approximately 100,000 objects, ranging from artworks to historical artifacts spanning from the Stone Age to the present.",
 		"url": "https://digital.skkg.ch/",
-		"region": ["Europe", "Switzerland"],
+		"region": ["Switzerland"],
 		"language": ["de"],
 		"type": ["primary sources"],
 		"period": ["ancient", "contemporary", "medieval", "modern", "prehistory"]

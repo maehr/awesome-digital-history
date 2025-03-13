@@ -54,7 +54,6 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [Mapire](https://mapire.eu/) - Interactive historical maps.
 - [Monasterium](https://www.monasterium.net/mom/home) - Deeds from all over Europe.
 - [Project Gutenberg](https://www.gutenberg.org/) - A library of over 60,000 free eBooks.
-- [SKKG Digital Collection](https://digital.skkg.ch/) - The Foundation for Art, Culture, and History (SKKG) provides online access to its collection of approximately 100,000 objects, ranging from artworks to historical artifacts spanning from the Stone Age to the present.
 - [Visual Archive Southeastern Europe](http://gams.uni-graz.at/context:vase) - Historical and contemporary visual materials from Southeastern Europe.
 
 ### France
