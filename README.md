@@ -54,7 +54,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [Mapire](https://mapire.eu/) - Interactive historical maps.
 - [Monasterium](https://www.monasterium.net/mom/home) - Deeds from all over Europe.
 - [Project Gutenberg](https://www.gutenberg.org/) - A library of over 60,000 free eBooks.
-  – [SKKG Digital Collection](https://digital.skkg.ch/) - Collection of approximately 100'000 objects, ranging from artworks to historical artifacts.
+- [SKKG Digital Collection](https://digital.skkg.ch/) - The Foundation for Art, Culture, and History (SKKG) provides online access to its collection of approximately 100,000 objects, ranging from artworks to historical artifacts spanning from the Stone Age to the present.
 - [Visual Archive Southeastern Europe](http://gams.uni-graz.at/context:vase) - Historical and contemporary visual materials from Southeastern Europe.
 
 ### France
@@ -159,6 +159,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [MEMOBASE](http://www.memobase.ch/) - Provides access to audiovisual documents from Swiss memory institutions.
 - [Sammlung Schweizerischer Rechtsquellen online](https://www.ssrq-sds-fds.ch/projekte/ssrq-online/) - Retrodigitalisierte und digitale Editionseinheiten der Schweizerischen Rechtsquellen. Ediert wird rechtshistorisches Quellenmaterial vom Mittelalter bis in die Frühe Neuzeit (1798).
 - [Schweizerisches Wirtschaftsarchiv](https://ub.unibas.ch/de/historische-bestaende/wirtschaftsarchive/) - This collection comprises over 500 business archives from the period 1750 to the present day, with a focus on the Basel region.
+- [SKKG Digital Collection](https://digital.skkg.ch/) - The Foundation for Art, Culture, and History (SKKG) provides online access to its collection of approximately 100,000 objects, ranging from artworks to historical artifacts spanning from the Stone Age to the present.
 - [Sources Online](https://sources-online.org/index.html) - A platform for digital scholarly text editions, integrating TEI Publisher and IIIF in Switzerland.
 - [swisscollections](https://swisscollections.ch/) - Meta search engine for historical and modern collections in Swiss libraries and archives.
 - [timeSTAT Cubes](http://www.sfa-laboratory.ch/sr/cubestest/index.php) - The Federal Council reports to parliament on income and expenditure for the past years.
