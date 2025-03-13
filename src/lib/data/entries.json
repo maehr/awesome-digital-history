@@ -526,6 +526,15 @@
 		"period": ["contemporary"]
 	},
 	{
+		"title": "handrit.is",
+		"description": "Catalogue of more than 15'000 manuscripts (12th–20th century) in Icelandic, Old Norse, Danish and Latin (plus a few other languages) with more than 4'000 manuscripts digitally available.",
+		"url": "https://www.handrit.is/",
+		"region": ["Europe"],
+		"language": ["is", "da", "lat"],
+		"type": ["primary sources", "manuscripts"],
+		"period": ["medieval", "modern"]
+	},
+	{
 		"title": "HathiTrust",
 		"description": "A not-for-profit collaborative of academic and research libraries preserving and making accessible millions of digitized items.",
 		"url": "https://www.hathitrust.org",
@@ -679,6 +688,24 @@
 		"language": ["en"],
 		"type": ["learning materials"],
 		"period": []
+	},
+	{
+		"title": "islandskort.is",
+		"description": "Digitized maps of Iceland, Greenland and the Arctic region (1545–1949).",
+		"url": "https://www.islandskort.is/",
+		"region": ["Europe"],
+		"language": ["is"],
+		"type": ["primary sources", "maps"],
+		"period": ["modern", "contemporary"]
+	},
+	{
+		"title": "ÍSMÚS",
+		"description": "Icelandic musical heritage collection (including recordings and sheet music), legends and fairytales.",
+		"url": "https://www.ismus.is/",
+		"region": ["Europe"],
+		"language": ["is"],
+		"type": ["audiovisual sources", "books", "sheet music"],
+		"period": ["modern", "contemporary"]
 	},
 	{
 		"title": "Karlsruher Virtueller Katalog",
@@ -1087,6 +1114,15 @@
 		"language": ["en"],
 		"type": ["learning materials"],
 		"period": []
+	},
+	{
+		"title": "tímarit.is",
+		"description": "Digitized newspapers and magazines from Iceland, Greenland and the Faroe Islands.",
+		"url": "https://www.timarit.is/",
+		"region": ["Europe"],
+		"language": ["is", "fo", "kl", "da"],
+		"type": ["newspapers", "magazines"],
+		"period": ["contemporary", "modern"]
 	},
 	{
 		"title": "timeSTAT Cubes",
