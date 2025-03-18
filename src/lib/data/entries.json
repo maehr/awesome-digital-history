@@ -218,7 +218,7 @@
 	},
 	{
 		"title": "Datenbank Fernverkehr",
-		"description": "German long-distance train database with comprehensive query capabilites, including timetables, traction lists, carriage sequencies, stations etc. from 1977 until today.",
+		"description": "German long-distance train database with comprehensive query capabilities, including timetables, traction lists, carriage sequences, stations etc. from 1977 until today.",
 		"url": "https://www.fernbahn.de/datenbank/",
 		"region": ["Germany"],
 		"language": ["de", "en"],
