@@ -217,6 +217,15 @@
 		"period": []
 	},
 	{
+		"title": "Datenbank Fernverkehr",
+		"description": "German long-distance train database with comprehensive query capabilites, including timetables, traction lists, carriage sequencies, stations etc. from 1977 until today.",
+		"url": "https://www.fernbahn.de/datenbank/",
+		"region": ["Germany"],
+		"language": ["de", "en"],
+		"type": ["statistics", "websites", "search engine"],
+		"period": ["contemporary"]
+	},
+	{
 		"title": "David Rumsey Map Collection",
 		"description": "Historical maps collection.",
 		"url": "https://www.davidrumsey.com/",
