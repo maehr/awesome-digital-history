@@ -455,7 +455,7 @@
 		"description": "Search engine for European textual and non-textual archival sources.",
 		"url": "https://www.europeana.eu/",
 		"region": ["Europe"],
-		"language": ["en", "de", "nl", "po", "fr", "es", "no", "se", "it", "mul"],
+		"language": ["en", "de", "nl", "po", "fr", "es", "no", "se", "it"],
 		"type": [
 			"audiovisual sources",
 			"books",
@@ -803,7 +803,7 @@
 		"description": "Everything you ever wanted to know about Marx (and other important socialists).",
 		"url": "https://www.marxists.org/",
 		"region": ["Global"],
-		"language": ["en", "jp", "pt", "fr", "nl", "es", "ar", "ru", "de", "ca", "se", "mul"],
+		"language": ["en", "jp", "pt", "fr", "nl", "es", "ar", "ru", "de", "ca", "se"],
 		"type": ["books", "encyclopedias", "magazines", "learning materials"],
 		"period": ["contemporary"]
 	},
