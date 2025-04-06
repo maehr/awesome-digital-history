@@ -1210,7 +1210,7 @@
 		"description": "A comprehensive collection of manuscripts that provides insight into the Islamic scholarly tradition in West Africa.",
 		"url": "https://islam.zmo.de/s/westafrica/page/home",
 		"region": ["Africa"],
-		"language": ["ar", "fr", "en", "ha", "Dendi"],
+		"language": ["ar", "fr", "en", "ha", "ddn"],
 		"type": ["manuscripts"],
 		"period": ["modern"]
 	},
