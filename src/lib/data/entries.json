@@ -455,7 +455,7 @@
 		"description": "Search engine for European textual and non-textual archival sources.",
 		"url": "https://www.europeana.eu/",
 		"region": ["Europe"],
-		"language": ["en", "de", "nl", "po", "fr", "es", "no", "se", "it", "mul"],
+		"language": ["en", "de", "nl", "po", "fr", "es", "no", "se", "it"],
 		"type": [
 			"audiovisual sources",
 			"books",
@@ -704,7 +704,7 @@
 		"url": "https://www.ismus.is/",
 		"region": ["Europe"],
 		"language": ["is"],
-		"type": ["audiovisual sources", "books", "sheet music"],
+		"type": ["audiovisual sources", "books"],
 		"period": ["modern", "contemporary"]
 	},
 	{
@@ -803,7 +803,7 @@
 		"description": "Everything you ever wanted to know about Marx (and other important socialists).",
 		"url": "https://www.marxists.org/",
 		"region": ["Global"],
-		"language": ["en", "jp", "pt", "fr", "nl", "es", "ar", "ru", "de", "ca", "se", "mul"],
+		"language": ["en", "jp", "pt", "fr", "nl", "es", "ar", "ru", "de", "ca", "se"],
 		"type": ["books", "encyclopedias", "magazines", "learning materials"],
 		"period": ["contemporary"]
 	},
@@ -1210,7 +1210,7 @@
 		"description": "A comprehensive collection of manuscripts that provides insight into the Islamic scholarly tradition in West Africa.",
 		"url": "https://islam.zmo.de/s/westafrica/page/home",
 		"region": ["Africa"],
-		"language": ["ar", "fr", "en", "ha", "Dendi"],
+		"language": ["ar", "fr", "en", "ha", "ddn"],
 		"type": ["manuscripts"],
 		"period": ["modern"]
 	},
