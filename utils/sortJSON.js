@@ -11,27 +11,27 @@ fs.readFile(filepath, 'utf-8', (err, data) => {
 	try {
 		const jsonData = JSON.parse(data);
 
-               // Ensure all entries have the required structure
-               const updatedData = jsonData.map((entry) => {
-                       const defaultStructure = {
-                               title: '',
-                               description: '',
-                               url: '',
-                               region: [],
-                               language: [],
-                               type: [],
-                               period: []
-                       };
+		// Ensure all entries have the required structure
+		const updatedData = jsonData.map((entry) => {
+			const defaultStructure = {
+				title: '',
+				description: '',
+				url: '',
+				region: [],
+				language: [],
+				type: [],
+				period: []
+			};
 
-                       return { ...defaultStructure, ...entry };
-               });
+			return { ...defaultStructure, ...entry };
+		});
 
-               // Sort the JSON array by the "title" field
-               updatedData.sort((a, b) => a.title.localeCompare(b.title));
+		// Sort the JSON array by the "title" field
+		updatedData.sort((a, b) => a.title.localeCompare(b.title));
 
 		// Write the sorted and amended JSON data back to the file
 		try {
-                       const jsonString = JSON.stringify(updatedData, null, 2);
+			const jsonString = JSON.stringify(updatedData, null, 2);
 			fs.writeFile(filepath, jsonString, (err) => {
 				if (err) {
 					console.error(`Error writing file: ${err.message}`);
