@@ -10,19 +10,18 @@ fs.readFile(filepath, 'utf-8', (err, data) => {
 
 	try {
 		const jsonData = JSON.parse(data);
+		const defaultStructure = {
+			title: '',
+			description: '',
+			url: '',
+			region: [],
+			language: [],
+			type: [],
+			period: []
+		};
 
 		// Ensure all entries have the required structure
 		const updatedData = jsonData.map((entry) => {
-			const defaultStructure = {
-				title: '',
-				description: '',
-				url: '',
-				region: [],
-				language: [],
-				type: [],
-				period: []
-			};
-
 			return { ...defaultStructure, ...entry };
 		});
 
