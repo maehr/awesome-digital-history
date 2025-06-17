@@ -451,6 +451,15 @@
 		"period": ["contemporary", "modern"]
 	},
 	{
+		"title": "EuroDocs – Online Sources for European History",
+		"description": "A curated directory of online primary sources for European history, organized by country and period, with many items hosted by reputable institutions and using Dublin Core metadata.",
+		"url": "https://eudocs.lib.byu.edu/index.php/Main_Page",
+		"region": ["Europe"],
+		"language": ["English", "Multilingual"],
+		"type": ["Collection", "Portal"],
+		"period": ["Medieval", "Early Modern", "Modern", "Contemporary"]
+	},
+	{
 		"title": "Europeana",
 		"description": "Search engine for European textual and non-textual archival sources.",
 		"url": "https://www.europeana.eu/",
