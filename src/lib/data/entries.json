@@ -455,7 +455,7 @@
 		"description": "A curated directory of online primary sources for European history, organized by country and period, with many items hosted by reputable institutions and using Dublin Core metadata.",
 		"url": "https://eudocs.lib.byu.edu/index.php/Main_Page",
 		"region": ["Europe"],
-		"language": ["English", "Multilingual"],
+		"language": ["en", "Multilingual"],
 		"type": ["Collection", "Portal"],
 		"period": ["Medieval", "Early Modern", "Modern", "Contemporary"]
 	},
