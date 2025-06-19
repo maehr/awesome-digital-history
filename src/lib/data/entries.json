@@ -81,6 +81,15 @@
 		"period": ["contemporary", "modern", "medieval"]
 	},
 	{
+		"title": "Atlas of Mutual Heritage",
+		"description": "Database with sources relating to VOC (Dutch East India Company) and WIC (Dutch West India Company).",
+		"url": "https://www.atlasofmutualheritage.nl/",
+		"region": ["Global"],
+		"language": ["nl", "en"],
+		"type": ["maps"],
+		"period": ["modern", "contemporary"]
+	},
+	{
 		"title": "Bavarikon",
 		"description": "Collection of Bavarian maps, places, newspapers etc.",
 		"url": "https://www.bavarikon.de/",
@@ -1140,6 +1149,15 @@
 		"region": ["Switzerland"],
 		"language": ["de", "fr"],
 		"type": ["statistics"],
+		"period": ["contemporary"]
+	},
+	{
+		"title": "Topotijdreis",
+		"description": "Browse and compare Dutch topographic maps (1815 until today).",
+		"url": "https://www.topotijdreis.nl/",
+		"region": ["Netherlands"],
+		"language": ["nl"],
+		"type": ["maps"],
 		"period": ["contemporary"]
 	},
 	{
