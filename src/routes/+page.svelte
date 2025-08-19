@@ -21,7 +21,7 @@
 					url.searchParams.append(option.key, value);
 				});
 			});
-			if (url !== $page.url) {
+			if (url.href !== $page.url.href) {
 				goto(url, { keepFocus: true, noScroll: true });
 			}
 		}
