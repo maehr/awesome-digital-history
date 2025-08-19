@@ -9,7 +9,6 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 📢 **Announcement**
 
 🎉 Check out our new website at [awesome-digital-history.pages.dev](https://awesome-digital-history.pages.dev/) with more information, filters, and a search function. 🎉
-
 ## Contents
 
 - [Archives and primary sources](#archives-and-primary-sources)
@@ -29,7 +28,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [Contribute](#contribute)
 
 ## Archives and primary sources
-
+    
 ### Africa
 
 - [PARC](https://parc-portal.org/) - Portal for African Research Collections: PARC is the new meta-catalogue for the Africana collections at the research location Basel.
@@ -81,6 +80,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [LexM](https://www.lexm.uni-hamburg.de/content/index.xml) - Encyclopedia of musicians persecuted during the Nazi era.
 - [MARCHIVUM](https://druckschriften-digital.marchivum.de/) - Collection of Mannheim newspapers and historical printed matter on the history of Mannheim.
 - [Projekt Gutenberg](https://www.projekt-gutenberg.org/) - Contains 10'000 works by over 2'000 authors in German.
+- [Scripta Paedagogica](https://scripta.bbf.dipf.de/viewer/index/) - collection of archival material and digitized journals in the field of history of education
 - [SLUB Dresden](https://digital.slub-dresden.de/kollektionen/) - Over 1.8 million graphic media (photographs, maps, drawings).
 - [Spiegel Online](https://www.spiegel.de/dienste/besser-surfen-auf-spiegel-online-suchen-im-archiv-a-676489.html) - SPIEGEL archive since 1947.
 - [UB Heidelberg](https://www.ub.uni-heidelberg.de/helios/digi/digilit.html) - Manuscripts, documents, maps and literature.
@@ -124,7 +124,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 
 ### North America
 
-- [Ad\*Access](https://repository.duke.edu/dc/adaccess) - U.S. and Canadian advertisements covering five product categories - Beauty and Hygiene, Radio, Television, Transportation, and World War II propaganda - dated between 1911 and 1955.
+- [Ad*Access](https://repository.duke.edu/dc/adaccess) - U.S. and Canadian advertisements covering five product categories - Beauty and Hygiene, Radio, Television, Transportation, and World War II propaganda - dated between 1911 and 1955.
 - [Chronicling America](https://chroniclingamerica.loc.gov/) - America's historic newspapers from 1777-1963.
 - [Computer Gaming World Museum](https://www.cgwmuseum.org/) - Archive of various magazines on gaming.
 - [David Rumsey Map Collection](https://www.davidrumsey.com/) - Historical maps collection.
@@ -201,3 +201,4 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 ## Contribute
 
 Contributions welcome! Read the [CONTRIBUTING.md](https://github.com/maehr/awesome-digital-history/blob/main/CONTRIBUTING.md) first.
+
