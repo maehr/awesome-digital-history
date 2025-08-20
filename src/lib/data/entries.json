@@ -1026,6 +1026,15 @@
 		"period": []
 	},
 	{
+		"title": "Scripta Paedagogica",
+		"description": "Collection of archival material and digitized journals in the field of history of education.",
+		"url": "https://scripta.bbf.dipf.de/viewer/index/",
+		"region": ["Germany"],
+		"language": ["de"],
+		"type": ["primary sources"],
+		"period": ["modern", "contemporary"]
+	},
+	{
 		"title": "SKKG Digital Collection",
 		"description": "The Foundation for Art, Culture, and History (SKKG) provides online access to its collection of approximately 100,000 objects, ranging from artworks to historical artifacts spanning from the Stone Age to the present.",
 		"url": "https://digital.skkg.ch/",
