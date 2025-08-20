@@ -9,6 +9,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 📢 **Announcement**
 
 🎉 Check out our new website at [awesome-digital-history.pages.dev](https://awesome-digital-history.pages.dev/) with more information, filters, and a search function. 🎉
+
 ## Contents
 
 - [Archives and primary sources](#archives-and-primary-sources)
@@ -28,7 +29,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [Contribute](#contribute)
 
 ## Archives and primary sources
-    
+
 ### Africa
 
 - [PARC](https://parc-portal.org/) - Portal for African Research Collections: PARC is the new meta-catalogue for the Africana collections at the research location Basel.
@@ -123,7 +124,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 
 ### North America
 
-- [Ad*Access](https://repository.duke.edu/dc/adaccess) - U.S. and Canadian advertisements covering five product categories - Beauty and Hygiene, Radio, Television, Transportation, and World War II propaganda - dated between 1911 and 1955.
+- [Ad\*Access](https://repository.duke.edu/dc/adaccess) - U.S. and Canadian advertisements covering five product categories - Beauty and Hygiene, Radio, Television, Transportation, and World War II propaganda - dated between 1911 and 1955.
 - [Chronicling America](https://chroniclingamerica.loc.gov/) - America's historic newspapers from 1777-1963.
 - [Computer Gaming World Museum](https://www.cgwmuseum.org/) - Archive of various magazines on gaming.
 - [David Rumsey Map Collection](https://www.davidrumsey.com/) - Historical maps collection.
@@ -200,4 +201,3 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 ## Contribute
 
 Contributions welcome! Read the [CONTRIBUTING.md](https://github.com/maehr/awesome-digital-history/blob/main/CONTRIBUTING.md) first.
-
