@@ -72,7 +72,7 @@
 							placeholder="Search by title or description"
 						/>
 					</div>
-					{#each data.filterOptions as option}
+					{#each data.filterOptions as option (option.key)}
 						<div class="form-control">
 							<label class="label" for={option.key}><span>{option.label}</span></label>
 							<MultiSelect
@@ -111,7 +111,7 @@
 			</div>
 		</article>
 	{/if}
-	{#each filteredEntries as entry}
+	{#each filteredEntries as entry (entry.title)}
 		<article class="card bg-base-100 shadow-xl">
 			<div class="card-body">
 				<h2 class="break-word card-title text-xl normal-case text-primary">
@@ -124,8 +124,8 @@
 				</p>
 				<p>{entry.description}</p>
 				<div class="flex flex-wrap justify-end gap-1">
-					{#each data.filterOptions as option}
-						{#each entry[option.key] as value}
+					{#each data.filterOptions as option (option.key)}
+						{#each entry[option.key] as value, index (`${option.key}-${value}-${index}`)}
 							<span class={option.badgeClasses}>{value}</span>
 						{/each}
 					{/each}
