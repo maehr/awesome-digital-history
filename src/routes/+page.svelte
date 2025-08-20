@@ -125,7 +125,7 @@
 				<p>{entry.description}</p>
 				<div class="flex flex-wrap justify-end gap-1">
 					{#each data.filterOptions as option (option.key)}
-						{#each entry[option.key] as value, index (`${option.key}-${value}-${index}`)}
+						{#each entry[option.key] as value, index (`${entry.title}-${option.key}-${value}-${index}`)}
 							<span class={option.badgeClasses}>{value}</span>
 						{/each}
 					{/each}
