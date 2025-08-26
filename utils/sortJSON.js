@@ -39,6 +39,9 @@ fs.readFile(filepath, 'utf-8', (err, data) => {
 							return normalized;
 					}
 				});
+			} else if (entry.period === null || entry.period === undefined) {
+				// Ensure null/undefined periods become empty arrays
+				entry.period = [];
 			}
 			return entry;
 		});
