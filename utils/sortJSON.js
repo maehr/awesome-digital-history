@@ -25,18 +25,38 @@ fs.readFile(filepath, 'utf-8', (err, data) => {
 			return { ...defaultStructure, ...entry };
 		});
 
+		// Normalize period values to consistent lowercase format
+		const normalizedData = updatedData.map((entry) => {
+			if (entry.period && Array.isArray(entry.period)) {
+				entry.period = entry.period.map((period) => {
+					// Normalize to lowercase and handle special cases
+					const normalized = period.toLowerCase().trim();
+					// Handle specific case mappings if needed
+					switch (normalized) {
+						case 'early modern':
+							return 'early modern';
+						default:
+							return normalized;
+					}
+				});
+			}
+			return entry;
+		});
+
 		// Sort the JSON array by the "title" field
-		updatedData.sort((a, b) => a.title.localeCompare(b.title));
+		normalizedData.sort((a, b) => a.title.localeCompare(b.title));
 
 		// Write the sorted and amended JSON data back to the file
 		try {
-			const jsonString = JSON.stringify(updatedData, null, 2);
+			const jsonString = JSON.stringify(normalizedData, null, 2);
 			fs.writeFile(filepath, jsonString, (err) => {
 				if (err) {
 					console.error(`Error writing file: ${err.message}`);
 					return;
 				}
-				console.log(`File "${filepath}" sorted and structured successfully.`);
+				console.log(
+					`File "${filepath}" sorted, structured, and period values normalized successfully.`
+				);
 			});
 		} catch (error) {
 			console.error(`Error stringifying JSON data: ${error.message}`);

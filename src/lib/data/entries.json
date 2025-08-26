@@ -466,7 +466,7 @@
 		"region": ["Europe"],
 		"language": ["en", "mul"],
 		"type": ["Collection", "Portal"],
-		"period": ["Medieval", "Early Modern", "Modern", "Contemporary"]
+		"period": ["medieval", "early modern", "modern", "contemporary"]
 	},
 	{
 		"title": "Europeana",
