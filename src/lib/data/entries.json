@@ -42,7 +42,7 @@
 		"region": ["Austria"],
 		"language": ["de"],
 		"type": ["primary sources", "newspapers", "magazines"],
-		"period": ["contemporary", "modern"]
+		"period": ["modern", "contemporary"]
 	},
 	{
 		"title": "arCHeco",
@@ -60,7 +60,7 @@
 		"region": ["Switzerland"],
 		"language": ["de", "it", "fr", "en"],
 		"type": ["search engine"],
-		"period": ["contemporary", "modern", "medieval"]
+		"period": ["medieval", "modern", "contemporary"]
 	},
 	{
 		"title": "Archives Portal Europe",
@@ -69,7 +69,7 @@
 		"region": ["Europe"],
 		"language": ["en"],
 		"type": ["search engine"],
-		"period": ["contemporary", "modern", "medieval"]
+		"period": ["medieval", "modern", "contemporary"]
 	},
 	{
 		"title": "Archivportal",
@@ -78,7 +78,7 @@
 		"region": ["Germany"],
 		"language": ["de", "en"],
 		"type": ["primary sources", "search engine"],
-		"period": ["contemporary", "modern", "medieval"]
+		"period": ["medieval", "modern", "contemporary"]
 	},
 	{
 		"title": "Atlas of Mutual Heritage",
@@ -105,7 +105,7 @@
 			"newspapers",
 			"magazines"
 		],
-		"period": ["contemporary", "modern"]
+		"period": ["modern", "contemporary"]
 	},
 	{
 		"title": "Bitsavers.org",
@@ -133,7 +133,7 @@
 			"magazines",
 			"manuscripts"
 		],
-		"period": ["contemporary", "modern", "medieval"]
+		"period": ["medieval", "modern", "contemporary"]
 	},
 	{
 		"title": "chgov",
@@ -151,7 +151,7 @@
 		"region": ["North America"],
 		"language": ["en"],
 		"type": ["primary sources", "newspapers"],
-		"period": ["contemporary", "modern"]
+		"period": ["modern", "contemporary"]
 	},
 	{
 		"title": "Classic Computer Magazine Archive",
@@ -232,7 +232,7 @@
 		"region": ["North America"],
 		"language": ["en"],
 		"type": ["maps"],
-		"period": ["contemporary", "modern", "medieval"]
+		"period": ["medieval", "modern", "contemporary"]
 	},
 	{
 		"title": "Delpher",
@@ -241,7 +241,7 @@
 		"region": ["Netherlands"],
 		"language": ["nl"],
 		"type": ["books", "primary sources", "newspapers", "magazines"],
-		"period": ["contemporary", "modern"]
+		"period": ["modern", "contemporary"]
 	},
 	{
 		"title": "Deutsche Digitale Bibliothek",
@@ -250,7 +250,7 @@
 		"region": ["Germany"],
 		"language": ["de", "en"],
 		"type": ["search engine"],
-		"period": ["contemporary", "modern", "medieval"]
+		"period": ["medieval", "modern", "contemporary"]
 	},
 	{
 		"title": "Deutsches Zeitungsportal",
@@ -259,7 +259,7 @@
 		"region": ["Germany"],
 		"language": ["de", "en"],
 		"type": ["search engine", "newspapers"],
-		"period": ["contemporary", "modern"]
+		"period": ["modern", "contemporary"]
 	},
 	{
 		"title": "DigiBern",
@@ -268,7 +268,7 @@
 		"region": ["Switzerland"],
 		"language": ["de"],
 		"type": ["encyclopedias"],
-		"period": ["contemporary", "modern", "medieval", "ancient"]
+		"period": ["ancient", "medieval", "modern", "contemporary"]
 	},
 	{
 		"title": "Digital History Guide",
@@ -305,7 +305,7 @@
 			"magazines",
 			"manuscripts"
 		],
-		"period": ["contemporary", "modern", "medieval", "ancient"]
+		"period": ["ancient", "medieval", "modern", "contemporary"]
 	},
 	{
 		"title": "Digital Transgender Archive",
@@ -333,7 +333,7 @@
 			"magazines",
 			"manuscripts"
 		],
-		"period": ["contemporary", "modern", "medieval"]
+		"period": ["medieval", "modern", "contemporary"]
 	},
 	{
 		"title": "Digitales Deutsches Frauenarchiv",
@@ -351,7 +351,7 @@
 		"region": ["Austria"],
 		"language": ["de"],
 		"type": ["primary sources", "newspapers"],
-		"period": ["contemporary", "modern"]
+		"period": ["modern", "contemporary"]
 	},
 	{
 		"title": "Diplomatic Documents of Switzerland",
@@ -378,7 +378,7 @@
 		"region": ["Switzerland"],
 		"language": ["de", "it", "fr", "en"],
 		"type": ["primary sources", "manuscripts"],
-		"period": ["contemporary", "modern", "medieval"]
+		"period": ["medieval", "modern", "contemporary"]
 	},
 	{
 		"title": "e-gs",
@@ -396,7 +396,7 @@
 		"region": ["Switzerland"],
 		"language": ["de", "it", "fr", "en"],
 		"type": ["maps", "primary sources", "manuscripts"],
-		"period": ["contemporary", "modern", "medieval"]
+		"period": ["medieval", "modern", "contemporary"]
 	},
 	{
 		"title": "e-newspaperarchives.ch",
@@ -405,7 +405,7 @@
 		"region": ["Switzerland"],
 		"language": ["de", "it", "fr", "en"],
 		"type": ["primary sources", "newspapers"],
-		"period": ["contemporary", "modern"]
+		"period": ["modern", "contemporary"]
 	},
 	{
 		"title": "E-Periodica",
@@ -414,7 +414,7 @@
 		"region": ["Switzerland"],
 		"language": ["de", "it", "fr", "en"],
 		"type": ["primary sources", "magazines"],
-		"period": ["contemporary", "modern"]
+		"period": ["modern", "contemporary"]
 	},
 	{
 		"title": "e-rara",
@@ -423,7 +423,7 @@
 		"region": ["Switzerland"],
 		"language": ["de", "it", "fr", "en"],
 		"type": ["primary sources"],
-		"period": ["contemporary", "modern", "medieval"]
+		"period": ["medieval", "modern", "contemporary"]
 	},
 	{
 		"title": "Encyclopédie d'histoire numérique",
@@ -439,7 +439,7 @@
 			"encyclopedias",
 			"learning materials"
 		],
-		"period": ["contemporary", "modern"]
+		"period": ["modern", "contemporary"]
 	},
 	{
 		"title": "Eugenics Archive",
@@ -457,7 +457,7 @@
 			"magazines",
 			"manuscripts"
 		],
-		"period": ["contemporary", "modern"]
+		"period": ["modern", "contemporary"]
 	},
 	{
 		"title": "EuroDocs – Online Sources for European History",
@@ -487,7 +487,7 @@
 			"learning materials",
 			"manuscripts"
 		],
-		"period": ["contemporary", "modern", "medieval", "ancient"]
+		"period": ["ancient", "medieval", "modern", "contemporary"]
 	},
 	{
 		"title": "FOCAL",
@@ -523,7 +523,7 @@
 			"magazines",
 			"manuscripts"
 		],
-		"period": ["contemporary", "modern", "medieval"]
+		"period": ["medieval", "modern", "contemporary"]
 	},
 	{
 		"title": "Geospatial Historian",
@@ -559,7 +559,7 @@
 		"region": ["North America"],
 		"language": ["en"],
 		"type": ["books", "maps", "primary sources", "magazines", "manuscripts"],
-		"period": ["contemporary", "modern"]
+		"period": ["modern", "contemporary"]
 	},
 	{
 		"title": "HIST 7370",
@@ -577,7 +577,7 @@
 		"region": ["Switzerland"],
 		"language": ["de", "it", "fr", "en"],
 		"type": ["encyclopedias", "search engine"],
-		"period": ["contemporary", "modern", "medieval"]
+		"period": ["medieval", "modern", "contemporary"]
 	},
 	{
 		"title": "Historical Encyclopedia of Switzerland",
@@ -586,7 +586,7 @@
 		"region": ["Switzerland"],
 		"language": ["de", "it", "fr"],
 		"type": ["audiovisual sources", "photos", "encyclopedias"],
-		"period": ["contemporary", "modern", "medieval", "ancient"]
+		"period": ["ancient", "medieval", "modern", "contemporary"]
 	},
 	{
 		"title": "historicum.net",
@@ -603,7 +603,7 @@
 			"websites",
 			"maps"
 		],
-		"period": ["contemporary", "modern"]
+		"period": ["modern", "contemporary"]
 	},
 	{
 		"title": "History Toolkit",
@@ -639,7 +639,7 @@
 		"region": ["Switzerland"],
 		"language": ["en"],
 		"type": ["newspapers"],
-		"period": ["contemporary", "modern"]
+		"period": ["modern", "contemporary"]
 	},
 	{
 		"title": "Industriekultur",
@@ -657,7 +657,7 @@
 		"region": ["Switzerland"],
 		"language": ["de", "it", "fr", "en"],
 		"type": ["encyclopedias"],
-		"period": ["contemporary", "modern", "medieval", "ancient"]
+		"period": ["ancient", "medieval", "modern", "contemporary"]
 	},
 	{
 		"title": "Institut national de l'audiovisuel",
@@ -732,7 +732,7 @@
 		"region": ["Global"],
 		"language": ["de", "en"],
 		"type": ["search engine"],
-		"period": ["contemporary", "modern", "medieval"]
+		"period": ["medieval", "modern", "contemporary"]
 	},
 	{
 		"title": "Kartenportal",
@@ -741,7 +741,7 @@
 		"region": ["Switzerland"],
 		"language": ["de", "it", "fr", "en"],
 		"type": ["maps", "search engine"],
-		"period": ["contemporary", "modern", "medieval"]
+		"period": ["medieval", "modern", "contemporary"]
 	},
 	{
 		"title": "Le Temps",
@@ -759,7 +759,7 @@
 		"region": ["Germany"],
 		"language": ["de"],
 		"type": ["search engine", "learning materials"],
-		"period": ["contemporary", "modern", "medieval"]
+		"period": ["medieval", "modern", "contemporary"]
 	},
 	{
 		"title": "LexM",
@@ -805,7 +805,7 @@
 			"newspapers",
 			"magazines"
 		],
-		"period": ["contemporary", "modern", "medieval"]
+		"period": ["medieval", "modern", "contemporary"]
 	},
 	{
 		"title": "MARCHIVUM",
@@ -850,7 +850,7 @@
 		"region": ["Europe"],
 		"language": ["en", "de", "fr", "lt", "lat"],
 		"type": ["books", "photos", "maps", "primary sources", "search engine", "manuscripts"],
-		"period": ["contemporary", "modern", "medieval"]
+		"period": ["medieval", "modern", "contemporary"]
 	},
 	{
 		"title": "Nationaal Archief",
@@ -859,7 +859,7 @@
 		"region": ["Netherlands"],
 		"language": ["nl", "en"],
 		"type": ["audiovisual sources", "photos", "maps", "primary sources", "websites", "manuscripts"],
-		"period": ["contemporary", "modern", "medieval"]
+		"period": ["medieval", "modern", "contemporary"]
 	},
 	{
 		"title": "National Archives",
@@ -879,7 +879,7 @@
 			"magazines",
 			"manuscripts"
 		],
-		"period": ["contemporary", "modern"]
+		"period": ["modern", "contemporary"]
 	},
 	{
 		"title": "National Records of Scotland",
@@ -888,7 +888,7 @@
 		"region": ["Great Britain"],
 		"language": ["en"],
 		"type": ["maps", "statistics"],
-		"period": ["contemporary", "modern", "medieval"]
+		"period": ["medieval", "modern", "contemporary"]
 	},
 	{
 		"title": "NLS",
@@ -897,7 +897,7 @@
 		"region": ["Great Britain"],
 		"language": ["en"],
 		"type": ["books", "photos", "maps", "primary sources"],
-		"period": ["contemporary", "modern"]
+		"period": ["modern", "contemporary"]
 	},
 	{
 		"title": "OldMapsOnline",
@@ -906,7 +906,7 @@
 		"region": ["Global"],
 		"language": ["en"],
 		"type": ["maps"],
-		"period": ["contemporary", "modern"]
+		"period": ["modern", "contemporary"]
 	},
 	{
 		"title": "OpenCat",
@@ -960,7 +960,7 @@
 		"region": ["Europe"],
 		"language": ["en"],
 		"type": ["books"],
-		"period": ["contemporary", "modern"]
+		"period": ["modern", "contemporary"]
 	},
 	{
 		"title": "Projekt Gutenberg",
@@ -969,7 +969,7 @@
 		"region": ["Germany"],
 		"language": ["de"],
 		"type": ["books"],
-		"period": ["contemporary", "modern"]
+		"period": ["modern", "contemporary"]
 	},
 	{
 		"title": "Public Books Database",
@@ -1014,7 +1014,7 @@
 		"region": ["Switzerland"],
 		"language": ["de", "en"],
 		"type": ["encyclopedias", "search engine"],
-		"period": ["contemporary", "modern"]
+		"period": ["modern", "contemporary"]
 	},
 	{
 		"title": "Scientific Writing",
@@ -1041,7 +1041,7 @@
 		"region": ["Switzerland"],
 		"language": ["de"],
 		"type": ["primary sources"],
-		"period": ["ancient", "contemporary", "medieval", "modern", "prehistory"]
+		"period": ["ancient", "medieval", "modern", "contemporary", "prehistory"]
 	},
 	{
 		"title": "SLUB Dresden",
@@ -1058,7 +1058,7 @@
 			"magazines",
 			"manuscripts"
 		],
-		"period": ["contemporary", "modern", "medieval"]
+		"period": ["medieval", "modern", "contemporary"]
 	},
 	{
 		"title": "Sources Online",
@@ -1067,7 +1067,7 @@
 		"region": ["Switzerland"],
 		"language": ["de"],
 		"type": ["search engine"],
-		"period": ["contemporary", "modern"]
+		"period": ["modern", "contemporary"]
 	},
 	{
 		"title": "Spiegel Online",
@@ -1085,7 +1085,7 @@
 		"region": ["Switzerland"],
 		"language": ["de", "it", "fr", "en"],
 		"type": ["search engine"],
-		"period": ["contemporary", "modern", "medieval", "ancient"]
+		"period": ["ancient", "medieval", "modern", "contemporary"]
 	},
 	{
 		"title": "Tempopedia",
@@ -1122,7 +1122,7 @@
 			"magazines",
 			"learning materials"
 		],
-		"period": ["contemporary", "modern", "medieval"]
+		"period": ["medieval", "modern", "contemporary"]
 	},
 	{
 		"title": "The Proceedings of the Old Bailey",
@@ -1131,7 +1131,7 @@
 		"region": ["Great Britain"],
 		"language": ["en"],
 		"type": ["books", "maps", "primary sources"],
-		"period": ["contemporary", "modern"]
+		"period": ["modern", "contemporary"]
 	},
 	{
 		"title": "The Programming Historian",
@@ -1149,7 +1149,7 @@
 		"region": ["Europe"],
 		"language": ["is", "fo", "kl", "da"],
 		"type": ["newspapers", "magazines"],
-		"period": ["contemporary", "modern"]
+		"period": ["modern", "contemporary"]
 	},
 	{
 		"title": "timeSTAT Cubes",
@@ -1185,7 +1185,7 @@
 		"region": ["Germany"],
 		"language": ["de"],
 		"type": ["books", "primary sources", "newspapers", "magazines", "manuscripts"],
-		"period": ["contemporary", "modern", "medieval", "ancient"]
+		"period": ["ancient", "medieval", "modern", "contemporary"]
 	},
 	{
 		"title": "UCI Digital History",
@@ -1203,7 +1203,7 @@
 		"region": ["Germany"],
 		"language": ["de"],
 		"type": ["books", "photos", "primary sources", "newspapers", "magazines", "manuscripts"],
-		"period": ["contemporary", "modern", "medieval"]
+		"period": ["medieval", "modern", "contemporary"]
 	},
 	{
 		"title": "United Nations Archive",
@@ -1257,7 +1257,7 @@
 		"region": ["Austria"],
 		"language": ["de"],
 		"type": ["photos", "maps", "encyclopedias"],
-		"period": ["contemporary", "modern", "medieval", "ancient", "prehistory"]
+		"period": ["ancient", "medieval", "modern", "contemporary", "prehistory"]
 	},
 	{
 		"title": "Women Working 1800-1930",
@@ -1285,7 +1285,7 @@
 			"magazines",
 			"manuscripts"
 		],
-		"period": ["contemporary", "modern", "medieval"]
+		"period": ["medieval", "modern", "contemporary"]
 	},
 	{
 		"title": "World Historical Gazeteer",
@@ -1294,7 +1294,7 @@
 		"region": ["Global"],
 		"language": ["en"],
 		"type": ["maps", "learning materials"],
-		"period": ["contemporary", "modern"]
+		"period": ["modern", "contemporary"]
 	},
 	{
 		"title": "Zefys",
@@ -1312,6 +1312,6 @@
 		"region": ["Germany"],
 		"language": ["de", "en"],
 		"type": ["books", "photos", "maps", "primary sources", "newspapers", "magazines"],
-		"period": ["contemporary", "modern"]
+		"period": ["modern", "contemporary"]
 	}
 ]

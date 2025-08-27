@@ -25,24 +25,70 @@ fs.readFile(filepath, 'utf-8', (err, data) => {
 			return { ...defaultStructure, ...entry };
 		});
 
-		// Normalize period values to consistent lowercase format
+		// Normalize period values with comprehensive edge case handling
+		const canonicalEraOrder = [
+			'ancient',
+			'classical',
+			'medieval',
+			'early modern',
+			'modern',
+			'contemporary'
+		];
+
 		const normalizedData = updatedData.map((entry) => {
-			if (entry.period && Array.isArray(entry.period)) {
-				entry.period = entry.period.map((period) => {
-					// Normalize to lowercase and handle special cases
-					const normalized = period.toLowerCase().trim();
-					// Handle specific case mappings if needed
-					switch (normalized) {
+			// Handle null/undefined periods
+			if (entry.period === null || entry.period === undefined) {
+				entry.period = [];
+				return entry;
+			}
+
+			// Ensure period is an array (wrap single strings)
+			let periodArray = Array.isArray(entry.period) ? entry.period : [entry.period];
+
+			// Process each period value
+			const processedPeriods = periodArray
+				// Coerce items to strings but drop null/undefined
+				.map((period) => (period != null ? String(period) : null))
+				.filter((period) => period !== null)
+				// Trim and lowercase each value
+				.map((period) => period.toLowerCase().trim())
+				// Filter out empty strings
+				.filter((period) => period.length > 0)
+				// Map special-case canonicalizations
+				.map((period) => {
+					switch (period) {
 						case 'early modern':
 							return 'early modern';
 						default:
-							return normalized;
+							return period;
 					}
 				});
-			} else if (entry.period === null || entry.period === undefined) {
-				// Ensure null/undefined periods become empty arrays
-				entry.period = [];
-			}
+
+			// Dedupe values (preserve uniqueness)
+			const uniquePeriods = [...new Set(processedPeriods)];
+
+			// Sort according to canonical era order
+			const sortedPeriods = uniquePeriods.sort((a, b) => {
+				const indexA = canonicalEraOrder.indexOf(a);
+				const indexB = canonicalEraOrder.indexOf(b);
+
+				// Both are in canonical order
+				if (indexA !== -1 && indexB !== -1) {
+					return indexA - indexB;
+				}
+				// Only a is in canonical order
+				if (indexA !== -1) {
+					return -1;
+				}
+				// Only b is in canonical order
+				if (indexB !== -1) {
+					return 1;
+				}
+				// Neither is in canonical order, sort alphabetically
+				return a.localeCompare(b);
+			});
+
+			entry.period = sortedPeriods;
 			return entry;
 		});
 
