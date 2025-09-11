@@ -48,7 +48,7 @@
 		"svelte-multiselect": "^10.3.0",
 		"tailwindcss": "^3.4.17",
 		"typescript": "^5.8.3",
-		"vite": "^5.4.19",
+		"vite": "^5.4.20",
 		"vitest": "^1.6.1"
 	},
 	"type": "module"
