@@ -19,10 +19,10 @@
 	},
 	"engines": {
 		"node": ">=20",
-		"pnpm": ">=8"
+		"pnpm": ">=10"
 	},
 	"private": true,
-	"packageManager": "pnpm@8.7.5",
+	"packageManager": "pnpm@v10.16.0",
 	"devDependencies": {
 		"@playwright/test": "^1.52.0",
 		"@sveltejs/adapter-cloudflare": "^4.9.0",
