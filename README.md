@@ -9,7 +9,6 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 📢 **Announcement**
 
 🎉 Check out our new website at [awesome-digital-history.pages.dev](https://awesome-digital-history.pages.dev/) with more information, filters, and a search function. 🎉
-
 ## Contents
 
 - [Archives and primary sources](#archives-and-primary-sources)
@@ -29,7 +28,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [Contribute](#contribute)
 
 ## Archives and primary sources
-
+    
 ### Africa
 
 - [PARC](https://parc-portal.org/) - Portal for African Research Collections: PARC is the new meta-catalogue for the Africana collections at the research location Basel.
@@ -125,7 +124,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 
 ### North America
 
-- [Ad\*Access](https://repository.duke.edu/dc/adaccess) - U.S. and Canadian advertisements covering five product categories - Beauty and Hygiene, Radio, Television, Transportation, and World War II propaganda - dated between 1911 and 1955.
+- [Ad*Access](https://repository.duke.edu/dc/adaccess) - U.S. and Canadian advertisements covering five product categories - Beauty and Hygiene, Radio, Television, Transportation, and World War II propaganda - dated between 1911 and 1955.
 - [Chronicling America](https://chroniclingamerica.loc.gov/) - America's historic newspapers from 1777-1963.
 - [Computer Gaming World Museum](https://www.cgwmuseum.org/) - Archive of various magazines on gaming.
 - [David Rumsey Map Collection](https://www.davidrumsey.com/) - Historical maps collection.
@@ -179,6 +178,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [Crafting Digital History](http://workbook.craftingdigitalhistory.ca/) - A Workbook for Methods and Readings in Digital History.
 - [Digital History Guide](http://chnm.gmu.edu/digitalhistory/) - Introduction to the web for historians, who wish to produce online historical work.
 - [Geospatial Historian](https://geospatialhistorian.wordpress.com/) - Open HGIS Lessons and Resources.
+- [Grundlagen, Methoden und Anwendungen der Digital History](https://dh-erfurt.github.io/digital-history/home.html) - Teaching and collaborative resources for digital history (University of Erfurt).
 - [HIST 7370](https://cblevins.github.io/f19-dig-hist/) - Online course for Methods and Readings in Digital History.
 - [History Toolkit](https://dg.philhist.unibas.ch/en/studium/history-a-toolkit-for-students/) - History Toolkit for Students.
 - [Introduction to Digital History](https://wissen-ist-acht.github.io/digitalhistory.intro/) - This guide, created in the fall semester of 2022, accompanies the introductory courses in history at the University of Basel and is intended to provide a first insight into the field of digital history.
@@ -202,3 +202,4 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 ## Contribute
 
 Contributions welcome! Read the [CONTRIBUTING.md](https://github.com/maehr/awesome-digital-history/blob/main/CONTRIBUTING.md) first.
+
