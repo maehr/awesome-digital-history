@@ -48,8 +48,8 @@ importers:
         specifier: ^0.11.2
         version: 0.11.2(svelte@4.2.20)
       mdsvex-relative-images:
-        specifier: ^1.0.3
-        version: 1.0.3
+        specifier: ^2.0.0
+        version: 2.0.0
       postcss:
         specifier: ^8.5.6
         version: 8.5.6
@@ -1930,8 +1930,8 @@ packages:
   mdn-data@2.0.30:
     resolution: {integrity: sha512-GaqWWShW4kv/G9IEucWScBx9G1/vsFZZJUO+tD26M8J8z3Kw5RDQjaoZe03YAClgeS/SWPOcb4nkFBTEi5DUEA==}
 
-  mdsvex-relative-images@1.0.3:
-    resolution: {integrity: sha512-3XvpnaguRAhC5gchpqCH+A5Yl28xG9WDPylVla0+k90c5LT+QqSM+hwHd1v5C7gB2cAT0AIhuMsY/g6aCw+WDg==}
+  mdsvex-relative-images@2.0.0:
+    resolution: {integrity: sha512-QqFL5b9zcnQwAvlJK3SMX2bpDw3+/8jiEXZUAkRyeCUF+X3V+hx6xLbgzDriR4bA5vbTq8zDzPGMtLwLOU2Xeg==}
 
   mdsvex@0.11.2:
     resolution: {integrity: sha512-Y4ab+vLvTJS88196Scb/RFNaHMHVSWw6CwfsgWIQP8f42D57iDII0/qABSu530V4pkv8s6T2nx3ds0MC1VwFLA==}
@@ -5021,7 +5021,7 @@ snapshots:
 
   mdn-data@2.0.30: {}
 
-  mdsvex-relative-images@1.0.3:
+  mdsvex-relative-images@2.0.0:
     dependencies:
       just-camel-case: 4.0.2
       unist-util-visit: 3.1.0
