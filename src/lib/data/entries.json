@@ -13,7 +13,7 @@
 		"description": "An Introduction to Working with Sources in the Archive.",
 		"url": "https://www.adfontes.uzh.ch/",
 		"region": [],
-		"language": ["de", "fr", "en"],
+		"language": ["de", "en", "fr"],
 		"type": ["learning materials"],
 		"period": []
 	},
@@ -22,7 +22,7 @@
 		"description": "Federal Gazette, Administrative Case Law of the Federal Authorities and more documents from the Swiss Federal Archives.",
 		"url": "https://www.amtsdruckschriften.bar.admin.ch/",
 		"region": ["Switzerland"],
-		"language": ["de", "it", "fr"],
+		"language": ["de", "fr", "it"],
 		"type": ["primary sources"],
 		"period": ["contemporary"]
 	},
@@ -41,7 +41,7 @@
 		"url": "https://anno.onb.ac.at/",
 		"region": ["Austria"],
 		"language": ["de"],
-		"type": ["primary sources", "newspapers", "magazines"],
+		"type": ["magazines", "newspapers", "primary sources"],
 		"period": ["modern", "contemporary"]
 	},
 	{
@@ -49,7 +49,7 @@
 		"description": "Index of economic collections in archives of Switzerland and Liechtenstein.",
 		"url": "https://www.archeco.info/",
 		"region": ["Switzerland"],
-		"language": ["de", "it", "fr", "en"],
+		"language": ["de", "en", "fr", "it"],
 		"type": ["search engine"],
 		"period": ["contemporary"]
 	},
@@ -58,7 +58,7 @@
 		"description": "Archival search engine for Switzerland.",
 		"url": "https://www.archives-online.org/",
 		"region": ["Switzerland"],
-		"language": ["de", "it", "fr", "en"],
+		"language": ["de", "en", "fr", "it"],
 		"type": ["search engine"],
 		"period": ["medieval", "modern", "contemporary"]
 	},
@@ -85,7 +85,7 @@
 		"description": "Database with sources relating to VOC (Dutch East India Company) and WIC (Dutch West India Company).",
 		"url": "https://www.atlasofmutualheritage.nl/",
 		"region": ["Global"],
-		"language": ["nl", "en"],
+		"language": ["en", "nl"],
 		"type": ["maps"],
 		"period": ["modern", "contemporary"]
 	},
@@ -97,13 +97,13 @@
 		"language": ["de", "en"],
 		"type": [
 			"books",
-			"photos",
-			"maps",
 			"encyclopedias",
-			"primary sources",
-			"search engine",
+			"magazines",
+			"maps",
 			"newspapers",
-			"magazines"
+			"photos",
+			"primary sources",
+			"search engine"
 		],
 		"period": ["modern", "contemporary"]
 	},
@@ -113,7 +113,7 @@
 		"url": "http://bitsavers.trailing-edge.com/",
 		"region": ["Global"],
 		"language": ["en"],
-		"type": ["books", "primary sources", "magazines"],
+		"type": ["books", "magazines", "primary sources"],
 		"period": ["contemporary"]
 	},
 	{
@@ -125,13 +125,13 @@
 		"type": [
 			"audiovisual sources",
 			"books",
-			"photos",
-			"maps",
-			"primary sources",
-			"search engine",
-			"newspapers",
 			"magazines",
-			"manuscripts"
+			"manuscripts",
+			"maps",
+			"newspapers",
+			"photos",
+			"primary sources",
+			"search engine"
 		],
 		"period": ["medieval", "modern", "contemporary"]
 	},
@@ -140,7 +140,7 @@
 		"description": "Minutes of the Federal Council (1848-1963).",
 		"url": "https://www.chgov.bar.admin.ch/",
 		"region": ["Switzerland"],
-		"language": ["de", "it", "fr", "en"],
+		"language": ["de", "en", "fr", "it"],
 		"type": ["primary sources"],
 		"period": ["contemporary"]
 	},
@@ -150,7 +150,7 @@
 		"url": "https://chroniclingamerica.loc.gov/",
 		"region": ["North America"],
 		"language": ["en"],
-		"type": ["primary sources", "newspapers"],
+		"type": ["newspapers", "primary sources"],
 		"period": ["modern", "contemporary"]
 	},
 	{
@@ -195,7 +195,7 @@
 		"url": "http://computerarchiv-muenchen.de/",
 		"region": ["Germany"],
 		"language": ["de", "en"],
-		"type": ["audiovisual sources", "photos", "primary sources", "websites", "magazines"],
+		"type": ["audiovisual sources", "magazines", "photos", "primary sources", "websites"],
 		"period": ["contemporary"]
 	},
 	{
@@ -240,7 +240,7 @@
 		"url": "https://www.delpher.nl/",
 		"region": ["Netherlands"],
 		"language": ["nl"],
-		"type": ["books", "primary sources", "newspapers", "magazines"],
+		"type": ["books", "magazines", "newspapers", "primary sources"],
 		"period": ["modern", "contemporary"]
 	},
 	{
@@ -258,7 +258,7 @@
 		"url": "https://www.deutsche-digitale-bibliothek.de/newspaper",
 		"region": ["Germany"],
 		"language": ["de", "en"],
-		"type": ["search engine", "newspapers"],
+		"type": ["newspapers", "search engine"],
 		"period": ["modern", "contemporary"]
 	},
 	{
@@ -297,13 +297,13 @@
 		"type": [
 			"audiovisual sources",
 			"books",
-			"photos",
-			"maps",
-			"primary sources",
-			"search engine",
-			"newspapers",
 			"magazines",
-			"manuscripts"
+			"manuscripts",
+			"maps",
+			"newspapers",
+			"photos",
+			"primary sources",
+			"search engine"
 		],
 		"period": ["ancient", "medieval", "modern", "contemporary"]
 	},
@@ -325,13 +325,13 @@
 		"type": [
 			"audiovisual sources",
 			"books",
-			"photos",
-			"maps",
-			"primary sources",
-			"websites",
-			"newspapers",
 			"magazines",
-			"manuscripts"
+			"manuscripts",
+			"maps",
+			"newspapers",
+			"photos",
+			"primary sources",
+			"websites"
 		],
 		"period": ["medieval", "modern", "contemporary"]
 	},
@@ -341,7 +341,7 @@
 		"url": "https://www.digitales-deutsches-frauenarchiv.de/",
 		"region": ["Germany"],
 		"language": ["de"],
-		"type": ["search engine", "learning materials"],
+		"type": ["learning materials", "search engine"],
 		"period": []
 	},
 	{
@@ -350,7 +350,7 @@
 		"url": "https://digitarium-app.acdh-dev.oeaw.ac.at/",
 		"region": ["Austria"],
 		"language": ["de"],
-		"type": ["primary sources", "newspapers"],
+		"type": ["newspapers", "primary sources"],
 		"period": ["modern", "contemporary"]
 	},
 	{
@@ -358,7 +358,7 @@
 		"description": "Diplomatic documents of Switzerland.",
 		"url": "https://www.dodis.ch/",
 		"region": ["Switzerland"],
-		"language": ["de", "it", "fr", "en"],
+		"language": ["de", "en", "fr", "it"],
 		"type": ["primary sources"],
 		"period": ["contemporary"]
 	},
@@ -376,8 +376,8 @@
 		"description": "Virtual manuscript library of Switzerland.",
 		"url": "http://e-codices.ch/",
 		"region": ["Switzerland"],
-		"language": ["de", "it", "fr", "en"],
-		"type": ["primary sources", "manuscripts"],
+		"language": ["de", "en", "fr", "it"],
+		"type": ["manuscripts", "primary sources"],
 		"period": ["medieval", "modern", "contemporary"]
 	},
 	{
@@ -394,8 +394,8 @@
 		"description": "Manuscript material from Swiss libraries and archives.",
 		"url": "https://www.e-manuscripta.ch/",
 		"region": ["Switzerland"],
-		"language": ["de", "it", "fr", "en"],
-		"type": ["maps", "primary sources", "manuscripts"],
+		"language": ["de", "en", "fr", "it"],
+		"type": ["manuscripts", "maps", "primary sources"],
 		"period": ["medieval", "modern", "contemporary"]
 	},
 	{
@@ -403,8 +403,8 @@
 		"description": "Swiss newspapers.",
 		"url": "https://www.e-newspaperarchives.ch/",
 		"region": ["Switzerland"],
-		"language": ["de", "it", "fr", "en"],
-		"type": ["primary sources", "newspapers"],
+		"language": ["de", "en", "fr", "it"],
+		"type": ["newspapers", "primary sources"],
 		"period": ["modern", "contemporary"]
 	},
 	{
@@ -412,8 +412,8 @@
 		"description": "Swiss journals.",
 		"url": "https://www.e-periodica.ch/",
 		"region": ["Switzerland"],
-		"language": ["de", "it", "fr", "en"],
-		"type": ["primary sources", "magazines"],
+		"language": ["de", "en", "fr", "it"],
+		"type": ["magazines", "primary sources"],
 		"period": ["modern", "contemporary"]
 	},
 	{
@@ -421,7 +421,7 @@
 		"description": "The platform for digitised rare books from Swiss libraries.",
 		"url": "https://www.e-rara.ch/",
 		"region": ["Switzerland"],
-		"language": ["de", "it", "fr", "en"],
+		"language": ["de", "en", "fr", "it"],
 		"type": ["primary sources"],
 		"period": ["medieval", "modern", "contemporary"]
 	},
@@ -434,10 +434,10 @@
 		"type": [
 			"audiovisual sources",
 			"books",
-			"photos",
-			"maps",
 			"encyclopedias",
-			"learning materials"
+			"learning materials",
+			"maps",
+			"photos"
 		],
 		"period": ["modern", "contemporary"]
 	},
@@ -450,12 +450,12 @@
 		"type": [
 			"audiovisual sources",
 			"books",
+			"magazines",
+			"manuscripts",
+			"newspapers",
 			"photos",
 			"primary sources",
-			"search engine",
-			"newspapers",
-			"magazines",
-			"manuscripts"
+			"search engine"
 		],
 		"period": ["modern", "contemporary"]
 	},
@@ -465,7 +465,7 @@
 		"url": "https://eudocs.lib.byu.edu/index.php/Main_Page",
 		"region": ["Europe"],
 		"language": ["en", "mul"],
-		"type": ["Collection", "Portal"],
+		"type": ["collection", "portal"],
 		"period": ["medieval", "early modern", "modern", "contemporary"]
 	},
 	{
@@ -473,19 +473,19 @@
 		"description": "Search engine for European textual and non-textual archival sources.",
 		"url": "https://www.europeana.eu/",
 		"region": ["Europe"],
-		"language": ["en", "de", "nl", "po", "fr", "es", "no", "se", "it", "mul"],
+		"language": ["de", "en", "es", "fr", "it", "mul", "nl", "no", "po", "se"],
 		"type": [
 			"audiovisual sources",
 			"books",
-			"photos",
-			"maps",
 			"encyclopedias",
-			"primary sources",
-			"search engine",
-			"newspapers",
-			"magazines",
 			"learning materials",
-			"manuscripts"
+			"magazines",
+			"manuscripts",
+			"maps",
+			"newspapers",
+			"photos",
+			"primary sources",
+			"search engine"
 		],
 		"period": ["ancient", "medieval", "modern", "contemporary"]
 	},
@@ -512,16 +512,16 @@
 		"description": "Digital library of the National Library of France.",
 		"url": "https://gallica.bnf.fr/",
 		"region": ["France"],
-		"language": ["fr", "en", "it", "de"],
+		"language": ["de", "en", "fr", "it"],
 		"type": [
 			"audiovisual sources",
 			"books",
-			"photos",
-			"maps",
-			"primary sources",
-			"newspapers",
 			"magazines",
-			"manuscripts"
+			"manuscripts",
+			"maps",
+			"newspapers",
+			"photos",
+			"primary sources"
 		],
 		"period": ["medieval", "modern", "contemporary"]
 	},
@@ -540,7 +540,7 @@
 		"url": "https://gotpapers.scene.org/?page_id=73",
 		"region": ["Global"],
 		"language": ["en"],
-		"type": ["photos", "primary sources", "search engine", "websites", "magazines", "tools"],
+		"type": ["magazines", "photos", "primary sources", "search engine", "tools", "websites"],
 		"period": ["contemporary"]
 	},
 	{
@@ -557,8 +557,8 @@
 		"description": "Catalogue of more than 15'000 manuscripts (12th–20th century) in Icelandic, Old Norse, Danish and Latin (plus a few other languages) with more than 4'000 manuscripts digitally available.",
 		"url": "https://www.handrit.is/",
 		"region": ["Europe"],
-		"language": ["is", "da", "lat"],
-		"type": ["primary sources", "manuscripts"],
+		"language": ["da", "is", "lat"],
+		"type": ["manuscripts", "primary sources"],
 		"period": ["medieval", "modern"]
 	},
 	{
@@ -567,7 +567,7 @@
 		"url": "https://www.hathitrust.org",
 		"region": ["North America"],
 		"language": ["en"],
-		"type": ["books", "maps", "primary sources", "magazines", "manuscripts"],
+		"type": ["books", "magazines", "manuscripts", "maps", "primary sources"],
 		"period": ["modern", "contemporary"]
 	},
 	{
@@ -584,7 +584,7 @@
 		"description": "The platform manages authority files on Swiss history.",
 		"url": "https://histhub.ch/",
 		"region": ["Switzerland"],
-		"language": ["de", "it", "fr", "en"],
+		"language": ["de", "en", "fr", "it"],
 		"type": ["encyclopedias", "search engine"],
 		"period": ["medieval", "modern", "contemporary"]
 	},
@@ -593,8 +593,8 @@
 		"description": "Encyclopedia on Swiss history.",
 		"url": "https://hls-dhs-dss.ch/",
 		"region": ["Switzerland"],
-		"language": ["de", "it", "fr"],
-		"type": ["audiovisual sources", "photos", "encyclopedias"],
+		"language": ["de", "fr", "it"],
+		"type": ["audiovisual sources", "encyclopedias", "photos"],
 		"period": ["ancient", "medieval", "modern", "contemporary"]
 	},
 	{
@@ -604,13 +604,13 @@
 		"region": ["Germany"],
 		"language": ["de"],
 		"type": [
-			"newspapers",
 			"magazines",
+			"maps",
+			"newspapers",
 			"primary sources",
 			"search engine",
 			"tools",
-			"websites",
-			"maps"
+			"websites"
 		],
 		"period": ["modern", "contemporary"]
 	},
@@ -637,7 +637,7 @@
 		"description": "Historical statistics of Switzerland online.",
 		"url": "https://hsso.ch/",
 		"region": ["Switzerland"],
-		"language": ["de", "fr", "en"],
+		"language": ["de", "en", "fr"],
 		"type": ["statistics"],
 		"period": ["contemporary"]
 	},
@@ -656,7 +656,7 @@
 		"url": "https://industriekultur.ch/",
 		"region": ["Switzerland"],
 		"language": ["de"],
-		"type": ["photos", "encyclopedias"],
+		"type": ["encyclopedias", "photos"],
 		"period": ["contemporary"]
 	},
 	{
@@ -664,7 +664,7 @@
 		"description": "A database containing current historical edition projects in Switzerland.",
 		"url": "http://www.infoclio.ch/en/edition-projects",
 		"region": ["Switzerland"],
-		"language": ["de", "it", "fr", "en"],
+		"language": ["de", "en", "fr", "it"],
 		"type": ["encyclopedias"],
 		"period": ["ancient", "medieval", "modern", "contemporary"]
 	},
@@ -674,7 +674,7 @@
 		"url": "https://www.ina.fr/",
 		"region": ["France"],
 		"language": ["fr"],
-		"type": ["audiovisual sources", "primary sources", "learning materials"],
+		"type": ["audiovisual sources", "learning materials", "primary sources"],
 		"period": ["contemporary"]
 	},
 	{
@@ -686,15 +686,15 @@
 		"type": [
 			"audiovisual sources",
 			"books",
-			"photos",
-			"maps",
-			"primary sources",
-			"statistics",
-			"search engine",
-			"websites",
-			"newspapers",
+			"learning materials",
 			"magazines",
-			"learning materials"
+			"maps",
+			"newspapers",
+			"photos",
+			"primary sources",
+			"search engine",
+			"statistics",
+			"websites"
 		],
 		"period": ["contemporary"]
 	},
@@ -722,7 +722,7 @@
 		"url": "https://www.islandskort.is/",
 		"region": ["Europe"],
 		"language": ["is"],
-		"type": ["primary sources", "maps"],
+		"type": ["maps", "primary sources"],
 		"period": ["modern", "contemporary"]
 	},
 	{
@@ -748,7 +748,7 @@
 		"description": "Search engine for maps.",
 		"url": "http://www.kartenportal.ch/",
 		"region": ["Switzerland"],
-		"language": ["de", "it", "fr", "en"],
+		"language": ["de", "en", "fr", "it"],
 		"type": ["maps", "search engine"],
 		"period": ["medieval", "modern", "contemporary"]
 	},
@@ -757,7 +757,7 @@
 		"description": "Archive of Gazette de Lausanne et du Journal de Genève.",
 		"url": "https://www.letempsarchives.ch/",
 		"region": ["Switzerland"],
-		"language": ["de", "it", "fr", "en"],
+		"language": ["de", "en", "fr", "it"],
 		"type": ["newspapers"],
 		"period": ["contemporary"]
 	},
@@ -767,7 +767,7 @@
 		"url": "https://www.leo-bw.de/",
 		"region": ["Germany"],
 		"language": ["de"],
-		"type": ["search engine", "learning materials"],
+		"type": ["learning materials", "search engine"],
 		"period": ["medieval", "modern", "contemporary"]
 	},
 	{
@@ -793,7 +793,7 @@
 		"description": "Journey through time via maps of Switzerland.",
 		"url": "https://map.geo.admin.ch/",
 		"region": ["Switzerland"],
-		"language": ["de", "it", "fr", "en", "rm"],
+		"language": ["de", "en", "fr", "it", "rm"],
 		"type": ["maps"],
 		"period": ["contemporary"]
 	},
@@ -806,13 +806,13 @@
 		"type": [
 			"audiovisual sources",
 			"books",
-			"photos",
-			"maps",
 			"encyclopedias",
-			"primary sources",
-			"search engine",
+			"magazines",
+			"maps",
 			"newspapers",
-			"magazines"
+			"photos",
+			"primary sources",
+			"search engine"
 		],
 		"period": ["medieval", "modern", "contemporary"]
 	},
@@ -830,8 +830,8 @@
 		"description": "Everything you ever wanted to know about Marx (and other important socialists).",
 		"url": "https://www.marxists.org/",
 		"region": ["Global"],
-		"language": ["en", "jp", "pt", "fr", "nl", "es", "ar", "ru", "de", "ca", "se", "mul"],
-		"type": ["books", "encyclopedias", "magazines", "learning materials"],
+		"language": ["ar", "ca", "de", "en", "es", "fr", "jp", "mul", "nl", "pt", "ru", "se"],
+		"type": ["books", "encyclopedias", "learning materials", "magazines"],
 		"period": ["contemporary"]
 	},
 	{
@@ -848,7 +848,7 @@
 		"description": "Provides access to audiovisual documents from Swiss memory institutions.",
 		"url": "http://www.memobase.ch/",
 		"region": ["Switzerland"],
-		"language": ["de", "it", "fr"],
+		"language": ["de", "fr", "it"],
 		"type": ["audiovisual sources", "photos"],
 		"period": ["contemporary"]
 	},
@@ -857,8 +857,8 @@
 		"description": "Deeds from all over Europe.",
 		"url": "https://www.monasterium.net/mom/home",
 		"region": ["Europe"],
-		"language": ["en", "de", "fr", "lt", "lat"],
-		"type": ["books", "photos", "maps", "primary sources", "search engine", "manuscripts"],
+		"language": ["de", "en", "fr", "lat", "lt"],
+		"type": ["books", "manuscripts", "maps", "photos", "primary sources", "search engine"],
 		"period": ["medieval", "modern", "contemporary"]
 	},
 	{
@@ -866,8 +866,8 @@
 		"description": "Rich collection of the National Archives of the Netherlands.",
 		"url": "https://www.nationaalarchief.nl/",
 		"region": ["Netherlands"],
-		"language": ["nl", "en"],
-		"type": ["audiovisual sources", "photos", "maps", "primary sources", "websites", "manuscripts"],
+		"language": ["en", "nl"],
+		"type": ["audiovisual sources", "manuscripts", "maps", "photos", "primary sources", "websites"],
 		"period": ["medieval", "modern", "contemporary"]
 	},
 	{
@@ -879,14 +879,14 @@
 		"type": [
 			"audiovisual sources",
 			"books",
-			"photos",
+			"magazines",
+			"manuscripts",
 			"maps",
+			"newspapers",
+			"photos",
 			"primary sources",
 			"search engine",
-			"websites",
-			"newspapers",
-			"magazines",
-			"manuscripts"
+			"websites"
 		],
 		"period": ["modern", "contemporary"]
 	},
@@ -905,7 +905,7 @@
 		"url": "https://data.nls.uk/data/",
 		"region": ["Great Britain"],
 		"language": ["en"],
-		"type": ["books", "photos", "maps", "primary sources"],
+		"type": ["books", "maps", "photos", "primary sources"],
 		"period": ["modern", "contemporary"]
 	},
 	{
@@ -922,7 +922,7 @@
 		"description": "Search engine for libraries around the globe.",
 		"url": "https://opencat.io/",
 		"region": ["Global"],
-		"language": ["en", "de", "fr"],
+		"language": ["de", "en", "fr"],
 		"type": ["search engine"],
 		"period": ["contemporary"]
 	},
@@ -941,7 +941,7 @@
 		"url": "https://www.mediathek.at/",
 		"region": ["Austria"],
 		"language": ["de"],
-		"type": ["audiovisual sources", "primary sources", "learning materials"],
+		"type": ["audiovisual sources", "learning materials", "primary sources"],
 		"period": ["contemporary"]
 	},
 	{
@@ -949,7 +949,7 @@
 		"description": "Portal for African Research Collections: PARC is the new meta-catalogue for the Africana collections at the research location Basel.",
 		"url": "https://parc-portal.org/",
 		"region": ["Africa"],
-		"language": ["en", "de"],
+		"language": ["de", "en"],
 		"type": ["audiovisual sources", "primary sources"],
 		"period": ["ancient", "medieval", "modern", "contemporary"]
 	},
@@ -1060,12 +1060,12 @@
 		"language": ["de"],
 		"type": [
 			"audiovisual sources",
-			"photos",
-			"maps",
-			"primary sources",
-			"newspapers",
 			"magazines",
-			"manuscripts"
+			"manuscripts",
+			"maps",
+			"newspapers",
+			"photos",
+			"primary sources"
 		],
 		"period": ["medieval", "modern", "contemporary"]
 	},
@@ -1092,7 +1092,7 @@
 		"description": "Meta search engine for historical and modern collections in Swiss libraries and archives.",
 		"url": "https://swisscollections.ch/",
 		"region": ["Switzerland"],
-		"language": ["de", "it", "fr", "en"],
+		"language": ["de", "en", "fr", "it"],
 		"type": ["search engine"],
 		"period": ["ancient", "medieval", "modern", "contemporary"]
 	},
@@ -1123,13 +1123,13 @@
 		"type": [
 			"audiovisual sources",
 			"books",
-			"photos",
-			"maps",
-			"primary sources",
-			"search engine",
-			"newspapers",
+			"learning materials",
 			"magazines",
-			"learning materials"
+			"maps",
+			"newspapers",
+			"photos",
+			"primary sources",
+			"search engine"
 		],
 		"period": ["medieval", "modern", "contemporary"]
 	},
@@ -1156,8 +1156,8 @@
 		"description": "Digitized newspapers and magazines from Iceland, Greenland and the Faroe Islands.",
 		"url": "https://www.timarit.is/",
 		"region": ["Europe"],
-		"language": ["is", "fo", "kl", "da"],
-		"type": ["newspapers", "magazines"],
+		"language": ["da", "fo", "is", "kl"],
+		"type": ["magazines", "newspapers"],
 		"period": ["modern", "contemporary"]
 	},
 	{
@@ -1184,7 +1184,7 @@
 		"url": "http://transcriptiones.ch",
 		"region": ["Switzerland"],
 		"language": ["de", "en"],
-		"type": ["primary sources", "manuscripts"],
+		"type": ["manuscripts", "primary sources"],
 		"period": ["medieval", "modern"]
 	},
 	{
@@ -1193,7 +1193,7 @@
 		"url": "https://www.ub.uni-heidelberg.de/helios/digi/digilit.html",
 		"region": ["Germany"],
 		"language": ["de"],
-		"type": ["books", "primary sources", "newspapers", "magazines", "manuscripts"],
+		"type": ["books", "magazines", "manuscripts", "newspapers", "primary sources"],
 		"period": ["ancient", "medieval", "modern", "contemporary"]
 	},
 	{
@@ -1211,7 +1211,7 @@
 		"url": "http://sammlungen.ub.uni-frankfurt.de/",
 		"region": ["Germany"],
 		"language": ["de"],
-		"type": ["books", "photos", "primary sources", "newspapers", "magazines", "manuscripts"],
+		"type": ["books", "magazines", "manuscripts", "newspapers", "photos", "primary sources"],
 		"period": ["medieval", "modern", "contemporary"]
 	},
 	{
@@ -1219,7 +1219,7 @@
 		"description": "Archives and records from the United Nations regarding Secretaries-Generals, departments and missions.",
 		"url": "https://archives.un.org/",
 		"region": ["Global"],
-		"language": ["ar", "jp", "en", "fr", "ru", "es"],
+		"language": ["ar", "en", "es", "fr", "jp", "ru"],
 		"type": ["primary sources", "search engine"],
 		"period": ["contemporary"]
 	},
@@ -1229,7 +1229,7 @@
 		"url": "http://gams.uni-graz.at/context:vase",
 		"region": ["Europe"],
 		"language": ["en"],
-		"type": ["audiovisual sources", "photos", "maps", "primary sources"],
+		"type": ["audiovisual sources", "maps", "photos", "primary sources"],
 		"period": ["contemporary"]
 	},
 	{
@@ -1255,7 +1255,7 @@
 		"description": "A comprehensive collection of manuscripts that provides insight into the Islamic scholarly tradition in West Africa.",
 		"url": "https://islam.zmo.de/s/westafrica/page/home",
 		"region": ["Africa"],
-		"language": ["ar", "fr", "en", "ha", "Dendi"],
+		"language": ["ar", "ddn", "en", "fr", "ha"],
 		"type": ["manuscripts"],
 		"period": ["modern"]
 	},
@@ -1265,7 +1265,7 @@
 		"url": "https://www.geschichtewiki.wien.gv.at/Wien_Geschichte_Wiki",
 		"region": ["Austria"],
 		"language": ["de"],
-		"type": ["photos", "maps", "encyclopedias"],
+		"type": ["encyclopedias", "maps", "photos"],
 		"period": ["ancient", "medieval", "modern", "contemporary", "prehistory"]
 	},
 	{
@@ -1274,7 +1274,7 @@
 		"url": "https://library.harvard.edu/collections/women-working-1800-1930",
 		"region": ["North America"],
 		"language": ["en"],
-		"type": ["books", "photos", "primary sources", "statistics", "magazines", "manuscripts"],
+		"type": ["books", "magazines", "manuscripts", "photos", "primary sources", "statistics"],
 		"period": ["contemporary"]
 	},
 	{
@@ -1286,13 +1286,13 @@
 		"type": [
 			"audiovisual sources",
 			"books",
-			"photos",
-			"maps",
-			"primary sources",
-			"search engine",
-			"newspapers",
 			"magazines",
-			"manuscripts"
+			"manuscripts",
+			"maps",
+			"newspapers",
+			"photos",
+			"primary sources",
+			"search engine"
 		],
 		"period": ["medieval", "modern", "contemporary"]
 	},
@@ -1302,7 +1302,7 @@
 		"url": "https://whgazetteer.org/",
 		"region": ["Global"],
 		"language": ["en"],
-		"type": ["maps", "learning materials"],
+		"type": ["learning materials", "maps"],
 		"period": ["modern", "contemporary"]
 	},
 	{
@@ -1320,7 +1320,7 @@
 		"url": "https://digital.zlb.de/",
 		"region": ["Germany"],
 		"language": ["de", "en"],
-		"type": ["books", "photos", "maps", "primary sources", "newspapers", "magazines"],
+		"type": ["books", "magazines", "maps", "newspapers", "photos", "primary sources"],
 		"period": ["modern", "contemporary"]
 	}
 ]
