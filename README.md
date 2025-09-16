@@ -9,44 +9,43 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 📢 **Announcement**
 
 🎉 Check out our new website at [awesome-digital-history.pages.dev](https://awesome-digital-history.pages.dev/) with more information, filters, and a search function. 🎉
-
 ## Contents
 
 - [Archives and primary sources](#archives-and-primary-sources)
-  - [Africa](#africa)
-  - [Asia](#asia)
-  - [Austria](#austria)
-  - [Europe](#europe)
-  - [France](#france)
-  - [Germany](#germany)
-  - [Global](#global)
-  - [Great Britain](#great-britain)
-  - [Netherlands](#netherlands)
-  - [North America](#north-america)
-  - [Switzerland](#switzerland)
+  - [africa](#africa)
+  - [asia](#asia)
+  - [austria](#austria)
+  - [europe](#europe)
+  - [france](#france)
+  - [germany](#germany)
+  - [global](#global)
+  - [great britain](#great-britain)
+  - [netherlands](#netherlands)
+  - [north america](#north-america)
+  - [switzerland](#switzerland)
 - [Learning](#learning)
 - [More Awesome](#more-awesome)
 - [Contribute](#contribute)
 
 ## Archives and primary sources
-
-### Africa
+    
+### africa
 
 - [PARC](https://parc-portal.org/) - Portal for African Research Collections: PARC is the new meta-catalogue for the Africana collections at the research location Basel.
 - [West African Arabic Manuscript Database](https://islam.zmo.de/s/westafrica/page/home) - A comprehensive collection of manuscripts that provides insight into the Islamic scholarly tradition in West Africa.
 
-### Asia
+### asia
 
 - [FOCAL](https://www.asia-directories.org/) - The Asia Directories and Chronicles is a reference work for foreign traders in the Asian region, published annually by the Hong Kong Daily Press, annually between 1863 and 1941.
 
-### Austria
+### austria
 
 - [ANNO](https://anno.onb.ac.at/) - Austrian Newspapers online.
 - [Digitarium](https://digitarium-app.acdh-dev.oeaw.ac.at/) - Digital edition of the historical Wiener Zeitung.
 - [Österreichische Mediathek](https://www.mediathek.at/) - The Austrian archive for sound recordings and videos from cultural and contemporary history.
 - [Wien Geschichte Wiki](https://www.geschichtewiki.wien.gv.at/Wien_Geschichte_Wiki) - It is based on the Historical Dictionary Vienna by Felix Czeike, currently there are 50,156 contributions and 12,510 images.
 
-### Europe
+### europe
 
 - [Archives Portal Europe](https://www.archivesportaleurope.net/) - European archives search engine.
 - [Encyclopédie d'histoire numérique](https://ehne.fr/) - European History through renewed historiographic objects and major contemporary challenges.
@@ -61,12 +60,12 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [tímarit.is](https://www.timarit.is/) - Digitized newspapers and magazines from Iceland, Greenland and the Faroe Islands.
 - [Visual Archive Southeastern Europe](http://gams.uni-graz.at/context:vase) - Historical and contemporary visual materials from Southeastern Europe.
 
-### France
+### france
 
 - [Gallica](https://gallica.bnf.fr/) - Digital library of the National Library of France.
 - [Institut national de l'audiovisuel](https://www.ina.fr/) - INA is a repository of French radio and television audiovisual archives.
 
-### Germany
+### germany
 
 - [Archivportal](https://www.archivportal-d.de/) - German archives search engine.
 - [Bavarikon](https://www.bavarikon.de/) - Collection of Bavarian maps, places, newspapers etc.
@@ -89,7 +88,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [Zefys](http://zefys.staatsbibliothek-berlin.de/) - Historical German newspapers.
 - [ZLB](https://digital.zlb.de/) - Collections of the Berlin Central and State Library.
 
-### Global
+### global
 
 - [Atlas of Mutual Heritage](https://www.atlasofmutualheritage.nl/) - Database with sources relating to VOC (Dutch East India Company) and WIC (Dutch West India Company).
 - [Bitsavers.org](http://bitsavers.trailing-edge.com/) - Computer code, reference manuals, and magazines.
@@ -109,7 +108,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [WayBackMachine](https://archive.org/web/) - Explore more than 486 billion web pages saved over time.
 - [World Historical Gazeteer](https://whgazetteer.org/) - Collection of content and services that permit world historians to do spatial and temporal reasoning and visualization in a data rich environment at global and trans-regional scales.
 
-### Great Britain
+### great britain
 
 - [British Library](https://www.bl.uk/catalogues-and-collections/digital-collections) - Maps, manuscripts and sounds.
 - [National Records of Scotland](https://www.nrscotland.gov.uk/) - Repository for the public and legal records of Scotland.
@@ -117,15 +116,15 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [The National Archives](https://www.nationalarchives.gov.uk/) - A non-ministerial department, and the official archive and publisher for the UK Government, and for England and Wales.
 - [The Proceedings of the Old Bailey](https://www.oldbaileyonline.org/) - London's Central Criminal Court, 1674 to 1913.
 
-### Netherlands
+### netherlands
 
 - [Delpher](https://www.delpher.nl/) - Dutch newspapers, books and magazines.
 - [Nationaal Archief](https://www.nationaalarchief.nl/) - Rich collection of the National Archives of the Netherlands.
 - [Topotijdreis](https://www.topotijdreis.nl/) - Browse and compare Dutch topographic maps (1815 until today).
 
-### North America
+### north america
 
-- [Ad\*Access](https://repository.duke.edu/dc/adaccess) - U.S. and Canadian advertisements covering five product categories - Beauty and Hygiene, Radio, Television, Transportation, and World War II propaganda - dated between 1911 and 1955.
+- [Ad*Access](https://repository.duke.edu/dc/adaccess) - U.S. and Canadian advertisements covering five product categories - Beauty and Hygiene, Radio, Television, Transportation, and World War II propaganda - dated between 1911 and 1955.
 - [Chronicling America](https://chroniclingamerica.loc.gov/) - America's historic newspapers from 1777-1963.
 - [Computer Gaming World Museum](https://www.cgwmuseum.org/) - Archive of various magazines on gaming.
 - [David Rumsey Map Collection](https://www.davidrumsey.com/) - Historical maps collection.
@@ -138,7 +137,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [Women Working 1800-1930](https://library.harvard.edu/collections/women-working-1800-1930) - An exploration of women's impact on the economic life of the United States between 1800 and the Great Depression.
 - [World Digital Library](https://www.wdl.org/) - WDL is an international digital library operated by UNESCO and the United States Library of Congress.
 
-### Switzerland
+### switzerland
 
 - [Amtsdruckschriften](https://www.amtsdruckschriften.bar.admin.ch/) - Federal Gazette, Administrative Case Law of the Federal Authorities and more documents from the Swiss Federal Archives.
 - [Année Politique Suisse](https://anneepolitique.swiss/) - Sources and database for swiss socio-political topics.
@@ -203,3 +202,4 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 ## Contribute
 
 Contributions welcome! Read the [CONTRIBUTING.md](https://github.com/maehr/awesome-digital-history/blob/main/CONTRIBUTING.md) first.
+
