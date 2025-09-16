@@ -2,6 +2,26 @@ import fs from 'fs';
 
 const filepath = 'src/lib/data/entries.json';
 
+// Language code mappings for non-standard to ISO codes
+const languageCodeMappings = {
+	dendi: 'ddn'
+};
+
+// Helper function to capitalize region names properly
+const capitalizeRegionName = (regionName) => {
+	return regionName
+		.toLowerCase()
+		.split(' ')
+		.map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+		.join(' ');
+};
+
+// Helper function to normalize language codes
+const normalizeLanguageCode = (languageCode) => {
+	const lowercase = languageCode.toLowerCase();
+	return languageCodeMappings[lowercase] || lowercase;
+};
+
 // Define allowed values for validation
 const allowedValues = {
 	region: [
@@ -148,47 +168,10 @@ fs.readFile(filepath, 'utf-8', (err, data) => {
 				.map((value) => {
 					if (fieldName === 'region') {
 						// Region-specific normalizations - capitalize country/region names
-						const lowercaseValue = value.toLowerCase();
-						switch (lowercaseValue) {
-							case 'africa':
-								return 'Africa';
-							case 'asia':
-								return 'Asia';
-							case 'austria':
-								return 'Austria';
-							case 'europe':
-								return 'Europe';
-							case 'france':
-								return 'France';
-							case 'germany':
-								return 'Germany';
-							case 'global':
-								return 'Global';
-							case 'great britain':
-								return 'Great Britain';
-							case 'netherlands':
-								return 'Netherlands';
-							case 'north america':
-								return 'North America';
-							case 'switzerland':
-								return 'Switzerland';
-							default:
-								// Capitalize first letter of each word for unknown regions
-								return value
-									.toLowerCase()
-									.split(' ')
-									.map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-									.join(' ');
-						}
+						return capitalizeRegionName(value);
 					} else if (fieldName === 'language') {
 						// Language-specific normalizations - convert to proper ISO codes
-						const lowercaseValue = value.toLowerCase();
-						switch (lowercaseValue) {
-							case 'dendi':
-								return 'ddn'; // ISO 639-3 code for Dendi
-							default:
-								return lowercaseValue; // Keep other language codes lowercase
-						}
+						return normalizeLanguageCode(value);
 					} else if (fieldName === 'type') {
 						// Type-specific normalizations - keep lowercase
 						return value.toLowerCase();
