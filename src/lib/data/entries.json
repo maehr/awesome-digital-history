@@ -544,6 +544,15 @@
 		"period": ["contemporary"]
 	},
 	{
+		"title": "Grundlagen, Methoden und Anwendungen der Digital History",
+		"description": "Teaching and collaborative resources for digital history (University of Erfurt).",
+		"url": "https://dh-erfurt.github.io/digital-history/home.html",
+		"region": [],
+		"language": ["de"],
+		"type": ["learning materials"],
+		"period": []
+	},
+	{
 		"title": "handrit.is",
 		"description": "Catalogue of more than 15'000 manuscripts (12th–20th century) in Icelandic, Old Norse, Danish and Latin (plus a few other languages) with more than 4'000 manuscripts digitally available.",
 		"url": "https://www.handrit.is/",
