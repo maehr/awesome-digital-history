@@ -5,24 +5,24 @@ const filepath = 'src/lib/data/entries.json';
 // Define allowed values for validation
 const allowedValues = {
 	region: [
-		'africa',
-		'asia',
-		'austria',
-		'europe',
-		'france',
-		'germany',
-		'global',
-		'great britain',
-		'netherlands',
-		'north america',
-		'switzerland'
+		'Africa',
+		'Asia',
+		'Austria',
+		'Europe',
+		'France',
+		'Germany',
+		'Global',
+		'Great Britain',
+		'Netherlands',
+		'North America',
+		'Switzerland'
 	],
 	language: [
 		'ar',
 		'ca',
 		'da',
 		'de',
-		'dendi',
+		'ddn',
 		'en',
 		'es',
 		'fo',
@@ -140,49 +140,61 @@ fs.readFile(filepath, 'utf-8', (err, data) => {
 				// Coerce items to strings but drop null/undefined
 				.map((value) => (value != null ? String(value) : null))
 				.filter((value) => value !== null)
-				// Trim and lowercase each value
-				.map((value) => value.toLowerCase().trim())
+				// Trim each value
+				.map((value) => value.trim())
 				// Filter out empty strings
 				.filter((value) => value.length > 0)
 				// Apply field-specific normalizations
 				.map((value) => {
 					if (fieldName === 'region') {
-						// Region-specific normalizations
-						switch (value) {
+						// Region-specific normalizations - capitalize country/region names
+						const lowercaseValue = value.toLowerCase();
+						switch (lowercaseValue) {
+							case 'africa':
+								return 'Africa';
+							case 'asia':
+								return 'Asia';
+							case 'austria':
+								return 'Austria';
+							case 'europe':
+								return 'Europe';
+							case 'france':
+								return 'France';
+							case 'germany':
+								return 'Germany';
+							case 'global':
+								return 'Global';
 							case 'great britain':
-								return 'great britain';
+								return 'Great Britain';
+							case 'netherlands':
+								return 'Netherlands';
 							case 'north america':
-								return 'north america';
+								return 'North America';
+							case 'switzerland':
+								return 'Switzerland';
 							default:
-								return value;
+								// Capitalize first letter of each word for unknown regions
+								return value
+									.toLowerCase()
+									.split(' ')
+									.map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+									.join(' ');
 						}
 					} else if (fieldName === 'language') {
-						// Language-specific normalizations (already lowercase)
-						return value;
+						// Language-specific normalizations - convert to proper ISO codes
+						const lowercaseValue = value.toLowerCase();
+						switch (lowercaseValue) {
+							case 'dendi':
+								return 'ddn'; // ISO 639-3 code for Dendi
+							default:
+								return lowercaseValue; // Keep other language codes lowercase
+						}
 					} else if (fieldName === 'type') {
-						// Type-specific normalizations
-						switch (value) {
-							case 'primary sources':
-								return 'primary sources';
-							case 'learning materials':
-								return 'learning materials';
-							case 'audiovisual sources':
-								return 'audiovisual sources';
-							case 'search engine':
-								return 'search engine';
-							case 'sheet music':
-								return 'sheet music';
-							default:
-								return value;
-						}
+						// Type-specific normalizations - keep lowercase
+						return value.toLowerCase();
 					} else if (fieldName === 'period') {
-						// Period-specific normalizations
-						switch (value) {
-							case 'early modern':
-								return 'early modern';
-							default:
-								return value;
-						}
+						// Period-specific normalizations - keep lowercase
+						return value.toLowerCase();
 					}
 					return value;
 				});
