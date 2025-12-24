@@ -580,15 +580,6 @@
 		"period": []
 	},
 	{
-		"title": "histHub",
-		"description": "The platform manages authority files on Swiss history.",
-		"url": "https://histhub.ch/",
-		"region": ["Switzerland"],
-		"language": ["de", "en", "fr", "it"],
-		"type": ["encyclopedias", "search engine"],
-		"period": ["medieval", "modern", "contemporary"]
-	},
-	{
 		"title": "Historical Encyclopedia of Switzerland",
 		"description": "Encyclopedia on Swiss history.",
 		"url": "https://hls-dhs-dss.ch/",
