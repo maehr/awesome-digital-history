@@ -13,7 +13,7 @@
 		"test:unit": "vitest",
 		"lint": "prettier --check . '!{CODE_OF_CONDUCT.md,LICENSE.md}' && eslint .",
 		"format": "prettier --write .",
-		"prepare": "npm run prebuild && npm run format",
+		"prepare": "pnpm run prebuild && pnpm run format",
 		"prebuild": "node utils/sortJSON.js && node utils/compileReadme.js",
 		"awesome-lint": "awesome-lint"
 	},
@@ -22,7 +22,7 @@
 		"pnpm": ">=10"
 	},
 	"private": true,
-	"packageManager": "pnpm@v10.16.0",
+	"packageManager": "pnpm@10.16.0",
 	"devDependencies": {
 		"@playwright/test": "^1.57.0",
 		"@sveltejs/adapter-cloudflare": "^4.9.0",
