@@ -1088,6 +1088,15 @@
 		"period": ["ancient", "medieval", "modern", "contemporary"]
 	},
 	{
+		"title": "swissnatcoll",
+		"description": "Swiss Natural History Collections portal providing open access to specimen data from natural history collections preserved in Switzerland.",
+		"url": "https://swissnatcoll.ch/",
+		"region": ["Switzerland"],
+		"language": ["en"],
+		"type": ["collection", "portal"],
+		"period": ["modern", "contemporary"]
+	},
+	{
 		"title": "Tempopedia",
 		"description": "Digital History Directory.",
 		"url": "https://tempopedia.org/",
