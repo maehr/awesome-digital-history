@@ -1092,9 +1092,9 @@
 		"description": "Swiss Natural History Collections portal providing open access to specimen data from natural history collections preserved in Switzerland.",
 		"url": "https://swissnatcoll.ch/",
 		"region": ["Switzerland"],
-		"language": ["de", "en", "fr", "it"],
+		"language": ["en"],
 		"type": ["collection", "portal"],
-		"period": ["ancient", "medieval", "modern", "contemporary"]
+		"period": ["modern", "contemporary"]
 	},
 	{
 		"title": "Tempopedia",
