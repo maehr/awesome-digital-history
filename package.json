@@ -34,7 +34,7 @@
 		"awesome-lint": "^1.2.0",
 		"daisyui": "^4.12.24",
 		"eslint": "^8.57.1",
-		"eslint-config-prettier": "^9.1.2",
+		"eslint-config-prettier": "^10.1.8",
 		"eslint-plugin-svelte3": "^4.0.0",
 		"mdsvex": "^0.11.2",
 		"mdsvex-relative-images": "^1.0.3",
