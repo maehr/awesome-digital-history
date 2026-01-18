@@ -1242,15 +1242,6 @@
 		"period": ["contemporary"]
 	},
 	{
-		"title": "We think History",
-		"description": "News about and innovations from digital history.",
-		"url": "https://wethink.hypotheses.org/",
-		"region": [],
-		"language": ["en"],
-		"type": ["learning materials"],
-		"period": []
-	},
-	{
 		"title": "West African Arabic Manuscript Database",
 		"description": "A comprehensive collection of manuscripts that provides insight into the Islamic scholarly tradition in West Africa.",
 		"url": "https://islam.zmo.de/s/westafrica/page/home",
