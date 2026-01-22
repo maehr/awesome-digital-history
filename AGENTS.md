@@ -43,10 +43,10 @@ pnpm run format              # Auto-fix with prettier
 **Trigger:** `pull_request_target`  
 **Auto-applies labels:**
 
-| Label     | Files Changed                                                                               |
-| --------- | ------------------------------------------------------------------------------------------- |
-| `awesome` | `README.md`                                                                                 |
-| `docs`    | `.github/*`, `_layouts/*`, `assets/*`, `_config.yml`, `*. md` (except README), config files |
+| Label     | Files Changed                                                                              |
+| --------- | ------------------------------------------------------------------------------------------ |
+| `awesome` | `README.md`                                                                                |
+| `docs`    | `.github/*`, `_layouts/*`, `assets/*`, `_config.yml`, `*.md` (except README), config files |
 
 ### Stale Manager
 
@@ -187,7 +187,7 @@ Located in `utils/`:
 
 ```javascript
 // utils/sortJSON.js - Alphabetically sorts resource JSON
-// utils/compileReadme.js - Generates README. md from data
+// utils/compileReadme.js - Generates README.md from data
 ```
 
 **Runs automatically before:**
