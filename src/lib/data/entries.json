@@ -882,6 +882,15 @@
 		"period": ["modern", "contemporary"]
 	},
 	{
+		"title": "National Library of South Africa Digital Collections",
+		"description": "National Library of South Africa's digital collections, including historical newspapers and special collections materials.",
+		"url": "https://cdm21048.contentdm.oclc.org/",
+		"region": ["Africa"],
+		"language": ["en", "mul"],
+		"type": ["newspapers", "photos", "primary sources"],
+		"period": ["modern", "contemporary"]
+	},
+	{
 		"title": "National Records of Scotland",
 		"description": "Repository for the public and legal records of Scotland.",
 		"url": "https://www.nrscotland.gov.uk/",
@@ -969,6 +978,15 @@
 		"region": ["Germany"],
 		"language": ["de"],
 		"type": ["books"],
+		"period": ["modern", "contemporary"]
+	},
+	{
+		"title": "ProQuest",
+		"description": "Central platform providing access to a wide range of research databases and content types including news, dissertations, ebooks, video, and journals.",
+		"url": "https://www.proquest.com/index",
+		"region": ["Global"],
+		"language": ["mul"],
+		"type": ["newspapers", "portal", "primary sources", "search engine"],
 		"period": ["modern", "contemporary"]
 	},
 	{
@@ -1067,6 +1085,42 @@
 		"region": ["Switzerland"],
 		"language": ["de"],
 		"type": ["search engine"],
+		"period": ["modern", "contemporary"]
+	},
+	{
+		"title": "South Asia Commons",
+		"description": "Discovery platform for South Asian historical and cultural materials held worldwide, with mixed hosting plus outward links.",
+		"url": "https://southasiacommons.net/",
+		"region": ["Asia"],
+		"language": ["en", "mul"],
+		"type": ["portal", "primary sources"],
+		"period": ["modern", "contemporary"]
+	},
+	{
+		"title": "South Asian Newspapers",
+		"description": "Open-access collection of South Asian newspapers covering major regional and global events across multiple countries and languages.",
+		"url": "https://www.eastview.com/resources/gpa/crl-san/",
+		"region": ["Asia"],
+		"language": ["en", "mul"],
+		"type": ["newspapers", "primary sources"],
+		"period": ["modern", "contemporary"]
+	},
+	{
+		"title": "Southeast Asian & Caribbean Images (KITLV)",
+		"description": "Image collection of photographs, prints, and drawings focusing on Southeast Asia and the Caribbean, depicting life roughly 1850-1950.",
+		"url": "https://digitalcollections.universiteitleiden.nl/imagecollection-kitlv",
+		"region": ["Netherlands"],
+		"language": ["en", "nl"],
+		"type": ["photos", "primary sources"],
+		"period": ["modern", "contemporary"]
+	},
+	{
+		"title": "Southeast Asian Newspapers",
+		"description": "Open-access collection of Southeast Asian newspapers documenting colonialism, decolonization, and early statehood across the region in multiple languages.",
+		"url": "https://www.eastview.com/resources/gpa/crl-sean/",
+		"region": ["Asia"],
+		"language": ["en", "fr", "mul", "nl"],
+		"type": ["newspapers", "primary sources"],
 		"period": ["modern", "contemporary"]
 	},
 	{
