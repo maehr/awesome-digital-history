@@ -110,6 +110,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [OpenHistoricalMap](https://openhistoricalmap.org/) - A time travel map created by a community of mappers and historians.
 - [ProQuest](https://www.proquest.com/index) - Central platform providing access to a wide range of research databases and content types including news, dissertations, ebooks, video, and journals.
 - [Public Books Database](http://www.publicbooks.org/public-books-database/) - Open access academic literature.
+- [Southeast Asian & Caribbean Images (KITLV)](https://digitalcollections.universiteitleiden.nl/imagecollection-kitlv) - Image collection of photographs, prints, and drawings focusing on Southeast Asia and the Caribbean, depicting life roughly 1850-1950.
 - [United Nations Archive](https://archives.un.org/) - Archives and records from the United Nations regarding Secretaries-Generals, departments and missions.
 - [WayBackMachine](https://archive.org/web/) - Explore more than 486 billion web pages saved over time.
 - [World Historical Gazeteer](https://whgazetteer.org/) - Collection of content and services that permit world historians to do spatial and temporal reasoning and visualization in a data rich environment at global and trans-regional scales.
@@ -126,7 +127,6 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 
 - [Delpher](https://www.delpher.nl/) - Dutch newspapers, books and magazines.
 - [Nationaal Archief](https://www.nationaalarchief.nl/) - Rich collection of the National Archives of the Netherlands.
-- [Southeast Asian & Caribbean Images (KITLV)](https://digitalcollections.universiteitleiden.nl/imagecollection-kitlv) - Image collection of photographs, prints, and drawings focusing on Southeast Asia and the Caribbean, depicting life roughly 1850-1950.
 - [Topotijdreis](https://www.topotijdreis.nl/) - Browse and compare Dutch topographic maps (1815 until today).
 
 ### North America
