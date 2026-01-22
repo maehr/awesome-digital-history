@@ -200,7 +200,7 @@
 	},
 	{
 		"title": "COSMOV",
-		"description": "COSMOV includes a digital edition of the events of the Zurich summer of 1968.",
+		"description": "Includes a digital edition of the events of the Zurich summer of 1968.",
 		"url": "http://www.cosmov.uzh.ch/",
 		"region": ["Switzerland"],
 		"language": ["de"],
@@ -355,7 +355,7 @@
 	},
 	{
 		"title": "Diplomatic Documents of Switzerland",
-		"description": "Diplomatic documents of Switzerland.",
+		"description": "Access to Switzerland's diplomatic records and foreign policy documentation.",
 		"url": "https://www.dodis.ch/",
 		"region": ["Switzerland"],
 		"language": ["de", "en", "fr", "it"],
@@ -607,7 +607,7 @@
 	},
 	{
 		"title": "History Toolkit",
-		"description": "History Toolkit for Students.",
+		"description": "Toolkit designed to support students in their historical studies and research.",
 		"url": "https://dg.philhist.unibas.ch/en/studium/history-a-toolkit-for-students/",
 		"region": [],
 		"language": ["de", "en"],
@@ -1018,7 +1018,7 @@
 	},
 	{
 		"title": "Scientific Writing",
-		"description": "Scientific writing can extend beyond LaTeX, made possible by formats, such as Markdown (and its many flavours), reStructuredText and Jupyter notebooks.",
+		"description": "Tools and resources for scientific writing beyond LaTeX, including Markdown, reStructuredText and Jupyter notebooks.",
 		"url": "https://github.com/writing-resources/awesome-scientific-writing#readme",
 		"region": [],
 		"language": ["en"],
