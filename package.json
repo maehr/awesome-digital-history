@@ -32,7 +32,7 @@
 		"@tailwindcss/typography": "^0.5.19",
 		"autoprefixer": "^10.4.23",
 		"awesome-lint": "^2.2.2",
-		"daisyui": "^4.12.24",
+		"daisyui": "^5.5.14",
 		"eslint": "^8.57.1",
 		"eslint-config-prettier": "^10.1.8",
 		"eslint-plugin-svelte3": "^4.0.0",
