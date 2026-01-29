@@ -1351,6 +1351,15 @@
 		"period": ["modern", "contemporary"]
 	},
 	{
+		"title": "World Radio History",
+		"description": "Archive of radio and television broadcasting journals, industry-specific guides and professional directories.",
+		"url": "https://www.worldradiohistory.com/index.htm",
+		"region": ["Global"],
+		"language": ["en"],
+		"type": ["magazines", "primary sources"],
+		"period": ["contemporary"]
+	},
+	{
 		"title": "Zefys",
 		"description": "Historical German newspapers.",
 		"url": "http://zefys.staatsbibliothek-berlin.de/",
