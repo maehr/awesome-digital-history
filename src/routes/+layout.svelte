@@ -22,7 +22,7 @@
 	/>
 	<div class="drawer-content flex flex-col">
 		<!-- Navbar -->
-		<div class="navbar w-full bg-base-200">
+		<div class="navbar bg-base-200 w-full">
 			<div class="flex-none lg:hidden">
 				<label id="labelnavbar" for="drawer" class="btn btn-square btn-ghost"
 					><span class="hidden">open drawer</span>
@@ -90,7 +90,7 @@
 		<label for="drawer" class="drawer-overlay" id="labelsidebar"
 			><span class="sr-only">close drawer</span></label
 		>
-		<ul class="menu w-80 gap-2 bg-base-100 p-4">
+		<ul class="menu bg-base-100 w-80 gap-2 p-4">
 			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
 				<a class="btn {$page.url.pathname === '/' ? 'btn-secondary' : 'btn-ghost'}" href="{base}/"
 					>Search</a
