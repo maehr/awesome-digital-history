@@ -1357,7 +1357,7 @@
 		"region": ["Global"],
 		"language": ["en"],
 		"type": ["magazines", "primary sources"],
-		"period": ["contemporary"]
+		"period": ["modern", "contemporary"]
 	},
 	{
 		"title": "Zefys",
