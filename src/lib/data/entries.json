@@ -745,7 +745,7 @@
 	},
 	{
 		"title": "Kulturgüter der Schweiz online",
-		"description": "Database on built heritage in Switzerland based on and including the digitised book series of the same name",
+		"description": "Database on built heritage in Switzerland and Liechtenstein based on and including the digitised book series of the same name.",
 		"url": "https://ekds.ch",
 		"region": ["Switzerland"],
 		"language": ["de", "en", "fr", "it"],

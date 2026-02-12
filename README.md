@@ -167,7 +167,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [Industriekultur](https://industriekultur.ch/) - Swiss national inventory of industry artifacts.
 - [infoclio.ch Edition projects](http://www.infoclio.ch/en/edition-projects) - A database containing current historical edition projects in Switzerland.
 - [Kartenportal](http://www.kartenportal.ch/) - Search engine for maps.
-- [Kulturgüter der Schweiz online](https://ekds.ch) - Database on built heritage in Switzerland based on and including the digitised book series of the same name
+- [Kulturgüter der Schweiz online](https://ekds.ch) - Database on built heritage in Switzerland and Liechtenstein based on and including the digitised book series of the same name.
 - [Le Temps](https://www.letempsarchives.ch/) - Archive of Gazette de Lausanne et du Journal de Genève.
 - [map.geo.admin.ch](https://map.geo.admin.ch/) - Journey through time via maps of Switzerland.
 - [MEMOBASE](http://www.memobase.ch/) - Provides access to audiovisual documents from Swiss memory institutions.
