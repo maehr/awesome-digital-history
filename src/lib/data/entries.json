@@ -744,6 +744,15 @@
 		"period": ["medieval", "modern", "contemporary"]
 	},
 	{
+		"title": "Kulturgüter der Schweiz online",
+		"description": "Database on built heritage in Switzerland based on and including the digitised book series of the same name",
+		"url": "https://ekds.ch",
+		"region": ["Switzerland"],
+		"language": ["de", "en", "fr", "it"],
+		"type": ["books", "encyclopedias", "search engine"],
+		"period": ["ancient", "medieval", "modern", "contemporary"]
+	},
+	{
 		"title": "Le Temps",
 		"description": "Archive of Gazette de Lausanne et du Journal de Genève.",
 		"url": "https://www.letempsarchives.ch/",
