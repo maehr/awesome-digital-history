@@ -317,6 +317,15 @@
 		"period": []
 	},
 	{
+		"title": "Digitale Quellenkritik",
+		"description": "Zotero group with literature on digital source criticism and the handling of digitized historical sources.",
+		"url": "https://www.zotero.org/groups/2541642/digitale_quellenkritik",
+		"region": [],
+		"language": ["de"],
+		"type": ["learning materials"],
+		"period": []
+	},
+	{
 		"title": "Digitale Sammlungen",
 		"description": "Collections of the Munich Digitization Center.",
 		"url": "https://www.digitale-sammlungen.de/",
@@ -587,6 +596,15 @@
 		"language": ["de", "fr", "it"],
 		"type": ["audiovisual sources", "encyclopedias", "photos"],
 		"period": ["ancient", "medieval", "modern", "contemporary"]
+	},
+	{
+		"title": "Historical Network Research",
+		"description": "Zotero group with literature on historical network research and social network analysis in historical studies.",
+		"url": "https://www.zotero.org/groups/209983/historical_network_research",
+		"region": [],
+		"language": ["en"],
+		"type": ["learning materials"],
+		"period": []
 	},
 	{
 		"title": "historicum.net",
