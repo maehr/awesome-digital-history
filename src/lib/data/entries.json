@@ -217,6 +217,15 @@
 		"period": []
 	},
 	{
+		"title": "Critical AI Literacy for Historians",
+		"description": "A guide to understanding and critically evaluating AI tools and methods in historical research, covering practical applications, ethical considerations, and methodological approaches.",
+		"url": "https://maehr.github.io/critical-ai-literacy-for-historians/",
+		"region": [],
+		"language": ["de", "en", "fr"],
+		"type": ["learning materials"],
+		"period": []
+	},
+	{
 		"title": "Data Visualization",
 		"description": "A curated list of awesome open-source data visualizations frameworks, libraries and software.",
 		"url": "https://github.com/fasouto/awesome-dataviz#readme",
