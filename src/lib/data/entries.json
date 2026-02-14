@@ -204,7 +204,7 @@
 		"url": "http://www.cosmov.uzh.ch/",
 		"region": ["Switzerland"],
 		"language": ["de"],
-		"type": [],
+		"type": ["primary sources"],
 		"period": ["contemporary"]
 	},
 	{
@@ -322,8 +322,8 @@
 		"url": "https://www.digitaltransgenderarchive.net/",
 		"region": ["North America"],
 		"language": ["en"],
-		"type": [],
-		"period": []
+		"type": ["primary sources", "search engine"],
+		"period": ["modern", "contemporary"]
 	},
 	{
 		"title": "Digitale Quellenkritik",
@@ -360,7 +360,7 @@
 		"region": ["Germany"],
 		"language": ["de"],
 		"type": ["learning materials", "search engine"],
-		"period": []
+		"period": ["modern", "contemporary"]
 	},
 	{
 		"title": "Digitarium",
@@ -405,7 +405,7 @@
 		"region": ["Switzerland"],
 		"language": ["de", "en"],
 		"type": ["photos", "primary sources"],
-		"period": []
+		"period": ["modern", "contemporary"]
 	},
 	{
 		"title": "e-manuscripta",
@@ -523,7 +523,7 @@
 		"region": ["Global"],
 		"language": ["en"],
 		"type": ["statistics"],
-		"period": []
+		"period": ["contemporary"]
 	},
 	{
 		"title": "Gallica",
@@ -849,8 +849,8 @@
 		"url": "https://druckschriften-digital.marchivum.de/",
 		"region": ["Germany"],
 		"language": ["de"],
-		"type": [],
-		"period": []
+		"type": ["newspapers", "primary sources"],
+		"period": ["modern", "contemporary"]
 	},
 	{
 		"title": "Marxist Internet Archive",
