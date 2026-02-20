@@ -27,7 +27,7 @@
 		"@playwright/test": "^1.57.0",
 		"@sveltejs/adapter-cloudflare": "^4.9.0",
 		"@sveltejs/adapter-static": "^3.0.10",
-		"@sveltejs/kit": "^2.49.2",
+		"@sveltejs/kit": "^2.52.2",
 		"@sveltejs/vite-plugin-svelte": "^3.1.2",
 		"@tailwindcss/typography": "^0.5.19",
 		"autoprefixer": "^10.4.23",
