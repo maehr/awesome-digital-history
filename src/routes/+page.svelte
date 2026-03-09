@@ -106,7 +106,7 @@
 	{#if filteredEntries.length === 0}
 		<article class="card bg-base-100 shadow-xl">
 			<div class="card-body">
-				<h2 class="break-word card-title text-xl normal-case text-primary">No results found</h2>
+				<h2 class="break-word card-title text-primary text-xl normal-case">No results found</h2>
 				<p>Please try another search term or filter.</p>
 			</div>
 		</article>
@@ -114,7 +114,7 @@
 	{#each filteredEntries as entry}
 		<article class="card bg-base-100 shadow-xl">
 			<div class="card-body">
-				<h2 class="break-word card-title text-xl normal-case text-primary">
+				<h2 class="break-word card-title text-primary text-xl normal-case">
 					{entry.title}
 				</h2>
 				<p>
