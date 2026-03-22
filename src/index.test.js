@@ -1,7 +1,9 @@
 import { describe, it, expect } from 'vitest';
+import appHtml from './app.html?raw';
 
-describe('sum test', () => {
-	it('adds 1 + 2 to equal 3', () => {
-		expect(1 + 2).toBe(3);
+describe('app shell', () => {
+	it('does not include the Plausible analytics script', () => {
+		expect(appHtml).not.toContain('plausible.io');
+		expect(appHtml).not.toContain('data-domain=');
 	});
 });
