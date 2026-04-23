@@ -1,0 +1,34 @@
+---
+title: Schweizerisches Wirtschaftsarchiv
+slug: schweizerisches-wirtschaftsarchiv
+description: Schweizerisches Wirtschaftsarchiv offers access points to Swiss business archives, search portals, and digitised sources from 1750 to today.
+external_url: https://ub.unibas.ch/de/historische-bestaende/wirtschaftsarchive/
+short_description: This collection comprises over 500 business archives from the period 1750 to the present day, with a focus on the Basel region.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Switzerland
+languages:
+  - de
+  - en
+resource_types:
+  - encyclopedias
+  - search engine
+periods:
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/schweizerisches-wirtschaftsarchiv.png
+screenshot_alt: Screenshot of Schweizerisches Wirtschaftsarchiv
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/schweizerisches-wirtschaftsarchiv.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+The Schweizerisches Wirtschaftsarchiv at the University of Basel preserves more than 600 business archives from 1750 to the present, with a regional focus on Basel.
+
+Its search portals, archival structures, and digitised holdings make it a strong entry point for Swiss economic, business, labour, and industrial history.

@@ -1,0 +1,33 @@
+---
+title: HSSO
+slug: hsso
+description: Online historical statistics of Switzerland with structured datasets across population, economy, society, politics, culture, and education.
+external_url: https://hsso.ch/
+short_description: Historical statistics of Switzerland online.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Switzerland
+languages:
+  - de
+  - en
+  - fr
+resource_types:
+  - statistics
+periods:
+  - contemporary
+screenshot: /assets/screenshots/hsso.png
+screenshot_alt: Screenshot of HSSO
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/hsso.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+HSSO provides historical statistical series for Switzerland in a browsable database organized by topic, including demography, economy, public finance, culture, and education.
+
+For researchers, it offers a practical way to locate comparable quantitative data for modern and contemporary Swiss history across many domains.

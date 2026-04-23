@@ -1,0 +1,36 @@
+---
+title: Got Papers?
+slug: got-papers
+description: Got Papers? curates digitized materials and reference sites for studying the history of games, cracking, and the demoscene.
+external_url: https://gotpapers.scene.org/?page_id=73
+short_description: Resources on the history of games, cracking, and the demoscene.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Global
+languages:
+  - en
+resource_types:
+  - magazines
+  - photos
+  - primary sources
+  - search engine
+  - tools
+  - websites
+periods:
+  - contemporary
+screenshot: /assets/screenshots/got-papers.png
+screenshot_alt: Screenshot of Got Papers?
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/got-papers.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Got Papers? curates repositories, databases, scans, and research links on the history of the cracking and demoscene communities.
+
+It works well as a gateway source for locating scattered magazines, photos, paper ephemera, and scene databases that are otherwise difficult to assemble.

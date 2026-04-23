@@ -1,0 +1,29 @@
+---
+title: Grundlagen, Methoden und Anwendungen der Digital History
+slug: grundlagen-methoden-und-anwendungen-der-digital-history
+description: Open educational resource on digital history from the University of Erfurt, covering methods, tools, source criticism, data, and AI.
+external_url: https://dh-erfurt.github.io/digital-history/home.html
+short_description: Teaching and collaborative resources for digital history (University of Erfurt).
+directory_section: learning
+section_label: Learning
+regions: []
+languages:
+  - de
+resource_types:
+  - learning materials
+periods: []
+screenshot: /assets/screenshots/grundlagen-methoden-und-anwendungen-der-digital-history.png
+screenshot_alt: Screenshot of Grundlagen, Methoden und Anwendungen der Digital History
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/grundlagen-methoden-und-anwendungen-der-digital-history.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+This open educational resource introduces core concepts in digital history, from digital source criticism and databases to NLP, GIS, network analysis, and AI.
+
+It is useful for teaching and self-study because it combines methodological overview pages, practical examples, and project-based material in German.

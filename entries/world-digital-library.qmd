@@ -1,0 +1,41 @@
+---
+title: World Digital Library
+slug: world-digital-library
+description: Former UNESCO and Library of Congress portal for manuscripts, maps, books, photos, and other primary sources from around the world.
+external_url: https://www.wdl.org/
+short_description: WDL is an international digital library operated by UNESCO and the United States Library of Congress.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - North America
+languages:
+  - en
+resource_types:
+  - audiovisual sources
+  - books
+  - magazines
+  - manuscripts
+  - maps
+  - newspapers
+  - photos
+  - primary sources
+  - search engine
+periods:
+  - medieval
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/world-digital-library.png
+screenshot_alt: Screenshot of World Digital Library
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/world-digital-library.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+The World Digital Library was developed as an international portal for primary sources from institutions around the world, including manuscripts, maps, books, newspapers, and images.
+
+Even with limited current access, it remains a useful reference point for globally scoped source discovery and for tracing earlier UNESCO and Library of Congress digitization efforts.

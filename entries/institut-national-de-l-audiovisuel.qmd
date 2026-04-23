@@ -1,0 +1,33 @@
+---
+title: Institut national de l'audiovisuel
+slug: institut-national-de-l-audiovisuel
+description: French national audiovisual archive with radio, television, podcasts, data services, and educational resources for contemporary history research.
+external_url: https://www.ina.fr/
+short_description: INA is a repository of French radio and television audiovisual archives.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - France
+languages:
+  - fr
+resource_types:
+  - audiovisual sources
+  - learning materials
+  - primary sources
+periods:
+  - contemporary
+screenshot: /assets/screenshots/institut-national-de-l-audiovisuel.png
+screenshot_alt: Screenshot of Institut national de l'audiovisuel
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/institut-national-de-l-audiovisuel.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+INA is a central access point for French radio and television archives, alongside editorial context, podcasts, data services, and teaching-oriented materials.
+
+For contemporary historians, it provides primary audiovisual sources that are especially useful for media history, politics, culture, and public memory.

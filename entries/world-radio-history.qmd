@@ -1,0 +1,33 @@
+---
+title: World Radio History
+slug: world-radio-history
+description: Free archive of radio, television, and music industry magazines, directories, books, and trade papers for media history research.
+external_url: https://www.worldradiohistory.com/index.htm
+short_description: Archive of radio and television broadcasting journals, industry-specific guides and professional directories.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Global
+languages:
+  - en
+resource_types:
+  - magazines
+  - primary sources
+periods:
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/world-radio-history.png
+screenshot_alt: Screenshot of World Radio History
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/world-radio-history.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+World Radio History offers a very large open archive of broadcasting journals, trade papers, directories, station material, and technical publications.
+
+Its depth makes it particularly useful for studying radio and television industries, professional discourse, audience measurement, and media business history across the twentieth century.

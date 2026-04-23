@@ -1,0 +1,32 @@
+---
+title: Projekt Gutenberg
+slug: projekt-gutenberg
+description: Projekt Gutenberg provides a large digital library of German-language classics as searchable full texts for reading and historical study.
+external_url: https://www.projekt-gutenberg.org/
+short_description: Contains 10'000 works by over 2'000 authors in German.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Germany
+languages:
+  - de
+resource_types:
+  - books
+periods:
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/projekt-gutenberg.png
+screenshot_alt: Screenshot of Projekt Gutenberg
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/projekt-gutenberg.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Projekt Gutenberg presents itself as a digital library of classical literature with nearly 13,000 titles, author browsing, genre access, and searchable full texts.
+
+It is useful for historians working with German-language literary and cultural sources who need stable online texts rather than scanned page images.

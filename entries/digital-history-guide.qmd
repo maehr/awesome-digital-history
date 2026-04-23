@@ -1,0 +1,29 @@
+---
+title: Digital History Guide
+slug: digital-history-guide
+description: Read Digital History, a practical guide to planning, building, preserving, and presenting historical work on the web.
+external_url: http://chnm.gmu.edu/digitalhistory/
+short_description: Introduction to the web for historians, who wish to produce online historical work.
+directory_section: learning
+section_label: Learning
+regions: []
+languages:
+  - en
+resource_types:
+  - learning materials
+periods: []
+screenshot: /assets/screenshots/digital-history-guide.png
+screenshot_alt: Screenshot of Digital History Guide
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/digital-history-guide.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+This online book explains how historians can plan, build, publish, and preserve web-based historical projects.
+
+It remains useful as a clear introduction to project design, digitization, audience, copyright, and long-term sustainability in digital history work.

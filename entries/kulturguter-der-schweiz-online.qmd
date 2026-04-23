@@ -1,0 +1,39 @@
+---
+title: Kulturgüter der Schweiz online
+slug: kulturguter-der-schweiz-online
+description: Explore Kulturgüter der Schweiz online for built heritage in Switzerland and Liechtenstein, with digitized reference volumes and searchable entries.
+external_url: https://ekds.ch
+short_description: Database on built heritage in Switzerland and Liechtenstein based on and including the digitised book series of the same name.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Switzerland
+languages:
+  - de
+  - en
+  - fr
+  - it
+resource_types:
+  - books
+  - encyclopedias
+  - search engine
+periods:
+  - ancient
+  - medieval
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/kulturguter-der-schweiz-online.png
+screenshot_alt: Screenshot of Kulturgüter der Schweiz online
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/kulturguter-der-schweiz-online.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Kulturgüter der Schweiz online documents built heritage in Switzerland and Liechtenstein and incorporates the digitized book series of the same name.
+
+It is useful for place-based research on monuments, architecture, and regional heritage across long historical periods.

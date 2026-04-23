@@ -1,0 +1,29 @@
+---
+title: Digitale Quellenkritik
+slug: digitale-quellenkritik
+description: Explore a Zotero group bibliography on digital source criticism and working critically with digitized historical sources.
+external_url: https://www.zotero.org/groups/2541642/digitale_quellenkritik
+short_description: Zotero group with literature on digital source criticism and the handling of digitized historical sources.
+directory_section: learning
+section_label: Learning
+regions: []
+languages:
+  - de
+resource_types:
+  - learning materials
+periods: []
+screenshot: /assets/screenshots/digitale-quellenkritik.png
+screenshot_alt: Screenshot of Digitale Quellenkritik
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/digitale-quellenkritik.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+This Zotero group collects literature on digital source criticism and the interpretation of digitized historical sources.
+
+It is a practical bibliography for researchers who need a compact entry point into debates about mediation, digitization, and source handling.

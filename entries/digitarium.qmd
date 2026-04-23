@@ -1,0 +1,33 @@
+---
+title: Digitarium
+slug: digitarium
+description: Digitarium offers a digital edition of the historical Wiener Zeitung, supporting Austrian newspaper research in the modern and contemporary periods.
+external_url: https://digitarium-app.acdh-dev.oeaw.ac.at/
+short_description: Digital edition of the historical Wiener Zeitung.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Austria
+languages:
+  - de
+resource_types:
+  - newspapers
+  - primary sources
+periods:
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/digitarium.png
+screenshot_alt: Screenshot of Digitarium
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/digitarium.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Digitarium provides a digital edition of the historical Wiener Zeitung, giving online access to a major Austrian newspaper title.
+
+It is useful for tracing reporting, public discourse, and published notices across modern and contemporary history within a single serial source.

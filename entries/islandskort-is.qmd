@@ -1,0 +1,33 @@
+---
+title: islandskort.is
+slug: islandskort-is
+description: Digital collection of historical maps of Iceland, Greenland, and the Arctic, organized by chronology, map type, and cartographic history.
+external_url: https://www.islandskort.is/
+short_description: Digitized maps of Iceland, Greenland and the Arctic region (1545–1949).
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Europe
+languages:
+  - is
+resource_types:
+  - maps
+  - primary sources
+periods:
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/islandskort-is.png
+screenshot_alt: Screenshot of islandskort.is
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/islandskort-is.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+islandskort.is provides digitized historical maps grouped by period and cartographic tradition, with contextual notes on major map series and survey campaigns.
+
+For research on Iceland and the North Atlantic, it is a strong primary-source portal for studying changing geographical knowledge and mapmaking practices.

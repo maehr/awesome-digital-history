@@ -1,0 +1,31 @@
+---
+title: AdFontes
+slug: adfontes
+description: Ad fontes is a multilingual University of Zurich learning platform for archival research, source criticism, transcription, and working with historical documents.
+external_url: https://www.adfontes.uzh.ch/
+short_description: An Introduction to Working with Sources in the Archive.
+directory_section: learning
+section_label: Learning
+regions: []
+languages:
+  - de
+  - en
+  - fr
+resource_types:
+  - learning materials
+periods: []
+screenshot: /assets/screenshots/adfontes.png
+screenshot_alt: Screenshot of AdFontes
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/adfontes.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Ad fontes teaches archival work through guided tutorials, source-oriented exercises, and case studies built around manuscripts, charters, photos, maps, and other records.
+
+It is especially useful for students who need practical training in transcription, source criticism, and finding aids in German, English, or French.

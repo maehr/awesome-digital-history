@@ -1,0 +1,31 @@
+---
+title: Spiegel Online
+slug: spiegel-online
+description: Search the SPIEGEL archive for magazine articles since 1947 and SPIEGEL.de coverage since 1999, with filters for period, source, and search field.
+external_url: https://www.spiegel.de/dienste/besser-surfen-auf-spiegel-online-suchen-im-archiv-a-676489.html
+short_description: SPIEGEL archive since 1947.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Germany
+languages:
+  - de
+resource_types:
+  - magazines
+periods:
+  - contemporary
+screenshot: /assets/screenshots/spiegel-online.png
+screenshot_alt: Screenshot of Spiegel Online
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/spiegel-online.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+SPIEGEL's archive search covers the magazine archive from 1947 onward alongside SPIEGEL.de content from 1999 and related topic pages.
+
+For contemporary German history, it provides a practical way to trace reporting, commentary, and changing public framing across decades of a major news outlet.

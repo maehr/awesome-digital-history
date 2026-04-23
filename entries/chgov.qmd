@@ -1,0 +1,34 @@
+---
+title: chgov
+slug: chgov
+description: chgov provides access to Swiss Federal Council minutes, making central executive records searchable for research on government decision-making from 1848 onward.
+external_url: https://www.chgov.bar.admin.ch/
+short_description: Minutes of the Federal Council (1848-1963).
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Switzerland
+languages:
+  - de
+  - en
+  - fr
+  - it
+resource_types:
+  - primary sources
+periods:
+  - contemporary
+screenshot: /assets/screenshots/chgov.png
+screenshot_alt: Screenshot of chgov
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/chgov.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+chgov centers on the minutes of the Swiss Federal Council and makes a core body of executive records searchable through the Swiss Federal Archives.
+
+It is particularly useful for studying state formation, administration, and policy debates in modern Switzerland from 1848 into the twentieth century.

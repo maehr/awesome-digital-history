@@ -1,0 +1,34 @@
+---
+title: South Asia Commons
+slug: south-asia-commons
+description: Discover South Asia Commons, a portal for South Asian historical and cultural materials held worldwide, with hosted items and links to partner collections.
+external_url: https://southasiacommons.net/
+short_description: Discovery platform for South Asian historical and cultural materials held worldwide, with mixed hosting plus outward links.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Asia
+languages:
+  - en
+  - mul
+resource_types:
+  - portal
+  - primary sources
+periods:
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/south-asia-commons.png
+screenshot_alt: Screenshot of South Asia Commons
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/south-asia-commons.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+South Asia Commons is a discovery platform for South Asian historical and cultural materials held across institutions worldwide, combining hosted content with links out.
+
+That structure helps researchers identify dispersed primary sources across repositories, especially when topics cross present-day national and institutional boundaries.

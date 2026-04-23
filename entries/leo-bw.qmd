@@ -1,0 +1,34 @@
+---
+title: leo bw
+slug: leo-bw
+description: Explore LEO-BW for Baden-Wurttemberg regional history, with archival sources, maps, biographies, topic portals, and research tools.
+external_url: https://www.leo-bw.de/
+short_description: Platform of the State Archives of Baden-Württemberg.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Germany
+languages:
+  - de
+resource_types:
+  - learning materials
+  - search engine
+periods:
+  - medieval
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/leo-bw.png
+screenshot_alt: Screenshot of leo bw
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/leo-bw.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+LEO-BW brings together regional history resources from Baden-Wurttemberg, including archival material, maps, biographies, and topic modules.
+
+It is useful for researchers working on places, people, institutions, and historical themes in the German southwest across multiple periods.

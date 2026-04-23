@@ -1,0 +1,35 @@
+---
+title: SKKG Digital Collection
+slug: skkg-digital-collection
+description: Explore SKKG's digital collection of around 100,000 artworks and historical objects from prehistory to the present across Switzerland's cultural record.
+external_url: https://digital.skkg.ch/
+short_description: The Foundation for Art, Culture, and History (SKKG) provides online access to its collection of approximately 100,000 objects, ranging from artworks to historical artifacts spanning from the Stone Age to the present.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Switzerland
+languages:
+  - de
+resource_types:
+  - primary sources
+periods:
+  - ancient
+  - medieval
+  - modern
+  - contemporary
+  - prehistory
+screenshot: /assets/screenshots/skkg-digital-collection.png
+screenshot_alt: Screenshot of SKKG Digital Collection
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/skkg-digital-collection.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+The SKKG Digital Collection provides online access to a large Swiss holding of artworks and historical objects spanning from prehistory to the present.
+
+For researchers, it offers a single entry point into object-level material across long time periods, useful for tracing collecting practices, material culture, and visual change in Switzerland.

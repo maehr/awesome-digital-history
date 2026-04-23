@@ -1,0 +1,34 @@
+---
+title: Le Temps
+slug: le-temps
+description: Search Le Temps archives for digitized issues of the Journal de Geneve, Gazette de Lausanne, and Le Nouveau Quotidien across 200 years.
+external_url: https://www.letempsarchives.ch/
+short_description: Archive of Gazette de Lausanne et du Journal de Genève.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Switzerland
+languages:
+  - de
+  - en
+  - fr
+  - it
+resource_types:
+  - newspapers
+periods:
+  - contemporary
+screenshot: /assets/screenshots/le-temps.png
+screenshot_alt: Screenshot of Le Temps
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/le-temps.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Le Temps archives provides searchable digitized runs of major Swiss newspapers including the Journal de Geneve and Gazette de Lausanne.
+
+It supports research into public discourse, events, and everyday language in Swiss contemporary history through full newspaper pages and keyword search.

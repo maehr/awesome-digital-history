@@ -1,0 +1,29 @@
+---
+title: Introduction to Python for Humanists
+slug: introduction-to-python-for-humanists
+description: Free online Python textbook for humanities researchers, covering coding basics, data handling, web scraping, NLP, and network analysis.
+external_url: https://python-textbook.pythonhumanities.com/intro.html
+short_description: A textbook offering a comprehensive introduction to Python programming, tailored for researchers and students in the humanities.
+directory_section: learning
+section_label: Learning
+regions: []
+languages:
+  - en
+resource_types:
+  - learning materials
+periods: []
+screenshot: /assets/screenshots/introduction-to-python-for-humanists.png
+screenshot_alt: Screenshot of Introduction to Python for Humanists
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/introduction-to-python-for-humanists.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+This textbook provides a structured introduction to Python for humanities work, starting with fundamentals and moving into data, web, NLP, and network methods.
+
+It is useful for digital historians because the examples are framed for research use rather than generic programming training alone.

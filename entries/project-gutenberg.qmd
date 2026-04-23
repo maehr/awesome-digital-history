@@ -1,0 +1,32 @@
+---
+title: Project Gutenberg
+slug: project-gutenberg
+description: Project Gutenberg offers more than 75,000 free eBooks of public-domain literature for historical reading, teaching, and text-based research.
+external_url: https://www.gutenberg.org/
+short_description: A library of over 60,000 free eBooks.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Europe
+languages:
+  - en
+resource_types:
+  - books
+periods:
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/project-gutenberg.png
+screenshot_alt: Screenshot of Project Gutenberg
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/project-gutenberg.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Project Gutenberg offers more than 75,000 free eBooks, with a strong emphasis on older works that are in the public domain in the United States.
+
+For historians, it is a convenient source for readable full texts that support close reading, teaching, and small-scale text analysis without paywalls or registration.

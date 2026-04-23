@@ -1,0 +1,38 @@
+---
+title: Uni Frankfurt
+slug: uni-frankfurt
+description: Digitized special collections from Frankfurt University Library with rare prints, manuscripts, newspapers, images, and other historical sources.
+external_url: http://sammlungen.ub.uni-frankfurt.de/
+short_description: Rare prints, manuscripts, bequests and more.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Germany
+languages:
+  - de
+resource_types:
+  - books
+  - magazines
+  - manuscripts
+  - newspapers
+  - photos
+  - primary sources
+periods:
+  - medieval
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/uni-frankfurt.png
+screenshot_alt: Screenshot of Uni Frankfurt
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/uni-frankfurt.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+The Frankfurt collections portal provides access to digitized special holdings including rare prints, manuscripts, newspapers, photographs, and estate materials.
+
+It is useful for German historical research because it concentrates heterogeneous library and archival source types in one place, even though the site currently limits automated access.

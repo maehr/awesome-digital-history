@@ -1,0 +1,39 @@
+---
+title: Eugenics Archive
+slug: eugenics-archive
+description: The Eugenics Archive combines survivor histories, timelines, encyclopedia entries, and databases for researching eugenics in North America.
+external_url: https://eugenicsarchive.ca/
+short_description: Scholars, survivors, students, and community partners in challenging eugenics.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - North America
+languages:
+  - en
+resource_types:
+  - audiovisual sources
+  - books
+  - magazines
+  - manuscripts
+  - newspapers
+  - photos
+  - primary sources
+  - search engine
+periods:
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/eugenics-archive.png
+screenshot_alt: Screenshot of Eugenics Archive
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/eugenics-archive.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+The Eugenics Archive combines interpretive content with databases, timelines, place-based tools, and survivor testimony on the history of eugenics.
+
+For researchers and teachers, it links primary sources and lived experience in a way that supports both archival work and critical historical framing.

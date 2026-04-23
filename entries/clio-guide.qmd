@@ -1,0 +1,29 @@
+---
+title: Clio Guide
+slug: clio-guide
+description: Clio Guide is an online handbook to digital resources for historical scholarship, organized by methods, collections, periods, regions, and themes.
+external_url: https://guides.clio-online.de/
+short_description: A handbook on digital resources for the historical sciences.
+directory_section: learning
+section_label: Learning
+regions: []
+languages:
+  - de
+resource_types:
+  - learning materials
+periods: []
+screenshot: /assets/screenshots/clio-guide.png
+screenshot_alt: Screenshot of Clio Guide
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/clio-guide.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Clio Guide is a curated reference work that introduces digital tools, collections, and research infrastructures for historians.
+
+It is useful for orientation because the guides are structured by topic, period, region, and method rather than as an undifferentiated link list.

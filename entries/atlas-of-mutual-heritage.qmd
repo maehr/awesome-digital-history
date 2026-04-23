@@ -1,0 +1,33 @@
+---
+title: Atlas of Mutual Heritage
+slug: atlas-of-mutual-heritage
+description: Atlas of Mutual Heritage maps VOC and WIC collections through linked images, maps, and archival records on Dutch overseas history and colonial encounters.
+external_url: https://www.atlasofmutualheritage.nl/
+short_description: Database with sources relating to VOC (Dutch East India Company) and WIC (Dutch West India Company).
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Global
+languages:
+  - en
+  - nl
+resource_types:
+  - maps
+periods:
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/atlas-of-mutual-heritage.png
+screenshot_alt: Screenshot of Atlas of Mutual Heritage
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/atlas-of-mutual-heritage.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+The Atlas of Mutual Heritage links maps, drawings, prints, and archival records connected to Dutch East and West India Company activity.
+
+It is particularly useful for colonial and maritime history because items can be explored through places, voyages, and interconnected visual material.

@@ -1,0 +1,34 @@
+---
+title: Visual Archive Southeastern Europe
+slug: visual-archive-southeastern-europe
+description: Visual archive of Southeastern Europe with photographs, postcards, posters, maps, and themed collections for historical image research.
+external_url: http://gams.uni-graz.at/context:vase
+short_description: Historical and contemporary visual materials from Southeastern Europe.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Europe
+languages:
+  - en
+resource_types:
+  - audiovisual sources
+  - maps
+  - photos
+  - primary sources
+periods:
+  - contemporary
+screenshot: /assets/screenshots/visual-archive-southeastern-europe.png
+screenshot_alt: Screenshot of Visual Archive Southeastern Europe
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/visual-archive-southeastern-europe.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+VASE aggregates historical and contemporary visual materials from Southeastern Europe, including photographs, postcards, posters, and map-based discovery tools.
+
+Its themed collections on migration, family and gender, urban life, cinema, and regional postcard cultures support comparative visual and cultural history research.

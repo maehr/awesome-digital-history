@@ -1,0 +1,29 @@
+---
+title: UCI Digital History
+slug: uci-digital-history
+description: UCI guide to digital history and digital humanities with definitions, project examples, readings, tutorials, organizations, and funding links.
+external_url: https://guides.lib.uci.edu/history/history_dh
+short_description: Overview on the field of Digital History and Digital Humanities.
+directory_section: learning
+section_label: Learning
+regions: []
+languages:
+  - en
+resource_types:
+  - learning materials
+periods: []
+screenshot: /assets/screenshots/uci-digital-history.png
+screenshot_alt: Screenshot of UCI Digital History
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/uci-digital-history.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+This UCI research guide gives a compact introduction to digital history and digital humanities through definitions, key readings, organizations, and sample projects.
+
+It works well as a teaching and orientation resource for researchers who need a curated starting point rather than a single tool or dataset.

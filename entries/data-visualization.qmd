@@ -1,0 +1,29 @@
+---
+title: Data Visualization
+slug: data-visualization
+description: Browse an open-source dataviz list covering charting libraries, mapping tools, timelines, and reference resources for research projects.
+external_url: https://github.com/fasouto/awesome-dataviz#readme
+short_description: A curated list of awesome open-source data visualizations frameworks, libraries and software.
+directory_section: more-awesome
+section_label: More Awesome
+regions: []
+languages:
+  - en
+resource_types:
+  - tools
+periods: []
+screenshot: /assets/screenshots/data-visualization.png
+screenshot_alt: Screenshot of Data Visualization
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/data-visualization.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+This curated list surveys open-source libraries and tools for charts, maps, timelines, graph drawing, and other forms of data visualization.
+
+For digital historians, it is a fast way to compare technical options when planning visual interfaces, exploratory analysis, or public-facing project outputs.

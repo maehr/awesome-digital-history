@@ -1,0 +1,37 @@
+---
+title: Kartenportal
+slug: kartenportal
+description: Search Kartenportal.CH for maps held by Swiss libraries and archives, from medieval manuscript maps to current printed cartographic material.
+external_url: http://www.kartenportal.ch/
+short_description: Search engine for maps.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Switzerland
+languages:
+  - de
+  - en
+  - fr
+  - it
+resource_types:
+  - maps
+  - search engine
+periods:
+  - medieval
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/kartenportal.png
+screenshot_alt: Screenshot of Kartenportal
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/kartenportal.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Kartenportal.CH is a specialist portal for maps in Swiss libraries and archives, with a metacatalog and collection directory.
+
+It supports map-based research by helping users find relevant holdings, collection profiles, and services across institutions in Switzerland.

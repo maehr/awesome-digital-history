@@ -1,0 +1,45 @@
+---
+title: Marxist Internet Archive
+slug: marxist-internet-archive
+description: Browse the Marxists Internet Archive for multilingual texts, reference material, periodicals, and writings by Marx and other socialist thinkers.
+external_url: https://www.marxists.org/
+short_description: Everything you ever wanted to know about Marx (and other important socialists).
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Global
+languages:
+  - ar
+  - ca
+  - de
+  - en
+  - es
+  - fr
+  - jp
+  - mul
+  - nl
+  - pt
+  - ru
+  - se
+resource_types:
+  - books
+  - encyclopedias
+  - learning materials
+  - magazines
+periods:
+  - contemporary
+screenshot: /assets/screenshots/marxist-internet-archive.png
+screenshot_alt: Screenshot of Marxist Internet Archive
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/marxist-internet-archive.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+The Marxists Internet Archive offers a large multilingual corpus of writings, periodicals, and reference material on Marxism and socialism.
+
+It is useful for intellectual and political history because it brings together primary texts, contextual essays, and author pages in one searchable place.

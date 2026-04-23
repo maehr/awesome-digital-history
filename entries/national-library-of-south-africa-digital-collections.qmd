@@ -1,0 +1,35 @@
+---
+title: National Library of South Africa Digital Collections
+slug: national-library-of-south-africa-digital-collections
+description: Browse the National Library of South Africa Digital Collections for historical newspapers, images, and digitized special collections materials.
+external_url: https://cdm21048.contentdm.oclc.org/
+short_description: National Library of South Africa's digital collections, including historical newspapers and special collections materials.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Africa
+languages:
+  - en
+  - mul
+resource_types:
+  - newspapers
+  - photos
+  - primary sources
+periods:
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/national-library-of-south-africa-digital-collections.png
+screenshot_alt: Screenshot of National Library of South Africa Digital Collections
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/national-library-of-south-africa-digital-collections.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+The National Library of South Africa Digital Collections provides digitized newspapers, images, and special collections materials.
+
+It is useful for modern and contemporary research in South Africa because it offers remote access to primary sources from the national library's holdings.

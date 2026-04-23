@@ -1,0 +1,31 @@
+---
+title: Classic Computer Magazine Archive
+slug: classic-computer-magazine-archive
+description: Classic Computer Magazine Archive preserves full-text and scanned issues from early personal computing magazines focused on Atari, Commodore, and more.
+external_url: https://www.atarimagazines.com/
+short_description: Preserving information from early personal computer magazines.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Global
+languages:
+  - en
+resource_types:
+  - magazines
+periods:
+  - contemporary
+screenshot: /assets/screenshots/classic-computer-magazine-archive.png
+screenshot_alt: Screenshot of Classic Computer Magazine Archive
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/classic-computer-magazine-archive.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+The archive brings together classic magazines such as Antic, STart, Compute!, and Creative Computing, with full text or scans for many issues.
+
+It is a practical source for tracing software culture, platform communities, reviews, and technical discourse in early personal computing.

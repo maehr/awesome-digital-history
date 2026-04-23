@@ -1,0 +1,36 @@
+---
+title: E-Periodica
+slug: e-periodica
+description: E-Periodica offers digitized Swiss journals and periodicals, helping researchers trace scholarly, professional, and public debates over time.
+external_url: https://www.e-periodica.ch/
+short_description: Swiss journals.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Switzerland
+languages:
+  - de
+  - en
+  - fr
+  - it
+resource_types:
+  - magazines
+  - primary sources
+periods:
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/e-periodica.png
+screenshot_alt: Screenshot of E-Periodica
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/e-periodica.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+E-Periodica provides access to Swiss journals and serial publications from a range of institutions and subject areas.
+
+That makes it useful for following debates over time in periodical literature, especially for modern and contemporary Swiss research.

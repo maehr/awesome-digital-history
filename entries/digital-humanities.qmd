@@ -1,0 +1,29 @@
+---
+title: Digital Humanities
+slug: digital-humanities
+description: Browse a curated digital humanities list of tools, services, training materials, infrastructure, and research resources.
+external_url: https://dh-tech.github.io/awesome-digital-humanities#readme
+short_description: Tools, resources, and services supporting the Digital Humanities.
+directory_section: more-awesome
+section_label: More Awesome
+regions: []
+languages:
+  - en
+resource_types:
+  - encyclopedias
+periods: []
+screenshot: /assets/screenshots/digital-humanities.png
+screenshot_alt: Screenshot of Digital Humanities
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/digital-humanities.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+This curated list gathers software, platforms, guides, infrastructures, and organizations supporting digital humanities research.
+
+For historians working across adjacent methods, it offers a compact overview of tools for text, data, annotation, publishing, and visualization.

@@ -1,0 +1,29 @@
+---
+title: HIST 7370
+slug: hist-7370
+description: Graduate digital history course site covering texts, maps, networks, tools, readings, and project work in a methods-focused syllabus.
+external_url: https://cblevins.github.io/f19-dig-hist/
+short_description: Online course for Methods and Readings in Digital History.
+directory_section: learning
+section_label: Learning
+regions: []
+languages:
+  - en
+resource_types:
+  - learning materials
+periods: []
+screenshot: /assets/screenshots/hist-7370.png
+screenshot_alt: Screenshot of HIST 7370
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/hist-7370.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+This course site documents a graduate seminar on digital history that combines weekly readings with hands-on work on topics such as text analysis, mapping, and online exhibits.
+
+It is a useful teaching reference because the syllabus makes methodological priorities, assignments, and learning goals explicit for instructors and students.

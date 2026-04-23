@@ -1,0 +1,36 @@
+---
+title: Computerarchiv Muenchen
+slug: computerarchiv-muenchen
+description: Explore Computerarchiv Muenchen, a German portal on digital development with magazines, photos, video material, and themed computer history collections.
+external_url: http://computerarchiv-muenchen.de/
+short_description: South German Museum for History of Digital Development.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Germany
+languages:
+  - de
+  - en
+resource_types:
+  - audiovisual sources
+  - magazines
+  - photos
+  - primary sources
+  - websites
+periods:
+  - contemporary
+screenshot: /assets/screenshots/computerarchiv-muenchen.png
+screenshot_alt: Screenshot of Computerarchiv Muenchen
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/computerarchiv-muenchen.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Computerarchiv Muenchen presents themed collections on computer and game history, including magazines, photos, videos, and reference pages.
+
+For researchers of contemporary German digital culture, it offers a broad entry point into period media, hardware histories, and community-oriented documentation.

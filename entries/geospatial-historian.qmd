@@ -1,0 +1,29 @@
+---
+title: Geospatial Historian
+slug: geospatial-historian
+description: Geospatial Historian is an open access HGIS textbook with lessons and resources for historians learning practical mapping and GIS methods.
+external_url: https://geospatialhistorian.wordpress.com/
+short_description: Open HGIS Lessons and Resources.
+directory_section: learning
+section_label: Learning
+regions: []
+languages:
+  - en
+resource_types:
+  - learning materials
+periods: []
+screenshot: /assets/screenshots/geospatial-historian.png
+screenshot_alt: Screenshot of Geospatial Historian
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/geospatial-historian.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Geospatial Historian is a tutorial-based, open access textbook built to teach practical historical GIS skills for research and teaching.
+
+It is useful when you want hands-on guidance in mapping, spatial analysis, and data preparation rather than only conceptual discussion of HGIS.

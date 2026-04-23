@@ -1,0 +1,31 @@
+---
+title: LexM
+slug: lexm
+description: Consult LexM for biographical entries and bibliography on musicians persecuted under Nazism, exile trajectories, and music under the NS regime.
+external_url: https://www.lexm.uni-hamburg.de/content/index.xml
+short_description: Encyclopedia of musicians persecuted during the Nazi era.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Germany
+languages:
+  - de
+resource_types:
+  - encyclopedias
+periods:
+  - contemporary
+screenshot: /assets/screenshots/lexm.png
+screenshot_alt: Screenshot of LexM
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/lexm.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+LexM is a biographical encyclopedia on professional musicians affected by Nazi persecution, repression, and exile.
+
+It helps researchers connect individual life histories with bibliographies, archival references, and the wider history of musical life under National Socialism.

@@ -1,0 +1,47 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - assets/
+    - README.md
+    - ABOUT.md
+    - CONTRIBUTING.md
+    - AGENTS.md
+    - CODE_OF_CONDUCT.md
+    - SECURITY.md
+
+website:
+  title: Awesome Digital History
+  site-url: https://maehr.github.io/awesome-digital-history/
+  repo-url: https://github.com/maehr/awesome-digital-history/
+  issue-url: https://github.com/maehr/awesome-digital-history/issues/new/choose
+  repo-actions: [edit, issue]
+  open-graph: true
+  twitter-card: true
+  page-navigation: true
+  back-to-top-navigation: true
+  navbar:
+    title: Awesome Digital History
+    left:
+      - href: index.qmd
+        text: Directory
+      - href: README.md
+        text: README
+      - href: CONTRIBUTING.md
+        text: Contributing
+    tools:
+      - icon: github
+        url: https://github.com/maehr/awesome-digital-history/
+
+format:
+  html:
+    theme: cosmo
+    css: assets/styles.css
+    template-partials:
+      - partials/title-block.html
+    include-after-body: assets/site-footer.html
+    code-copy: false
+    toc: true
+    canonical-url: true
+
+freeze: auto

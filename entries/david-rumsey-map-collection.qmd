@@ -1,0 +1,33 @@
+---
+title: David Rumsey Map Collection
+slug: david-rumsey-map-collection
+description: Search the David Rumsey Map Collection for historical maps, globes, atlases, and georeferenced images from the 16th to 21st centuries.
+external_url: https://www.davidrumsey.com/
+short_description: Historical maps collection.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - North America
+languages:
+  - en
+resource_types:
+  - maps
+periods:
+  - medieval
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/david-rumsey-map-collection.png
+screenshot_alt: Screenshot of David Rumsey Map Collection
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/david-rumsey-map-collection.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+The David Rumsey Map Collection offers more than 147,000 maps and related images online, with multiple viewers and rich search options.
+
+Researchers can browse globally across periods, inspect high-resolution cartographic sources, and use tools such as georeferencing and spatial search for analysis.

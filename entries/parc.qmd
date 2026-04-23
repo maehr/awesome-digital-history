@@ -1,0 +1,36 @@
+---
+title: PARC
+slug: parc
+description: PARC is a meta-catalog for African research collections in Basel, helping researchers locate Africana archival and audiovisual holdings.
+external_url: https://parc-portal.org/
+short_description: 'Portal for African Research Collections: PARC is the new meta-catalogue for the Africana collections at the research location Basel.'
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Africa
+languages:
+  - de
+  - en
+resource_types:
+  - audiovisual sources
+  - primary sources
+periods:
+  - ancient
+  - medieval
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/parc.png
+screenshot_alt: Screenshot of PARC
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/parc.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+PARC is described as a portal for African Research Collections and serves as a meta-catalogue for Africana holdings at the Basel research location.
+
+It is useful for historians looking for dispersed primary sources and audiovisual materials related to Africa across different collections and time periods.

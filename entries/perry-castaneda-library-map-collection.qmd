@@ -1,0 +1,31 @@
+---
+title: Perry-Castañeda Library Map Collection
+slug: perry-castaneda-library-map-collection
+description: Perry-Castañeda Library Map Collection provides online access to scanned maps, making it a longstanding reference point for digital cartographic research.
+external_url: https://legacy.lib.utexas.edu/maps/
+short_description: Online collection of scanned maps.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - North America
+languages:
+  - en
+resource_types:
+  - maps
+periods:
+  - contemporary
+screenshot: /assets/screenshots/perry-castaneda-library-map-collection.png
+screenshot_alt: Screenshot of Perry-Castañeda Library Map Collection
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/perry-castaneda-library-map-collection.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+The Perry-Castañeda Library Map Collection is a long-running online collection of scanned maps hosted by the University of Texas Libraries.
+
+It remains useful as a straightforward source for locating map images quickly, especially for teaching, reference checks, and preliminary cartographic comparison.

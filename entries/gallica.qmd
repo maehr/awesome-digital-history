@@ -1,0 +1,43 @@
+---
+title: Gallica
+slug: gallica
+description: Gallica is the digital library of the Bibliotheque nationale de France, offering books, press, manuscripts, maps, and images online.
+external_url: https://gallica.bnf.fr/
+short_description: Digital library of the National Library of France.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - France
+languages:
+  - de
+  - en
+  - fr
+  - it
+resource_types:
+  - audiovisual sources
+  - books
+  - magazines
+  - manuscripts
+  - maps
+  - newspapers
+  - photos
+  - primary sources
+periods:
+  - medieval
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/gallica.png
+screenshot_alt: Screenshot of Gallica
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/gallica.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Gallica is the digital library of the Bibliotheque nationale de France and provides online access to a wide range of source types.
+
+Its breadth makes it a strong first stop for research on France, especially when you need printed works, newspapers, manuscripts, maps, or visual material in one place.

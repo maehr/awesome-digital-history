@@ -1,0 +1,33 @@
+---
+title: World Historical Gazeteer
+slug: world-historical-gazeteer
+description: Historical gazetteer platform for linking place records across time with maps, datasets, search tools, teaching resources, and an API.
+external_url: https://whgazetteer.org/
+short_description: Collection of content and services that permit world historians to do spatial and temporal reasoning and visualization in a data rich environment at global and trans-regional scales.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Global
+languages:
+  - en
+resource_types:
+  - learning materials
+  - maps
+periods:
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/world-historical-gazeteer.png
+screenshot_alt: Screenshot of World Historical Gazeteer
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/world-historical-gazeteer.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+WHG links historical place records across datasets, languages, and periods, with map-based search, metadata views, and downloadable collections.
+
+It is especially helpful for spatial history work that needs place reconciliation, geocoding, or teaching materials for connecting historical geography to broader research questions.

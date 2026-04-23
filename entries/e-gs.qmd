@@ -1,0 +1,34 @@
+---
+title: e-gs
+slug: e-gs
+description: e-gs is the ETH Zurich Graphics Collection portal, providing online access to visual source material for Swiss modern and contemporary history.
+external_url: https://www.e-gs.ethz.ch/
+short_description: Online web portal of the ETH Zurich Graphics Collection.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Switzerland
+languages:
+  - de
+  - en
+resource_types:
+  - photos
+  - primary sources
+periods:
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/e-gs.png
+screenshot_alt: Screenshot of e-gs
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/e-gs.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+e-gs is the online portal for the ETH Zurich Graphics Collection, a source base centered on visual material.
+
+For researchers, it offers a practical route into images relevant to Swiss modern and contemporary history, especially when visual evidence matters alongside written records.

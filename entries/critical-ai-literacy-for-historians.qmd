@@ -1,0 +1,31 @@
+---
+title: Critical AI Literacy for Historians
+slug: critical-ai-literacy-for-historians
+description: Learn critical AI literacy for historians with a multilingual guide to methods, uses, limits, and ethics in historical research.
+external_url: https://maehr.github.io/critical-ai-literacy-for-historians/
+short_description: A guide to understanding and critically evaluating AI tools and methods in historical research, covering practical applications, ethical considerations, and methodological approaches.
+directory_section: learning
+section_label: Learning
+regions: []
+languages:
+  - de
+  - en
+  - fr
+resource_types:
+  - learning materials
+periods: []
+screenshot: /assets/screenshots/critical-ai-literacy-for-historians.png
+screenshot_alt: Screenshot of Critical AI Literacy for Historians
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/critical-ai-literacy-for-historians.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+This guide introduces AI concepts, research uses, and methodological risks in language aimed at historical work rather than general tech discussion.
+
+Its multilingual format and focus on critical evaluation help researchers assess tools, document decisions, and reflect on evidence, bias, and reproducibility.

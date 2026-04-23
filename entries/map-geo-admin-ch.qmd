@@ -1,0 +1,35 @@
+---
+title: map.geo.admin.ch
+slug: map-geo-admin-ch
+description: Explore map.geo.admin.ch to compare Swiss maps over time, including historical layers and a map-based interface for spatial research.
+external_url: https://map.geo.admin.ch/
+short_description: Journey through time via maps of Switzerland.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Switzerland
+languages:
+  - de
+  - en
+  - fr
+  - it
+  - rm
+resource_types:
+  - maps
+periods:
+  - contemporary
+screenshot: /assets/screenshots/map-geo-admin-ch.png
+screenshot_alt: Screenshot of map.geo.admin.ch
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/map-geo-admin-ch.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+map.geo.admin.ch provides a map interface for Switzerland with historical layers and tools for comparing places across time.
+
+It is useful for researchers studying landscape change, infrastructure, settlement patterns, and administrative space in Swiss contemporary history.

@@ -1,0 +1,41 @@
+---
+title: British Library
+slug: british-library
+description: The British Library Digital Collections provide access points to digitized manuscripts, maps, sounds, newspapers, and other research materials.
+external_url: https://www.bl.uk/collection
+short_description: Maps, manuscripts and sounds.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Great Britain
+languages:
+  - en
+resource_types:
+  - audiovisual sources
+  - books
+  - magazines
+  - manuscripts
+  - maps
+  - newspapers
+  - photos
+  - primary sources
+  - search engine
+periods:
+  - medieval
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/british-library.png
+screenshot_alt: Screenshot of British Library
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/british-library.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+The British Library's digital collections bring together digitized manuscripts, maps, sounds, images, newspapers, and other research materials from a major library collection.
+
+It is a useful starting point for British and global history, especially when projects require both primary sources and collection-level discovery across formats.

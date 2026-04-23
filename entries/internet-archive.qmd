@@ -1,0 +1,41 @@
+---
+title: Internet Archive
+slug: internet-archive
+description: Nonprofit digital library and web archive offering free access to books, media, software, and preserved websites from around the world.
+external_url: https://archive.org/
+short_description: Non-profit library of millions of free books, movies, software, music, websites, and more.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Global
+languages:
+  - en
+resource_types:
+  - audiovisual sources
+  - books
+  - learning materials
+  - magazines
+  - maps
+  - newspapers
+  - photos
+  - primary sources
+  - search engine
+  - statistics
+  - websites
+periods:
+  - contemporary
+screenshot: /assets/screenshots/internet-archive.png
+screenshot_alt: Screenshot of Internet Archive
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/internet-archive.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Internet Archive combines a very large digital library with the Wayback Machine, making it valuable for both born-digital and digitized historical research.
+
+Researchers can use it to trace changing websites, discover digitized print and audiovisual sources, and access material that is difficult to locate elsewhere.

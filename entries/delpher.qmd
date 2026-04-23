@@ -1,0 +1,35 @@
+---
+title: Delpher
+slug: delpher
+description: Search Delpher for millions of Dutch newspapers, books, magazines, and radio bulletins from major library and research collections.
+external_url: https://www.delpher.nl/
+short_description: Dutch newspapers, books and magazines.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Netherlands
+languages:
+  - nl
+resource_types:
+  - books
+  - magazines
+  - newspapers
+  - primary sources
+periods:
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/delpher.png
+screenshot_alt: Screenshot of Delpher
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/delpher.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Delpher provides free full-text search across Dutch historical newspapers, books, magazines, and other printed sources from many institutions.
+
+It is especially valuable for modern and contemporary history, genealogy, and discourse research that depends on large searchable serial collections.

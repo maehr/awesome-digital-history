@@ -1,0 +1,31 @@
+---
+title: OpenHistoricalMap
+slug: openhistoricalmap
+description: OpenHistoricalMap is a community-built historical map of the world that supports exploring and contributing time-based geographic data.
+external_url: https://openhistoricalmap.org/
+short_description: A time travel map created by a community of mappers and historians.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Global
+languages:
+  - de
+resource_types:
+  - maps
+periods:
+  - contemporary
+screenshot: /assets/screenshots/openhistoricalmap.png
+screenshot_alt: Screenshot of OpenHistoricalMap
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/openhistoricalmap.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+OpenHistoricalMap is an interactive map of the world throughout history, built collaboratively and openly by contributors.
+
+It is useful for researchers who want a historical gazetteer-style map environment, especially when combining exploratory browsing with community-contributed temporal geographic data.

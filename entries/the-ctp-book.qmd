@@ -1,0 +1,29 @@
+---
+title: The CTP Book
+slug: the-ctp-book
+description: Read The CTP Book, an open humanities-focused introduction to computational thinking and Python with chapters, exercises, keys, and lab notes.
+external_url: https://comp-think.github.io/
+short_description: A book for teaching Computational Thinking and Programming skills to people with a background in the Humanities.
+directory_section: learning
+section_label: Learning
+regions: []
+languages:
+  - en
+resource_types:
+  - learning materials
+periods: []
+screenshot: /assets/screenshots/the-ctp-book.png
+screenshot_alt: Screenshot of The CTP Book
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/the-ctp-book.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+The CTP Book is an open textbook for humanities students learning computational thinking and Python, with chapters, exercises, answer keys, and lab notes.
+
+It is a solid entry point for researchers who need programming fundamentals framed for humanities teaching and digital methods rather than computer science alone.

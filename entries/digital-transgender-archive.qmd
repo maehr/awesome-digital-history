@@ -1,0 +1,33 @@
+---
+title: Digital Transgender Archive
+slug: digital-transgender-archive
+description: Search the Digital Transgender Archive for trans-related historical materials, born-digital records, and archival holdings worldwide.
+external_url: https://www.digitaltransgenderarchive.net/
+short_description: Wide range of trans-related digitized historical materials, born-digital materials, and information on archival holdings throughout the world.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - North America
+languages:
+  - en
+resource_types:
+  - primary sources
+  - search engine
+periods:
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/digital-transgender-archive.png
+screenshot_alt: Screenshot of Digital Transgender Archive
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/digital-transgender-archive.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+The Digital Transgender Archive links digitized sources, born-digital materials, and archival holdings related to trans history across institutions.
+
+Its browsing by map, institution, collection, topic, and genre supports both focused archival work and broader discovery across dispersed collections.

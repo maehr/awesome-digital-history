@@ -1,0 +1,31 @@
+---
+title: Public Books Database
+slug: public-books-database
+description: Public Books Database gathers open-access academic books and free scholarly resources in one place for easier discovery and use.
+external_url: http://www.publicbooks.org/public-books-database/
+short_description: Open access academic literature.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Global
+languages:
+  - en
+resource_types:
+  - books
+periods:
+  - contemporary
+screenshot: /assets/screenshots/public-books-database.png
+screenshot_alt: Screenshot of Public Books Database
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/public-books-database.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+The Public Books Database was created to collect scholarly books and related resources being made freely accessible online by academic presses.
+
+Although tied to a specific access context, it remains useful as a consolidated guide to open academic literature across many publishers and subjects.

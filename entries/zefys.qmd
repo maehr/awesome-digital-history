@@ -1,0 +1,32 @@
+---
+title: Zefys
+slug: zefys
+description: Portal of digitized historical newspapers from the Berlin State Library with title lists, calendars, and full-text search for selected corpora.
+external_url: http://zefys.staatsbibliothek-berlin.de/
+short_description: Historical German newspapers.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Germany
+languages:
+  - de
+  - en
+resource_types:
+  - newspapers
+periods:
+  - contemporary
+screenshot: /assets/screenshots/zefys.png
+screenshot_alt: Screenshot of Zefys
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/zefys.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+ZEFYS provides free access to digitized historical newspapers from the Staatsbibliothek zu Berlin, including title lists, issue calendars, and selected full-text search.
+
+It is especially useful for German press history because it combines pre-1945 newspapers with dedicated corpora such as the Prussian official press and DDR press portal.

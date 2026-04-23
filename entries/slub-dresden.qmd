@@ -1,0 +1,39 @@
+---
+title: SLUB Dresden
+slug: slub-dresden
+description: Search SLUB Dresden's digital collections of manuscripts, maps, newspapers, photographs, and other sources from medieval to contemporary Germany.
+external_url: https://digital.slub-dresden.de/kollektionen/
+short_description: Over 1.8 million graphic media (photographs, maps, drawings).
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Germany
+languages:
+  - de
+resource_types:
+  - audiovisual sources
+  - magazines
+  - manuscripts
+  - maps
+  - newspapers
+  - photos
+  - primary sources
+periods:
+  - medieval
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/slub-dresden.png
+screenshot_alt: Screenshot of SLUB Dresden
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/slub-dresden.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+SLUB Dresden's digital collections bring together manuscripts, maps, photographs, newspapers, music, and other primary sources from Saxony and beyond.
+
+Its breadth makes it useful for regional and transregional research, especially when work requires visual sources, printed matter, and manuscript material in one place.

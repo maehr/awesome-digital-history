@@ -1,0 +1,29 @@
+---
+title: Crafting Digital History
+slug: crafting-digital-history
+description: Read Crafting Digital History, an open workbook with methods, readings, and exercises for digital history research and teaching.
+external_url: http://workbook.craftingdigitalhistory.ca/
+short_description: A Workbook for Methods and Readings in Digital History.
+directory_section: learning
+section_label: Learning
+regions: []
+languages:
+  - en
+resource_types:
+  - learning materials
+periods: []
+screenshot: /assets/screenshots/crafting-digital-history.png
+screenshot_alt: Screenshot of Crafting Digital History
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/crafting-digital-history.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+This open workbook introduces core digital history workflows, from finding and cleaning data to analysis, visualization, and publication.
+
+Its chapter structure, exercises, and linked tutorials make it practical for self-study, course design, and method-oriented historical research training.

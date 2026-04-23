@@ -1,0 +1,40 @@
+---
+title: Bavarikon
+slug: bavarikon
+description: bavarikon is Bavaria's digital portal for cultural heritage, offering searchable maps, manuscripts, photos, newspapers, objects, and exhibitions.
+external_url: https://www.bavarikon.de/
+short_description: Collection of Bavarian maps, places, newspapers etc.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Germany
+languages:
+  - de
+  - en
+resource_types:
+  - books
+  - encyclopedias
+  - magazines
+  - maps
+  - newspapers
+  - photos
+  - primary sources
+  - search engine
+periods:
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/bavarikon.png
+screenshot_alt: Screenshot of Bavarikon
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/bavarikon.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+bavarikon aggregates digitized material from Bavarian archives, libraries, museums, and other partners, with entry points for maps, places, people, and newspapers.
+
+It works well for regional history because it combines primary sources with exhibitions, collection context, and high-resolution object views.

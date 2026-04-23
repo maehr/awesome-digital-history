@@ -1,0 +1,42 @@
+---
+title: Digital Public Library of America
+slug: digital-public-library-of-america
+description: Search DPLA across tens of millions of images, texts, videos, and sounds from archives, libraries, and museums in the United States.
+external_url: https://dp.la/
+short_description: Discovery tool, or union catalog, for public domain and openly licensed content held by the United States' archives, libraries, museums, and other cultural heritage institutions.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - North America
+languages:
+  - en
+resource_types:
+  - audiovisual sources
+  - books
+  - magazines
+  - manuscripts
+  - maps
+  - newspapers
+  - photos
+  - primary sources
+  - search engine
+periods:
+  - ancient
+  - medieval
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/digital-public-library-of-america.png
+screenshot_alt: Screenshot of Digital Public Library of America
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/digital-public-library-of-america.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+DPLA aggregates records from archives, libraries, and museums across the United States into a single discovery platform.
+
+Its scale, broad source types, and curated exhibitions and primary source sets make it valuable for both exploratory searching and teaching-focused research.

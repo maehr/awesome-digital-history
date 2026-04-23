@@ -1,0 +1,36 @@
+---
+title: Archives Online
+slug: archives-online
+description: Archives Online searches archival databases across Switzerland at once, with filters for date ranges, participating archives, and digitized material.
+external_url: https://www.archives-online.org/
+short_description: Archival search engine for Switzerland.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Switzerland
+languages:
+  - de
+  - en
+  - fr
+  - it
+resource_types:
+  - search engine
+periods:
+  - medieval
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/archives-online.png
+screenshot_alt: Screenshot of Archives Online
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/archives-online.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Archives Online lets you query many Swiss archival databases simultaneously and narrow results by period, archive, or digitized status.
+
+It is useful for cross-cantonal and multi-repository research because each result links back to the holding archive for fuller context and access.

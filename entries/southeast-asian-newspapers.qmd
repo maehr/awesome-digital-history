@@ -1,0 +1,36 @@
+---
+title: Southeast Asian Newspapers
+slug: southeast-asian-newspapers
+description: Access Southeast Asian Newspapers, an open-access newspaper collection on colonialism, decolonization, and early statehood across the region.
+external_url: https://www.eastview.com/resources/gpa/crl-sean/
+short_description: Open-access collection of Southeast Asian newspapers documenting colonialism, decolonization, and early statehood across the region in multiple languages.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Asia
+languages:
+  - en
+  - fr
+  - mul
+  - nl
+resource_types:
+  - newspapers
+  - primary sources
+periods:
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/southeast-asian-newspapers.png
+screenshot_alt: Screenshot of Southeast Asian Newspapers
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/southeast-asian-newspapers.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+This open-access collection assembles newspapers from across Southeast Asia, including titles from Myanmar, Indonesia, the Philippines, Thailand, and Vietnam.
+
+It is useful for tracing colonial rule, war, decolonization, and early independence through multilingual press coverage from the late nineteenth and twentieth centuries.

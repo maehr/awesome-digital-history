@@ -1,0 +1,34 @@
+---
+title: Sammlung Schweizerischer Rechtsquellen online
+slug: sammlung-schweizerischer-rechtsquellen-online
+description: Sammlung Schweizerischer Rechtsquellen online offers digital editions of Swiss legal historical sources from the Middle Ages to 1798.
+external_url: https://www.ssrq-sds-fds.ch/online/
+short_description: Retrodigitalisierte und digitale Editionseinheiten der Schweizerischen Rechtsquellen. Ediert wird rechtshistorisches Quellenmaterial vom Mittelalter bis in die Frühe Neuzeit (1798).
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Switzerland
+languages:
+  - de
+  - fr
+  - it
+resource_types:
+  - primary sources
+periods:
+  - medieval
+  - modern
+screenshot: /assets/screenshots/sammlung-schweizerischer-rechtsquellen-online.png
+screenshot_alt: Screenshot of Sammlung Schweizerischer Rechtsquellen online
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/sammlung-schweizerischer-rechtsquellen-online.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Sammlung Schweizerischer Rechtsquellen online provides retro-digitised and digital editions of Swiss legal historical sources from the Middle Ages to the early modern period.
+
+It is particularly relevant for research on law, institutions, and governance in Switzerland, with multilingual material spanning medieval and early modern contexts.

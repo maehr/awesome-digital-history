@@ -1,0 +1,37 @@
+---
+title: Encyclopédie d'histoire numérique
+slug: encyclopedie-d-histoire-numerique
+description: EHNE offers a French-language digital encyclopedia of European history with articles, teaching resources, and thematic materials for modern research.
+external_url: https://ehne.fr/
+short_description: European History through renewed historiographic objects and major contemporary challenges.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Europe
+languages:
+  - fr
+resource_types:
+  - audiovisual sources
+  - books
+  - encyclopedias
+  - learning materials
+  - maps
+  - photos
+periods:
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/encyclopedie-d-histoire-numerique.png
+screenshot_alt: Screenshot of Encyclopédie d'histoire numérique
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/encyclopedie-d-histoire-numerique.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+EHNE is a digital encyclopedia of European history with thematic entries, author pages, teaching sections, and related visual materials.
+
+It is useful for researchers who need a concise historiographical overview in French, especially on modern and contemporary European topics.

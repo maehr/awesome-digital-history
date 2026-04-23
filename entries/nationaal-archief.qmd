@@ -1,0 +1,39 @@
+---
+title: Nationaal Archief
+slug: nationaal-archief
+description: Explore the Nationaal Archief for Dutch archival records, photographs, maps, scans, open data, and research tools across periods.
+external_url: https://www.nationaalarchief.nl/
+short_description: Rich collection of the National Archives of the Netherlands.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Netherlands
+languages:
+  - en
+  - nl
+resource_types:
+  - audiovisual sources
+  - manuscripts
+  - maps
+  - photos
+  - primary sources
+  - websites
+periods:
+  - medieval
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/nationaal-archief.png
+screenshot_alt: Screenshot of Nationaal Archief
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/nationaal-archief.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+The Nationaal Archief gives access to Dutch archival records, photographs, maps, and scans through research-oriented search and finding aids.
+
+It supports work on the Netherlands across long time spans and also offers open data, educational resources, and practical guidance for archival research.

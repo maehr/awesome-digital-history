@@ -1,0 +1,32 @@
+---
+title: Scripta Paedagogica
+slug: scripta-paedagogica
+description: Scripta Paedagogica provides digitised archival materials and journals for research on the history of education in German-speaking contexts.
+external_url: https://scripta.bbf.dipf.de/viewer/index/
+short_description: Collection of archival material and digitized journals in the field of history of education.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Germany
+languages:
+  - de
+resource_types:
+  - primary sources
+periods:
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/scripta-paedagogica.png
+screenshot_alt: Screenshot of Scripta Paedagogica
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/scripta-paedagogica.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Scripta Paedagogica is a viewer-based collection of archival materials and digitised journals focused on the history of education.
+
+It is useful for researchers who need primary sources and periodicals for educational history in German-speaking contexts from the modern era onward.

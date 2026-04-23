@@ -1,0 +1,31 @@
+---
+title: Topotijdreis
+slug: topotijdreis
+description: Explore Topotijdreis to browse and compare Dutch topographic maps from 1815 to today across two centuries of landscape change.
+external_url: https://www.topotijdreis.nl/
+short_description: Browse and compare Dutch topographic maps (1815 until today).
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Netherlands
+languages:
+  - nl
+resource_types:
+  - maps
+periods:
+  - contemporary
+screenshot: /assets/screenshots/topotijdreis.png
+screenshot_alt: Screenshot of Topotijdreis
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/topotijdreis.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Topotijdreis lets users browse Dutch topographic maps over roughly 200 years, from 1815 to the present.
+
+It is particularly useful for tracking landscape change, infrastructure, settlement growth, and administrative geography over time in the Netherlands.

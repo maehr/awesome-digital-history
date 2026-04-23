@@ -1,0 +1,34 @@
+---
+title: ANNO
+slug: anno
+description: ANNO from the Austrian National Library offers full-text search and digitized access to historic Austrian newspapers and journals across millions of pages.
+external_url: https://anno.onb.ac.at/
+short_description: Austrian Newspapers online.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Austria
+languages:
+  - de
+resource_types:
+  - magazines
+  - newspapers
+  - primary sources
+periods:
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/anno.png
+screenshot_alt: Screenshot of ANNO
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/anno.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+ANNO provides access to more than 28 million pages from over 1,600 historic newspapers and journals held by the Austrian National Library.
+
+Its alphabetical, chronological, and thematic entry points make it useful for press history, event reconstruction, and longitudinal keyword searches.

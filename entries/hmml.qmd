@@ -1,0 +1,35 @@
+---
+title: HMML
+slug: hmml
+description: Global manuscript portal from HMML with cataloging, digital tools, and access to manuscript images and descriptions from repositories worldwide.
+external_url: https://hmml.org/
+short_description: Hill Museum & Manuscript Library. Digital collection of manuscripts from around the world.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Global
+languages:
+  - ar
+  - en
+  - fr
+resource_types:
+  - manuscripts
+periods:
+  - ancient
+  - medieval
+  - modern
+screenshot: /assets/screenshots/hmml.png
+screenshot_alt: Screenshot of HMML
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/hmml.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+HMML preserves and documents manuscript collections from repositories around the world, with strong support for discovery through its Reading Room and related research tools.
+
+It is especially useful for global manuscript studies because it combines descriptions, images, authority data, and infrastructure for understudied traditions.

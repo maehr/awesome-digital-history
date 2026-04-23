@@ -1,0 +1,29 @@
+---
+title: The Programming Historian
+slug: the-programming-historian
+description: Learn digital methods with The Programming Historian's peer-reviewed tutorials in multiple languages on tools, workflows, and research techniques.
+external_url: https://programminghistorian.org/
+short_description: Novice-friendly, peer-reviewed tutorials that help humanists learn a wide range of digital tools, techniques, and workflows to facilitate research and teaching.
+directory_section: learning
+section_label: Learning
+regions: []
+languages:
+  - en
+resource_types:
+  - learning materials
+periods: []
+screenshot: /assets/screenshots/the-programming-historian.png
+screenshot_alt: Screenshot of The Programming Historian
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/the-programming-historian.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+The Programming Historian publishes peer-reviewed tutorials that introduce digital tools, workflows, and methods for research and teaching in the humanities.
+
+Its multilingual lessons make it especially useful for self-study and course design, from beginner technical skills to more specialized digital approaches.

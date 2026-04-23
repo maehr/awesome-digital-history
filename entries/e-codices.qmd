@@ -1,0 +1,37 @@
+---
+title: e-codices
+slug: e-codices
+description: e-codices provides free access to Swiss medieval and selected modern manuscripts, with images, scholarly descriptions, and search across collections.
+external_url: http://e-codices.ch/
+short_description: Virtual manuscript library of Switzerland.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Switzerland
+languages:
+  - de
+  - en
+  - fr
+  - it
+resource_types:
+  - manuscripts
+  - primary sources
+periods:
+  - medieval
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/e-codices.png
+screenshot_alt: Screenshot of e-codices
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/e-codices.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+e-codices is the virtual manuscript library of Switzerland, bringing together digitized manuscripts from libraries and archives across the country.
+
+Its combination of manuscript images, collection-level coverage, and scholarly descriptions makes it especially useful for codicological, textual, and provenance research.

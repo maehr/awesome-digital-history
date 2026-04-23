@@ -1,0 +1,42 @@
+---
+title: Monasterium
+slug: monasterium
+description: Search Monasterium for charters and other archival sources from hundreds of European archives, with images, fonds, and research collections.
+external_url: https://www.monasterium.net/mom/home
+short_description: Deeds from all over Europe.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Europe
+languages:
+  - de
+  - en
+  - fr
+  - lat
+  - lt
+resource_types:
+  - books
+  - manuscripts
+  - maps
+  - photos
+  - primary sources
+  - search engine
+periods:
+  - medieval
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/monasterium.png
+screenshot_alt: Screenshot of Monasterium
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/monasterium.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Monasterium is a collaborative virtual archive with charters and related primary sources from many European archives.
+
+It is especially useful for medieval and early modern research because it combines archival fonds, document images, and cross-archive discovery in one portal.

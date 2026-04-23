@@ -1,0 +1,36 @@
+---
+title: e-rara
+slug: e-rara
+description: e-rara is the Swiss platform for digitized rare books, offering primary sources from library collections across medieval to contemporary periods.
+external_url: https://www.e-rara.ch/
+short_description: The platform for digitised rare books from Swiss libraries.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Switzerland
+languages:
+  - de
+  - en
+  - fr
+  - it
+resource_types:
+  - primary sources
+periods:
+  - medieval
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/e-rara.png
+screenshot_alt: Screenshot of e-rara
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/e-rara.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+e-rara aggregates digitized rare books from Swiss libraries, giving online access to printed primary sources that are often otherwise hard to consult.
+
+It is useful for book history, intellectual history, and source discovery across long chronological ranges, especially when working with rare editions.

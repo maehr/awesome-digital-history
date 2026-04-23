@@ -1,0 +1,38 @@
+---
+title: historicum.net
+slug: historicum-net
+description: German portal for historians offering research tools, thematic resources, and access points for digital sources, reference services, and websites.
+external_url: https://www.historicum.net/home/
+short_description: A specialized information service for historians that offers access to research tools and services.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Germany
+languages:
+  - de
+resource_types:
+  - magazines
+  - maps
+  - newspapers
+  - primary sources
+  - search engine
+  - tools
+  - websites
+periods:
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/historicum-net.png
+screenshot_alt: Screenshot of historicum.net
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/historicum-net.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+historicum.net is designed as a specialist information service for historians, bringing together digital tools, source materials, and subject-specific research resources.
+
+For German historical research, it is useful as a gateway site that points users toward newspapers, maps, primary sources, and other online services.

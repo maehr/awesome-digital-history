@@ -1,0 +1,29 @@
+---
+title: Scientific Writing
+slug: scientific-writing
+description: Scientific Writing is an awesome list of tools and tutorials for academic writing with Markdown, Jupyter notebooks, Pandoc, and related workflows.
+external_url: https://github.com/writing-resources/awesome-scientific-writing#readme
+short_description: Tools and resources for scientific writing beyond LaTeX, including Markdown, reStructuredText and Jupyter notebooks.
+directory_section: more-awesome
+section_label: More Awesome
+regions: []
+languages:
+  - en
+resource_types:
+  - tools
+periods: []
+screenshot: /assets/screenshots/scientific-writing.png
+screenshot_alt: Screenshot of Scientific Writing
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/scientific-writing.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Scientific Writing is a curated list of tools, templates, and tutorials for academic writing beyond LaTeX, especially with Markdown and Jupyter-based workflows.
+
+It is useful for historians building reproducible writing setups that combine prose, citations, notebooks, and conversion tools in a plain-text environment.

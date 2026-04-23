@@ -1,0 +1,42 @@
+---
+title: Digitale Sammlungen
+slug: digitale-sammlungen
+description: Search the Munich Digitization Center's collections for digitized manuscripts, maps, books, newspapers, images, and music.
+external_url: https://www.digitale-sammlungen.de/
+short_description: Collections of the Munich Digitization Center.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Germany
+languages:
+  - de
+  - en
+resource_types:
+  - audiovisual sources
+  - books
+  - magazines
+  - manuscripts
+  - maps
+  - newspapers
+  - photos
+  - primary sources
+  - websites
+periods:
+  - medieval
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/digitale-sammlungen.png
+screenshot_alt: Screenshot of Digitale Sammlungen
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/digitale-sammlungen.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+The Munich Digitization Center provides access to millions of digitized items from the Bavarian State Library, including manuscripts, maps, prints, and newspapers.
+
+Its breadth and stable access to full digital objects make it a major source base for medieval, modern, and contemporary research in German history.

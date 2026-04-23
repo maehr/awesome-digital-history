@@ -1,0 +1,35 @@
+---
+title: handrit.is
+slug: handrit-is
+description: Manuscript portal for Icelandic collections with catalog records and digitized manuscripts from the 12th to 20th centuries in several languages.
+external_url: https://www.handrit.is/
+short_description: Catalogue of more than 15'000 manuscripts (12th–20th century) in Icelandic, Old Norse, Danish and Latin (plus a few other languages) with more than 4'000 manuscripts digitally available.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Europe
+languages:
+  - da
+  - is
+  - lat
+resource_types:
+  - manuscripts
+  - primary sources
+periods:
+  - medieval
+  - modern
+screenshot: /assets/screenshots/handrit-is.png
+screenshot_alt: Screenshot of handrit.is
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/handrit-is.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+handrit.is brings together manuscript holdings from major Icelandic and related collections and supports browsing, search, and institution-level discovery.
+
+For researchers working on medieval and modern Nordic history, it offers a reliable starting point for locating manuscript witnesses and accessing digitized copies where available.

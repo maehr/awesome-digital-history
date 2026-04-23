@@ -1,0 +1,38 @@
+---
+title: e-manuscripta
+slug: e-manuscripta
+description: e-manuscripta gives access to manuscripts, maps, and archival materials from Swiss libraries and archives across medieval to contemporary periods.
+external_url: https://www.e-manuscripta.ch/
+short_description: Manuscript material from Swiss libraries and archives.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Switzerland
+languages:
+  - de
+  - en
+  - fr
+  - it
+resource_types:
+  - manuscripts
+  - maps
+  - primary sources
+periods:
+  - medieval
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/e-manuscripta.png
+screenshot_alt: Screenshot of e-manuscripta
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/e-manuscripta.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+e-manuscripta brings together manuscript material from Swiss libraries and archives, including holdings that extend beyond codices to maps and related records.
+
+Its cross-institutional scope makes it a useful starting point for locating handwritten and cartographic primary sources across long historical spans.

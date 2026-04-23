@@ -1,23 +1,33 @@
 {
-	"name": "Awesome Digital History",
-	"version": "0.0.1",
-	"url": "https://github.com/maehr/awesome-digital-history/issues",
-	"license": "CC0",
-	"scripts": {
-		"lint": "prettier --check .",
-		"format": "prettier --write .",
-		"prebuild": "node utils/sortJSON.js && node utils/compileReadme.js",
-		"awesome-lint": "node utils/runAwesomeLint.js"
-	},
-	"engines": {
-		"node": ">=20",
-		"pnpm": ">=10"
-	},
+	"name": "awesome-digital-history",
+	"version": "0.1.0",
 	"private": true,
-	"packageManager": "pnpm@10.32.1",
+	"type": "module",
+	"engines": {
+		"node": ">=24"
+	},
+	"scripts": {
+		"build": "npm run site:build",
+		"preview": "npm run site:preview",
+		"render": "npm run site:render",
+		"clean": "npm run site:clean",
+		"generate": "node scripts/build-derived.mjs",
+		"site:build": "npm run site:render",
+		"site:render": "npm run validate && npm run generate && quarto render",
+		"site:preview": "npm run validate && npm run generate && quarto preview",
+		"site:clean": "rm -rf \".quarto\" \"_site\"",
+		"validate": "node scripts/validate-entries.mjs",
+		"screenshots": "node scripts/build-screenshots.mjs",
+		"format": "prettier --write .",
+		"lint": "prettier --check .",
+		"check": "npm run site:build && npm run lint && npm run awesome-lint",
+		"awesome-lint": "node scripts/run-awesome-lint.mjs"
+	},
 	"devDependencies": {
 		"awesome-lint": "^2.2.3",
+		"gray-matter": "^4.0.3",
+		"js-yaml": "^4.1.0",
+		"playwright": "^1.54.2",
 		"prettier": "^3.8.1"
-	},
-	"type": "module"
+	}
 }

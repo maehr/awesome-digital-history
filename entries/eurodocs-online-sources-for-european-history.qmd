@@ -1,0 +1,36 @@
+---
+title: EuroDocs – Online Sources for European History
+slug: eurodocs-online-sources-for-european-history
+description: EuroDocs is an open access directory of online primary sources for European history, organized by country, theme, and historical period.
+external_url: https://eudocs.lib.byu.edu/index.php/Main_Page
+short_description: A curated directory of online primary sources for European history, organized by country and period, with many items hosted by reputable institutions and using Dublin Core metadata.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Europe
+languages:
+  - en
+  - mul
+resource_types:
+  - collection
+  - portal
+periods:
+  - medieval
+  - early modern
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/eurodocs-online-sources-for-european-history.png
+screenshot_alt: Screenshot of EuroDocs – Online Sources for European History
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/eurodocs-online-sources-for-european-history.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+EuroDocs curates links to open access primary sources for European history, arranged by country, supranational themes, and broad chronological periods.
+
+It is valuable as a discovery layer when you need to move quickly across institutions and languages to locate transcriptions, facsimiles, translations, and related materials.

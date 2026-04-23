@@ -1,0 +1,32 @@
+---
+title: impresso
+slug: impresso
+description: Research platform for historical newspapers and radio archives with tools for exploring multilingual media across time, borders, and formats.
+external_url: https://impresso-project.ch/
+short_description: Historical newspaper collections of the Swiss National Library, the National Library of Luxembourg, the Neue Zürcher Zeitung, Le Temps, the Valais State Archives and the Swiss Economic Archives.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Switzerland
+languages:
+  - en
+resource_types:
+  - newspapers
+periods:
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/impresso.png
+screenshot_alt: Screenshot of impresso
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/impresso.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Impresso brings together historical newspapers and radio archives in a cross-border research environment built for computational media history.
+
+Beyond access to collections, it offers an app, data lab, and project outputs that support multilingual exploration, semantic enrichment, and reproducible research workflows.

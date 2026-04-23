@@ -1,0 +1,53 @@
+---
+title: Europeana
+slug: europeana
+description: Europeana is a multilingual search platform for archival, library, and museum collections from across Europe, spanning text, image, and media sources.
+external_url: https://www.europeana.eu/
+short_description: Search engine for European textual and non-textual archival sources.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Europe
+languages:
+  - de
+  - en
+  - es
+  - fr
+  - it
+  - mul
+  - nl
+  - 'no'
+  - po
+  - se
+resource_types:
+  - audiovisual sources
+  - books
+  - encyclopedias
+  - learning materials
+  - magazines
+  - manuscripts
+  - maps
+  - newspapers
+  - photos
+  - primary sources
+  - search engine
+periods:
+  - ancient
+  - medieval
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/europeana.png
+screenshot_alt: Screenshot of Europeana
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/europeana.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Europeana serves as a multilingual discovery platform for cultural heritage collections from European libraries, archives, and museums.
+
+Its broad coverage makes it useful for cross-border source discovery when your research needs books, images, newspapers, manuscripts, or other primary materials in one search environment.

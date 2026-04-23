@@ -1,0 +1,33 @@
+---
+title: OpenCat
+slug: opencat
+description: OpenCat is an open library meta-catalog that helps researchers search library holdings across institutions and regions worldwide.
+external_url: https://opencat.io/
+short_description: Search engine for libraries around the globe.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Global
+languages:
+  - de
+  - en
+  - fr
+resource_types:
+  - search engine
+periods:
+  - contemporary
+screenshot: /assets/screenshots/opencat.png
+screenshot_alt: Screenshot of OpenCat
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/opencat.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+OpenCat presents itself as an open library meta-catalog for searching library collections across institutions rather than within a single local catalogue.
+
+That makes it useful for historians tracing editions, translations, or dispersed holdings when relevant material may be spread across multiple library systems.

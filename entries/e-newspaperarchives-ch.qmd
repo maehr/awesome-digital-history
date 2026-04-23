@@ -1,0 +1,36 @@
+---
+title: e-newspaperarchives.ch
+slug: e-newspaperarchives-ch
+description: e-newspaperarchives.ch provides access to Swiss newspapers, supporting multilingual research on modern and contemporary public discourse.
+external_url: https://www.e-newspaperarchives.ch/
+short_description: Swiss newspapers.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Switzerland
+languages:
+  - de
+  - en
+  - fr
+  - it
+resource_types:
+  - newspapers
+  - primary sources
+periods:
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/e-newspaperarchives-ch.png
+screenshot_alt: Screenshot of e-newspaperarchives.ch
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/e-newspaperarchives-ch.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+e-newspaperarchives.ch focuses on Swiss newspapers, a core source type for reconstructing reporting, opinion, and everyday public communication.
+
+It is especially useful for multilingual research across modern and contemporary Switzerland, where press coverage often differs by region and language.
