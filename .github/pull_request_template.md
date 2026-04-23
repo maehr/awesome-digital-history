@@ -1,51 +1,21 @@
 ## Pull Request
 
-Add / Remove / Change `{entry name}` in `data/entries.json`.
-
-<!-- NOTE: Please do not skip the template -->
+Add / remove / change `{entry name}` in `entries/*.qmd`.
 
 **Short pitch**
 
-Describe why this change is made. Alternatively, refer to existing issues if any. You could try to answer:
-
-- Why do you find this resource awesome?
-- How do you use this resource in your workflow?
-- What advantages / disadvantages does it have compared to {another resource}?
+Explain why this change improves the directory.
 
 ### Checklist
 
-Please ensure that you have completed the following tasks:
+- [ ] I have read [CONTRIBUTING.md](CONTRIBUTING.md).
+- [ ] I ran `npm install`.
+- [ ] I ran `npm run check`.
+- [ ] If I changed source URLs or added entries, I ran `npm run screenshots`.
 
-- [ ] I have read and understood the [contribution guidelines](CONTRIBUTING.md).
-- [ ] If I changed `data/entries.json`, I have run `pnpm run prebuild` to sort the entries alphabetically and regenerate `README.md`.
-- [ ] I have run `pnpm run format` to format the repository files.
-- [ ] I have run `pnpm run lint` to verify formatting.
-- [ ] I have run `pnpm run awesome-lint` to ensure that the `README.md` file is formatted correctly.
-
-### Criteria for accepting a pull request
-
-_Contributors, please ensure that_:
-
-- A **short pitch** is included in the pull request description.
-- The addition you proposed is NOT part of [everything that did not make it into the list](https://github.com/maehr/awesome-digital-history/wiki).
-
-_Maintainers, please ensure that_:
-
-- The above criteria are followed.
-- The checks pass on the CI.
-- In the case of addition or removal, make an assessment of the awesomeness of the entry.
-
-### Updating your PR
-
-If the maintainers notice anything that needs to be changed, they will ask you to edit your PR before merging it. Please do not open a new PR, just edit the existing one. If you're not sure how to do that, [here is a guide](https://github.com/RichardLitt/knowledge/blob/master/github/amending-a-commit-guide.md) on the different ways you can update your PR.
-
-### Appendix: local validation
-
-To validate changes locally, install the dependencies first:
+### Local validation
 
 ```bash
-pnpm install
-pnpm run prebuild
-pnpm run lint
-pnpm run awesome-lint
+npm install
+npm run check
 ```

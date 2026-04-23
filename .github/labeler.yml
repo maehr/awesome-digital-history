@@ -1,6 +1,8 @@
 awesome:
   - README.md
-  - data/**/*
+  - index.qmd
+  - entries/**/*
+  - assets/screenshots/**/*
 
 docs:
   - .github/**/*
@@ -11,9 +13,11 @@ docs:
   - CITATION.cff
   - LICENSE*
   - SECURITY.md
+  - _quarto.yml
   - package.json
-  - pnpm-lock.yaml
-  - utils/**/*
+  - package-lock.json
+  - scripts/**/*
+  - partials/**/*
   - .npmrc
   - .prettierrc
   - .prettierignore

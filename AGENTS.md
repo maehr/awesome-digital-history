@@ -1,149 +1,65 @@
 # Agents
 
-AI agents and automation for awesome-digital-history.
+Automation notes for `awesome-digital-history`.
 
 ## Commands
 
 ```bash
-# Build artifacts
-pnpm run prebuild            # Sort JSON + compile README
+# Build site + generated files
+npm run site:build
+
+# Local preview
+npm run preview
 
 # Validation
-pnpm run awesome-lint        # Validate README.md against Awesome List standards
-pnpm run lint                # Run prettier checks
+npm run validate
+npm run lint
+npm run awesome-lint
+npm run check
 
-# Format
-pnpm run format              # Auto-fix with prettier
+# Screenshots
+npm run screenshots
 ```
 
-## CI Workflows
+## Canonical Source
 
-### awesome-lint
+- Source of truth: `entries/*.qmd`
+- Generated: `README.md`, `index.qmd`
+- Screenshots: `assets/screenshots/*.png`
 
-**Trigger:** `push`, `pull_request`
-**Node:** 24
-**Runs:** `pnpm run awesome-lint`
-**Validates:**
+## Entry Shape
 
-- List structure (headings, links, formatting)
-- Alphabetical ordering within sections
-- Link format: `[Title](URL) - Description. `
-- Badge syntax
-- ToC consistency
-
-### Pull Request Labeler
-
-**Trigger:** `pull_request_target`
-**Auto-applies labels:**
-
-| Label     | Files Changed                                                  |
-| --------- | -------------------------------------------------------------- |
-| `awesome` | `README.md`, `data/**`                                         |
-| `docs`    | `.github/**`, `*.md` (except README), `utils/**`, config files |
-
-### Stale Manager
-
-**Trigger:** Daily cron
-**Config:**
-
-- Stale after: 60 days
-- Close after: +5 days
-- Labels: `no-issue-activity`, `no-pr-activity`
-
-### Greetings
-
-**Trigger:** First-time issue/PR
-**Action:** Posts welcome message
-
-## Issue Types
-
-### Content Issues
+Each entry page uses frontmatter plus a short body under `## Why it matters`.
 
 ```yaml
-type: content
-examples:
-  - 'Add [Resource Name]'
-  - 'Remove outdated link: [URL]'
-  - 'Update description for [Resource]'
-labels: [awesome]
+title: string
+slug: string
+external_url: https://example.org/
+short_description: short awesome-list description.
+description: SEO meta description.
+directory_section: archives|learning|more-awesome
+regions:
+  [
+    Africa|Asia|Austria|Europe|France|Germany|Global|Great Britain|Netherlands|North America|Switzerland
+  ]
+languages: [ISO-style code]
+resource_types:
+  [
+    audiovisual sources|books|collection|encyclopedias|learning materials|magazines|manuscripts|maps|newspapers|photos|portal|primary sources|search engine|sheet music|statistics|tools|websites
+  ]
+periods: [prehistory|ancient|classical|medieval|early modern|modern|contemporary]
+screenshot: /assets/screenshots/<slug>.png
 ```
 
-### Documentation Issues
+## Workflows
 
-```yaml
-type: documentation
-examples:
-  - 'Update CONTRIBUTING.md'
-  - 'Improve AGENTS.md'
-  - 'Adjust PR template copy'
-labels: [docs]
-```
-
-### Security Issues
-
-```yaml
-type: security
-examples:
-  - 'Dependency vulnerability in awesome-lint workflow'
-  - 'Unsafe repository automation configuration'
-labels: []
-```
-
-## Data Structures
-
-### Canonical Data File
-
-`data/entries.json`
-
-### README Entry Format
-
-```markdown
-- [Title](https://example.com/) - Brief description ending with period.
-```
-
-### Resource Schema
-
-```json
-{
-	"title": "string",
-	"description": "string",
-	"url": "string (URL)",
-	"region": [
-		"Africa|Asia|Austria|Europe|France|Germany|Global|Great Britain|Netherlands|North America|Switzerland"
-	],
-	"language": ["ISO language code"],
-	"type": [
-		"audiovisual sources|books|collection|encyclopedias|learning materials|magazines|manuscripts|maps|newspapers|photos|portal|primary sources|search engine|sheet music|statistics|tools|websites"
-	],
-	"period": ["prehistory|ancient|classical|medieval|early modern|modern|contemporary"]
-}
-```
-
-## Maintenance Workflow
-
-1. Update `data/entries.json`.
-2. Run `pnpm run prebuild`.
-3. Run `pnpm run format`.
-4. Run `pnpm run lint`.
-5. Run `pnpm run awesome-lint`.
-
-## Requirements
-
-```json
-{
-	"node": ">=20",
-	"pnpm": ">=10",
-	"packageManager": "pnpm@10.32.1"
-}
-```
+- `awesome-lint.yml`: regenerates `README.md`, then runs `awesome-lint`
+- `link-check.yml`: runs `lychee` against markdown and qmd files
+- `quarto-publish.yml`: validates, renders, and deploys `_site` to GitHub Pages
 
 ## Quality Gates
 
-Pre-merge checklist:
-
-- [ ] `pnpm run prebuild` passes
-- [ ] `pnpm run awesome-lint` passes
-- [ ] `pnpm run lint` passes
-- [ ] Links manually verified
-- [ ] Alphabetical order maintained
-- [ ] Description follows format
+- `npm run validate`
+- `npm run lint`
+- `npm run awesome-lint`
+- `npm run site:build`
