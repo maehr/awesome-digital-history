@@ -1,0 +1,42 @@
+name: Link Check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: read
+
+jobs:
+  lychee:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Restore lychee cache
+        id: restore-cache
+        uses: actions/cache/restore@v5
+        with:
+          path: .lycheecache
+          key: cache-lychee-${{ github.ref }}-${{ hashFiles('.lycheerc.toml') }}
+          restore-keys: cache-lychee-${{ github.ref }}-
+
+      - name: Link Checker
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --config .lycheerc.toml --root-dir ${{ github.workspace }} './*.md' './*.qmd' './entries/**/*.qmd' './.github/**/*.md'
+          fail: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Save lychee cache
+        uses: actions/cache/save@v5
+        if: always()
+        with:
+          path: .lycheecache
+          key: ${{ steps.restore-cache.outputs.cache-primary-key }}
