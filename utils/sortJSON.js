@@ -1,6 +1,6 @@
 import fs from 'fs';
 
-const filepath = 'src/lib/data/entries.json';
+const filepath = 'data/entries.json';
 
 // Language code mappings for non-standard to ISO codes
 const languageCodeMappings = {
