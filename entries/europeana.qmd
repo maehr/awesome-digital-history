@@ -36,12 +36,12 @@ periods:
   - medieval
   - modern
   - contemporary
-screenshot: /assets/screenshots/europeana.png
+screenshot: /assets/screenshots/europeana-placeholder.png
 screenshot_alt: Screenshot of Europeana
 screenshot_hide: []
 screenshot_wait_ms: 6000
 screenshot_full_page: false
-image: /assets/screenshots/europeana.png
+image: /assets/screenshots/europeana-placeholder.png
 page-layout: article
 toc: false
 ---

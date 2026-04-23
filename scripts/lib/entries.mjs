@@ -105,6 +105,14 @@ export function ensurePeriod(value) {
 	return /[.!?]$/.test(text) ? text : `${text}.`;
 }
 
+export function screenshotPathForSlug(slug) {
+	return `/assets/screenshots/${slug}.png`;
+}
+
+export function placeholderScreenshotPathForSlug(slug) {
+	return `/assets/screenshots/${slug}-placeholder.png`;
+}
+
 export function escapeMarkdownText(value) {
 	return String(value).replace(/([\\`*_[\]<>])/g, '\\$1');
 }
@@ -258,8 +266,15 @@ export function validateEntryShape(entry) {
 		errors.push(`${entry.filename}: short_description must end with a period`);
 	}
 
-	if (entry.screenshot !== `/assets/screenshots/${entry.slug}.png`) {
-		errors.push(`${entry.filename}: screenshot path must be /assets/screenshots/${entry.slug}.png`);
+	const allowedScreenshotPaths = new Set([
+		screenshotPathForSlug(entry.slug),
+		placeholderScreenshotPathForSlug(entry.slug)
+	]);
+
+	if (!allowedScreenshotPaths.has(entry.screenshot)) {
+		errors.push(
+			`${entry.filename}: screenshot path must be ${screenshotPathForSlug(entry.slug)} or ${placeholderScreenshotPathForSlug(entry.slug)}`
+		);
 	}
 
 	if (entry.image !== entry.screenshot) {

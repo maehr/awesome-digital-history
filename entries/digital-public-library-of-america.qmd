@@ -25,12 +25,12 @@ periods:
   - medieval
   - modern
   - contemporary
-screenshot: /assets/screenshots/digital-public-library-of-america.png
+screenshot: /assets/screenshots/digital-public-library-of-america-placeholder.png
 screenshot_alt: Screenshot of Digital Public Library of America
 screenshot_hide: []
 screenshot_wait_ms: 6000
 screenshot_full_page: false
-image: /assets/screenshots/digital-public-library-of-america.png
+image: /assets/screenshots/digital-public-library-of-america-placeholder.png
 page-layout: article
 toc: false
 ---

@@ -15,12 +15,12 @@ resource_types:
   - encyclopedias
 periods:
   - contemporary
-screenshot: /assets/screenshots/annee-politique-suisse.png
+screenshot: /assets/screenshots/annee-politique-suisse-placeholder.png
 screenshot_alt: Screenshot of Année Politique Suisse
 screenshot_hide: []
 screenshot_wait_ms: 6000
 screenshot_full_page: false
-image: /assets/screenshots/annee-politique-suisse.png
+image: /assets/screenshots/annee-politique-suisse-placeholder.png
 page-layout: article
 toc: false
 ---

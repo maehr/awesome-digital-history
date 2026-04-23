@@ -17,12 +17,12 @@ resource_types:
 periods:
   - modern
   - contemporary
-screenshot: /assets/screenshots/the-proceedings-of-the-old-bailey.png
+screenshot: /assets/screenshots/the-proceedings-of-the-old-bailey-placeholder.png
 screenshot_alt: Screenshot of The Proceedings of the Old Bailey
 screenshot_hide: []
 screenshot_wait_ms: 6000
 screenshot_full_page: false
-image: /assets/screenshots/the-proceedings-of-the-old-bailey.png
+image: /assets/screenshots/the-proceedings-of-the-old-bailey-placeholder.png
 page-layout: article
 toc: false
 ---

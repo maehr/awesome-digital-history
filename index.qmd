@@ -151,7 +151,7 @@ toc: false
 </article>
 <article class="col d-flex" data-entry-card data-search="Année Politique Suisse Sources and database for swiss socio-political topics. Année Politique Suisse documents Swiss politics with a searchable database of articles, topics, actors, and processes for contemporary socio-political research. Switzerland encyclopedias de fr contemporary" data-section="archives" data-region="Switzerland" data-type="encyclopedias" data-language="de|fr">
 <div class="card adh-card shadow-sm w-100">
-<a href="entries/annee-politique-suisse.html"><img class="card-img-top" src="/assets/screenshots/annee-politique-suisse.png" alt="Screenshot of Année Politique Suisse"></a>
+<a href="entries/annee-politique-suisse.html"><img class="card-img-top" src="/assets/screenshots/annee-politique-suisse-placeholder.png" alt="Screenshot of Année Politique Suisse"></a>
 <div class="card-body d-grid gap-3">
 <div>
 <h3 class="card-title h5"><a href="entries/annee-politique-suisse.html">Année Politique Suisse</a></h3>
@@ -349,7 +349,7 @@ toc: false
 </article>
 <article class="col d-flex" data-entry-card data-search="Chronicling America America's historic newspapers from 1777-1963. Chronicling America from the Library of Congress offers digitized U.S. historic newspapers and a national directory for press research, 1777-1963. North America newspapers primary sources en modern contemporary" data-section="archives" data-region="North America" data-type="newspapers|primary sources" data-language="en">
 <div class="card adh-card shadow-sm w-100">
-<a href="entries/chronicling-america.html"><img class="card-img-top" src="/assets/screenshots/chronicling-america.png" alt="Screenshot of Chronicling America"></a>
+<a href="entries/chronicling-america.html"><img class="card-img-top" src="/assets/screenshots/chronicling-america-placeholder.png" alt="Screenshot of Chronicling America"></a>
 <div class="card-body d-grid gap-3">
 <div>
 <h3 class="card-title h5"><a href="entries/chronicling-america.html">Chronicling America</a></h3>
@@ -655,7 +655,7 @@ toc: false
 </article>
 <article class="col d-flex" data-entry-card data-search="Digital Public Library of America Discovery tool, or union catalog, for public domain and openly licensed content held by the United States' archives, libraries, museums, and other cultural heritage institutions. Search DPLA across tens of millions of images, texts, videos, and sounds from archives, libraries, and museums in the United States. North America audiovisual sources books magazines manuscripts maps newspapers photos primary sources search engine en ancient medieval modern contemporary" data-section="archives" data-region="North America" data-type="audiovisual sources|books|magazines|manuscripts|maps|newspapers|photos|primary sources|search engine" data-language="en">
 <div class="card adh-card shadow-sm w-100">
-<a href="entries/digital-public-library-of-america.html"><img class="card-img-top" src="/assets/screenshots/digital-public-library-of-america.png" alt="Screenshot of Digital Public Library of America"></a>
+<a href="entries/digital-public-library-of-america.html"><img class="card-img-top" src="/assets/screenshots/digital-public-library-of-america-placeholder.png" alt="Screenshot of Digital Public Library of America"></a>
 <div class="card-body d-grid gap-3">
 <div>
 <h3 class="card-title h5"><a href="entries/digital-public-library-of-america.html">Digital Public Library of America</a></h3>
@@ -745,7 +745,7 @@ toc: false
 </article>
 <article class="col d-flex" data-entry-card data-search="Digitarium Digital edition of the historical Wiener Zeitung. Digitarium offers a digital edition of the historical Wiener Zeitung, supporting Austrian newspaper research in the modern and contemporary periods. Austria newspapers primary sources de modern contemporary" data-section="archives" data-region="Austria" data-type="newspapers|primary sources" data-language="de">
 <div class="card adh-card shadow-sm w-100">
-<a href="entries/digitarium.html"><img class="card-img-top" src="/assets/screenshots/digitarium.png" alt="Screenshot of Digitarium"></a>
+<a href="entries/digitarium.html"><img class="card-img-top" src="/assets/screenshots/digitarium-placeholder.png" alt="Screenshot of Digitarium"></a>
 <div class="card-body d-grid gap-3">
 <div>
 <h3 class="card-title h5"><a href="entries/digitarium.html">Digitarium</a></h3>
@@ -817,7 +817,7 @@ toc: false
 </article>
 <article class="col d-flex" data-entry-card data-search="e-gs Online web portal of the ETH Zurich Graphics Collection. e-gs is the ETH Zurich Graphics Collection portal, providing online access to visual source material for Swiss modern and contemporary history. Switzerland photos primary sources de en modern contemporary" data-section="archives" data-region="Switzerland" data-type="photos|primary sources" data-language="de|en">
 <div class="card adh-card shadow-sm w-100">
-<a href="entries/e-gs.html"><img class="card-img-top" src="/assets/screenshots/e-gs.png" alt="Screenshot of e-gs"></a>
+<a href="entries/e-gs.html"><img class="card-img-top" src="/assets/screenshots/e-gs-placeholder.png" alt="Screenshot of e-gs"></a>
 <div class="card-body d-grid gap-3">
 <div>
 <h3 class="card-title h5"><a href="entries/e-gs.html">e-gs</a></h3>
@@ -853,7 +853,7 @@ toc: false
 </article>
 <article class="col d-flex" data-entry-card data-search="e-newspaperarchives.ch Swiss newspapers. e-newspaperarchives.ch provides access to Swiss newspapers, supporting multilingual research on modern and contemporary public discourse. Switzerland newspapers primary sources de en fr it modern contemporary" data-section="archives" data-region="Switzerland" data-type="newspapers|primary sources" data-language="de|en|fr|it">
 <div class="card adh-card shadow-sm w-100">
-<a href="entries/e-newspaperarchives-ch.html"><img class="card-img-top" src="/assets/screenshots/e-newspaperarchives-ch.png" alt="Screenshot of e-newspaperarchives.ch"></a>
+<a href="entries/e-newspaperarchives-ch.html"><img class="card-img-top" src="/assets/screenshots/e-newspaperarchives-ch-placeholder.png" alt="Screenshot of e-newspaperarchives.ch"></a>
 <div class="card-body d-grid gap-3">
 <div>
 <h3 class="card-title h5"><a href="entries/e-newspaperarchives-ch.html">e-newspaperarchives.ch</a></h3>
@@ -961,7 +961,7 @@ toc: false
 </article>
 <article class="col d-flex" data-entry-card data-search="Europeana Search engine for European textual and non-textual archival sources. Europeana is a multilingual search platform for archival, library, and museum collections from across Europe, spanning text, image, and media sources. Europe audiovisual sources books encyclopedias learning materials magazines manuscripts maps newspapers photos primary sources search engine de en es fr it mul nl no po se ancient medieval modern contemporary" data-section="archives" data-region="Europe" data-type="audiovisual sources|books|encyclopedias|learning materials|magazines|manuscripts|maps|newspapers|photos|primary sources|search engine" data-language="de|en|es|fr|it|mul|nl|no|po|se">
 <div class="card adh-card shadow-sm w-100">
-<a href="entries/europeana.html"><img class="card-img-top" src="/assets/screenshots/europeana.png" alt="Screenshot of Europeana"></a>
+<a href="entries/europeana.html"><img class="card-img-top" src="/assets/screenshots/europeana-placeholder.png" alt="Screenshot of Europeana"></a>
 <div class="card-body d-grid gap-3">
 <div>
 <h3 class="card-title h5"><a href="entries/europeana.html">Europeana</a></h3>
@@ -1105,7 +1105,7 @@ toc: false
 </article>
 <article class="col d-flex" data-entry-card data-search="HathiTrust A not-for-profit collaborative of academic and research libraries preserving and making accessible millions of digitized items. Large-scale digital library run by research libraries, offering access to millions of digitized books, journals, maps, and other historical materials. North America books magazines manuscripts maps primary sources en modern contemporary" data-section="archives" data-region="North America" data-type="books|magazines|manuscripts|maps|primary sources" data-language="en">
 <div class="card adh-card shadow-sm w-100">
-<a href="entries/hathitrust.html"><img class="card-img-top" src="/assets/screenshots/hathitrust.png" alt="Screenshot of HathiTrust"></a>
+<a href="entries/hathitrust.html"><img class="card-img-top" src="/assets/screenshots/hathitrust-placeholder.png" alt="Screenshot of HathiTrust"></a>
 <div class="card-body d-grid gap-3">
 <div>
 <h3 class="card-title h5"><a href="entries/hathitrust.html">HathiTrust</a></h3>
@@ -1141,7 +1141,7 @@ toc: false
 </article>
 <article class="col d-flex" data-entry-card data-search="Historical Encyclopedia of Switzerland Encyclopedia on Swiss history. Multilingual encyclopedia of Swiss history with articles, images, and media covering topics from antiquity to the contemporary period. Switzerland audiovisual sources encyclopedias photos de fr it ancient medieval modern contemporary" data-section="archives" data-region="Switzerland" data-type="audiovisual sources|encyclopedias|photos" data-language="de|fr|it">
 <div class="card adh-card shadow-sm w-100">
-<a href="entries/historical-encyclopedia-of-switzerland.html"><img class="card-img-top" src="/assets/screenshots/historical-encyclopedia-of-switzerland.png" alt="Screenshot of Historical Encyclopedia of Switzerland"></a>
+<a href="entries/historical-encyclopedia-of-switzerland.html"><img class="card-img-top" src="/assets/screenshots/historical-encyclopedia-of-switzerland-placeholder.png" alt="Screenshot of Historical Encyclopedia of Switzerland"></a>
 <div class="card-body d-grid gap-3">
 <div>
 <h3 class="card-title h5"><a href="entries/historical-encyclopedia-of-switzerland.html">Historical Encyclopedia of Switzerland</a></h3>
@@ -1555,7 +1555,7 @@ toc: false
 </article>
 <article class="col d-flex" data-entry-card data-search="Mapire Interactive historical maps. Explore Mapire's historical map portal for georeferenced European maps, city plans, cadastral surveys, and layered spatial comparison. Europe audiovisual sources books encyclopedias magazines maps newspapers photos primary sources search engine de en hu medieval modern contemporary" data-section="archives" data-region="Europe" data-type="audiovisual sources|books|encyclopedias|magazines|maps|newspapers|photos|primary sources|search engine" data-language="de|en|hu">
 <div class="card adh-card shadow-sm w-100">
-<a href="entries/mapire.html"><img class="card-img-top" src="/assets/screenshots/mapire.png" alt="Screenshot of Mapire"></a>
+<a href="entries/mapire.html"><img class="card-img-top" src="/assets/screenshots/mapire-placeholder.png" alt="Screenshot of Mapire"></a>
 <div class="card-body d-grid gap-3">
 <div>
 <h3 class="card-title h5"><a href="entries/mapire.html">Mapire</a></h3>
@@ -1645,7 +1645,7 @@ toc: false
 </article>
 <article class="col d-flex" data-entry-card data-search="Monasterium Deeds from all over Europe. Search Monasterium for charters and other archival sources from hundreds of European archives, with images, fonds, and research collections. Europe books manuscripts maps photos primary sources search engine de en fr lat lt medieval modern contemporary" data-section="archives" data-region="Europe" data-type="books|manuscripts|maps|photos|primary sources|search engine" data-language="de|en|fr|lat|lt">
 <div class="card adh-card shadow-sm w-100">
-<a href="entries/monasterium.html"><img class="card-img-top" src="/assets/screenshots/monasterium.png" alt="Screenshot of Monasterium"></a>
+<a href="entries/monasterium.html"><img class="card-img-top" src="/assets/screenshots/monasterium-placeholder.png" alt="Screenshot of Monasterium"></a>
 <div class="card-body d-grid gap-3">
 <div>
 <h3 class="card-title h5"><a href="entries/monasterium.html">Monasterium</a></h3>
@@ -1843,7 +1843,7 @@ toc: false
 </article>
 <article class="col d-flex" data-entry-card data-search="Perry-Castañeda Library Map Collection Online collection of scanned maps. Perry-Castañeda Library Map Collection provides online access to scanned maps, making it a longstanding reference point for digital cartographic research. North America maps en contemporary" data-section="archives" data-region="North America" data-type="maps" data-language="en">
 <div class="card adh-card shadow-sm w-100">
-<a href="entries/perry-castaneda-library-map-collection.html"><img class="card-img-top" src="/assets/screenshots/perry-castaneda-library-map-collection.png" alt="Screenshot of Perry-Castañeda Library Map Collection"></a>
+<a href="entries/perry-castaneda-library-map-collection.html"><img class="card-img-top" src="/assets/screenshots/perry-castaneda-library-map-collection-placeholder.png" alt="Screenshot of Perry-Castañeda Library Map Collection"></a>
 <div class="card-body d-grid gap-3">
 <div>
 <h3 class="card-title h5"><a href="entries/perry-castaneda-library-map-collection.html">Perry-Castañeda Library Map Collection</a></h3>
@@ -2023,7 +2023,7 @@ toc: false
 </article>
 <article class="col d-flex" data-entry-card data-search="Scripta Paedagogica Collection of archival material and digitized journals in the field of history of education. Scripta Paedagogica provides digitised archival materials and journals for research on the history of education in German-speaking contexts. Germany primary sources de modern contemporary" data-section="archives" data-region="Germany" data-type="primary sources" data-language="de">
 <div class="card adh-card shadow-sm w-100">
-<a href="entries/scripta-paedagogica.html"><img class="card-img-top" src="/assets/screenshots/scripta-paedagogica.png" alt="Screenshot of Scripta Paedagogica"></a>
+<a href="entries/scripta-paedagogica.html"><img class="card-img-top" src="/assets/screenshots/scripta-paedagogica-placeholder.png" alt="Screenshot of Scripta Paedagogica"></a>
 <div class="card-body d-grid gap-3">
 <div>
 <h3 class="card-title h5"><a href="entries/scripta-paedagogica.html">Scripta Paedagogica</a></h3>
@@ -2095,7 +2095,7 @@ toc: false
 </article>
 <article class="col d-flex" data-entry-card data-search="South Asia Commons Discovery platform for South Asian historical and cultural materials held worldwide, with mixed hosting plus outward links. Discover South Asia Commons, a portal for South Asian historical and cultural materials held worldwide, with hosted items and links to partner collections. Asia portal primary sources en mul modern contemporary" data-section="archives" data-region="Asia" data-type="portal|primary sources" data-language="en|mul">
 <div class="card adh-card shadow-sm w-100">
-<a href="entries/south-asia-commons.html"><img class="card-img-top" src="/assets/screenshots/south-asia-commons.png" alt="Screenshot of South Asia Commons"></a>
+<a href="entries/south-asia-commons.html"><img class="card-img-top" src="/assets/screenshots/south-asia-commons-placeholder.png" alt="Screenshot of South Asia Commons"></a>
 <div class="card-body d-grid gap-3">
 <div>
 <h3 class="card-title h5"><a href="entries/south-asia-commons.html">South Asia Commons</a></h3>
@@ -2275,7 +2275,7 @@ toc: false
 </article>
 <article class="col d-flex" data-entry-card data-search="The Proceedings of the Old Bailey London's Central Criminal Court, 1674 to 1913. Search Old Bailey Online for the Proceedings of London's Central Criminal Court, 1674-1913, with texts, maps, and contextual research tools. Great Britain books maps primary sources en modern contemporary" data-section="archives" data-region="Great Britain" data-type="books|maps|primary sources" data-language="en">
 <div class="card adh-card shadow-sm w-100">
-<a href="entries/the-proceedings-of-the-old-bailey.html"><img class="card-img-top" src="/assets/screenshots/the-proceedings-of-the-old-bailey.png" alt="Screenshot of The Proceedings of the Old Bailey"></a>
+<a href="entries/the-proceedings-of-the-old-bailey.html"><img class="card-img-top" src="/assets/screenshots/the-proceedings-of-the-old-bailey-placeholder.png" alt="Screenshot of The Proceedings of the Old Bailey"></a>
 <div class="card-body d-grid gap-3">
 <div>
 <h3 class="card-title h5"><a href="entries/the-proceedings-of-the-old-bailey.html">The Proceedings of the Old Bailey</a></h3>
@@ -2527,7 +2527,7 @@ toc: false
 </article>
 <article class="col d-flex" data-entry-card data-search="Women Working 1800-1930 An exploration of women's impact on the economic life of the United States between 1800 and the Great Depression. Harvard collection on women's economic lives in the United States, 1800-1930, with books, manuscripts, images, and statistical sources. North America books magazines manuscripts photos primary sources statistics en contemporary" data-section="archives" data-region="North America" data-type="books|magazines|manuscripts|photos|primary sources|statistics" data-language="en">
 <div class="card adh-card shadow-sm w-100">
-<a href="entries/women-working-1800-1930.html"><img class="card-img-top" src="/assets/screenshots/women-working-1800-1930.png" alt="Screenshot of Women Working 1800-1930"></a>
+<a href="entries/women-working-1800-1930.html"><img class="card-img-top" src="/assets/screenshots/women-working-1800-1930-placeholder.png" alt="Screenshot of Women Working 1800-1930"></a>
 <div class="card-body d-grid gap-3">
 <div>
 <h3 class="card-title h5"><a href="entries/women-working-1800-1930.html">Women Working 1800-1930</a></h3>
@@ -2545,7 +2545,7 @@ toc: false
 </article>
 <article class="col d-flex" data-entry-card data-search="World Digital Library WDL is an international digital library operated by UNESCO and the United States Library of Congress. Former UNESCO and Library of Congress portal for manuscripts, maps, books, photos, and other primary sources from around the world. North America audiovisual sources books magazines manuscripts maps newspapers photos primary sources search engine en medieval modern contemporary" data-section="archives" data-region="North America" data-type="audiovisual sources|books|magazines|manuscripts|maps|newspapers|photos|primary sources|search engine" data-language="en">
 <div class="card adh-card shadow-sm w-100">
-<a href="entries/world-digital-library.html"><img class="card-img-top" src="/assets/screenshots/world-digital-library.png" alt="Screenshot of World Digital Library"></a>
+<a href="entries/world-digital-library.html"><img class="card-img-top" src="/assets/screenshots/world-digital-library-placeholder.png" alt="Screenshot of World Digital Library"></a>
 <div class="card-body d-grid gap-3">
 <div>
 <h3 class="card-title h5"><a href="entries/world-digital-library.html">World Digital Library</a></h3>
@@ -2617,7 +2617,7 @@ toc: false
 </article>
 <article class="col d-flex" data-entry-card data-search="ZLB Collections of the Berlin Central and State Library. Digital collections of Berlin's Central and State Library with books, maps, newspapers, photographs, and other historical sources. Germany books magazines maps newspapers photos primary sources de en modern contemporary" data-section="archives" data-region="Germany" data-type="books|magazines|maps|newspapers|photos|primary sources" data-language="de|en">
 <div class="card adh-card shadow-sm w-100">
-<a href="entries/zlb.html"><img class="card-img-top" src="/assets/screenshots/zlb.png" alt="Screenshot of ZLB"></a>
+<a href="entries/zlb.html"><img class="card-img-top" src="/assets/screenshots/zlb-placeholder.png" alt="Screenshot of ZLB"></a>
 <div class="card-body d-grid gap-3">
 <div>
 <h3 class="card-title h5"><a href="entries/zlb.html">ZLB</a></h3>

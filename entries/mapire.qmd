@@ -26,12 +26,12 @@ periods:
   - medieval
   - modern
   - contemporary
-screenshot: /assets/screenshots/mapire.png
+screenshot: /assets/screenshots/mapire-placeholder.png
 screenshot_alt: Screenshot of Mapire
 screenshot_hide: []
 screenshot_wait_ms: 6000
 screenshot_full_page: false
-image: /assets/screenshots/mapire.png
+image: /assets/screenshots/mapire-placeholder.png
 page-layout: article
 toc: false
 ---

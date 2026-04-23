@@ -19,12 +19,12 @@ resource_types:
   - statistics
 periods:
   - contemporary
-screenshot: /assets/screenshots/women-working-1800-1930.png
+screenshot: /assets/screenshots/women-working-1800-1930-placeholder.png
 screenshot_alt: Screenshot of Women Working 1800-1930
 screenshot_hide: []
 screenshot_wait_ms: 6000
 screenshot_full_page: false
-image: /assets/screenshots/women-working-1800-1930.png
+image: /assets/screenshots/women-working-1800-1930-placeholder.png
 page-layout: article
 toc: false
 ---

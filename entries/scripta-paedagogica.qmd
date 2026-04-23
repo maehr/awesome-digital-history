@@ -15,12 +15,12 @@ resource_types:
 periods:
   - modern
   - contemporary
-screenshot: /assets/screenshots/scripta-paedagogica.png
+screenshot: /assets/screenshots/scripta-paedagogica-placeholder.png
 screenshot_alt: Screenshot of Scripta Paedagogica
 screenshot_hide: []
 screenshot_wait_ms: 6000
 screenshot_full_page: false
-image: /assets/screenshots/scripta-paedagogica.png
+image: /assets/screenshots/scripta-paedagogica-placeholder.png
 page-layout: article
 toc: false
 ---

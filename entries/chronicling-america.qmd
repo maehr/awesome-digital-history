@@ -16,12 +16,12 @@ resource_types:
 periods:
   - modern
   - contemporary
-screenshot: /assets/screenshots/chronicling-america.png
+screenshot: /assets/screenshots/chronicling-america-placeholder.png
 screenshot_alt: Screenshot of Chronicling America
 screenshot_hide: []
 screenshot_wait_ms: 6000
 screenshot_full_page: false
-image: /assets/screenshots/chronicling-america.png
+image: /assets/screenshots/chronicling-america-placeholder.png
 page-layout: article
 toc: false
 ---

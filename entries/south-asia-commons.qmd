@@ -17,12 +17,12 @@ resource_types:
 periods:
   - modern
   - contemporary
-screenshot: /assets/screenshots/south-asia-commons.png
+screenshot: /assets/screenshots/south-asia-commons-placeholder.png
 screenshot_alt: Screenshot of South Asia Commons
 screenshot_hide: []
 screenshot_wait_ms: 6000
 screenshot_full_page: false
-image: /assets/screenshots/south-asia-commons.png
+image: /assets/screenshots/south-asia-commons-placeholder.png
 page-layout: article
 toc: false
 ---

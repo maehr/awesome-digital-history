@@ -19,12 +19,12 @@ resource_types:
 periods:
   - modern
   - contemporary
-screenshot: /assets/screenshots/e-newspaperarchives-ch.png
+screenshot: /assets/screenshots/e-newspaperarchives-ch-placeholder.png
 screenshot_alt: Screenshot of e-newspaperarchives.ch
 screenshot_hide: []
 screenshot_wait_ms: 6000
 screenshot_full_page: false
-image: /assets/screenshots/e-newspaperarchives-ch.png
+image: /assets/screenshots/e-newspaperarchives-ch-placeholder.png
 page-layout: article
 toc: false
 ---

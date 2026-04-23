@@ -21,12 +21,12 @@ periods:
   - medieval
   - modern
   - contemporary
-screenshot: /assets/screenshots/historical-encyclopedia-of-switzerland.png
+screenshot: /assets/screenshots/historical-encyclopedia-of-switzerland-placeholder.png
 screenshot_alt: Screenshot of Historical Encyclopedia of Switzerland
 screenshot_hide: []
 screenshot_wait_ms: 6000
 screenshot_full_page: false
-image: /assets/screenshots/historical-encyclopedia-of-switzerland.png
+image: /assets/screenshots/historical-encyclopedia-of-switzerland-placeholder.png
 page-layout: article
 toc: false
 ---
