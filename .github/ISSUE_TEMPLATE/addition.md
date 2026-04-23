@@ -2,7 +2,7 @@
 name: Addition
 about: Request to add an item from the list
 title: '[Addition]'
-labels: 'addition'
+labels: 'awesome'
 assignees: ''
 ---
 
@@ -22,7 +22,14 @@ Please provide the following details about the item you want to add to the list:
 }
 ```
 
-Check [maehr.github.io/awesome-digital-history/](https://maehr.github.io/awesome-digital-history/) for the list of available regions, languages, types, and periods.
+Use `data/entries.json` as the canonical reference for existing values.
+
+Allowed values:
+
+- `region`: `Africa`, `Asia`, `Austria`, `Europe`, `France`, `Germany`, `Global`, `Great Britain`, `Netherlands`, `North America`, `Switzerland`
+- `language`: lowercase ISO-style codes already present in `data/entries.json`
+- `type`: `audiovisual sources`, `books`, `collection`, `encyclopedias`, `learning materials`, `magazines`, `manuscripts`, `maps`, `newspapers`, `photos`, `portal`, `primary sources`, `search engine`, `sheet music`, `statistics`, `tools`, `websites`
+- `period`: `prehistory`, `ancient`, `classical`, `medieval`, `early modern`, `modern`, `contemporary`
 
 **Rationale for the addition**
 

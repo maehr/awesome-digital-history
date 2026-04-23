@@ -5,19 +5,12 @@ AI agents and automation for awesome-digital-history.
 ## Commands
 
 ```bash
+# Build artifacts
+pnpm run prebuild            # Sort JSON + compile README
+
 # Validation
 pnpm run awesome-lint        # Validate README.md against Awesome List standards
-pnpm run lint                # Run prettier + eslint
-pnpm run check               # Type check with svelte-check
-
-# Build
-pnpm run prebuild            # Sort JSON + compile README
-pnpm run build               # Production build
-pnpm run dev                 # Development server
-
-# Test
-pnpm run test                # Playwright e2e tests
-pnpm run test:unit           # Vitest unit tests
+pnpm run lint                # Run prettier checks
 
 # Format
 pnpm run format              # Auto-fix with prettier
@@ -27,9 +20,9 @@ pnpm run format              # Auto-fix with prettier
 
 ### awesome-lint
 
-**Trigger:** `push`, `pull_request`  
-**Node:** 24  
-**Runs:** `pnpm run awesome-lint`  
+**Trigger:** `push`, `pull_request`
+**Node:** 24
+**Runs:** `pnpm run awesome-lint`
 **Validates:**
 
 - List structure (headings, links, formatting)
@@ -40,17 +33,17 @@ pnpm run format              # Auto-fix with prettier
 
 ### Pull Request Labeler
 
-**Trigger:** `pull_request_target`  
+**Trigger:** `pull_request_target`
 **Auto-applies labels:**
 
-| Label     | Files Changed                                                                              |
-| --------- | ------------------------------------------------------------------------------------------ |
-| `awesome` | `README.md`                                                                                |
-| `docs`    | `.github/*`, `_layouts/*`, `assets/*`, `_config.yml`, `*.md` (except README), config files |
+| Label     | Files Changed                                                  |
+| --------- | -------------------------------------------------------------- |
+| `awesome` | `README.md`, `data/**`                                         |
+| `docs`    | `.github/**`, `*.md` (except README), `utils/**`, config files |
 
 ### Stale Manager
 
-**Trigger:** Daily cron  
+**Trigger:** Daily cron
 **Config:**
 
 - Stale after: 60 days
@@ -59,7 +52,7 @@ pnpm run format              # Auto-fix with prettier
 
 ### Greetings
 
-**Trigger:** First-time issue/PR  
+**Trigger:** First-time issue/PR
 **Action:** Posts welcome message
 
 ## Issue Types
@@ -69,21 +62,10 @@ pnpm run format              # Auto-fix with prettier
 ```yaml
 type: content
 examples:
-  - 'Add [Resource Name] to [Section]'
-  - 'Remove outdated link:  [URL]'
+  - 'Add [Resource Name]'
+  - 'Remove outdated link: [URL]'
   - 'Update description for [Resource]'
 labels: [awesome]
-```
-
-### Technical Issues
-
-```yaml
-type: technical
-examples:
-  - 'CI workflow failing on Node 24'
-  - 'Build error in prebuild script'
-  - 'Broken link checker needed'
-labels: [docs, bug]
 ```
 
 ### Documentation Issues
@@ -92,23 +74,26 @@ labels: [docs, bug]
 type: documentation
 examples:
   - 'Update CONTRIBUTING.md'
-  - 'Add translation guidelines'
   - 'Improve AGENTS.md'
+  - 'Adjust PR template copy'
 labels: [docs]
 ```
 
-### Automation Issues
+### Security Issues
 
 ```yaml
-type: automation
+type: security
 examples:
-  - 'Add automated link validation'
-  - 'Adjust stale threshold'
-  - 'Configure dependabot'
-labels: [automation, enhancement]
+  - 'Dependency vulnerability in awesome-lint workflow'
+  - 'Unsafe repository automation configuration'
+labels: []
 ```
 
 ## Data Structures
+
+### Canonical Data File
+
+`data/entries.json`
 
 ### README Entry Format
 
@@ -116,84 +101,31 @@ labels: [automation, enhancement]
 - [Title](https://example.com/) - Brief description ending with period.
 ```
 
-### Labeler Configuration (`.github/labeler.yml`)
-
-```yaml
-label_name:
-  - path/pattern
-  - glob/**/*
-```
-
-**Available Labels:**
-
-- `awesome` - Content changes
-- `docs` - Documentation updates
-- `no-issue-activity` - Stale issue
-- `no-pr-activity` - Stale PR
-
-### Workflow Triggers
-
-```yaml
-# Possible values
-on:
-  - push
-  - pull_request
-  - pull_request_target
-  - issues
-  - schedule:
-      - cron: '0 0 * * *' # Daily at midnight UTC
-```
-
-### Resource Schema (Internal JSON)
+### Resource Schema
 
 ```json
 {
 	"title": "string",
-	"url": "string (URL)",
 	"description": "string",
-	"category": "enum[africa|asia|austria|europe|france|germany|global|great-britain|netherlands|north-america|switzerland|learning]",
-	"tags": ["string[]"],
-	"verified": "boolean"
+	"url": "string (URL)",
+	"region": [
+		"Africa|Asia|Austria|Europe|France|Germany|Global|Great Britain|Netherlands|North America|Switzerland"
+	],
+	"language": ["ISO language code"],
+	"type": [
+		"audiovisual sources|books|collection|encyclopedias|learning materials|magazines|manuscripts|maps|newspapers|photos|portal|primary sources|search engine|sheet music|statistics|tools|websites"
+	],
+	"period": ["prehistory|ancient|classical|medieval|early modern|modern|contemporary"]
 }
 ```
 
-## GitHub Copilot Usage
+## Maintenance Workflow
 
-### For PRs
-
-- Verify links are active (HTTP 200)
-- Check alphabetical order within section
-- Validate description ends with period
-- Ensure no duplicates exist
-- Run `pnpm run awesome-lint` before committing
-
-### For Issues
-
-- Search existing issues for duplicates
-- Use appropriate labels
-- Provide specific resource URLs
-- Include section name for additions
-
-### For Code Reviews
-
-- Check CI passes
-- Verify format consistency
-- Test locally: `pnpm run dev`
-- Validate build: `pnpm run build`
-
-## Prebuild Scripts
-
-Located in `utils/`:
-
-```javascript
-// utils/sortJSON.js - Alphabetically sorts resource JSON
-// utils/compileReadme.js - Generates README.md from data
-```
-
-**Runs automatically before:**
-
-- `pnpm run prepare`
-- `pnpm run build`
+1. Update `data/entries.json`.
+2. Run `pnpm run prebuild`.
+3. Run `pnpm run format`.
+4. Run `pnpm run lint`.
+5. Run `pnpm run awesome-lint`.
 
 ## Requirements
 
@@ -201,7 +133,7 @@ Located in `utils/`:
 {
 	"node": ">=20",
 	"pnpm": ">=10",
-	"packageManager": "pnpm@10.16.0"
+	"packageManager": "pnpm@10.32.1"
 }
 ```
 
@@ -209,10 +141,9 @@ Located in `utils/`:
 
 Pre-merge checklist:
 
+- [ ] `pnpm run prebuild` passes
 - [ ] `pnpm run awesome-lint` passes
 - [ ] `pnpm run lint` passes
-- [ ] `pnpm run check` passes
-- [ ] `pnpm run test` passes (if applicable)
 - [ ] Links manually verified
 - [ ] Alphabetical order maintained
 - [ ] Description follows format

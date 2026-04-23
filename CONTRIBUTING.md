@@ -2,6 +2,8 @@
 
 Awesome Digital History is a community-driven project that aims to curate a list of resources related to digital history. We welcome contributions of all kinds: new entries, corrections, updates, etc. To maintain the quality of the list, we request that contributors follow these guidelines.
 
+The canonical dataset lives in `data/entries.json`, and `README.md` is generated from that file.
+
 ## How to contribute
 
 You can propose changes in two ways:
@@ -19,8 +21,11 @@ You can propose changes in two ways:
 ### Proposing a change via a pull request
 
 1. [Fork](https://github.com/maehr/awesome-digital-history/fork) the repository.
-2. Make your changes and commit them to your repor.
-3. [Submit a pull request](https://github.com/maehr/awesome-digital-history/compare) to the `main` branch of the original repository.
+2. Update `data/entries.json` and any related documentation.
+3. Run `pnpm run prebuild` to sort the data and regenerate `README.md`.
+4. Run `pnpm run format`, `pnpm run lint`, and `pnpm run awesome-lint`.
+5. Make your changes and commit them to your fork.
+6. [Submit a pull request](https://github.com/maehr/awesome-digital-history/compare) to the `main` branch of the original repository.
 
 ## Code of Conduct
 

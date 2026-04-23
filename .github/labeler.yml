@@ -1,15 +1,21 @@
 awesome:
   - README.md
+  - data/**/*
 
 docs:
-  - .github/*
-  - _layouts/*
-  - assets/*
-  - _config.yml
-  - 404.md
+  - .github/**/*
+  - AGENTS.md
+  - ABOUT.md
   - CODE_OF_CONDUCT.md
   - CONTRIBUTING.md
-  - LICENSE.md
+  - CITATION.cff
+  - LICENSE*
   - SECURITY.md
+  - package.json
+  - pnpm-lock.yaml
+  - utils/**/*
+  - .npmrc
+  - .prettierrc
+  - .prettierignore
   - .gitattributes
   - .gitignore

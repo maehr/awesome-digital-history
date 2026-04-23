@@ -2,7 +2,7 @@
 name: Removal Request
 about: Request to remove an item from the list
 title: '[Removal]'
-labels: 'removal'
+labels: 'awesome'
 assignees: ''
 ---
 

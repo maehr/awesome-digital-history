@@ -1,13 +1,13 @@
 {
 	"name": "Awesome Digital History",
 	"version": "0.0.1",
-	"url": "https://maehr.github.io/awesome-digital-history/issues",
+	"url": "https://github.com/maehr/awesome-digital-history/issues",
 	"license": "CC0",
 	"scripts": {
 		"lint": "prettier --check .",
 		"format": "prettier --write .",
 		"prebuild": "node utils/sortJSON.js && node utils/compileReadme.js",
-		"awesome-lint": "awesome-lint"
+		"awesome-lint": "node utils/runAwesomeLint.js"
 	},
 	"engines": {
 		"node": ">=20",

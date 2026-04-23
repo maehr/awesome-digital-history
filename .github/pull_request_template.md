@@ -1,6 +1,6 @@
 ## Pull Request
 
-Add / Remove / Change `{entry name}` in `src/lib/data/entries.json`.
+Add / Remove / Change `{entry name}` in `data/entries.json`.
 
 <!-- NOTE: Please do not skip the template -->
 
@@ -17,9 +17,10 @@ Describe why this change is made. Alternatively, refer to existing issues if any
 Please ensure that you have completed the following tasks:
 
 - [ ] I have read and understood the [contribution guidelines](CONTRIBUTING.md).
-- [ ] I have run `npm run prepare` to sort the entries in `src/lib/data/entries.json` alphabetically and to generate the `README.md` file.
-- [ ] I have run `npm run format` to format the repository code.
-- [ ] I have run `npm run awesome-lint` to ensure that the `README.md` file is formatted correctly.
+- [ ] If I changed `data/entries.json`, I have run `pnpm run prebuild` to sort the entries alphabetically and regenerate `README.md`.
+- [ ] I have run `pnpm run format` to format the repository files.
+- [ ] I have run `pnpm run lint` to verify formatting.
+- [ ] I have run `pnpm run awesome-lint` to ensure that the `README.md` file is formatted correctly.
 
 ### Criteria for accepting a pull request
 
@@ -31,18 +32,20 @@ _Contributors, please ensure that_:
 _Maintainers, please ensure that_:
 
 - The above criteria are followed.
-- The tests pass on the CI.
+- The checks pass on the CI.
 - In the case of addition or removal, make an assessment of the awesomeness of the entry.
 
 ### Updating your PR
 
 If the maintainers notice anything that needs to be changed, they will ask you to edit your PR before merging it. Please do not open a new PR, just edit the existing one. If you're not sure how to do that, [here is a guide](https://github.com/RichardLitt/knowledge/blob/master/github/amending-a-commit-guide.md) on the different ways you can update your PR.
 
-### Appendix: running lint tests
+### Appendix: local validation
 
-To run tests locally using Node.js, you need to install the dependencies first:
+To validate changes locally, install the dependencies first:
 
 ```bash
-npm install
-npm run prepare
+pnpm install
+pnpm run prebuild
+pnpm run lint
+pnpm run awesome-lint
 ```
