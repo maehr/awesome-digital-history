@@ -10,9 +10,12 @@ project:
     - CODE_OF_CONDUCT.md
     - SECURITY.md
 
+brand: _brand.yml
+
 website:
   title: Awesome Digital History
   site-url: https://maehr.github.io/awesome-digital-history/
+  favicon: assets/favicon.svg
   repo-url: https://github.com/maehr/awesome-digital-history/
   issue-url: https://github.com/maehr/awesome-digital-history/issues/new/choose
   repo-actions: [edit, issue]
@@ -25,8 +28,8 @@ website:
     left:
       - href: index.qmd
         text: Directory
-      - href: README.md
-        text: README
+      - href: ABOUT.md
+        text: About
       - href: CONTRIBUTING.md
         text: Contributing
     tools:
@@ -35,8 +38,9 @@ website:
 
 format:
   html:
-    theme: cosmo
-    css: assets/styles.css
+    theme:
+      - cosmo
+      - theme.scss
     template-partials:
       - partials/title-block.html
     include-after-body: assets/site-footer.html

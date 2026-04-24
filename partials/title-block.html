@@ -1,35 +1,53 @@
 $if(external_url)$
 <header id="title-block-header" class="quarto-title-block default">
-	<div class="quarto-title">
+	<div class="quarto-title mb-3">
 		<h1 class="title">$title$</h1>
 	</div>
 	$if(short_description)$
-	<p class="adh-entry-intro">$short_description$</p>
+	<p class="lead text-body-secondary mb-4">$short_description$</p>
 	$endif$
-	<a class="adh-page-link" href="$external_url$">Visit resource</a>
+	<p><a class="btn btn-primary" href="$external_url$">Visit resource</a></p>
 	$if(screenshot)$
-	<figure class="adh-entry-figure">
-		<img src="$screenshot$" alt="$screenshot_alt$" />
+	<figure class="figure my-4 w-100">
+		<img
+			class="figure-img img-fluid rounded shadow-sm border"
+			src="$screenshot$"
+			alt="$screenshot_alt$"
+		/>
 		<figcaption>$screenshot_alt$</figcaption>
 	</figure>
 	$endif$
-	<h2>Metadata</h2>
-	<div class="adh-meta">
-		<div><strong>Section</strong>$section_label$</div>
-		<div>
-			<strong>Region</strong>$if(regions)$$for(regions)$$regions$$sep$, $endfor$$else$None$endif$
+	<section class="card bg-body-tertiary border-0 shadow-sm mb-4">
+		<div class="card-body">
+			<h2 class="h4 mb-3">Metadata</h2>
+			<div class="row g-3">
+				<div class="col-12 col-md-6 col-xl-4">
+					<p class="fw-semibold mb-1">Section</p>
+					<p class="mb-0">$section_label$</p>
+				</div>
+				<div class="col-12 col-md-6 col-xl-4">
+					<p class="fw-semibold mb-1">Region</p>
+					<p class="mb-0">$if(regions)$$for(regions)$$regions$$sep$, $endfor$$else$None$endif$</p>
+				</div>
+				<div class="col-12 col-md-6 col-xl-4">
+					<p class="fw-semibold mb-1">Language</p>
+					<p class="mb-0">
+						$if(languages)$$for(languages)$$languages$$sep$, $endfor$$else$None$endif$
+					</p>
+				</div>
+				<div class="col-12 col-md-6 col-xl-4">
+					<p class="fw-semibold mb-1">Type</p>
+					<p class="mb-0">
+						$if(resource_types)$$for(resource_types)$$resource_types$$sep$,
+						$endfor$$else$None$endif$
+					</p>
+				</div>
+				<div class="col-12 col-md-6 col-xl-4">
+					<p class="fw-semibold mb-1">Period</p>
+					<p class="mb-0">$if(periods)$$for(periods)$$periods$$sep$, $endfor$$else$None$endif$</p>
+				</div>
+			</div>
 		</div>
-		<div>
-			<strong>Language</strong>$if(languages)$$for(languages)$$languages$$sep$,
-			$endfor$$else$None$endif$
-		</div>
-		<div>
-			<strong>Type</strong>$if(resource_types)$$for(resource_types)$$resource_types$$sep$,
-			$endfor$$else$None$endif$
-		</div>
-		<div>
-			<strong>Period</strong>$if(periods)$$for(periods)$$periods$$sep$, $endfor$$else$None$endif$
-		</div>
-	</div>
+	</section>
 </header>
 $endif$

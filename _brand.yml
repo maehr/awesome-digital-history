@@ -1,0 +1,56 @@
+meta:
+  name: Awesome Digital History
+  link:
+    home: https://maehr.github.io/awesome-digital-history/
+    github: https://github.com/maehr/awesome-digital-history/
+  description: |
+    A curated directory of digital history resources with editorial notes and screenshots.
+
+color:
+  # Earthy pastel palette (for use in figures, callouts, backgrounds, accents)
+  palette:
+    ivory: '#FAF7F0'
+    charcoal: '#1F1A17'
+
+    sand: '#E6D5B8'
+    linen: '#D9D0C1'
+    sage: '#A3B18A'
+    eucalyptus: '#7AAE9B'
+    clay: '#C97C5D'
+    terracotta: '#B15A3A'
+    rose-dust: '#D9A6A1'
+    sky: '#A9C4D8'
+    ocean: '#8BB4C5'
+    mauve: '#C2B5D6'
+    slate: '#5B6770'
+
+  # High-contrast semantic roles (dark earth accents so they remain AAA on ivory)
+  primary: '#1E4D3A'
+  secondary: '#5e513a'
+  success: '#0F5E4E'
+  info: '#1F5A7A'
+  warning: '#6B4E2E'
+  danger: '#7A2E2E'
+
+  # Page defaults (AAA for body text)
+  foreground: '#1F1A17'
+  background: '#FAF7F0'
+
+typography:
+  fonts:
+    - family: 'Hanken Grotesk'
+      source: google
+      weight: [300, 400, 500, 600, 700]
+      style: normal
+  base:
+    family: 'Hanken Grotesk'
+    size: 1rem
+    weight: 400
+    line-height: 1.5
+  headings:
+    family: 'Hanken Grotesk'
+    weight: 600
+    line-height: 1.2
+  monospace:
+    family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace
+# Go to https://quarto.org/docs/authoring/brand.html to learn more about multiformat branding with brand.yml

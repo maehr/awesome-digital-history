@@ -383,16 +383,22 @@ export function buildReadme(entries) {
 	return `${lines.join('\n')}\n`;
 }
 
-function cardChips(entry) {
-	const chips = [];
-	chips.push(`<span class="adh-chip">${SECTION_LABELS[entry.section]}</span>`);
+function cardBadges(entry) {
+	const badges = [];
+	badges.push(
+		`<a class="badge rounded-pill bg-primary-subtle text-primary-emphasis border border-primary-subtle text-decoration-none" href="#directory-section" data-filter-chip="section" data-filter-value="${escapeHtml(entry.section)}">${escapeHtml(SECTION_LABELS[entry.section])}</a>`
+	);
 	for (const region of entry.region) {
-		chips.push(`<span class="adh-chip adh-chip--muted">${region}</span>`);
+		badges.push(
+			`<a class="badge rounded-pill border bg-body text-body-secondary text-decoration-none" href="#directory-region" data-filter-chip="region" data-filter-value="${escapeHtml(region)}">${escapeHtml(region)}</a>`
+		);
 	}
 	for (const type of entry.type.slice(0, 2)) {
-		chips.push(`<span class="adh-chip adh-chip--muted">${type}</span>`);
+		badges.push(
+			`<a class="badge rounded-pill border bg-body text-body-secondary text-decoration-none" href="#directory-type" data-filter-chip="type" data-filter-value="${escapeHtml(type)}">${escapeHtml(type)}</a>`
+		);
 	}
-	return chips.join('');
+	return badges.join('');
 }
 
 function optionList(entries, key) {
@@ -426,20 +432,23 @@ export function buildIndexQmd(entries) {
 				...entry.period
 			];
 
-			return `<article class="col d-flex" data-entry-card data-search="${escapeHtml(searchParts.join(' '))}" data-section="${escapeHtml(entry.section)}" data-region="${escapeHtml(entry.region.join('|'))}" data-type="${escapeHtml(entry.type.join('|'))}" data-language="${escapeHtml(entry.language.join('|'))}">
-<div class="card adh-card shadow-sm w-100">
-<a href="entries/${entry.slug}.html"><img class="card-img-top" src="${escapeHtml(entry.screenshot)}" alt="${escapeHtml(entry.screenshot_alt)}"></a>
-<div class="card-body d-grid gap-3">
+			return `<article data-entry-card data-search="${escapeHtml(searchParts.join(' '))}" data-section="${escapeHtml(entry.section)}" data-region="${escapeHtml(entry.region.join('|'))}" data-type="${escapeHtml(entry.type.join('|'))}" data-language="${escapeHtml(entry.language.join('|'))}">
+<div class="card h-100 shadow-sm border-0 w-100">
+<a class="text-decoration-none" href="entries/${entry.slug}.html">
+<div class="ratio ratio-16x9">
+<img class="w-100 h-100 object-fit-cover" src="${escapeHtml(entry.screenshot)}" alt="${escapeHtml(entry.screenshot_alt)}">
+</div>
+</a>
+<div class="card-body d-flex flex-column gap-3">
 <div>
-<h3 class="card-title h5"><a href="entries/${entry.slug}.html">${escapeHtml(entry.title)}</a></h3>
-<p class="card-text">${escapeHtml(entry.short_description)}</p>
+<h3 class="card-title h5 mb-2"><a class="link-body-emphasis text-decoration-none" href="entries/${entry.slug}.html">${escapeHtml(entry.title)}</a></h3>
+<p class="card-text text-body-secondary mb-0">${escapeHtml(entry.short_description)}</p>
 </div>
-<div class="adh-chips">${cardChips(entry)}</div>
+<p class="mb-0 d-flex flex-wrap gap-2">${cardBadges(entry)}</p>
 </div>
-<div class="card-footer bg-white border-0 pt-0">
-<div class="adh-card-links d-flex gap-2 flex-wrap">
-<a class="btn btn-sm btn-outline-primary" href="entries/${entry.slug}.html">Entry page</a>
-<a class="btn btn-sm btn-link px-0" href="${escapeHtml(entry.external_url)}" rel="noopener noreferrer">Visit source</a>
+<div class="card-footer bg-transparent border-0 pt-0 pb-3 px-3">
+<div class="d-flex gap-2 flex-wrap">
+<a class="btn btn-sm btn-primary" href="${escapeHtml(entry.external_url)}" rel="noopener noreferrer">Visit resource</a>
 </div>
 </div>
 </div>
@@ -453,58 +462,75 @@ page-layout: full
 toc: false
 ---
 
-::: {.adh-hero}
 # Awesome Digital History
 
-<p class="adh-lead">A searchable directory of digital history resources with short awesome-list descriptions, longer editorial notes, and screenshots for fast evaluation.</p>
+::: {.lead .mb-4}
+A searchable directory of digital history resources with short awesome-list descriptions, longer editorial notes, and screenshots for fast evaluation.
 :::
 
-<div class="adh-controls">
-  <label>Search
-    <input type="search" placeholder="Search titles, regions, types, languages" data-entry-filter data-filter-search>
-  </label>
-  <label>Section
-    <select data-entry-filter data-filter-section>
-      <option value="">All sections</option>
-      <option value="archives">Archives and primary sources</option>
-      <option value="learning">Learning</option>
-      <option value="more-awesome">More Awesome</option>
-    </select>
-  </label>
-  <label>Region
-    <select data-entry-filter data-filter-region>
-      <option value="">All regions</option>
-      ${optionList(
-				entries.filter((entry) => entry.section === 'archives'),
-				'region'
-			)}
-    </select>
-  </label>
-  <label>Type
-    <select data-entry-filter data-filter-type>
-      <option value="">All types</option>
-      ${optionList(entries, 'type')}
-    </select>
-  </label>
-  <label>Language
-    <select data-entry-filter data-filter-language>
-      <option value="">All languages</option>
-      ${optionList(entries, 'language')}
-    </select>
-  </label>
+::: {.card .bg-body-tertiary .border-0 .shadow-sm .mb-4}
+::: {.card-body}
+<div class="d-grid gap-3" data-filter-grid>
+<div class="d-grid gap-2">
+<label class="form-label fw-semibold" for="directory-search">Search</label>
+<input id="directory-search" class="form-control" type="search" placeholder="Search titles, regions, types, languages" data-entry-filter data-filter-search>
 </div>
+<div class="d-grid gap-2">
+<label class="form-label fw-semibold" for="directory-section">Section</label>
+<select id="directory-section" class="form-select" data-entry-filter data-filter-section>
+<option value="">All sections</option>
+<option value="archives">Archives and primary sources</option>
+<option value="learning">Learning</option>
+<option value="more-awesome">More Awesome</option>
+</select>
+</div>
+<div class="d-grid gap-2">
+<label class="form-label fw-semibold" for="directory-region">Region</label>
+<select id="directory-region" class="form-select" data-entry-filter data-filter-region>
+<option value="">All regions</option>
+${optionList(
+	entries.filter((entry) => entry.section === 'archives'),
+	'region'
+)}
+</select>
+</div>
+<div class="d-grid gap-2">
+<label class="form-label fw-semibold" for="directory-type">Type</label>
+<select id="directory-type" class="form-select" data-entry-filter data-filter-type>
+<option value="">All types</option>
+${optionList(entries, 'type')}
+</select>
+</div>
+<div class="d-grid gap-2">
+<label class="form-label fw-semibold" for="directory-language">Language</label>
+<select id="directory-language" class="form-select" data-entry-filter data-filter-language>
+<option value="">All languages</option>
+${optionList(entries, 'language')}
+</select>
+</div>
+</div>
+:::
+:::
 
-<p class="adh-result-count" data-result-count>${entries.length} entries</p>
+<p class="text-body-secondary fw-semibold mb-4" data-result-count>${entries.length} entries</p>
 
-<div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 adh-grid" data-entry-grid>
+<div class="d-grid gap-4" data-entry-grid>
 ${cards}
 </div>
 
+::: {.callout-tip}
 ## Notes
-
-- \`README.md\` is generated from the entry pages and keeps direct outbound links to the listed resources.
 - The site index is pre-rendered for crawlability and randomized in the browser for visitors.
 - Each entry page adds a longer description and screenshot for discovery and SEO.
+
+:::
+
+::: {.callout-note}
+## Disclosure
+
+This page was made using human and artificial intelligence. People selected, reviewed, corrected, and maintain the entries; AI-assisted workflows were used to support drafting, structuring, and site production.
+
+:::
 `;
 }
 

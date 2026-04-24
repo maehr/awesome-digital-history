@@ -15,6 +15,16 @@ function shuffleCards(cards) {
 	return copy;
 }
 
+function filterControl(name) {
+	return document.querySelector(`[data-filter-${name}]`);
+}
+
+function resetFilters() {
+	for (const control of document.querySelectorAll('[data-entry-filter]')) {
+		control.value = '';
+	}
+}
+
 function applyFilters() {
 	const grid = document.querySelector('[data-entry-grid]');
 	if (!grid) {
@@ -52,6 +62,17 @@ function applyFilters() {
 	grid.dataset.randomized = 'filtered';
 }
 
+function applySingleFilter(name, value) {
+	const control = filterControl(name);
+	if (!control) {
+		return;
+	}
+	resetFilters();
+	control.value = value;
+	applyFilters();
+	control.focus();
+}
+
 function randomizeInitialOrder() {
 	const grid = document.querySelector('[data-entry-grid]');
 	if (!grid || grid.dataset.randomized) {
@@ -70,5 +91,13 @@ window.addEventListener('DOMContentLoaded', () => {
 		control.addEventListener('input', applyFilters);
 		control.addEventListener('change', applyFilters);
 	}
+	document.addEventListener('click', (event) => {
+		const chip = event.target.closest('[data-filter-chip]');
+		if (!chip) {
+			return;
+		}
+		event.preventDefault();
+		applySingleFilter(chip.dataset.filterChip, chip.dataset.filterValue || '');
+	});
 	applyFilters();
 });
