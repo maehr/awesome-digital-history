@@ -6,6 +6,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+### Changed
+
+- Added period filter and refined metadata badges.
+
+### Fixed
+
+- Updated external URLs for shifted resources.
+
+
 ### Added
 
 - Added this reconstructed data changelog.
