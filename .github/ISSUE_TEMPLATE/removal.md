@@ -22,4 +22,4 @@ Are there any alternatives that could be added to the list in place of this item
 
 Add any other context or screenshots about the removal request here.
 
-Please note that this project is governed by a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
+Please note that this project is governed by a [Contributor Code of Conduct](../../CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
