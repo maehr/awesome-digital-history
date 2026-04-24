@@ -3,6 +3,7 @@ node_modules/
 _site/
 .quarto/
 .lycheecache
+.jampack
 
 .env
 .env.*
