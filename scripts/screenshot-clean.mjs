@@ -341,8 +341,8 @@ async function main() {
 	const outputDir = path.dirname(args.output);
 	await mkdir(outputDir, { recursive: true });
 
-	const browser = await chromium.launch({ headless: true });
-	const context = await browser.newContext({ viewport: args.viewport, ignoreHTTPSErrors: true });
+	const browser = await chromium.launch({ headless: false });
+	const context = await browser.newContext({ viewport: args.viewport, ignoreHTTPSErrors: true, userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' });
 	const page = await context.newPage();
 
 	try {
