@@ -4,6 +4,8 @@ function normalise(value) {
 		.trim();
 }
 
+const FILTER_NAMES = ['search', 'section', 'region', 'type', 'language', 'period'];
+
 function shuffleCards(cards) {
 	const copy = [...cards];
 	for (let index = copy.length - 1; index > 0; index -= 1) {
@@ -19,13 +21,50 @@ function filterControl(name) {
 	return document.querySelector(`[data-filter-${name}]`);
 }
 
+function activeFilterState() {
+	const state = new Map();
+	for (const name of FILTER_NAMES) {
+		const control = filterControl(name);
+		const value = control?.value.trim() || '';
+		if (value) {
+			state.set(name, value);
+		}
+	}
+	return state;
+}
+
+function updateFilterUrl() {
+	if (!document.querySelector('[data-entry-grid]')) {
+		return;
+	}
+
+	const params = new URLSearchParams();
+	for (const [name, value] of activeFilterState()) {
+		params.set(name, value);
+	}
+
+	const query = params.toString();
+	const nextUrl = `${window.location.pathname}${query ? `?${query}` : ''}`;
+	window.history.replaceState(null, '', nextUrl);
+}
+
+function restoreFiltersFromUrl() {
+	const params = new URLSearchParams(window.location.search);
+	for (const name of FILTER_NAMES) {
+		const control = filterControl(name);
+		if (control) {
+			control.value = params.get(name) || '';
+		}
+	}
+}
+
 function resetFilters() {
 	for (const control of document.querySelectorAll('[data-entry-filter]')) {
 		control.value = '';
 	}
 }
 
-function applyFilters() {
+function applyFilters({ updateUrl = true } = {}) {
 	const grid = document.querySelector('[data-entry-grid]');
 	if (!grid) {
 		return;
@@ -37,6 +76,7 @@ function applyFilters() {
 	const region = normalise(document.querySelector('[data-filter-region]')?.value);
 	const type = normalise(document.querySelector('[data-filter-type]')?.value);
 	const language = normalise(document.querySelector('[data-filter-language]')?.value);
+	const period = normalise(document.querySelector('[data-filter-period]')?.value);
 
 	let visible = 0;
 	for (const card of cards) {
@@ -47,8 +87,15 @@ function applyFilters() {
 		const matchesType = !type || normalise(card.dataset.type).split('|').includes(type);
 		const matchesLanguage =
 			!language || normalise(card.dataset.language).split('|').includes(language);
+		const matchesPeriod = !period || normalise(card.dataset.period).split('|').includes(period);
 
-		const show = matchesSearch && matchesSection && matchesRegion && matchesType && matchesLanguage;
+		const show =
+			matchesSearch &&
+			matchesSection &&
+			matchesRegion &&
+			matchesType &&
+			matchesLanguage &&
+			matchesPeriod;
 		card.hidden = !show;
 		if (show) {
 			visible += 1;
@@ -60,6 +107,10 @@ function applyFilters() {
 		count.textContent = `${visible} entries`;
 	}
 	grid.dataset.randomized = 'filtered';
+
+	if (updateUrl) {
+		updateFilterUrl();
+	}
 }
 
 function applySingleFilter(name, value) {
@@ -87,6 +138,7 @@ function randomizeInitialOrder() {
 
 window.addEventListener('DOMContentLoaded', () => {
 	randomizeInitialOrder();
+	restoreFiltersFromUrl();
 	for (const control of document.querySelectorAll('[data-entry-filter]')) {
 		control.addEventListener('input', applyFilters);
 		control.addEventListener('change', applyFilters);
@@ -96,8 +148,16 @@ window.addEventListener('DOMContentLoaded', () => {
 		if (!chip) {
 			return;
 		}
+		if (!document.querySelector('[data-entry-grid]')) {
+			return;
+		}
 		event.preventDefault();
 		applySingleFilter(chip.dataset.filterChip, chip.dataset.filterValue || '');
 	});
-	applyFilters();
+	applyFilters({ updateUrl: false });
+});
+
+window.addEventListener('popstate', () => {
+	restoreFiltersFromUrl();
+	applyFilters({ updateUrl: false });
 });

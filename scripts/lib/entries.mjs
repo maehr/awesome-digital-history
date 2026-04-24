@@ -383,21 +383,39 @@ export function buildReadme(entries) {
 	return `${lines.join('\n')}\n`;
 }
 
+function filterHref(name, value) {
+	const params = new URLSearchParams([[name, value]]);
+	return `?${params.toString()}#directory-${name}`;
+}
+
+function filterBadge(name, value, label = value, isPrimary = false) {
+	const classes = [
+		'badge rounded-pill border text-decoration-none metadata-badge',
+		`metadata-badge--${name}`,
+		isPrimary ? 'metadata-badge--primary' : ''
+	]
+		.filter(Boolean)
+		.join(' ');
+
+	return `<a class="${classes}" href="${escapeHtml(filterHref(name, value))}" data-filter-chip="${escapeHtml(name)}" data-filter-value="${escapeHtml(value)}">${escapeHtml(label)}</a>`;
+}
+
 function cardBadges(entry) {
-	const badges = [];
-	badges.push(
-		`<a class="badge rounded-pill bg-primary-subtle text-primary-emphasis border border-primary-subtle text-decoration-none" href="#directory-section" data-filter-chip="section" data-filter-value="${escapeHtml(entry.section)}">${escapeHtml(SECTION_LABELS[entry.section])}</a>`
-	);
+	const badges = [filterBadge('section', entry.section, SECTION_LABELS[entry.section], true)];
+
 	for (const region of entry.region) {
-		badges.push(
-			`<a class="badge rounded-pill border bg-body text-body-secondary text-decoration-none" href="#directory-region" data-filter-chip="region" data-filter-value="${escapeHtml(region)}">${escapeHtml(region)}</a>`
-		);
+		badges.push(filterBadge('region', region));
 	}
-	for (const type of entry.type.slice(0, 2)) {
-		badges.push(
-			`<a class="badge rounded-pill border bg-body text-body-secondary text-decoration-none" href="#directory-type" data-filter-chip="type" data-filter-value="${escapeHtml(type)}">${escapeHtml(type)}</a>`
-		);
+	for (const language of entry.language) {
+		badges.push(filterBadge('language', language));
 	}
+	for (const type of entry.type) {
+		badges.push(filterBadge('type', type));
+	}
+	for (const period of entry.period) {
+		badges.push(filterBadge('period', period));
+	}
+
 	return badges.join('');
 }
 
@@ -432,7 +450,7 @@ export function buildIndexQmd(entries) {
 				...entry.period
 			];
 
-			return `<article data-entry-card data-search="${escapeHtml(searchParts.join(' '))}" data-section="${escapeHtml(entry.section)}" data-region="${escapeHtml(entry.region.join('|'))}" data-type="${escapeHtml(entry.type.join('|'))}" data-language="${escapeHtml(entry.language.join('|'))}">
+			return `<article data-entry-card data-search="${escapeHtml(searchParts.join(' '))}" data-section="${escapeHtml(entry.section)}" data-region="${escapeHtml(entry.region.join('|'))}" data-type="${escapeHtml(entry.type.join('|'))}" data-language="${escapeHtml(entry.language.join('|'))}" data-period="${escapeHtml(entry.period.join('|'))}">
 <div class="card h-100 shadow-sm border-0 w-100">
 <a class="text-decoration-none" href="entries/${entry.slug}.html">
 <div class="ratio ratio-16x9">
@@ -465,15 +483,15 @@ toc: false
 # Awesome Digital History
 
 ::: {.lead .mb-4}
-A searchable directory of digital history resources with short awesome-list descriptions, longer editorial notes, and screenshots for fast evaluation.
+A curated directory of digital history resources for finding sources, tools, and learning materials for historical research.
 :::
 
 ::: {.card .bg-body-tertiary .border-0 .shadow-sm .mb-4}
 ::: {.card-body}
 <div class="d-grid gap-3" data-filter-grid>
-<div class="d-grid gap-2">
+<div class="d-grid gap-2" data-filter-search-control>
 <label class="form-label fw-semibold" for="directory-search">Search</label>
-<input id="directory-search" class="form-control" type="search" placeholder="Search titles, regions, types, languages" data-entry-filter data-filter-search>
+<input id="directory-search" class="form-control" type="search" placeholder="Search titles, regions, types, languages, periods" data-entry-filter data-filter-search>
 </div>
 <div class="d-grid gap-2">
 <label class="form-label fw-semibold" for="directory-section">Section</label>
@@ -508,6 +526,13 @@ ${optionList(entries, 'type')}
 ${optionList(entries, 'language')}
 </select>
 </div>
+<div class="d-grid gap-2">
+<label class="form-label fw-semibold" for="directory-period">Period</label>
+<select id="directory-period" class="form-select" data-entry-filter data-filter-period>
+<option value="">All periods</option>
+${optionList(entries, 'period')}
+</select>
+</div>
 </div>
 :::
 :::
@@ -517,13 +542,6 @@ ${optionList(entries, 'language')}
 <div class="d-grid gap-4" data-entry-grid>
 ${cards}
 </div>
-
-::: {.callout-tip}
-## Notes
-- The site index is pre-rendered for crawlability and randomized in the browser for visitors.
-- Each entry page adds a longer description and screenshot for discovery and SEO.
-
-:::
 
 ::: {.callout-note}
 ## Disclosure

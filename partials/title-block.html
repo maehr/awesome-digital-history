@@ -23,28 +23,92 @@ $if(external_url)$
 			<div class="row g-3">
 				<div class="col-12 col-md-6 col-xl-4">
 					<p class="fw-semibold mb-1">Section</p>
-					<p class="mb-0">$section_label$</p>
+					<p class="mb-0 d-flex flex-wrap gap-2">
+						<a
+							class="badge rounded-pill border text-decoration-none metadata-badge metadata-badge--section metadata-badge--primary"
+							href="../index.html?section=$directory_section$#directory-section"
+							data-filter-chip="section"
+							data-filter-value="$directory_section$"
+						>
+							$section_label$
+						</a>
+					</p>
 				</div>
 				<div class="col-12 col-md-6 col-xl-4">
 					<p class="fw-semibold mb-1">Region</p>
-					<p class="mb-0">$if(regions)$$for(regions)$$regions$$sep$, $endfor$$else$None$endif$</p>
+					$if(regions)$
+					<p class="mb-0 d-flex flex-wrap gap-2">
+						$for(regions)$
+						<a
+							class="badge rounded-pill border text-decoration-none metadata-badge metadata-badge--region"
+							href="../index.html?region=$regions$#directory-region"
+							data-filter-chip="region"
+							data-filter-value="$regions$"
+						>
+							$regions$
+						</a>
+						$endfor$
+					</p>
+					$else$
+					<p class="mb-0 text-body-secondary">None</p>
+					$endif$
 				</div>
 				<div class="col-12 col-md-6 col-xl-4">
 					<p class="fw-semibold mb-1">Language</p>
-					<p class="mb-0">
-						$if(languages)$$for(languages)$$languages$$sep$, $endfor$$else$None$endif$
+					$if(languages)$
+					<p class="mb-0 d-flex flex-wrap gap-2">
+						$for(languages)$
+						<a
+							class="badge rounded-pill border text-decoration-none metadata-badge metadata-badge--language"
+							href="../index.html?language=$languages$#directory-language"
+							data-filter-chip="language"
+							data-filter-value="$languages$"
+						>
+							$languages$
+						</a>
+						$endfor$
 					</p>
+					$else$
+					<p class="mb-0 text-body-secondary">None</p>
+					$endif$
 				</div>
 				<div class="col-12 col-md-6 col-xl-4">
 					<p class="fw-semibold mb-1">Type</p>
-					<p class="mb-0">
-						$if(resource_types)$$for(resource_types)$$resource_types$$sep$,
-						$endfor$$else$None$endif$
+					$if(resource_types)$
+					<p class="mb-0 d-flex flex-wrap gap-2">
+						$for(resource_types)$
+						<a
+							class="badge rounded-pill border text-decoration-none metadata-badge metadata-badge--type"
+							href="../index.html?type=$resource_types$#directory-type"
+							data-filter-chip="type"
+							data-filter-value="$resource_types$"
+						>
+							$resource_types$
+						</a>
+						$endfor$
 					</p>
+					$else$
+					<p class="mb-0 text-body-secondary">None</p>
+					$endif$
 				</div>
 				<div class="col-12 col-md-6 col-xl-4">
 					<p class="fw-semibold mb-1">Period</p>
-					<p class="mb-0">$if(periods)$$for(periods)$$periods$$sep$, $endfor$$else$None$endif$</p>
+					$if(periods)$
+					<p class="mb-0 d-flex flex-wrap gap-2">
+						$for(periods)$
+						<a
+							class="badge rounded-pill border text-decoration-none metadata-badge metadata-badge--period"
+							href="../index.html?period=$periods$#directory-period"
+							data-filter-chip="period"
+							data-filter-value="$periods$"
+						>
+							$periods$
+						</a>
+						$endfor$
+					</p>
+					$else$
+					<p class="mb-0 text-body-secondary">None</p>
+					$endif$
 				</div>
 			</div>
 		</div>
