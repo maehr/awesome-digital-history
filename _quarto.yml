@@ -28,10 +28,10 @@ website:
     left:
       - href: index.qmd
         text: Directory
-      - href: ABOUT.md
-        text: About
       - href: CONTRIBUTING.md
         text: Contributing
+      - href: ABOUT.md
+        text: About
     tools:
       - icon: github
         url: https://github.com/maehr/awesome-digital-history/
