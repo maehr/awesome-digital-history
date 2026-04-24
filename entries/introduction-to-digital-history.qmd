@@ -1,0 +1,29 @@
+---
+title: Introduction to Digital History
+slug: introduction-to-digital-history
+description: Introductory digital history guide from the University of Basel covering concepts, digital criticism, data work, and practical examples.
+external_url: https://wissen-ist-acht.github.io/digitalhistory.intro/
+short_description: This guide, created in the fall semester of 2022, accompanies the introductory courses in history at the University of Basel and is intended to provide a first insight into the field of digital history.
+directory_section: learning
+section_label: Learning
+regions: []
+languages:
+  - de
+resource_types:
+  - learning materials
+periods: []
+screenshot: /assets/screenshots/introduction-to-digital-history.png
+screenshot_alt: Screenshot of Introduction to Digital History
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/introduction-to-digital-history.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+This guide introduces digital history through short conceptual chapters on the field, digital literacy, source criticism, data work, and research practice.
+
+Its practical section makes it especially useful for teaching, since it links general orientation to concrete examples and further tools and tutorials.

@@ -1,0 +1,32 @@
+---
+title: OldMapsOnline
+slug: oldmapsonline
+description: OldMapsOnline helps researchers browse historical maps worldwide with place-based search and a timeline for locating maps across time.
+external_url: https://www.oldmapsonline.org/
+short_description: Maps, starting in the 17th century.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Global
+languages:
+  - en
+resource_types:
+  - maps
+periods:
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/oldmapsonline.png
+screenshot_alt: Screenshot of OldMapsOnline
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/oldmapsonline.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+OldMapsOnline is built for browsing historical places and searching old maps with a timeline, making map discovery easier across large distributed collections.
+
+For research, it is a practical starting point when you need to identify relevant cartographic material by place and date before consulting holding institutions directly.

@@ -1,0 +1,34 @@
+---
+title: South Asian Newspapers
+slug: south-asian-newspapers
+description: Access South Asian Newspapers, an open-access collection of regional newspapers from the 1850s onward covering colonialism, independence, and early statehood.
+external_url: https://www.eastview.com/resources/gpa/crl-san/
+short_description: Open-access collection of South Asian newspapers covering major regional and global events across multiple countries and languages.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Asia
+languages:
+  - en
+  - mul
+resource_types:
+  - newspapers
+  - primary sources
+periods:
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/south-asian-newspapers.png
+screenshot_alt: Screenshot of South Asian Newspapers
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/south-asian-newspapers.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+This open-access collection brings together South Asian newspapers from Bangladesh, India, Nepal, Pakistan, and Sri Lanka, with coverage reaching back to the 1850s.
+
+It is valuable for studying colonial rule, partition, independence movements, and early statehood through multilingual reporting on regional and global events.

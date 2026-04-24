@@ -1,0 +1,37 @@
+---
+title: United Nations Archive
+slug: united-nations-archive
+description: Search UN archival records and photographs on Secretaries-General, departments, peacekeeping missions, and predecessor organizations.
+external_url: https://archives.un.org/
+short_description: Archives and records from the United Nations regarding Secretaries-Generals, departments and missions.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Global
+languages:
+  - ar
+  - en
+  - es
+  - fr
+  - ru
+  - zh
+resource_types:
+  - primary sources
+  - search engine
+periods:
+  - contemporary
+screenshot: /assets/screenshots/united-nations-archive.png
+screenshot_alt: Screenshot of United Nations Archive
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/united-nations-archive.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+The UN Archives site points researchers to records and photographs created by Secretaries-General, Secretariat departments, field missions, and predecessor international organizations.
+
+Its archival search portal, finding aids, and research guides make it a practical entry point for work on twentieth-century international governance and diplomacy.

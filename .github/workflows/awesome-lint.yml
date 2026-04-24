@@ -1,22 +1,30 @@
 name: awesome-lint
 
-on: [push, pull_request]
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
 
 jobs:
-  Awesome_Lint:
+  awesome-lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
         with:
-          fetch-depth: 0
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v4
-      - name: Setup Node.js
-        uses: actions/setup-node@v5
-        with:
-          node-version: 24
-          cache: 'pnpm'
+          node-version: '24'
+          cache: 'npm'
+
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: npm ci
+
+      - name: Regenerate README
+        run: npm run generate
+
       - name: Run awesome-lint
-        run: pnpm run awesome-lint
+        run: npm run awesome-lint

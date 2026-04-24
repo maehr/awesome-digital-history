@@ -1,0 +1,38 @@
+---
+title: ZLB
+slug: zlb
+description: Digital collections of Berlin's Central and State Library with books, maps, newspapers, photographs, and other historical sources.
+external_url: https://digital.zlb.de/
+short_description: Collections of the Berlin Central and State Library.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Germany
+languages:
+  - de
+  - en
+resource_types:
+  - books
+  - magazines
+  - maps
+  - newspapers
+  - photos
+  - primary sources
+periods:
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/zlb-placeholder.png
+screenshot_alt: Screenshot of ZLB
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/zlb-placeholder.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+The ZLB digital collections bring together books, maps, newspapers, photographs, and other materials from Berlin's Central and State Library.
+
+For urban and regional history, it offers a focused route into Berlin-related printed and visual sources, although the site currently blocks automated access for detailed inspection.

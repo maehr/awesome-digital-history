@@ -1,0 +1,33 @@
+---
+title: Amtsdruckschriften
+slug: amtsdruckschriften
+description: Amtsdruckschriften gives access to digitized Swiss Federal Archives publications, including the Federal Gazette, administrative case law, and government records.
+external_url: https://www.amtsdruckschriften.bar.admin.ch/
+short_description: Federal Gazette, Administrative Case Law of the Federal Authorities and more documents from the Swiss Federal Archives.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Switzerland
+languages:
+  - de
+  - fr
+  - it
+resource_types:
+  - primary sources
+periods:
+  - contemporary
+screenshot: /assets/screenshots/amtsdruckschriften.png
+screenshot_alt: Screenshot of Amtsdruckschriften
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/amtsdruckschriften.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Hosted by the Swiss Federal Archives, the portal lets researchers search official publications by keyword, period, and document group, then open PDFs of the original pages.
+
+It is a strong entry point for federal law, administration, and parliamentary or executive documentation in modern Switzerland.

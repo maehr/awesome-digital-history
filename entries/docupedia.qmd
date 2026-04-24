@@ -1,0 +1,31 @@
+---
+title: Docupedia
+slug: docupedia
+description: Docupedia-Zeitgeschichte publishes reference articles on concepts, methods, and debates in contemporary history research, mainly in German.
+external_url: https://docupedia.de/
+short_description: Terms, methods, and debates in contemporary history research.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Germany
+languages:
+  - de
+resource_types:
+  - encyclopedias
+periods:
+  - contemporary
+screenshot: /assets/screenshots/docupedia.png
+screenshot_alt: Screenshot of Docupedia
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/docupedia.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Docupedia-Zeitgeschichte offers overview articles on key terms, research fields, and methods in contemporary history, with articles and author pages.
+
+It is useful when you need a quick scholarly orientation to debates, terminology, or historiography before moving into the specialist literature.

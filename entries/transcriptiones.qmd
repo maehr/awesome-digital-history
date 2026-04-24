@@ -1,0 +1,34 @@
+---
+title: transcriptiones
+slug: transcriptiones
+description: Swiss platform for creating, sharing, and searching transcriptions of historical manuscripts with metadata, versioning, and full-text discovery.
+external_url: http://transcriptiones.ch
+short_description: Create, share and access transcriptions of historical manuscripts.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Switzerland
+languages:
+  - de
+  - en
+resource_types:
+  - manuscripts
+  - primary sources
+periods:
+  - medieval
+  - modern
+screenshot: /assets/screenshots/transcriptiones.png
+screenshot_alt: Screenshot of transcriptiones
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/transcriptiones.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+transcriptiones is a community platform for uploading, editing, and publishing transcriptions of historical manuscripts. Researchers can browse by institution, source type, or scribe and run full-text searches across contributed material.
+
+Its metadata fields, version history, and bilingual interface make it useful for tracing manuscript traditions and reusing transcriptions in Swiss and broader manuscript research.

@@ -1,0 +1,43 @@
+---
+title: Mapire
+slug: mapire
+description: Explore Mapire's historical map portal for georeferenced European maps, city plans, cadastral surveys, and layered spatial comparison.
+external_url: https://mapire.eu/
+short_description: Interactive historical maps.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Europe
+languages:
+  - de
+  - en
+  - hu
+resource_types:
+  - audiovisual sources
+  - books
+  - encyclopedias
+  - magazines
+  - maps
+  - newspapers
+  - photos
+  - primary sources
+  - search engine
+periods:
+  - medieval
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/mapire-placeholder.png
+screenshot_alt: Screenshot of Mapire
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/mapire-placeholder.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Mapire offers georeferenced historical maps and city plans for Europe, with layered viewing and comparison tools.
+
+It is valuable for spatial history because researchers can trace boundaries, land use, settlement growth, and infrastructure across different map series.

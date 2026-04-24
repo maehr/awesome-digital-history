@@ -1,31 +1,31 @@
 ---
 name: Addition
-about: Request to add an item from the list
+about: Request to add an item to the directory
 title: '[Addition]'
-labels: 'addition'
+labels: 'awesome'
 assignees: ''
 ---
 
-**Item Details**
+**Suggested entry**
 
-Please provide the following details about the item you want to add to the list:
-
-```json
-{
-	"title": "",
-	"description": "",
-	"url": "",
-	"region": [],
-	"language": [],
-	"type": [],
-	"period": []
-}
+```yaml
+title: ''
+external_url: ''
+short_description: ''
+directory_section: archives
+regions: []
+languages: []
+resource_types: []
+periods: []
 ```
 
-Check [maehr.github.io/awesome-digital-history/](https://maehr.github.io/awesome-digital-history/) for the list of available regions, languages, types, and periods.
+Allowed values:
 
-**Rationale for the addition**
+- `directory_section`: `archives`, `learning`, `more-awesome`
+- `regions`: `Africa`, `Asia`, `Austria`, `Europe`, `France`, `Germany`, `Global`, `Great Britain`, `Netherlands`, `North America`, `Switzerland`
+- `resource_types`: `audiovisual sources`, `books`, `collection`, `encyclopedias`, `learning materials`, `magazines`, `manuscripts`, `maps`, `newspapers`, `photos`, `portal`, `primary sources`, `search engine`, `sheet music`, `statistics`, `tools`, `websites`
+- `periods`: `prehistory`, `ancient`, `classical`, `medieval`, `early modern`, `modern`, `contemporary`
 
-Briefly explain why you think this item should be added to the list and how it fits the criteria for inclusion.
+**Why add it?**
 
-Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project, you agree to abide by its terms.
+Explain why this resource belongs in the directory.

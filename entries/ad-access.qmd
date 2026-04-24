@@ -1,0 +1,31 @@
+---
+title: Ad*Access
+slug: ad-access
+description: Ad*Access from Duke University Libraries offers digitized U.S. and Canadian print advertisements from 1911-1955 across consumer culture and wartime propaganda.
+external_url: https://repository.duke.edu/dc/adaccess
+short_description: U.S. and Canadian advertisements covering five product categories - Beauty and Hygiene, Radio, Television, Transportation, and World War II propaganda - dated between 1911 and 1955.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - North America
+languages:
+  - en
+resource_types:
+  - magazines
+periods:
+  - contemporary
+screenshot: /assets/screenshots/ad-access.png
+screenshot_alt: Screenshot of Ad*Access
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/ad-access.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Duke's Ad*Access provides digitized advertisements from U.S. and Canadian periodicals, centered on beauty, radio, television, transportation, and World War II propaganda.
+
+It is useful for studying consumer culture, visual rhetoric, gender, technology, and wartime messaging across the first half of the twentieth century.

@@ -1,0 +1,31 @@
+---
+title: Mementoweb
+slug: mementoweb
+description: Use Mementoweb Time Travel to discover archived web pages across major web archives, including Internet Archive, Archive-It, and others.
+external_url: https://mementoweb.org/
+short_description: Find archived web pages in Internet Archive, Archive-It, British Library, archive.today, and GitHub.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Global
+languages:
+  - en
+resource_types:
+  - websites
+periods:
+  - contemporary
+screenshot: /assets/screenshots/mementoweb.png
+screenshot_alt: Screenshot of Mementoweb
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/mementoweb.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Mementoweb Time Travel helps users locate archived versions of web pages across multiple web archives from one starting point.
+
+It is useful for born-digital history because it broadens recovery beyond a single archive when websites have changed, disappeared, or become hard to trace.

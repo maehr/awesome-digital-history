@@ -1,0 +1,34 @@
+---
+title: The Proceedings of the Old Bailey
+slug: the-proceedings-of-the-old-bailey
+description: Search Old Bailey Online for the Proceedings of London's Central Criminal Court, 1674-1913, with texts, maps, and contextual research tools.
+external_url: https://www.oldbaileyonline.org/
+short_description: London's Central Criminal Court, 1674 to 1913.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Great Britain
+languages:
+  - en
+resource_types:
+  - books
+  - maps
+  - primary sources
+periods:
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/the-proceedings-of-the-old-bailey-placeholder.png
+screenshot_alt: Screenshot of The Proceedings of the Old Bailey
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/the-proceedings-of-the-old-bailey-placeholder.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Old Bailey Online provides the Proceedings of London's Central Criminal Court from 1674 to 1913, with searchable trial texts and supporting materials.
+
+It is a major source for research on crime, law, gender, class, and urban life in Britain, especially when paired with its maps and interpretive resources.

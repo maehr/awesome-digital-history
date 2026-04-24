@@ -1,0 +1,33 @@
+---
+title: Österreichische Mediathek
+slug: osterreichische-mediathek
+description: Österreichische Mediathek offers Austrian audio and video archives, online exhibitions, and teaching materials on cultural and contemporary history.
+external_url: https://www.mediathek.at/
+short_description: The Austrian archive for sound recordings and videos from cultural and contemporary history.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Austria
+languages:
+  - de
+resource_types:
+  - audiovisual sources
+  - learning materials
+  - primary sources
+periods:
+  - contemporary
+screenshot: /assets/screenshots/osterreichische-mediathek.png
+screenshot_alt: Screenshot of Österreichische Mediathek
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/osterreichische-mediathek.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+The Österreichische Mediathek preserves Austrian audio and video recordings and provides a digital collection, catalogue, online exhibitions, and classroom materials.
+
+It is particularly valuable for research that depends on sound and moving image sources, oral history, or media history rather than text-only documentation.

@@ -1,0 +1,29 @@
+---
+title: Research Tools
+slug: research-tools
+description: Research Tools is an extensive awesome list of software and services for research workflows, writing, data work, publishing, and note-taking.
+external_url: https://github.com/emptymalei/awesome-research#readme
+short_description: A list of tools for research.
+directory_section: more-awesome
+section_label: More Awesome
+regions: []
+languages:
+  - en
+resource_types:
+  - tools
+periods: []
+screenshot: /assets/screenshots/research-tools.png
+screenshot_alt: Screenshot of Research Tools
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/research-tools.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Research Tools is an extensive curated list of software and services for research workflows, from writing and note-taking to data work and publishing.
+
+For historians, it works best as a discovery layer for comparing tools across tasks rather than as a guide to one fixed digital method.

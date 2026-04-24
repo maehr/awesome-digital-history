@@ -1,0 +1,35 @@
+---
+title: ProQuest
+slug: proquest
+description: ProQuest is a large research platform for databases, newspapers, dissertations, ebooks, journals, and primary sources used in historical research.
+external_url: https://www.proquest.com/index
+short_description: Central platform providing access to a wide range of research databases and content types including news, dissertations, ebooks, video, and journals.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Global
+languages:
+  - mul
+resource_types:
+  - newspapers
+  - portal
+  - primary sources
+  - search engine
+periods:
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/proquest.png
+screenshot_alt: Screenshot of ProQuest
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/proquest.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+ProQuest is a large discovery platform that aggregates databases and content types including newspapers, dissertations, ebooks, journals, and primary sources.
+
+It is especially useful when historical work depends on licensed cross-searching across many collections that would otherwise need to be consulted separately.

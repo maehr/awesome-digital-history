@@ -1,0 +1,32 @@
+---
+title: Industriekultur
+slug: industriekultur
+description: Swiss inventory of industrial heritage sites and objects, with documentation and images useful for researching industry and technology history.
+external_url: https://industriekultur.ch/
+short_description: Swiss national inventory of industry artifacts.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Switzerland
+languages:
+  - de
+resource_types:
+  - encyclopedias
+  - photos
+periods:
+  - contemporary
+screenshot: /assets/screenshots/industriekultur.png
+screenshot_alt: Screenshot of Industriekultur
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/industriekultur.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Industriekultur documents Swiss industrial heritage and helps researchers identify relevant sites, objects, and visual material connected to industry and infrastructure.
+
+It is useful for Swiss contemporary history because it supports place-based research on production, technology, labor, and preservation.

@@ -1,0 +1,34 @@
+---
+title: DigiBern
+slug: digibern
+description: Explore DigiBern, a portal to Bernese history and culture with digitized books, newspapers, maps, databases, and local reference resources.
+external_url: https://www.digibern.ch/
+short_description: Bernese culture and history on the Internet.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Switzerland
+languages:
+  - de
+resource_types:
+  - encyclopedias
+periods:
+  - ancient
+  - medieval
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/digibern.png
+screenshot_alt: Screenshot of DigiBern
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/digibern.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+DigiBern is a regional portal for the history and culture of the city and canton of Bern, bringing together digitized texts, maps, and databases.
+
+It is useful for place-based research because it links local bibliography, newspapers, reference works, and themed collections in one interface.

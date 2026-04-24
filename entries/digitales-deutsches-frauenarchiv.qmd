@@ -1,0 +1,33 @@
+---
+title: Digitales Deutsches Frauenarchiv
+slug: digitales-deutsches-frauenarchiv
+description: Explore the Digitales Deutsches Frauenarchiv for sources, essays, and search tools on women's and feminist movement history in Germany.
+external_url: https://www.digitales-deutsches-frauenarchiv.de/
+short_description: An interactive portal on the history of women's movements in Germany.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Germany
+languages:
+  - de
+resource_types:
+  - learning materials
+  - search engine
+periods:
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/digitales-deutsches-frauenarchiv.png
+screenshot_alt: Screenshot of Digitales Deutsches Frauenarchiv
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/digitales-deutsches-frauenarchiv.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+The Digitales Deutsches Frauenarchiv is a specialist portal on the history of women's movements in Germany, combining sources, essays, and thematic access.
+
+It supports research by connecting archival materials with contextual articles, actor networks, and searchable entries across more than two centuries.

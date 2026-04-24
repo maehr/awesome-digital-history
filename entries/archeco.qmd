@@ -1,0 +1,34 @@
+---
+title: arCHeco
+slug: archeco
+description: arCHeco indexes economic archives in Switzerland and Liechtenstein, linking nearly 2,000 holdings across public institutions and private companies.
+external_url: https://www.archeco.info/
+short_description: Index of economic collections in archives of Switzerland and Liechtenstein.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Switzerland
+languages:
+  - de
+  - en
+  - fr
+  - it
+resource_types:
+  - search engine
+periods:
+  - contemporary
+screenshot: /assets/screenshots/archeco.png
+screenshot_alt: Screenshot of arCHeco
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/archeco.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+arCHeco is a directory of business and economic archive holdings in Switzerland and Liechtenstein, with advanced search across fonds, institutions, places, and sectors.
+
+It helps researchers locate corporate, association, and personal economic archives even when the records remain dispersed across many repositories.

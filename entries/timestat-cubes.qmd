@@ -1,0 +1,32 @@
+---
+title: timeSTAT Cubes
+slug: timestat-cubes
+description: Explore timeSTAT Cubes for Swiss federal finance data on revenues, expenditures, functions, and debt drawn from historical state accounts.
+external_url: http://www.sfa-laboratory.ch/sr/cubestest/index.php
+short_description: The Federal Council reports to parliament on income and expenditure for the past years.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Switzerland
+languages:
+  - de
+  - fr
+resource_types:
+  - statistics
+periods:
+  - contemporary
+screenshot: /assets/screenshots/timestat-cubes.png
+screenshot_alt: Screenshot of timeSTAT Cubes
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/timestat-cubes.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+timeSTAT Cubes provides cross-tabulated data drawn from Swiss federal state accounts, including revenues, expenditures, functions, and debt.
+
+It supports quantitative historical research by making selected finance data available for comparison, export, and reuse in tables or visualizations.

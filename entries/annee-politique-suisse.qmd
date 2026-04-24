@@ -1,0 +1,32 @@
+---
+title: Année Politique Suisse
+slug: annee-politique-suisse
+description: Année Politique Suisse documents Swiss politics with a searchable database of articles, topics, actors, and processes for contemporary socio-political research.
+external_url: https://anneepolitique.swiss/
+short_description: Sources and database for swiss socio-political topics.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Switzerland
+languages:
+  - de
+  - fr
+resource_types:
+  - encyclopedias
+periods:
+  - contemporary
+screenshot: /assets/screenshots/annee-politique-suisse-placeholder.png
+screenshot_alt: Screenshot of Année Politique Suisse
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/annee-politique-suisse-placeholder.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Année Politique Suisse organizes contemporary Swiss political history through linked articles, topics, actors, and dossiers rather than isolated keyword hits.
+
+It helps researchers trace debates, institutions, and policy processes across federal and cantonal politics with curated, citable summaries.

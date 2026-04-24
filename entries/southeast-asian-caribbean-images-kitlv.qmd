@@ -1,0 +1,34 @@
+---
+title: Southeast Asian & Caribbean Images (KITLV)
+slug: southeast-asian-caribbean-images-kitlv
+description: Explore KITLV images at Leiden for photographs, prints, and drawings of Southeast Asia and the Caribbean, especially from about 1850 to 1950.
+external_url: https://digitalcollections.universiteitleiden.nl/imagecollection-kitlv
+short_description: Image collection of photographs, prints, and drawings focusing on Southeast Asia and the Caribbean, depicting life roughly 1850-1950.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Global
+languages:
+  - en
+  - nl
+resource_types:
+  - photos
+  - primary sources
+periods:
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/southeast-asian-caribbean-images-kitlv.png
+screenshot_alt: Screenshot of Southeast Asian & Caribbean Images (KITLV)
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/southeast-asian-caribbean-images-kitlv.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+This KITLV collection at Leiden University Libraries contains photographs, prints, and drawings on Southeast Asia and the Caribbean, much of it documenting the colonial period.
+
+It supports visual and colonial history research with browsable image records, while also pointing users to fuller catalogue descriptions where available.

@@ -1,0 +1,36 @@
+---
+title: tímarit.is
+slug: timarit-is
+description: Search tímarit.is for digitized newspapers and magazines from Iceland, Greenland, and the Faroe Islands in several North Atlantic languages.
+external_url: https://www.timarit.is/
+short_description: Digitized newspapers and magazines from Iceland, Greenland and the Faroe Islands.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Europe
+languages:
+  - da
+  - fo
+  - is
+  - kl
+resource_types:
+  - magazines
+  - newspapers
+periods:
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/timarit-is.png
+screenshot_alt: Screenshot of tímarit.is
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/timarit-is.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+tímarit.is offers digitized newspapers and magazines from Iceland, Greenland, and the Faroe Islands, with search across titles and article text.
+
+It is a key source for North Atlantic media history, public discourse, and comparative regional research across Danish, Faroese, Icelandic, and Greenlandic materials.

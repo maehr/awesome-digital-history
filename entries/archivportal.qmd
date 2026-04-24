@@ -1,0 +1,35 @@
+---
+title: Archivportal
+slug: archivportal
+description: Archivportal-D provides search access to German archives, archival holdings, and millions of digital objects through the German Digital Library.
+external_url: https://www.archivportal-d.de/
+short_description: German archives search engine.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Germany
+languages:
+  - de
+  - en
+resource_types:
+  - primary sources
+  - search engine
+periods:
+  - medieval
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/archivportal.png
+screenshot_alt: Screenshot of Archivportal
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/archivportal.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Archivportal-D combines archive information, finding aids, and digitized archival material from partner institutions across Germany.
+
+It is useful both for broad discovery and for focused work through thematic portals such as the Weimar Republic and restitution-related source clusters.

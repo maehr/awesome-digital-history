@@ -1,0 +1,31 @@
+---
+title: Fxtop
+slug: fxtop
+description: FXTOP offers historical foreign exchange rate data since 1953, useful for researchers comparing prices, wages, and values across currencies.
+external_url: https://fxtop.com/
+short_description: Forex rate history since 1953.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Global
+languages:
+  - en
+resource_types:
+  - statistics
+periods:
+  - contemporary
+screenshot: /assets/screenshots/fxtop.png
+screenshot_alt: Screenshot of Fxtop
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/fxtop.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+FXTOP provides historical foreign exchange rate data, which is often necessary when converting monetary values across currencies and years.
+
+For contemporary historical research, it is a practical reference for contextualizing prices, salaries, trade figures, and financial comparisons.

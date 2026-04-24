@@ -1,7 +1,25 @@
 # About
 
-This is a curated list to support historical research, with an emphasis on digital history research.
+Awesome Digital History is a curated directory to support historical research with an emphasis on digital history.
 
-There are several search functions: a free text search or by region (countries, continents) and time period, but also by media type (newspapers, audiovisual material, educational material) or language.
+The directory is built for quick evaluation. Each resource combines a short awesome-list description, an entry page with editorial context, and a screenshot so you can judge relevance faster.
 
-In terms of content, the focus is on digitally accessible sources. Therefore, many sites with digital or digitized content are listed. The re-usability of data is regulated differently in different institutions and projects. Some sites are very broad in terms of content, while others cover only one specific topic or project. What they all have in common is the claim to add value to digital historical scholarship. In other words: awesome!
+You can browse the collection with free-text search and filters for section, region, type, and language.
+
+## Scope
+
+The focus is on digitally accessible sources, search portals, and learning resources that support historical research workflows.
+
+Some resources are broad institutional platforms, while others document a single project, collection, or teaching resource. Reuse conditions differ from site to site, but all listed entries should add value for digital historical scholarship.
+
+## How The Site Works
+
+Canonical entries live in `entries/*.qmd`.
+
+Each entry includes structured metadata plus a short `## Why it matters` note. `README.md` and `index.qmd` are generated from those entry files, and screenshots are stored in `assets/screenshots/`.
+
+## Contributors
+
+See the [contributors graph](https://github.com/maehr/awesome-digital-history/graphs/contributors).
+
+Licensed under CC0 and AGPLv3.

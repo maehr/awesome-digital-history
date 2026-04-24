@@ -1,0 +1,37 @@
+---
+title: Wien Geschichte Wiki
+slug: wien-geschichte-wiki
+description: Historical knowledge platform on Vienna with articles, images, maps, places, people, events, and research tools across all periods.
+external_url: https://www.geschichtewiki.wien.gv.at/Wien_Geschichte_Wiki
+short_description: It is based on the Historical Dictionary Vienna by Felix Czeike, currently there are 50,156 contributions and 12,510 images.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Austria
+languages:
+  - de
+resource_types:
+  - encyclopedias
+  - maps
+  - photos
+periods:
+  - ancient
+  - medieval
+  - modern
+  - contemporary
+  - prehistory
+screenshot: /assets/screenshots/wien-geschichte-wiki.png
+screenshot_alt: Screenshot of Wien Geschichte Wiki
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/wien-geschichte-wiki.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Wien Geschichte Wiki is the City of Vienna's historical knowledge platform, built on the Felix Czeike lexicon and expanded with articles on people, places, buildings, organizations, and events.
+
+The combination of encyclopedia entries, images, maps, and dedicated research tools makes it a strong reference point for urban history and topographical work on Vienna.

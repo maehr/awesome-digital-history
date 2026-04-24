@@ -1,0 +1,33 @@
+---
+title: MARCHIVUM
+slug: marchivum
+description: Search MARCHIVUM's digitized Mannheim newspapers and printed matter for local history, public discourse, and primary sources from modern Germany.
+external_url: https://druckschriften-digital.marchivum.de/
+short_description: Collection of Mannheim newspapers and historical printed matter on the history of Mannheim.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Germany
+languages:
+  - de
+resource_types:
+  - newspapers
+  - primary sources
+periods:
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/marchivum.png
+screenshot_alt: Screenshot of MARCHIVUM
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/marchivum.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+MARCHIVUM provides digitized Mannheim newspapers and other historical printed matter relevant to the city's history.
+
+It supports local and regional research by making serial publications and primary sources easier to search and consult across the modern period.

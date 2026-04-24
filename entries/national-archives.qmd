@@ -1,0 +1,41 @@
+---
+title: National Archives
+slug: national-archives
+description: Explore the U.S. National Archives for federal records, founding documents, photographs, military files, exhibits, and teaching resources.
+external_url: https://www.archives.gov/
+short_description: The official archives regarding veteran records, founding documents and presidential libraries of the United States.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - North America
+languages:
+  - en
+resource_types:
+  - audiovisual sources
+  - books
+  - magazines
+  - manuscripts
+  - maps
+  - newspapers
+  - photos
+  - primary sources
+  - search engine
+  - websites
+periods:
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/national-archives.png
+screenshot_alt: Screenshot of National Archives
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/national-archives.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+The U.S. National Archives provides access to federal records, founding documents, photographs, and other primary sources central to American history.
+
+It is useful for both research and teaching because it combines record access with search tools, online exhibits, and dedicated resources for educators and genealogists.

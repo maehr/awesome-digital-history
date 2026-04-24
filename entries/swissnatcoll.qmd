@@ -1,0 +1,33 @@
+---
+title: swissnatcoll
+slug: swissnatcoll
+description: Explore SwissNatColl for open specimen data from Swiss natural history collections, including collections, institutions, and published records.
+external_url: https://swissnatcoll.ch/
+short_description: Swiss Natural History Collections portal providing open access to specimen data from natural history collections preserved in Switzerland.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Switzerland
+languages:
+  - en
+resource_types:
+  - collection
+  - portal
+periods:
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/swissnatcoll.png
+screenshot_alt: Screenshot of swissnatcoll
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/swissnatcoll.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+SwissNatColl provides open access to specimen data from natural history collections preserved in Switzerland, alongside views of collections and institutions.
+
+For environmental, scientific, and collection history, it offers structured data that can support work on biodiversity, provenance, and institutional networks.

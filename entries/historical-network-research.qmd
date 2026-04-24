@@ -1,0 +1,29 @@
+---
+title: Historical Network Research
+slug: historical-network-research
+description: Zotero group library for historical network research, collecting literature on social network analysis and related methods in history.
+external_url: https://www.zotero.org/groups/209983/historical_network_research
+short_description: Zotero group with literature on historical network research and social network analysis in historical studies.
+directory_section: learning
+section_label: Learning
+regions: []
+languages:
+  - en
+resource_types:
+  - learning materials
+periods: []
+screenshot: /assets/screenshots/historical-network-research.png
+screenshot_alt: Screenshot of Historical Network Research
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/historical-network-research.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+This Zotero group provides a shared bibliography for historical network research and social network analysis in historical scholarship.
+
+It helps researchers and students quickly identify key literature, follow a specialist community, and build reading lists for methods-driven projects.

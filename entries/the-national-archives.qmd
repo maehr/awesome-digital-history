@@ -1,0 +1,41 @@
+---
+title: The National Archives
+slug: the-national-archives
+description: Explore The National Archives for UK government records, catalogues, maps, images, learning resources, and search tools spanning 1,000 years.
+external_url: https://www.nationalarchives.gov.uk/
+short_description: A non-ministerial department, and the official archive and publisher for the UK Government, and for England and Wales.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Great Britain
+languages:
+  - en
+resource_types:
+  - audiovisual sources
+  - books
+  - learning materials
+  - magazines
+  - maps
+  - newspapers
+  - photos
+  - primary sources
+  - search engine
+periods:
+  - medieval
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/the-national-archives.png
+screenshot_alt: Screenshot of The National Archives
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/the-national-archives.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+The National Archives is the official archive for the UK Government and for England and Wales, with catalogues, digitized records, research guides, and teaching resources.
+
+Its scale and range make it a core starting point for work on British political, legal, administrative, and social history across many centuries.

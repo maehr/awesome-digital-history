@@ -1,0 +1,34 @@
+---
+title: National Records of Scotland
+slug: national-records-of-scotland
+description: National Records of Scotland provides official Scottish archives, records, and statistics for research on people, government, and historical change.
+external_url: https://www.nrscotland.gov.uk/
+short_description: Repository for the public and legal records of Scotland.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Great Britain
+languages:
+  - en
+resource_types:
+  - maps
+  - statistics
+periods:
+  - medieval
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/national-records-of-scotland.png
+screenshot_alt: Screenshot of National Records of Scotland
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/national-records-of-scotland.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+National Records of Scotland brings together records and archives with population statistics, publications, and access guidance for Scottish historical research.
+
+It is especially useful when work moves between family history, legal or administrative records, and demographic evidence about Scotland across the medieval to contemporary periods.

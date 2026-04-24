@@ -1,0 +1,8 @@
+<script>
+	{
+		const offset = document.querySelector('meta[name="quarto:offset"]')?.content || './';
+		const script = document.createElement('script');
+		script.src = `${offset}assets/site.js`;
+		document.currentScript.after(script);
+	}
+</script>

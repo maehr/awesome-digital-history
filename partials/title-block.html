@@ -1,0 +1,117 @@
+$if(external_url)$
+<header id="title-block-header" class="quarto-title-block default">
+	<div class="quarto-title mb-3">
+		<h1 class="title">$title$</h1>
+	</div>
+	$if(short_description)$
+	<p class="lead text-body-secondary mb-4">$short_description$</p>
+	$endif$
+	<p><a class="btn btn-primary" href="$external_url$">Visit resource</a></p>
+	$if(screenshot)$
+	<figure class="figure my-4 w-100">
+		<img
+			class="figure-img img-fluid rounded shadow-sm border"
+			src="$screenshot$"
+			alt="$screenshot_alt$"
+		/>
+		<figcaption>$screenshot_alt$</figcaption>
+	</figure>
+	$endif$
+	<section class="card bg-body-tertiary border-0 shadow-sm mb-4">
+		<div class="card-body">
+			<h2 class="h4 mb-3">Metadata</h2>
+			<div class="row g-3">
+				<div class="col-12 col-md-6 col-xl-4">
+					<p class="fw-semibold mb-1">Section</p>
+					<p class="mb-0 d-flex flex-wrap gap-2">
+						<a
+							class="badge rounded-pill border text-decoration-none metadata-badge metadata-badge--section metadata-badge--primary"
+							href="../index.html?section=$directory_section$#directory-section"
+							data-filter-chip="section"
+							data-filter-value="$directory_section$"
+						>
+							$section_label$
+						</a>
+					</p>
+				</div>
+				<div class="col-12 col-md-6 col-xl-4">
+					<p class="fw-semibold mb-1">Region</p>
+					$if(regions)$
+					<p class="mb-0 d-flex flex-wrap gap-2">
+						$for(regions)$
+						<a
+							class="badge rounded-pill border text-decoration-none metadata-badge metadata-badge--region"
+							href="../index.html?region=$regions$#directory-region"
+							data-filter-chip="region"
+							data-filter-value="$regions$"
+						>
+							$regions$
+						</a>
+						$endfor$
+					</p>
+					$else$
+					<p class="mb-0 text-body-secondary">None</p>
+					$endif$
+				</div>
+				<div class="col-12 col-md-6 col-xl-4">
+					<p class="fw-semibold mb-1">Language</p>
+					$if(languages)$
+					<p class="mb-0 d-flex flex-wrap gap-2">
+						$for(languages)$
+						<a
+							class="badge rounded-pill border text-decoration-none metadata-badge metadata-badge--language"
+							href="../index.html?language=$languages$#directory-language"
+							data-filter-chip="language"
+							data-filter-value="$languages$"
+						>
+							$languages$
+						</a>
+						$endfor$
+					</p>
+					$else$
+					<p class="mb-0 text-body-secondary">None</p>
+					$endif$
+				</div>
+				<div class="col-12 col-md-6 col-xl-4">
+					<p class="fw-semibold mb-1">Type</p>
+					$if(resource_types)$
+					<p class="mb-0 d-flex flex-wrap gap-2">
+						$for(resource_types)$
+						<a
+							class="badge rounded-pill border text-decoration-none metadata-badge metadata-badge--type"
+							href="../index.html?type=$resource_types$#directory-type"
+							data-filter-chip="type"
+							data-filter-value="$resource_types$"
+						>
+							$resource_types$
+						</a>
+						$endfor$
+					</p>
+					$else$
+					<p class="mb-0 text-body-secondary">None</p>
+					$endif$
+				</div>
+				<div class="col-12 col-md-6 col-xl-4">
+					<p class="fw-semibold mb-1">Period</p>
+					$if(periods)$
+					<p class="mb-0 d-flex flex-wrap gap-2">
+						$for(periods)$
+						<a
+							class="badge rounded-pill border text-decoration-none metadata-badge metadata-badge--period"
+							href="../index.html?period=$periods$#directory-period"
+							data-filter-chip="period"
+							data-filter-value="$periods$"
+						>
+							$periods$
+						</a>
+						$endfor$
+					</p>
+					$else$
+					<p class="mb-0 text-body-secondary">None</p>
+					$endif$
+				</div>
+			</div>
+		</div>
+	</section>
+</header>
+$endif$

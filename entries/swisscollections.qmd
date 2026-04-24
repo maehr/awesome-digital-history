@@ -1,0 +1,37 @@
+---
+title: swisscollections
+slug: swisscollections
+description: Search swisscollections across Swiss libraries and archives for manuscripts, archival records, rare books, maps, images, and other historical materials.
+external_url: https://swisscollections.ch/
+short_description: Meta search engine for historical and modern collections in Swiss libraries and archives.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Switzerland
+languages:
+  - de
+  - en
+  - fr
+  - it
+resource_types:
+  - search engine
+periods:
+  - ancient
+  - medieval
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/swisscollections.png
+screenshot_alt: Screenshot of swisscollections
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/swisscollections.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+swisscollections serves as a gateway to historical and modern collections held by Swiss libraries and archives, with search across multiple institutions.
+
+It is especially helpful for locating manuscripts, archive material, rare books, images, maps, and related holdings without searching each catalogue separately.

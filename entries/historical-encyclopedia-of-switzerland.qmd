@@ -1,0 +1,38 @@
+---
+title: Historical Encyclopedia of Switzerland
+slug: historical-encyclopedia-of-switzerland
+description: Multilingual encyclopedia of Swiss history with articles, images, and media covering topics from antiquity to the contemporary period.
+external_url: https://hls-dhs-dss.ch/
+short_description: Encyclopedia on Swiss history.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Switzerland
+languages:
+  - de
+  - fr
+  - it
+resource_types:
+  - audiovisual sources
+  - encyclopedias
+  - photos
+periods:
+  - ancient
+  - medieval
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/historical-encyclopedia-of-switzerland-placeholder.png
+screenshot_alt: Screenshot of Historical Encyclopedia of Switzerland
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/historical-encyclopedia-of-switzerland-placeholder.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+The Historical Encyclopedia of Switzerland offers curated reference articles on people, places, institutions, and themes across Swiss history in multiple national languages.
+
+It is useful for orientation and verification because entries connect concise historical syntheses with related images and audiovisual material.

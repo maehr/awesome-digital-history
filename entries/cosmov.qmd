@@ -1,0 +1,31 @@
+---
+title: COSMOV
+slug: cosmov
+description: Explore COSMOV, a Zurich-based corpus and digital edition platform for studying social movements and the Zurich summer of 1968.
+external_url: http://www.cosmov.uzh.ch/
+short_description: Includes a digital edition of the events of the Zurich summer of 1968.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Switzerland
+languages:
+  - de
+resource_types:
+  - primary sources
+periods:
+  - contemporary
+screenshot: /assets/screenshots/cosmov.png
+screenshot_alt: Screenshot of COSMOV
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/cosmov.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+COSMOV brings together corpora on the language of social movements in the German-speaking world and includes a digital edition on Zurich 1968.
+
+It is useful for source-based research on protest, discourse, and contemporary Swiss history, especially where textual analysis and close reading need to work together.

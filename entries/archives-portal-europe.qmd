@@ -1,0 +1,33 @@
+---
+title: Archives Portal Europe
+slug: archives-portal-europe
+description: Archives Portal Europe is a cross-border search portal for archival descriptions, institutions, and digital objects from thousands of repositories in more than 30 countries.
+external_url: https://www.archivesportaleurope.net/
+short_description: European archives search engine.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Europe
+languages:
+  - en
+resource_types:
+  - search engine
+periods:
+  - medieval
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/archives-portal-europe.png
+screenshot_alt: Screenshot of Archives Portal Europe
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/archives-portal-europe.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Archives Portal Europe brings together archival descriptions from thousands of institutions in more than 30 countries, including collections, creators, and holding repositories.
+
+It supports transnational research with multilingual search, institution discovery, and filters for dates, document types, and digital objects.

@@ -1,0 +1,29 @@
+---
+title: Python für Historiker:innen
+slug: python-fur-historiker-innen
+description: Python für Historiker:innen is a German Jupyter Book introducing Python basics for historians through practical, interactive lessons.
+external_url: https://digital-history-berlin.github.io/Python-fuer-Historiker-innen/home.html
+short_description: The Jupyter Book (in German language) is aimed at historians who are looking for a first application-oriented and interactive introduction to the Python programming language.
+directory_section: learning
+section_label: Learning
+regions: []
+languages:
+  - de
+resource_types:
+  - learning materials
+periods: []
+screenshot: /assets/screenshots/python-fur-historiker-innen.png
+screenshot_alt: Screenshot of Python für Historiker:innen
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/python-fur-historiker-innen.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Python für Historiker:innen is a German-language Jupyter Book that introduces historians to Python through interactive, application-oriented lessons.
+
+Its chapters cover core programming concepts, data structures, and file handling, making it a practical entry point for digital history methods and workflows.

@@ -1,0 +1,36 @@
+---
+title: HathiTrust
+slug: hathitrust
+description: Large-scale digital library run by research libraries, offering access to millions of digitized books, journals, maps, and other historical materials.
+external_url: https://www.hathitrust.org
+short_description: A not-for-profit collaborative of academic and research libraries preserving and making accessible millions of digitized items.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - North America
+languages:
+  - en
+resource_types:
+  - books
+  - magazines
+  - manuscripts
+  - maps
+  - primary sources
+periods:
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/hathitrust-placeholder.png
+screenshot_alt: Screenshot of HathiTrust
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/hathitrust-placeholder.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+HathiTrust is a major research-library collaboration focused on preserving and providing access to a very large corpus of digitized print and manuscript material.
+
+For historical research, it is especially valuable for large-scale discovery across books, serials, maps, and other modern-era sources held by North American institutions.

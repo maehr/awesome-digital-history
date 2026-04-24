@@ -1,0 +1,29 @@
+---
+title: Tempopedia
+slug: tempopedia
+description: Browse Tempopedia's digital history directory of tools and collections, with searchable tags for maps, newspapers, OCR, visualization, and more.
+external_url: https://tempopedia.org/
+short_description: Digital History Directory.
+directory_section: more-awesome
+section_label: More Awesome
+regions: []
+languages:
+  - en
+resource_types:
+  - encyclopedias
+periods: []
+screenshot: /assets/screenshots/tempopedia.png
+screenshot_alt: Screenshot of Tempopedia
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/tempopedia.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Tempopedia is a digital history directory that lists tools and collections, with topic tags spanning mapping, OCR, newspapers, publishing, and visualization.
+
+It is useful as a discovery aid when planning methods, teaching, or project infrastructure and needing a quick survey of relevant platforms.

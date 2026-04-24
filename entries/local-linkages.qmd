@@ -1,0 +1,29 @@
+---
+title: Local Linkages
+slug: local-linkages
+description: Use Creating Local Linkages, an open curriculum for librarians on local history research, primary source analysis, metadata, and digital exhibits.
+external_url: https://locallinkages.org/
+short_description: Professional development curriculum to introduce to historical research methods and digital history skills.
+directory_section: learning
+section_label: Learning
+regions: []
+languages:
+  - en
+resource_types:
+  - learning materials
+periods: []
+screenshot: /assets/screenshots/local-linkages.png
+screenshot_alt: Screenshot of Local Linkages
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/local-linkages.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Creating Local Linkages is an open professional development curriculum for public librarians learning historical research and digital history methods.
+
+It is useful beyond libraries because it offers compact guidance on framing questions, working with sources, creating metadata, and building online exhibits.

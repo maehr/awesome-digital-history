@@ -1,0 +1,29 @@
+---
+title: Computer History
+slug: computer-history
+description: Explore a curated list of computer history videos, documentaries, interviews, texts, source code, and websites for teaching and research.
+external_url: https://github.com/watson/awesome-computer-history
+short_description: An Awesome List of computer history videos, documentaries and related folklore.
+directory_section: more-awesome
+section_label: More Awesome
+regions: []
+languages:
+  - en
+resource_types:
+  - encyclopedias
+periods: []
+screenshot: /assets/screenshots/computer-history.png
+screenshot_alt: Screenshot of Computer History
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/computer-history.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+This GitHub-based awesome list gathers documentaries, recordings, interviews, texts, source code, and websites on the history of computing.
+
+It works well as a starting point for teaching, source discovery, and quickly locating audiovisual material and primary texts across different moments in computing history.

@@ -1,0 +1,32 @@
+---
+title: WayBackMachine
+slug: waybackmachine
+description: Search archived websites in the Internet Archive's Wayback Machine and capture snapshots for citation, recovery, and web history research.
+external_url: https://archive.org/web/
+short_description: Explore more than 486 billion web pages saved over time.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Global
+languages:
+  - en
+resource_types:
+  - search engine
+  - websites
+periods:
+  - contemporary
+screenshot: /assets/screenshots/waybackmachine.png
+screenshot_alt: Screenshot of WayBackMachine
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/waybackmachine.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+The Wayback Machine lets researchers search and revisit archived versions of websites across time, making born-digital sources citable and comparable.
+
+It is especially useful for tracking changes to public communication, recovering disappeared pages, and documenting the historical web as a primary source.

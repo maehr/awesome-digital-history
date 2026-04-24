@@ -1,0 +1,33 @@
+---
+title: Chronicling America
+slug: chronicling-america
+description: Chronicling America from the Library of Congress offers digitized U.S. historic newspapers and a national directory for press research, 1777-1963.
+external_url: https://chroniclingamerica.loc.gov/
+short_description: America's historic newspapers from 1777-1963.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - North America
+languages:
+  - en
+resource_types:
+  - newspapers
+  - primary sources
+periods:
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/chronicling-america-placeholder.png
+screenshot_alt: Screenshot of Chronicling America
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/chronicling-america-placeholder.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Chronicling America combines digitized historic newspapers with a directory of U.S. newspapers, making it useful for both reading issues and locating titles.
+
+It supports research on politics, everyday life, and media history across the United States through searchable page images and issue-level access.

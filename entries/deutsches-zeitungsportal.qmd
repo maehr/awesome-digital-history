@@ -1,0 +1,34 @@
+---
+title: Deutsches Zeitungsportal
+slug: deutsches-zeitungsportal
+description: Search the Deutsches Zeitungsportal for millions of digitized German newspaper issues and pages from the 17th to 20th centuries.
+external_url: https://www.deutsche-digitale-bibliothek.de/newspaper
+short_description: Discover historical newspapers from 1671 to 1950.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Germany
+languages:
+  - de
+  - en
+resource_types:
+  - newspapers
+  - search engine
+periods:
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/deutsches-zeitungsportal.png
+screenshot_alt: Screenshot of Deutsches Zeitungsportal
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/deutsches-zeitungsportal.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+The Deutsches Zeitungsportal provides access to millions of newspaper issues and pages from hundreds of German titles and many data partners.
+
+Its title, place, and year access points make it a strong entry point for press research, local history, and chronological event reconstruction.

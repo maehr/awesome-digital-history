@@ -1,0 +1,31 @@
+---
+title: Computer Gaming World Museum
+slug: computer-gaming-world-museum
+description: Computer Gaming World Museum preserves issues, columns, and related material from a landmark U.S. computer games magazine and its history.
+external_url: https://www.cgwmuseum.org/
+short_description: Archive of various magazines on gaming.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - North America
+languages:
+  - en
+resource_types:
+  - magazines
+periods:
+  - contemporary
+screenshot: /assets/screenshots/computer-gaming-world-museum.png
+screenshot_alt: Screenshot of Computer Gaming World Museum
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/computer-gaming-world-museum.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+The Computer Gaming World Museum preserves material related to a major U.S. computer games magazine, including issue galleries, columns, and contextual notes.
+
+It is useful for studying computer game journalism, marketing, and player culture from the early home-computing era onward.

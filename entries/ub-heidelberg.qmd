@@ -1,0 +1,38 @@
+---
+title: UB Heidelberg
+slug: ub-heidelberg
+description: Digitized collections from UB Heidelberg with manuscripts, maps, incunabula, newspapers, and scholarly literature from antiquity to the modern era.
+external_url: https://www.ub.uni-heidelberg.de/helios/digi/digilit.html
+short_description: Manuscripts, documents, maps and literature.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Germany
+languages:
+  - de
+resource_types:
+  - books
+  - magazines
+  - manuscripts
+  - newspapers
+  - primary sources
+periods:
+  - ancient
+  - medieval
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/ub-heidelberg.png
+screenshot_alt: Screenshot of UB Heidelberg
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/ub-heidelberg.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+UB Heidelberg brings together major digitized holdings such as manuscripts from the Bibliotheca Palatina, charters, incunabula, historical maps, newspapers, and subject collections.
+
+The site is especially useful when research crosses formats or periods, since it links primary sources and scholarly literature within one long-running university digitization program.

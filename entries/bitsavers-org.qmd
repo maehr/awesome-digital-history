@@ -1,0 +1,33 @@
+---
+title: Bitsavers.org
+slug: bitsavers-org
+description: Bitsavers preserves manuals, software, magazines, and technical documents for computing history, with millions of pages available in a static mirrorable archive.
+external_url: http://bitsavers.trailing-edge.com/
+short_description: Computer code, reference manuals, and magazines.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Global
+languages:
+  - en
+resource_types:
+  - books
+  - magazines
+  - primary sources
+periods:
+  - contemporary
+screenshot: /assets/screenshots/bitsavers-org.png
+screenshot_alt: Screenshot of Bitsavers.org
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/bitsavers-org.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Bitsavers is a large preservation archive for computing documentation, software, magazines, and communications or component manuals.
+
+It is especially valuable for hardware and software history because the files are organized by system and vendor and can be mirrored for sustained research use.

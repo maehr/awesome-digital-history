@@ -1,0 +1,34 @@
+---
+title: ÍSMÚS
+slug: ismus
+description: Explore ÍSMÚS, an Icelandic cultural portal for musical heritage, recordings, sheet music, legends, and fairytales useful for modern research.
+external_url: https://www.ismus.is/
+short_description: Icelandic musical heritage collection (including recordings and sheet music), legends and fairytales.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Europe
+languages:
+  - is
+resource_types:
+  - audiovisual sources
+  - books
+  - sheet music
+periods:
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/ismus.png
+screenshot_alt: Screenshot of ÍSMÚS
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/ismus.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+ÍSMÚS brings together Icelandic musical heritage in one place, including recordings, sheet music, and related cultural materials.
+
+It is useful for researchers tracing modern and contemporary Icelandic music, performance history, and links between musical and narrative traditions.

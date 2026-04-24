@@ -1,0 +1,30 @@
+---
+title: History Toolkit
+slug: history-toolkit
+description: University of Basel student toolkit for history, covering academic skills, research resources, practical knowledge, and downloadable study aids.
+external_url: https://dg.philhist.unibas.ch/en/studium/history-a-toolkit-for-students/
+short_description: Toolkit designed to support students in their historical studies and research.
+directory_section: learning
+section_label: Learning
+regions: []
+languages:
+  - de
+  - en
+resource_types:
+  - learning materials
+periods: []
+screenshot: /assets/screenshots/history-toolkit.png
+screenshot_alt: Screenshot of History Toolkit
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/history-toolkit.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+The History Toolkit introduces students to core historical skills, from framing research questions and writing papers to using archives, catalogues, and bibliographic aids.
+
+Its value lies in combining practical guidance with discipline-specific orientation, making it a solid entry point for students starting historical research.

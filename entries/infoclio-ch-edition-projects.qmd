@@ -1,0 +1,37 @@
+---
+title: infoclio.ch Edition projects
+slug: infoclio-ch-edition-projects
+description: Database of ongoing historical edition projects in Switzerland, with filters for period, language, region, publication type, and format.
+external_url: http://www.infoclio.ch/en/edition-projects
+short_description: A database containing current historical edition projects in Switzerland.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Switzerland
+languages:
+  - de
+  - en
+  - fr
+  - it
+resource_types:
+  - encyclopedias
+periods:
+  - ancient
+  - medieval
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/infoclio-ch-edition-projects.png
+screenshot_alt: Screenshot of infoclio.ch Edition projects
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/infoclio-ch-edition-projects.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+This infoclio.ch directory lists ongoing source edition projects in Switzerland and allows filtering by period, language, region, subject, and publication type.
+
+It is a practical overview tool for identifying editorial work in progress, comparing projects, and locating editions with open-access facsimiles or databases.

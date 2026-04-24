@@ -1,29 +1,58 @@
 # Contribution Guidelines
 
-Awesome Digital History is a community-driven project that aims to curate a list of resources related to digital history. We welcome contributions of all kinds: new entries, corrections, updates, etc. To maintain the quality of the list, we request that contributors follow these guidelines.
+Awesome Digital History is a community-maintained directory of digital history resources. Contributions are welcome: new entries, corrections, updates, and removals.
 
-## How to contribute
+## Source of truth
 
-You can propose changes in two ways:
+- Canonical entries live in `entries/*.qmd`
+- `README.md` and `index.qmd` are generated from those pages
+- Screenshots live in `assets/screenshots/`
 
-### Proposing a change via an issue
+## Ways to contribute
 
-1. Visit the [issue tracker](https://github.com/maehr/awesome-digital-history/issues/).
-2. Check if your proposed change has already been discussed.
-3. If not, create a new issue and describe the changes you propose.
-4. You can propose changes in the following ways:
-   - **Edits**: You can [update or correct](https://github.com/maehr/awesome-digital-history/issues/new?assignees=&labels=&template=change.md&title=) the entries if they can be improved.
-   - **Additions**: You can [add](https://github.com/maehr/awesome-digital-history/issues/new?assignees=&labels=&template=addition.md&title=) a new entry.
-   - **Removals**: You can [remove](https://github.com/maehr/awesome-digital-history/issues/new?assignees=&labels=&template=removal.md&title=) an outdated entry.
+You can propose changes through an issue or a pull request.
 
-### Proposing a change via a pull request
+## Propose a change via an issue
 
-1. [Fork](https://github.com/maehr/awesome-digital-history/fork) the repository.
-2. Make your changes and commit them to your repor.
-3. [Submit a pull request](https://github.com/maehr/awesome-digital-history/compare) to the `main` branch of the original repository.
+1. Open the [issue tracker](https://github.com/maehr/awesome-digital-history/issues/).
+2. Check for an existing discussion.
+3. Use the relevant template.
+
+[Add a resource](https://github.com/maehr/awesome-digital-history/issues/new?assignees=&labels=&template=addition.md&title=)
+
+[Update or correct an entry](https://github.com/maehr/awesome-digital-history/issues/new?assignees=&labels=&template=change.md&title=)
+
+[Remove an outdated entry](https://github.com/maehr/awesome-digital-history/issues/new?assignees=&labels=&template=removal.md&title=)
+
+## Propose a change via a pull request
+
+1. Fork the repository.
+2. Run `npm install`.
+3. Edit the relevant `entries/*.qmd` files and related docs.
+4. Run the local checks.
+5. Submit a pull request against `main`.
+
+```bash
+npm run validate
+npm run generate
+npm run check
+```
+
+If you changed source URLs or added entries, also run:
+
+```bash
+npm run screenshots
+```
+
+## What makes a good contribution?
+
+- The resource is relevant to digital history research or teaching.
+- The resource is accessible online.
+- The metadata and short description are accurate.
+- The entry is current, in scope, and worth maintaining.
 
 ## Code of Conduct
 
-We expect all contributors to follow our [Contributor Code of Conduct](CODE_OF_CONDUCT.md) to ensure that Awesome Digital History is a safe and welcoming community for everyone.
+Please follow the [Code of Conduct](CODE_OF_CONDUCT.md).
 
-Thank you for contributing to Awesome Digital History!
+Licensed under CC0 and AGPLv3.

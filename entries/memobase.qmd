@@ -1,0 +1,34 @@
+---
+title: MEMOBASE
+slug: memobase
+description: Search Memobase for Swiss audiovisual heritage from archives, libraries, and museums, including film, sound, photography, and curated collections.
+external_url: http://www.memobase.ch/
+short_description: Provides access to audiovisual documents from Swiss memory institutions.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Switzerland
+languages:
+  - de
+  - fr
+  - it
+resource_types:
+  - audiovisual sources
+  - photos
+periods:
+  - contemporary
+screenshot: /assets/screenshots/memobase.png
+screenshot_alt: Screenshot of MEMOBASE
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/memobase.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Memobase is a portal to the audiovisual heritage of Switzerland, aggregating material from archives, museums, and libraries.
+
+It supports research with film, sound, and photography while also exposing collection context, institutions, and curated thematic showcases.

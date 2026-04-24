@@ -1,14 +1,8 @@
 # Awesome Digital History [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-[<img src="static/favicon.png" align="right" width="100">](https://maehr.github.io/awesome-digital-history/)
-
 > Find primary sources online and learn how to research history digitally.
 
 Finding aids for textual and multimedia [primary sources](https://en.wikipedia.org/wiki/Primary_source) with a focus on the western hemisphere and the 19th and 20th centuries. Courses and learning tools to explore history digitally.
-
-📢 **Announcement**
-
-🎉 Check out our new website at [awesome-digital-history.pages.dev](https://awesome-digital-history.pages.dev/) with more information, filters, and a search function. 🎉
 
 ## Contents
 
@@ -34,7 +28,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 
 - [National Library of South Africa Digital Collections](https://cdm21048.contentdm.oclc.org/) - National Library of South Africa's digital collections, including historical newspapers and special collections materials.
 - [PARC](https://parc-portal.org/) - Portal for African Research Collections: PARC is the new meta-catalogue for the Africana collections at the research location Basel.
-- [West African Arabic Manuscript Database](https://islam.zmo.de/s/westafrica/page/home) - A comprehensive collection of manuscripts that provides insight into the Islamic scholarly tradition in West Africa.
+- [West African Arabic Manuscript Database](https://waamd.lib.berkeley.edu/home) - A comprehensive collection of manuscripts that provides insight into the Islamic scholarly tradition in West Africa.
 
 ### Asia
 
@@ -46,7 +40,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 ### Austria
 
 - [ANNO](https://anno.onb.ac.at/) - Austrian Newspapers online.
-- [Digitarium](https://digitarium-app.acdh-dev.oeaw.ac.at/) - Digital edition of the historical Wiener Zeitung.
+- [Digitarium](https://digitarium.acdh.oeaw.ac.at/) - Digital edition of the historical Wiener Zeitung.
 - [Österreichische Mediathek](https://www.mediathek.at/) - The Austrian archive for sound recordings and videos from cultural and contemporary history.
 - [Wien Geschichte Wiki](https://www.geschichtewiki.wien.gv.at/Wien_Geschichte_Wiki) - It is based on the Historical Dictionary Vienna by Felix Czeike, currently there are 50,156 contributions and 12,510 images.
 
@@ -104,7 +98,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [Internet Archive](https://archive.org/) - Non-profit library of millions of free books, movies, software, music, websites, and more.
 - [Karlsruher Virtueller Katalog](https://kvk.bibliothek.kit.edu/) - Book search engine for finding hundreds of millions of media in catalogs worldwide.
 - [Marxist Internet Archive](https://www.marxists.org/) - Everything you ever wanted to know about Marx (and other important socialists).
-- [Mementoweb](http://timetravel.mementoweb.org/) - Find archived web pages in Internet Archive, Archive-It, British Library, archive.today, and GitHub.
+- [Mementoweb](https://mementoweb.org/) - Find archived web pages in Internet Archive, Archive-It, British Library, archive.today, and GitHub.
 - [OldMapsOnline](https://www.oldmapsonline.org/) - Maps, starting in the 17th century.
 - [OpenCat](https://opencat.io/) - Search engine for libraries around the globe.
 - [OpenHistoricalMap](https://openhistoricalmap.org/) - A time travel map created by a community of mappers and historians.
@@ -118,7 +112,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 
 ### Great Britain
 
-- [British Library](https://www.bl.uk/catalogues-and-collections/digital-collections) - Maps, manuscripts and sounds.
+- [British Library](https://www.bl.uk/collection) - Maps, manuscripts and sounds.
 - [National Records of Scotland](https://www.nrscotland.gov.uk/) - Repository for the public and legal records of Scotland.
 - [NLS](https://data.nls.uk/data/) - Data collections from the National Library of Scotland.
 - [The National Archives](https://www.nationalarchives.gov.uk/) - A non-ministerial department, and the official archive and publisher for the UK Government, and for England and Wales.
@@ -142,7 +136,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [HathiTrust](https://www.hathitrust.org) - A not-for-profit collaborative of academic and research libraries preserving and making accessible millions of digitized items.
 - [National Archives](https://www.archives.gov/) - The official archives regarding veteran records, founding documents and presidential libraries of the United States.
 - [Perry-Castañeda Library Map Collection](https://legacy.lib.utexas.edu/maps/) - Online collection of scanned maps.
-- [Women Working 1800-1930](https://library.harvard.edu/collections/women-working-1800-1930) - An exploration of women's impact on the economic life of the United States between 1800 and the Great Depression.
+- [Women Working 1800-1930](https://curiosity.lib.harvard.edu/women-working-1800-1930) - An exploration of women's impact on the economic life of the United States between 1800 and the Great Depression.
 - [World Digital Library](https://www.wdl.org/) - WDL is an international digital library operated by UNESCO and the United States Library of Congress.
 
 ### Switzerland
@@ -156,7 +150,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [DigiBern](https://www.digibern.ch/) - Bernese culture and history on the Internet.
 - [Diplomatic Documents of Switzerland](https://www.dodis.ch/) - Access to Switzerland's diplomatic records and foreign policy documentation.
 - [e-codices](http://e-codices.ch/) - Virtual manuscript library of Switzerland.
-- [e-gs](https://www.e-gs.ethz.ch/) - Online web portal of the ETH Zurich Graphics Collection.
+- [e-gs](https://gs.ethz.ch/en/collection-catalogue-online/) - Online web portal of the ETH Zurich Graphics Collection.
 - [e-manuscripta](https://www.e-manuscripta.ch/) - Manuscript material from Swiss libraries and archives.
 - [e-newspaperarchives.ch](https://www.e-newspaperarchives.ch/) - Swiss newspapers.
 - [E-Periodica](https://www.e-periodica.ch/) - Swiss journals.
@@ -171,7 +165,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [Le Temps](https://www.letempsarchives.ch/) - Archive of Gazette de Lausanne et du Journal de Genève.
 - [map.geo.admin.ch](https://map.geo.admin.ch/) - Journey through time via maps of Switzerland.
 - [MEMOBASE](http://www.memobase.ch/) - Provides access to audiovisual documents from Swiss memory institutions.
-- [Sammlung Schweizerischer Rechtsquellen online](https://www.ssrq-sds-fds.ch/projekte/ssrq-online/) - Retrodigitalisierte und digitale Editionseinheiten der Schweizerischen Rechtsquellen. Ediert wird rechtshistorisches Quellenmaterial vom Mittelalter bis in die Frühe Neuzeit (1798).
+- [Sammlung Schweizerischer Rechtsquellen online](https://www.ssrq-sds-fds.ch/online/) - Retrodigitalisierte und digitale Editionseinheiten der Schweizerischen Rechtsquellen. Ediert wird rechtshistorisches Quellenmaterial vom Mittelalter bis in die Frühe Neuzeit (1798).
 - [Schweizerisches Wirtschaftsarchiv](https://ub.unibas.ch/de/historische-bestaende/wirtschaftsarchive/) - This collection comprises over 500 business archives from the period 1750 to the present day, with a focus on the Basel region.
 - [SKKG Digital Collection](https://digital.skkg.ch/) - The Foundation for Art, Culture, and History (SKKG) provides online access to its collection of approximately 100,000 objects, ranging from artworks to historical artifacts spanning from the Stone Age to the present.
 - [Sources Online](https://sources-online.org/index.html) - A platform for digital scholarly text editions, integrating TEI Publisher and IIIF in Switzerland.

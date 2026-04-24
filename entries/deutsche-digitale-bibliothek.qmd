@@ -1,0 +1,34 @@
+---
+title: Deutsche Digitale Bibliothek
+slug: deutsche-digitale-bibliothek
+description: Search the Deutsche Digitale Bibliothek across millions of digitized cultural heritage objects from German archives, libraries, and museums.
+external_url: https://www.deutsche-digitale-bibliothek.de/
+short_description: Over 12 million objects.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Germany
+languages:
+  - de
+  - en
+resource_types:
+  - search engine
+periods:
+  - medieval
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/deutsche-digitale-bibliothek.png
+screenshot_alt: Screenshot of Deutsche Digitale Bibliothek
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/deutsche-digitale-bibliothek.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+The Deutsche Digitale Bibliothek is a central discovery portal for digitized objects, people, organizations, and topics from German cultural institutions.
+
+It helps researchers locate distributed collections through one search interface and then follow records back to the holding institutions for deeper work.

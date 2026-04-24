@@ -1,0 +1,32 @@
+---
+title: Sources Online
+slug: sources-online
+description: Browse Sources Online for Swiss digital scholarly editions built with TEI Publisher and IIIF, covering correspondence, legal sources, and archives.
+external_url: https://sources-online.org/index.html
+short_description: A platform for digital scholarly text editions, integrating TEI Publisher and IIIF in Switzerland.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Switzerland
+languages:
+  - de
+resource_types:
+  - search engine
+periods:
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/sources-online.png
+screenshot_alt: Screenshot of Sources Online
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/sources-online.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Sources Online aggregates Swiss digital scholarly editions, including correspondence, legal sources, charters, and archival series presented through a shared platform.
+
+It is especially useful for researchers who want edited texts with stable scholarly structure and image support rather than isolated scans alone.

@@ -1,0 +1,35 @@
+---
+title: NLS
+slug: nls
+description: NLS Data Foundry offers open data from the National Library of Scotland, including digitised collections, metadata, and map and spatial data.
+external_url: https://data.nls.uk/data/
+short_description: Data collections from the National Library of Scotland.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Great Britain
+languages:
+  - en
+resource_types:
+  - books
+  - maps
+  - photos
+  - primary sources
+periods:
+  - modern
+  - contemporary
+screenshot: /assets/screenshots/nls.png
+screenshot_alt: Screenshot of NLS
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/nls.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+The NLS Data Foundry publishes open datasets from the National Library of Scotland, including digitised collections, catalogue metadata, and map and spatial data.
+
+That makes it useful for historians who want to download, analyse, or reuse library data rather than only browse items through a standard catalogue interface.

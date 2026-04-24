@@ -1,0 +1,33 @@
+---
+title: FOCAL
+slug: focal
+description: FOCAL provides searchable access to the Asia Directories, a major source on foreign residents, trade, and institutions in Asia, 1863-1941.
+external_url: https://www.asia-directories.org/
+short_description: The Asia Directories and Chronicles is a reference work for foreign traders in the Asian region, published annually by the Hong Kong Daily Press, annually between 1863 and 1941.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Asia
+languages:
+  - en
+resource_types:
+  - books
+  - primary sources
+  - statistics
+periods:
+  - contemporary
+screenshot: /assets/screenshots/focal.png
+screenshot_alt: Screenshot of FOCAL
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/focal.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+FOCAL opens the Asia Directories and Chronicles as a searchable resource on trade, institutions, and foreign residents across Asia between 1863 and 1941.
+
+It is especially useful for studying connected histories, commercial networks, and everyday colonial-era infrastructures beyond a single nation-state frame.
