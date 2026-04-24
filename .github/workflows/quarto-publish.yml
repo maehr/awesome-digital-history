@@ -66,6 +66,10 @@ jobs:
       - name: Render Quarto Project
         run: npm run site:build
 
+      - name: JamPack Optimization
+        run: |
+          npx @divriots/jampack ./_site
+
       - name: Upload Built Artifacts
         uses: actions/upload-artifact@v7
         with:
