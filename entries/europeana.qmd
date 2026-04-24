@@ -17,8 +17,8 @@ languages:
   - mul
   - nl
   - 'no'
-  - po
-  - se
+  - pl
+  - sv
 resource_types:
   - audiovisual sources
   - books

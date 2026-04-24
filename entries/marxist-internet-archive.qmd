@@ -15,12 +15,12 @@ languages:
   - en
   - es
   - fr
-  - jp
+  - ja
   - mul
   - nl
   - pt
   - ru
-  - se
+  - sv
 resource_types:
   - books
   - encyclopedias

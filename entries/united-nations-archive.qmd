@@ -13,8 +13,8 @@ languages:
   - en
   - es
   - fr
-  - jp
   - ru
+  - zh
 resource_types:
   - primary sources
   - search engine

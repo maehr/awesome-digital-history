@@ -44,7 +44,7 @@ function updateFilterUrl() {
 	}
 
 	const query = params.toString();
-	const nextUrl = `${window.location.pathname}${query ? `?${query}` : ''}`;
+	const nextUrl = `${window.location.pathname}${query ? `?${query}` : ''}${window.location.hash}`;
 	window.history.replaceState(null, '', nextUrl);
 }
 
@@ -136,7 +136,7 @@ function randomizeInitialOrder() {
 	grid.dataset.randomized = 'true';
 }
 
-window.addEventListener('DOMContentLoaded', () => {
+function initialiseDirectoryFilters() {
 	randomizeInitialOrder();
 	restoreFiltersFromUrl();
 	for (const control of document.querySelectorAll('[data-entry-filter]')) {
@@ -155,7 +155,13 @@ window.addEventListener('DOMContentLoaded', () => {
 		applySingleFilter(chip.dataset.filterChip, chip.dataset.filterValue || '');
 	});
 	applyFilters({ updateUrl: false });
-});
+}
+
+if (document.readyState === 'loading') {
+	window.addEventListener('DOMContentLoaded', initialiseDirectoryFilters);
+} else {
+	initialiseDirectoryFilters();
+}
 
 window.addEventListener('popstate', () => {
 	restoreFiltersFromUrl();

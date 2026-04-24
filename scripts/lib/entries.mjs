@@ -44,18 +44,19 @@ export const ALLOWED_VALUES = {
 		'hu',
 		'is',
 		'it',
-		'jp',
+		'ja',
 		'kl',
 		'lat',
 		'lt',
 		'mul',
 		'nl',
 		'no',
-		'po',
+		'pl',
 		'pt',
 		'rm',
 		'ru',
-		'se'
+		'sv',
+		'zh'
 	],
 	type: [
 		'audiovisual sources',
