@@ -2,7 +2,7 @@
 title: e-gs
 slug: e-gs
 description: e-gs is the ETH Zurich Graphics Collection portal, providing online access to visual source material for Swiss modern and contemporary history.
-external_url: https://www.e-gs.ethz.ch/
+external_url: https://gs.ethz.ch/en/collection-catalogue-online/
 short_description: Online web portal of the ETH Zurich Graphics Collection.
 directory_section: archives
 section_label: Archives and primary sources

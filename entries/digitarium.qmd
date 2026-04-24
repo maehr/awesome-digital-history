@@ -2,7 +2,7 @@
 title: Digitarium
 slug: digitarium
 description: Digitarium offers a digital edition of the historical Wiener Zeitung, supporting Austrian newspaper research in the modern and contemporary periods.
-external_url: https://digitarium-app.acdh-dev.oeaw.ac.at/
+external_url: https://digitarium.acdh.oeaw.ac.at/
 short_description: Digital edition of the historical Wiener Zeitung.
 directory_section: archives
 section_label: Archives and primary sources

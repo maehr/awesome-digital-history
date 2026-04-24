@@ -2,7 +2,7 @@
 title: Women Working 1800-1930
 slug: women-working-1800-1930
 description: Harvard collection on women's economic lives in the United States, 1800-1930, with books, manuscripts, images, and statistical sources.
-external_url: https://library.harvard.edu/collections/women-working-1800-1930
+external_url: https://curiosity.lib.harvard.edu/women-working-1800-1930
 short_description: An exploration of women's impact on the economic life of the United States between 1800 and the Great Depression.
 directory_section: archives
 section_label: Archives and primary sources

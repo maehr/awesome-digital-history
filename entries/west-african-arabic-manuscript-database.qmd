@@ -2,7 +2,7 @@
 title: West African Arabic Manuscript Database
 slug: west-african-arabic-manuscript-database
 description: Open database on Islam in West Africa with Arabic and multilingual documents, newspapers, media, references, and searchable metadata.
-external_url: https://islam.zmo.de/s/westafrica/page/home
+external_url: https://waamd.lib.berkeley.edu/home
 short_description: A comprehensive collection of manuscripts that provides insight into the Islamic scholarly tradition in West Africa.
 directory_section: archives
 section_label: Archives and primary sources
