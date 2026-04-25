@@ -21,6 +21,7 @@
 		"format": "prettier --write .",
 		"lint": "prettier --check .",
 		"check": "npm run site:build && npm run lint && npm run awesome-lint",
+		"changelog": "npx git-cliff --config cliff-unreleased.toml $(git log -n 1 --format=%H -- CHANGELOG.md)..HEAD",
 		"awesome-lint": "node scripts/run-awesome-lint.mjs"
 	},
 	"devDependencies": {

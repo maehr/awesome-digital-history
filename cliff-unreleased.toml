@@ -1,0 +1,37 @@
+[changelog]
+body = """
+{% set grouped = commits | group_by(attribute="group") -%}
+{% for section in ["Added", "Changed", "Removed", "Fixed"] -%}
+{% if grouped[section] %}
+### {{ section }}
+{% for commit in grouped[section] -%}
+- {{ commit.message | split(pat="\\n") | first | trim }}
+{% endfor %}
+{% endif -%}
+{% endfor -%}
+"""
+trim = true
+render_always = true
+
+[git]
+conventional_commits = true
+filter_unconventional = false
+protect_breaking_commits = true
+filter_commits = true
+tag_pattern = "v[0-9].*"
+include_paths = ["README.md", "entries/*.qmd", "entries/**/*.qmd", "**/entries.json", "src/lib/data/**"]
+exclude_paths = [".github/**", ".quarto/**", "_site/**", "assets/**", "scripts/**"]
+commit_parsers = [
+	{ message = "^docs", skip = true },
+	{ message = "^ci", skip = true },
+	{ message = "^style", skip = true },
+	{ message = "^test", skip = true },
+	{ message = "^chore", skip = true },
+	{ message = "^Merge", skip = true },
+	{ message = "^[Aa]dd|^[Nn]ew entry|^feat.*: add|.* added|^SKKG Collection|^Kulturgüter der Schweiz online", group = "Added" },
+	{ message = "^[Rr]emove|.* removed|^fix: removal", group = "Removed" },
+	{ message = "^fix|^[Cc]orrect|^[Tt]ypo|^[Ff]ixed", group = "Fixed" },
+	{ message = "^refactor|^feat\\(quarto\\): migrate|^[Uu]pdate|^[Mm]ove|^[Nn]ormalize|^[Rr]efine|^[Rr]efresh|^[Rr]eorder|^[Ff]irst release|.*classify.*|.*description", group = "Changed" },
+	{ message = ".*", group = "Changed" }
+]
+sort_commits = "oldest"

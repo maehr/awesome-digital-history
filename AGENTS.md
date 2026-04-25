@@ -17,6 +17,9 @@ npm run lint
 npm run awesome-lint
 npm run check
 
+# Utilities
+npm run changelog       # Generate data changelog locally using git-cliff
+
 # Screenshots
 npm run screenshots
 ```

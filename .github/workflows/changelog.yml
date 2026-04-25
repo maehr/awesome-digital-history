@@ -19,16 +19,12 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Generate data changelog
-        uses: orhun/git-cliff-action@v4
-        with:
-          config: cliff.toml
-          args: --output CHANGELOG.md
-        env:
-          GITHUB_REPO: ${{ github.repository }}
+      - name: Generate unreleased changelog
+        run: |
+          LAST_COMMIT=$(git log -n 1 --format=%H -- CHANGELOG.md)
+          npx git-cliff --config cliff-unreleased.toml $LAST_COMMIT..HEAD > unreleased.md
 
-      - name: Commit updated changelog
-        uses: stefanzweifel/git-auto-commit-action@v6
-        with:
-          commit_message: 'docs(changelog): regenerate data changelog'
-          file_pattern: CHANGELOG.md
+      - name: Output changelog to summary
+        run: |
+          echo "## New Changelog Entries (Since last CHANGELOG.md edit)" >> $GITHUB_STEP_SUMMARY
+          cat unreleased.md >> $GITHUB_STEP_SUMMARY

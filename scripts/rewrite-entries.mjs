@@ -70,7 +70,7 @@ function normalizeAuthor(name, email) {
 
 	const normalizedName = String(name || '').trim();
 	const normalizedEmail = String(email || '').trim();
-	
+
 	if (normalizedName && !normalizedName.includes('@')) {
 		return normalizedName;
 	}
@@ -238,10 +238,10 @@ async function inferProvenance(entries) {
 
 	const commits = await historyCommits();
 	let lastBlobs = new Map();
-	
+
 	for (const commit of commits) {
 		const present = new Map();
-		
+
 		// fill in missing blobs from previous commit if unchanged
 		for (const file of HISTORY_PATHS) {
 			if (!commit.blobs.has(file) && lastBlobs.has(file)) {
