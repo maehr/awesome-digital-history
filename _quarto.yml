@@ -5,6 +5,7 @@ project:
     - assets/
     - README.md
     - ABOUT.md
+    - ROADMAP.md
     - CONTRIBUTING.md
     - AGENTS.md
     - CODE_OF_CONDUCT.md
@@ -30,6 +31,8 @@ website:
         text: Directory
       - href: CONTRIBUTING.md
         text: Contributing
+      - href: ROADMAP.md
+        text: Roadmap
       - href: ABOUT.md
         text: About
     tools:
