@@ -2,7 +2,7 @@
 title: SLUB Dresden
 slug: slub-dresden
 description: Search SLUB Dresden's digital collections of manuscripts, maps, newspapers, photographs, and other sources from medieval to contemporary Germany.
-external_url: https://digital.slub-dresden.de/kollektionen/
+external_url: https://digital.slub-dresden.de/kollektionen
 short_description: Over 1.8 million graphic media (photographs, maps, drawings).
 directory_section: archives
 section_label: Archives and primary sources

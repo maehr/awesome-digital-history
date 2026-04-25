@@ -68,7 +68,18 @@ function normalizeAuthor(name, email) {
 		return 'Kieran Robson';
 	}
 
-	return String(name || email || '').trim();
+	const normalizedName = String(name || '').trim();
+	const normalizedEmail = String(email || '').trim();
+	
+	if (normalizedName && !normalizedName.includes('@')) {
+		return normalizedName;
+	}
+
+	if (normalizedEmail.endsWith('@users.noreply.github.com')) {
+		return normalizedEmail;
+	}
+
+	return '';
 }
 
 function uniqueValues(values) {
@@ -114,12 +125,86 @@ function parseJsonRecords(raw, source) {
 	}
 }
 
-async function showFile(commit, filePath) {
+async function historyCommits() {
+	const output = await git([
+		'log',
+		'--first-parent',
+		'--reverse',
+		'--format=COMMIT%x1f%H%x1f%ad%x1f%an%x1f%ae',
+		'--raw',
+		'--date=short',
+		'--',
+		...HISTORY_PATHS
+	]);
+
+	const commits = [];
+	let currentCommit = null;
+
+	for (const line of output.split('\n')) {
+		if (!line) continue;
+
+		if (line.startsWith('COMMIT\x1f')) {
+			const [, hash, date, authorName, authorEmail] = line.split('\x1f');
+			currentCommit = {
+				hash,
+				date,
+				author: normalizeAuthor(authorName, authorEmail),
+				blobs: new Map()
+			};
+			commits.push(currentCommit);
+			continue;
+		}
+
+		if (currentCommit && line.startsWith(':')) {
+			const parts = line.split('\t');
+			const meta = parts[0].split(' ');
+			const blob = meta[3];
+			const file = parts[1];
+			if (blob && HISTORY_PATHS.includes(file)) {
+				currentCommit.blobs.set(file, blob);
+			}
+		}
+	}
+
+	return commits;
+}
+
+const blobCache = new Map();
+
+async function readBlob(blob) {
+	if (!blob || blob === '0000000') return '';
+	if (blobCache.has(blob)) return blobCache.get(blob);
 	try {
-		return await git(['show', `${commit}:${filePath}`]);
+		const content = await git(['cat-file', '-p', blob]);
+		blobCache.set(blob, content);
+		return content;
 	} catch {
+		blobCache.set(blob, '');
 		return '';
 	}
+}
+
+async function recordsForCommit(commit) {
+	const records = [];
+	const readmeBlob = commit.blobs.get('README.md');
+	if (readmeBlob) {
+		const readme = await readBlob(readmeBlob);
+		if (readme) {
+			records.push(...parseReadmeRecords(readme));
+		}
+	}
+
+	for (const source of ['src/lib/data/entries.json', 'data/entries.json']) {
+		const sourceBlob = commit.blobs.get(source);
+		if (sourceBlob) {
+			const raw = await readBlob(sourceBlob);
+			if (raw) {
+				records.push(...parseJsonRecords(raw, source));
+			}
+		}
+	}
+
+	return records;
 }
 
 function recordFingerprint(record) {
@@ -132,48 +217,6 @@ function recordFingerprint(record) {
 		type: record.type ?? [],
 		period: record.period ?? []
 	});
-}
-
-async function recordsForCommit(commit) {
-	const records = [];
-	const readme = await showFile(commit, 'README.md');
-	if (readme) {
-		records.push(...parseReadmeRecords(readme));
-	}
-
-	for (const source of ['src/lib/data/entries.json', 'data/entries.json']) {
-		const raw = await showFile(commit, source);
-		if (raw) {
-			records.push(...parseJsonRecords(raw, source));
-		}
-	}
-
-	return records;
-}
-
-async function historyCommits() {
-	const output = await git([
-		'log',
-		'--first-parent',
-		'--reverse',
-		'--format=%H%x1f%ad%x1f%an%x1f%ae',
-		'--date=short',
-		'--',
-		...HISTORY_PATHS
-	]);
-
-	return output
-		.trim()
-		.split('\n')
-		.filter(Boolean)
-		.map((line) => {
-			const [hash, date, authorName, authorEmail] = line.split('\x1f');
-			return {
-				hash,
-				date,
-				author: normalizeAuthor(authorName, authorEmail)
-			};
-		});
 }
 
 async function inferProvenance(entries) {
@@ -193,9 +236,21 @@ async function inferProvenance(entries) {
 		});
 	}
 
-	for (const commit of await historyCommits()) {
+	const commits = await historyCommits();
+	let lastBlobs = new Map();
+	
+	for (const commit of commits) {
 		const present = new Map();
-		for (const record of await recordsForCommit(commit.hash)) {
+		
+		// fill in missing blobs from previous commit if unchanged
+		for (const file of HISTORY_PATHS) {
+			if (!commit.blobs.has(file) && lastBlobs.has(file)) {
+				commit.blobs.set(file, lastBlobs.get(file));
+			}
+		}
+		lastBlobs = new Map(commit.blobs);
+
+		for (const record of await recordsForCommit(commit)) {
 			const entry =
 				byUrl.get(normalizeUrl(record.url)) ?? byTitle.get(normalizeTitle(record.title));
 			if (!entry) {
