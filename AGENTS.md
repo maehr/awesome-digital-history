@@ -48,6 +48,11 @@ resource_types:
     audiovisual sources|books|collection|encyclopedias|learning materials|magazines|manuscripts|maps|newspapers|photos|portal|primary sources|search engine|sheet music|statistics|tools|websites
   ]
 periods: [prehistory|ancient|classical|medieval|early modern|modern|contemporary]
+date_added: YYYY-MM-DD
+reviewed_at: YYYY-MM-DD|null
+reviewed_by: [strings]
+authors: [strings]
+contributors: [strings]
 screenshot: /assets/screenshots/<slug>.png
 ```
 
