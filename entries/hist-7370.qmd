@@ -12,6 +12,12 @@ languages:
 resource_types:
   - learning materials
 periods: []
+date_added: '2019-10-31'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors: []
 screenshot: /assets/screenshots/hist-7370.png
 screenshot_alt: Screenshot of HIST 7370
 screenshot_hide: []

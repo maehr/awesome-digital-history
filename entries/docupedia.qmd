@@ -14,6 +14,12 @@ resource_types:
   - encyclopedias
 periods:
   - contemporary
+date_added: '2020-11-16'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors: []
 screenshot: /assets/screenshots/docupedia.png
 screenshot_alt: Screenshot of Docupedia
 screenshot_hide: []

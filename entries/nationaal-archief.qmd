@@ -22,6 +22,14 @@ periods:
   - medieval
   - modern
   - contemporary
+date_added: '2022-09-26'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Kieran Robson
+contributors:
+  - Moritz Mähr
+  - Copilot
 screenshot: /assets/screenshots/nationaal-archief.png
 screenshot_alt: Screenshot of Nationaal Archief
 screenshot_hide: []

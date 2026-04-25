@@ -16,6 +16,13 @@ resource_types:
   - search engine
 periods:
   - contemporary
+date_added: '2021-12-02'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors:
+  - Copilot
 screenshot: /assets/screenshots/opencat.png
 screenshot_alt: Screenshot of OpenCat
 screenshot_hide: []

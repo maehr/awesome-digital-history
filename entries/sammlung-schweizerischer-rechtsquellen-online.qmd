@@ -17,6 +17,12 @@ resource_types:
 periods:
   - medieval
   - modern
+date_added: '2023-04-26'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors: []
 screenshot: /assets/screenshots/sammlung-schweizerischer-rechtsquellen-online.png
 screenshot_alt: Screenshot of Sammlung Schweizerischer Rechtsquellen online
 screenshot_hide: []

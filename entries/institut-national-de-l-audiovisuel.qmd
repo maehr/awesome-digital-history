@@ -16,6 +16,13 @@ resource_types:
   - primary sources
 periods:
   - contemporary
+date_added: '2021-01-06'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors:
+  - Copilot
 screenshot: /assets/screenshots/institut-national-de-l-audiovisuel.png
 screenshot_alt: Screenshot of Institut national de l'audiovisuel
 screenshot_hide: []

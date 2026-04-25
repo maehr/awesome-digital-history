@@ -108,8 +108,6 @@ Proposed fields:
 
 ```yaml
 date_added: 2026-04-25
-ai_generated: false
-ai_reviewed: false
 reviewed_at: 2026-04-25
 reviewed_by: []
 authors: []
@@ -119,8 +117,6 @@ contributors: []
 Field meanings:
 
 - `date_added`: date when the entry was added to the collection, in `YYYY-MM-DD` format.
-- `ai_generated`: whether any entry text was drafted with AI assistance.
-- `ai_reviewed`: whether AI-assisted text has been checked by a human editor.
 - `reviewed_at`: date when the entry text or metadata was last reviewed by a human editor.
 - `reviewed_by`: human reviewers who checked AI-assisted or substantially revised text.
 - `authors`: people responsible for the original entry text.
@@ -195,18 +191,23 @@ Implementation tasks:
 - Generate the report during validation or as a separate script.
 - Link the report from the roadmap or maintainer documentation.
 
-## Suggested Phasing
+## Already Implemented
 
 ### Phase 1: Editorial Transparency
 
 - Update `ABOUT.md` with project/community responsibility.
 - Add beginner-friendly contribution instructions.
-- Add provenance fields to templates and validation.
-- Publish an editorial policy with inclusion, exclusion, review, AI-use, and removal criteria.
+- Add provenance fields (`date_added`, `reviewed_at`, `reviewed_by`, `authors`, `contributors`) to templates and validation.
+- Publish an editorial policy (`EDITORIAL_POLICY.md`) with inclusion, exclusion, review, AI-use, and removal criteria.
+
+### Phase 2: Usability (Partial)
+
+- Add the filter reset button.
+
+## Suggested Phasing
 
 ### Phase 2: Usability
 
-- Add the filter reset button.
 - Add clearer empty states when filters return no results.
 - Display full language names in filter options.
 - Audit color contrast, keyboard navigation, and screen reader labels.

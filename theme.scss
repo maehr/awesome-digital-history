@@ -125,7 +125,7 @@ $callout-color-caution: #b15a3a !default;
 
 @media (min-width: 992px) {
 	[data-filter-grid] {
-		grid-template-columns: repeat(5, minmax(0, 1fr));
+		grid-template-columns: repeat(6, minmax(0, 1fr));
 	}
 
 	[data-entry-grid] {

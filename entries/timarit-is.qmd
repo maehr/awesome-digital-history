@@ -19,6 +19,14 @@ resource_types:
 periods:
   - modern
   - contemporary
+date_added: '2025-03-13'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Twente
+contributors:
+  - Copilot
+  - Moritz Mähr
 screenshot: /assets/screenshots/timarit-is.png
 screenshot_alt: Screenshot of tímarit.is
 screenshot_hide: []

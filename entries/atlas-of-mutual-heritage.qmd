@@ -16,6 +16,14 @@ resource_types:
 periods:
   - modern
   - contemporary
+date_added: '2025-06-20'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Twente
+contributors:
+  - Copilot
+  - Moritz Mähr
 screenshot: /assets/screenshots/atlas-of-mutual-heritage.png
 screenshot_alt: Screenshot of Atlas of Mutual Heritage
 screenshot_hide: []

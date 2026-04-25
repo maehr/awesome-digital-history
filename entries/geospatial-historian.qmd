@@ -12,6 +12,12 @@ languages:
 resource_types:
   - learning materials
 periods: []
+date_added: '2021-12-22'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors: []
 screenshot: /assets/screenshots/geospatial-historian.png
 screenshot_alt: Screenshot of Geospatial Historian
 screenshot_hide: []

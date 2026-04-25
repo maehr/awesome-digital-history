@@ -15,6 +15,13 @@ resource_types:
 periods:
   - modern
   - contemporary
+date_added: '2020-01-28'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors:
+  - Copilot
 screenshot: /assets/screenshots/project-gutenberg.png
 screenshot_alt: Screenshot of Project Gutenberg
 screenshot_hide: []

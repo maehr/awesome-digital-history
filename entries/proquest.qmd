@@ -18,6 +18,13 @@ resource_types:
 periods:
   - modern
   - contemporary
+date_added: '2026-01-29'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Copilot
+contributors:
+  - Moritz Mähr
 screenshot: /assets/screenshots/proquest.png
 screenshot_alt: Screenshot of ProQuest
 screenshot_hide: []

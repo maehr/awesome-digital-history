@@ -16,6 +16,13 @@ resource_types:
 periods:
   - modern
   - contemporary
+date_added: '2022-03-30'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors:
+  - Copilot
 screenshot: /assets/screenshots/world-historical-gazeteer.png
 screenshot_alt: Screenshot of World Historical Gazeteer
 screenshot_hide: []

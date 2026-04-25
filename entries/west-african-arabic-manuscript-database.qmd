@@ -18,6 +18,14 @@ resource_types:
   - manuscripts
 periods:
   - modern
+date_added: '2024-01-23'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Nico Görlich
+contributors:
+  - Copilot
+  - Moritz Mähr
 screenshot: /assets/screenshots/west-african-arabic-manuscript-database.png
 screenshot_alt: Screenshot of West African Arabic Manuscript Database
 screenshot_hide: []

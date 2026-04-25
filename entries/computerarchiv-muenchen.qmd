@@ -19,6 +19,14 @@ resource_types:
   - websites
 periods:
   - contemporary
+date_added: '2022-01-31'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors:
+  - Wincent Balin
+  - Copilot
 screenshot: /assets/screenshots/computerarchiv-muenchen.png
 screenshot_alt: Screenshot of Computerarchiv Muenchen
 screenshot_hide: []

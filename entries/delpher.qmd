@@ -18,6 +18,13 @@ resource_types:
 periods:
   - modern
   - contemporary
+date_added: '2019-09-25'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors:
+  - Copilot
 screenshot: /assets/screenshots/delpher.png
 screenshot_alt: Screenshot of Delpher
 screenshot_hide: []

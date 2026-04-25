@@ -106,6 +106,25 @@ export function ensurePeriod(value) {
 	return /[.!?]$/.test(text) ? text : `${text}.`;
 }
 
+export function todayIsoDate() {
+	return new Date().toISOString().slice(0, 10);
+}
+
+export function normalizeDateField(value) {
+	if (value === null || value === undefined || value === '') {
+		return null;
+	}
+	if (value instanceof Date) {
+		return Number.isNaN(value.valueOf()) ? String(value) : value.toISOString().slice(0, 10);
+	}
+	return String(value).trim();
+}
+
+function isIsoDate(value) {
+	const text = normalizeDateField(value);
+	return text !== null && /^\d{4}-\d{2}-\d{2}$/.test(text);
+}
+
 export function screenshotPathForSlug(slug) {
 	return `/assets/screenshots/${slug}.png`;
 }
@@ -205,6 +224,44 @@ export function validateEntryShape(entry) {
 	for (const key of ['region', 'language', 'type', 'period', 'screenshot_hide']) {
 		if (!Array.isArray(entry[key])) {
 			errors.push(`${entry.filename}: ${key} must be an array`);
+		}
+	}
+
+	const requiredProvenanceFields = [
+		'date_added',
+		'reviewed_at',
+		'reviewed_by',
+		'authors',
+		'contributors'
+	];
+
+	for (const key of requiredProvenanceFields) {
+		if (!Object.hasOwn(entry, key)) {
+			errors.push(`${entry.filename}: missing ${key}`);
+		}
+	}
+
+	if (Object.hasOwn(entry, 'date_added') && !isIsoDate(entry.date_added)) {
+		errors.push(`${entry.filename}: date_added must be YYYY-MM-DD`);
+	}
+
+	if (
+		Object.hasOwn(entry, 'reviewed_at') &&
+		entry.reviewed_at !== null &&
+		!isIsoDate(entry.reviewed_at)
+	) {
+		errors.push(`${entry.filename}: reviewed_at must be YYYY-MM-DD or null`);
+	}
+
+	for (const key of ['reviewed_by', 'authors', 'contributors']) {
+		if (Object.hasOwn(entry, key) && !Array.isArray(entry[key])) {
+			errors.push(`${entry.filename}: ${key} must be an array`);
+			continue;
+		}
+		for (const value of entry[key] || []) {
+			if (typeof value !== 'string' || value.trim().length === 0) {
+				errors.push(`${entry.filename}: ${key} values must be non-empty strings`);
+			}
 		}
 	}
 
@@ -377,7 +434,7 @@ export function buildReadme(entries) {
 	lines.push('## Contribute');
 	lines.push('');
 	lines.push(
-		'Contributions welcome! Read the [CONTRIBUTING.md](https://github.com/maehr/awesome-digital-history/blob/main/CONTRIBUTING.md) first.'
+		'Contributions welcome! Read the [CONTRIBUTING.md](https://github.com/maehr/awesome-digital-history/blob/main/CONTRIBUTING.md) and [Editorial Policy](https://github.com/maehr/awesome-digital-history/blob/main/EDITORIAL_POLICY.md) first.'
 	);
 	lines.push('');
 
@@ -534,6 +591,10 @@ ${optionList(entries, 'language')}
 ${optionList(entries, 'period')}
 </select>
 </div>
+<div class="d-grid gap-2 align-items-end">
+<label class="form-label d-none d-md-block">&nbsp;</label>
+<button class="btn btn-outline-secondary w-100" type="button" aria-label="Reset all active filters" id="directory-reset" data-filter-reset>Reset filters</button>
+</div>
 </div>
 :::
 :::
@@ -548,6 +609,8 @@ ${cards}
 ## Disclosure
 
 This page was made using human and artificial intelligence. People selected, reviewed, corrected, and maintain the entries; AI-assisted workflows were used to support drafting, structuring, and site production.
+
+See the [Editorial Policy](EDITORIAL_POLICY.md) for inclusion, review, and AI-use criteria.
 
 :::
 `;
@@ -566,6 +629,11 @@ export function buildEntryPage(entry, body) {
 		languages: entry.language,
 		resource_types: entry.type,
 		periods: entry.period,
+		date_added: normalizeDateField(entry.date_added) ?? todayIsoDate(),
+		reviewed_at: normalizeDateField(entry.reviewed_at),
+		reviewed_by: entry.reviewed_by ?? [],
+		authors: entry.authors ?? [],
+		contributors: entry.contributors ?? [],
 		screenshot: entry.screenshot,
 		screenshot_alt: entry.screenshot_alt,
 		screenshot_hide: entry.screenshot_hide,

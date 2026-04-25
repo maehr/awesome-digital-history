@@ -20,6 +20,13 @@ periods:
   - modern
   - contemporary
   - prehistory
+date_added: '2021-05-06'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors:
+  - Copilot
 screenshot: /assets/screenshots/wien-geschichte-wiki.png
 screenshot_alt: Screenshot of Wien Geschichte Wiki
 screenshot_hide: []

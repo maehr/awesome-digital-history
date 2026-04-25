@@ -24,6 +24,14 @@ resource_types:
 periods:
   - modern
   - contemporary
+date_added: '2022-09-26'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Kieran Robson
+contributors:
+  - Moritz Mähr
+  - Copilot
 screenshot: /assets/screenshots/national-archives.png
 screenshot_alt: Screenshot of National Archives
 screenshot_hide: []

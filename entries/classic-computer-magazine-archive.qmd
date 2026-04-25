@@ -14,6 +14,12 @@ resource_types:
   - magazines
 periods:
   - contemporary
+date_added: '2022-01-31'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors: []
 screenshot: /assets/screenshots/classic-computer-magazine-archive.png
 screenshot_alt: Screenshot of Classic Computer Magazine Archive
 screenshot_hide: []

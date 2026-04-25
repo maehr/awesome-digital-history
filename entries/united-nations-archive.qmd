@@ -20,6 +20,14 @@ resource_types:
   - search engine
 periods:
   - contemporary
+date_added: '2022-09-26'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Kieran Robson
+contributors:
+  - Moritz Mähr
+  - Copilot
 screenshot: /assets/screenshots/united-nations-archive.png
 screenshot_alt: Screenshot of United Nations Archive
 screenshot_hide: []

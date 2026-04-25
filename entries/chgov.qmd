@@ -17,6 +17,13 @@ resource_types:
   - primary sources
 periods:
   - contemporary
+date_added: '2022-03-02'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors:
+  - Copilot
 screenshot: /assets/screenshots/chgov.png
 screenshot_alt: Screenshot of chgov
 screenshot_hide: []

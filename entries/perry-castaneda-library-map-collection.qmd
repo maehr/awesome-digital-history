@@ -14,6 +14,12 @@ resource_types:
   - maps
 periods:
   - contemporary
+date_added: '2019-10-29'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors: []
 screenshot: /assets/screenshots/perry-castaneda-library-map-collection-placeholder.png
 screenshot_alt: Screenshot of Perry-Castañeda Library Map Collection
 screenshot_hide: []

@@ -16,6 +16,12 @@ resource_types:
 periods:
   - modern
   - contemporary
+date_added: '2022-04-28'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors: []
 screenshot: /assets/screenshots/digital-transgender-archive.png
 screenshot_alt: Screenshot of Digital Transgender Archive
 screenshot_hide: []

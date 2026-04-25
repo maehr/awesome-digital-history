@@ -19,6 +19,13 @@ resource_types:
 periods:
   - modern
   - contemporary
+date_added: '2019-09-25'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors:
+  - Copilot
 screenshot: /assets/screenshots/e-newspaperarchives-ch-placeholder.png
 screenshot_alt: Screenshot of e-newspaperarchives.ch
 screenshot_hide: []

@@ -14,6 +14,12 @@ resource_types:
   - maps
 periods:
   - contemporary
+date_added: '2022-03-30'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors: []
 screenshot: /assets/screenshots/openhistoricalmap.png
 screenshot_alt: Screenshot of OpenHistoricalMap
 screenshot_hide: []

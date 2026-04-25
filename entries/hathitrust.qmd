@@ -19,6 +19,13 @@ resource_types:
 periods:
   - modern
   - contemporary
+date_added: '2023-04-26'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors:
+  - Copilot
 screenshot: /assets/screenshots/hathitrust-placeholder.png
 screenshot_alt: Screenshot of HathiTrust
 screenshot_hide: []

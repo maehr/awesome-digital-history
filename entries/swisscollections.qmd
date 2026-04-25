@@ -20,6 +20,13 @@ periods:
   - medieval
   - modern
   - contemporary
+date_added: '2021-05-06'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors:
+  - Copilot
 screenshot: /assets/screenshots/swisscollections.png
 screenshot_alt: Screenshot of swisscollections
 screenshot_hide: []

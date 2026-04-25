@@ -12,6 +12,13 @@ languages:
 resource_types:
   - learning materials
 periods: []
+date_added: '2025-09-16'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Copilot
+contributors:
+  - Moritz Mähr
 screenshot: /assets/screenshots/grundlagen-methoden-und-anwendungen-der-digital-history.png
 screenshot_alt: Screenshot of Grundlagen, Methoden und Anwendungen der Digital History
 screenshot_hide: []

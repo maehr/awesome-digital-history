@@ -5,6 +5,7 @@ project:
     - assets/
     - README.md
     - ABOUT.md
+    - EDITORIAL_POLICY.md
     - ROADMAP.md
     - CONTRIBUTING.md
     - AGENTS.md
@@ -29,12 +30,16 @@ website:
     left:
       - href: index.qmd
         text: Directory
-      - href: CONTRIBUTING.md
-        text: Contributing
-      - href: ROADMAP.md
-        text: Roadmap
-      - href: ABOUT.md
-        text: About
+      - text: Project
+        menu:
+          - href: ABOUT.md
+            text: About
+          - href: EDITORIAL_POLICY.md
+            text: Editorial Policy
+          - href: CONTRIBUTING.md
+            text: Contributing
+          - href: ROADMAP.md
+            text: Roadmap
     tools:
       - icon: github
         url: https://github.com/maehr/awesome-digital-history/

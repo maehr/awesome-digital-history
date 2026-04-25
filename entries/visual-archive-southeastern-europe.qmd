@@ -17,6 +17,13 @@ resource_types:
   - primary sources
 periods:
   - contemporary
+date_added: '2021-05-06'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors:
+  - Copilot
 screenshot: /assets/screenshots/visual-archive-southeastern-europe.png
 screenshot_alt: Screenshot of Visual Archive Southeastern Europe
 screenshot_hide: []

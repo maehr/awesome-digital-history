@@ -16,6 +16,13 @@ resource_types:
   - primary sources
 periods:
   - contemporary
+date_added: '2020-06-01'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors:
+  - Copilot
 screenshot: /assets/screenshots/amtsdruckschriften.png
 screenshot_alt: Screenshot of Amtsdruckschriften
 screenshot_hide: []

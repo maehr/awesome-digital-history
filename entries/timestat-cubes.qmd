@@ -15,6 +15,12 @@ resource_types:
   - statistics
 periods:
   - contemporary
+date_added: '2019-09-22'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors: []
 screenshot: /assets/screenshots/timestat-cubes.png
 screenshot_alt: Screenshot of timeSTAT Cubes
 screenshot_hide: []

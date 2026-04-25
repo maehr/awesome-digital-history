@@ -18,6 +18,14 @@ periods:
   - modern
   - contemporary
   - prehistory
+date_added: '2025-03-13'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Twente
+contributors:
+  - Copilot
+  - Moritz Mähr
 screenshot: /assets/screenshots/skkg-digital-collection.png
 screenshot_alt: Screenshot of SKKG Digital Collection
 screenshot_hide: []

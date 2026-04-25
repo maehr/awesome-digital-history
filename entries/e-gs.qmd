@@ -17,6 +17,12 @@ resource_types:
 periods:
   - modern
   - contemporary
+date_added: '2020-03-29'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors: []
 screenshot: /assets/screenshots/e-gs-placeholder.png
 screenshot_alt: Screenshot of e-gs
 screenshot_hide: []

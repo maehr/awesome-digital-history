@@ -12,6 +12,13 @@ languages:
 resource_types:
   - tools
 periods: []
+date_added: '2020-11-20'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors:
+  - Copilot
 screenshot: /assets/screenshots/scientific-writing.png
 screenshot_alt: Screenshot of Scientific Writing
 screenshot_hide: []

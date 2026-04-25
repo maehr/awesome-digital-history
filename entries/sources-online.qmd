@@ -15,6 +15,14 @@ resource_types:
 periods:
   - modern
   - contemporary
+date_added: '2024-03-14'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Nico Görlich
+contributors:
+  - Copilot
+  - Moritz Mähr
 screenshot: /assets/screenshots/sources-online.png
 screenshot_alt: Screenshot of Sources Online
 screenshot_hide: []

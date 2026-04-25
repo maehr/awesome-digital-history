@@ -145,14 +145,25 @@ function initialiseDirectoryFilters() {
 	}
 	document.addEventListener('click', (event) => {
 		const chip = event.target.closest('[data-filter-chip]');
-		if (!chip) {
+		if (chip) {
+			if (!document.querySelector('[data-entry-grid]')) {
+				return;
+			}
+			event.preventDefault();
+			applySingleFilter(chip.dataset.filterChip, chip.dataset.filterValue || '');
 			return;
 		}
-		if (!document.querySelector('[data-entry-grid]')) {
+
+		const resetBtn = event.target.closest('[data-filter-reset]');
+		if (resetBtn) {
+			if (!document.querySelector('[data-entry-grid]')) {
+				return;
+			}
+			event.preventDefault();
+			resetFilters();
+			applyFilters();
 			return;
 		}
-		event.preventDefault();
-		applySingleFilter(chip.dataset.filterChip, chip.dataset.filterValue || '');
 	});
 	applyFilters({ updateUrl: false });
 }

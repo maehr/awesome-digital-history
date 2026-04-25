@@ -17,6 +17,13 @@ periods:
   - medieval
   - modern
   - contemporary
+date_added: '2021-12-02'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors:
+  - Copilot
 screenshot: /assets/screenshots/karlsruher-virtueller-katalog.png
 screenshot_alt: Screenshot of Karlsruher Virtueller Katalog
 screenshot_hide: []

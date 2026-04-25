@@ -19,6 +19,13 @@ periods:
   - early modern
   - modern
   - contemporary
+date_added: '2025-06-19'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors:
+  - Copilot
 screenshot: /assets/screenshots/eurodocs-online-sources-for-european-history.png
 screenshot_alt: Screenshot of EuroDocs – Online Sources for European History
 screenshot_hide: []

@@ -17,3 +17,6 @@ coverage/
 **/*.quarto_ipynb
 
 /.quarto/
+
+# Auto-generated files
+index.qmd
