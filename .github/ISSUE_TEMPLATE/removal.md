@@ -10,9 +10,11 @@ assignees: ''
 
 Please provide the title of the item you wish to remove and a link to it, if applicable.
 
+See the [Editorial Policy](../../EDITORIAL_POLICY.md) for removal criteria.
+
 **Reason for Removal**
 
-Briefly explain why you believe this item should be removed from the list.
+Briefly explain why you believe this item should be removed from the list, such as a dead resource, duplicate entry, scope mismatch, misleading description, or ethical concern.
 
 **Alternative(s)**
 
