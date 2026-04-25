@@ -12,6 +12,12 @@ languages:
 resource_types:
   - encyclopedias
 periods: []
+date_added: '2022-06-26'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors: []
 screenshot: /assets/screenshots/digital-humanities.png
 screenshot_alt: Screenshot of Digital Humanities
 screenshot_hide: []

@@ -20,6 +20,13 @@ periods:
   - medieval
   - modern
   - contemporary
+date_added: '2019-10-30'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors:
+  - Copilot
 screenshot: /assets/screenshots/infoclio-ch-edition-projects.png
 screenshot_alt: Screenshot of infoclio.ch Edition projects
 screenshot_hide: []

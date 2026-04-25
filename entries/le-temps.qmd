@@ -17,6 +17,13 @@ resource_types:
   - newspapers
 periods:
   - contemporary
+date_added: '2020-04-29'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors:
+  - Copilot
 screenshot: /assets/screenshots/le-temps.png
 screenshot_alt: Screenshot of Le Temps
 screenshot_hide: []

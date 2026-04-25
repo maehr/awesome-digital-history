@@ -20,6 +20,13 @@ resource_types:
 periods:
   - modern
   - contemporary
+date_added: '2022-01-31'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors:
+  - Copilot
 screenshot: /assets/screenshots/encyclopedie-d-histoire-numerique.png
 screenshot_alt: Screenshot of Encyclopédie d'histoire numérique
 screenshot_hide: []

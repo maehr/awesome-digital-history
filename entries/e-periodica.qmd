@@ -19,6 +19,13 @@ resource_types:
 periods:
   - modern
   - contemporary
+date_added: '2019-10-30'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors:
+  - Copilot
 screenshot: /assets/screenshots/e-periodica.png
 screenshot_alt: Screenshot of E-Periodica
 screenshot_hide: []

@@ -19,6 +19,13 @@ periods:
   - medieval
   - modern
   - contemporary
+date_added: '2019-11-04'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors:
+  - Copilot
 screenshot: /assets/screenshots/archives-online.png
 screenshot_alt: Screenshot of Archives Online
 screenshot_hide: []

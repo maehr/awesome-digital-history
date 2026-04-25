@@ -14,6 +14,13 @@ resource_types:
   - encyclopedias
 periods:
   - contemporary
+date_added: '2021-04-13'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Markus Bassermann
+contributors:
+  - Moritz Mähr
 screenshot: /assets/screenshots/lexm.png
 screenshot_alt: Screenshot of LexM
 screenshot_hide: []

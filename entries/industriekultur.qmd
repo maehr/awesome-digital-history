@@ -15,6 +15,13 @@ resource_types:
   - photos
 periods:
   - contemporary
+date_added: '2019-09-22'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors:
+  - Copilot
 screenshot: /assets/screenshots/industriekultur.png
 screenshot_alt: Screenshot of Industriekultur
 screenshot_hide: []

@@ -24,6 +24,13 @@ periods:
   - medieval
   - modern
   - contemporary
+date_added: '2021-01-06'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors:
+  - Copilot
 screenshot: /assets/screenshots/world-digital-library-placeholder.png
 screenshot_alt: Screenshot of World Digital Library
 screenshot_hide: []

@@ -16,6 +16,13 @@ resource_types:
 periods:
   - modern
   - contemporary
+date_added: '2019-11-18'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors:
+  - Copilot
 screenshot: /assets/screenshots/digitales-deutsches-frauenarchiv.png
 screenshot_alt: Screenshot of Digitales Deutsches Frauenarchiv
 screenshot_hide: []

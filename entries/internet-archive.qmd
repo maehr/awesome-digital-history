@@ -24,6 +24,13 @@ resource_types:
   - websites
 periods:
   - contemporary
+date_added: '2019-09-25'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors:
+  - Copilot
 screenshot: /assets/screenshots/internet-archive.png
 screenshot_alt: Screenshot of Internet Archive
 screenshot_hide: []

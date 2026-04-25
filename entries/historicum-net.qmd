@@ -21,6 +21,14 @@ resource_types:
 periods:
   - modern
   - contemporary
+date_added: '2023-06-20'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Nico Görlich
+contributors:
+  - Copilot
+  - Moritz Mähr
 screenshot: /assets/screenshots/historicum-net.png
 screenshot_alt: Screenshot of historicum.net
 screenshot_hide: []

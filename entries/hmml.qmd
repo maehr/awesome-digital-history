@@ -18,6 +18,13 @@ periods:
   - ancient
   - medieval
   - modern
+date_added: '2023-12-20'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Dominic Weber
+contributors:
+  - Moritz Mähr
 screenshot: /assets/screenshots/hmml.png
 screenshot_alt: Screenshot of HMML
 screenshot_hide: []

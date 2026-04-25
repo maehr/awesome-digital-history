@@ -17,6 +17,13 @@ resource_types:
 periods:
   - modern
   - contemporary
+date_added: '2025-03-13'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Twente
+contributors:
+  - Moritz Mähr
 screenshot: /assets/screenshots/ismus.png
 screenshot_alt: Screenshot of ÍSMÚS
 screenshot_hide: []

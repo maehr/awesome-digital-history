@@ -16,6 +16,13 @@ periods:
   - medieval
   - modern
   - contemporary
+date_added: '2019-10-29'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors:
+  - Copilot
 screenshot: /assets/screenshots/david-rumsey-map-collection.png
 screenshot_alt: Screenshot of David Rumsey Map Collection
 screenshot_hide: []

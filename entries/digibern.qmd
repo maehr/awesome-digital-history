@@ -17,6 +17,13 @@ periods:
   - medieval
   - modern
   - contemporary
+date_added: '2022-04-28'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors:
+  - Copilot
 screenshot: /assets/screenshots/digibern.png
 screenshot_alt: Screenshot of DigiBern
 screenshot_hide: []

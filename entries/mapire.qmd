@@ -26,6 +26,13 @@ periods:
   - medieval
   - modern
   - contemporary
+date_added: '2021-02-03'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors:
+  - Copilot
 screenshot: /assets/screenshots/mapire-placeholder.png
 screenshot_alt: Screenshot of Mapire
 screenshot_hide: []

@@ -19,6 +19,14 @@ periods:
   - medieval
   - modern
   - contemporary
+date_added: '2023-12-20'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Dominic Weber
+contributors:
+  - Copilot
+  - Moritz Mähr
 screenshot: /assets/screenshots/parc.png
 screenshot_alt: Screenshot of PARC
 screenshot_hide: []

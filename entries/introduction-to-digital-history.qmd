@@ -12,6 +12,12 @@ languages:
 resource_types:
   - learning materials
 periods: []
+date_added: '2023-05-13'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors: []
 screenshot: /assets/screenshots/introduction-to-digital-history.png
 screenshot_alt: Screenshot of Introduction to Digital History
 screenshot_hide: []

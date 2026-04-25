@@ -17,6 +17,13 @@ resource_types:
 periods:
   - modern
   - contemporary
+date_added: '2026-01-29'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Copilot
+contributors:
+  - Moritz Mähr
 screenshot: /assets/screenshots/southeast-asian-caribbean-images-kitlv.png
 screenshot_alt: Screenshot of Southeast Asian & Caribbean Images (KITLV)
 screenshot_hide: []

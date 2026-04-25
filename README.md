@@ -206,4 +206,4 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 
 ## Contribute
 
-Contributions welcome! Read the [CONTRIBUTING.md](https://github.com/maehr/awesome-digital-history/blob/main/CONTRIBUTING.md) first.
+Contributions welcome! Read the [CONTRIBUTING.md](https://github.com/maehr/awesome-digital-history/blob/main/CONTRIBUTING.md) and [Editorial Policy](https://github.com/maehr/awesome-digital-history/blob/main/EDITORIAL_POLICY.md) first.

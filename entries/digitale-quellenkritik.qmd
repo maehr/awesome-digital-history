@@ -12,6 +12,13 @@ languages:
 resource_types:
   - learning materials
 periods: []
+date_added: '2026-02-12'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Copilot
+contributors:
+  - Moritz Mähr
 screenshot: /assets/screenshots/digitale-quellenkritik.png
 screenshot_alt: Screenshot of Digitale Quellenkritik
 screenshot_hide: []

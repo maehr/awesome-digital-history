@@ -19,6 +19,13 @@ resource_types:
   - statistics
 periods:
   - contemporary
+date_added: '2020-04-29'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors:
+  - Copilot
 screenshot: /assets/screenshots/women-working-1800-1930-placeholder.png
 screenshot_alt: Screenshot of Women Working 1800-1930
 screenshot_hide: []

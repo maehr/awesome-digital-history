@@ -18,6 +18,14 @@ resource_types:
 periods:
   - medieval
   - modern
+date_added: '2025-03-13'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Twente
+contributors:
+  - Copilot
+  - Moritz Mähr
 screenshot: /assets/screenshots/handrit-is.png
 screenshot_alt: Screenshot of handrit.is
 screenshot_hide: []

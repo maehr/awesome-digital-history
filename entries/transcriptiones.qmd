@@ -17,6 +17,14 @@ resource_types:
 periods:
   - medieval
   - modern
+date_added: '2023-05-30'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Dominic Weber
+contributors:
+  - Copilot
+  - Moritz Mähr
 screenshot: /assets/screenshots/transcriptiones.png
 screenshot_alt: Screenshot of transcriptiones
 screenshot_hide: []

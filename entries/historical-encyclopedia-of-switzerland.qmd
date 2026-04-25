@@ -21,6 +21,13 @@ periods:
   - medieval
   - modern
   - contemporary
+date_added: '2019-09-22'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors:
+  - Copilot
 screenshot: /assets/screenshots/historical-encyclopedia-of-switzerland-placeholder.png
 screenshot_alt: Screenshot of Historical Encyclopedia of Switzerland
 screenshot_hide: []

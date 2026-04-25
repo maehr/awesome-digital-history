@@ -17,6 +17,13 @@ resource_types:
 periods:
   - modern
   - contemporary
+date_added: '2020-04-29'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors:
+  - Copilot
 screenshot: /assets/screenshots/the-proceedings-of-the-old-bailey-placeholder.png
 screenshot_alt: Screenshot of The Proceedings of the Old Bailey
 screenshot_hide: []

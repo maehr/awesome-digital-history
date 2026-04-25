@@ -17,6 +17,13 @@ resource_types:
 periods:
   - modern
   - contemporary
+date_added: '2022-06-26'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors:
+  - Copilot
 screenshot: /assets/screenshots/deutsches-zeitungsportal.png
 screenshot_alt: Screenshot of Deutsches Zeitungsportal
 screenshot_hide: []

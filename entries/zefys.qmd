@@ -15,6 +15,12 @@ resource_types:
   - newspapers
 periods:
   - contemporary
+date_added: '2020-04-29'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors: []
 screenshot: /assets/screenshots/zefys.png
 screenshot_alt: Screenshot of Zefys
 screenshot_hide: []

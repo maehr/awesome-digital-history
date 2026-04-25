@@ -16,6 +16,12 @@ resource_types:
   - statistics
 periods:
   - contemporary
+date_added: '2023-04-26'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors: []
 screenshot: /assets/screenshots/focal.png
 screenshot_alt: Screenshot of FOCAL
 screenshot_hide: []

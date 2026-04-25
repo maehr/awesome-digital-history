@@ -28,6 +28,13 @@ resource_types:
   - magazines
 periods:
   - contemporary
+date_added: '2019-10-29'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors:
+  - Copilot
 screenshot: /assets/screenshots/marxist-internet-archive.png
 screenshot_alt: Screenshot of Marxist Internet Archive
 screenshot_hide: []

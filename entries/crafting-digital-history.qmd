@@ -12,6 +12,12 @@ languages:
 resource_types:
   - learning materials
 periods: []
+date_added: '2020-04-29'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors: []
 screenshot: /assets/screenshots/crafting-digital-history.png
 screenshot_alt: Screenshot of Crafting Digital History
 screenshot_hide: []

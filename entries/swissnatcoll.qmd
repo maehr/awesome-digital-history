@@ -16,6 +16,13 @@ resource_types:
 periods:
   - modern
   - contemporary
+date_added: '2025-12-28'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Copilot
+contributors:
+  - Moritz Mähr
 screenshot: /assets/screenshots/swissnatcoll.png
 screenshot_alt: Screenshot of swissnatcoll
 screenshot_hide: []

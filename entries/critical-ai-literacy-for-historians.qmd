@@ -14,6 +14,13 @@ languages:
 resource_types:
   - learning materials
 periods: []
+date_added: '2026-02-14'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Copilot
+contributors:
+  - Moritz Mähr
 screenshot: /assets/screenshots/critical-ai-literacy-for-historians.png
 screenshot_alt: Screenshot of Critical AI Literacy for Historians
 screenshot_hide: []

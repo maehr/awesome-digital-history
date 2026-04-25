@@ -12,6 +12,12 @@ languages:
 resource_types:
   - encyclopedias
 periods: []
+date_added: '2019-09-22'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors: []
 screenshot: /assets/screenshots/computer-history.png
 screenshot_alt: Screenshot of Computer History
 screenshot_hide: []

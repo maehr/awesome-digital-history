@@ -12,6 +12,13 @@ languages:
 resource_types:
   - learning materials
 periods: []
+date_added: '2024-01-23'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Nico Görlich
+contributors:
+  - Moritz Mähr
 screenshot: /assets/screenshots/introduction-to-python-for-humanists.png
 screenshot_alt: Screenshot of Introduction to Python for Humanists
 screenshot_hide: []

@@ -21,6 +21,13 @@ resource_types:
 periods:
   - modern
   - contemporary
+date_added: '2021-03-31'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors:
+  - Copilot
 screenshot: /assets/screenshots/zlb-placeholder.png
 screenshot_alt: Screenshot of ZLB
 screenshot_hide: []

@@ -12,6 +12,12 @@ languages:
 resource_types:
   - learning materials
 periods: []
+date_added: '2019-09-22'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors: []
 screenshot: /assets/screenshots/digital-history-guide.png
 screenshot_alt: Screenshot of Digital History Guide
 screenshot_hide: []

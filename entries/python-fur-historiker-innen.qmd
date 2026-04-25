@@ -12,6 +12,12 @@ languages:
 resource_types:
   - learning materials
 periods: []
+date_added: '2022-09-25'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors: []
 screenshot: /assets/screenshots/python-fur-historiker-innen.png
 screenshot_alt: Screenshot of Python für Historiker:innen
 screenshot_hide: []
