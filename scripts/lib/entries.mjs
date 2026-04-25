@@ -592,6 +592,7 @@ ${optionList(entries, 'period')}
 </select>
 </div>
 <div class="d-grid gap-2 align-items-end">
+<label class="form-label d-none d-md-block">&nbsp;</label>
 <button class="btn btn-outline-secondary w-100" type="button" aria-label="Reset all active filters" id="directory-reset" data-filter-reset>Reset filters</button>
 </div>
 </div>
