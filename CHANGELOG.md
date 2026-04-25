@@ -9,6 +9,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ### Changed
 
 - Added period filter and refined metadata badges.
+- Added editorial transparency documentation, including an editorial policy, expanded contribution guidance, and clearer project responsibility notes.
+- Added entry provenance fields for added dates, review status, authors, reviewers, and contributors.
+- Backfilled entry provenance from git history with inferred dates, authors, and contributors.
 
 ### Fixed
 

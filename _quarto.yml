@@ -5,6 +5,7 @@ project:
     - assets/
     - README.md
     - ABOUT.md
+    - EDITORIAL_POLICY.md
     - ROADMAP.md
     - CONTRIBUTING.md
     - AGENTS.md
@@ -31,6 +32,8 @@ website:
         text: Directory
       - href: CONTRIBUTING.md
         text: Contributing
+      - href: EDITORIAL_POLICY.md
+        text: Editorial Policy
       - href: ROADMAP.md
         text: Roadmap
       - href: ABOUT.md

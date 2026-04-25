@@ -7,7 +7,8 @@ import {
 	buildEntryPage,
 	classifyEntry,
 	ensurePeriod,
-	slugify
+	slugify,
+	todayIsoDate
 } from './lib/entries.mjs';
 
 const sourcePath = path.join(ROOT_DIR, 'data', 'entries.json');
@@ -30,6 +31,11 @@ for (const record of records) {
 		language: [...record.language],
 		type: [...record.type],
 		period: [...record.period],
+		date_added: todayIsoDate(),
+		reviewed_at: null,
+		reviewed_by: [],
+		authors: [],
+		contributors: [],
 		screenshot: `/assets/screenshots/${slug}.png`,
 		screenshot_alt: `Screenshot of ${record.title}`,
 		screenshot_hide: [],
