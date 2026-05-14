@@ -1,0 +1,40 @@
+---
+title: Archiv der Salzburger Festspiele
+slug: salzburger-festspielarchiv
+description: Digitized collection of the Salzburg Festival archives including brochures, posters, costume designs and 3D models.
+external_url: https://webarchive.salzburgerfestspiele.at/
+short_description: Online collection of the Salzburg Festival Archives.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Austria
+languages:
+  - de
+resource_types:
+  - audiovisual sources
+  - primary sources
+  - collection
+periods:
+  - contemporary
+date_added: '2026-05-14'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Twente
+contributors:
+  - Copilot
+screenshot: /assets/screenshots/salzburger-festspielarchiv.png
+screenshot_alt: Screenshot of Salzburg Festival Archives
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/salzburger-festspielarchiv.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+The Salzburg Festival Archives provide digitized programmes, posters, costume and set designs, photographs, and 3D models documenting more than a century of one of Europe's most influential music and theatre festivals.
+
+These primary sources are valuable for research in performance history, musicology, stage and costume design, and cultural memory. The archive also expands public and pedagogical access to archival materials for teaching, exhibitions, and comparative studies of festival culture.
