@@ -1,0 +1,47 @@
+---
+title: Kulturpool
+slug: kulturpool
+description: Platform for digitized cultural heritage collections from GLAM institutions across Austria
+external_url: https://kulturpool.at/
+short_description: Digitized collections from GLAM institutions across Austria.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Austria
+languages:
+  - de
+resource_types:
+  - portal
+  - search engine
+  - primary sources
+  - collection
+periods:
+  - ancient
+  - contemporary
+  - early modern
+  - medieval
+  - modern
+  - prehistory
+date_added: '2026-05-14'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Twente
+contributors:
+  - Copilot
+screenshot: /assets/screenshots/kulturpool.png
+screenshot_alt: Screenshot of Kulturpool portal
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/kulturpool.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Kulturpool aggregates digitised collections from museums, libraries, archives, and other cultural institutions across Austria into a single discovery portal.
+
+The portal is valuable for regional and comparative research, provenance and collection-based studies, and teaching: by centralising access to dispersed primary sources, Kulturpool increases visibility for smaller collections, supports cross-institutional discovery, and streamlines access for educators, students, and curators preparing exhibitions or coursework.
+
