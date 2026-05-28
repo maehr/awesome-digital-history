@@ -58,6 +58,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [Mapire](https://mapire.eu/) - Interactive historical maps.
 - [Monasterium](https://www.monasterium.net/mom/home) - Deeds from all over Europe.
 - [Project Gutenberg](https://www.gutenberg.org/) - A library of over 60,000 free eBooks.
+- [RunoVerse](https://runoverse.org/) - Research platform for Finnish and Estonian runosong oral folk poetry with cross-lingual comparison and geographic analysis.
 - [tímarit.is](https://www.timarit.is/) - Digitized newspapers and magazines from Iceland, Greenland and the Faroe Islands.
 - [Visual Archive Southeastern Europe](http://gams.uni-graz.at/context:vase) - Historical and contemporary visual materials from Southeastern Europe.
 
