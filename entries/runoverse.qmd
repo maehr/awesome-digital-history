@@ -9,6 +9,8 @@ section_label: Archives and primary sources
 regions:
   - Europe
 languages:
+  - et
+  - fi
   - en
   - mul
 resource_types:

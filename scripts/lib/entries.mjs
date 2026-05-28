@@ -38,6 +38,8 @@ export const ALLOWED_VALUES = {
 		'de',
 		'en',
 		'es',
+		'et',
+		'fi',
 		'fo',
 		'fr',
 		'ha',
