@@ -28,7 +28,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 
 ### Africa
 
-- [Documenting Africans in Trans-Atlantic Slavery](http://www.datasproject.org/) - Collaborative research project exploring African ethnonyms, identity, and migration patterns in trans-Atlantic slavery.
+- [Documenting Africans in Trans-Atlantic Slavery](https://documentingafricans.blogspot.com/) - Collaborative research project exploring African ethnonyms, identity, and migration patterns in trans-Atlantic slavery.
 - [National Library of South Africa Digital Collections](https://cdm21048.contentdm.oclc.org/) - National Library of South Africa's digital collections, including historical newspapers and special collections materials.
 - [PARC](https://parc-portal.org/) - Portal for African Research Collections: PARC is the new meta-catalogue for the Africana collections at the research location Basel.
 - [West African Arabic Manuscript Database](https://waamd.lib.berkeley.edu/home) - A comprehensive collection of manuscripts that provides insight into the Islamic scholarly tradition in West Africa.
@@ -127,7 +127,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 
 ### Latin America
 
-- [History of Science in Latin America and the Caribbean](http://www.hoslac.org/) - Curated portal containing primary source documents, maps, and visual sources detailing the history of science and medicine in Latin America.
+- [History of Science in Latin America and the Caribbean](https://sites.usnh.edu/hoslac/) - Curated portal containing primary source documents, maps, and visual sources detailing the history of science and medicine in Latin America.
 
 ### Netherlands
 

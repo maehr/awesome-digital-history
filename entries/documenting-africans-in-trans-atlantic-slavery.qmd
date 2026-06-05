@@ -2,7 +2,7 @@
 title: Documenting Africans in Trans-Atlantic Slavery
 slug: documenting-africans-in-trans-atlantic-slavery
 description: Documenting Africans in Trans-Atlantic Slavery (DATAS) explores African ethnonyms, identity, and migration patterns in trans-Atlantic historical records.
-external_url: http://www.datasproject.org/
+external_url: https://documentingafricans.blogspot.com/
 short_description: Collaborative research project exploring African ethnonyms, identity, and migration patterns in trans-Atlantic slavery.
 directory_section: archives
 section_label: Archives and primary sources

@@ -2,7 +2,7 @@
 title: History of Science in Latin America and the Caribbean
 slug: history-of-science-in-latin-america-and-the-caribbean
 description: The History of Science in Latin America and the Caribbean (HOSLAC) database is a curated portal compiling primary sources, maps, and images.
-external_url: http://www.hoslac.org/
+external_url: https://sites.usnh.edu/hoslac/
 short_description: Curated portal containing primary source documents, maps, and visual sources detailing the history of science and medicine in Latin America.
 directory_section: archives
 section_label: Archives and primary sources
