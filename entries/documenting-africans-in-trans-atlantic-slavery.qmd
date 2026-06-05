@@ -1,0 +1,39 @@
+---
+title: Documenting Africans in Trans-Atlantic Slavery
+slug: documenting-africans-in-trans-atlantic-slavery
+description: Documenting Africans in Trans-Atlantic Slavery (DATAS) explores African ethnonyms, identity, and migration patterns in trans-Atlantic historical records.
+external_url: http://www.datasproject.org/
+short_description: Collaborative research project exploring African ethnonyms, identity, and migration patterns in trans-Atlantic slavery.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Africa
+languages:
+  - en
+resource_types:
+  - primary sources
+  - collection
+periods:
+  - early modern
+  - modern
+date_added: '2026-06-05'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors: []
+screenshot: /assets/screenshots/documenting-africans-in-trans-atlantic-slavery.png
+screenshot_alt: Screenshot of DATAS Homepage
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/documenting-africans-in-trans-atlantic-slavery.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Documenting Africans in Trans-Atlantic Slavery (DATAS) is an innovative collaborative project focused on exploring the ethnic identities, origins, ethnonyms, and migration trajectories of Africans in the trans-Atlantic slave trade.
+
+It provides crucial resources for the digital humanities, linguistic history, and genealogical reconstruction by analyzing naming conventions, registries, and baptismal records across colonial archives.

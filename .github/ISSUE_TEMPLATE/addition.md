@@ -29,7 +29,7 @@ contributors: []
 Allowed values:
 
 - `directory_section`: `archives`, `learning`, `more-awesome`
-- `regions`: `Africa`, `Asia`, `Austria`, `Europe`, `France`, `Germany`, `Global`, `Great Britain`, `Netherlands`, `North America`, `Switzerland`
+- `regions`: `Africa`, `Asia`, `Austria`, `Europe`, `France`, `Germany`, `Global`, `Great Britain`, `Latin America`, `Netherlands`, `North America`, `Oceania`, `Switzerland`
 - `resource_types`: `audiovisual sources`, `books`, `collection`, `encyclopedias`, `learning materials`, `magazines`, `manuscripts`, `maps`, `newspapers`, `photos`, `portal`, `primary sources`, `search engine`, `sheet music`, `statistics`, `tools`, `websites`
 - `periods`: `prehistory`, `ancient`, `classical`, `medieval`, `early modern`, `modern`, `contemporary`
 
