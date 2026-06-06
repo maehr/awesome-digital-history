@@ -1,0 +1,43 @@
+---
+title: RunoVerse
+slug: runoverse
+description: RunoVerse is a research platform for exploring 292'092 Finnish and Estonian runosong poems from four folklore collections, with cross-lingual tools and AI analysis.
+external_url: https://runoverse.org/
+short_description: Research platform for Finnish and Estonian runosong oral folk poetry with cross-lingual comparison and geographic analysis.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Europe
+languages:
+  - et
+  - fi
+  - en
+  - mul
+resource_types:
+  - primary sources
+  - search engine
+  - collection
+periods: []
+date_added: '2026-05-28'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Kaarel Veskis
+contributors: []
+screenshot: /assets/screenshots/runoverse-placeholder.png
+screenshot_alt: Screenshot of RunoVerse
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/runoverse-placeholder.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+RunoVerse provides structured digital access to 292'092 poems from four major Finnic runosong corpora: SKVR (Suomen Kansan Vanhat Runot — Finnish folk poetry), JR (Julkaisemattomat Runot — unpublished Finnish runosongs), KR (literary runosong works), and ERAB (Eesti Regilaulude Andmebaas — Estonian runosong database). Runosong is the shared oral folk poetry tradition of Finnic peoples and represents one of the largest bodies of oral poetry recorded in Europe.
+
+The platform supports cross-lingual research between Finnish and Estonian texts through AI-assisted translations, similarity algorithms, dictionary cross-references from 9 lexicographic sources, and 70+ analytical tools including geographic analysis, semantic annotation, concordance search, and emotion analysis. The interface is in English, while source texts appear in Finnish, Estonian, and related Finnic dialects.
+
+RunoVerse is useful for researchers in folklore studies, historical linguistics, digital humanities, and Finnic cultural heritage who need a single environment for searching, comparing, and analyzing this oral poetry tradition across language and regional boundaries.
