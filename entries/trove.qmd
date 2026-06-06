@@ -1,0 +1,42 @@
+---
+title: Trove
+slug: trove
+description: Trove is Australia's national digital portal, consolidating digitized newspapers, diaries, letters, maps, and archive materials from Oceanian and Australian collections.
+external_url: https://trove.nla.gov.au/
+short_description: Australia's national digital portal consolidating digitized historical press, manuscripts, and archive collections.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Oceania
+languages:
+  - en
+resource_types:
+  - newspapers
+  - primary sources
+  - collection
+  - photos
+  - maps
+periods:
+  - modern
+  - contemporary
+date_added: '2026-06-05'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors: []
+screenshot: /assets/screenshots/trove.png
+screenshot_alt: Screenshot of Trove Homepage
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/trove.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Managed by the National Library of Australia, Trove is an invaluable public portal containing hundreds of millions of digitized historical newspapers, manuscripts, maps, diaries, and photographs.
+
+It is a vital resource for study of Oceania, Australia, and British colonial history, enabling researchers to perform large-scale text mining of historical press and research settler-indigenous relations.

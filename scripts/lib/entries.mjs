@@ -22,8 +22,10 @@ export const REGION_ORDER = [
 	'Germany',
 	'Global',
 	'Great Britain',
+	'Latin America',
 	'Netherlands',
 	'North America',
+	'Oceania',
 	'Switzerland'
 ];
 

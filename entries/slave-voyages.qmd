@@ -1,0 +1,42 @@
+---
+title: Slave Voyages
+slug: slave-voyages
+description: Slave Voyages features interactive databases on Trans-Atlantic and Intra-American slave trade records, personal histories of forced individuals, and 3D ship models.
+external_url: https://www.slavevoyages.org/
+short_description: Interactive databases documenting the trans-Atlantic and intra-American slave trade, compiling records of over 47,000 voyages.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Global
+languages:
+  - en
+  - es
+  - pt
+resource_types:
+  - primary sources
+  - statistics
+  - collection
+periods:
+  - early modern
+  - modern
+date_added: '2026-06-05'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors: []
+screenshot: /assets/screenshots/slave-voyages.png
+screenshot_alt: Screenshot of Slave Voyages Homepage
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/slave-voyages.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+The Slave Voyages project is a monumental collaborative digital initiative that compiles records of the global slave trade, detailing more than 36,000 trans-Atlantic and 11,400 intra-American voyages alongside the personal names and profiles of 92,000 forced individuals.
+
+It is highly valuable for quantitative historical research, genealogical reconstruction, and the study of the African diaspora. It helps researchers track the volume and demographic makeup of the slave trade and offers 3D reconstructions of slave ships for educational use.

@@ -27,7 +27,8 @@ contributors:
   - Copilot
 screenshot: /assets/screenshots/nls.png
 screenshot_alt: Screenshot of NLS
-screenshot_hide: []
+screenshot_hide:
+  - '#ccc'
 screenshot_wait_ms: 6000
 screenshot_full_page: false
 image: /assets/screenshots/nls.png

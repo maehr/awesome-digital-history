@@ -1,0 +1,39 @@
+---
+title: Enslaved.org
+slug: enslaved-org
+description: Enslaved.org preserves individual biographies of enslaved and connected persons from the global slave trade using linked open data networks and visualizations.
+external_url: https://enslaved.org/
+short_description: Compiles individual biographies of enslaved and connected persons from the global slave trade using linked open data.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Global
+languages:
+  - en
+resource_types:
+  - primary sources
+  - collection
+periods:
+  - early modern
+  - modern
+date_added: '2026-06-05'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors: []
+screenshot: /assets/screenshots/enslaved-org.png
+screenshot_alt: Screenshot of Enslaved.org Homepage
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/enslaved-org.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Enslaved.org publishes linked open data resources that reconstruct the life histories of individuals who were enslaved, owned slaves, or participated in the slave trade. By integrating multiple independent datasets, it indexes over 900,000 historical records.
+
+It is highly useful for subaltern historical research, genealogical recovery, and network analysis, letting researchers explore personal narratives, relationships, and migration pathways of historically marginalized populations.

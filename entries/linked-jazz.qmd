@@ -1,0 +1,39 @@
+---
+title: Linked Jazz
+slug: linked-jazz
+description: Linked Jazz maps social networks of 20th-century jazz musicians by analyzing digitized oral history transcript collections.
+external_url: https://linkedjazz.org/
+short_description: Reconstructs social networks of twentieth-century jazz communities using oral history transcripts and linked open data.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - North America
+languages:
+  - en
+resource_types:
+  - primary sources
+  - audiovisual sources
+  - collection
+periods:
+  - contemporary
+date_added: '2026-06-05'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors: []
+screenshot: /assets/screenshots/linked-jazz.png
+screenshot_alt: Screenshot of Linked Jazz Homepage
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/linked-jazz.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Linked Jazz is an innovative research project that analyzes digitized oral history transcript collections of twentieth-century jazz musicians to map and visualize their social networks.
+
+It serves as a powerful model for using natural language processing (NLP) and linked open data (LOD) to construct social graphs from unstructured narrative sources, offering rich insights into community dynamics and cultural exchange.

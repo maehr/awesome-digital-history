@@ -1,0 +1,38 @@
+---
+title: Digital Library on American Slavery
+slug: digital-library-on-american-slavery
+description: The Digital Library on American Slavery (DLAS) compiles race and slavery records across the American South, containing petitions, runaway ads, and county documents.
+external_url: https://dlas.uncg.edu/
+short_description: Centralized database containing petitions, runaway slave advertisements, and county legislative records across the American South.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - North America
+languages:
+  - en
+resource_types:
+  - primary sources
+  - collection
+periods:
+  - modern
+date_added: '2026-06-05'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors: []
+screenshot: /assets/screenshots/digital-library-on-american-slavery.png
+screenshot_alt: Screenshot of Digital Library on American Slavery Homepage
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/digital-library-on-american-slavery.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+The Digital Library on American Slavery (DLAS) is an extensive database hosting court petitions, runaway slave advertisements, and county legislative records across the American South and Northern border states.
+
+It is highly useful for studying the social, legal, and economic history of Southern plantations, the judicial systems surrounding slavery, and genealogical reconstruction for descendants of enslaved individuals.

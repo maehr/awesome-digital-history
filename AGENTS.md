@@ -43,7 +43,7 @@ description: SEO meta description.
 directory_section: archives|learning|more-awesome
 regions:
   [
-    Africa|Asia|Austria|Europe|France|Germany|Global|Great Britain|Netherlands|North America|Switzerland
+    Africa|Asia|Austria|Europe|France|Germany|Global|Great Britain|Latin America|Netherlands|North America|Oceania|Switzerland
   ]
 languages: [ISO-style code]
 resource_types:

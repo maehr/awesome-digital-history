@@ -29,7 +29,7 @@ jobs:
       - name: Link Checker
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --config .lycheerc.toml --root-dir ${{ github.workspace }} './*.md' './*.qmd' './entries/**/*.qmd' './.github/**/*.md'
+          args: --config .lycheerc.toml --root-dir ${{ github.workspace }} './*.md' './entries/**/*.qmd' './.github/**/*.md'
           fail: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

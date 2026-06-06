@@ -22,7 +22,8 @@ authors:
 contributors: []
 screenshot: /assets/screenshots/spiegel-online.png
 screenshot_alt: Screenshot of Spiegel Online
-screenshot_hide: []
+screenshot_hide:
+  - 'iframe[id^="sp_message_iframe"]'
 screenshot_wait_ms: 6000
 screenshot_full_page: false
 image: /assets/screenshots/spiegel-online.png
