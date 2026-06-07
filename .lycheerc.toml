@@ -36,6 +36,7 @@ exclude = [
 
 timeout = 10
 max_retries = 2
+accept_timeouts = true
 format = "compact"
 no_progress = true
 cache = true
