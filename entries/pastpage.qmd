@@ -1,0 +1,38 @@
+---
+title: PastPage
+slug: pastpage
+description: Use PastPage to recover broken or changed web pages by querying the Wayback Machine and other web archives from a browser extension.
+external_url: https://github.com/nabertronic/pastpage
+short_description: Browser extension for recovering broken or changed web pages from multiple web archives.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Global
+languages:
+  - en
+resource_types:
+  - tools
+  - websites
+periods:
+  - contemporary
+date_added: '2026-06-07'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - nabertronic
+contributors: []
+screenshot: /assets/screenshots/pastpage.png
+screenshot_alt: Screenshot of PastPage
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/pastpage.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+PastPage helps users locate archived versions of web pages when live sources have disappeared, changed, or become unavailable.
+
+It is useful for digital history because it makes web-source recovery easier across multiple archives without requiring researchers to check each archive manually.

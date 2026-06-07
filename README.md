@@ -109,6 +109,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [OldMapsOnline](https://www.oldmapsonline.org/) - Maps, starting in the 17th century.
 - [OpenCat](https://opencat.io/) - Search engine for libraries around the globe.
 - [OpenHistoricalMap](https://openhistoricalmap.org/) - A time travel map created by a community of mappers and historians.
+- [PastPage](https://github.com/nabertronic/pastpage) - Browser extension for recovering broken or changed web pages from multiple web archives.
 - [ProQuest](https://www.proquest.com/index) - Central platform providing access to a wide range of research databases and content types including news, dissertations, ebooks, video, and journals.
 - [Public Books Database](http://www.publicbooks.org/public-books-database/) - Open access academic literature.
 - [Slave Voyages](https://www.slavevoyages.org/) - Interactive databases documenting the trans-Atlantic and intra-American slave trade, compiling records of over 47,000 voyages.
