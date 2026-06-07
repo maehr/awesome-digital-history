@@ -30,6 +30,7 @@ Allowed values:
 
 - `directory_section`: `archives`, `learning`, `more-awesome`
 - `regions`: `Africa`, `Asia`, `Austria`, `Europe`, `France`, `Germany`, `Global`, `Great Britain`, `Latin America`, `Netherlands`, `North America`, `Oceania`, `Switzerland`
+- `languages`: canonical BCP 47 tags such as `en`, `la`, `ddn`, or `mul`
 - `resource_types`: `audiovisual sources`, `books`, `collection`, `encyclopedias`, `learning materials`, `magazines`, `manuscripts`, `maps`, `newspapers`, `photos`, `portal`, `primary sources`, `search engine`, `sheet music`, `statistics`, `tools`, `websites`
 - `periods`: `prehistory`, `ancient`, `classical`, `medieval`, `early modern`, `modern`, `contemporary`
 

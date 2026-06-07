@@ -12,7 +12,7 @@ languages:
   - de
   - en
   - fr
-  - lat
+  - la
   - lt
 resource_types:
   - books

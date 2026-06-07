@@ -44,4 +44,3 @@ toc: false
 Kulturpool aggregates digitised collections from museums, libraries, archives, and other cultural institutions across Austria into a single discovery portal.
 
 The portal is valuable for regional and comparative research, provenance and collection-based studies, and teaching: by centralising access to dispersed primary sources, Kulturpool increases visibility for smaller collections, supports cross-institutional discovery, and streamlines access for educators, students, and curators preparing exhibitions or coursework.
-

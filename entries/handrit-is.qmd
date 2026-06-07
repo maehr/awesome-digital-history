@@ -11,7 +11,7 @@ regions:
 languages:
   - da
   - is
-  - lat
+  - la
 resource_types:
   - manuscripts
   - primary sources
