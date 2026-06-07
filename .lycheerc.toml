@@ -12,6 +12,9 @@ exclude = [
   "https://sites.usnh.edu/hoslac/",
   "https://southasiacommons.net/",
   "https://sources-online.org/index.html",
+  "https://anno.onb.ac.at/",
+  "https://digitalcollections.universiteitleiden.nl/imagecollection-kitlv",
+  "https://www.amtsdruckschriften.bar.admin.ch/",
   "https://www.davidrumsey.com/",
   "https://www.e-manuscripta.ch/",
   "https://www.e-newspaperarchives.ch/",
@@ -21,10 +24,14 @@ exclude = [
   "https://www.gnu.org/licenses/",
   "https://www.gnu.org/licenses/agpl-3.0.html",
   "https://www.hathitrust.org/",
+  "https://www.lexm.uni-hamburg.de/content/index.xml",
   "https://www.monasterium.net/mom/home",
+  "https://www.nationaalarchief.nl/",
+  "https://www.oldbaileyonline.org/",
   "https://www.projekt-gutenberg.org/",
   "https://www.proquest.com/index",
-  "https://www.wdl.org/"
+  "https://www.wdl.org/",
+  "http://gams.uni-graz.at/context:vase"
 ]
 
 timeout = 10
