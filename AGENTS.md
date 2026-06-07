@@ -12,9 +12,12 @@ npm run site:build
 npm run preview
 
 # Validation
+npm run hooks:install # Install local prek commit hooks
+npm run hooks:run     # Run prek hooks across all files
 npm run validate
 npm run lint
 npm run awesome-lint
+npm run commitlint    # Lint commit messages; pass -- --edit <file> or -- --last
 npm run check
 
 # Utilities
@@ -45,7 +48,7 @@ regions:
   [
     Africa|Asia|Austria|Europe|France|Germany|Global|Great Britain|Latin America|Netherlands|North America|Oceania|Switzerland
   ]
-languages: [ISO-style code]
+languages: [canonical BCP 47 tag]
 resource_types:
   [
     audiovisual sources|books|collection|encyclopedias|learning materials|magazines|manuscripts|maps|newspapers|photos|portal|primary sources|search engine|sheet music|statistics|tools|websites
@@ -62,7 +65,9 @@ screenshot: /assets/screenshots/<slug>.png
 ## Workflows
 
 - `awesome-lint.yml`: regenerates `README.md`, then runs `awesome-lint`
+- `commitlint.yml`: enforces Conventional Commits on push and pull request commits
 - `link-check.yml`: runs `lychee` against markdown and qmd files
+- `prek.yml`: runs configured `prek` hooks in CI
 - `quarto-publish.yml`: validates, renders, and deploys `_site` to GitHub Pages
 
 ## Quality Gates
@@ -70,4 +75,12 @@ screenshot: /assets/screenshots/<slug>.png
 - `npm run validate`
 - `npm run lint`
 - `npm run awesome-lint`
+- `npm run hooks:run`
 - `npm run site:build`
+
+## Commit Hooks
+
+- Hook config: `.pre-commit-config.yaml`
+- Install local hooks with `npm run hooks:install`
+- Pre-commit hooks check formatting, entry metadata, generated `README.md`, and `awesome-lint`
+- Commit messages must follow Conventional Commits and are checked by `commitlint`

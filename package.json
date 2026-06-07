@@ -20,11 +20,17 @@
 		"screenshots": "node scripts/build-screenshots.mjs",
 		"format": "prettier --write .",
 		"lint": "prettier --check .",
+		"commitlint": "commitlint",
+		"hooks:install": "prek install --git-dir .git --hook-type pre-commit --hook-type commit-msg",
+		"hooks:run": "prek run --all-files",
 		"check": "npm run site:build && npm run lint && npm run awesome-lint",
 		"changelog": "npx git-cliff --config cliff-unreleased.toml $(git log -n 1 --format=%H -- CHANGELOG.md)..HEAD",
 		"awesome-lint": "node scripts/run-awesome-lint.mjs"
 	},
 	"devDependencies": {
+		"@commitlint/cli": "^21.0.2",
+		"@commitlint/config-conventional": "^21.0.2",
+		"@j178/prek": "^0.4.4",
 		"awesome-lint": "^2.2.3",
 		"gray-matter": "^4.0.3",
 		"js-yaml": "^4.1.0",
