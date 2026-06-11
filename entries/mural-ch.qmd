@@ -7,17 +7,7 @@ short_description: Inventory of murals from all around the world, from the 19th 
 directory_section: archives
 section_label: Archives and primary sources
 regions:
-  - Africa
-  - Asia
-  - Austria
-  - Switzerland
-  - Europe
-  - France
-  - Germany
-  - Great Britain
-  - North America
-  - Latin America
-  - Oceania
+  - Global
 languages:
   - de
   - fr
