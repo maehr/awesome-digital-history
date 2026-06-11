@@ -29,6 +29,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 ### Africa
 
 - [Documenting Africans in Trans-Atlantic Slavery](https://documentingafricans.blogspot.com/) - Collaborative research project exploring African ethnonyms, identity, and migration patterns in trans-Atlantic slavery.
+- [mural.ch](https://www.mural.ch/) - Inventory of murals from all around the world, from the 19th century until today. Contains more than 13’000 records, with a focus on the 1920s to 1950s.
 - [National Library of South Africa Digital Collections](https://cdm21048.contentdm.oclc.org/) - National Library of South Africa's digital collections, including historical newspapers and special collections materials.
 - [PARC](https://parc-portal.org/) - Portal for African Research Collections: PARC is the new meta-catalogue for the Africana collections at the research location Basel.
 - [West African Arabic Manuscript Database](https://waamd.lib.berkeley.edu/home) - A comprehensive collection of manuscripts that provides insight into the Islamic scholarly tradition in West Africa.
@@ -36,6 +37,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 ### Asia
 
 - [FOCAL](https://www.asia-directories.org/) - The Asia Directories and Chronicles is a reference work for foreign traders in the Asian region, published annually by the Hong Kong Daily Press, annually between 1863 and 1941.
+- [mural.ch](https://www.mural.ch/) - Inventory of murals from all around the world, from the 19th century until today. Contains more than 13’000 records, with a focus on the 1920s to 1950s.
 - [South Asia Commons](https://southasiacommons.net/) - Discovery platform for South Asian historical and cultural materials held worldwide, with mixed hosting plus outward links.
 - [South Asian Newspapers](https://www.eastview.com/resources/gpa/crl-san/) - Open-access collection of South Asian newspapers covering major regional and global events across multiple countries and languages.
 - [Southeast Asian Newspapers](https://www.eastview.com/resources/gpa/crl-sean/) - Open-access collection of Southeast Asian newspapers documenting colonialism, decolonization, and early statehood across the region in multiple languages.
@@ -46,6 +48,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [Archiv der Salzburger Festspiele](https://webarchive.salzburgerfestspiele.at/) - Online collection of the Salzburg Festival Archives.
 - [Digitarium](https://digitarium.acdh.oeaw.ac.at/) - Digital edition of the historical Wiener Zeitung.
 - [Kulturpool](https://kulturpool.at/) - Digitized collections from GLAM institutions across Austria.
+- [mural.ch](https://www.mural.ch/) - Inventory of murals from all around the world, from the 19th century until today. Contains more than 13’000 records, with a focus on the 1920s to 1950s.
 - [Österreichische Mediathek](https://www.mediathek.at/) - The Austrian archive for sound recordings and videos from cultural and contemporary history.
 - [Wien Geschichte Wiki](https://www.geschichtewiki.wien.gv.at/Wien_Geschichte_Wiki) - It is based on the Historical Dictionary Vienna by Felix Czeike, currently there are 50,156 contributions and 12,510 images.
 
@@ -60,6 +63,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [ÍSMÚS](https://www.ismus.is/) - Icelandic musical heritage collection (including recordings and sheet music), legends and fairytales.
 - [Mapire](https://mapire.eu/) - Interactive historical maps.
 - [Monasterium](https://www.monasterium.net/mom/home) - Deeds from all over Europe.
+- [mural.ch](https://www.mural.ch/) - Inventory of murals from all around the world, from the 19th century until today. Contains more than 13’000 records, with a focus on the 1920s to 1950s.
 - [Project Gutenberg](https://www.gutenberg.org/) - A library of over 60,000 free eBooks.
 - [RunoVerse](https://runoverse.org/) - Research platform for Finnish and Estonian runosong oral folk poetry with cross-lingual comparison and geographic analysis.
 - [tímarit.is](https://www.timarit.is/) - Digitized newspapers and magazines from Iceland, Greenland and the Faroe Islands.
@@ -69,6 +73,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 
 - [Gallica](https://gallica.bnf.fr/) - Digital library of the National Library of France.
 - [Institut national de l'audiovisuel](https://www.ina.fr/) - INA is a repository of French radio and television audiovisual archives.
+- [mural.ch](https://www.mural.ch/) - Inventory of murals from all around the world, from the 19th century until today. Contains more than 13’000 records, with a focus on the 1920s to 1950s.
 
 ### Germany
 
@@ -84,6 +89,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [leo bw](https://www.leo-bw.de/) - Platform of the State Archives of Baden-Württemberg.
 - [LexM](https://www.lexm.uni-hamburg.de/content/index.xml) - Encyclopedia of musicians persecuted during the Nazi era.
 - [MARCHIVUM](https://druckschriften-digital.marchivum.de/) - Collection of Mannheim newspapers and historical printed matter on the history of Mannheim.
+- [mural.ch](https://www.mural.ch/) - Inventory of murals from all around the world, from the 19th century until today. Contains more than 13’000 records, with a focus on the 1920s to 1950s.
 - [Projekt Gutenberg](https://www.projekt-gutenberg.org/) - Contains 10'000 works by over 2'000 authors in German.
 - [Scripta Paedagogica](https://scripta.bbf.dipf.de/viewer/index/) - Collection of archival material and digitized journals in the field of history of education.
 - [SLUB Dresden](https://digital.slub-dresden.de/kollektionen) - Over 1.8 million graphic media (photographs, maps, drawings).
@@ -121,6 +127,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 ### Great Britain
 
 - [British Library](https://www.bl.uk/collection) - Maps, manuscripts and sounds.
+- [mural.ch](https://www.mural.ch/) - Inventory of murals from all around the world, from the 19th century until today. Contains more than 13’000 records, with a focus on the 1920s to 1950s.
 - [National Records of Scotland](https://www.nrscotland.gov.uk/) - Repository for the public and legal records of Scotland.
 - [NLS](https://data.nls.uk/data/) - Data collections from the National Library of Scotland.
 - [The National Archives](https://www.nationalarchives.gov.uk/) - A non-ministerial department, and the official archive and publisher for the UK Government, and for England and Wales.
@@ -129,6 +136,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 ### Latin America
 
 - [History of Science in Latin America and the Caribbean](https://sites.usnh.edu/hoslac/) - Curated portal containing primary source documents, maps, and visual sources detailing the history of science and medicine in Latin America.
+- [mural.ch](https://www.mural.ch/) - Inventory of murals from all around the world, from the 19th century until today. Contains more than 13’000 records, with a focus on the 1920s to 1950s.
 
 ### Netherlands
 
@@ -148,6 +156,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [Eugenics Archive](https://eugenicsarchive.ca/) - Scholars, survivors, students, and community partners in challenging eugenics.
 - [HathiTrust](https://www.hathitrust.org) - A not-for-profit collaborative of academic and research libraries preserving and making accessible millions of digitized items.
 - [Linked Jazz](https://linkedjazz.org/) - Reconstructs social networks of twentieth-century jazz communities using oral history transcripts and linked open data.
+- [mural.ch](https://www.mural.ch/) - Inventory of murals from all around the world, from the 19th century until today. Contains more than 13’000 records, with a focus on the 1920s to 1950s.
 - [National Archives](https://www.archives.gov/) - The official archives regarding veteran records, founding documents and presidential libraries of the United States.
 - [Perry-Castañeda Library Map Collection](https://legacy.lib.utexas.edu/maps/) - Online collection of scanned maps.
 - [Women Working 1800-1930](https://curiosity.lib.harvard.edu/women-working-1800-1930) - An exploration of women's impact on the economic life of the United States between 1800 and the Great Depression.
@@ -155,6 +164,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 
 ### Oceania
 
+- [mural.ch](https://www.mural.ch/) - Inventory of murals from all around the world, from the 19th century until today. Contains more than 13’000 records, with a focus on the 1920s to 1950s.
 - [Trove](https://trove.nla.gov.au/) - Australia's national digital portal consolidating digitized historical press, manuscripts, and archive collections.
 
 ### Switzerland
@@ -183,6 +193,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [Le Temps](https://www.letempsarchives.ch/) - Archive of Gazette de Lausanne et du Journal de Genève.
 - [map.geo.admin.ch](https://map.geo.admin.ch/) - Journey through time via maps of Switzerland.
 - [MEMOBASE](http://www.memobase.ch/) - Provides access to audiovisual documents from Swiss memory institutions.
+- [mural.ch](https://www.mural.ch/) - Inventory of murals from all around the world, from the 19th century until today. Contains more than 13’000 records, with a focus on the 1920s to 1950s.
 - [Sammlung Schweizerischer Rechtsquellen online](https://www.ssrq-sds-fds.ch/online/) - Retrodigitalisierte und digitale Editionseinheiten der Schweizerischen Rechtsquellen. Ediert wird rechtshistorisches Quellenmaterial vom Mittelalter bis in die Frühe Neuzeit (1798).
 - [Schweizerisches Wirtschaftsarchiv](https://ub.unibas.ch/de/historische-bestaende/wirtschaftsarchive/) - This collection comprises over 500 business archives from the period 1750 to the present day, with a focus on the Basel region.
 - [SKKG Digital Collection](https://digital.skkg.ch/) - The Foundation for Art, Culture, and History (SKKG) provides online access to its collection of approximately 100,000 objects, ranging from artworks to historical artifacts spanning from the Stone Age to the present.
