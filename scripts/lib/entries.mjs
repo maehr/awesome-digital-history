@@ -60,6 +60,7 @@ export const ALLOWED_VALUES = {
 		'rm',
 		'ru',
 		'sv',
+		'tr',
 		'zh'
 	],
 	type: [
