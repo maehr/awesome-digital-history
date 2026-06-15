@@ -34,6 +34,8 @@ contributors: []
 
 Explain what is outdated, incorrect, or incomplete.
 
+Use canonical BCP 47 language tags for language updates, for example `en`, `la`, `ddn`, or `mul`.
+
 **How did you check this?**
 
 Link to the source page, documentation, archived page, or other evidence for the update.

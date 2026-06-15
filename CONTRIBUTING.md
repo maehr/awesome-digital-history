@@ -40,6 +40,7 @@ Useful information for a new resource suggestion:
 - One-sentence description.
 - Why it helps digital history research, teaching, or source discovery.
 - Region, language, resource type, and historical period, if known.
+- Use canonical BCP 47 language tags, for example `en`, `la`, `ddn`, or `mul`.
 - Any access limits, reuse conditions, API, download option, or known caveat.
 
 Example:
@@ -59,15 +60,19 @@ periods: [modern]
 
 1. Fork the repository.
 2. Run `npm install`.
-3. Edit the relevant `entries/*.qmd` files and related docs.
-4. Run the local checks.
-5. Submit a pull request against `main`.
+3. Run `npm run hooks:install` to enable the local `prek` Git hooks.
+4. Edit the relevant `entries/*.qmd` files and related docs.
+5. Run the local checks.
+6. Submit a pull request against `main`.
 
 ```bash
+npm run hooks:run
 npm run validate
 npm run generate
 npm run check
 ```
+
+Commits must use [Conventional Commits](https://www.conventionalcommits.org/), for example `feat: add archive entry` or `fix: update broken source URL`. The `commit-msg` hook runs `commitlint`, and pull requests are checked again in GitHub Actions.
 
 If you changed source URLs or added entries, also run:
 
@@ -93,7 +98,7 @@ When turning an issue into an entry, maintainers should:
 - Add or update the relevant `entries/*.qmd` file.
 - Fill `date_added`, `reviewed_at`, `reviewed_by`, `authors`, and `contributors` as accurately as possible.
 - Generate or refresh the screenshot when the URL changes or a new entry is added.
-- Run `npm run validate`, `npm run generate`, and `npm run check` before merging where practical.
+- Run `npm run hooks:run`, `npm run validate`, `npm run generate`, and `npm run check` before merging where practical.
 
 ## Code of Conduct
 

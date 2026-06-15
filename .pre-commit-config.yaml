@@ -1,0 +1,52 @@
+default_install_hook_types:
+  - pre-commit
+  - commit-msg
+
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: check-added-large-files
+      - id: check-case-conflict
+      - id: check-json
+      - id: check-merge-conflict
+      - id: check-toml
+      - id: check-yaml
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+
+  - repo: local
+    hooks:
+      - id: prettier-check
+        name: prettier check
+        entry: npm run lint
+        language: system
+        pass_filenames: false
+        stages:
+          - pre-commit
+          - manual
+
+      - id: validate-entries
+        name: validate entries
+        entry: npm run validate
+        language: system
+        pass_filenames: false
+        stages:
+          - pre-commit
+          - manual
+
+      - id: awesome-lint
+        name: awesome-lint
+        entry: npm run generate && npm run awesome-lint
+        language: system
+        pass_filenames: false
+        stages:
+          - pre-commit
+          - manual
+
+      - id: commitlint
+        name: commitlint
+        entry: npm run commitlint -- --edit
+        language: system
+        stages:
+          - commit-msg

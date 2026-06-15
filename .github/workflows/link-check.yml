@@ -24,7 +24,6 @@ jobs:
         with:
           path: .lycheecache
           key: cache-lychee-${{ github.ref }}-${{ hashFiles('.lycheerc.toml') }}
-          restore-keys: cache-lychee-${{ github.ref }}-
 
       - name: Link Checker
         uses: lycheeverse/lychee-action@v2
@@ -36,7 +35,7 @@ jobs:
 
       - name: Save lychee cache
         uses: actions/cache/save@v5
-        if: always()
+        if: success()
         with:
           path: .lycheecache
           key: ${{ steps.restore-cache.outputs.cache-primary-key }}

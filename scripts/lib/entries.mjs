@@ -32,37 +32,6 @@ export const REGION_ORDER = [
 export const ALLOWED_VALUES = {
 	section: ['archives', 'learning', 'more-awesome'],
 	region: REGION_ORDER,
-	language: [
-		'ar',
-		'ca',
-		'da',
-		'ddn',
-		'de',
-		'en',
-		'es',
-		'et',
-		'fi',
-		'fo',
-		'fr',
-		'ha',
-		'hu',
-		'is',
-		'it',
-		'ja',
-		'kl',
-		'lat',
-		'lt',
-		'mul',
-		'nl',
-		'no',
-		'pl',
-		'pt',
-		'rm',
-		'ru',
-		'sv',
-		'tr',
-		'zh'
-	],
 	type: [
 		'audiovisual sources',
 		'books',
@@ -127,7 +96,117 @@ export function normalizeDateField(value) {
 
 function isIsoDate(value) {
 	const text = normalizeDateField(value);
-	return text !== null && /^\d{4}-\d{2}-\d{2}$/.test(text);
+	if (text === null || !/^\d{4}-\d{2}-\d{2}$/.test(text)) {
+		return false;
+	}
+	const date = new Date(`${text}T00:00:00.000Z`);
+	return !Number.isNaN(date.valueOf()) && date.toISOString().slice(0, 10) === text;
+}
+
+function isHttpUrl(value) {
+	try {
+		const url = new URL(value);
+		return url.protocol === 'http:' || url.protocol === 'https:';
+	} catch {
+		return false;
+	}
+}
+
+function canonicalLanguageTag(value) {
+	try {
+		return Intl.getCanonicalLocales(String(value).trim())[0] ?? null;
+	} catch {
+		return null;
+	}
+}
+
+function duplicateValues(values) {
+	return values.filter((value, index) => values.indexOf(value) !== index);
+}
+
+function formatAllowedValues(values) {
+	return values.map((value) => `'${value}'`).join(', ');
+}
+
+function entryError(entry, message) {
+	return `${entry.filename}: ${message}`;
+}
+
+function requireNonEmptyStrings(entry, keys) {
+	return keys
+		.filter((key) => typeof entry[key] !== 'string' || entry[key].trim().length === 0)
+		.map((key) => entryError(entry, `missing ${key}`));
+}
+
+function requireArrays(entry, keys) {
+	return keys
+		.filter((key) => !Array.isArray(entry[key]))
+		.map((key) => entryError(entry, `${key} must be an array`));
+}
+
+function requirePresentFields(entry, keys) {
+	return keys
+		.filter((key) => !Object.hasOwn(entry, key))
+		.map((key) => entryError(entry, `missing ${key}`));
+}
+
+function validateStringArrayValues(entry, keys) {
+	return keys.flatMap((key) => {
+		if (!Object.hasOwn(entry, key) || !Array.isArray(entry[key])) {
+			return [];
+		}
+		return entry[key]
+			.filter((value) => typeof value !== 'string' || value.trim().length === 0)
+			.map(() => entryError(entry, `${key} values must be non-empty strings`));
+	});
+}
+
+function validateUniqueArrayValues(entry, keys) {
+	return keys.flatMap((key) => {
+		if (!Array.isArray(entry[key])) {
+			return [];
+		}
+		return [...new Set(duplicateValues(entry[key]))].map((value) =>
+			entryError(entry, `${key} contains duplicate value '${value}'`)
+		);
+	});
+}
+
+function validateControlledArrayValues(entry, controlledValues) {
+	return Object.entries(controlledValues).flatMap(([field, allowed]) => {
+		if (field === 'section' || !Array.isArray(entry[field])) {
+			return [];
+		}
+		return entry[field]
+			.filter((value) => !allowed.includes(value))
+			.map((value) =>
+				entryError(
+					entry,
+					`invalid ${field} value '${value}'; expected one of ${formatAllowedValues(allowed)}`
+				)
+			);
+	});
+}
+
+function validateLanguageTags(entry) {
+	if (!Array.isArray(entry.language)) {
+		return [];
+	}
+	return entry.language.flatMap((language) => {
+		if (typeof language !== 'string' || language.trim().length === 0) {
+			return [];
+		}
+		const canonical = canonicalLanguageTag(language);
+		if (canonical === null) {
+			return [entryError(entry, `invalid language tag '${language}'; expected canonical BCP 47`)];
+		}
+		if (language !== canonical) {
+			return [
+				entryError(entry, `language tag '${language}' must be canonical BCP 47 '${canonical}'`)
+			];
+		}
+		return [];
+	});
 }
 
 export function screenshotPathForSlug(slug) {
@@ -206,7 +285,6 @@ export function extractNarrativeBody(body) {
 }
 
 export function validateEntryShape(entry) {
-	const errors = [];
 	const requiredStrings = [
 		'title',
 		'slug',
@@ -220,18 +298,6 @@ export function validateEntryShape(entry) {
 		'image'
 	];
 
-	for (const key of requiredStrings) {
-		if (typeof entry[key] !== 'string' || entry[key].trim().length === 0) {
-			errors.push(`${entry.filename}: missing ${key}`);
-		}
-	}
-
-	for (const key of ['region', 'language', 'type', 'period', 'screenshot_hide']) {
-		if (!Array.isArray(entry[key])) {
-			errors.push(`${entry.filename}: ${key} must be an array`);
-		}
-	}
-
 	const requiredProvenanceFields = [
 		'date_added',
 		'reviewed_at',
@@ -240,14 +306,44 @@ export function validateEntryShape(entry) {
 		'contributors'
 	];
 
-	for (const key of requiredProvenanceFields) {
-		if (!Object.hasOwn(entry, key)) {
-			errors.push(`${entry.filename}: missing ${key}`);
-		}
-	}
+	const errors = [
+		...requireNonEmptyStrings(entry, requiredStrings),
+		...requireArrays(entry, [
+			'region',
+			'language',
+			'type',
+			'period',
+			'screenshot_hide',
+			'reviewed_by',
+			'authors',
+			'contributors'
+		]),
+		...requirePresentFields(entry, requiredProvenanceFields),
+		...validateStringArrayValues(entry, [
+			'region',
+			'language',
+			'type',
+			'period',
+			'screenshot_hide',
+			'reviewed_by',
+			'authors',
+			'contributors'
+		]),
+		...validateUniqueArrayValues(entry, [
+			'region',
+			'language',
+			'type',
+			'period',
+			'reviewed_by',
+			'authors',
+			'contributors'
+		]),
+		...validateLanguageTags(entry),
+		...validateControlledArrayValues(entry, ALLOWED_VALUES)
+	];
 
 	if (Object.hasOwn(entry, 'date_added') && !isIsoDate(entry.date_added)) {
-		errors.push(`${entry.filename}: date_added must be YYYY-MM-DD`);
+		errors.push(entryError(entry, 'date_added must be a real YYYY-MM-DD date'));
 	}
 
 	if (
@@ -255,78 +351,64 @@ export function validateEntryShape(entry) {
 		entry.reviewed_at !== null &&
 		!isIsoDate(entry.reviewed_at)
 	) {
-		errors.push(`${entry.filename}: reviewed_at must be YYYY-MM-DD or null`);
-	}
-
-	for (const key of ['reviewed_by', 'authors', 'contributors']) {
-		if (Object.hasOwn(entry, key) && !Array.isArray(entry[key])) {
-			errors.push(`${entry.filename}: ${key} must be an array`);
-			continue;
-		}
-		for (const value of entry[key] || []) {
-			if (typeof value !== 'string' || value.trim().length === 0) {
-				errors.push(`${entry.filename}: ${key} values must be non-empty strings`);
-			}
-		}
+		errors.push(entryError(entry, 'reviewed_at must be a real YYYY-MM-DD date or null'));
 	}
 
 	if (!ALLOWED_VALUES.section.includes(entry.section)) {
-		errors.push(`${entry.filename}: invalid section '${entry.section}'`);
+		errors.push(
+			entryError(
+				entry,
+				`invalid section '${entry.section}'; expected one of ${formatAllowedValues(ALLOWED_VALUES.section)}`
+			)
+		);
 	}
 
 	if (entry.section_label !== SECTION_LABELS[entry.section]) {
-		errors.push(`${entry.filename}: section_label must match section`);
-	}
-
-	for (const [field, allowed] of Object.entries(ALLOWED_VALUES)) {
-		if (field === 'section') {
-			continue;
-		}
-		for (const value of entry[field] || []) {
-			if (!allowed.includes(value)) {
-				errors.push(`${entry.filename}: invalid ${field} value '${value}'`);
-			}
-		}
+		errors.push(entryError(entry, 'section_label must match section'));
 	}
 
 	if (entry.slug !== slugify(entry.slug)) {
-		errors.push(`${entry.filename}: slug must be normalized`);
+		errors.push(entryError(entry, 'slug must be normalized'));
 	}
 
 	if (entry.filename !== `${entry.slug}.qmd`) {
-		errors.push(`${entry.filename}: filename must match slug`);
+		errors.push(entryError(entry, 'filename must match slug'));
 	}
 
-	if (!entry.external_url.startsWith('http://') && !entry.external_url.startsWith('https://')) {
-		errors.push(`${entry.filename}: external_url must be absolute`);
+	if (!isHttpUrl(entry.external_url)) {
+		errors.push(entryError(entry, 'external_url must be an absolute http(s) URL'));
 	}
 
 	if (entry.section === 'archives' && entry.region.length === 0) {
-		errors.push(`${entry.filename}: archives entry needs a region`);
+		errors.push(entryError(entry, 'archives entry needs a region'));
 	}
 
 	if (entry.section !== 'archives' && entry.region.length > 0) {
-		errors.push(`${entry.filename}: only archives entries may define a region`);
+		errors.push(entryError(entry, 'only archives entries may define a region'));
 	}
 
 	if (entry.section === 'learning' && !entry.type.includes('learning materials')) {
-		errors.push(`${entry.filename}: learning entry must include 'learning materials' type`);
+		errors.push(entryError(entry, "learning entry must include 'learning materials' type"));
+	}
+
+	if (!/^## Why it matters\b/m.test(entry.body)) {
+		errors.push(entryError(entry, "body must include '## Why it matters' heading"));
 	}
 
 	if (entry.body.trim().length < 140) {
-		errors.push(`${entry.filename}: body is too short`);
+		errors.push(entryError(entry, 'body is too short'));
 	}
 
 	if (entry.body.includes('TODO:')) {
-		errors.push(`${entry.filename}: body still contains TODO placeholder`);
+		errors.push(entryError(entry, 'body still contains TODO placeholder'));
 	}
 
 	if (entry.description.trim().length < 60 || entry.description.trim().length > 180) {
-		errors.push(`${entry.filename}: description should be 60-180 characters for SEO`);
+		errors.push(entryError(entry, 'description should be 60-180 characters for SEO'));
 	}
 
 	if (!entry.short_description.trim().endsWith('.')) {
-		errors.push(`${entry.filename}: short_description must end with a period`);
+		errors.push(entryError(entry, 'short_description must end with a period'));
 	}
 
 	const allowedScreenshotPaths = new Set([
@@ -336,12 +418,15 @@ export function validateEntryShape(entry) {
 
 	if (!allowedScreenshotPaths.has(entry.screenshot)) {
 		errors.push(
-			`${entry.filename}: screenshot path must be ${screenshotPathForSlug(entry.slug)} or ${placeholderScreenshotPathForSlug(entry.slug)}`
+			entryError(
+				entry,
+				`screenshot path must be ${screenshotPathForSlug(entry.slug)} or ${placeholderScreenshotPathForSlug(entry.slug)}`
+			)
 		);
 	}
 
 	if (entry.image !== entry.screenshot) {
-		errors.push(`${entry.filename}: image must match screenshot`);
+		errors.push(entryError(entry, 'image must match screenshot'));
 	}
 
 	return errors;

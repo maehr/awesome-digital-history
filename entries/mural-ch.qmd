@@ -45,4 +45,3 @@ toc: false
 mural.ch documents more than 13'000 works worldwide, with particular depth for muralism from the 1920s to the 1950s. Entries combine site visits, systematic literature and repertory research, conversations with practitioners, and contributed photographs; many records include precise map markers or photos with embedded geotags to provide exact locations.
 
 The site is valuable for research in public art, muralism, urban history, and conservation because it solves a common difficulty -- locating dispersed works -- through geolocation and rich metadata. With thematic essays, walking‑tour guides, and an open contribution workflow, mural.ch supports scholars, students, curators, and local researchers preparing exhibitions, fieldwork, or teaching materials.
-

@@ -1,5 +1,6 @@
 exclude = [
   "http://computerarchiv-muenchen.de/",
+  "http://www.sfa-laboratory.ch/sr/cubestest/index.php",
   "http://www.cosmov.uzh.ch/",
   "http://www.infoclio.ch/en/edition-projects",
   "https://anneepolitique.swiss/",
@@ -9,9 +10,16 @@ exclude = [
   "https://hls-dhs-dss.ch/",
   "https://legacy.lib.utexas.edu/maps/",
   "https://mapire.eu/",
+  "https://www.mural.ch/",
   "https://sites.usnh.edu/hoslac/",
   "https://southasiacommons.net/",
   "https://sources-online.org/index.html",
+  "https://anno.onb.ac.at/",
+  "https://digitalcollections.universiteitleiden.nl/imagecollection-kitlv",
+  "https://swisscollections.ch/",
+  "https://ub.unibas.ch/de/historische-bestaende/wirtschaftsarchive/",
+  "https://www.amtsdruckschriften.bar.admin.ch/",
+  "https://www.archeco.info/",
   "https://www.davidrumsey.com/",
   "https://www.e-manuscripta.ch/",
   "https://www.e-newspaperarchives.ch/",
@@ -21,16 +29,22 @@ exclude = [
   "https://www.gnu.org/licenses/",
   "https://www.gnu.org/licenses/agpl-3.0.html",
   "https://www.hathitrust.org/",
+  "https://www.lexm.uni-hamburg.de/content/index.xml",
   "https://www.monasterium.net/mom/home",
+  "https://www.nationaalarchief.nl/",
+  "https://www.oldbaileyonline.org/",
   "https://www.projekt-gutenberg.org/",
   "https://www.proquest.com/index",
-  "https://www.wdl.org/"
+  "https://www.wdl.org/",
+  "http://www.memobase.ch/",
+  "http://gams.uni-graz.at/context:vase"
 ]
 
-timeout = 10
+timeout = 30
 max_retries = 2
 format = "compact"
 no_progress = true
 cache = true
-max_cache_age = "7d"
+max_cache_age = "1d"
+cache_exclude_status = "400..=499"
 accept = ["100..=103", "200..=299", "429", "503", "521", "522", "524"]
