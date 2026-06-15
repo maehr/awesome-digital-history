@@ -30,7 +30,7 @@
 	"devDependencies": {
 		"@commitlint/cli": "^21.0.2",
 		"@commitlint/config-conventional": "^21.0.2",
-		"@j178/prek": "^0.4.4",
+		"@j178/prek": "^0.4.5",
 		"awesome-lint": "^2.2.3",
 		"gray-matter": "^4.0.3",
 		"js-yaml": "^4.1.0",
