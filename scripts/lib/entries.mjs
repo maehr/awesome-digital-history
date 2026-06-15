@@ -308,7 +308,16 @@ export function validateEntryShape(entry) {
 
 	const errors = [
 		...requireNonEmptyStrings(entry, requiredStrings),
-		...requireArrays(entry, ['region', 'language', 'type', 'period', 'screenshot_hide']),
+		...requireArrays(entry, [
+			'region',
+			'language',
+			'type',
+			'period',
+			'screenshot_hide',
+			'reviewed_by',
+			'authors',
+			'contributors'
+		]),
 		...requirePresentFields(entry, requiredProvenanceFields),
 		...validateStringArrayValues(entry, [
 			'region',

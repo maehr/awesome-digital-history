@@ -44,5 +44,5 @@ format = "compact"
 no_progress = true
 cache = true
 max_cache_age = "1d"
-cache_exclude_status = "400.."
+cache_exclude_status = "400..=499"
 accept = ["100..=103", "200..=299", "429", "503", "521", "522", "524"]

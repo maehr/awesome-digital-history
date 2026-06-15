@@ -1,0 +1,47 @@
+---
+title: mural.ch
+slug: mural-ch
+description: Database featuring more than 13'000 murals across the world focusing on the first half of the 20th century, with advanced query capabilities and literature references.
+external_url: https://www.mural.ch/
+short_description: Inventory of murals from all around the world, from the 19th century until today. Contains more than 13’000 records, with a focus on the 1920s to 1950s.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Global
+languages:
+  - de
+  - fr
+  - it
+  - en
+  - es
+  - pt
+  - ru
+  - tr
+resource_types:
+  - audiovisual sources
+  - collection
+  - photos
+periods:
+  - contemporary
+date_added: '2026-06-12'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Twente
+contributors:
+  - Copilot
+screenshot: /assets/screenshots/mural-ch.png
+screenshot_alt: Screenshot of mural.ch
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/mural-ch.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+mural.ch documents more than 13'000 works worldwide, with particular depth for muralism from the 1920s to the 1950s. Entries combine site visits, systematic literature and repertory research, conversations with practitioners, and contributed photographs; many records include precise map markers or photos with embedded geotags to provide exact locations.
+
+The site is valuable for research in public art, muralism, urban history, and conservation because it solves a common difficulty -- locating dispersed works -- through geolocation and rich metadata. With thematic essays, walking‑tour guides, and an open contribution workflow, mural.ch supports scholars, students, curators, and local researchers preparing exhibitions, fieldwork, or teaching materials.
