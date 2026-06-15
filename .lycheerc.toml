@@ -1,5 +1,6 @@
 exclude = [
   "http://computerarchiv-muenchen.de/",
+  "http://www.sfa-laboratory.ch/sr/cubestest/index.php",
   "http://www.cosmov.uzh.ch/",
   "http://www.infoclio.ch/en/edition-projects",
   "https://anneepolitique.swiss/",
