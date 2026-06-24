@@ -1,7 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import matter from 'gray-matter';
-import yaml from 'js-yaml';
+import * as yaml from 'js-yaml';
 
 export const ROOT_DIR = process.cwd();
 export const ENTRIES_DIR = path.join(ROOT_DIR, 'entries');
