@@ -213,7 +213,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [The CTP Book](https://comp-think.github.io/) - A book for teaching Computational Thinking and Programming skills to people with a background in the Humanities.
 - [The Programming Historian](https://programminghistorian.org/) - Novice-friendly, peer-reviewed tutorials that help humanists learn a wide range of digital tools, techniques, and workflows to facilitate research and teaching.
 - [UCI Digital History](https://guides.lib.uci.edu/history/history_dh) - Overview on the field of Digital History and Digital Humanities.
-- [Historical Decision Simulators](https://ordinarymantrying.com/tools/) - Browser-based interactive simulations presenting pivotal decisions from Gandhi, Lincoln, Mandela, Marie Curie, and 8 other historical figures. You make each decision blind, then see what they actually chose and why. 12 figures, 84 decisions. Free, no login.
+- [Historical Decision Simulators](https://ordinarymantrying.com/tools/) - Browser-based interactive simulations presenting pivotal decisions from Mandela, Marie Curie, Warren Buffett, Steve Jobs, Elon Musk, and 6 other historical figures. You make each decision blind, then see what they actually chose and why. 11 figures, 77 decisions. Free, no login.
 
 ## More Awesome
 
