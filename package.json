@@ -35,6 +35,6 @@
 		"gray-matter": "^4.0.3",
 		"js-yaml": "^5.1.0",
 		"playwright": "^1.61.1",
-		"prettier": "^3.8.4"
+		"prettier": "^3.9.4"
 	}
 }
