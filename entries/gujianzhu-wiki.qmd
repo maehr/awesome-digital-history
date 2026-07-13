@@ -1,0 +1,51 @@
+---
+title: Gujianzhu Wiki
+slug: gujianzhu-wiki
+description: Explore Gujianzhu Wiki, a multilingual digital archive of Chinese historic architecture linking monuments to classical texts, inscriptions, and early photographs.
+external_url: https://gujianzhu.wiki/
+short_description: A multilingual digital archive of Chinese historic architecture, connecting monuments with verified classical texts, inscriptions, early photographs, and page-level provenance.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Asia
+languages:
+  - zh
+  - zh-Hant
+  - en
+  - de
+  - es
+  - fr
+  - it
+  - ja
+  - ko
+  - ru
+resource_types:
+  - collection
+  - primary sources
+  - photos
+periods:
+  - classical
+  - medieval
+  - early modern
+  - modern
+date_added: '2026-07-13'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Weaxs
+contributors: []
+screenshot: /assets/screenshots/gujianzhu-wiki.png
+screenshot_alt: Screenshot of Gujianzhu Wiki
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/gujianzhu-wiki.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Gujianzhu Wiki is a multilingual digital archive of Chinese historic architecture, connecting monuments such as the Yingxian Wooden Pagoda and the Mogao Caves with verified classical texts, inscriptions, and early photographs.
+
+By tying each site to page-level provenance and primary sources, it helps researchers trace dispersed documentation of ancient architecture and grotto temples across periods and regions.

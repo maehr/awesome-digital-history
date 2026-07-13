@@ -1,0 +1,42 @@
+---
+title: Shidianguji
+slug: shidianguji
+description: Read Shidianguji, an open digital library of Chinese classical texts with punctuated, searchable editions and page images for historical primary source research.
+external_url: https://www.shidianguji.com/
+short_description: Open digital library of Chinese classical texts offering punctuated, searchable editions alongside page images of the original sources.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Asia
+languages:
+  - zh
+resource_types:
+  - books
+  - primary sources
+  - search engine
+periods:
+  - ancient
+  - classical
+  - medieval
+  - early modern
+date_added: '2026-07-13'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Weaxs
+contributors: []
+screenshot: /assets/screenshots/shidianguji.png
+screenshot_alt: Screenshot of Shidianguji
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/shidianguji.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Shidianguji is an open digital library of Chinese classical texts, offering punctuated and fully searchable editions of works ranging from ancient canons to imperial-era compilations.
+
+Presenting these editions alongside images of the original pages lets researchers verify readings against the source, making it a practical tool for studying pre-modern Chinese history and literature.

@@ -36,6 +36,8 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 ### Asia
 
 - [FOCAL](https://www.asia-directories.org/) - The Asia Directories and Chronicles is a reference work for foreign traders in the Asian region, published annually by the Hong Kong Daily Press, annually between 1863 and 1941.
+- [Gujianzhu Wiki](https://gujianzhu.wiki/) - A multilingual digital archive of Chinese historic architecture, connecting monuments with verified classical texts, inscriptions, early photographs, and page-level provenance.
+- [Shidianguji](https://www.shidianguji.com/) - Open digital library of Chinese classical texts offering punctuated, searchable editions alongside page images of the original sources.
 - [South Asia Commons](https://southasiacommons.net/) - Discovery platform for South Asian historical and cultural materials held worldwide, with mixed hosting plus outward links.
 - [South Asian Newspapers](https://www.eastview.com/resources/gpa/crl-san/) - Open-access collection of South Asian newspapers covering major regional and global events across multiple countries and languages.
 - [Southeast Asian Newspapers](https://www.eastview.com/resources/gpa/crl-sean/) - Open-access collection of Southeast Asian newspapers documenting colonialism, decolonization, and early statehood across the region in multiple languages.
