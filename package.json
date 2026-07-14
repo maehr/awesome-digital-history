@@ -28,13 +28,13 @@
 		"awesome-lint": "node scripts/run-awesome-lint.mjs"
 	},
 	"devDependencies": {
-		"@commitlint/cli": "^21.1.0",
-		"@commitlint/config-conventional": "^21.1.0",
-		"@j178/prek": "^0.4.5",
+		"@commitlint/cli": "^21.2.1",
+		"@commitlint/config-conventional": "^21.2.0",
+		"@j178/prek": "^0.4.9",
 		"awesome-lint": "^2.3.0",
 		"gray-matter": "^4.0.3",
-		"js-yaml": "^5.1.0",
+		"js-yaml": "^5.2.1",
 		"playwright": "^1.61.1",
-		"prettier": "^3.8.4"
+		"prettier": "^3.9.5"
 	}
 }
