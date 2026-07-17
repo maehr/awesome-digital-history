@@ -1,0 +1,40 @@
+---
+title: "Fototeca del IPCE"
+slug: fototeca-ipce
+description: "Discover historical photographs documenting Spanish architecture, monuments, artworks, landscapes, and cultural heritage."
+external_url: https://ipce.cultura.gob.es/documentacion/fototeca.html
+short_description: "Historical photographic collections documenting Spanish architecture, monuments, artworks, and landscapes."
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Spain
+languages:
+  - es
+resource_types:
+  - collection
+  - photos
+  - primary sources
+periods:
+  - modern
+  - contemporary
+date_added: '2026-07-17'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Drakonis96
+contributors: []
+screenshot: /assets/screenshots/fototeca-ipce.png
+screenshot_alt: "Screenshot of Fototeca del IPCE"
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/fototeca-ipce.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Discover historical photographs documenting Spanish architecture, monuments, artworks, landscapes, and cultural heritage.
+
+It supports digital history research by making relevant Spanish sources easier to discover, compare, cite, and use in teaching.

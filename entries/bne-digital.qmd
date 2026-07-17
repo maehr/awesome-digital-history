@@ -1,0 +1,47 @@
+---
+title: "BNE Digital"
+slug: bne-digital
+description: "Access books, manuscripts, maps, photographs, prints, posters, sheet music, and recordings from the National Library of Spain."
+external_url: https://bnedigital.bne.es/
+short_description: "Digital collections of the National Library of Spain across many historical media and periods."
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Spain
+languages:
+  - mul
+resource_types:
+  - audiovisual sources
+  - books
+  - collection
+  - manuscripts
+  - maps
+  - photos
+  - primary sources
+  - sheet music
+periods:
+  - medieval
+  - early modern
+  - modern
+  - contemporary
+date_added: '2026-07-17'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Drakonis96
+contributors: []
+screenshot: /assets/screenshots/bne-digital.png
+screenshot_alt: "Screenshot of BNE Digital"
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/bne-digital.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Access books, manuscripts, maps, photographs, prints, posters, sheet music, and recordings from the National Library of Spain.
+
+It supports digital history research by making relevant Spanish sources easier to discover, compare, cite, and use in teaching.

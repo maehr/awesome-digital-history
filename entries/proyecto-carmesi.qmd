@@ -1,0 +1,43 @@
+---
+title: "Proyecto Carmesí"
+slug: proyecto-carmesi
+description: "Discover historical municipal and regional documents digitized through the Carmesí archival cooperation programme in Murcia."
+external_url: https://archivogeneral.carm.es/
+short_description: "Historical municipal and regional documents digitized through archival cooperation in the Region of Murcia."
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Spain
+languages:
+  - es
+resource_types:
+  - collection
+  - manuscripts
+  - portal
+  - primary sources
+periods:
+  - medieval
+  - early modern
+  - modern
+  - contemporary
+date_added: '2026-07-17'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Drakonis96
+contributors: []
+screenshot: /assets/screenshots/proyecto-carmesi.png
+screenshot_alt: "Screenshot of Proyecto Carmesí"
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/proyecto-carmesi.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Discover historical municipal and regional documents digitized through the Carmesí archival cooperation programme in Murcia.
+
+It supports digital history research by making relevant Spanish sources easier to discover, compare, cite, and use in teaching.

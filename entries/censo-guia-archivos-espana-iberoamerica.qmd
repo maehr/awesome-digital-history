@@ -1,0 +1,41 @@
+---
+title: "Censo-Guía de Archivos de España e Iberoamérica"
+slug: censo-guia-archivos-espana-iberoamerica
+description: "Discover archives, institutions, collections, and documentary holdings through Spain's national archival census and guide."
+external_url: https://censoarchivos.cultura.gob.es/CensoGuia/
+short_description: "Directory describing archives, institutions, collections, and documentary holdings in Spain."
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Spain
+languages:
+  - es
+resource_types:
+  - portal
+  - search engine
+periods:
+  - medieval
+  - early modern
+  - modern
+  - contemporary
+date_added: '2026-07-17'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Drakonis96
+contributors: []
+screenshot: /assets/screenshots/censo-guia-archivos-espana-iberoamerica.png
+screenshot_alt: "Screenshot of Censo-Guía de Archivos de España e Iberoamérica"
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/censo-guia-archivos-espana-iberoamerica.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Discover archives, institutions, collections, and documentary holdings through Spain's national archival census and guide.
+
+It supports digital history research by making relevant Spanish sources easier to discover, compare, cite, and use in teaching.

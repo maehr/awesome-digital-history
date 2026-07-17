@@ -1,0 +1,41 @@
+---
+title: "Archivo de Historia del Trabajo – Fundación 1º de Mayo"
+slug: archivo-de-historia-del-trabajo
+description: "Discover archival collections on Spanish labour history, trade unionism, political activism, and the democratic transition."
+external_url: https://1mayo.ccoo.es/
+short_description: "Archive documenting Spanish labour history, trade unionism, political activism, and the democratic transition."
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Spain
+languages:
+  - es
+resource_types:
+  - collection
+  - manuscripts
+  - photos
+  - primary sources
+periods:
+  - modern
+  - contemporary
+date_added: '2026-07-17'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Drakonis96
+contributors: []
+screenshot: /assets/screenshots/archivo-de-historia-del-trabajo.png
+screenshot_alt: "Screenshot of Archivo de Historia del Trabajo – Fundación 1º de Mayo"
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/archivo-de-historia-del-trabajo.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Discover archival collections on Spanish labour history, trade unionism, political activism, and the democratic transition.
+
+It supports digital history research by making relevant Spanish sources easier to discover, compare, cite, and use in teaching.

@@ -1,0 +1,44 @@
+---
+title: "Historia Hispánica"
+slug: historia-hispanica
+description: "Explore events and people in Spanish history through an interactive geographical and chronological knowledge platform."
+external_url: https://historia-hispanica.rah.es/
+short_description: "Interactive geographical and chronological exploration of events and people in Spanish history."
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Spain
+languages:
+  - es
+resource_types:
+  - encyclopedias
+  - maps
+  - search engine
+periods:
+  - ancient
+  - classical
+  - medieval
+  - early modern
+  - modern
+  - contemporary
+date_added: '2026-07-17'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Drakonis96
+contributors: []
+screenshot: /assets/screenshots/historia-hispanica.png
+screenshot_alt: "Screenshot of Historia Hispánica"
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/historia-hispanica.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Explore events and people in Spanish history through an interactive geographical and chronological knowledge platform.
+
+It supports digital history research by making relevant Spanish sources easier to discover, compare, cite, and use in teaching.

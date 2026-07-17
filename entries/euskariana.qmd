@@ -1,0 +1,46 @@
+---
+title: "Euskariana"
+slug: euskariana
+description: "Search books, newspapers, photographs, posters, recordings, and museum objects relating to Basque history and culture."
+external_url: https://www.euskariana.euskadi.eus/euskadibib/es/home/home.do
+short_description: "Books, newspapers, photographs, posters, recordings, and museum objects relating to Basque culture."
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Spain
+languages:
+  - es
+  - eu
+resource_types:
+  - audiovisual sources
+  - books
+  - collection
+  - newspapers
+  - photos
+  - primary sources
+  - search engine
+periods:
+  - early modern
+  - modern
+  - contemporary
+date_added: '2026-07-17'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Drakonis96
+contributors: []
+screenshot: /assets/screenshots/euskariana.png
+screenshot_alt: "Screenshot of Euskariana"
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/euskariana.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Search books, newspapers, photographs, posters, recordings, and museum objects relating to Basque history and culture.
+
+It supports digital history research by making relevant Spanish sources easier to discover, compare, cite, and use in teaching.

@@ -1,0 +1,43 @@
+---
+title: "CECLM Digital"
+slug: ceclm-digital
+description: "Access historical newspapers, books, photographs, journals, posters, maps, and ephemera relating to Castilla-La Mancha."
+external_url: https://ceclmdigital.uclm.es/
+short_description: "Historical newspapers, books, photographs, journals, posters, maps, and ephemera from Castilla-La Mancha."
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Spain
+languages:
+  - es
+resource_types:
+  - books
+  - collection
+  - maps
+  - newspapers
+  - photos
+  - primary sources
+periods:
+  - modern
+  - contemporary
+date_added: '2026-07-17'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Drakonis96
+contributors: []
+screenshot: /assets/screenshots/ceclm-digital.png
+screenshot_alt: "Screenshot of CECLM Digital"
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/ceclm-digital.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Access historical newspapers, books, photographs, journals, posters, maps, and ephemera relating to Castilla-La Mancha.
+
+It supports digital history research by making relevant Spanish sources easier to discover, compare, cite, and use in teaching.

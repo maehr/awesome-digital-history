@@ -46,7 +46,7 @@ description: SEO meta description.
 directory_section: archives|learning|more-awesome
 regions:
   [
-    Africa|Asia|Austria|Europe|France|Germany|Global|Great Britain|Latin America|Netherlands|North America|Oceania|Switzerland
+    Africa|Asia|Austria|Europe|France|Germany|Global|Great Britain|Latin America|Netherlands|North America|Oceania|Spain|Switzerland
   ]
 languages: [canonical BCP 47 tag]
 resource_types:

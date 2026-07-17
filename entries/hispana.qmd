@@ -1,0 +1,46 @@
+---
+title: "HISPANA"
+slug: hispana
+description: "Search digitized cultural and scientific heritage from Spanish archives, libraries, museums, and universities in one portal."
+external_url: https://hispana.mcu.es/
+short_description: "National aggregator for digitized collections from Spanish archives, libraries, museums, and universities."
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Spain
+languages:
+  - mul
+resource_types:
+  - collection
+  - portal
+  - primary sources
+  - search engine
+periods:
+  - prehistory
+  - ancient
+  - classical
+  - medieval
+  - early modern
+  - modern
+  - contemporary
+date_added: '2026-07-17'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Drakonis96
+contributors: []
+screenshot: /assets/screenshots/hispana.png
+screenshot_alt: "Screenshot of HISPANA"
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/hispana.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Search digitized cultural and scientific heritage from Spanish archives, libraries, museums, and universities in one portal.
+
+It supports digital history research by making relevant Spanish sources easier to discover, compare, cite, and use in teaching.

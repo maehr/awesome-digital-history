@@ -1,0 +1,44 @@
+---
+title: "Biblioteca Virtual del Principado de Asturias"
+slug: biblioteca-virtual-principado-asturias
+description: "Access digitized books, manuscripts, newspapers, photographs, and other bibliographic heritage relating to Asturias."
+external_url: https://bibliotecavirtual.asturias.es/
+short_description: "Digitized bibliographic and documentary heritage relating to Asturias."
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Spain
+languages:
+  - es
+resource_types:
+  - books
+  - collection
+  - manuscripts
+  - newspapers
+  - photos
+  - primary sources
+periods:
+  - early modern
+  - modern
+  - contemporary
+date_added: '2026-07-17'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Drakonis96
+contributors: []
+screenshot: /assets/screenshots/biblioteca-virtual-principado-asturias.png
+screenshot_alt: "Screenshot of Biblioteca Virtual del Principado de Asturias"
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/biblioteca-virtual-principado-asturias.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Access digitized books, manuscripts, newspapers, photographs, and other bibliographic heritage relating to Asturias.
+
+It supports digital history research by making relevant Spanish sources easier to discover, compare, cite, and use in teaching.

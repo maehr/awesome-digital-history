@@ -1,0 +1,44 @@
+---
+title: "Biblioteca Virtual de Defensa"
+slug: biblioteca-virtual-de-defensa
+description: "Access digitized military archives, books, manuscripts, maps, photographs, museum objects, and scientific expedition records."
+external_url: https://bibliotecavirtual.defensa.gob.es/
+short_description: "Digitized military archives, books, maps, photographs, museum objects, and scientific expedition records."
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Spain
+languages:
+  - mul
+resource_types:
+  - books
+  - collection
+  - manuscripts
+  - maps
+  - photos
+  - primary sources
+periods:
+  - early modern
+  - modern
+  - contemporary
+date_added: '2026-07-17'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Drakonis96
+contributors: []
+screenshot: /assets/screenshots/biblioteca-virtual-de-defensa.png
+screenshot_alt: "Screenshot of Biblioteca Virtual de Defensa"
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/biblioteca-virtual-de-defensa.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Access digitized military archives, books, manuscripts, maps, photographs, museum objects, and scientific expedition records.
+
+It supports digital history research by making relevant Spanish sources easier to discover, compare, cite, and use in teaching.

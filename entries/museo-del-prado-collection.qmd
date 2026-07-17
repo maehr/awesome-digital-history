@@ -1,0 +1,42 @@
+---
+title: "Museo Nacional del Prado Collection"
+slug: museo-del-prado-collection
+description: "Explore the Prado's collection through images, provenance, bibliography, exhibition history, chronology, and scholarly records."
+external_url: https://www.museodelprado.es/coleccion/
+short_description: "Searchable catalogue with images, provenance, bibliography, exhibition history, and scholarly records."
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Spain
+languages:
+  - mul
+resource_types:
+  - collection
+  - photos
+  - primary sources
+  - search engine
+periods:
+  - medieval
+  - early modern
+  - modern
+date_added: '2026-07-17'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Drakonis96
+contributors: []
+screenshot: /assets/screenshots/museo-del-prado-collection.png
+screenshot_alt: "Screenshot of Museo Nacional del Prado Collection"
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/museo-del-prado-collection.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Explore the Prado's collection through images, provenance, bibliography, exhibition history, chronology, and scholarly records.
+
+It supports digital history research by making relevant Spanish sources easier to discover, compare, cite, and use in teaching.

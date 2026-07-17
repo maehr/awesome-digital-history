@@ -1,0 +1,40 @@
+---
+title: "Filmoteca Española and NO-DO Archive"
+slug: filmoteca-espanola-no-do
+description: "Watch historical newsreels, documentaries, films, and audiovisual materials preserved by Filmoteca Española, including NO-DO."
+external_url: https://www.rtve.es/filmoteca/no-do/
+short_description: "Historical newsreels, documentaries, films, and audiovisual materials, including the complete NO-DO archive."
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Spain
+languages:
+  - es
+resource_types:
+  - audiovisual sources
+  - collection
+  - primary sources
+periods:
+  - modern
+  - contemporary
+date_added: '2026-07-17'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Drakonis96
+contributors: []
+screenshot: /assets/screenshots/filmoteca-espanola-no-do.png
+screenshot_alt: "Screenshot of Filmoteca Española and NO-DO Archive"
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/filmoteca-espanola-no-do.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Watch historical newsreels, documentaries, films, and audiovisual materials preserved by Filmoteca Española, including NO-DO.
+
+It supports digital history research by making relevant Spanish sources easier to discover, compare, cite, and use in teaching.

@@ -1,0 +1,45 @@
+---
+title: "BiNaDi – Biblioteca Navarra Digital"
+slug: binadi
+description: "Search and download digitized books and manuscripts relating to Navarra or written, printed, and produced in the region."
+external_url: https://binadi.navarra.es/opac/
+short_description: "Downloadable digitized books and manuscripts relating to Navarra or produced in the region."
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Spain
+languages:
+  - es
+  - eu
+resource_types:
+  - books
+  - collection
+  - manuscripts
+  - primary sources
+  - search engine
+periods:
+  - medieval
+  - early modern
+  - modern
+  - contemporary
+date_added: '2026-07-17'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Drakonis96
+contributors: []
+screenshot: /assets/screenshots/binadi.png
+screenshot_alt: "Screenshot of BiNaDi – Biblioteca Navarra Digital"
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/binadi.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Search and download digitized books and manuscripts relating to Navarra or written, printed, and produced in the region.
+
+It supports digital history research by making relevant Spanish sources easier to discover, compare, cite, and use in teaching.

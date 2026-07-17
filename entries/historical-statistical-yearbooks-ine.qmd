@@ -1,0 +1,40 @@
+---
+title: "Historical Statistical Yearbooks of the INE"
+slug: historical-statistical-yearbooks-ine
+description: "Consult digitized historical yearbooks of demographic, economic, social, administrative, and territorial statistics for Spain."
+external_url: https://www.ine.es/inebaseweb/libros.do?tntp=25687
+short_description: "Digitized historical yearbooks of demographic, economic, and social statistics for Spain."
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Spain
+languages:
+  - es
+resource_types:
+  - books
+  - primary sources
+  - statistics
+periods:
+  - modern
+  - contemporary
+date_added: '2026-07-17'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Drakonis96
+contributors: []
+screenshot: /assets/screenshots/historical-statistical-yearbooks-ine.png
+screenshot_alt: "Screenshot of Historical Statistical Yearbooks of the INE"
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/historical-statistical-yearbooks-ine.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Consult digitized historical yearbooks of demographic, economic, social, administrative, and territorial statistics for Spain.
+
+It supports digital history research by making relevant Spanish sources easier to discover, compare, cite, and use in teaching.

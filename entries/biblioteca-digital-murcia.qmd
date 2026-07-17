@@ -1,0 +1,44 @@
+---
+title: "Biblioteca Digital de Murcia"
+slug: biblioteca-digital-murcia
+description: "Discover digitized bibliographic and documentary heritage preserved by libraries and cultural institutions in the Region of Murcia."
+external_url: https://bibliotecadigital.carm.es/
+short_description: "Digital repository for the bibliographic and documentary heritage of the Region of Murcia."
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Spain
+languages:
+  - es
+resource_types:
+  - books
+  - collection
+  - manuscripts
+  - newspapers
+  - photos
+  - primary sources
+periods:
+  - early modern
+  - modern
+  - contemporary
+date_added: '2026-07-17'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Drakonis96
+contributors: []
+screenshot: /assets/screenshots/biblioteca-digital-murcia.png
+screenshot_alt: "Screenshot of Biblioteca Digital de Murcia"
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/biblioteca-digital-murcia.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Discover digitized bibliographic and documentary heritage preserved by libraries and cultural institutions in the Region of Murcia.
+
+It supports digital history research by making relevant Spanish sources easier to discover, compare, cite, and use in teaching.

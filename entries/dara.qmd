@@ -1,0 +1,46 @@
+---
+title: "DARA – Documentos y Archivos de Aragón"
+slug: dara
+description: "Search descriptions and digitized documents, photographs, maps, protocols, and collections from more than one hundred Aragonese archives."
+external_url: https://dara.aragon.es/dara/
+short_description: "Search portal for descriptions and digitized materials from public and private archives in Aragón."
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Spain
+languages:
+  - es
+resource_types:
+  - collection
+  - manuscripts
+  - maps
+  - photos
+  - portal
+  - primary sources
+  - search engine
+periods:
+  - medieval
+  - early modern
+  - modern
+  - contemporary
+date_added: '2026-07-17'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Drakonis96
+contributors: []
+screenshot: /assets/screenshots/dara.png
+screenshot_alt: "Screenshot of DARA – Documentos y Archivos de Aragón"
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/dara.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Search descriptions and digitized documents, photographs, maps, protocols, and collections from more than one hundred Aragonese archives.
+
+It supports digital history research by making relevant Spanish sources easier to discover, compare, cite, and use in teaching.

@@ -1,0 +1,45 @@
+---
+title: "Memoria Digital de Canarias"
+slug: memoria-digital-canarias
+description: "Access photographs, manuscripts, maps, personal archives, newspapers, and publications relating to the Canary Islands."
+external_url: https://mdc.ulpgc.es/
+short_description: "Photographs, manuscripts, maps, personal archives, newspapers, and publications relating to the Canary Islands."
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Spain
+languages:
+  - es
+resource_types:
+  - books
+  - collection
+  - manuscripts
+  - maps
+  - newspapers
+  - photos
+  - primary sources
+periods:
+  - early modern
+  - modern
+  - contemporary
+date_added: '2026-07-17'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Drakonis96
+contributors: []
+screenshot: /assets/screenshots/memoria-digital-canarias.png
+screenshot_alt: "Screenshot of Memoria Digital de Canarias"
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/memoria-digital-canarias.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Access photographs, manuscripts, maps, personal archives, newspapers, and publications relating to the Canary Islands.
+
+It supports digital history research by making relevant Spanish sources easier to discover, compare, cite, and use in teaching.

@@ -1,0 +1,41 @@
+---
+title: "Fundación Francisco Largo Caballero Archive"
+slug: fundacion-francisco-largo-caballero-archive
+description: "Research the UGT, Spanish labour history, socialism, exile, Francoism, and the democratic transition through archival holdings."
+external_url: https://fflc.ugt.org/
+short_description: "Archival collections on the UGT, Spanish labour history, socialism, exile, Francoism, and the transition."
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Spain
+languages:
+  - es
+resource_types:
+  - collection
+  - manuscripts
+  - photos
+  - primary sources
+periods:
+  - modern
+  - contemporary
+date_added: '2026-07-17'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Drakonis96
+contributors: []
+screenshot: /assets/screenshots/fundacion-francisco-largo-caballero-archive.png
+screenshot_alt: "Screenshot of Fundación Francisco Largo Caballero Archive"
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/fundacion-francisco-largo-caballero-archive.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Research the UGT, Spanish labour history, socialism, exile, Francoism, and the democratic transition through archival holdings.
+
+It supports digital history research by making relevant Spanish sources easier to discover, compare, cite, and use in teaching.

@@ -1,0 +1,40 @@
+---
+title: "Archivo de la Transición Española de Juan José Linz – UCM"
+slug: archivo-transicion-juan-jose-linz-ucm
+description: "Consult political documents, party publications, electoral propaganda, and posters collected by sociologist Juan José Linz."
+external_url: https://biblioteca.ucm.es/cps/archivo-de-la-transicion-espanola-de-juan-jose-linz
+short_description: "Political documents, electoral propaganda, posters, and party publications collected by Juan José Linz."
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Spain
+languages:
+  - es
+resource_types:
+  - collection
+  - manuscripts
+  - photos
+  - primary sources
+periods:
+  - contemporary
+date_added: '2026-07-17'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Drakonis96
+contributors: []
+screenshot: /assets/screenshots/archivo-transicion-juan-jose-linz-ucm.png
+screenshot_alt: "Screenshot of Archivo de la Transición Española de Juan José Linz – UCM"
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/archivo-transicion-juan-jose-linz-ucm.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Consult political documents, party publications, electoral propaganda, and posters collected by sociologist Juan José Linz.
+
+It supports digital history research by making relevant Spanish sources easier to discover, compare, cite, and use in teaching.

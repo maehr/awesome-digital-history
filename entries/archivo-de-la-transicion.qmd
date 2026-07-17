@@ -1,0 +1,41 @@
+---
+title: "Archivo de la Transición"
+slug: archivo-de-la-transicion
+description: "Explore documents, photographs, newspapers, posters, and ephemera from organizations and movements opposing late Francoism."
+external_url: https://archivodelatransicion.es/
+short_description: "Documents, photographs, newspapers, and ephemera from organizations seeking a democratic rupture with Francoism."
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Spain
+languages:
+  - es
+resource_types:
+  - collection
+  - manuscripts
+  - newspapers
+  - photos
+  - primary sources
+periods:
+  - contemporary
+date_added: '2026-07-17'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Drakonis96
+contributors: []
+screenshot: /assets/screenshots/archivo-de-la-transicion.png
+screenshot_alt: "Screenshot of Archivo de la Transición"
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/archivo-de-la-transicion.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Explore documents, photographs, newspapers, posters, and ephemera from organizations and movements opposing late Francoism.
+
+It supports digital history research by making relevant Spanish sources easier to discover, compare, cite, and use in teaching.

@@ -1,0 +1,41 @@
+---
+title: "Archivo de la Democracia – University of Alicante"
+slug: archivo-de-la-democracia
+description: "Explore written, graphic, photographic, and audiovisual collections on late Francoism, the Spanish transition, and democracy."
+external_url: https://archivodemocracia.ua.es/
+short_description: "Written, graphic, photographic, and audiovisual collections on Spain's transition and contemporary democracy."
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Spain
+languages:
+  - es
+resource_types:
+  - audiovisual sources
+  - collection
+  - manuscripts
+  - photos
+  - primary sources
+periods:
+  - contemporary
+date_added: '2026-07-17'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Drakonis96
+contributors: []
+screenshot: /assets/screenshots/archivo-de-la-democracia.png
+screenshot_alt: "Screenshot of Archivo de la Democracia – University of Alicante"
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/archivo-de-la-democracia.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Explore written, graphic, photographic, and audiovisual collections on late Francoism, the Spanish transition, and democracy.
+
+It supports digital history research by making relevant Spanish sources easier to discover, compare, cite, and use in teaching.

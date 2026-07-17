@@ -1,0 +1,47 @@
+---
+title: "CER.es – Collections in Network"
+slug: cer-es
+description: "Search records and images of cultural objects held by museums participating in Spain's Digital Network of Museum Collections."
+external_url: https://ceres.mcu.es/pages/SimpleSearch?index=true
+short_description: "Collective online catalogue providing records and images from museum collections across Spain."
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Spain
+languages:
+  - mul
+resource_types:
+  - collection
+  - photos
+  - portal
+  - primary sources
+  - search engine
+periods:
+  - prehistory
+  - ancient
+  - classical
+  - medieval
+  - early modern
+  - modern
+  - contemporary
+date_added: '2026-07-17'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Drakonis96
+contributors: []
+screenshot: /assets/screenshots/cer-es.png
+screenshot_alt: "Screenshot of CER.es – Collections in Network"
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/cer-es.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Search records and images of cultural objects held by museums participating in Spain's Digital Network of Museum Collections.
+
+It supports digital history research by making relevant Spanish sources easier to discover, compare, cite, and use in teaching.

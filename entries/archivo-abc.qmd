@@ -1,0 +1,41 @@
+---
+title: "Archivo ABC"
+slug: archivo-abc
+description: "Explore historical issues and photographs from the Spanish newspaper ABC through its searchable online archive."
+external_url: https://www.abc.es/archivo/
+short_description: "Historical newspaper and photographic archive of the Spanish newspaper ABC."
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Spain
+languages:
+  - es
+resource_types:
+  - newspapers
+  - photos
+  - primary sources
+  - search engine
+periods:
+  - modern
+  - contemporary
+date_added: '2026-07-17'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Drakonis96
+contributors: []
+screenshot: /assets/screenshots/archivo-abc.png
+screenshot_alt: "Screenshot of Archivo ABC"
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/archivo-abc.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Explore historical issues and photographs from the Spanish newspaper ABC through its searchable online archive.
+
+It supports digital history research by making relevant Spanish sources easier to discover, compare, cite, and use in teaching.

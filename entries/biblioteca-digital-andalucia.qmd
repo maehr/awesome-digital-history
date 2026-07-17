@@ -1,0 +1,46 @@
+---
+title: "Biblioteca Digital de Andalucía"
+slug: biblioteca-digital-andalucia
+description: "Access digitized books, manuscripts, newspapers, photographs, maps, and other documentary heritage relating to Andalusia."
+external_url: https://www.bibliotecasdeandalucia.es/web/biblioteca-digital-de-andalucia
+short_description: "Digitized bibliographic and documentary heritage relating to Andalusia."
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Spain
+languages:
+  - es
+resource_types:
+  - books
+  - collection
+  - manuscripts
+  - maps
+  - newspapers
+  - photos
+  - primary sources
+periods:
+  - medieval
+  - early modern
+  - modern
+  - contemporary
+date_added: '2026-07-17'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Drakonis96
+contributors: []
+screenshot: /assets/screenshots/biblioteca-digital-andalucia.png
+screenshot_alt: "Screenshot of Biblioteca Digital de Andalucía"
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/biblioteca-digital-andalucia.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Access digitized books, manuscripts, newspapers, photographs, maps, and other documentary heritage relating to Andalusia.
+
+It supports digital history research by making relevant Spanish sources easier to discover, compare, cite, and use in teaching.

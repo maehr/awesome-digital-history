@@ -1,0 +1,42 @@
+---
+title: "ARCA – Arxiu de Revistes Catalanes Antigues"
+slug: arca-revistes-catalanes-antigues
+description: "Search and read digitized historical Catalan newspapers, journals, magazines, and other periodical publications."
+external_url: https://arca.bnc.cat/arcabib_pro/
+short_description: "Digitized historical Catalan newspapers, journals, and periodicals."
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Spain
+languages:
+  - ca
+  - es
+resource_types:
+  - magazines
+  - newspapers
+  - primary sources
+  - search engine
+periods:
+  - modern
+  - contemporary
+date_added: '2026-07-17'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Drakonis96
+contributors: []
+screenshot: /assets/screenshots/arca-revistes-catalanes-antigues.png
+screenshot_alt: "Screenshot of ARCA – Arxiu de Revistes Catalanes Antigues"
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/arca-revistes-catalanes-antigues.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Search and read digitized historical Catalan newspapers, journals, magazines, and other periodical publications.
+
+It supports digital history research by making relevant Spanish sources easier to discover, compare, cite, and use in teaching.

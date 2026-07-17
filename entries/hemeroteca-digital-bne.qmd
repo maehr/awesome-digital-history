@@ -1,0 +1,41 @@
+---
+title: "Hemeroteca Digital de la BNE"
+slug: hemeroteca-digital-bne
+description: "Search digitized historical and modern newspapers and magazines preserved by the National Library of Spain."
+external_url: https://hemerotecadigital.bne.es/hd/es/
+short_description: "Digitized historical and modern newspapers and magazines held by the National Library of Spain."
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Spain
+languages:
+  - mul
+resource_types:
+  - magazines
+  - newspapers
+  - primary sources
+  - search engine
+periods:
+  - modern
+  - contemporary
+date_added: '2026-07-17'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Drakonis96
+contributors: []
+screenshot: /assets/screenshots/hemeroteca-digital-bne.png
+screenshot_alt: "Screenshot of Hemeroteca Digital de la BNE"
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/hemeroteca-digital-bne.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Search digitized historical and modern newspapers and magazines preserved by the National Library of Spain.
+
+It supports digital history research by making relevant Spanish sources easier to discover, compare, cite, and use in teaching.

@@ -1,0 +1,44 @@
+---
+title: "Cartoteca Digital de Catalunya"
+slug: cartoteca-digital-catalunya
+description: "Explore and download historical maps, atlases, aerial photographs, and territorial documentation from Catalonia and beyond."
+external_url: https://cartotecadigital.icgc.cat/
+short_description: "Historical maps, atlases, aerial photographs, and territorial documentation from Catalonia and beyond."
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Spain
+languages:
+  - ca
+  - es
+resource_types:
+  - books
+  - collection
+  - maps
+  - photos
+  - primary sources
+periods:
+  - early modern
+  - modern
+  - contemporary
+date_added: '2026-07-17'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Drakonis96
+contributors: []
+screenshot: /assets/screenshots/cartoteca-digital-catalunya.png
+screenshot_alt: "Screenshot of Cartoteca Digital de Catalunya"
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/cartoteca-digital-catalunya.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Explore and download historical maps, atlases, aerial photographs, and territorial documentation from Catalonia and beyond.
+
+It supports digital history research by making relevant Spanish sources easier to discover, compare, cite, and use in teaching.

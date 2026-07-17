@@ -1,0 +1,41 @@
+---
+title: "Hemeroteca de La Vanguardia"
+slug: hemeroteca-la-vanguardia
+description: "Search and read digitized historical issues of the Barcelona newspaper La Vanguardia from its foundation in 1881 onward."
+external_url: https://www.lavanguardia.com/hemeroteca
+short_description: "Digitized historical issues of the Barcelona newspaper La Vanguardia from 1881 onward."
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Spain
+languages:
+  - ca
+  - es
+resource_types:
+  - newspapers
+  - primary sources
+  - search engine
+periods:
+  - modern
+  - contemporary
+date_added: '2026-07-17'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Drakonis96
+contributors: []
+screenshot: /assets/screenshots/hemeroteca-la-vanguardia.png
+screenshot_alt: "Screenshot of Hemeroteca de La Vanguardia"
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/hemeroteca-la-vanguardia.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Search and read digitized historical issues of the Barcelona newspaper La Vanguardia from its foundation in 1881 onward.
+
+It supports digital history research by making relevant Spanish sources easier to discover, compare, cite, and use in teaching.

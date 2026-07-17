@@ -1,0 +1,43 @@
+---
+title: "Diccionario Biográfico electrónico"
+slug: diccionario-biografico-electronico
+description: "Research historical people connected with Spain through the searchable biographical reference work of the history academy."
+external_url: https://dbe.rah.es/
+short_description: "Searchable biographical reference work published by the Real Academia de la Historia."
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Spain
+languages:
+  - es
+resource_types:
+  - encyclopedias
+  - search engine
+periods:
+  - ancient
+  - classical
+  - medieval
+  - early modern
+  - modern
+  - contemporary
+date_added: '2026-07-17'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Drakonis96
+contributors: []
+screenshot: /assets/screenshots/diccionario-biografico-electronico.png
+screenshot_alt: "Screenshot of Diccionario Biográfico electrónico"
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/diccionario-biografico-electronico.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Research historical people connected with Spain through the searchable biographical reference work of the history academy.
+
+It supports digital history research by making relevant Spanish sources easier to discover, compare, cite, and use in teaching.

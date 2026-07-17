@@ -1,0 +1,39 @@
+---
+title: "Archivo RTVE"
+slug: archivo-rtve
+description: "Explore historical television and radio programmes, news broadcasts, interviews, documentaries, and other RTVE recordings."
+external_url: https://www.rtve.es/archivo/
+short_description: "Historical television and radio programmes, news broadcasts, interviews, and documentaries from Spain."
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Spain
+languages:
+  - es
+resource_types:
+  - audiovisual sources
+  - collection
+  - primary sources
+periods:
+  - contemporary
+date_added: '2026-07-17'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Drakonis96
+contributors: []
+screenshot: /assets/screenshots/archivo-rtve.png
+screenshot_alt: "Screenshot of Archivo RTVE"
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/archivo-rtve.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Explore historical television and radio programmes, news broadcasts, interviews, documentaries, and other RTVE recordings.
+
+It supports digital history research by making relevant Spanish sources easier to discover, compare, cite, and use in teaching.

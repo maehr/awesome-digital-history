@@ -1,0 +1,41 @@
+---
+title: "Jable – Archivo de Prensa Digital"
+slug: jable
+description: "Search and read digitized historical newspapers, journals, magazines, and other periodicals from the Canary Islands."
+external_url: https://jable.ulpgc.es/
+short_description: "Digitized historical newspapers and periodicals from the Canary Islands."
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Spain
+languages:
+  - es
+resource_types:
+  - magazines
+  - newspapers
+  - primary sources
+  - search engine
+periods:
+  - modern
+  - contemporary
+date_added: '2026-07-17'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Drakonis96
+contributors: []
+screenshot: /assets/screenshots/jable.png
+screenshot_alt: "Screenshot of Jable – Archivo de Prensa Digital"
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/jable.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Search and read digitized historical newspapers, journals, magazines, and other periodicals from the Canary Islands.
+
+It supports digital history research by making relevant Spanish sources easier to discover, compare, cite, and use in teaching.

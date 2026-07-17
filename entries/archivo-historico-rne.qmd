@@ -1,0 +1,39 @@
+---
+title: "Archivo Histórico de RNE"
+slug: archivo-historico-rne
+description: "Listen to historical broadcasts, interviews, reports, speeches, and other radio recordings from Radio Nacional de España."
+external_url: https://www.rtve.es/play/audios/archivo-historico/
+short_description: "Historical radio recordings preserved and published by Radio Nacional de España."
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Spain
+languages:
+  - es
+resource_types:
+  - audiovisual sources
+  - collection
+  - primary sources
+periods:
+  - contemporary
+date_added: '2026-07-17'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Drakonis96
+contributors: []
+screenshot: /assets/screenshots/archivo-historico-rne.png
+screenshot_alt: "Screenshot of Archivo Histórico de RNE"
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/archivo-historico-rne.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Listen to historical broadcasts, interviews, reports, speeches, and other radio recordings from Radio Nacional de España.
+
+It supports digital history research by making relevant Spanish sources easier to discover, compare, cite, and use in teaching.

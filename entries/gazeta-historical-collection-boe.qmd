@@ -1,0 +1,41 @@
+---
+title: "Gazeta – Historical Collection of the BOE"
+slug: gazeta-historical-collection-boe
+description: "Search the official newspapers and predecessors of Spain's BOE from 1661 to 1959 across roughly 1.5 million documents."
+external_url: https://www.boe.es/buscar/gazeta.php
+short_description: "Searchable collection of Spanish official newspapers and their predecessors from 1661 to 1959."
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Spain
+languages:
+  - es
+resource_types:
+  - newspapers
+  - primary sources
+  - search engine
+periods:
+  - early modern
+  - modern
+  - contemporary
+date_added: '2026-07-17'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Drakonis96
+contributors: []
+screenshot: /assets/screenshots/gazeta-historical-collection-boe.png
+screenshot_alt: "Screenshot of Gazeta – Historical Collection of the BOE"
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/gazeta-historical-collection-boe.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Search the official newspapers and predecessors of Spain's BOE from 1661 to 1959 across roughly 1.5 million documents.
+
+It supports digital history research by making relevant Spanish sources easier to discover, compare, cite, and use in teaching.

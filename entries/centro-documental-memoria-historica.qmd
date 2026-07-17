@@ -1,0 +1,41 @@
+---
+title: "Centro Documental de la Memoria Histórica"
+slug: centro-documental-memoria-historica
+description: "Discover collections on the Spanish Civil War, Francoist repression, exile, political opposition, and historical memory."
+external_url: https://www.cultura.gob.es/cultura/areas/archivos/mc/archivos/cdmh/portada.html
+short_description: "Collections on the Spanish Civil War, Francoist repression, exile, opposition, and historical memory."
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Spain
+languages:
+  - es
+resource_types:
+  - collection
+  - manuscripts
+  - photos
+  - portal
+  - primary sources
+periods:
+  - contemporary
+date_added: '2026-07-17'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Drakonis96
+contributors: []
+screenshot: /assets/screenshots/centro-documental-memoria-historica.png
+screenshot_alt: "Screenshot of Centro Documental de la Memoria Histórica"
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/centro-documental-memoria-historica.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Discover collections on the Spanish Civil War, Francoist repression, exile, political opposition, and historical memory.
+
+It supports digital history research by making relevant Spanish sources easier to discover, compare, cite, and use in teaching.

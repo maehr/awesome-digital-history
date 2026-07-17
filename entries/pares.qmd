@@ -1,0 +1,44 @@
+---
+title: "PARES – Portal of Spanish Archives"
+slug: pares
+description: "Search archival descriptions, authority records, and digitized documents from the network of Spanish State Archives."
+external_url: https://pares.cultura.gob.es/inicio.html
+short_description: "Descriptions and digitized documents from the Spanish State Archives."
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Spain
+languages:
+  - mul
+resource_types:
+  - collection
+  - manuscripts
+  - portal
+  - primary sources
+  - search engine
+periods:
+  - medieval
+  - early modern
+  - modern
+  - contemporary
+date_added: '2026-07-17'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Drakonis96
+contributors: []
+screenshot: /assets/screenshots/pares.png
+screenshot_alt: "Screenshot of PARES – Portal of Spanish Archives"
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/pares.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Search archival descriptions, authority records, and digitized documents from the network of Spanish State Archives.
+
+It supports digital history research by making relevant Spanish sources easier to discover, compare, cite, and use in teaching.

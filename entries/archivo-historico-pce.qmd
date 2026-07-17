@@ -1,0 +1,41 @@
+---
+title: "Archivo Histórico del PCE – UCM"
+slug: archivo-historico-pce
+description: "Research the Communist Party of Spain through collections on the Civil War, exile, clandestine activity, and the transition."
+external_url: https://biblioteca.ucm.es/historica/archivo-historico-del-pce
+short_description: "Collections of the Communist Party of Spain covering the Civil War, exile, Francoism, and the transition."
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Spain
+languages:
+  - es
+resource_types:
+  - collection
+  - manuscripts
+  - newspapers
+  - primary sources
+periods:
+  - modern
+  - contemporary
+date_added: '2026-07-17'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Drakonis96
+contributors: []
+screenshot: /assets/screenshots/archivo-historico-pce.png
+screenshot_alt: "Screenshot of Archivo Histórico del PCE – UCM"
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/archivo-historico-pce.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Research the Communist Party of Spain through collections on the Civil War, exile, clandestine activity, and the transition.
+
+It supports digital history research by making relevant Spanish sources easier to discover, compare, cite, and use in teaching.

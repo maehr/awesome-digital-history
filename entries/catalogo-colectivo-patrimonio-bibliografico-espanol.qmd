@@ -1,0 +1,41 @@
+---
+title: "Catálogo Colectivo del Patrimonio Bibliográfico Español"
+slug: catalogo-colectivo-patrimonio-bibliografico-espanol
+description: "Locate and identify historical bibliographic heritage preserved by libraries and cultural institutions throughout Spain."
+external_url: https://ccpbe.cultura.gob.es/
+short_description: "Collective catalogue for locating historical bibliographic heritage held by Spanish institutions."
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Spain
+languages:
+  - mul
+resource_types:
+  - books
+  - portal
+  - search engine
+periods:
+  - medieval
+  - early modern
+  - modern
+date_added: '2026-07-17'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Drakonis96
+contributors: []
+screenshot: /assets/screenshots/catalogo-colectivo-patrimonio-bibliografico-espanol.png
+screenshot_alt: "Screenshot of Catálogo Colectivo del Patrimonio Bibliográfico Español"
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/catalogo-colectivo-patrimonio-bibliografico-espanol.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Locate and identify historical bibliographic heritage preserved by libraries and cultural institutions throughout Spain.
+
+It supports digital history research by making relevant Spanish sources easier to discover, compare, cite, and use in teaching.

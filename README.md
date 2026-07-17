@@ -19,6 +19,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
   - [Netherlands](#netherlands)
   - [North America](#north-america)
   - [Oceania](#oceania)
+  - [Spain](#spain)
   - [Switzerland](#switzerland)
 - [Learning](#learning)
 - [More Awesome](#more-awesome)
@@ -157,6 +158,66 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 ### Oceania
 
 - [Trove](https://trove.nla.gov.au/) - Australia's national digital portal consolidating digitized historical press, manuscripts, and archive collections.
+
+### Spain
+
+- [ARCA – Arxiu de Revistes Catalanes Antigues](https://arca.bnc.cat/arcabib_pro/) - Digitized historical Catalan newspapers, journals, and periodicals.
+- [Archivo ABC](https://www.abc.es/archivo/) - Historical newspaper and photographic archive of the Spanish newspaper ABC.
+- [Archivo de Historia del Trabajo – Fundación 1º de Mayo](https://1mayo.ccoo.es/) - Archive documenting Spanish labour history, trade unionism, political activism, and the democratic transition.
+- [Archivo de la Democracia – University of Alicante](https://archivodemocracia.ua.es/) - Written, graphic, photographic, and audiovisual collections on Spain's transition and contemporary democracy.
+- [Archivo de la Fundación Anselmo Lorenzo](https://fal.cnt.es/) - Documentary collections on Spanish anarchism, the labour movement, exile, and libertarian culture.
+- [Archivo de la Fundación Pablo Iglesias](https://fpabloiglesias.es/archivo-y-biblioteca/) - Archives of Spanish socialism, the labour movement, exile, the Civil War, Francoism, and the transition.
+- [Archivo de la Memoria – Fundación Transición Española](https://transicion.org/) - Personal papers, reports, correspondence, memoirs, and documentation concerning the Spanish democratic transition.
+- [Archivo de la Transición](https://archivodelatransicion.es/) - Documents, photographs, newspapers, and ephemera from organizations seeking a democratic rupture with Francoism.
+- [Archivo de la Transición Española de Juan José Linz – UCM](https://biblioteca.ucm.es/cps/archivo-de-la-transicion-espanola-de-juan-jose-linz) - Political documents, electoral propaganda, posters, and party publications collected by Juan José Linz.
+- [Archivo Histórico de RNE](https://www.rtve.es/play/audios/archivo-historico/) - Historical radio recordings preserved and published by Radio Nacional de España.
+- [Archivo Histórico del PCE – UCM](https://biblioteca.ucm.es/historica/archivo-historico-del-pce) - Collections of the Communist Party of Spain covering the Civil War, exile, Francoism, and the transition.
+- [Archivo Linz de la Transición Española](https://lab.march.es/ia-linz/) - More than 76,000 Spanish press clippings documenting the democratic transition.
+- [Archivo RTVE](https://www.rtve.es/archivo/) - Historical television and radio programmes, news broadcasts, interviews, and documentaries from Spain.
+- [Biblioteca Digital de Andalucía](https://www.bibliotecasdeandalucia.es/web/biblioteca-digital-de-andalucia) - Digitized bibliographic and documentary heritage relating to Andalusia.
+- [Biblioteca Digital de Castilla y León](https://bibliotecadigital.jcyl.es/) - Digitized books, manuscripts, newspapers, photographs, and maps relating to Castilla y León.
+- [Biblioteca Digital de la Real Academia de la Historia](https://bibliotecadigital.rah.es/) - Digitized manuscripts, rare books, personal archives, maps, and graphic materials on Spanish history.
+- [Biblioteca Digital de Murcia](https://bibliotecadigital.carm.es/) - Digital repository for the bibliographic and documentary heritage of the Region of Murcia.
+- [Biblioteca Virtual de Defensa](https://bibliotecavirtual.defensa.gob.es/) - Digitized military archives, books, maps, photographs, museum objects, and scientific expedition records.
+- [Biblioteca Virtual de Prensa Histórica](https://prensahistorica.mcu.es/) - Searchable historical newspapers and cultural magazines published in Spanish languages.
+- [Biblioteca Virtual del Patrimonio Bibliográfico](https://bvpb.mcu.es/) - Digitized manuscripts, rare books, photographs, maps, and sheet music from Spanish memory institutions.
+- [Biblioteca Virtual del Principado de Asturias](https://bibliotecavirtual.asturias.es/) - Digitized bibliographic and documentary heritage relating to Asturias.
+- [Biblioteca Virtual Miguel de Cervantes](https://www.cervantesvirtual.com/) - Digital library of literary, historical, bibliographical, and thematic collections relating to Spanish culture.
+- [BiNaDi – Biblioteca Navarra Digital](https://binadi.navarra.es/opac/) - Downloadable digitized books and manuscripts relating to Navarra or produced in the region.
+- [BIVALDI – Biblioteca Valenciana Digital](https://bivaldi.gva.es/) - Digitized bibliographic and documentary heritage relating to the Valencian Community.
+- [BNE Digital](https://bnedigital.bne.es/) - Digital collections of the National Library of Spain across many historical media and periods.
+- [Cartoteca Digital de Catalunya](https://cartotecadigital.icgc.cat/) - Historical maps, atlases, aerial photographs, and territorial documentation from Catalonia and beyond.
+- [Catálogo Colectivo del Patrimonio Bibliográfico Español](https://ccpbe.cultura.gob.es/) - Collective catalogue for locating historical bibliographic heritage held by Spanish institutions.
+- [CECLM Digital](https://ceclmdigital.uclm.es/) - Historical newspapers, books, photographs, journals, posters, maps, and ephemera from Castilla-La Mancha.
+- [Censo-Guía de Archivos de España e Iberoamérica](https://censoarchivos.cultura.gob.es/CensoGuia/) - Directory describing archives, institutions, collections, and documentary holdings in Spain.
+- [Centro de Estudios de Castilla-La Mancha](https://www.uclm.es/centros-investigacion/ceclm) - Research centre providing catalogues, digital collections, thematic projects, and resources on Castilla-La Mancha.
+- [Centro Documental de la Memoria Histórica](https://www.cultura.gob.es/cultura/areas/archivos/mc/archivos/cdmh/portada.html) - Collections on the Spanish Civil War, Francoist repression, exile, opposition, and historical memory.
+- [CER.es – Collections in Network](https://ceres.mcu.es/pages/SimpleSearch?index=true) - Collective online catalogue providing records and images from museum collections across Spain.
+- [DARA – Documentos y Archivos de Aragón](https://dara.aragon.es/dara/) - Search portal for descriptions and digitized materials from public and private archives in Aragón.
+- [Diccionario Biográfico electrónico](https://dbe.rah.es/) - Searchable biographical reference work published by the Real Academia de la Historia.
+- [Euskariana](https://www.euskariana.euskadi.eus/euskadibib/es/home/home.do) - Books, newspapers, photographs, posters, recordings, and museum objects relating to Basque culture.
+- [Filmoteca Española and NO-DO Archive](https://www.rtve.es/filmoteca/no-do/) - Historical newsreels, documentaries, films, and audiovisual materials, including the complete NO-DO archive.
+- [Fototeca del IPCE](https://ipce.cultura.gob.es/documentacion/fototeca.html) - Historical photographic collections documenting Spanish architecture, monuments, artworks, and landscapes.
+- [Fototeca Digital del CNIG](https://fototeca.cnig.es/) - Viewer and download service for historical aerial photography of Spain.
+- [Fundación Francisco Largo Caballero Archive](https://fflc.ugt.org/) - Archival collections on the UGT, Spanish labour history, socialism, exile, Francoism, and the transition.
+- [Galiciana](https://biblioteca.galiciana.gal/) - Digitized books, manuscripts, newspapers, photographs, and documentary heritage relating to Galicia.
+- [Gazeta – Historical Collection of the BOE](https://www.boe.es/buscar/gazeta.php) - Searchable collection of Spanish official newspapers and their predecessors from 1661 to 1959.
+- [Hemeroteca de La Vanguardia](https://www.lavanguardia.com/hemeroteca) - Digitized historical issues of the Barcelona newspaper La Vanguardia from 1881 onward.
+- [Hemeroteca Digital de la BNE](https://hemerotecadigital.bne.es/hd/es/) - Digitized historical and modern newspapers and magazines held by the National Library of Spain.
+- [HISPANA](https://hispana.mcu.es/) - National aggregator for digitized collections from Spanish archives, libraries, museums, and universities.
+- [Historia Hispánica](https://historia-hispanica.rah.es/) - Interactive geographical and chronological exploration of events and people in Spanish history.
+- [Historical Statistical Yearbooks of the INE](https://www.ine.es/inebaseweb/libros.do?tntp=25687) - Digitized historical yearbooks of demographic, economic, and social statistics for Spain.
+- [Jable – Archivo de Prensa Digital](https://jable.ulpgc.es/) - Digitized historical newspapers and periodicals from the Canary Islands.
+- [Memoria de Madrid](https://www.memoriademadrid.es/) - Digital collections from Madrid's municipal archives, libraries, museums, and cultural institutions.
+- [Memoria Digital de Canarias](https://mdc.ulpgc.es/) - Photographs, manuscripts, maps, personal archives, newspapers, and publications relating to the Canary Islands.
+- [Memòria Digital de Catalunya](https://mdc.csuc.cat/) - Cooperative open-access repository of digitized Catalan heritage collections.
+- [Museo Nacional Centro de Arte Reina Sofía Collection](https://www.museoreinasofia.es/coleccion) - Searchable records and images from Spain's national museum of modern and contemporary art.
+- [Museo Nacional del Prado Collection](https://www.museodelprado.es/coleccion/) - Searchable catalogue with images, provenance, bibliography, exhibition history, and scholarly records.
+- [Museo Nacional Thyssen-Bornemisza Collection](https://www.museothyssen.org/coleccion) - Searchable online catalogue of the Museo Nacional Thyssen-Bornemisza historical art collection.
+- [PARES – Portal of Spanish Archives](https://pares.cultura.gob.es/inicio.html) - Descriptions and digitized documents from the Spanish State Archives.
+- [Proyecto Carmesí](https://archivogeneral.carm.es/) - Historical municipal and regional documents digitized through archival cooperation in the Region of Murcia.
+- [Real Biblioteca Digital](https://rbdigital.realbiblioteca.es/) - Digitized manuscripts, books, prints, drawings, photographs, and other materials from the Spanish Royal Library.
+- [XAC Premsa](https://xacpremsa.cultura.gencat.cat/) - Historical newspapers digitized by the Network of County Archives of Catalonia.
 
 ### Switzerland
 

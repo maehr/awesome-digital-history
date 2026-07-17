@@ -1,0 +1,46 @@
+---
+title: "BIVALDI – Biblioteca Valenciana Digital"
+slug: bivaldi
+description: "Access digitized books, manuscripts, newspapers, photographs, and other documentary heritage relating to Valencia."
+external_url: https://bivaldi.gva.es/
+short_description: "Digitized bibliographic and documentary heritage relating to the Valencian Community."
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Spain
+languages:
+  - ca
+  - es
+resource_types:
+  - books
+  - collection
+  - manuscripts
+  - newspapers
+  - photos
+  - primary sources
+periods:
+  - medieval
+  - early modern
+  - modern
+  - contemporary
+date_added: '2026-07-17'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Drakonis96
+contributors: []
+screenshot: /assets/screenshots/bivaldi.png
+screenshot_alt: "Screenshot of BIVALDI – Biblioteca Valenciana Digital"
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/bivaldi.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Access digitized books, manuscripts, newspapers, photographs, and other documentary heritage relating to Valencia.
+
+It supports digital history research by making relevant Spanish sources easier to discover, compare, cite, and use in teaching.

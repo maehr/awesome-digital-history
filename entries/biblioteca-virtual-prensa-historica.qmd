@@ -1,0 +1,41 @@
+---
+title: "Biblioteca Virtual de Prensa Histórica"
+slug: biblioteca-virtual-prensa-historica
+description: "Search digitized historical newspapers and cultural magazines from Spanish collections, including OCR full-text access."
+external_url: https://prensahistorica.mcu.es/
+short_description: "Searchable historical newspapers and cultural magazines published in Spanish languages."
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Spain
+languages:
+  - mul
+resource_types:
+  - magazines
+  - newspapers
+  - primary sources
+  - search engine
+periods:
+  - modern
+  - contemporary
+date_added: '2026-07-17'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Drakonis96
+contributors: []
+screenshot: /assets/screenshots/biblioteca-virtual-prensa-historica.png
+screenshot_alt: "Screenshot of Biblioteca Virtual de Prensa Histórica"
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/biblioteca-virtual-prensa-historica.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Search digitized historical newspapers and cultural magazines from Spanish collections, including OCR full-text access.
+
+It supports digital history research by making relevant Spanish sources easier to discover, compare, cite, and use in teaching.

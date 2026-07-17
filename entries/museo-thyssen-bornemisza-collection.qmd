@@ -1,0 +1,43 @@
+---
+title: "Museo Nacional Thyssen-Bornemisza Collection"
+slug: museo-thyssen-bornemisza-collection
+description: "Explore records, images, artists, and thematic groupings in the Museo Nacional Thyssen-Bornemisza online collection."
+external_url: https://www.museothyssen.org/coleccion
+short_description: "Searchable online catalogue of the Museo Nacional Thyssen-Bornemisza historical art collection."
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Spain
+languages:
+  - mul
+resource_types:
+  - collection
+  - photos
+  - primary sources
+  - search engine
+periods:
+  - medieval
+  - early modern
+  - modern
+  - contemporary
+date_added: '2026-07-17'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Drakonis96
+contributors: []
+screenshot: /assets/screenshots/museo-thyssen-bornemisza-collection.png
+screenshot_alt: "Screenshot of Museo Nacional Thyssen-Bornemisza Collection"
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/museo-thyssen-bornemisza-collection.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Explore records, images, artists, and thematic groupings in the Museo Nacional Thyssen-Bornemisza online collection.
+
+It supports digital history research by making relevant Spanish sources easier to discover, compare, cite, and use in teaching.

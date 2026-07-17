@@ -1,0 +1,42 @@
+---
+title: "Centro de Estudios de Castilla-La Mancha"
+slug: centro-estudios-castilla-la-mancha
+description: "Discover catalogues, digitized collections, thematic projects, photographs, and research resources on Castilla-La Mancha."
+external_url: https://www.uclm.es/centros-investigacion/ceclm
+short_description: "Research centre providing catalogues, digital collections, thematic projects, and resources on Castilla-La Mancha."
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Spain
+languages:
+  - es
+resource_types:
+  - collection
+  - portal
+  - primary sources
+  - websites
+periods:
+  - early modern
+  - modern
+  - contemporary
+date_added: '2026-07-17'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Drakonis96
+contributors: []
+screenshot: /assets/screenshots/centro-estudios-castilla-la-mancha.png
+screenshot_alt: "Screenshot of Centro de Estudios de Castilla-La Mancha"
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/centro-estudios-castilla-la-mancha.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Discover catalogues, digitized collections, thematic projects, photographs, and research resources on Castilla-La Mancha.
+
+It supports digital history research by making relevant Spanish sources easier to discover, compare, cite, and use in teaching.

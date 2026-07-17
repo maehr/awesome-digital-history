@@ -1,0 +1,45 @@
+---
+title: "Memoria de Madrid"
+slug: memoria-de-madrid
+description: "Search digitized newspapers, photographs, manuscripts, maps, music, and objects from Madrid's municipal memory institutions."
+external_url: https://www.memoriademadrid.es/
+short_description: "Digital collections from Madrid's municipal archives, libraries, museums, and cultural institutions."
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Spain
+languages:
+  - es
+resource_types:
+  - audiovisual sources
+  - collection
+  - manuscripts
+  - maps
+  - newspapers
+  - photos
+  - primary sources
+periods:
+  - early modern
+  - modern
+  - contemporary
+date_added: '2026-07-17'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Drakonis96
+contributors: []
+screenshot: /assets/screenshots/memoria-de-madrid.png
+screenshot_alt: "Screenshot of Memoria de Madrid"
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/memoria-de-madrid.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Search digitized newspapers, photographs, manuscripts, maps, music, and objects from Madrid's municipal memory institutions.
+
+It supports digital history research by making relevant Spanish sources easier to discover, compare, cite, and use in teaching.

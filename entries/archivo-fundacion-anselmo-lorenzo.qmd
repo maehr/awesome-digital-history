@@ -1,0 +1,41 @@
+---
+title: "Archivo de la Fundación Anselmo Lorenzo"
+slug: archivo-fundacion-anselmo-lorenzo
+description: "Consult documentary collections on Spanish anarchism, labour history, exile, social movements, and libertarian culture."
+external_url: https://fal.cnt.es/
+short_description: "Documentary collections on Spanish anarchism, the labour movement, exile, and libertarian culture."
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Spain
+languages:
+  - es
+resource_types:
+  - collection
+  - manuscripts
+  - newspapers
+  - primary sources
+periods:
+  - modern
+  - contemporary
+date_added: '2026-07-17'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Drakonis96
+contributors: []
+screenshot: /assets/screenshots/archivo-fundacion-anselmo-lorenzo.png
+screenshot_alt: "Screenshot of Archivo de la Fundación Anselmo Lorenzo"
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/archivo-fundacion-anselmo-lorenzo.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Consult documentary collections on Spanish anarchism, labour history, exile, social movements, and libertarian culture.
+
+It supports digital history research by making relevant Spanish sources easier to discover, compare, cite, and use in teaching.

@@ -1,0 +1,40 @@
+---
+title: "Fototeca Digital del CNIG"
+slug: fototeca-digital-cnig
+description: "Explore and download historical aerial photography of Spain through the digital phototheque of the national mapping centre."
+external_url: https://fototeca.cnig.es/
+short_description: "Viewer and download service for historical aerial photography of Spain."
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Spain
+languages:
+  - es
+resource_types:
+  - maps
+  - photos
+  - primary sources
+  - search engine
+periods:
+  - contemporary
+date_added: '2026-07-17'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Drakonis96
+contributors: []
+screenshot: /assets/screenshots/fototeca-digital-cnig.png
+screenshot_alt: "Screenshot of Fototeca Digital del CNIG"
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/fototeca-digital-cnig.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Explore and download historical aerial photography of Spain through the digital phototheque of the national mapping centre.
+
+It supports digital history research by making relevant Spanish sources easier to discover, compare, cite, and use in teaching.

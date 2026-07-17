@@ -1,0 +1,45 @@
+---
+title: "Biblioteca Digital de la Real Academia de la Historia"
+slug: biblioteca-digital-real-academia-historia
+description: "Access digitized manuscripts, codices, rare books, personal archives, maps, and graphic materials on the history of Spain."
+external_url: https://bibliotecadigital.rah.es/
+short_description: "Digitized manuscripts, rare books, personal archives, maps, and graphic materials on Spanish history."
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Spain
+languages:
+  - mul
+resource_types:
+  - books
+  - collection
+  - manuscripts
+  - maps
+  - photos
+  - primary sources
+periods:
+  - medieval
+  - early modern
+  - modern
+  - contemporary
+date_added: '2026-07-17'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Drakonis96
+contributors: []
+screenshot: /assets/screenshots/biblioteca-digital-real-academia-historia.png
+screenshot_alt: "Screenshot of Biblioteca Digital de la Real Academia de la Historia"
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/biblioteca-digital-real-academia-historia.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Access digitized manuscripts, codices, rare books, personal archives, maps, and graphic materials on the history of Spain.
+
+It supports digital history research by making relevant Spanish sources easier to discover, compare, cite, and use in teaching.
