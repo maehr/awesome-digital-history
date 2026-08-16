@@ -20,6 +20,8 @@ Use an issue if you want to suggest a resource, report an error, request a remov
 
 Use a pull request if you want to edit the source files directly and run the local checks.
 
+**First-time contributors must open an issue with their proposal before opening a pull request.** Pull requests from first-time contributors that do not reference a previously accepted issue will be closed. This gives maintainers a chance to confirm the resource is in scope and the proposal is accepted before you invest time in a pull request.
+
 ## Beginner path: open an issue
 
 1. Open the [issue tracker](https://github.com/maehr/awesome-digital-history/issues/).
