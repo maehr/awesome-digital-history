@@ -97,6 +97,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 
 - [Atlas of Mutual Heritage](https://www.atlasofmutualheritage.nl/) - Database with sources relating to VOC (Dutch East India Company) and WIC (Dutch West India Company).
 - [Bitsavers.org](http://bitsavers.trailing-edge.com/) - Computer code, reference manuals, and magazines.
+- [Castlemap](https://thecastlemap.com/) - Interactive world map and open CC0 dataset of 2,400 castles, fortresses, palaces, and ruins across 131 countries.
 - [Classic Computer Magazine Archive](https://www.atarimagazines.com/) - Preserving information from early personal computer magazines.
 - [Enslaved.org](https://enslaved.org/) - Compiles individual biographies of enslaved and connected persons from the global slave trade using linked open data.
 - [Fxtop](https://fxtop.com/) - Forex rate history since 1953.
