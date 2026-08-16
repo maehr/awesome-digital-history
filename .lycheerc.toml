@@ -40,7 +40,8 @@ exclude = [
   "https://www.proquest.com/index",
   "https://www.wdl.org/",
   "http://www.memobase.ch/",
-  "http://gams.uni-graz.at/context:vase"
+  "http://gams.uni-graz.at/context:vase",
+  "http://www.publicbooks.org/public-books-database/"
 ]
 
 timeout = 30
