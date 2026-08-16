@@ -33,7 +33,7 @@
 		"@j178/prek": "^0.4.9",
 		"awesome-lint": "^2.3.0",
 		"gray-matter": "^4.0.3",
-		"js-yaml": "^5.2.1",
+		"js-yaml": "^5.2.2",
 		"playwright": "^1.61.1",
 		"prettier": "^3.9.5"
 	}
