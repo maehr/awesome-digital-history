@@ -1,0 +1,47 @@
+name: First-time contributor check
+
+on:
+  pull_request:
+    types: [opened, reopened]
+
+permissions:
+  pull-requests: write
+
+jobs:
+  enforce-issue-first:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const pr = context.payload.pull_request;
+            const firstTimers = ['FIRST_TIMER', 'FIRST_TIME_CONTRIBUTOR'];
+            if (!firstTimers.includes(pr.author_association)) {
+              core.info(`author_association=${pr.author_association}; no enforcement needed.`);
+              return;
+            }
+            if (/#\d+/.test(pr.body || '')) {
+              core.info('First-time contributor PR references an issue; OK.');
+              return;
+            }
+            const message = [
+              `Hi @${pr.user.login}, thanks for your interest in contributing!`,
+              '',
+              'As noted in [CONTRIBUTING.md](https://github.com/maehr/awesome-digital-history/blob/main/CONTRIBUTING.md), first-time contributors must open an issue with their proposal before opening a pull request.',
+              '',
+              'Please open an issue describing your proposal and wait for maintainer feedback. Once it is accepted, you are welcome to open a pull request that references the issue (for example `Closes #123`).',
+              '',
+              'This pull request is being closed automatically.',
+            ].join('\n');
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: pr.number,
+              body: message,
+            });
+            await github.rest.pulls.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: pr.number,
+              state: 'closed',
+            });
