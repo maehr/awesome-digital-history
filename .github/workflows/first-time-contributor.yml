@@ -6,7 +6,11 @@ name: First-time contributor check
 # pull request; it only reads pull request metadata and calls the GitHub API.
 on:
   pull_request_target:
-    types: [opened, reopened, edited]
+    # Deliberately not triggered on "edited": the check runs once on
+    # open/reopen using the event payload. This keeps the workflow free of
+    # concurrency/refetch logic; edge cases after opening are handled by
+    # maintainers manually.
+    types: [opened, reopened]
 
 permissions:
   issues: write
