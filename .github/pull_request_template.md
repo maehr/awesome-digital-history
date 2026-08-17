@@ -9,6 +9,7 @@ Explain why this change improves the directory.
 ### Checklist
 
 - [ ] I have read [CONTRIBUTING.md](../CONTRIBUTING.md).
+- [ ] I am not a first-time contributor, or I link the accepted issue proposing this change: #
 - [ ] I checked the change against [EDITORIAL_POLICY.md](../EDITORIAL_POLICY.md).
 - [ ] I ran `npm install`.
 - [ ] I ran `npm run check`.

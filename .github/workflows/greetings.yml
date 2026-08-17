@@ -8,6 +8,6 @@ jobs:
     steps:
       - uses: actions/first-interaction@v3
         with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          issue-message: 'Hi there! Thanks for opening your first issue!'
-          pr-message: 'Hi there! Thanks for opening your first pull request!'
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          issue_message: 'Hi there! Thanks for opening your first issue!'
+          pr_message: 'Hi there! Thanks for opening your first pull request! Please make sure it references the issue where your proposal was discussed and accepted, as required by CONTRIBUTING.md.'

@@ -4,6 +4,8 @@ exclude = [
   "http://www.cosmov.uzh.ch/",
   "http://www.infoclio.ch/en/edition-projects",
   "https://anneepolitique.swiss/",
+  "https://archive.org/",
+  "https://cdm21048.contentdm.oclc.org/",
   "https://www.archivesportaleurope.net/",
   "https://chroniclingamerica.loc.gov/",
   "https://dlas.uncg.edu/",
@@ -40,7 +42,8 @@ exclude = [
   "https://www.proquest.com/index",
   "https://www.wdl.org/",
   "http://www.memobase.ch/",
-  "http://gams.uni-graz.at/context:vase"
+  "http://gams.uni-graz.at/context:vase",
+  "http://www.publicbooks.org/public-books-database/"
 ]
 
 timeout = 30
