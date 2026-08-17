@@ -6,7 +6,7 @@ name: First-time contributor check
 # pull request; it only reads pull request metadata and calls the GitHub API.
 on:
   pull_request_target:
-    types: [opened, reopened]
+    types: [opened, reopened, edited]
 
 permissions:
   issues: write
@@ -25,7 +25,10 @@ jobs:
               core.info(`author_association=${pr.author_association}; no enforcement needed.`);
               return;
             }
-            const referencesIssue = /#\d+|github\.com\/[\w.-]+\/[\w.-]+\/issues\/\d+/.test(pr.body || '');
+            const issueUrl = new RegExp(
+              `github\\.com/${context.repo.owner}/${context.repo.repo}/issues/\\d+`,
+            );
+            const referencesIssue = /#\d+/.test(pr.body || '') || issueUrl.test(pr.body || '');
             if (referencesIssue) {
               core.info('First-time contributor PR references an issue; OK.');
               return;
