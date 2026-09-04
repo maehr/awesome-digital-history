@@ -1,7 +1,7 @@
 ---
 title: RunoVerse
 slug: runoverse
-description: RunoVerse is a free exploration toolkit for roughly 290,000 Finnic runosong poems from four folklore collections, with lemma search, cross-lingual verse comparison, nine dictionaries and AI-assisted commentary.
+description: RunoVerse is a free exploration toolkit for roughly 290,000 Finnic runosong poems from four folklore collections, with lemma search, verse comparison and AI-assisted commentary.
 external_url: https://runoverse.org/
 short_description: Exploration toolkit for Finnic runosong (runolaulu, regilaul) across four folklore corpora, with lemma search, cross-lingual verse comparison and geographic analysis.
 directory_section: archives
