@@ -4,6 +4,10 @@ on:
   schedule:
     - cron: '0 0 * * *'
 
+permissions:
+  issues: write
+  pull-requests: write
+
 jobs:
   stale:
     runs-on: ubuntu-latest
@@ -12,9 +16,9 @@ jobs:
       - uses: actions/stale@v10
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          stale-issue-message: 'Stale issue message'
-          stale-pr-message: 'Stale pull request message'
+          stale-issue-message: 'This issue has been inactive for 60 days. It remains open for editorial review; additional information is welcome.'
+          stale-pr-message: 'This pull request has been inactive for 60 days. It remains open for maintainer review; please flag any changes needed to move it forward.'
           stale-issue-label: 'no-issue-activity'
           stale-pr-label: 'no-pr-activity'
           days-before-stale: 60
-          days-before-close: 5
+          days-before-close: -1

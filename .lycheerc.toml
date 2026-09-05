@@ -28,6 +28,8 @@ exclude = [
   "https://www.digitaltransgenderarchive.net/",
   "https://www.e-manuscripta.ch/",
   "https://www.e-newspaperarchives.ch/",
+  # Confirmed online in a human browser on 2026-09-05; automated requests time out.
+  '^https://www\.e-rara\.ch/?$',
   "https://www.adfontes.uzh.ch/",
   "https://www.cgwmuseum.org/",
   "https://www.europeana.eu/",
