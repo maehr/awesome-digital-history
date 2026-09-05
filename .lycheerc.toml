@@ -30,6 +30,8 @@ exclude = [
   "https://www.e-newspaperarchives.ch/",
   # Confirmed online in a human browser on 2026-09-05; automated requests time out.
   '^https://www\.e-rara\.ch/?$',
+  # Browser capture and local checks succeed; GitHub CI receives 403 (2026-09-05).
+  '^https://lux\.collections\.yale\.edu/?$',
   "https://www.adfontes.uzh.ch/",
   "https://www.cgwmuseum.org/",
   "https://www.europeana.eu/",
