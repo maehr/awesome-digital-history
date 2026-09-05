@@ -1,0 +1,51 @@
+---
+title: 'LUX: Yale Collections Discovery'
+slug: lux-yale-collections-discovery
+description: LUX is Yale University's cross-collection discovery portal for finding cultural and natural heritage materials across its museums, libraries, archives, and galleries.
+external_url: https://lux.collections.yale.edu/
+short_description: Cross-collection discovery portal for exploring cultural and natural heritage materials held by Yale University’s museums, libraries, archives, and galleries.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Global
+languages:
+  - mul
+resource_types:
+  - audiovisual sources
+  - books
+  - collection
+  - manuscripts
+  - maps
+  - photos
+  - portal
+  - primary sources
+  - search engine
+periods:
+  - prehistory
+  - ancient
+  - classical
+  - medieval
+  - early modern
+  - modern
+  - contemporary
+date_added: '2026-09-05'
+reviewed_at: null
+reviewed_by: []
+authors: []
+contributors:
+  - Moritz Mähr
+screenshot: /assets/screenshots/lux-yale-collections-discovery.png
+screenshot_alt: 'Screenshot of LUX: Yale Collections Discovery'
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/lux-yale-collections-discovery.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+LUX provides one discovery interface for exploring relationships among objects in Yale University's museums, libraries, and archives, including books, manuscripts, photographs, artworks, archival materials, and scientific specimens from around the world.
+
+It is useful for historical source discovery, exploratory research, and teaching with primary sources because a single search can connect records that would otherwise be distributed across separate Yale catalogues. LUX is publicly searchable, but not every result is a digitized item: some records describe physical objects or collections, and online availability, copyright, and reuse conditions vary by the linked Yale holding unit.

@@ -2,7 +2,7 @@
 title: e-codices
 slug: e-codices
 description: e-codices provides free access to Swiss medieval and selected modern manuscripts, with images, scholarly descriptions, and search across collections.
-external_url: http://e-codices.ch/
+external_url: https://www.e-codices.unifr.ch/en
 short_description: Virtual manuscript library of Switzerland.
 directory_section: archives
 section_label: Archives and primary sources
