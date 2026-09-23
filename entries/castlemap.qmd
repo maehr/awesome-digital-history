@@ -1,15 +1,21 @@
 ---
 title: Castlemap
 slug: castlemap
-description: Castlemap is a free interactive world map and CC0 dataset of 2,400 castles, fortresses, palaces, and ruins across 131 countries.
+description: Castlemap is a free interactive world map and downloadable CC0 dataset of castles, fortresses, palaces, and ruins around the world.
 external_url: https://thecastlemap.com/
-short_description: Interactive world map and open CC0 dataset of 2,400 castles, fortresses, palaces, and ruins across 131 countries.
+short_description: Interactive world map and downloadable CC0 dataset of castles, fortresses, palaces, and ruins around the world.
 directory_section: archives
 section_label: Archives and primary sources
 regions:
   - Global
 languages:
   - en
+  - de
+  - es
+  - fr
+  - ja
+  - nl
+  - pl
 resource_types:
   - maps
 periods:
@@ -22,6 +28,7 @@ authors:
   - Copilot
 contributors:
   - Moritz Mähr
+  - Flightmussy
 screenshot: /assets/screenshots/castlemap.png
 screenshot_alt: Screenshot of Castlemap
 screenshot_hide: []
@@ -34,6 +41,8 @@ toc: false
 
 ## Why it matters
 
-Castlemap maps 2,400 curated castles, fortresses, palaces, and ruins worldwide, giving each landmark an exact location, image, founding information, and links to related Wikidata and Wikipedia records.
+Castlemap maps castles, fortresses, palaces, and ruins worldwide, with location and chronology data and links to related Wikidata and Wikipedia records. Coverage grows over time, and the site provides current statistics alongside its data downloads.
 
 Its downloadable CC0 GeoJSON and CSV data make it useful for spatial history, teaching, and exploratory research on fortifications and palaces. Researchers can reuse the location and chronology data directly or connect its Wikidata identifiers to other datasets.
+
+Localized interfaces and machine-translated landmark descriptions support use in several languages. Researchers should check the linked sources when interpreting descriptions and dates.
