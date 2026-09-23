@@ -97,7 +97,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 
 - [Atlas of Mutual Heritage](https://www.atlasofmutualheritage.nl/) - Database with sources relating to VOC (Dutch East India Company) and WIC (Dutch West India Company).
 - [Bitsavers.org](http://bitsavers.trailing-edge.com/) - Computer code, reference manuals, and magazines.
-- [Castlemap](https://thecastlemap.com/) - Interactive world map and open CC0 dataset of 2,400 castles, fortresses, palaces, and ruins across 131 countries.
+- [Castlemap](https://thecastlemap.com/) - Interactive world map and downloadable CC0 dataset of castles, fortresses, palaces, and ruins around the world.
 - [Classic Computer Magazine Archive](https://www.atarimagazines.com/) - Preserving information from early personal computer magazines.
 - [Enslaved.org](https://enslaved.org/) - Compiles individual biographies of enslaved and connected persons from the global slave trade using linked open data.
 - [Fxtop](https://fxtop.com/) - Forex rate history since 1953.
@@ -105,6 +105,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [HMML](https://hmml.org/) - Hill Museum & Manuscript Library. Digital collection of manuscripts from around the world.
 - [Internet Archive](https://archive.org/) - Non-profit library of millions of free books, movies, software, music, websites, and more.
 - [Karlsruher Virtueller Katalog](https://kvk.bibliothek.kit.edu/) - Book search engine for finding hundreds of millions of media in catalogs worldwide.
+- [LUX: Yale Collections Discovery](https://lux.collections.yale.edu/) - Cross-collection discovery portal for exploring cultural and natural heritage materials held by Yale University’s museums, libraries, archives, and galleries.
 - [Marxist Internet Archive](https://www.marxists.org/) - Everything you ever wanted to know about Marx (and other important socialists).
 - [Mementoweb](https://mementoweb.org/) - Find archived web pages in Internet Archive, Archive-It, British Library, archive.today, and GitHub.
 - [mural.ch](https://www.mural.ch/) - Inventory of murals from all around the world, from the 19th century until today. Contains more than 13’000 records, with a focus on the 1920s to 1950s.
@@ -169,7 +170,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [COSMOV](http://www.cosmov.uzh.ch/) - Includes a digital edition of the events of the Zurich summer of 1968.
 - [DigiBern](https://www.digibern.ch/) - Bernese culture and history on the Internet.
 - [Diplomatic Documents of Switzerland](https://www.dodis.ch/) - Access to Switzerland's diplomatic records and foreign policy documentation.
-- [e-codices](http://e-codices.ch/) - Virtual manuscript library of Switzerland.
+- [e-codices](https://www.e-codices.unifr.ch/en) - Virtual manuscript library of Switzerland.
 - [e-gs](https://gs.ethz.ch/en/collection-catalogue-online/) - Online web portal of the ETH Zurich Graphics Collection.
 - [e-manuscripta](https://www.e-manuscripta.ch/) - Manuscript material from Swiss libraries and archives.
 - [e-newspaperarchives.ch](https://www.e-newspaperarchives.ch/) - Swiss newspapers.
