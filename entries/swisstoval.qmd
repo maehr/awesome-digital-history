@@ -3,7 +3,7 @@ title: SWISSTOVAL
 slug: swisstoval
 description: SWISSTOVAL converts historical Swiss money values from 1600 to 2025 with price, wage, and GDP indices, and compares early modern coin types.
 external_url: https://swisstoval.unibe.ch/rechner/index_ger.html
-short_description: Historical money-value calculator that converts Swiss sums and early modern coins from 1600 to today.
+short_description: Historical money-value calculator that converts Swiss sums and early modern coins from 1600 to 2025.
 directory_section: archives
 section_label: Archives and primary sources
 regions:
