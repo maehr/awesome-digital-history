@@ -1,0 +1,40 @@
+---
+title: SWISSTOVAL
+slug: swisstoval
+description: SWISSTOVAL converts historical Swiss money values from 1600 to 2025 with price, wage, and GDP indices, and compares early modern coin types.
+external_url: https://swisstoval.unibe.ch/rechner/index_ger.html
+short_description: Historical money-value calculator that converts Swiss sums and early modern coins from 1600 to today.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Switzerland
+languages:
+  - de
+resource_types:
+  - tools
+  - statistics
+periods:
+  - early modern
+  - modern
+  - contemporary
+date_added: '2026-09-23'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors: []
+screenshot: /assets/screenshots/swisstoval.png
+screenshot_alt: Screenshot of SWISSTOVAL
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/swisstoval.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+SWISSTOVAL, the historical money-value calculator of the University of Bern, converts Swiss sums between any year from 1600 to 2025. It offers a consumer price index, a wage index, a GDP index, and a GDP per capita index. A second calculator converts early modern gold and silver coins such as Taler and Batzen for 1600 to 1850.
+
+The data is based on conditions in Bern, so results do not transfer directly to other cantons. The best index depends on the research question, and the site explains each index and gives worked examples.
