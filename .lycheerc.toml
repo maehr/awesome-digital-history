@@ -47,7 +47,10 @@ exclude = [
   "https://www.wdl.org/",
   "http://www.memobase.ch/",
   "http://gams.uni-graz.at/context:vase",
-  "http://www.publicbooks.org/public-books-database/"
+  "http://www.publicbooks.org/public-books-database/",
+  "https://www.bl.uk/collection",
+  "https://www.chgov.bar.admin.ch/",
+  "https://ehne.fr/"
 ]
 
 timeout = 30
