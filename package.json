@@ -34,7 +34,7 @@
 		"awesome-lint": "^2.3.0",
 		"gray-matter": "^4.0.3",
 		"js-yaml": "^5.2.1",
-		"playwright": "^1.61.1",
+		"playwright": "^1.63.0",
 		"prettier": "^3.9.5"
 	}
 }
