@@ -165,6 +165,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 - [Année Politique Suisse](https://anneepolitique.swiss/) - Sources and database for swiss socio-political topics.
 - [arCHeco](https://www.archeco.info/) - Index of economic collections in archives of Switzerland and Liechtenstein.
 - [Archives Online](https://www.archives-online.org/) - Archival search engine for Switzerland.
+- [Books as Data](https://books-as-data.ch/) - Full-text and metadata corpus of 1700–1900 prints from four Swiss libraries, with bulk export and IIIF images.
 - [chgov](https://www.chgov.bar.admin.ch/) - Minutes of the Federal Council (1848-1963).
 - [COSMOV](http://www.cosmov.uzh.ch/) - Includes a digital edition of the events of the Zurich summer of 1968.
 - [DigiBern](https://www.digibern.ch/) - Bernese culture and history on the Internet.
