@@ -1,0 +1,45 @@
+---
+title: Euro-Climhist
+slug: euro-climhist
+description: Euro-Climhist gives searchable access to historical weather reports, extreme events, and long-term climate data from documentary sources.
+external_url: https://www.echdb.unibe.ch/selection/welcome/de
+short_description: Database of documentary weather and climate data for Europe, with a focus on Switzerland and free registration.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Europe
+languages:
+  - de
+  - en
+  - fr
+  - it
+resource_types:
+  - primary sources
+  - search engine
+  - statistics
+periods:
+  - medieval
+  - early modern
+  - modern
+  - contemporary
+date_added: '2026-09-23'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Mähr
+contributors: []
+screenshot: /assets/screenshots/euro-climhist.png
+screenshot_alt: Screenshot of Euro-Climhist
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/euro-climhist.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Euro-Climhist, hosted by the University of Bern, collects weather and climate observations from documentary sources. It covers daily weather, extreme events, and long-term climate trends. It also includes the monthly weather reports of the Swiss meteorological service from 1861 to 1999.
+
+Access is free but needs a one-time registration. Standard users get a weekly hit limit and results without full source citations. Researchers, students, archives, and museums can request scientific access to see detailed source references and full quotations.
