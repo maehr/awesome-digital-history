@@ -1,0 +1,46 @@
+---
+title: Swissvotes
+slug: swissvotes
+description: Swissvotes is a database of Swiss federal popular votes since 1848, with results, contextual analyses, original documents, and downloadable CC BY 4.0 data.
+external_url: https://swissvotes.ch/
+short_description: Database of Swiss federal popular votes since 1848, including results, contextual information, analyses, original documents, and downloadable data.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Switzerland
+languages:
+  - de
+  - fr
+  - it
+  - en
+resource_types:
+  - collection
+  - primary sources
+  - statistics
+  - websites
+periods:
+  - modern
+  - contemporary
+date_added: '2026-09-29'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Année Politique Suisse
+  - University of Bern, Institute of Political Science
+contributors:
+  - Claude
+screenshot: /assets/screenshots/swissvotes.png
+screenshot_alt: Screenshot of Swissvotes
+screenshot_hide: []
+screenshot_wait_ms: 6000
+screenshot_full_page: false
+image: /assets/screenshots/swissvotes.png
+page-layout: article
+toc: false
+---
+
+## Why it matters
+
+Swissvotes covers all Swiss federal popular votes since 1848. Each record gives the voting results, the positions of political actors, contextual analyses, and original documents.
+
+The data supports research on Swiss political history, direct democracy, and long-term change in voting issues and outcomes. The datasets, codebook, and source documentation are free to download under CC BY 4.0. The database does not cover cantonal votes.
