@@ -96,6 +96,18 @@ Each candidate resource should meet **all required criteria** and ideally at lea
 | C | **Unique materiality** | Contains materials not typically found in formal archives (blogs, forums, oral histories, street art, community media, pamphlets, etc.) |
 | D | **At risk of disappearing** | Content that is endangered, from defunct platforms, or preserved via the Wayback Machine |
 
+### What we leave out
+
+- Institutional landing pages, research guides, directories and organization homepages with nothing browsable behind them
+- Current news sites and advocacy organizations, unless the entry points to a specific archive or historical artifact
+- Shop or album pages, paywalled databases, and catalogues without digitized items
+- Resources only loosely tied to history (current academic journals, scientific surveys, food blogs, mountaineering records)
+
+### Accuracy
+
+- Wayback Machine links must use a snapshot that actually exists. Check with `https://archive.org/wayback/available?url=<site>&timestamp=<YYYYMMDD>`.
+- Keep descriptions short and factual. Don't include figures or "first/largest" claims you can't source.
+
 ---
 
 ## Rubric for "History of the Digital in South Asia" Section
