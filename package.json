@@ -28,7 +28,7 @@
 		"awesome-lint": "node scripts/run-awesome-lint.mjs"
 	},
 	"devDependencies": {
-		"@commitlint/cli": "^21.2.3",
+		"@commitlint/cli": "^21.2.4",
 		"@commitlint/config-conventional": "^21.2.3",
 		"@j178/prek": "^0.5.4",
 		"awesome-lint": "^2.3.0",
