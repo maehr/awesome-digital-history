@@ -1,109 +1,129 @@
 # Contribution Guidelines
 
-Awesome Digital History is a community-maintained directory of digital history resources. Contributions are welcome: new entries, corrections, updates, and removals.
+Awesome Digital History is a community-maintained directory of digital history resources. We welcome new entries, corrections, updates, and removals.
 
-You do not need to know Git, GitHub pull requests, Node.js, or Quarto to suggest a change. The easiest path is to open an issue and provide the information you know. A maintainer can turn it into an entry.
+This file is the only source for the contribution process. The [Editorial Policy](EDITORIAL_POLICY.md) gives the criteria for inclusion, review, and removal.
 
-Please read the [Editorial Policy](EDITORIAL_POLICY.md) before suggesting substantial additions or removals.
+You do not need to know Git, Node.js, or Quarto. An issue is enough. A maintainer can turn it into an entry.
 
-## Source of truth
+## Summary
 
-- Canonical entries live in `entries/*.qmd`
-- `README.md` and `index.qmd` are generated from those pages
-- Screenshots live in `assets/screenshots/`
+| You want to                         | What to do                                                                                                                                                                                                                            |
+| ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Add a new resource                  | Open an [Addition issue](https://github.com/maehr/awesome-digital-history/issues/new?template=addition.yml). Wait for the `approved` label. Then a maintainer or you open a pull request.                                             |
+| Correct, update, or remove an entry | Open a [Change](https://github.com/maehr/awesome-digital-history/issues/new?template=change.md) or [Removal](https://github.com/maehr/awesome-digital-history/issues/new?template=removal.md) issue, or open a pull request directly. |
+| Report a security problem           | Read [SECURITY.md](SECURITY.md).                                                                                                                                                                                                      |
 
-## Ways to contribute
+## Add a new resource
 
-You can propose changes through an issue or a pull request.
+All contributors must follow these steps. This includes returning contributors.
 
-Use an issue if you want to suggest a resource, report an error, request a removal, or are not comfortable editing files.
+1. Search the directory and the open issues for the resource.
+2. Open an [Addition issue](https://github.com/maehr/awesome-digital-history/issues/new?template=addition.yml) and fill in all required fields.
+3. Wait until a maintainer adds the `approved` label.
+4. Open one pull request for the approved resource, or let a maintainer write the entry.
+5. Link the approved issue in the pull request description, for example `Closes #123`.
 
-Use a pull request if you want to edit the source files directly and run the local checks.
+An approved issue does not guarantee inclusion.
+A workflow closes a pull request that adds an entry without a link to an approved issue.
+Repository collaborators are exempt from this check.
 
-**First-time contributors must open an issue with their proposal before opening a pull request.** Pull requests from first-time contributors that do not reference a previously accepted issue will be closed. This gives maintainers a chance to confirm the resource is in scope and the proposal is accepted before you invest time in a pull request.
+### How maintainers assess a proposal
 
-## Beginner path: open an issue
+Maintainers assess each proposal against the [Editorial Policy](EDITORIAL_POLICY.md) and on its evidence:
 
-1. Open the [issue tracker](https://github.com/maehr/awesome-digital-history/issues/).
-2. Check for an existing discussion.
-3. Use the relevant template and fill in as many fields as you can.
-4. If you do not know a controlled vocabulary value, leave a note in plain language.
-5. Submit the issue. A maintainer can ask follow-up questions or convert the suggestion into an entry.
+- The resource supports a concrete historical research or teaching task.
+- The resource adds value that existing entries do not give.
+- Documentation, an institution, or publications show that the resource is reliable.
+- Access terms and limits are clear.
 
-[Add a resource](https://github.com/maehr/awesome-digital-history/issues/new?assignees=&labels=&template=addition.md&title=)
+We do not require academic publications, institutional affiliation, or a minimum audience. Such rules would exclude useful small projects.
 
-[Update or correct an entry](https://github.com/maehr/awesome-digital-history/issues/new?assignees=&labels=&template=change.md&title=)
+## Correct, update, or remove an entry
 
-[Remove an outdated entry](https://github.com/maehr/awesome-digital-history/issues/new?assignees=&labels=&template=removal.md&title=)
+You do not need an approved issue for these changes:
 
-Useful information for a new resource suggestion:
+- Improve a description or metadata.
+- Fix a broken link.
+- Remove an outdated entry.
 
-- Title and URL.
-- One-sentence description.
-- Why it helps digital history research, teaching, or source discovery.
-- Region, language, resource type, and historical period, if known.
-- Use canonical BCP 47 language tags, for example `en`, `la`, `ddn`, or `mul`.
-- Any access limits, reuse conditions, API, download option, or known caveat.
+Explain the reason and link your evidence in the issue or pull request.
 
-Example:
+## AI and automation
 
-```yaml
-title: Example Archive
-external_url: https://example.org/
-short_description: Search portal for digitized nineteenth-century newspapers from Exampleland.
-directory_section: archives
-regions: [Europe]
-languages: [en]
-resource_types: [newspapers, primary sources, search engine]
-periods: [modern]
-```
+- We welcome AI-assisted contributions when an accountable human has checked them.
+- Check every AI-generated statement against the resource. AI text must not invent features, coverage, dates, access conditions, or licenses.
+- Disclose material AI assistance.
+- Disclose your affiliation with the resource or any commercial interest.
+- Autonomous AI agents must not submit issues or pull requests without human review.
+- We do not accept mass-produced, promotional, or duplicate submissions.
+
+Maintainers assess submissions on their evidence and conduct. They do not judge whether the text sounds AI-generated.
+
+## How maintainers enforce this process
+
+- A maintainer can ask for more information on an incomplete proposal.
+- A maintainer can close repeated promotional or automated submissions without a full review.
+- Maintainers keep editorial discretion. They give a short reason when they decline a submission.
+- Maintainers use neutral language. They do not call a person a bot without evidence.
 
 ## Technical path: open a pull request
 
 1. Fork the repository.
 2. Run `npm install`.
 3. Run `npm run hooks:install` to enable the local `prek` Git hooks.
-4. Edit the relevant `entries/*.qmd` files and related docs.
-5. Run the local checks.
-6. Submit a pull request against `main`.
+4. Edit or add one file in `entries/*.qmd`. Do not edit `README.md` or `index.qmd`, because they are generated.
+5. If you changed a source URL or added an entry, run `npm run screenshots`.
+6. Run the local checks:
 
-```bash
-npm run hooks:run
-npm run validate
-npm run generate
-npm run check
+   ```bash
+   npm run hooks:run
+   npm run check
+   ```
+
+7. Submit a pull request against `main`.
+
+Use [Conventional Commits](https://www.conventionalcommits.org/), for example `feat: add Example Archive resource` or `fix: update broken source URL`. The `commit-msg` hook and GitHub Actions run `commitlint`.
+
+If a maintainer asks for changes, update the same pull request. Do not open a new one.
+
+### Entry example
+
+```yaml
+title: Example Archive
+slug: example-archive
+external_url: https://example.org/
+short_description: Search portal for digitized nineteenth-century newspapers from Exampleland.
+description: Example Archive gives full-text access to digitized nineteenth-century newspapers from Exampleland.
+directory_section: archives
+regions: [Europe]
+languages: [en]
+resource_types: [newspapers, primary sources, search engine]
+periods: [modern]
+date_added: 2026-01-31
+reviewed_at: null
+reviewed_by: []
+authors: []
+contributors: []
+screenshot: /assets/screenshots/example-archive.png
 ```
 
-Commits must use [Conventional Commits](https://www.conventionalcommits.org/), for example `feat: add archive entry` or `fix: update broken source URL`. The `commit-msg` hook runs `commitlint`, and pull requests are checked again in GitHub Actions.
+Add a short body under `## Why it matters`. Use canonical BCP 47 language tags, for example `en`, `la`, `ddn`, or `mul`. If a value is wrong, `npm run validate` names the allowed values.
 
-If you changed source URLs or added entries, also run:
-
-```bash
-npm run screenshots
-```
-
-## What makes a good contribution?
-
-- The resource is relevant to digital history research or teaching.
-- The resource is accessible online.
-- The metadata and short description are accurate.
-- The entry is current, in scope, and worth maintaining.
-- Any AI-assisted text has been checked against the source website.
-- Provenance fields are filled in conservatively and do not claim review or authorship that cannot be verified.
+Fill in provenance fields conservatively. Do not claim review or authorship that you cannot verify.
 
 ## Maintainer checklist
 
-When turning an issue into an entry, maintainers should:
+When you turn an approved issue into an entry:
 
-- Check the resource against the [Editorial Policy](EDITORIAL_POLICY.md).
-- Verify the title, URL, description, and controlled vocabulary values.
-- Add or update the relevant `entries/*.qmd` file.
-- Fill `date_added`, `reviewed_at`, `reviewed_by`, `authors`, and `contributors` as accurately as possible.
-- Generate or refresh the screenshot when the URL changes or a new entry is added.
-- Run `npm run hooks:run`, `npm run validate`, `npm run generate`, and `npm run check` before merging where practical.
+1. Verify the title, URL, description, and controlled vocabulary values against the resource.
+2. Add the `entries/*.qmd` file and fill in the provenance fields.
+3. Generate the screenshot.
+4. Run `npm run hooks:run` and `npm run check`.
+5. Link the issue in the pull request.
 
 ## Code of Conduct
 
-Please follow the [Code of Conduct](CODE_OF_CONDUCT.md).
+Follow the [Code of Conduct](CODE_OF_CONDUCT.md).
 
 Licensed under CC0 and AGPLv3.
