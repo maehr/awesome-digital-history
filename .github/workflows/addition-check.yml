@@ -5,8 +5,9 @@ name: Addition check
 # It only reads pull request metadata and calls the GitHub API.
 on:
   pull_request_target:
+    # synchronize: a later push can add an entry to an edit-only pull request.
     # Not triggered on "edited". Maintainers reopen a closed pull request after a fix.
-    types: [opened, reopened]
+    types: [opened, reopened, synchronize]
 
 permissions:
   issues: read

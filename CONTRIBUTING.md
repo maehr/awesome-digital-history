@@ -96,6 +96,7 @@ external_url: https://example.org/
 short_description: Search portal for digitized nineteenth-century newspapers from Exampleland.
 description: Example Archive gives full-text access to digitized nineteenth-century newspapers from Exampleland.
 directory_section: archives
+section_label: Archives and primary sources
 regions: [Europe]
 languages: [en]
 resource_types: [newspapers, primary sources, search engine]
@@ -106,9 +107,12 @@ reviewed_by: []
 authors: []
 contributors: []
 screenshot: /assets/screenshots/example-archive.png
+screenshot_alt: Screenshot of Example Archive
+screenshot_hide: []
+image: /assets/screenshots/example-archive.png
 ```
 
-Add a short body under `## Why it matters`. Use canonical BCP 47 language tags, for example `en`, `la`, `ddn`, or `mul`. If a value is wrong, `npm run validate` names the allowed values.
+Add a body of at least 140 characters under `## Why it matters`. Use canonical BCP 47 language tags, for example `en`, `la`, `ddn`, or `mul`. If a value is wrong, `npm run validate` names the allowed values.
 
 Fill in provenance fields conservatively. Do not claim review or authorship that you cannot verify.
 
