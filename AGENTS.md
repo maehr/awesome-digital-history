@@ -62,10 +62,19 @@ contributors: [strings]
 screenshot: /assets/screenshots/<slug>.png
 ```
 
+## Contributions
+
+- `CONTRIBUTING.md` is the only source for the contribution process.
+- A new entry needs an Addition issue with the `approved` label.
+- Do not submit an issue or a pull request without human review.
+
 ## Workflows
 
+- `addition-check.yml`: closes non-collaborator pull requests that add an entry without an `approved` issue
 - `awesome-lint.yml`: regenerates `README.md`, then runs `awesome-lint`
+- `changelog.yml`: writes unreleased changelog entries to the job summary
 - `commitlint.yml`: enforces Conventional Commits on push and pull request commits
+- `greetings.yml`, `label.yml`, `stale.yml`: greet first-time contributors, label pull requests, mark inactive items
 - `link-check.yml`: runs `lychee` against markdown and qmd files
 - `prek.yml`: runs configured `prek` hooks in CI
 - `quarto-publish.yml`: validates, renders, and deploys `_site` to GitHub Pages

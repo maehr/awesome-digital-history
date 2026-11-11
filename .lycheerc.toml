@@ -50,7 +50,12 @@ exclude = [
   "http://www.publicbooks.org/public-books-database/",
   "https://www.bl.uk/collection",
   "https://www.chgov.bar.admin.ch/",
-  "https://ehne.fr/"
+  "https://ehne.fr/",
+  # GitHub CI receives 403 from bot protection (2026-11-11).
+  '^https://gallica\.bnf\.fr/?$',
+  '^https://www\.handrit\.is/?$',
+  '^https://www\.leo-bw\.de/?$',
+  '^https://curiosity\.lib\.harvard\.edu/women-working-1800-1930/?$'
 ]
 
 timeout = 30

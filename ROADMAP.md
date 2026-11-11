@@ -61,23 +61,7 @@ Implementation tasks:
 - Clarify how contributors are credited.
 - Keep the existing contributors graph link as a technical record, but do not make it the only explanation of project responsibility.
 
-## 4. Make Contributing Easier For Novice Users
-
-The current contribution guide assumes familiarity with GitHub, pull requests, and local development.
-
-Implementation tasks:
-
-- Add a non-technical contribution path at the top of `CONTRIBUTING.md`.
-- Explain that contributors can suggest a resource by opening an issue or sending the required information without running any code.
-- Rewrite issue templates with plain-language prompts.
-- Replace Markdown issue templates with GitHub Issue Forms where useful.
-- Add dropdowns for controlled vocabulary fields such as section, region, language, resource type, and period.
-- Add examples of good resource suggestions.
-- Add a checklist for maintainers to turn non-technical suggestions into entries.
-- Consider adding a web form outside GitHub if GitHub remains a barrier for non-technical contributors.
-- Keep the technical pull request workflow, but separate it clearly from the beginner path.
-
-## 5. Add More Context For Each Entry
+## 4. Add More Context For Each Entry
 
 Entries should connect resources to external knowledge graphs and reference pages where possible.
 
@@ -100,7 +84,7 @@ Implementation tasks:
 - Display context links on entry pages without cluttering the generated README.
 - Start with high-value fields: `wikidata`, `wikipedia`, `maintainer`, `access_model`, and `api`.
 
-## 6. Track Added Date, AI Review, And Human Responsibility
+## 5. Track Added Date, AI Review, And Human Responsibility
 
 The YAML header should make editorial provenance explicit.
 
@@ -131,7 +115,7 @@ Implementation tasks:
 - Backfill authorship and review fields conservatively; use empty lists when responsibility cannot be verified.
 - Add a contributor credit display on entry pages if it does not distract from resource evaluation.
 
-## 7. Publish An Editorial Policy
+## 6. Publish An Editorial Policy
 
 The project should make inclusion, exclusion, and review decisions explicit.
 
@@ -143,7 +127,7 @@ Implementation tasks:
 - Explain how AI-assisted text may be used and what human review is required.
 - Link the policy from `ABOUT.md`, `CONTRIBUTING.md`, and issue forms.
 
-## 8. Improve Spatial And Temporal Browsing
+## 7. Improve Spatial And Temporal Browsing
 
 The current filters support region and period, but archive discovery would benefit from more exploratory views.
 
@@ -155,7 +139,7 @@ Implementation tasks:
 - Consider structured date coverage fields such as `coverage_start` and `coverage_end`.
 - Make map and timeline views optional enhancements so the directory remains usable without JavaScript-heavy interactions.
 
-## 9. Export The Directory As Data
+## 8. Export The Directory As Data
 
 The entries already form a structured dataset. Users should be able to reuse it without scraping the website.
 
@@ -167,7 +151,7 @@ Implementation tasks:
 - Generate exports from `entries/*.qmd` to avoid parallel data maintenance.
 - Link exports from the website and document reuse conditions.
 
-## 10. Improve Accessibility And Filter Feedback
+## 9. Improve Accessibility And Filter Feedback
 
 The directory should be easy to use with keyboards, screen readers, and assistive technologies.
 
@@ -179,7 +163,7 @@ Implementation tasks:
 - Keep language codes available in metadata for machine-readable exports.
 - Include accessibility checks in the release or review workflow where practical.
 
-## 11. Add A Dashboard Or Report
+## 10. Add A Dashboard Or Report
 
 Maintainers need an overview of collection quality and maintenance work.
 
@@ -203,6 +187,9 @@ Implementation tasks:
 ### Phase 2: Usability (Partial)
 
 - Add the filter reset button.
+- Replace the Addition template with a GitHub Issue Form with controlled dropdowns.
+- Require an approved Addition issue before a new-entry pull request.
+- Add examples and a maintainer checklist to `CONTRIBUTING.md`.
 
 ## Suggested Phasing
 
@@ -211,9 +198,6 @@ Implementation tasks:
 - Add clearer empty states when filters return no results.
 - Display full language names in filter options.
 - Audit color contrast, keyboard navigation, and screen reader labels.
-- Improve issue templates for non-technical contributors.
-- Replace Markdown issue templates with GitHub Issue Forms and controlled dropdowns where useful.
-- Add examples and maintainer checklists.
 
 ### Phase 3: Richer Entry Metadata
 

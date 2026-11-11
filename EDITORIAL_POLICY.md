@@ -6,7 +6,7 @@ Awesome Digital History is a curated directory for digital history research, tea
 
 The project is maintained by Moritz Maehr with contributions from the wider digital history community. Editorial decisions should be transparent and traceable through GitHub issues, pull requests, and entry metadata.
 
-Maintainers are responsible for applying this policy consistently, but contributors are welcome to propose additions, corrections, updates, and removals.
+Maintainers are responsible for applying this policy consistently, but contributors are welcome to propose additions, corrections, updates, and removals. The [Contribution Guidelines](CONTRIBUTING.md) describe the process.
 
 ## Inclusion Criteria
 
@@ -31,6 +31,7 @@ Resources may be declined when they match one or more of these conditions:
 - The resource is unrelated to history, archives, cultural heritage, or digital research workflows.
 - The resource is offline, inaccessible, abandoned without useful archived content, or only available through unstable links.
 - The resource is primarily promotional, commercial, or event-focused without durable research value.
+- The proposal promotes the submitter's own resource without a disclosed affiliation or clear research value.
 - The resource duplicates an existing entry without adding meaningful coverage, language, access, or methodological value.
 - The resource cannot be described or reviewed accurately with public information.
 - The resource creates legal, privacy, safety, or ethical concerns that make listing inappropriate.
@@ -52,11 +53,9 @@ Review does not mean that maintainers endorse every external resource, verify ev
 
 ## AI-Assisted Workflows
 
-AI tools may support drafting, summarizing, metadata cleanup, screenshots, validation, or site production. AI-assisted output must be checked by a human editor before it is treated as reviewed.
+AI tools can support drafting, metadata cleanup, screenshots, validation, and site production. A human editor must check AI-assisted output before it counts as reviewed. The entry then records `reviewed_at` and `reviewed_by`, where known.
 
-If AI-assisted text has been checked by a human editor, the entry should record `reviewed_at` and `reviewed_by` where this information is known.
-
-Contributors should not submit AI-generated descriptions without checking them against the source website. AI text must not invent features, coverage, dates, access conditions, licenses, APIs, institutions, or historical claims.
+AI text must not invent features, coverage, dates, access conditions, licenses, APIs, institutions, or historical claims. The [Contribution Guidelines](CONTRIBUTING.md) give the rules for AI-assisted submissions.
 
 ## Updates And Deprecation
 

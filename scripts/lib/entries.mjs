@@ -1,7 +1,6 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import matter from 'gray-matter';
-import * as yaml from 'js-yaml';
 
 export const ROOT_DIR = process.cwd();
 export const ENTRIES_DIR = path.join(ROOT_DIR, 'entries');
@@ -78,10 +77,6 @@ export function ensurePeriod(value) {
 		return text;
 	}
 	return /[.!?]$/.test(text) ? text : `${text}.`;
-}
-
-export function todayIsoDate() {
-	return new Date().toISOString().slice(0, 10);
 }
 
 export function normalizeDateField(value) {
@@ -221,24 +216,6 @@ export function escapeMarkdownText(value) {
 	return String(value).replace(/([\\`*_[\]<>])/g, '\\$1');
 }
 
-export function classifyEntry(entry) {
-	if (entry.region.length > 0) {
-		return 'archives';
-	}
-	if (entry.type.includes('learning materials')) {
-		return 'learning';
-	}
-	return 'more-awesome';
-}
-
-export function qmdFrontmatter(frontmatter) {
-	return `---\n${yaml.dump(frontmatter, {
-		lineWidth: 1000,
-		noRefs: true,
-		sortKeys: false
-	})}---\n`;
-}
-
 export async function listEntryFiles() {
 	const names = await fs.readdir(ENTRIES_DIR);
 	return names
@@ -269,19 +246,6 @@ export async function loadEntries() {
 	const files = await listEntryFiles();
 	const entries = await Promise.all(files.map((filePath) => readEntry(filePath)));
 	return entries.sort((left, right) => left.title.localeCompare(right.title));
-}
-
-export function joinValues(values) {
-	return values.length > 0 ? values.join(', ') : 'None';
-}
-
-export function extractNarrativeBody(body) {
-	const text = String(body || '').trim();
-	const match = /## Why it matters\s+([\s\S]*?)(?:\n## Metadata\b[\s\S]*$|$)/.exec(text);
-	if (match) {
-		return match[1].trim();
-	}
-	return text;
 }
 
 export function validateEntryShape(entry) {
@@ -524,7 +488,7 @@ export function buildReadme(entries) {
 	lines.push('## Contribute');
 	lines.push('');
 	lines.push(
-		'Contributions welcome! Read the [CONTRIBUTING.md](https://github.com/maehr/awesome-digital-history/blob/main/CONTRIBUTING.md) and [Editorial Policy](https://github.com/maehr/awesome-digital-history/blob/main/EDITORIAL_POLICY.md) first.'
+		'Contributions welcome! Read the [CONTRIBUTING.md](https://github.com/maehr/awesome-digital-history/blob/main/CONTRIBUTING.md) and [Editorial Policy](https://github.com/maehr/awesome-digital-history/blob/main/EDITORIAL_POLICY.md) first. To propose a new resource, open an [Addition issue](https://github.com/maehr/awesome-digital-history/issues/new?template=addition.yml) and wait for maintainer approval.'
 	);
 	lines.push('');
 
@@ -703,40 +667,5 @@ This page was made using human and artificial intelligence. People selected, rev
 See the [Editorial Policy](EDITORIAL_POLICY.md) for inclusion, review, and AI-use criteria.
 
 :::
-`;
-}
-
-export function buildEntryPage(entry, body) {
-	const frontmatter = {
-		title: entry.title,
-		slug: entry.slug,
-		description: entry.description,
-		external_url: entry.external_url,
-		short_description: ensurePeriod(entry.short_description),
-		directory_section: entry.section,
-		section_label: SECTION_LABELS[entry.section],
-		regions: entry.region,
-		languages: entry.language,
-		resource_types: entry.type,
-		periods: entry.period,
-		date_added: normalizeDateField(entry.date_added) ?? todayIsoDate(),
-		reviewed_at: normalizeDateField(entry.reviewed_at),
-		reviewed_by: entry.reviewed_by ?? [],
-		authors: entry.authors ?? [],
-		contributors: entry.contributors ?? [],
-		screenshot: entry.screenshot,
-		screenshot_alt: entry.screenshot_alt,
-		screenshot_hide: entry.screenshot_hide,
-		screenshot_wait_ms: entry.screenshot_wait_ms,
-		screenshot_full_page: entry.screenshot_full_page,
-		image: entry.screenshot,
-		'page-layout': 'article',
-		toc: false
-	};
-
-	return `${qmdFrontmatter(frontmatter)}
-## Why it matters
-
-${body.trim()}
 `;
 }

@@ -10,7 +10,7 @@ assignees: ''
 
 Link to the current entry page or resource.
 
-Please fill in what you know. If you are unsure, leave the field empty and explain it below. See the [Editorial Policy](../../EDITORIAL_POLICY.md) for scope and review criteria.
+Fill in only the fields that change. If you are not sure, explain it below. See the [Editorial Policy](../../EDITORIAL_POLICY.md) for scope and review criteria.
 
 **Suggested updated fields**
 
@@ -23,11 +23,6 @@ regions: []
 languages: []
 resource_types: []
 periods: []
-date_added: YYYY-MM-DD
-reviewed_at: null
-reviewed_by: []
-authors: []
-contributors: []
 ```
 
 **Reason for the change**
