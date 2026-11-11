@@ -20,4 +20,4 @@ Explain why this change improves the directory.
 - [ ] I disclosed my relationship to the resource and any material AI assistance.
 - [ ] I ran `npm install` and `npm run check`.
 - [ ] I updated provenance fields where relevant.
-- [ ] If I changed source URLs or added entries, I ran `npm run screenshots`.
+- [ ] I refreshed screenshots for new entries or changed URLs (see CONTRIBUTING.md).

@@ -56,7 +56,9 @@ jobs:
                   return;
                 }
               } catch (error) {
-                core.info(`Cannot read #${issue_number}: ${error.message}`);
+                // A missing issue counts as no approval. Other errors fail the job and keep the pull request open.
+                if (error.status !== 404) throw error;
+                core.info(`Issue #${issue_number} does not exist.`);
               }
             }
 

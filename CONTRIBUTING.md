@@ -73,7 +73,7 @@ Maintainers assess submissions on their evidence and conduct. They do not judge 
 2. Run `npm install`.
 3. Run `npm run hooks:install` to enable the local `prek` Git hooks.
 4. Edit or add one file in `entries/*.qmd`. Do not edit `README.md` or `index.qmd`, because they are generated.
-5. If you changed a source URL or added an entry, run `npm run screenshots`.
+5. If you added an entry, run `npm run screenshots`. If you changed a source URL, run `npm run screenshots -- --force --slug <slug>`.
 6. Run the local checks:
 
    ```bash
