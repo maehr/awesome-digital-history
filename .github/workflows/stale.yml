@@ -20,5 +20,6 @@ jobs:
           stale-pr-message: 'This pull request has been inactive for 60 days. It remains open for maintainer review; please flag any changes needed to move it forward.'
           stale-issue-label: 'no-issue-activity'
           stale-pr-label: 'no-pr-activity'
+          exempt-issue-labels: 'approved'
           days-before-stale: 60
           days-before-close: -1

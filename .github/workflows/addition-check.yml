@@ -1,0 +1,77 @@
+name: Addition check
+
+# pull_request_target gives the token write access on pull requests from forks.
+# This is safe here: the workflow never checks out or runs pull request code.
+# It only reads pull request metadata and calls the GitHub API.
+on:
+  pull_request_target:
+    # Not triggered on "edited". Maintainers reopen a closed pull request after a fix.
+    types: [opened, reopened]
+
+permissions:
+  issues: read
+  pull-requests: write
+
+jobs:
+  require-approved-issue:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v9
+        with:
+          script: |
+            const pr = context.payload.pull_request;
+            const { owner, repo } = context.repo;
+            if (['OWNER', 'MEMBER', 'COLLABORATOR'].includes(pr.author_association)) {
+              core.info(`author_association=${pr.author_association}; no check needed.`);
+              return;
+            }
+
+            const files = await github.paginate(github.rest.pulls.listFiles, {
+              owner,
+              repo,
+              pull_number: pr.number,
+              per_page: 100,
+            });
+            const addsEntry = files.some(
+              (file) => file.status === 'added' && /^entries\/[^/]+\.qmd$/.test(file.filename),
+            );
+            if (!addsEntry) {
+              core.info('No new entry; no approved issue needed.');
+              return;
+            }
+
+            const body = pr.body || '';
+            const refs = new Set(
+              [
+                ...body.matchAll(/(?:^|[^\w/])#(\d+)\b/g),
+                ...body.matchAll(new RegExp(`github\\.com/${owner}/${repo}/issues/(\\d+)`, 'g')),
+              ].map((match) => Number(match[1])),
+            );
+            for (const issue_number of refs) {
+              try {
+                const { data: issue } = await github.rest.issues.get({ owner, repo, issue_number });
+                if (!issue.pull_request && issue.labels.some((label) => label.name === 'approved')) {
+                  core.info(`Approved issue #${issue_number} found.`);
+                  return;
+                }
+              } catch (error) {
+                core.info(`Cannot read #${issue_number}: ${error.message}`);
+              }
+            }
+
+            await github.rest.issues.createComment({
+              owner,
+              repo,
+              issue_number: pr.number,
+              body: [
+                `Hi @${pr.user.login}, thank you for your interest.`,
+                '',
+                'A pull request that adds a new entry must link an Addition issue with the `approved` label.',
+                'This pull request links no such issue, so it closes automatically.',
+                '',
+                'Open an [Addition issue](https://github.com/maehr/awesome-digital-history/issues/new?template=addition.yml) and wait for approval.',
+                'Then add the issue link to the description, for example `Closes #123`. A maintainer can reopen this pull request.',
+                'Read [CONTRIBUTING.md](https://github.com/maehr/awesome-digital-history/blob/main/CONTRIBUTING.md) for the process.',
+              ].join('\n'),
+            });
+            await github.rest.pulls.update({ owner, repo, pull_number: pr.number, state: 'closed' });

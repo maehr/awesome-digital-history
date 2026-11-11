@@ -1,0 +1,151 @@
+name: Addition
+description: Propose a new resource. Wait for maintainer approval before you open a pull request.
+title: '[Addition] '
+labels: ['addition']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your proposal. A maintainer adds the `approved` label when the proposal is accepted.
+        Do not open a pull request before approval. Approval does not guarantee inclusion.
+        Maintainers can write the entry for you. Read the [contribution guidelines](https://github.com/maehr/awesome-digital-history/blob/main/CONTRIBUTING.md) and the [editorial policy](https://github.com/maehr/awesome-digital-history/blob/main/EDITORIAL_POLICY.md).
+  - type: input
+    id: resource
+    attributes:
+      label: Resource name and URL
+      placeholder: Example Archive - https://example.org/
+    validations:
+      required: true
+  - type: input
+    id: short-description
+    attributes:
+      label: Short description
+      description: One sentence for the list. State what the resource contains.
+      placeholder: Search portal for digitized nineteenth-century newspapers from Exampleland.
+    validations:
+      required: true
+  - type: dropdown
+    id: section
+    attributes:
+      label: Directory section
+      options:
+        - archives
+        - learning
+        - more-awesome
+    validations:
+      required: true
+  - type: dropdown
+    id: regions
+    attributes:
+      label: Regions
+      multiple: true
+      options:
+        - Africa
+        - Asia
+        - Austria
+        - Europe
+        - France
+        - Germany
+        - Global
+        - Great Britain
+        - Latin America
+        - Netherlands
+        - North America
+        - Oceania
+        - Switzerland
+  - type: input
+    id: languages
+    attributes:
+      label: Languages
+      description: Canonical BCP 47 tags, for example `en`, `la`, `ddn`, or `mul`.
+  - type: dropdown
+    id: resource-types
+    attributes:
+      label: Resource types
+      multiple: true
+      options:
+        - audiovisual sources
+        - books
+        - collection
+        - encyclopedias
+        - learning materials
+        - magazines
+        - manuscripts
+        - maps
+        - newspapers
+        - photos
+        - portal
+        - primary sources
+        - search engine
+        - sheet music
+        - statistics
+        - tools
+        - websites
+  - type: dropdown
+    id: periods
+    attributes:
+      label: Periods
+      multiple: true
+      options:
+        - prehistory
+        - ancient
+        - classical
+        - medieval
+        - early modern
+        - modern
+        - contemporary
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Research or teaching use
+      description: Describe a concrete historical question or teaching task that the resource supports.
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: Value beyond existing entries
+      description: Explain what the resource adds to the entries that are already in the directory.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Link to documentation, the responsible institution, methods, publications, or research use.
+    validations:
+      required: true
+  - type: textarea
+    id: access
+    attributes:
+      label: Access, license, and limits
+      description: Mention cost, login, paywalls, reuse rights, APIs, downloads, OCR quality, or other caveats.
+    validations:
+      required: true
+  - type: input
+    id: affiliation
+    attributes:
+      label: Your relationship to the resource
+      description: State your affiliation or commercial interest. Write "none" if you have none.
+    validations:
+      required: true
+  - type: dropdown
+    id: ai
+    attributes:
+      label: AI assistance
+      options:
+        - No AI assistance
+        - AI assisted, and I checked every statement against the resource
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmation
+      options:
+        - label: I agree to the [Code of Conduct](https://github.com/maehr/awesome-digital-history/blob/main/CODE_OF_CONDUCT.md).
+          required: true
+        - label: A human wrote or reviewed this proposal.
+          required: true
+        - label: I searched the directory and the open issues. The resource is not listed or proposed.
+          required: true
