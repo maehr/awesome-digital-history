@@ -13,6 +13,7 @@ resource_types:
   - maps
   - tools
   - collection
+  - primary sources
 periods: []
 date_added: '2026-11-11'
 reviewed_at: null
