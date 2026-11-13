@@ -3,16 +3,16 @@ import path from 'node:path';
 import matter from 'gray-matter';
 
 export const ROOT_DIR = process.cwd();
-export const ENTRIES_DIR = path.join(ROOT_DIR, 'entries');
+const ENTRIES_DIR = path.join(ROOT_DIR, 'entries');
 export const SCREENSHOT_DIR = path.join(ROOT_DIR, 'assets', 'screenshots');
 
-export const SECTION_LABELS = {
+const SECTION_LABELS = {
 	archives: 'Archives and primary sources',
 	learning: 'Learning',
 	'more-awesome': 'More Awesome'
 };
 
-export const REGION_ORDER = [
+const REGION_ORDER = [
 	'Africa',
 	'Asia',
 	'Austria',
@@ -28,10 +28,12 @@ export const REGION_ORDER = [
 	'Switzerland'
 ];
 
-export const ALLOWED_VALUES = {
-	section: ['archives', 'learning', 'more-awesome'],
-	region: REGION_ORDER,
-	type: [
+const SECTIONS = Object.keys(SECTION_LABELS);
+
+// Controlled vocabularies for array fields. `languages` uses canonical BCP 47 instead.
+const ALLOWED_VALUES = {
+	regions: REGION_ORDER,
+	resource_types: [
 		'audiovisual sources',
 		'books',
 		'collection',
@@ -50,7 +52,7 @@ export const ALLOWED_VALUES = {
 		'tools',
 		'websites'
 	],
-	period: [
+	periods: [
 		'prehistory',
 		'ancient',
 		'classical',
@@ -61,37 +63,25 @@ export const ALLOWED_VALUES = {
 	]
 };
 
-export function slugify(value) {
+function slugify(value) {
 	return String(value)
 		.normalize('NFKD')
-		.replace(/[\u0300-\u036f]/g, '')
+		.replace(/[̀-ͯ]/g, '')
 		.toLowerCase()
 		.replace(/[^a-z0-9]+/g, '-')
 		.replace(/^-+|-+$/g, '')
 		.replace(/-{2,}/g, '-');
 }
 
-export function ensurePeriod(value) {
+function ensurePeriod(value) {
 	const text = String(value || '').trim();
-	if (!text) {
-		return text;
-	}
-	return /[.!?]$/.test(text) ? text : `${text}.`;
-}
-
-export function normalizeDateField(value) {
-	if (value === null || value === undefined || value === '') {
-		return null;
-	}
-	if (value instanceof Date) {
-		return Number.isNaN(value.valueOf()) ? String(value) : value.toISOString().slice(0, 10);
-	}
-	return String(value).trim();
+	return !text || /[.!?]$/.test(text) ? text : `${text}.`;
 }
 
 function isIsoDate(value) {
-	const text = normalizeDateField(value);
-	if (text === null || !/^\d{4}-\d{2}-\d{2}$/.test(text)) {
+	const text =
+		value instanceof Date ? value.toISOString().slice(0, 10) : String(value ?? '').trim();
+	if (!/^\d{4}-\d{2}-\d{2}$/.test(text)) {
 		return false;
 	}
 	const date = new Date(`${text}T00:00:00.000Z`);
@@ -100,8 +90,7 @@ function isIsoDate(value) {
 
 function isHttpUrl(value) {
 	try {
-		const url = new URL(value);
-		return url.protocol === 'http:' || url.protocol === 'https:';
+		return ['http:', 'https:'].includes(new URL(value).protocol);
 	} catch {
 		return false;
 	}
@@ -109,288 +98,166 @@ function isHttpUrl(value) {
 
 function canonicalLanguageTag(value) {
 	try {
-		return Intl.getCanonicalLocales(String(value).trim())[0] ?? null;
+		return Intl.getCanonicalLocales(value.trim())[0] ?? null;
 	} catch {
 		return null;
 	}
 }
 
-function duplicateValues(values) {
-	return values.filter((value, index) => values.indexOf(value) !== index);
-}
-
-function formatAllowedValues(values) {
-	return values.map((value) => `'${value}'`).join(', ');
-}
-
-function entryError(entry, message) {
-	return `${entry.filename}: ${message}`;
-}
-
-function requireNonEmptyStrings(entry, keys) {
-	return keys
-		.filter((key) => typeof entry[key] !== 'string' || entry[key].trim().length === 0)
-		.map((key) => entryError(entry, `missing ${key}`));
-}
-
-function requireArrays(entry, keys) {
-	return keys
-		.filter((key) => !Array.isArray(entry[key]))
-		.map((key) => entryError(entry, `${key} must be an array`));
-}
-
-function requirePresentFields(entry, keys) {
-	return keys
-		.filter((key) => !Object.hasOwn(entry, key))
-		.map((key) => entryError(entry, `missing ${key}`));
-}
-
-function validateStringArrayValues(entry, keys) {
-	return keys.flatMap((key) => {
-		if (!Object.hasOwn(entry, key) || !Array.isArray(entry[key])) {
-			return [];
-		}
-		return entry[key]
-			.filter((value) => typeof value !== 'string' || value.trim().length === 0)
-			.map(() => entryError(entry, `${key} values must be non-empty strings`));
-	});
-}
-
-function validateUniqueArrayValues(entry, keys) {
-	return keys.flatMap((key) => {
-		if (!Array.isArray(entry[key])) {
-			return [];
-		}
-		return [...new Set(duplicateValues(entry[key]))].map((value) =>
-			entryError(entry, `${key} contains duplicate value '${value}'`)
-		);
-	});
-}
-
-function validateControlledArrayValues(entry, controlledValues) {
-	return Object.entries(controlledValues).flatMap(([field, allowed]) => {
-		if (field === 'section' || !Array.isArray(entry[field])) {
-			return [];
-		}
-		return entry[field]
-			.filter((value) => !allowed.includes(value))
-			.map((value) =>
-				entryError(
-					entry,
-					`invalid ${field} value '${value}'; expected one of ${formatAllowedValues(allowed)}`
-				)
-			);
-	});
-}
-
-function validateLanguageTags(entry) {
-	if (!Array.isArray(entry.language)) {
-		return [];
-	}
-	return entry.language.flatMap((language) => {
-		if (typeof language !== 'string' || language.trim().length === 0) {
-			return [];
-		}
-		const canonical = canonicalLanguageTag(language);
-		if (canonical === null) {
-			return [entryError(entry, `invalid language tag '${language}'; expected canonical BCP 47`)];
-		}
-		if (language !== canonical) {
-			return [
-				entryError(entry, `language tag '${language}' must be canonical BCP 47 '${canonical}'`)
-			];
-		}
-		return [];
-	});
-}
-
-export function screenshotPathForSlug(slug) {
-	return `/assets/screenshots/${slug}.png`;
-}
-
-export function placeholderScreenshotPathForSlug(slug) {
-	return `/assets/screenshots/${slug}-placeholder.png`;
-}
-
-export function escapeMarkdownText(value) {
+function escapeMarkdownText(value) {
 	return String(value).replace(/([\\`*_[\]<>])/g, '\\$1');
 }
 
-export async function listEntryFiles() {
-	const names = await fs.readdir(ENTRIES_DIR);
-	return names
-		.filter((name) => name.endsWith('.qmd'))
-		.sort()
-		.map((name) => path.join(ENTRIES_DIR, name));
-}
-
-export async function readEntry(filePath) {
-	const raw = await fs.readFile(filePath, 'utf8');
-	const parsed = matter(raw);
-	const data = parsed.data;
-	return {
-		filePath,
-		filename: path.basename(filePath),
-		raw,
-		body: parsed.content.trim(),
-		section: data.directory_section ?? data.section ?? '',
-		region: data.regions ?? data.region ?? [],
-		language: data.languages ?? data.language ?? [],
-		type: data.resource_types ?? data.type ?? [],
-		period: data.periods ?? data.period ?? [],
-		...data
-	};
+function quoteList(values) {
+	return values.map((value) => `'${value}'`).join(', ');
 }
 
 export async function loadEntries() {
-	const files = await listEntryFiles();
-	const entries = await Promise.all(files.map((filePath) => readEntry(filePath)));
+	const names = (await fs.readdir(ENTRIES_DIR)).filter((name) => name.endsWith('.qmd'));
+	const entries = await Promise.all(
+		names.map(async (filename) => {
+			const parsed = matter(await fs.readFile(path.join(ENTRIES_DIR, filename), 'utf8'));
+			return {
+				screenshot_hide: [],
+				...parsed.data,
+				filename,
+				body: parsed.content.trim()
+			};
+		})
+	);
 	return entries.sort((left, right) => left.title.localeCompare(right.title));
 }
 
-export function validateEntryShape(entry) {
-	const requiredStrings = [
-		'title',
-		'slug',
-		'external_url',
-		'short_description',
-		'description',
-		'section',
-		'section_label',
-		'screenshot',
-		'screenshot_alt',
-		'image'
-	];
+const REQUIRED_STRINGS = [
+	'title',
+	'slug',
+	'external_url',
+	'short_description',
+	'description',
+	'directory_section',
+	'section_label',
+	'screenshot',
+	'screenshot_alt',
+	'image'
+];
 
-	const requiredProvenanceFields = [
-		'date_added',
-		'reviewed_at',
-		'reviewed_by',
-		'authors',
-		'contributors'
-	];
+const ARRAY_FIELDS = [
+	'regions',
+	'languages',
+	'resource_types',
+	'periods',
+	'reviewed_by',
+	'authors',
+	'contributors',
+	'screenshot_hide'
+];
 
-	const errors = [
-		...requireNonEmptyStrings(entry, requiredStrings),
-		...requireArrays(entry, [
-			'region',
-			'language',
-			'type',
-			'period',
-			'screenshot_hide',
-			'reviewed_by',
-			'authors',
-			'contributors'
-		]),
-		...requirePresentFields(entry, requiredProvenanceFields),
-		...validateStringArrayValues(entry, [
-			'region',
-			'language',
-			'type',
-			'period',
-			'screenshot_hide',
-			'reviewed_by',
-			'authors',
-			'contributors'
-		]),
-		...validateUniqueArrayValues(entry, [
-			'region',
-			'language',
-			'type',
-			'period',
-			'reviewed_by',
-			'authors',
-			'contributors'
-		]),
-		...validateLanguageTags(entry),
-		...validateControlledArrayValues(entry, ALLOWED_VALUES)
-	];
+function validateEntryShape(entry) {
+	const errors = [];
+	const fail = (message) => errors.push(`${entry.filename}: ${message}`);
 
-	if (Object.hasOwn(entry, 'date_added') && !isIsoDate(entry.date_added)) {
-		errors.push(entryError(entry, 'date_added must be a real YYYY-MM-DD date'));
+	for (const key of REQUIRED_STRINGS) {
+		if (typeof entry[key] !== 'string' || entry[key].trim().length === 0) {
+			fail(`missing ${key}`);
+		}
+	}
+	for (const key of ['date_added', 'reviewed_at']) {
+		if (!Object.hasOwn(entry, key)) {
+			fail(`missing ${key}`);
+		}
+	}
+	for (const key of ARRAY_FIELDS) {
+		const values = entry[key];
+		if (!Array.isArray(values)) {
+			fail(`${key} must be an array`);
+		} else if (values.some((value) => typeof value !== 'string' || value.trim().length === 0)) {
+			fail(`${key} values must be non-empty strings`);
+		}
+	}
+	// The checks below assume the field types above are correct.
+	if (errors.length > 0) {
+		return errors;
 	}
 
-	if (
-		Object.hasOwn(entry, 'reviewed_at') &&
-		entry.reviewed_at !== null &&
-		!isIsoDate(entry.reviewed_at)
-	) {
-		errors.push(entryError(entry, 'reviewed_at must be a real YYYY-MM-DD date or null'));
+	for (const key of ARRAY_FIELDS) {
+		const values = entry[key];
+		const duplicates = new Set(values.filter((value, index) => values.indexOf(value) !== index));
+		for (const value of duplicates) {
+			fail(`${key} contains duplicate value '${value}'`);
+		}
+		const allowed = ALLOWED_VALUES[key] ?? values;
+		for (const value of values.filter((value) => !allowed.includes(value))) {
+			fail(`invalid ${key} value '${value}'; expected one of ${quoteList(allowed)}`);
+		}
 	}
 
-	if (!ALLOWED_VALUES.section.includes(entry.section)) {
-		errors.push(
-			entryError(
-				entry,
-				`invalid section '${entry.section}'; expected one of ${formatAllowedValues(ALLOWED_VALUES.section)}`
-			)
-		);
+	for (const language of entry.languages) {
+		const canonical = canonicalLanguageTag(language);
+		if (canonical === null) {
+			fail(`invalid language tag '${language}'; expected canonical BCP 47`);
+		} else if (language !== canonical) {
+			fail(`language tag '${language}' must be canonical BCP 47 '${canonical}'`);
+		}
 	}
 
-	if (entry.section_label !== SECTION_LABELS[entry.section]) {
-		errors.push(entryError(entry, 'section_label must match section'));
+	if (!isIsoDate(entry.date_added)) {
+		fail('date_added must be a real YYYY-MM-DD date');
+	}
+	if (entry.reviewed_at !== null && !isIsoDate(entry.reviewed_at)) {
+		fail('reviewed_at must be a real YYYY-MM-DD date or null');
 	}
 
+	const section = entry.directory_section;
+	if (!SECTIONS.includes(section)) {
+		fail(`invalid directory_section '${section}'; expected one of ${quoteList(SECTIONS)}`);
+	}
+	if (entry.section_label !== SECTION_LABELS[section]) {
+		fail('section_label must match directory_section');
+	}
 	if (entry.slug !== slugify(entry.slug)) {
-		errors.push(entryError(entry, 'slug must be normalized'));
+		fail('slug must be normalized');
 	}
-
 	if (entry.filename !== `${entry.slug}.qmd`) {
-		errors.push(entryError(entry, 'filename must match slug'));
+		fail('filename must match slug');
 	}
-
 	if (!isHttpUrl(entry.external_url)) {
-		errors.push(entryError(entry, 'external_url must be an absolute http(s) URL'));
+		fail('external_url must be an absolute http(s) URL');
 	}
-
-	if (entry.section === 'archives' && entry.region.length === 0) {
-		errors.push(entryError(entry, 'archives entry needs a region'));
+	if (section === 'archives' && entry.regions.length === 0) {
+		fail('archives entry needs a region');
 	}
-
-	if (entry.section !== 'archives' && entry.region.length > 0) {
-		errors.push(entryError(entry, 'only archives entries may define a region'));
+	if (section !== 'archives' && entry.regions.length > 0) {
+		fail('only archives entries may define a region');
 	}
-
-	if (entry.section === 'learning' && !entry.type.includes('learning materials')) {
-		errors.push(entryError(entry, "learning entry must include 'learning materials' type"));
+	if (section === 'learning' && !entry.resource_types.includes('learning materials')) {
+		fail("learning entry must include 'learning materials' type");
 	}
-
 	if (!/^## Why it matters\b/m.test(entry.body)) {
-		errors.push(entryError(entry, "body must include '## Why it matters' heading"));
+		fail("body must include '## Why it matters' heading");
 	}
-
-	if (entry.body.trim().length < 140) {
-		errors.push(entryError(entry, 'body is too short'));
+	if (entry.body.length < 140) {
+		fail('body is too short');
 	}
-
 	if (entry.body.includes('TODO:')) {
-		errors.push(entryError(entry, 'body still contains TODO placeholder'));
+		fail('body still contains TODO placeholder');
 	}
-
-	if (entry.description.trim().length < 60 || entry.description.trim().length > 180) {
-		errors.push(entryError(entry, 'description should be 60-180 characters for SEO'));
+	const descriptionLength = entry.description.trim().length;
+	if (descriptionLength < 60 || descriptionLength > 180) {
+		fail('description should be 60-180 characters for SEO');
 	}
-
 	if (!entry.short_description.trim().endsWith('.')) {
-		errors.push(entryError(entry, 'short_description must end with a period'));
+		fail('short_description must end with a period');
 	}
 
-	const allowedScreenshotPaths = new Set([
-		screenshotPathForSlug(entry.slug),
-		placeholderScreenshotPathForSlug(entry.slug)
-	]);
-
-	if (!allowedScreenshotPaths.has(entry.screenshot)) {
-		errors.push(
-			entryError(
-				entry,
-				`screenshot path must be ${screenshotPathForSlug(entry.slug)} or ${placeholderScreenshotPathForSlug(entry.slug)}`
-			)
-		);
+	const screenshotPaths = [
+		`/assets/screenshots/${entry.slug}.png`,
+		`/assets/screenshots/${entry.slug}-placeholder.png`
+	];
+	if (!screenshotPaths.includes(entry.screenshot)) {
+		fail(`screenshot path must be ${screenshotPaths.join(' or ')}`);
 	}
-
 	if (entry.image !== entry.screenshot) {
-		errors.push(entryError(entry, 'image must match screenshot'));
+		fail('image must match screenshot');
 	}
 
 	return errors;
@@ -413,11 +280,12 @@ export async function validateEntries(entries) {
 		}
 		seenTitles.add(entry.title);
 
-		const screenshotPath = path.join(ROOT_DIR, entry.screenshot.replace(/^\//, ''));
-		try {
-			await fs.access(screenshotPath);
-		} catch {
-			errors.push(`${entry.filename}: missing screenshot '${entry.screenshot}'`);
+		if (typeof entry.screenshot === 'string') {
+			try {
+				await fs.access(path.join(ROOT_DIR, entry.screenshot.replace(/^\//, '')));
+			} catch {
+				errors.push(`${entry.filename}: missing screenshot '${entry.screenshot}'`);
+			}
 		}
 	}
 
@@ -425,9 +293,9 @@ export async function validateEntries(entries) {
 }
 
 export function buildReadme(entries) {
-	const archives = entries.filter((entry) => entry.section === 'archives');
-	const learning = entries.filter((entry) => entry.section === 'learning');
-	const moreAwesome = entries.filter((entry) => entry.section === 'more-awesome');
+	const archives = entries.filter((entry) => entry.directory_section === 'archives');
+	const learning = entries.filter((entry) => entry.directory_section === 'learning');
+	const moreAwesome = entries.filter((entry) => entry.directory_section === 'more-awesome');
 
 	const lines = [
 		'# Awesome Digital History [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)',
@@ -442,7 +310,7 @@ export function buildReadme(entries) {
 	];
 
 	for (const region of REGION_ORDER) {
-		if (archives.some((entry) => entry.region.includes(region))) {
+		if (archives.some((entry) => entry.regions.includes(region))) {
 			lines.push(`  - [${region}](#${slugify(region)})`);
 		}
 	}
@@ -455,7 +323,7 @@ export function buildReadme(entries) {
 	lines.push('');
 
 	for (const region of REGION_ORDER) {
-		const items = archives.filter((entry) => entry.region.includes(region));
+		const items = archives.filter((entry) => entry.regions.includes(region));
 		if (items.length === 0) {
 			continue;
 		}
@@ -513,18 +381,18 @@ function filterBadge(name, value, label = value, isPrimary = false) {
 }
 
 function cardBadges(entry) {
-	const badges = [filterBadge('section', entry.section, SECTION_LABELS[entry.section], true)];
+	const badges = [filterBadge('section', entry.directory_section, entry.section_label, true)];
 
-	for (const region of entry.region) {
+	for (const region of entry.regions) {
 		badges.push(filterBadge('region', region));
 	}
-	for (const language of entry.language) {
+	for (const language of entry.languages) {
 		badges.push(filterBadge('language', language));
 	}
-	for (const type of entry.type) {
+	for (const type of entry.resource_types) {
 		badges.push(filterBadge('type', type));
 	}
-	for (const period of entry.period) {
+	for (const period of entry.periods) {
 		badges.push(filterBadge('period', period));
 	}
 
@@ -549,20 +417,19 @@ function escapeHtml(value) {
 }
 
 export function buildIndexQmd(entries) {
-	const ordered = [...entries].sort((left, right) => left.title.localeCompare(right.title));
-	const cards = ordered
+	const cards = entries
 		.map((entry) => {
 			const searchParts = [
 				entry.title,
 				entry.short_description,
 				entry.description,
-				...entry.region,
-				...entry.type,
-				...entry.language,
-				...entry.period
+				...entry.regions,
+				...entry.resource_types,
+				...entry.languages,
+				...entry.periods
 			];
 
-			return `<article data-entry-card data-search="${escapeHtml(searchParts.join(' '))}" data-section="${escapeHtml(entry.section)}" data-region="${escapeHtml(entry.region.join('|'))}" data-type="${escapeHtml(entry.type.join('|'))}" data-language="${escapeHtml(entry.language.join('|'))}" data-period="${escapeHtml(entry.period.join('|'))}">
+			return `<article data-entry-card data-search="${escapeHtml(searchParts.join(' '))}" data-section="${escapeHtml(entry.directory_section)}" data-region="${escapeHtml(entry.regions.join('|'))}" data-type="${escapeHtml(entry.resource_types.join('|'))}" data-language="${escapeHtml(entry.languages.join('|'))}" data-period="${escapeHtml(entry.periods.join('|'))}">
 <div class="card h-100 shadow-sm border-0 w-100">
 <a class="text-decoration-none" href="entries/${entry.slug}.html">
 <div class="ratio ratio-16x9">
@@ -619,8 +486,8 @@ A curated directory of digital history resources for finding sources, tools, and
 <select id="directory-region" class="form-select" data-entry-filter data-filter-region>
 <option value="">All regions</option>
 ${optionList(
-	entries.filter((entry) => entry.section === 'archives'),
-	'region'
+	entries.filter((entry) => entry.directory_section === 'archives'),
+	'regions'
 )}
 </select>
 </div>
@@ -628,21 +495,21 @@ ${optionList(
 <label class="form-label fw-semibold" for="directory-type">Type</label>
 <select id="directory-type" class="form-select" data-entry-filter data-filter-type>
 <option value="">All types</option>
-${optionList(entries, 'type')}
+${optionList(entries, 'resource_types')}
 </select>
 </div>
 <div class="d-grid gap-2">
 <label class="form-label fw-semibold" for="directory-language">Language</label>
 <select id="directory-language" class="form-select" data-entry-filter data-filter-language>
 <option value="">All languages</option>
-${optionList(entries, 'language')}
+${optionList(entries, 'languages')}
 </select>
 </div>
 <div class="d-grid gap-2">
 <label class="form-label fw-semibold" for="directory-period">Period</label>
 <select id="directory-period" class="form-select" data-entry-filter data-filter-period>
 <option value="">All periods</option>
-${optionList(entries, 'period')}
+${optionList(entries, 'periods')}
 </select>
 </div>
 <div class="d-grid gap-2 align-items-end">

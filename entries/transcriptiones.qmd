@@ -27,12 +27,7 @@ contributors:
   - Moritz Mähr
 screenshot: /assets/screenshots/transcriptiones.png
 screenshot_alt: Screenshot of transcriptiones
-screenshot_hide: []
-screenshot_wait_ms: 6000
-screenshot_full_page: false
 image: /assets/screenshots/transcriptiones.png
-page-layout: article
-toc: false
 ---
 
 ## Why it matters

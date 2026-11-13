@@ -25,12 +25,7 @@ contributors:
   - Copilot
 screenshot: /assets/screenshots/amtsdruckschriften.png
 screenshot_alt: Screenshot of Amtsdruckschriften
-screenshot_hide: []
-screenshot_wait_ms: 6000
-screenshot_full_page: false
 image: /assets/screenshots/amtsdruckschriften.png
-page-layout: article
-toc: false
 ---
 
 ## Why it matters

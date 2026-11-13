@@ -26,12 +26,7 @@ contributors:
   - Copilot
 screenshot: /assets/screenshots/le-temps.png
 screenshot_alt: Screenshot of Le Temps
-screenshot_hide: []
-screenshot_wait_ms: 6000
-screenshot_full_page: false
 image: /assets/screenshots/le-temps.png
-page-layout: article
-toc: false
 ---
 
 ## Why it matters

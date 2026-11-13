@@ -29,12 +29,7 @@ contributors:
   - Copilot
 screenshot: /assets/screenshots/computerarchiv-muenchen.png
 screenshot_alt: Screenshot of Computerarchiv Muenchen
-screenshot_hide: []
-screenshot_wait_ms: 6000
-screenshot_full_page: false
 image: /assets/screenshots/computerarchiv-muenchen.png
-page-layout: article
-toc: false
 ---
 
 ## Why it matters

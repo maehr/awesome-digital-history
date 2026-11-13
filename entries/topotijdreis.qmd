@@ -23,12 +23,7 @@ contributors:
   - Moritz Mähr
 screenshot: /assets/screenshots/topotijdreis.png
 screenshot_alt: Screenshot of Topotijdreis
-screenshot_hide: []
-screenshot_wait_ms: 6000
-screenshot_full_page: false
 image: /assets/screenshots/topotijdreis.png
-page-layout: article
-toc: false
 ---
 
 ## Why it matters

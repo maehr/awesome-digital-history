@@ -28,12 +28,7 @@ contributors:
   - Copilot
 screenshot: /assets/screenshots/eurodocs-online-sources-for-european-history.png
 screenshot_alt: Screenshot of EuroDocs – Online Sources for European History
-screenshot_hide: []
-screenshot_wait_ms: 6000
-screenshot_full_page: false
 image: /assets/screenshots/eurodocs-online-sources-for-european-history.png
-page-layout: article
-toc: false
 ---
 
 ## Why it matters

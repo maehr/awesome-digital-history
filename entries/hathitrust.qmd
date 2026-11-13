@@ -28,12 +28,7 @@ contributors:
   - Copilot
 screenshot: /assets/screenshots/hathitrust-placeholder.png
 screenshot_alt: Screenshot of HathiTrust
-screenshot_hide: []
-screenshot_wait_ms: 6000
-screenshot_full_page: false
 image: /assets/screenshots/hathitrust-placeholder.png
-page-layout: article
-toc: false
 ---
 
 ## Why it matters

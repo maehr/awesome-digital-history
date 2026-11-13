@@ -31,12 +31,7 @@ contributors:
   - Flightmussy
 screenshot: /assets/screenshots/castlemap.png
 screenshot_alt: Screenshot of Castlemap
-screenshot_hide: []
-screenshot_wait_ms: 6000
-screenshot_full_page: false
 image: /assets/screenshots/castlemap.png
-page-layout: article
-toc: false
 ---
 
 ## Why it matters

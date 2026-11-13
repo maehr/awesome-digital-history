@@ -29,11 +29,7 @@ screenshot: /assets/screenshots/nls.png
 screenshot_alt: Screenshot of NLS
 screenshot_hide:
   - '#ccc'
-screenshot_wait_ms: 6000
-screenshot_full_page: false
 image: /assets/screenshots/nls.png
-page-layout: article
-toc: false
 ---
 
 ## Why it matters

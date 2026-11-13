@@ -26,12 +26,7 @@ contributors:
   - Moritz Mähr
 screenshot: /assets/screenshots/islandskort-is.png
 screenshot_alt: Screenshot of islandskort.is
-screenshot_hide: []
-screenshot_wait_ms: 6000
-screenshot_full_page: false
 image: /assets/screenshots/islandskort-is.png
-page-layout: article
-toc: false
 ---
 
 ## Why it matters

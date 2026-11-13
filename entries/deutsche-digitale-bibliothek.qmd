@@ -26,12 +26,7 @@ contributors:
   - Copilot
 screenshot: /assets/screenshots/deutsche-digitale-bibliothek.png
 screenshot_alt: Screenshot of Deutsche Digitale Bibliothek
-screenshot_hide: []
-screenshot_wait_ms: 6000
-screenshot_full_page: false
 image: /assets/screenshots/deutsche-digitale-bibliothek.png
-page-layout: article
-toc: false
 ---
 
 ## Why it matters

@@ -20,12 +20,7 @@ authors:
 contributors: []
 screenshot: /assets/screenshots/python-fur-historiker-innen.png
 screenshot_alt: Screenshot of Python für Historiker:innen
-screenshot_hide: []
-screenshot_wait_ms: 6000
-screenshot_full_page: false
 image: /assets/screenshots/python-fur-historiker-innen.png
-page-layout: article
-toc: false
 ---
 
 ## Why it matters
