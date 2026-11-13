@@ -96,6 +96,7 @@ Finding aids for textual and multimedia [primary sources](https://en.wikipedia.o
 
 ### Global
 
+- [Allmaps](https://allmaps.org/) - Curate, georeference and explore collections of digitized IIIF maps.
 - [Atlas of Mutual Heritage](https://www.atlasofmutualheritage.nl/) - Database with sources relating to VOC (Dutch East India Company) and WIC (Dutch West India Company).
 - [Bitsavers.org](http://bitsavers.trailing-edge.com/) - Computer code, reference manuals, and magazines.
 - [Castlemap](https://thecastlemap.com/) - Interactive world map and downloadable CC0 dataset of castles, fortresses, palaces, and ruins around the world.

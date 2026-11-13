@@ -1,0 +1,33 @@
+---
+title: Allmaps
+slug: allmaps
+description: Allmaps is a browser tool to work with IIIF-enabled maps from collections worldwide.
+external_url: https://allmaps.org/
+short_description: Curate, georeference and explore collections of digitized IIIF maps.
+directory_section: archives
+section_label: Archives and primary sources
+regions: [Global]
+languages:
+  - en
+resource_types:
+  - maps
+  - tools
+  - collection
+  - primary sources
+periods: []
+date_added: '2026-11-11'
+reviewed_at: null
+reviewed_by: []
+authors:
+  - Moritz Twente
+contributors: []
+screenshot: /assets/screenshots/allmaps.png
+screenshot_alt: Screenshot of Allmaps
+image: /assets/screenshots/allmaps.png
+---
+
+## Why it matters
+
+Allmaps is an open-source set of browser-based tools for exploring, curating, and georeferencing IIIF-enabled digitized maps from collections worldwide.
+
+By aligning historical maps with real-world locations and comparing maps across institutions and periods, it helps researchers investigate changing landscapes and make dispersed map collections more accessible—without requiring GIS software or downloading image files.
