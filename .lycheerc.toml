@@ -57,7 +57,9 @@ exclude = [
   '^https://www\.leo-bw\.de/?$',
   '^https://curiosity\.lib\.harvard\.edu/women-working-1800-1930/?$',
   # Browser and local checks succeed; GitHub CI receives 403 (2026-11-13).
-  '^https://eudocs\.lib\.byu\.edu/index\.php/Main_Page$'
+  '^https://eudocs\.lib\.byu\.edu/index\.php/Main_Page$',
+  # Local checks succeed in under 1 second; GitHub CI requests time out (2026-11-13).
+  '^https://books-as-data\.ch/?$'
 ]
 
 timeout = 30
