@@ -5,7 +5,11 @@ Automation notes for `awesome-digital-history`.
 ## Commands
 
 ```bash
-# Build site + generated files
+# Generate README.md and index.qmd from entries
+npm run generate
+npm run generate:check # Fail if README.md is out of date. Writes nothing.
+
+# Build site
 npm run site:build
 
 # Local preview
@@ -30,7 +34,10 @@ npm run screenshots
 ## Canonical Source
 
 - Source of truth: `entries/*.qmd`
-- Generated: `README.md`, `index.qmd`
+- Generated: `README.md` (tracked), `index.qmd` (ignored)
+- Do not edit generated files by hand.
+- After an entry change, run `npm run generate` and commit `README.md` with the entry.
+- Checks and hooks do not write `README.md`. They fail if it is out of date.
 - Screenshots: `assets/screenshots/*.png`
 
 ## Entry Shape
@@ -71,7 +78,7 @@ screenshot: /assets/screenshots/<slug>.png
 ## Workflows
 
 - `addition-check.yml`: closes non-collaborator pull requests that add an entry without an `approved` issue
-- `awesome-lint.yml`: regenerates `README.md`, then runs `awesome-lint`
+- `awesome-lint.yml`: checks that `README.md` is current, then runs `awesome-lint`
 - `changelog.yml`: writes unreleased changelog entries to the job summary
 - `commitlint.yml`: enforces Conventional Commits on push and pull request commits
 - `greetings.yml`, `label.yml`, `stale.yml`: greet first-time contributors, label pull requests, mark inactive items
@@ -81,6 +88,7 @@ screenshot: /assets/screenshots/<slug>.png
 
 ## Quality Gates
 
+- `npm run generate:check`
 - `npm run validate`
 - `npm run lint`
 - `npm run awesome-lint`
@@ -91,5 +99,5 @@ screenshot: /assets/screenshots/<slug>.png
 
 - Hook config: `.pre-commit-config.yaml`
 - Install local hooks with `npm run hooks:install`
-- Pre-commit hooks check formatting, entry metadata, generated `README.md`, and `awesome-lint`
+- Pre-commit hooks check formatting, entry metadata, whether `README.md` is current, and `awesome-lint`
 - Commit messages must follow Conventional Commits and are checked by `commitlint`

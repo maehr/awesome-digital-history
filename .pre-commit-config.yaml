@@ -35,9 +35,18 @@ repos:
           - pre-commit
           - manual
 
+      - id: readme-current
+        name: README.md is current
+        entry: npm run generate:check
+        language: system
+        pass_filenames: false
+        stages:
+          - pre-commit
+          - manual
+
       - id: awesome-lint
         name: awesome-lint
-        entry: npm run generate && npm run awesome-lint
+        entry: npm run awesome-lint
         language: system
         pass_filenames: false
         stages:
