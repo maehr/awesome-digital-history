@@ -27,12 +27,7 @@ contributors:
   - Copilot
 screenshot: /assets/screenshots/map-geo-admin-ch.png
 screenshot_alt: Screenshot of map.geo.admin.ch
-screenshot_hide: []
-screenshot_wait_ms: 6000
-screenshot_full_page: false
 image: /assets/screenshots/map-geo-admin-ch.png
-page-layout: article
-toc: false
 ---
 
 ## Why it matters

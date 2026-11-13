@@ -25,12 +25,7 @@ authors:
 contributors: []
 screenshot: /assets/screenshots/e-gs-placeholder.png
 screenshot_alt: Screenshot of e-gs
-screenshot_hide: []
-screenshot_wait_ms: 6000
-screenshot_full_page: false
 image: /assets/screenshots/e-gs-placeholder.png
-page-layout: article
-toc: false
 ---
 
 ## Why it matters

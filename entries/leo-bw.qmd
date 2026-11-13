@@ -26,12 +26,7 @@ contributors:
   - Copilot
 screenshot: /assets/screenshots/leo-bw.png
 screenshot_alt: Screenshot of leo bw
-screenshot_hide: []
-screenshot_wait_ms: 6000
-screenshot_full_page: false
 image: /assets/screenshots/leo-bw.png
-page-layout: article
-toc: false
 ---
 
 ## Why it matters

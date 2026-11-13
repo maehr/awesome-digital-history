@@ -1,0 +1,9 @@
+# yaml-language-server: $schema=https://coderabbit.ai/integrations/schema.v2.json
+reviews:
+  path_instructions:
+    - path: 'README.md'
+      instructions: >-
+        README.md is generated from entries/*.qmd by `npm run generate`.
+        Pull requests that change entries must include the regenerated README.md.
+        Do not flag the presence of README.md changes. Flag only README.md changes
+        that do not match the entry changes in the same pull request.

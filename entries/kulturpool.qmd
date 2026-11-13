@@ -31,12 +31,7 @@ contributors:
   - Copilot
 screenshot: /assets/screenshots/kulturpool.png
 screenshot_alt: Screenshot of Kulturpool portal
-screenshot_hide: []
-screenshot_wait_ms: 6000
-screenshot_full_page: false
 image: /assets/screenshots/kulturpool.png
-page-layout: article
-toc: false
 ---
 
 ## Why it matters

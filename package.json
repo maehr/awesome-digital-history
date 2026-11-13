@@ -7,25 +7,22 @@
 		"node": ">=24"
 	},
 	"scripts": {
-		"build": "npm run site:build",
-		"preview": "npm run site:preview",
-		"render": "npm run site:render",
-		"clean": "npm run site:clean",
+		"build": "npm run validate && npm run generate:index && quarto render",
+		"preview": "npm run validate && npm run generate:index && quarto preview",
+		"clean": "rm -rf \".quarto\" \"_site\"",
 		"generate": "node scripts/build-derived.mjs",
-		"site:build": "npm run site:render",
-		"site:render": "npm run validate && npm run generate && quarto render",
-		"site:preview": "npm run validate && npm run generate && quarto preview",
-		"site:clean": "rm -rf \".quarto\" \"_site\"",
+		"generate:check": "node scripts/build-derived.mjs --check",
+		"generate:index": "node scripts/build-derived.mjs --index",
 		"validate": "node scripts/validate-entries.mjs",
 		"screenshots": "node scripts/build-screenshots.mjs",
 		"format": "prettier --write .",
 		"lint": "prettier --check .",
+		"awesome-lint": "node scripts/run-awesome-lint.mjs",
+		"check": "npm run generate:check && npm run build && npm run lint && npm run awesome-lint",
 		"commitlint": "commitlint",
 		"hooks:install": "prek install --git-dir .git --hook-type pre-commit --hook-type commit-msg",
 		"hooks:run": "prek run --all-files",
-		"check": "npm run site:build && npm run lint && npm run awesome-lint",
-		"changelog": "npx git-cliff --config cliff-unreleased.toml $(git log -n 1 --format=%H -- CHANGELOG.md)..HEAD",
-		"awesome-lint": "node scripts/run-awesome-lint.mjs"
+		"changelog": "npx git-cliff --strip all $(git log -n 1 --format=%H -- CHANGELOG.md)..HEAD"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^21.2.4",
@@ -34,6 +31,6 @@
 		"awesome-lint": "^2.3.0",
 		"gray-matter": "^4.0.3",
 		"playwright": "^1.65.0",
-		"prettier": "^3.9.10"
+		"prettier": "^3.10.1"
 	}
 }

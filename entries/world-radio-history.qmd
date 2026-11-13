@@ -25,12 +25,7 @@ contributors:
   - Moritz Mähr
 screenshot: /assets/screenshots/world-radio-history.png
 screenshot_alt: Screenshot of World Radio History
-screenshot_hide: []
-screenshot_wait_ms: 6000
-screenshot_full_page: false
 image: /assets/screenshots/world-radio-history.png
-page-layout: article
-toc: false
 ---
 
 ## Why it matters

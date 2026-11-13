@@ -23,12 +23,7 @@ contributors:
   - Moritz Mähr
 screenshot: /assets/screenshots/critical-ai-literacy-for-historians.png
 screenshot_alt: Screenshot of Critical AI Literacy for Historians
-screenshot_hide: []
-screenshot_wait_ms: 6000
-screenshot_full_page: false
 image: /assets/screenshots/critical-ai-literacy-for-historians.png
-page-layout: article
-toc: false
 ---
 
 ## Why it matters

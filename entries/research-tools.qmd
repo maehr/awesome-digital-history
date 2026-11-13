@@ -20,12 +20,7 @@ authors:
 contributors: []
 screenshot: /assets/screenshots/research-tools.png
 screenshot_alt: Screenshot of Research Tools
-screenshot_hide: []
-screenshot_wait_ms: 6000
-screenshot_full_page: false
 image: /assets/screenshots/research-tools.png
-page-layout: article
-toc: false
 ---
 
 ## Why it matters

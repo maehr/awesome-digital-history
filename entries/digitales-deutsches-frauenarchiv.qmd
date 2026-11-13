@@ -25,12 +25,7 @@ contributors:
   - Copilot
 screenshot: /assets/screenshots/digitales-deutsches-frauenarchiv.png
 screenshot_alt: Screenshot of Digitales Deutsches Frauenarchiv
-screenshot_hide: []
-screenshot_wait_ms: 6000
-screenshot_full_page: false
 image: /assets/screenshots/digitales-deutsches-frauenarchiv.png
-page-layout: article
-toc: false
 ---
 
 ## Why it matters

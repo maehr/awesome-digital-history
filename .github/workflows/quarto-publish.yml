@@ -19,33 +19,6 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  lint:
-    name: Validate repository
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-
-    steps:
-      - name: Check out repository
-        uses: actions/checkout@v7
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v7
-        with:
-          node-version: '24'
-          cache: 'npm'
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Set up Quarto
-        uses: quarto-dev/quarto-actions/setup@v2
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Run checks
-        run: npm run check
-
   build-optimize:
     name: Build and Upload Artifacts
     runs-on: ubuntu-latest
@@ -68,8 +41,8 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Render Quarto Project
-        run: npm run site:build
+      - name: Check and render site
+        run: npm run check
 
       - name: JamPack Optimization
         run: |
@@ -93,7 +66,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    needs: [lint, build-optimize]
+    needs: build-optimize
     if: github.event_name != 'pull_request'
 
     steps:
