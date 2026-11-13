@@ -21,8 +21,7 @@
 		"check": "npm run generate:check && npm run build && npm run lint && npm run awesome-lint",
 		"commitlint": "commitlint",
 		"hooks:install": "prek install --git-dir .git --hook-type pre-commit --hook-type commit-msg",
-		"hooks:run": "prek run --all-files",
-		"changelog": "npx git-cliff --strip all $(git log -n 1 --format=%H -- CHANGELOG.md)..HEAD"
+		"hooks:run": "prek run --all-files"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^21.2.4",

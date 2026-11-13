@@ -18,7 +18,6 @@ npm run check          # generate:check, build, lint, awesome-lint
 npm run hooks:install  # Install the prek pre-commit and commit-msg hooks
 npm run hooks:run      # Run the prek hooks on all files
 npm run screenshots    # Capture missing screenshots; -- --force --slug <slug> to recapture
-npm run changelog      # Print unreleased changelog entries with git-cliff
 ```
 
 ## Canonical Source
