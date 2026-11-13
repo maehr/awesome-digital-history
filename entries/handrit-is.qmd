@@ -19,8 +19,6 @@ periods:
   - medieval
   - modern
 date_added: '2025-03-13'
-reviewed_at: null
-reviewed_by: []
 authors:
   - Moritz Twente
 contributors:

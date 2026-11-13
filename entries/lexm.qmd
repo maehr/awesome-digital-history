@@ -15,8 +15,6 @@ resource_types:
 periods:
   - contemporary
 date_added: '2021-04-13'
-reviewed_at: null
-reviewed_by: []
 authors:
   - Markus Bassermann
 contributors:

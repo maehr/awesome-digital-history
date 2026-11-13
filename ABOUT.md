@@ -1,35 +1,27 @@
 # About
 
-Awesome Digital History is a curated directory to support historical research with an emphasis on digital history.
+Awesome Digital History is a curated directory of resources for historical research, with a focus on digital history.
 
-The directory is built for quick evaluation. Each resource combines a short awesome-list description, an entry page with editorial context, and a screenshot so you can judge relevance faster.
-
-You can browse the collection with free-text search and filters for section, region, type, and language.
-
-## Project Responsibility
-
-Awesome Digital History is a community effort by historians, archivists, librarians, educators, students, and digital humanities practitioners, coordinated by [Dr. Moritz Maehr](https://moritzmaehr.ch/).
-
-The project is loosely connected to the [Digital History Network Switzerland](https://www.digitalhistorynetwork.ch/) and welcomes contributions from people working with digital historical sources, tools, and teaching resources.
-
-Editorial decisions should be transparent. Additions, corrections, and removals are discussed through GitHub issues and pull requests whenever possible, and entry metadata records provenance such as date added, authorship, and review status.
+The directory is built for quick evaluation. Each entry has a short description, an entry page with editorial context, and a screenshot. You can search the full text and filter by section, region, type, language, and period.
 
 ## Scope
 
-The focus is on digitally accessible sources, search portals, and learning resources that support historical research workflows.
+The directory lists digitally accessible sources, search portals, and learning resources that support historical research. Some entries are large institutional platforms. Others document a single project, collection, or teaching resource. Reuse conditions differ from site to site.
 
-Some resources are broad institutional platforms, while others document a single project, collection, or teaching resource. Reuse conditions differ from site to site, but all listed entries should add value for digital historical scholarship.
+The [Contribution Guidelines](CONTRIBUTING.md) give the criteria for inclusion and removal, the rules for AI-assisted text, and the process to propose or change an entry.
 
-## How The Site Works
+## People
 
-Canonical entries live in `entries/*.qmd`.
+Awesome Digital History is a community effort by historians, archivists, librarians, educators, students, and digital humanities practitioners. [Dr. Moritz Mähr](https://moritzmaehr.ch/) coordinates the project. The project has a loose connection to the [Digital History Network Switzerland](https://www.digitalhistorynetwork.ch/).
 
-Each entry includes structured metadata plus a short `## Why it matters` note. `README.md` and `index.qmd` are generated from those entry files, and screenshots are stored in `assets/screenshots/`.
+Maintainers discuss additions, corrections, and removals in public GitHub issues and pull requests.
 
-The [Editorial Policy](EDITORIAL_POLICY.md) explains inclusion, exclusion, review, AI-use, and removal criteria. The [Contribution Guidelines](CONTRIBUTING.md) explain how to suggest resources or submit technical changes.
+## Credit
 
-## Contributors
+The [contributors graph](https://github.com/maehr/awesome-digital-history/graphs/contributors) records repository activity. The entry fields `authors` and `contributors` give more specific credit when it can be verified.
 
-The [contributors graph](https://github.com/maehr/awesome-digital-history/graphs/contributors) records repository activity. Entry-level `authors`, `contributors`, and `reviewed_by` fields provide more specific credit when responsibility can be verified.
+## Citation and license
+
+To cite the directory, use the metadata in [`CITATION.cff`](https://github.com/maehr/awesome-digital-history/blob/main/CITATION.cff).
 
 Licensed under CC0 and AGPLv3.

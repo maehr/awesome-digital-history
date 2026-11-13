@@ -1,24 +1,15 @@
-## Pull Request
+## Summary
 
-Add / remove / change `{entry name}` in `entries/*.qmd`.
-
-**Approved Addition issue**
+Add, change, or remove `{entry name}`. Explain why this change improves the directory.
 
 Closes #
 
-A new entry needs an Addition issue with the `approved` label.
-Edits, broken-link fixes, and removals do not need an issue.
+A new entry needs a link to an Addition issue with the `approved` label. Changes and removals do not need an issue.
 
-**Short pitch**
+## Checklist
 
-Explain why this change improves the directory.
-
-### Checklist
-
-- [ ] I read [CONTRIBUTING.md](../CONTRIBUTING.md) and [EDITORIAL_POLICY.md](../EDITORIAL_POLICY.md).
+- [ ] I read [CONTRIBUTING.md](../CONTRIBUTING.md).
 - [ ] A human reviewed and understands this change.
 - [ ] I disclosed my relationship to the resource and any material AI assistance.
-- [ ] I ran `npm run generate` and committed the updated `README.md`.
-- [ ] I ran `npm install` and `npm run check`.
-- [ ] I updated provenance fields where relevant.
-- [ ] I refreshed screenshots for new entries or changed URLs (see CONTRIBUTING.md).
+- [ ] I ran `npm run generate` and `npm run check`, and I committed the updated `README.md`.
+- [ ] I captured a screenshot for a new entry or a changed URL.

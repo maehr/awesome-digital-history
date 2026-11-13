@@ -8,7 +8,7 @@ body:
       value: |
         Thank you for your proposal. A maintainer adds the `approved` label when the proposal is accepted.
         Do not open a pull request before approval. Approval does not guarantee inclusion.
-        Maintainers can write the entry for you. Read the [contribution guidelines](https://github.com/maehr/awesome-digital-history/blob/main/CONTRIBUTING.md) and the [editorial policy](https://github.com/maehr/awesome-digital-history/blob/main/EDITORIAL_POLICY.md).
+        Maintainers can write the entry for you. Read the [contribution guidelines](https://github.com/maehr/awesome-digital-history/blob/main/CONTRIBUTING.md) for the criteria.
   - type: input
     id: resource
     attributes:

@@ -17,8 +17,6 @@ periods:
   - modern
   - contemporary
 date_added: '2025-12-28'
-reviewed_at: null
-reviewed_by: []
 authors:
   - Copilot
 contributors:

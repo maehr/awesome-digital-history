@@ -3,14 +3,6 @@ project:
   output-dir: _site
   resources:
     - assets/
-    - README.md
-    - ABOUT.md
-    - EDITORIAL_POLICY.md
-    - ROADMAP.md
-    - CONTRIBUTING.md
-    - AGENTS.md
-    - CODE_OF_CONDUCT.md
-    - SECURITY.md
 
 brand: _brand.yml
 
@@ -30,16 +22,10 @@ website:
     left:
       - href: index.qmd
         text: Directory
-      - text: Project
-        menu:
-          - href: ABOUT.md
-            text: About
-          - href: EDITORIAL_POLICY.md
-            text: Editorial Policy
-          - href: CONTRIBUTING.md
-            text: Contributing
-          - href: ROADMAP.md
-            text: Roadmap
+      - href: ABOUT.md
+        text: About
+      - href: CONTRIBUTING.md
+        text: Contributing
     tools:
       - icon: github
         url: https://github.com/maehr/awesome-digital-history/

@@ -15,8 +15,6 @@ resource_types:
 periods:
   - contemporary
 date_added: '2022-01-31'
-reviewed_at: null
-reviewed_by: []
 authors:
   - Moritz Mähr
 contributors: []

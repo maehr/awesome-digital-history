@@ -5,96 +5,56 @@ Automation notes for `awesome-digital-history`.
 ## Commands
 
 ```bash
-# Generate README.md and index.qmd from entries
-npm run generate
+npm run generate       # Write README.md and index.qmd from entries/*.qmd
 npm run generate:check # Fail if README.md is out of date. Writes nothing.
-
-# Site
-npm run build   # Validate, generate index.qmd, render _site
+npm run validate       # Check entry metadata
+npm run build          # Validate, write index.qmd, render _site
 npm run preview
 npm run clean
-
-# Validation
-npm run hooks:install # Install local prek commit hooks
-npm run hooks:run     # Run prek hooks across all files
-npm run validate
-npm run lint
+npm run lint           # Prettier check
 npm run awesome-lint
-npm run commitlint    # Lint commit messages; pass -- --edit <file> or -- --last
-npm run check         # generate:check, build, lint, awesome-lint
-
-# Utilities
-npm run changelog     # Print unreleased changelog entries with git-cliff
-npm run screenshots   # Capture missing screenshots; -- --force --slug <slug> to recapture
+npm run commitlint     # Pass -- --edit <file> or -- --last
+npm run check          # generate:check, build, lint, awesome-lint
+npm run hooks:install  # Install the prek pre-commit and commit-msg hooks
+npm run hooks:run      # Run the prek hooks on all files
+npm run screenshots    # Capture missing screenshots; -- --force --slug <slug> to recapture
 ```
 
 ## Canonical Source
 
-- Source of truth: `entries/*.qmd`
-- Generated: `README.md` (tracked), `index.qmd` (ignored)
-- Do not edit generated files by hand.
-- After an entry change, run `npm run generate` and commit `README.md` with the entry.
+- Source of truth: `entries/*.qmd`. Shared Quarto options: `entries/_metadata.yml`.
+- Generated: `README.md` (tracked) and `index.qmd` (ignored). Do not edit them by hand.
+- After an entry change, run `npm run generate`. Commit `README.md` with the entry.
 - Checks and hooks do not write `README.md`. They fail if it is out of date.
-- Screenshots: `assets/screenshots/*.png`
+- Screenshots: `assets/screenshots/<slug>.png` or `<slug>-placeholder.png`.
 
-## Entry Shape
+## Entries
 
-Each entry page uses frontmatter plus a short body under `## Why it matters`.
-
-```yaml
-title: string
-slug: string
-external_url: https://example.org/
-short_description: short awesome-list description.
-description: SEO meta description.
-directory_section: archives|learning|more-awesome
-regions:
-  [
-    Africa|Asia|Austria|Europe|France|Germany|Global|Great Britain|Latin America|Netherlands|North America|Oceania|Switzerland
-  ]
-languages: [canonical BCP 47 tag]
-resource_types:
-  [
-    audiovisual sources|books|collection|encyclopedias|learning materials|magazines|manuscripts|maps|newspapers|photos|portal|primary sources|search engine|sheet music|statistics|tools|websites
-  ]
-periods: [prehistory|ancient|classical|medieval|early modern|modern|contemporary]
-date_added: YYYY-MM-DD
-reviewed_at: YYYY-MM-DD|null
-reviewed_by: [strings]
-authors: [strings]
-contributors: [strings]
-section_label: Archives and primary sources|Learning|More Awesome # must match directory_section
-screenshot: /assets/screenshots/<slug>.png # or <slug>-placeholder.png
-screenshot_alt: string
-image: same as screenshot
-screenshot_hide: [css selectors] # optional; hides page elements in screenshots
-```
-
-`entries/_metadata.yml` sets the shared Quarto options for all entry pages.
+- Entry example and rules: `CONTRIBUTING.md`, section "Entry file".
+- Allowed values and validation: `scripts/lib/entries.mjs` (`SECTION_LABELS`, `ALLOWED_VALUES`, `validateEntryShape`).
+- `npm run validate` names the allowed values on error.
 
 ## Contributions
 
-- `CONTRIBUTING.md` is the only source for the contribution process.
+- `CONTRIBUTING.md` is the only source for the editorial criteria and the contribution process.
 - A new entry needs an Addition issue with the `approved` label.
 - Do not submit an issue or a pull request without human review.
 
 ## Workflows
 
-- `addition-check.yml`: closes non-collaborator pull requests that add an entry without an `approved` issue
-- `commitlint.yml`: enforces Conventional Commits on push and pull request commits
-- `greetings.yml`, `label.yml`, `stale.yml`: greet first-time contributors, label pull requests, mark inactive items
-- `link-check.yml`: runs `lychee` against markdown and qmd files
-- `prek.yml`: runs the `prek` hooks in CI (formatting, entry metadata, `README.md` drift, `awesome-lint`)
-- `quarto-publish.yml`: runs `npm run check`, then deploys `_site` to GitHub Pages
+Required checks on `main`: `Build and Upload Artifacts`, `lychee`, `commitlint`, `prek`.
+
+- `quarto-publish.yml`: runs `npm run check`. On `main`, it deploys `_site` to GitHub Pages.
+- `prek.yml`: runs the prek hooks.
+- `commitlint.yml`: checks Conventional Commits on push and pull request commits.
+- `link-check.yml`: runs `lychee` on Markdown and `.qmd` files. Exclusions: `.lycheerc.toml`.
+- `addition-check.yml`: closes a non-collaborator pull request that adds an entry without an `approved` issue.
 
 ## Quality Gates
+
+Run both before a pull request:
 
 - `npm run hooks:run`
 - `npm run check`
 
-## Commit Hooks
-
-- Hook config: `.pre-commit-config.yaml`
-- Install local hooks with `npm run hooks:install`
-- Pre-commit hooks check formatting, entry metadata, whether `README.md` is current, and `awesome-lint`
-- Commit messages must follow Conventional Commits and are checked by `commitlint`
+The hooks (`.pre-commit-config.yaml`) check file hygiene, formatting, entry metadata, `README.md` drift, and `awesome-lint`. The `commit-msg` hook runs `commitlint`.

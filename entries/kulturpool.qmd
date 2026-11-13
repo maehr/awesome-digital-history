@@ -23,8 +23,6 @@ periods:
   - modern
   - prehistory
 date_added: '2026-05-14'
-reviewed_at: null
-reviewed_by: []
 authors:
   - Moritz Twente
 contributors:

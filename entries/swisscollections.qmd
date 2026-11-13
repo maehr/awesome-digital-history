@@ -21,8 +21,6 @@ periods:
   - modern
   - contemporary
 date_added: '2021-05-06'
-reviewed_at: null
-reviewed_by: []
 authors:
   - Moritz Mähr
 contributors:

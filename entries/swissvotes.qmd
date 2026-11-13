@@ -22,8 +22,6 @@ periods:
   - modern
   - contemporary
 date_added: '2026-09-29'
-reviewed_at: null
-reviewed_by: []
 authors:
   - Année Politique Suisse
   - University of Bern, Institute of Political Science

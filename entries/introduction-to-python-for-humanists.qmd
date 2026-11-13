@@ -13,8 +13,6 @@ resource_types:
   - learning materials
 periods: []
 date_added: '2024-01-23'
-reviewed_at: null
-reviewed_by: []
 authors:
   - Nico Görlich
 contributors:

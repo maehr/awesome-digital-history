@@ -16,8 +16,6 @@ resource_types:
   - primary sources
 periods: []
 date_added: '2026-11-11'
-reviewed_at: null
-reviewed_by: []
 authors:
   - Moritz Twente
 contributors: []

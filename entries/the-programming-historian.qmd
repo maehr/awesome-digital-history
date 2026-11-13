@@ -13,8 +13,6 @@ resource_types:
   - learning materials
 periods: []
 date_added: '2019-09-22'
-reviewed_at: null
-reviewed_by: []
 authors:
   - Moritz Mähr
 contributors: []

@@ -1,0 +1,49 @@
+name: Change or removal
+description: Correct, update, or remove an existing entry. You do not need approval for this request.
+title: '[Change] '
+labels: ['awesome']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your help. Read the [contribution guidelines](https://github.com/maehr/awesome-digital-history/blob/main/CONTRIBUTING.md) for the criteria.
+  - type: input
+    id: entry
+    attributes:
+      label: Entry
+      description: The name of the entry and a link to the entry page or the resource.
+      placeholder: Example Archive - https://example.org/
+    validations:
+      required: true
+  - type: dropdown
+    id: request
+    attributes:
+      label: Request
+      options:
+        - Change the entry
+        - Remove the entry
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: What and why
+      description: |
+        For a change, give the new values, for example the URL, description, regions, languages, resource types, or periods.
+        For a removal, give the reason. Suggest an alternative or an archived version if you know one.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Link to the source page, the documentation, an archived page, or other evidence.
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmation
+      options:
+        - label: I agree to the [Code of Conduct](https://github.com/maehr/awesome-digital-history/blob/main/CODE_OF_CONDUCT.md).
+          required: true

@@ -1,27 +1,10 @@
 # Security Policy
 
-<!--
-## Supported Versions
+Report a security problem privately. Do not open a public issue.
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+- Use **Report a vulnerability** on the [Security tab](https://github.com/maehr/awesome-digital-history/security) of the repository.
+- Alternatively, send an email to moritz.maehr@gmail.com.
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
--->
+Describe the problem, the affected file, workflow, or dependency, and the steps to reproduce it. Add a possible fix if you know one.
 
-## Reporting a Vulnerability
-
-<!--
-Use this section to tell people how to report a vulnerability.
-
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
--->
-
-To report a security issue, please email moritz.maehr@gmail.com with a description of the issue, the steps you took to create the issue, affected versions, and, if known, mitigations for the issue. This project follows a 90 day disclosure timeline.
+This project follows a 90-day disclosure timeline.
