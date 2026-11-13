@@ -20,12 +20,7 @@ authors:
 contributors: []
 screenshot: /assets/screenshots/computer-history.png
 screenshot_alt: Screenshot of Computer History
-screenshot_hide: []
-screenshot_wait_ms: 6000
-screenshot_full_page: false
 image: /assets/screenshots/computer-history.png
-page-layout: article
-toc: false
 ---
 
 ## Why it matters

@@ -18,6 +18,7 @@ Explain why this change improves the directory.
 - [ ] I read [CONTRIBUTING.md](../CONTRIBUTING.md) and [EDITORIAL_POLICY.md](../EDITORIAL_POLICY.md).
 - [ ] A human reviewed and understands this change.
 - [ ] I disclosed my relationship to the resource and any material AI assistance.
+- [ ] I ran `npm run generate` and committed the updated `README.md`.
 - [ ] I ran `npm install` and `npm run check`.
 - [ ] I updated provenance fields where relevant.
 - [ ] I refreshed screenshots for new entries or changed URLs (see CONTRIBUTING.md).

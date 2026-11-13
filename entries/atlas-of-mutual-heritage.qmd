@@ -26,12 +26,7 @@ contributors:
   - Moritz Mähr
 screenshot: /assets/screenshots/atlas-of-mutual-heritage.png
 screenshot_alt: Screenshot of Atlas of Mutual Heritage
-screenshot_hide: []
-screenshot_wait_ms: 6000
-screenshot_full_page: false
 image: /assets/screenshots/atlas-of-mutual-heritage.png
-page-layout: article
-toc: false
 ---
 
 ## Why it matters

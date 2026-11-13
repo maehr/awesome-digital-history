@@ -26,12 +26,7 @@ contributors:
   - Copilot
 screenshot: /assets/screenshots/karlsruher-virtueller-katalog.png
 screenshot_alt: Screenshot of Karlsruher Virtueller Katalog
-screenshot_hide: []
-screenshot_wait_ms: 6000
-screenshot_full_page: false
 image: /assets/screenshots/karlsruher-virtueller-katalog.png
-page-layout: article
-toc: false
 ---
 
 ## Why it matters

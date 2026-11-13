@@ -20,12 +20,7 @@ authors:
 contributors: []
 screenshot: /assets/screenshots/local-linkages.png
 screenshot_alt: Screenshot of Local Linkages
-screenshot_hide: []
-screenshot_wait_ms: 6000
-screenshot_full_page: false
 image: /assets/screenshots/local-linkages.png
-page-layout: article
-toc: false
 ---
 
 ## Why it matters

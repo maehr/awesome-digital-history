@@ -28,12 +28,7 @@ contributors:
   - Copilot
 screenshot: /assets/screenshots/archives-online.png
 screenshot_alt: Screenshot of Archives Online
-screenshot_hide: []
-screenshot_wait_ms: 6000
-screenshot_full_page: false
 image: /assets/screenshots/archives-online.png
-page-layout: article
-toc: false
 ---
 
 ## Why it matters

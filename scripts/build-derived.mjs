@@ -9,6 +9,18 @@ import {
 	validateEntries
 } from './lib/entries.mjs';
 
+// Modes:
+//   (default)  write README.md and index.qmd
+//   --check    write nothing; fail if the tracked README.md is out of date
+//   --index    write only index.qmd (git-ignored Quarto input)
+const args = new Set(process.argv.slice(2));
+const checkOnly = args.has('--check');
+const indexOnly = args.has('--index');
+
+if (checkOnly && indexOnly) {
+	throw new Error('Use either --check or --index, not both.');
+}
+
 const entries = await loadEntries();
 const errors = await validateEntries(entries);
 
@@ -21,9 +33,24 @@ if (errors.length > 0) {
 }
 
 const readmePath = path.join(ROOT_DIR, 'README.md');
-const readme = await prettier.format(buildReadme(entries), { filepath: readmePath });
+const indexPath = path.join(ROOT_DIR, 'index.qmd');
 
-await fs.writeFile(readmePath, readme);
-await fs.writeFile(path.join(ROOT_DIR, 'index.qmd'), buildIndexQmd(entries));
+if (checkOnly) {
+	const expected = await prettier.format(buildReadme(entries), { filepath: readmePath });
+	const actual = await fs.readFile(readmePath, 'utf8').catch(() => null);
 
-console.log(`Generated README.md and index.qmd for ${entries.length} entries.`);
+	if (actual !== expected) {
+		console.error('README.md is out of date. Run `npm run generate` and commit README.md.');
+		process.exit(1);
+	}
+
+	console.log(`README.md is current for ${entries.length} entries.`);
+} else if (indexOnly) {
+	await fs.writeFile(indexPath, buildIndexQmd(entries));
+	console.log(`Generated index.qmd for ${entries.length} entries.`);
+} else {
+	const readme = await prettier.format(buildReadme(entries), { filepath: readmePath });
+	await fs.writeFile(readmePath, readme);
+	await fs.writeFile(indexPath, buildIndexQmd(entries));
+	console.log(`Generated README.md and index.qmd for ${entries.length} entries.`);
+}

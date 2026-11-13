@@ -22,12 +22,7 @@ authors:
 contributors: []
 screenshot: /assets/screenshots/computer-gaming-world-museum.png
 screenshot_alt: Screenshot of Computer Gaming World Museum
-screenshot_hide: []
-screenshot_wait_ms: 6000
-screenshot_full_page: false
 image: /assets/screenshots/computer-gaming-world-museum.png
-page-layout: article
-toc: false
 ---
 
 ## Why it matters

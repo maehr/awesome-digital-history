@@ -22,12 +22,7 @@ authors:
 contributors: []
 screenshot: /assets/screenshots/perry-castaneda-library-map-collection-placeholder.png
 screenshot_alt: Screenshot of Perry-Castañeda Library Map Collection
-screenshot_hide: []
-screenshot_wait_ms: 6000
-screenshot_full_page: false
 image: /assets/screenshots/perry-castaneda-library-map-collection-placeholder.png
-page-layout: article
-toc: false
 ---
 
 ## Why it matters

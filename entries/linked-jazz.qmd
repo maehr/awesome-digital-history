@@ -24,12 +24,7 @@ authors:
 contributors: []
 screenshot: /assets/screenshots/linked-jazz.png
 screenshot_alt: Screenshot of Linked Jazz Homepage
-screenshot_hide: []
-screenshot_wait_ms: 6000
-screenshot_full_page: false
 image: /assets/screenshots/linked-jazz.png
-page-layout: article
-toc: false
 ---
 
 ## Why it matters

@@ -20,12 +20,7 @@ authors:
 contributors: []
 screenshot: /assets/screenshots/hist-7370.png
 screenshot_alt: Screenshot of HIST 7370
-screenshot_hide: []
-screenshot_wait_ms: 6000
-screenshot_full_page: false
 image: /assets/screenshots/hist-7370.png
-page-layout: article
-toc: false
 ---
 
 ## Why it matters

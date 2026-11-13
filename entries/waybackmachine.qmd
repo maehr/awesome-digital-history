@@ -23,12 +23,7 @@ authors:
 contributors: []
 screenshot: /assets/screenshots/waybackmachine.png
 screenshot_alt: Screenshot of WayBackMachine
-screenshot_hide: []
-screenshot_wait_ms: 6000
-screenshot_full_page: false
 image: /assets/screenshots/waybackmachine.png
-page-layout: article
-toc: false
 ---
 
 ## Why it matters

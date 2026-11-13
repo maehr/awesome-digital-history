@@ -21,12 +21,7 @@ contributors:
   - Moritz Mähr
 screenshot: /assets/screenshots/digitale-quellenkritik.png
 screenshot_alt: Screenshot of Digitale Quellenkritik
-screenshot_hide: []
-screenshot_wait_ms: 6000
-screenshot_full_page: false
 image: /assets/screenshots/digitale-quellenkritik.png
-page-layout: article
-toc: false
 ---
 
 ## Why it matters

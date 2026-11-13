@@ -72,16 +72,19 @@ Maintainers assess submissions on their evidence and conduct. They do not judge 
 1. Fork the repository.
 2. Run `npm install`.
 3. Run `npm run hooks:install` to enable the local `prek` Git hooks.
-4. Edit or add one file in `entries/*.qmd`. Do not edit `README.md` or `index.qmd`, because they are generated.
+4. Edit or add one file in `entries/*.qmd`. Do not edit `README.md` or `index.qmd` by hand, because they are generated.
 5. If you added an entry, run `npm run screenshots`. If you changed a source URL, run `npm run screenshots -- --force --slug <slug>`.
-6. Run the local checks:
+6. Run `npm run generate`. Commit the updated `README.md` together with your entry.
+7. Run the local checks:
 
    ```bash
    npm run hooks:run
    npm run check
    ```
 
-7. Submit a pull request against `main`.
+   The checks do not change your files. They fail if `README.md` is out of date.
+
+8. Submit a pull request against `main`.
 
 Use [Conventional Commits](https://www.conventionalcommits.org/), for example `feat: add Example Archive resource` or `fix: update broken source URL`. The `commit-msg` hook and GitHub Actions run `commitlint`.
 
@@ -108,11 +111,12 @@ authors: []
 contributors: []
 screenshot: /assets/screenshots/example-archive.png
 screenshot_alt: Screenshot of Example Archive
-screenshot_hide: []
 image: /assets/screenshots/example-archive.png
 ```
 
 Add a body of at least 140 characters under `## Why it matters`. Use canonical BCP 47 language tags, for example `en`, `la`, `ddn`, or `mul`. If a value is wrong, `npm run validate` names the allowed values.
+
+To hide a cookie banner or popup in the screenshot, add `screenshot_hide` with a list of CSS selectors.
 
 Fill in provenance fields conservatively. Do not claim review or authorship that you cannot verify.
 
@@ -123,8 +127,9 @@ When you turn an approved issue into an entry:
 1. Verify the title, URL, description, and controlled vocabulary values against the resource.
 2. Add the `entries/*.qmd` file and fill in the provenance fields.
 3. Generate the screenshot.
-4. Run `npm run hooks:run` and `npm run check`.
-5. Link the issue in the pull request.
+4. Run `npm run generate` and commit the updated `README.md`.
+5. Run `npm run hooks:run` and `npm run check`.
+6. Link the issue in the pull request.
 
 ## Code of Conduct
 

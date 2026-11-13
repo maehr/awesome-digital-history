@@ -24,12 +24,7 @@ contributors:
   - Copilot
 screenshot: /assets/screenshots/oldmapsonline.png
 screenshot_alt: Screenshot of OldMapsOnline
-screenshot_hide: []
-screenshot_wait_ms: 6000
-screenshot_full_page: false
 image: /assets/screenshots/oldmapsonline.png
-page-layout: article
-toc: false
 ---
 
 ## Why it matters

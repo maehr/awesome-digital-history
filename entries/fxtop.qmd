@@ -22,12 +22,7 @@ authors:
 contributors: []
 screenshot: /assets/screenshots/fxtop.png
 screenshot_alt: Screenshot of Fxtop
-screenshot_hide: []
-screenshot_wait_ms: 6000
-screenshot_full_page: false
 image: /assets/screenshots/fxtop.png
-page-layout: article
-toc: false
 ---
 
 ## Why it matters

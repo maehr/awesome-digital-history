@@ -22,12 +22,7 @@ authors:
 contributors: []
 screenshot: /assets/screenshots/classic-computer-magazine-archive.png
 screenshot_alt: Screenshot of Classic Computer Magazine Archive
-screenshot_hide: []
-screenshot_wait_ms: 6000
-screenshot_full_page: false
 image: /assets/screenshots/classic-computer-magazine-archive.png
-page-layout: article
-toc: false
 ---
 
 ## Why it matters

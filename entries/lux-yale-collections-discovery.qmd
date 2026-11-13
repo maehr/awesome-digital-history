@@ -36,12 +36,7 @@ contributors:
   - Moritz Mähr
 screenshot: /assets/screenshots/lux-yale-collections-discovery.png
 screenshot_alt: 'Screenshot of LUX: Yale Collections Discovery'
-screenshot_hide: []
-screenshot_wait_ms: 6000
-screenshot_full_page: false
 image: /assets/screenshots/lux-yale-collections-discovery.png
-page-layout: article
-toc: false
 ---
 
 ## Why it matters

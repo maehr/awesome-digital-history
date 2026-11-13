@@ -28,12 +28,7 @@ authors:
 contributors: []
 screenshot: /assets/screenshots/history-of-science-in-latin-america-and-the-caribbean.png
 screenshot_alt: Screenshot of HOSLAC Homepage
-screenshot_hide: []
-screenshot_wait_ms: 6000
-screenshot_full_page: false
 image: /assets/screenshots/history-of-science-in-latin-america-and-the-caribbean.png
-page-layout: article
-toc: false
 ---
 
 ## Why it matters
