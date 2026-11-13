@@ -50,7 +50,6 @@ Required checks on `main`: `Build and Upload Artifacts`, `lychee`, `commitlint`,
 - `commitlint.yml`: checks Conventional Commits on push and pull request commits.
 - `link-check.yml`: runs `lychee` on Markdown and `.qmd` files. Exclusions: `.lycheerc.toml`.
 - `addition-check.yml`: closes a non-collaborator pull request that adds an entry without an `approved` issue.
-- `greetings.yml`, `label.yml`, `stale.yml`: greet first-time contributors, label pull requests, mark inactive items.
 
 ## Quality Gates
 
