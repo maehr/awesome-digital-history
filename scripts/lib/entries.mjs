@@ -146,7 +146,6 @@ const ARRAY_FIELDS = [
 	'languages',
 	'resource_types',
 	'periods',
-	'reviewed_by',
 	'authors',
 	'contributors',
 	'screenshot_hide'
@@ -161,10 +160,8 @@ function validateEntryShape(entry) {
 			fail(`missing ${key}`);
 		}
 	}
-	for (const key of ['date_added', 'reviewed_at']) {
-		if (!Object.hasOwn(entry, key)) {
-			fail(`missing ${key}`);
-		}
+	if (!Object.hasOwn(entry, 'date_added')) {
+		fail('missing date_added');
 	}
 	for (const key of ARRAY_FIELDS) {
 		const values = entry[key];
@@ -202,9 +199,6 @@ function validateEntryShape(entry) {
 
 	if (!isIsoDate(entry.date_added)) {
 		fail('date_added must be a real YYYY-MM-DD date');
-	}
-	if (entry.reviewed_at !== null && !isIsoDate(entry.reviewed_at)) {
-		fail('reviewed_at must be a real YYYY-MM-DD date or null');
 	}
 
 	const section = entry.directory_section;

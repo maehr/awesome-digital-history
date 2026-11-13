@@ -16,8 +16,6 @@ periods:
   - modern
   - contemporary
 date_added: '2024-03-14'
-reviewed_at: null
-reviewed_by: []
 authors:
   - Nico Görlich
 contributors:

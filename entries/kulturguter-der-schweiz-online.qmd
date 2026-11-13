@@ -23,8 +23,6 @@ periods:
   - modern
   - contemporary
 date_added: '2026-02-12'
-reviewed_at: null
-reviewed_by: []
 authors:
   - Moritz Twente
 contributors:

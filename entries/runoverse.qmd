@@ -19,8 +19,6 @@ resource_types:
   - collection
 periods: []
 date_added: '2026-05-28'
-reviewed_at: null
-reviewed_by: []
 authors:
   - Kaarel Veskis
 contributors: []

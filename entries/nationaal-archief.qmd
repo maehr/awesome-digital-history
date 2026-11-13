@@ -23,8 +23,6 @@ periods:
   - modern
   - contemporary
 date_added: '2022-09-26'
-reviewed_at: null
-reviewed_by: []
 authors:
   - Kieran Robson
 contributors:

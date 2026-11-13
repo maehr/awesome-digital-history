@@ -105,8 +105,6 @@ languages: [en]
 resource_types: [newspapers, primary sources, search engine]
 periods: [modern]
 date_added: 2026-01-31
-reviewed_at: null
-reviewed_by: []
 authors: []
 contributors: []
 screenshot: /assets/screenshots/example-archive.png

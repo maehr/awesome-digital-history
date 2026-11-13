@@ -59,8 +59,6 @@ resource_types:
   ]
 periods: [prehistory|ancient|classical|medieval|early modern|modern|contemporary]
 date_added: YYYY-MM-DD
-reviewed_at: YYYY-MM-DD|null
-reviewed_by: [strings]
 authors: [strings]
 contributors: [strings]
 section_label: Archives and primary sources|Learning|More Awesome # must match directory_section

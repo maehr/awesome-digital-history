@@ -18,8 +18,6 @@ periods:
   - early modern
   - modern
 date_added: '2026-09-27'
-reviewed_at: null
-reviewed_by: []
 authors:
   - Moritz Mähr
 contributors:

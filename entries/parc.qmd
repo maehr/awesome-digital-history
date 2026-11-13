@@ -20,8 +20,6 @@ periods:
   - modern
   - contemporary
 date_added: '2023-12-20'
-reviewed_at: null
-reviewed_by: []
 authors:
   - Dominic Weber
 contributors:
