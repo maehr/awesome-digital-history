@@ -2,7 +2,6 @@ awesome:
   - changed-files:
       - any-glob-to-any-file:
           - README.md
-          - index.qmd
           - entries/**/*
           - assets/screenshots/**/*
 
