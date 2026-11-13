@@ -111,11 +111,12 @@ authors: []
 contributors: []
 screenshot: /assets/screenshots/example-archive.png
 screenshot_alt: Screenshot of Example Archive
-screenshot_hide: []
 image: /assets/screenshots/example-archive.png
 ```
 
 Add a body of at least 140 characters under `## Why it matters`. Use canonical BCP 47 language tags, for example `en`, `la`, `ddn`, or `mul`. If a value is wrong, `npm run validate` names the allowed values.
+
+To hide a cookie banner or popup in the screenshot, add `screenshot_hide` with a list of CSS selectors.
 
 Fill in provenance fields conservatively. Do not claim review or authorship that you cannot verify.
 

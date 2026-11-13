@@ -9,11 +9,10 @@ Automation notes for `awesome-digital-history`.
 npm run generate
 npm run generate:check # Fail if README.md is out of date. Writes nothing.
 
-# Build site
-npm run site:build
-
-# Local preview
+# Site
+npm run build   # Validate, generate index.qmd, render _site
 npm run preview
+npm run clean
 
 # Validation
 npm run hooks:install # Install local prek commit hooks
@@ -22,13 +21,11 @@ npm run validate
 npm run lint
 npm run awesome-lint
 npm run commitlint    # Lint commit messages; pass -- --edit <file> or -- --last
-npm run check
+npm run check         # generate:check, build, lint, awesome-lint
 
 # Utilities
-npm run changelog       # Generate data changelog locally using git-cliff
-
-# Screenshots
-npm run screenshots
+npm run changelog     # Print unreleased changelog entries with git-cliff
+npm run screenshots   # Capture missing screenshots; -- --force --slug <slug> to recapture
 ```
 
 ## Canonical Source
@@ -66,8 +63,14 @@ reviewed_at: YYYY-MM-DD|null
 reviewed_by: [strings]
 authors: [strings]
 contributors: [strings]
-screenshot: /assets/screenshots/<slug>.png
+section_label: Archives and primary sources|Learning|More Awesome # must match directory_section
+screenshot: /assets/screenshots/<slug>.png # or <slug>-placeholder.png
+screenshot_alt: string
+image: same as screenshot
+screenshot_hide: [css selectors] # optional; hides page elements in screenshots
 ```
+
+`entries/_metadata.yml` sets the shared Quarto options for all entry pages.
 
 ## Contributions
 
@@ -78,22 +81,16 @@ screenshot: /assets/screenshots/<slug>.png
 ## Workflows
 
 - `addition-check.yml`: closes non-collaborator pull requests that add an entry without an `approved` issue
-- `awesome-lint.yml`: checks that `README.md` is current, then runs `awesome-lint`
-- `changelog.yml`: writes unreleased changelog entries to the job summary
 - `commitlint.yml`: enforces Conventional Commits on push and pull request commits
 - `greetings.yml`, `label.yml`, `stale.yml`: greet first-time contributors, label pull requests, mark inactive items
 - `link-check.yml`: runs `lychee` against markdown and qmd files
-- `prek.yml`: runs configured `prek` hooks in CI
-- `quarto-publish.yml`: validates, renders, and deploys `_site` to GitHub Pages
+- `prek.yml`: runs the `prek` hooks in CI (formatting, entry metadata, `README.md` drift, `awesome-lint`)
+- `quarto-publish.yml`: runs `npm run check`, then deploys `_site` to GitHub Pages
 
 ## Quality Gates
 
-- `npm run generate:check`
-- `npm run validate`
-- `npm run lint`
-- `npm run awesome-lint`
 - `npm run hooks:run`
-- `npm run site:build`
+- `npm run check`
 
 ## Commit Hooks
 
