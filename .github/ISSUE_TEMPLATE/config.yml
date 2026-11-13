@@ -2,4 +2,7 @@ blank_issues_enabled: false
 contact_links:
   - name: Contribution guidelines
     url: https://github.com/maehr/awesome-digital-history/blob/main/CONTRIBUTING.md
-    about: Read the process before you open an issue.
+    about: Read the criteria and the process before you open an issue.
+  - name: Security problem
+    url: https://github.com/maehr/awesome-digital-history/security/advisories/new
+    about: Report a vulnerability privately. Do not open a public issue.

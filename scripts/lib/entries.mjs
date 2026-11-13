@@ -350,7 +350,7 @@ export function buildReadme(entries) {
 	lines.push('## Contribute');
 	lines.push('');
 	lines.push(
-		'Contributions welcome! Read the [CONTRIBUTING.md](https://github.com/maehr/awesome-digital-history/blob/main/CONTRIBUTING.md) and [Editorial Policy](https://github.com/maehr/awesome-digital-history/blob/main/EDITORIAL_POLICY.md) first. To propose a new resource, open an [Addition issue](https://github.com/maehr/awesome-digital-history/issues/new?template=addition.yml) and wait for maintainer approval.'
+		'Contributions welcome! Read the [CONTRIBUTING.md](https://github.com/maehr/awesome-digital-history/blob/main/CONTRIBUTING.md) first. To propose a new resource, open an [Addition issue](https://github.com/maehr/awesome-digital-history/issues/new?template=addition.yml) and wait for maintainer approval.'
 	);
 	lines.push('');
 
@@ -525,7 +525,7 @@ ${cards}
 
 This page was made using human and artificial intelligence. People selected, reviewed, corrected, and maintain the entries; AI-assisted workflows were used to support drafting, structuring, and site production.
 
-See the [Editorial Policy](EDITORIAL_POLICY.md) for inclusion, review, and AI-use criteria.
+See the [Contribution Guidelines](CONTRIBUTING.md) for inclusion, review, and AI-use criteria.
 
 :::
 `;
