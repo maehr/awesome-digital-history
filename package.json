@@ -31,6 +31,6 @@
 		"awesome-lint": "^2.3.0",
 		"gray-matter": "^4.0.3",
 		"playwright": "^1.65.0",
-		"prettier": "^3.9.10"
+		"prettier": "^3.10.1"
 	}
 }
