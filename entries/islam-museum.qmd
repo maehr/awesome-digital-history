@@ -1,0 +1,36 @@
+---
+title: Islam Museum
+slug: islam-museum
+description: A free digital museum of Islamic history built on an open knowledge graph of tens of thousands of sourced records in Arabic, English and Urdu.
+external_url: https://islam.museum
+short_description: A free digital museum of Islamic history built on an open knowledge graph of sourced records in Arabic, English and Urdu.
+directory_section: archives
+section_label: Archives and primary sources
+regions:
+  - Global
+languages:
+  - ar
+  - en
+  - ur
+resource_types:
+  - primary sources
+  - collection
+periods:
+  - medieval
+  - early modern
+  - modern
+  - contemporary
+date_added: '2026-11-16'
+authors:
+  - amado2k5
+contributors: []
+screenshot: /assets/screenshots/islam-museum.png
+screenshot_alt: Screenshot of Islam Museum homepage
+image: /assets/screenshots/islam-museum.png
+---
+
+## Why it matters
+
+Islam Museum is a non-profit, free digital museum of Islamic history built on an open knowledge graph of tens of thousands of sourced records (people, places, events, concepts, objects and texts), with prose in Arabic, English and Urdu.
+
+The underlying dataset is CC0 and archived at Zenodo (DOI 10.5281/zenodo.23692511), with a free public API, so researchers can reuse and verify the museum's records rather than only browse them.
